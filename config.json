@@ -1,0 +1,58 @@
+{
+  "_description": "Architecture and training configuration for 140M agriculture transformer",
+
+  "model": {
+    "vocab_size": 40000,
+    "embedding_rank": 256,
+    "context_length": 8192,
+    "emb_dim": 640,
+    "n_heads": 10,
+    "n_kv_groups": 5,
+    "n_layers": 20,
+    "hidden_dim": 2560,
+    "head_dim": 64,
+    "qk_norm": true,
+    "rope_base": 1000000.0,
+    "activation": "SwiGLU",
+    "param_estimate_m": 134
+  },
+
+  "tokenizer": {
+    "qwen": {
+      "type": "Qwen BPE (ByteLevel, byte_fallback=True)",
+      "source": "Qwen/Qwen2.5-0.5B",
+      "original_vocab": 151665,
+      "final_vocab": 40000,
+      "bpe_tokens": 39978,
+      "special_tokens": 22,
+      "file": "tokenizer_output/tokenizer_qwen40k.json",
+      "status": "ready"
+    },
+    "hybrid": {
+      "type": "Qwen BPE + AGROVOC entity injection",
+      "base_vocab": 32000,
+      "injection_budget": 8000,
+      "target_vocab": 40000,
+      "entity_source": "agrovoc_entities_filtered.json",
+      "entity_count": 28173,
+      "status": "needs retraining with real corpus"
+    }
+  },
+
+  "training": {
+    "dtype": "fp32",
+    "amp": "bf16 autocast (optional)",
+    "optimizer": "AdamW",
+    "learning_rate": "3e-4 (typical)",
+    "batch_size": "TBD"
+  },
+
+  "files": {
+    "Qwen.ipynb": "Train from scratch using pruned Qwen BPE tokenizer (40k vocab)",
+    "Hybrid.ipynb": "Train from scratch using hybrid BPE tokenizer",
+    "train_bpe.py": "Build hybrid tokenizer: prune Qwen BPE + inject AGROVOC entities",
+    "filter_entities.py": "Filter AGROVOC entities to name categories (organisms, substances, etc.)",
+    "extract_agrovoc.py": "Extract English labels from AGROVOC SPARQL endpoint",
+    "tokenizer_output/tokenizer_qwen40k.json": "Qwen BPE tokenizer pruned to 40k (ready)"
+  }
+}
