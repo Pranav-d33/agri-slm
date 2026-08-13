@@ -37,6 +37,7 @@ Every fact in this skeleton traces to a source below. `id` is referenced from en
 | dahd-fisheries | DAHDF Handbook on Fisheries Statistics 2023 (Dept of Fisheries) | fisheries | https://dof.gov.in/sites/default/files/2024-06/Handbook.pdf | Govt of India; authoritative state-wise inland & marine fish production. Live dof.gov.in 404s post site migration; fetched via Wayback snapshot of the same canonical URL (20241126) | mirror |
 | cmfri-landings | CMFRI "Marine Fish Landings in India 2025" (Booklet Series No. 47/2026) | fisheries | https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf | ICAR-CMFRI; state-wise & district-wise marine landings for 2025 | ready |
 | agmarknet | AGMARKNET | market | https://agmarknet.gov.in/ | Mandi prices | manual |
+| agmarknet-api | AGMARKNET 2.0 public API | market | https://api.agmarknet.gov.in/v1/dashboard-data/ | Govt of India; daily mandi price+arrival+MSP snapshot (no auth) | manual |
 | enam | e-NAM | market | https://www.enam.gov.in/ | Govt of India | manual |
 | amfi | AMFI (APMC) | market | https://amfi.gov.in/ | Mandi regulation | manual |
 | seednet | Seednet India | seeds | https://seednet.gov.in/ | Govt of India seed info | manual |

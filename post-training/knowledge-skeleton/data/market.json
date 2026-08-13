@@ -1055,7 +1055,154 @@
     "Daily prices"
    ],
    "attributes": {
-    "note": "Daily arrival and price data on AGMARKNET (2,000+ mandis); price intelligence informs MSP and policy"
+    "note": "Daily arrival and price data on AGMARKNET (2,000+ mandis); price intelligence informs MSP and policy",
+    "mandi_price_snapshot": {
+     "date": "11-08-2026",
+     "source": {
+      "id": "agmarknet-api",
+      "url": "https://api.agmarknet.gov.in/v1/dashboard-data/"
+     },
+     "crops": {
+      "Bajra(Pearl Millet/Cumbu)": {
+       "price": "2145.43",
+       "arrival": "1601.45",
+       "msp_price": "2775.00",
+       "trend": "down"
+      },
+      "Barley(Jau)": {
+       "price": "2582.35",
+       "arrival": "111.23",
+       "msp_price": "2150.00",
+       "trend": "up"
+      },
+      "Bengal Gram(Gram)(Whole)": {
+       "price": "6186.75",
+       "arrival": "2695.88",
+       "msp_price": "5875.00",
+       "trend": "up"
+      },
+      "Black Gram(Urd Beans)(Whole)": {
+       "price": "6133.48",
+       "arrival": "719.92",
+       "msp_price": "7800.00",
+       "trend": "down"
+      },
+      "Copra": {
+       "price": "21595.44",
+       "arrival": "118.50",
+       "msp_price": "12100.00",
+       "trend": "up"
+      },
+      "Cotton": {
+       "price": "9361.10",
+       "arrival": "780.80",
+       "msp_price": "7710.00",
+       "trend": "up"
+      },
+      "Green Gram(Moong)(Whole)": {
+       "price": "7619.69",
+       "arrival": "5003.22",
+       "msp_price": "8768.00",
+       "trend": "down"
+      },
+      "Groundnut": {
+       "price": "6835.68",
+       "arrival": "847.94",
+       "msp_price": "7263.00",
+       "trend": "down"
+      },
+      "Jowar(Sorghum)": {
+       "price": "5114.66",
+       "arrival": "178.60",
+       "msp_price": "3699.00",
+       "trend": "up"
+      },
+      "Lentil(Masur)(Whole)": {
+       "price": "7769.37",
+       "arrival": "469.54",
+       "msp_price": "7000.00",
+       "trend": "up"
+      },
+      "Maize": {
+       "price": "2034.41",
+       "arrival": "20163.04",
+       "msp_price": "2400.00",
+       "trend": "down"
+      },
+      "Mustard": {
+       "price": "7570.73",
+       "arrival": "2585.94",
+       "msp_price": "6200.00",
+       "trend": "up"
+      },
+      "Onion": {
+       "price": "2128.08",
+       "arrival": "13247.25",
+       "msp_price": null,
+       "trend": null
+      },
+      "Paddy(Common)": {
+       "price": "2795.67",
+       "arrival": "9122.72",
+       "msp_price": "2369.00",
+       "trend": "up"
+      },
+      "Potato": {
+       "price": "731.52",
+       "arrival": "37630.30",
+       "msp_price": null,
+       "trend": null
+      },
+      "Ragi(Finger Millet)": {
+       "price": "3594.08",
+       "arrival": "136.80",
+       "msp_price": "4886.00",
+       "trend": "down"
+      },
+      "Red gram/Arhar/Tur(whole)": {
+       "price": "7832.62",
+       "arrival": "1109.28",
+       "msp_price": "8000.00",
+       "trend": "down"
+      },
+      "Safflower": {
+       "price": "5260.91",
+       "arrival": "20.40",
+       "msp_price": "6540.00",
+       "trend": "down"
+      },
+      "Sesamum(Sesame,Gingelly,Til)": {
+       "price": "12055.09",
+       "arrival": "190.84",
+       "msp_price": "9846.00",
+       "trend": "up"
+      },
+      "Soyabean": {
+       "price": "6656.96",
+       "arrival": "4097.36",
+       "msp_price": "5328.00",
+       "trend": "up"
+      },
+      "Sunflower/Sunflower Seed": {
+       "price": "7908.39",
+       "arrival": "190.90",
+       "msp_price": "7721.00",
+       "trend": "up"
+      },
+      "Tomato": {
+       "price": "2102.09",
+       "arrival": "5890.95",
+       "msp_price": null,
+       "trend": null
+      },
+      "Wheat": {
+       "price": "2595.69",
+       "arrival": "41201.77",
+       "msp_price": "2585.00",
+       "trend": "up"
+      }
+     }
+    }
    },
    "relations": [
     {

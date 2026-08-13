@@ -58,9 +58,9 @@ python3 scripts/coverage.py         # regenerate COVERAGE.md
 ## Status
 
 1800 entities, 7365 relations, 1006 location nodes, 36 states/UTs, 784 LGD districts,
-15 PC agro-climatic zones, 125 ICAR NARP zones (zone->district lists filled for 115/125
-zones: Odisha/Punjab/Rajasthan/TN complete, 15 more states partial + 16 reverse-mapped
-from district attributes), 9 regions.
+15 PC agro-climatic zones, 125 ICAR NARP zones (zone->district lists filled for 122/125
+zones: Odisha/Punjab/Rajasthan/TN complete, 15 more states partial + reverse-mapped
+from district attributes + verified from ICAR-CRIDA plans), 9 regions.
 Soil/crops/livestock/pesticides/fertilizers/organic/water/weather/seeds/machinery/
 plant-protection/fisheries/post-harvest/market/schemes/forestry/apiculture all have their
 taxonomy skeleton at levels 0–2 with location anchoring. Data-fill milestones: all 371
@@ -68,14 +68,15 @@ registered pesticide actives as entities with 352 formulations attached (PPQS 31
 MSP year series 2010-11→2026-27 for 28 crops from CACP; state-wise fish production FY2022-23
 (131.13 LT inland + 44.32 LT marine) from DAHDF Handbook 2023; 770 crop varieties across 95
 crops (PIB, ICAR institutes, commodity boards); marine landings 2025 by 70 resource groups
-(tonnes) from ICAR-CMFRI Booklet 47/2026; NARP zone→district lists for 115/125 zones;
-657/784 districts carry attributes (zone/soil/crops for 576 via ICAR-CRIDA contingency-plan
-PDFs; major crops for 81 more via DES APY district export). District ids are format-checked
-across all files by `scripts/validate.py` (uniform `location.districts.<state>.<district>`
-references, no duplicates, uniform attribute shape). Remaining leaf-level data (127 districts
-that postdate both CRIDA and APY coverage, mandi time series, 16 crop variety registries,
-9(3)(i) provisional pesticides — all with auth-gated/down official sources) is enumerated
-as counted gaps in COVERAGE.md.
+(tonnes) from ICAR-CMFRI Booklet 47/2026; NARP zone→district lists for 122/125 zones;
+daily mandi price+arrival+MSP snapshot (23 crops, 11-08-2026) from the live AGMARKNET 2.0
+public API; 657/784 districts carry attributes (zone/soil/crops for 576 via ICAR-CRIDA
+contingency-plan PDFs; major crops for 81 more via DES APY district export). District ids
+are format-checked across all files by `scripts/validate.py` (uniform
+`location.districts.<state>.<district>` references, no duplicates, uniform attribute
+shape). Remaining leaf-level data (127 districts that postdate both CRIDA and APY
+coverage, 16 crop variety registries, 9(3)(i) provisional pesticides — all with
+auth-gated/down official sources) is enumerated as counted gaps in COVERAGE.md.
 
 ## KG conversion (future)
 

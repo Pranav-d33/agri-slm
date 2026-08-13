@@ -185,13 +185,93 @@
     {
      "predicate": "part_of",
      "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.adilabad",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Telangana/AP4-Adilabad%2031.1.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.kumuram_bheem_asifabad",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Telangana/AP4-Adilabad%2031.1.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.nirmal",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Telangana/AP4-Adilabad%2031.1.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.mancherial",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Telangana/AP4-Adilabad%2031.1.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.karimnagar",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Telangana/AP4-Adilabad%2031.1.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.peddapalli",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Telangana/AP4-Adilabad%2031.1.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.jagitial",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Telangana/AP4-Adilabad%2031.1.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.rajanna_sircilla",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Telangana/AP4-Adilabad%2031.1.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.nizamabad",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Telangana/AP4-Adilabad%2031.1.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.kamareddy",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Telangana/AP4-Adilabad%2031.1.2011.pdf"
+     }
     }
    ],
    "source": {
     "id": "narp-zones",
     "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
    },
-   "notes": "TODO: district list per zone from <state> agriculture profile; expected ~2-4 districts"
+   "notes": "found_in 10 district(s) (ICAR-CRIDA plan)"
   },
   {
    "id": "location.zones.narp_andhra_pradesh_southern_telangana_zone",
@@ -208,13 +288,109 @@
     {
      "predicate": "part_of",
      "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.vikarabad",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.medchal_malkajgiri",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.hyderabad",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.yadadri_bhuvanagiri",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.ranga_reddy",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.mahabubnagar",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.nalgonda",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.suryapet",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.narayanpet",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.wanaparthy",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.nagarkurnool",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.telangana.jogulamba_gadwal",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://kpiasacademy.com/southern-telangana-zone/"
+     }
     }
    ],
    "source": {
     "id": "narp-zones",
     "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
    },
-   "notes": "TODO: district list per zone from <state> agriculture profile; expected ~2-4 districts"
+   "notes": "found_in 12 district(s) (ICAR-CRIDA plan)"
   },
   {
    "id": "location.zones.narp_andhra_pradesh_scarce_rainfall_zone",
@@ -1168,13 +1344,37 @@
     {
      "predicate": "part_of",
      "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.gujarat.surat",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/Gujarat%20(Pdf)/NAU,Navsari/GUJ%2019-Surat%2031.05.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.gujarat.bharuch",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/Gujarat%20(Pdf)/NAU,Navsari/GUJ%2019-Surat%2031.05.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.gujarat.narmada",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/Gujarat%20(Pdf)/NAU,Navsari/GUJ%2019-Surat%2031.05.2011.pdf"
+     }
     }
    ],
    "source": {
     "id": "narp-zones",
     "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
    },
-   "notes": "TODO: district list per zone from <state> agriculture profile; expected ~2-4 districts"
+   "notes": "found_in 3 district(s) (ICAR-CRIDA plan)"
   },
   {
    "id": "location.zones.narp_gujarat_middle_gujarat_zone",
@@ -1909,13 +2109,93 @@
     {
      "predicate": "part_of",
      "object": "location.uts.jammu_kashmir"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.jammu_and_kashmir.srinagar",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK3-Baramulla-10.08.12.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.jammu_and_kashmir.kupwara",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK3-Baramulla-10.08.12.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.jammu_and_kashmir.ganderbal",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK3-Baramulla-10.08.12.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.jammu_and_kashmir.shopian",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK3-Baramulla-10.08.12.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.jammu_and_kashmir.bandipora",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK3-Baramulla-10.08.12.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.jammu_and_kashmir.kulgam",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK3-Baramulla-10.08.12.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.jammu_and_kashmir.budgam",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK3-Baramulla-10.08.12.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.jammu_and_kashmir.pulwama",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK3-Baramulla-10.08.12.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.jammu_and_kashmir.anantnag",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK3-Baramulla-10.08.12.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.jammu_and_kashmir.baramulla",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK3-Baramulla-10.08.12.pdf"
+     }
     }
    ],
    "source": {
     "id": "narp-zones",
     "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
    },
-   "notes": "TODO: district list per zone from <state> agriculture profile; expected ~2-4 districts"
+   "notes": "found_in 10 district(s) (ICAR-CRIDA plan)"
   },
   {
    "id": "location.zones.narp_jammu_kashmir_temperate_zone",
@@ -2002,13 +2282,29 @@
     {
      "predicate": "part_of",
      "object": "location.uts.jammu_kashmir"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.ladakh.leh_ladakh",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK6-Kargil-10.08.12.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.ladakh.kargil",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/J&K%20(Pdf)/JK6-Kargil-10.08.12.pdf"
+     }
     }
    ],
    "source": {
     "id": "narp-zones",
     "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
    },
-   "notes": "TODO: district list per zone from <state> agriculture profile; expected ~2-4 districts"
+   "notes": "found_in 2 district(s) (ICAR-CRIDA plan)"
   },
   {
    "id": "location.zones.narp_karnataka_northeast_transition_zone",
@@ -2025,13 +2321,29 @@
     {
      "predicate": "part_of",
      "object": "location.states.karnataka"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.karnataka.bidar",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/Karnataka%20(Pdf)/UAS,%20Raichur/KA4-Bidar%2031.1.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.karnataka.kalaburagi",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP-2012/statewiseplans/Karnataka%20(Pdf)/UAS,%20Raichur/KA4-Bidar%2031.1.2011.pdf"
+     }
     }
    ],
    "source": {
     "id": "narp-zones",
     "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
    },
-   "notes": "TODO: district list per zone from <state> agriculture profile; expected ~2-4 districts"
+   "notes": "found_in 2 district(s) (ICAR-CRIDA plan)"
   },
   {
    "id": "location.zones.narp_karnataka_northeast_dry_zone",
@@ -3399,13 +3711,45 @@
     {
      "predicate": "part_of",
      "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.maharashtra.satara",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Maharastra/MPKVV,%20Rahuri/MH7-NASIK%2031.03.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.maharashtra.nashik",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Maharastra/MPKVV,%20Rahuri/MH7-NASIK%2031.03.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.maharashtra.kolhapur",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Maharastra/MPKVV,%20Rahuri/MH7-NASIK%2031.03.2011.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.districts.maharashtra.pune",
+     "source": {
+      "id": "crida-cp",
+      "url": "https://www.icar-crida.res.in/CP/Maharastra/MPKVV,%20Rahuri/MH7-NASIK%2031.03.2011.pdf"
+     }
     }
    ],
    "source": {
     "id": "narp-zones",
     "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
    },
-   "notes": "TODO: district list per zone from <state> agriculture profile; expected ~2-4 districts"
+   "notes": "found_in 4 district(s) (ICAR-CRIDA plan)"
   },
   {
    "id": "location.zones.narp_maharashtra_western_maharashtra_plain_zone",
