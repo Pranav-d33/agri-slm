@@ -1,0 +1,700 @@
+{
+ "_description": "Farm machinery domain: tractors, implements, harvesters and post-harvest equipment used in India.",
+ "source": {
+  "id": "icar",
+  "url": "https://icar.org.in/"
+ },
+ "entities": [
+  {
+   "id": "machinery",
+   "name": "Farm Machinery and Equipment",
+   "type": "domain",
+   "domain": "machinery",
+   "aliases": [
+    "Krishi yantra",
+    "Agricultural machinery"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.custom_hiring",
+   "name": "Custom Hiring Centres",
+   "type": "measure",
+   "domain": "machinery",
+   "aliases": [
+    "CHC",
+    "Farm machinery banks"
+   ],
+   "attributes": {
+    "scheme": "SMAM (Sub-Mission on Agricultural Mechanisation); CHCs lend machines to small farmers"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "machinery.harvesting",
+   "name": "Harvesting Machinery",
+   "type": "category",
+   "domain": "machinery",
+   "aliases": [
+    "Combine harvester",
+    "Reaper",
+    "Thresher",
+    "Baler"
+   ],
+   "attributes": {
+    "note": "Combine harvesters common in wheat belt (Punjab-Haryana-UP); custom hiring rising"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.harvesting.combine",
+   "name": "Combine Harvester",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Reaps, threshes, winnows; wheat belt; custom hiring rising"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.harvesting"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.harvesting.thresher",
+   "name": "Thresher",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Grain separation from straw"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.harvesting"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.implements",
+   "name": "Tillage and Sowing Implements",
+   "type": "category",
+   "domain": "machinery",
+   "aliases": [
+    "Plough",
+    "Harrow",
+    "Seed drill",
+    "Happy Seeder"
+   ],
+   "attributes": {
+    "note": "Happy Seeder (straw management, NWR) and zero-till drills key for wheat in Punjab-Haryana residue burning context"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.implements.disc_harrow",
+   "name": "Disc Harrow",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Secondary tillage; clod and weed control"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.implements"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.implements.happy_seeder",
+   "name": "Happy Seeder",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Cuts straw and sows wheat in one pass; solves rice-straw burning in Punjab-Haryana"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.implements"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.implements.laser_leveler",
+   "name": "Laser Land Leveller",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Precision levelling; water saving"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.implements"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.implements.rotavator",
+   "name": "Rotavator",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Power-driven tillage; one-pass seedbed"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.implements"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.implements.seed_drill",
+   "name": "Seed Drill",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Row seeding with fertilizer placement"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.implements"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.implements.straw_reaper",
+   "name": "Straw Reaper",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Combine stubble harvest; residue management"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.implements"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.implements.zero_till",
+   "name": "Zero-Till Drill",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Direct sowing without ploughing; wheat in NWR"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.implements"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.power_tiller",
+   "name": "Power Tillers",
+   "type": "category",
+   "domain": "machinery",
+   "aliases": [
+    "Rotavator",
+    "Two-wheel tractor"
+   ],
+   "attributes": {
+    "note": "Suits small holdings, hilly terrains, NE India"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.protection",
+   "name": "Plant Protection Equipment",
+   "type": "category",
+   "domain": "machinery",
+   "aliases": [
+    "Sprayer",
+    "Duster",
+    "Knapsack sprayer",
+    "Boom sprayer"
+   ],
+   "attributes": {
+    "note": "Manual knapsack sprayers dominant; drone spraying promoted (Sub-Mission on Agricultural Mechanisation)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.protection.drone",
+   "name": "Drone Sprayer",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Promoted under Sub-Mission on Ag Mechanisation; DGCA norms"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.protection"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.protection.knapsack",
+   "name": "Knapsack Sprayer",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Dominant manual sprayer; 10-20 L capacity"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.protection"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.protection.power_sprayer",
+   "name": "Power Sprayer",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Engine-driven sprayer for larger areas"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.protection"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.tractors",
+   "name": "Tractors",
+   "type": "category",
+   "domain": "machinery",
+   "aliases": [
+    "Traktor"
+   ],
+   "attributes": {
+    "note": "India is world's largest tractor market (~1M/year; record 1.09M domestic in 2025, TMA); major makers: Mahindra Group (~43%), Sonalika, TAFE, Escorts"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.tractors.escorts",
+   "name": "Escorts (Farmtrac)",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Indian tractor maker; now Kubota"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.tractors"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.tractors.john_deere",
+   "name": "John Deere",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Multinational tractor maker; Pune plant"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.tractors"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.tractors.mahindra",
+   "name": "Mahindra Tractors",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "brand": "Largest tractor maker in India; ~43% group share incl. Swaraj (2025)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.tractors"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.tractors.new_holland",
+   "name": "New Holland",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "CNH brand; Noida plant"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.tractors"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.tractors.sonalika",
+   "name": "Sonalika Tractors",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "brand": "Major exporter; top-3 by volume"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.tractors"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.tractors.swaraj",
+   "name": "Swaraj",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "note": "Indian brand (now Mahindra); Punjab origin"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.tractors"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "machinery.tractors.tafe",
+   "name": "TAFE Tractors",
+   "type": "entity",
+   "domain": "machinery",
+   "attributes": {
+    "brand": "Third largest (~11%); Massey Ferguson licensed"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery.tractors"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+- generic [ref=e4]:
+  - img "UPAg" [ref=e6]
+  - progressbar [ref=e8]
+  - generic [ref=e10]: Loading site configurations, please wait...

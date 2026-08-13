@@ -1,0 +1,8888 @@
+{
+ "metadata": {
+  "source": "LGD (Local Government Directory, lgdirectory.gov.in) - official district master",
+  "source_url": "https://lgdirectory.gov.in/",
+  "fetched": "2026-08-13",
+  "admin_geography": "Current district boundaries per LGD; census-2011 baseline retained as census_district_count",
+  "note": "784 districts across 36 states/UTs as per LGD; census counts kept for reference"
+ },
+ "states": [
+  {
+   "state": "Andaman and Nicobar Islands",
+   "census_district_count": 3,
+   "lgd_district_count": 3,
+   "districts": [
+    {
+     "name": "Nicobars",
+     "lgd_code": 603,
+     "id": "location.districts.andaman_and_nicobar_islands.nicobars",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.andaman_nicobar"
+      }
+     ]
+    },
+    {
+     "name": "North And Middle Andaman",
+     "lgd_code": 632,
+     "id": "location.districts.andaman_and_nicobar_islands.north_and_middle_andaman",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.andaman_nicobar"
+      }
+     ]
+    },
+    {
+     "name": "South Andamans",
+     "lgd_code": 602,
+     "id": "location.districts.andaman_and_nicobar_islands.south_andamans",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.andaman_nicobar"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Andhra Pradesh",
+   "census_district_count": 13,
+   "lgd_district_count": 28,
+   "districts": [
+    {
+     "name": "Alluri Sitharama Raju",
+     "lgd_code": 745,
+     "id": "location.districts.andhra_pradesh.alluri_sitharama_raju",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Anakapalli",
+     "lgd_code": 744,
+     "id": "location.districts.andhra_pradesh.anakapalli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Ananthapuramu",
+     "lgd_code": 502,
+     "id": "location.districts.andhra_pradesh.ananthapuramu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Annamayya",
+     "lgd_code": 753,
+     "id": "location.districts.andhra_pradesh.annamayya",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Bapatla",
+     "lgd_code": 750,
+     "id": "location.districts.andhra_pradesh.bapatla",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Chittoor",
+     "lgd_code": 503,
+     "id": "location.districts.andhra_pradesh.chittoor",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Dr. B.R. Ambedkar Konaseema",
+     "lgd_code": 747,
+     "id": "location.districts.andhra_pradesh.dr_b_r_ambedkar_konaseema",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "East Godavari",
+     "lgd_code": 505,
+     "id": "location.districts.andhra_pradesh.east_godavari",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Eluru",
+     "lgd_code": 748,
+     "id": "location.districts.andhra_pradesh.eluru",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Guntur",
+     "lgd_code": 506,
+     "id": "location.districts.andhra_pradesh.guntur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kakinada",
+     "lgd_code": 746,
+     "id": "location.districts.andhra_pradesh.kakinada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Krishna",
+     "lgd_code": 510,
+     "id": "location.districts.andhra_pradesh.krishna",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kurnool",
+     "lgd_code": 511,
+     "id": "location.districts.andhra_pradesh.kurnool",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Markapuram",
+     "lgd_code": 790,
+     "id": "location.districts.andhra_pradesh.markapuram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Nandyal",
+     "lgd_code": 755,
+     "id": "location.districts.andhra_pradesh.nandyal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Ntr",
+     "lgd_code": 749,
+     "id": "location.districts.andhra_pradesh.ntr",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Palnadu",
+     "lgd_code": 751,
+     "id": "location.districts.andhra_pradesh.palnadu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Parvathipuram Manyam",
+     "lgd_code": 743,
+     "id": "location.districts.andhra_pradesh.parvathipuram_manyam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Polavaram",
+     "lgd_code": 791,
+     "id": "location.districts.andhra_pradesh.polavaram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Prakasam",
+     "lgd_code": 517,
+     "id": "location.districts.andhra_pradesh.prakasam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Srikakulam",
+     "lgd_code": 519,
+     "id": "location.districts.andhra_pradesh.srikakulam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sri Potti Sriramulu Nellore",
+     "lgd_code": 515,
+     "id": "location.districts.andhra_pradesh.sri_potti_sriramulu_nellore",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sri Sathya Sai",
+     "lgd_code": 754,
+     "id": "location.districts.andhra_pradesh.sri_sathya_sai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Tirupati",
+     "lgd_code": 752,
+     "id": "location.districts.andhra_pradesh.tirupati",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Visakhapatnam",
+     "lgd_code": 520,
+     "id": "location.districts.andhra_pradesh.visakhapatnam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Vizianagaram",
+     "lgd_code": 521,
+     "id": "location.districts.andhra_pradesh.vizianagaram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "West Godavari",
+     "lgd_code": 523,
+     "id": "location.districts.andhra_pradesh.west_godavari",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Y.S.R. Kadapa",
+     "lgd_code": 504,
+     "id": "location.districts.andhra_pradesh.y_s_r_kadapa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.andhra_pradesh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "census_district_count": 16,
+   "lgd_district_count": 27,
+   "districts": [
+    {
+     "name": "Anjaw",
+     "lgd_code": 628,
+     "id": "location.districts.arunachal_pradesh.anjaw",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Bichom",
+     "lgd_code": 787,
+     "id": "location.districts.arunachal_pradesh.bichom",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Changlang",
+     "lgd_code": 229,
+     "id": "location.districts.arunachal_pradesh.changlang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Dibang Valley",
+     "lgd_code": 230,
+     "id": "location.districts.arunachal_pradesh.dibang_valley",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "East Kameng",
+     "lgd_code": 231,
+     "id": "location.districts.arunachal_pradesh.east_kameng",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "East Siang",
+     "lgd_code": 232,
+     "id": "location.districts.arunachal_pradesh.east_siang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kamle",
+     "lgd_code": 718,
+     "id": "location.districts.arunachal_pradesh.kamle",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Keyi Panyor",
+     "lgd_code": 786,
+     "id": "location.districts.arunachal_pradesh.keyi_panyor",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kra Daadi",
+     "lgd_code": 677,
+     "id": "location.districts.arunachal_pradesh.kra_daadi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kurung Kumey",
+     "lgd_code": 233,
+     "id": "location.districts.arunachal_pradesh.kurung_kumey",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Leparada",
+     "lgd_code": 724,
+     "id": "location.districts.arunachal_pradesh.leparada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Lohit",
+     "lgd_code": 234,
+     "id": "location.districts.arunachal_pradesh.lohit",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Longding",
+     "lgd_code": 666,
+     "id": "location.districts.arunachal_pradesh.longding",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Lower Dibang Valley",
+     "lgd_code": 235,
+     "id": "location.districts.arunachal_pradesh.lower_dibang_valley",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Lower Siang",
+     "lgd_code": 719,
+     "id": "location.districts.arunachal_pradesh.lower_siang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Lower Subansiri",
+     "lgd_code": 236,
+     "id": "location.districts.arunachal_pradesh.lower_subansiri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Namsai",
+     "lgd_code": 678,
+     "id": "location.districts.arunachal_pradesh.namsai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Pakke Kessang",
+     "lgd_code": 723,
+     "id": "location.districts.arunachal_pradesh.pakke_kessang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Papum Pare",
+     "lgd_code": 237,
+     "id": "location.districts.arunachal_pradesh.papum_pare",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Shi Yomi",
+     "lgd_code": 725,
+     "id": "location.districts.arunachal_pradesh.shi_yomi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Siang",
+     "lgd_code": 679,
+     "id": "location.districts.arunachal_pradesh.siang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Tawang",
+     "lgd_code": 238,
+     "id": "location.districts.arunachal_pradesh.tawang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Tirap",
+     "lgd_code": 239,
+     "id": "location.districts.arunachal_pradesh.tirap",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Upper Siang",
+     "lgd_code": 240,
+     "id": "location.districts.arunachal_pradesh.upper_siang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Upper Subansiri",
+     "lgd_code": 241,
+     "id": "location.districts.arunachal_pradesh.upper_subansiri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "West Kameng",
+     "lgd_code": 242,
+     "id": "location.districts.arunachal_pradesh.west_kameng",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "West Siang",
+     "lgd_code": 243,
+     "id": "location.districts.arunachal_pradesh.west_siang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.arunachal_pradesh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Assam",
+   "census_district_count": 27,
+   "lgd_district_count": 35,
+   "districts": [
+    {
+     "name": "Bajali",
+     "lgd_code": 739,
+     "id": "location.districts.assam.bajali",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Baksa",
+     "lgd_code": 616,
+     "id": "location.districts.assam.baksa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Barpeta",
+     "lgd_code": 280,
+     "id": "location.districts.assam.barpeta",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Biswanath",
+     "lgd_code": 705,
+     "id": "location.districts.assam.biswanath",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Bongaigaon",
+     "lgd_code": 281,
+     "id": "location.districts.assam.bongaigaon",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Cachar",
+     "lgd_code": 282,
+     "id": "location.districts.assam.cachar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Charaideo",
+     "lgd_code": 708,
+     "id": "location.districts.assam.charaideo",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Chirang",
+     "lgd_code": 612,
+     "id": "location.districts.assam.chirang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Darrang",
+     "lgd_code": 283,
+     "id": "location.districts.assam.darrang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Dhemaji",
+     "lgd_code": 284,
+     "id": "location.districts.assam.dhemaji",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Dhubri",
+     "lgd_code": 285,
+     "id": "location.districts.assam.dhubri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Dibrugarh",
+     "lgd_code": 286,
+     "id": "location.districts.assam.dibrugarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Dima Hasao",
+     "lgd_code": 299,
+     "id": "location.districts.assam.dima_hasao",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Goalpara",
+     "lgd_code": 287,
+     "id": "location.districts.assam.goalpara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Golaghat",
+     "lgd_code": 288,
+     "id": "location.districts.assam.golaghat",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Hailakandi",
+     "lgd_code": 289,
+     "id": "location.districts.assam.hailakandi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Hojai",
+     "lgd_code": 709,
+     "id": "location.districts.assam.hojai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Jorhat",
+     "lgd_code": 290,
+     "id": "location.districts.assam.jorhat",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Kamrup",
+     "lgd_code": 291,
+     "id": "location.districts.assam.kamrup",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Kamrup Metro",
+     "lgd_code": 618,
+     "id": "location.districts.assam.kamrup_metro",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Karbi Anglong",
+     "lgd_code": 292,
+     "id": "location.districts.assam.karbi_anglong",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Kokrajhar",
+     "lgd_code": 294,
+     "id": "location.districts.assam.kokrajhar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Lakhimpur",
+     "lgd_code": 295,
+     "id": "location.districts.assam.lakhimpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Majuli",
+     "lgd_code": 706,
+     "id": "location.districts.assam.majuli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Marigaon",
+     "lgd_code": 296,
+     "id": "location.districts.assam.marigaon",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Nagaon",
+     "lgd_code": 297,
+     "id": "location.districts.assam.nagaon",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Nalbari",
+     "lgd_code": 298,
+     "id": "location.districts.assam.nalbari",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Sivasagar",
+     "lgd_code": 300,
+     "id": "location.districts.assam.sivasagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Sonitpur",
+     "lgd_code": 301,
+     "id": "location.districts.assam.sonitpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "South Salmara Mancachar",
+     "lgd_code": 707,
+     "id": "location.districts.assam.south_salmara_mancachar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Sribhumi",
+     "lgd_code": 293,
+     "id": "location.districts.assam.sribhumi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Tamulpur",
+     "lgd_code": 756,
+     "id": "location.districts.assam.tamulpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Tinsukia",
+     "lgd_code": 302,
+     "id": "location.districts.assam.tinsukia",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "Udalguri",
+     "lgd_code": 617,
+     "id": "location.districts.assam.udalguri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    },
+    {
+     "name": "West Karbi Anglong",
+     "lgd_code": 710,
+     "id": "location.districts.assam.west_karbi_anglong",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.assam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Bihar",
+   "census_district_count": 38,
+   "lgd_district_count": 38,
+   "districts": [
+    {
+     "name": "Araria",
+     "lgd_code": 188,
+     "id": "location.districts.bihar.araria",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Arwal",
+     "lgd_code": 611,
+     "id": "location.districts.bihar.arwal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Aurangabad",
+     "lgd_code": 189,
+     "id": "location.districts.bihar.aurangabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Banka",
+     "lgd_code": 190,
+     "id": "location.districts.bihar.banka",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Begusarai",
+     "lgd_code": 191,
+     "id": "location.districts.bihar.begusarai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Bhagalpur",
+     "lgd_code": 192,
+     "id": "location.districts.bihar.bhagalpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Bhojpur",
+     "lgd_code": 193,
+     "id": "location.districts.bihar.bhojpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Buxar",
+     "lgd_code": 194,
+     "id": "location.districts.bihar.buxar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Darbhanga",
+     "lgd_code": 195,
+     "id": "location.districts.bihar.darbhanga",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Gaya",
+     "lgd_code": 196,
+     "id": "location.districts.bihar.gaya",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Gopalganj",
+     "lgd_code": 197,
+     "id": "location.districts.bihar.gopalganj",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Jamui",
+     "lgd_code": 198,
+     "id": "location.districts.bihar.jamui",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Jehanabad",
+     "lgd_code": 199,
+     "id": "location.districts.bihar.jehanabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Kaimur (Bhabua)",
+     "lgd_code": 200,
+     "id": "location.districts.bihar.kaimur_bhabua",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Katihar",
+     "lgd_code": 201,
+     "id": "location.districts.bihar.katihar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Khagaria",
+     "lgd_code": 202,
+     "id": "location.districts.bihar.khagaria",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Kishanganj",
+     "lgd_code": 203,
+     "id": "location.districts.bihar.kishanganj",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Lakhisarai",
+     "lgd_code": 204,
+     "id": "location.districts.bihar.lakhisarai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Madhepura",
+     "lgd_code": 205,
+     "id": "location.districts.bihar.madhepura",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Madhubani",
+     "lgd_code": 206,
+     "id": "location.districts.bihar.madhubani",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Munger",
+     "lgd_code": 207,
+     "id": "location.districts.bihar.munger",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Muzaffarpur",
+     "lgd_code": 208,
+     "id": "location.districts.bihar.muzaffarpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Nalanda",
+     "lgd_code": 209,
+     "id": "location.districts.bihar.nalanda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Nawada",
+     "lgd_code": 210,
+     "id": "location.districts.bihar.nawada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Pashchim Champaran",
+     "lgd_code": 211,
+     "id": "location.districts.bihar.pashchim_champaran",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Patna",
+     "lgd_code": 212,
+     "id": "location.districts.bihar.patna",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Purbi Champaran",
+     "lgd_code": 213,
+     "id": "location.districts.bihar.purbi_champaran",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Purnia",
+     "lgd_code": 214,
+     "id": "location.districts.bihar.purnia",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Rohtas",
+     "lgd_code": 215,
+     "id": "location.districts.bihar.rohtas",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Saharsa",
+     "lgd_code": 216,
+     "id": "location.districts.bihar.saharsa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Samastipur",
+     "lgd_code": 217,
+     "id": "location.districts.bihar.samastipur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Saran",
+     "lgd_code": 218,
+     "id": "location.districts.bihar.saran",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Sheikhpura",
+     "lgd_code": 219,
+     "id": "location.districts.bihar.sheikhpura",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Sheohar",
+     "lgd_code": 220,
+     "id": "location.districts.bihar.sheohar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Sitamarhi",
+     "lgd_code": 221,
+     "id": "location.districts.bihar.sitamarhi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Siwan",
+     "lgd_code": 222,
+     "id": "location.districts.bihar.siwan",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Supaul",
+     "lgd_code": 223,
+     "id": "location.districts.bihar.supaul",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    },
+    {
+     "name": "Vaishali",
+     "lgd_code": 224,
+     "id": "location.districts.bihar.vaishali",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.bihar"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Chandigarh",
+   "census_district_count": 1,
+   "lgd_district_count": 1,
+   "districts": [
+    {
+     "name": "Chandigarh",
+     "lgd_code": 44,
+     "id": "location.districts.chandigarh.chandigarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.chandigarh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Chhattisgarh",
+   "census_district_count": 18,
+   "lgd_district_count": 33,
+   "districts": [
+    {
+     "name": "Balod",
+     "lgd_code": 646,
+     "id": "location.districts.chhattisgarh.balod",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Balodabazar-Bhatapara",
+     "lgd_code": 644,
+     "id": "location.districts.chhattisgarh.balodabazar_bhatapara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Balrampur-Ramanujganj",
+     "lgd_code": 649,
+     "id": "location.districts.chhattisgarh.balrampur_ramanujganj",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Bastar",
+     "lgd_code": 374,
+     "id": "location.districts.chhattisgarh.bastar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Bemetara",
+     "lgd_code": 650,
+     "id": "location.districts.chhattisgarh.bemetara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Bijapur",
+     "lgd_code": 636,
+     "id": "location.districts.chhattisgarh.bijapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Bilaspur",
+     "lgd_code": 375,
+     "id": "location.districts.chhattisgarh.bilaspur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Dakshin Bastar Dantewada",
+     "lgd_code": 376,
+     "id": "location.districts.chhattisgarh.dakshin_bastar_dantewada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Dhamtari",
+     "lgd_code": 377,
+     "id": "location.districts.chhattisgarh.dhamtari",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Durg",
+     "lgd_code": 378,
+     "id": "location.districts.chhattisgarh.durg",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Gariyaband",
+     "lgd_code": 645,
+     "id": "location.districts.chhattisgarh.gariyaband",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Gaurela-Pendra-Marwahi",
+     "lgd_code": 734,
+     "id": "location.districts.chhattisgarh.gaurela_pendra_marwahi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Janjgir-Champa",
+     "lgd_code": 379,
+     "id": "location.districts.chhattisgarh.janjgir_champa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Jashpur",
+     "lgd_code": 380,
+     "id": "location.districts.chhattisgarh.jashpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Kabeerdham",
+     "lgd_code": 382,
+     "id": "location.districts.chhattisgarh.kabeerdham",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Khairagarh-Chhuikhadan-Gandai",
+     "lgd_code": 759,
+     "id": "location.districts.chhattisgarh.khairagarh_chhuikhadan_gandai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Kondagaon",
+     "lgd_code": 643,
+     "id": "location.districts.chhattisgarh.kondagaon",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Korba",
+     "lgd_code": 383,
+     "id": "location.districts.chhattisgarh.korba",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Korea",
+     "lgd_code": 384,
+     "id": "location.districts.chhattisgarh.korea",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Mahasamund",
+     "lgd_code": 385,
+     "id": "location.districts.chhattisgarh.mahasamund",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Manendragarh-Chirmiri-Bharatpur(M C B)",
+     "lgd_code": 760,
+     "id": "location.districts.chhattisgarh.manendragarh_chirmiri_bharatpur_m_c_b",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Mohla-Manpur-Ambagarh Chouki",
+     "lgd_code": 761,
+     "id": "location.districts.chhattisgarh.mohla_manpur_ambagarh_chouki",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Mungeli",
+     "lgd_code": 647,
+     "id": "location.districts.chhattisgarh.mungeli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Narayanpur",
+     "lgd_code": 637,
+     "id": "location.districts.chhattisgarh.narayanpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Raigarh",
+     "lgd_code": 386,
+     "id": "location.districts.chhattisgarh.raigarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Raipur",
+     "lgd_code": 387,
+     "id": "location.districts.chhattisgarh.raipur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Rajnandgaon",
+     "lgd_code": 388,
+     "id": "location.districts.chhattisgarh.rajnandgaon",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Sakti",
+     "lgd_code": 762,
+     "id": "location.districts.chhattisgarh.sakti",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Sarangarh-Bilaigarh",
+     "lgd_code": 763,
+     "id": "location.districts.chhattisgarh.sarangarh_bilaigarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Sukma",
+     "lgd_code": 642,
+     "id": "location.districts.chhattisgarh.sukma",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Surajpur",
+     "lgd_code": 648,
+     "id": "location.districts.chhattisgarh.surajpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Surguja",
+     "lgd_code": 389,
+     "id": "location.districts.chhattisgarh.surguja",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    },
+    {
+     "name": "Uttar Bastar Kanker",
+     "lgd_code": 381,
+     "id": "location.districts.chhattisgarh.uttar_bastar_kanker",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.chhattisgarh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Delhi",
+   "census_district_count": 9,
+   "lgd_district_count": 13,
+   "districts": [
+    {
+     "name": "Central",
+     "lgd_code": 77,
+     "id": "location.districts.delhi.central",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "Central North",
+     "lgd_code": 796,
+     "id": "location.districts.delhi.central_north",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "East",
+     "lgd_code": 78,
+     "id": "location.districts.delhi.east",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "New Delhi",
+     "lgd_code": 79,
+     "id": "location.districts.delhi.new_delhi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "North",
+     "lgd_code": 80,
+     "id": "location.districts.delhi.north",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "North East",
+     "lgd_code": 81,
+     "id": "location.districts.delhi.north_east",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "North West",
+     "lgd_code": 82,
+     "id": "location.districts.delhi.north_west",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "Old Delhi",
+     "lgd_code": 795,
+     "id": "location.districts.delhi.old_delhi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "Outer North",
+     "lgd_code": 794,
+     "id": "location.districts.delhi.outer_north",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "South",
+     "lgd_code": 83,
+     "id": "location.districts.delhi.south",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "South East",
+     "lgd_code": 670,
+     "id": "location.districts.delhi.south_east",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "South West",
+     "lgd_code": 84,
+     "id": "location.districts.delhi.south_west",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    },
+    {
+     "name": "West",
+     "lgd_code": 85,
+     "id": "location.districts.delhi.west",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.delhi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Goa",
+   "census_district_count": 2,
+   "lgd_district_count": 3,
+   "districts": [
+    {
+     "name": "Kushavati",
+     "lgd_code": 793,
+     "id": "location.districts.goa.kushavati",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.goa"
+      }
+     ]
+    },
+    {
+     "name": "North Goa",
+     "lgd_code": 551,
+     "id": "location.districts.goa.north_goa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.goa"
+      }
+     ]
+    },
+    {
+     "name": "South Goa",
+     "lgd_code": 552,
+     "id": "location.districts.goa.south_goa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.goa"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Gujarat",
+   "census_district_count": 26,
+   "lgd_district_count": 34,
+   "districts": [
+    {
+     "name": "Ahmedabad",
+     "lgd_code": 438,
+     "id": "location.districts.gujarat.ahmedabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Amreli",
+     "lgd_code": 439,
+     "id": "location.districts.gujarat.amreli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Anand",
+     "lgd_code": 440,
+     "id": "location.districts.gujarat.anand",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Arvalli",
+     "lgd_code": 672,
+     "id": "location.districts.gujarat.arvalli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Banas Kantha",
+     "lgd_code": 441,
+     "id": "location.districts.gujarat.banas_kantha",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Bharuch",
+     "lgd_code": 442,
+     "id": "location.districts.gujarat.bharuch",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Bhavnagar",
+     "lgd_code": 443,
+     "id": "location.districts.gujarat.bhavnagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Botad",
+     "lgd_code": 676,
+     "id": "location.districts.gujarat.botad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Chhotaudepur",
+     "lgd_code": 668,
+     "id": "location.districts.gujarat.chhotaudepur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Dahod",
+     "lgd_code": 445,
+     "id": "location.districts.gujarat.dahod",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Dangs",
+     "lgd_code": 444,
+     "id": "location.districts.gujarat.dangs",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Devbhumi Dwarka",
+     "lgd_code": 674,
+     "id": "location.districts.gujarat.devbhumi_dwarka",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Gandhinagar",
+     "lgd_code": 446,
+     "id": "location.districts.gujarat.gandhinagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Gir Somnath",
+     "lgd_code": 675,
+     "id": "location.districts.gujarat.gir_somnath",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Jamnagar",
+     "lgd_code": 447,
+     "id": "location.districts.gujarat.jamnagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Junagadh",
+     "lgd_code": 448,
+     "id": "location.districts.gujarat.junagadh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Kachchh",
+     "lgd_code": 449,
+     "id": "location.districts.gujarat.kachchh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Kheda",
+     "lgd_code": 450,
+     "id": "location.districts.gujarat.kheda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Mahesana",
+     "lgd_code": 451,
+     "id": "location.districts.gujarat.mahesana",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Mahisagar",
+     "lgd_code": 669,
+     "id": "location.districts.gujarat.mahisagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Morbi",
+     "lgd_code": 673,
+     "id": "location.districts.gujarat.morbi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Narmada",
+     "lgd_code": 452,
+     "id": "location.districts.gujarat.narmada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Navsari",
+     "lgd_code": 453,
+     "id": "location.districts.gujarat.navsari",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Panch Mahals",
+     "lgd_code": 454,
+     "id": "location.districts.gujarat.panch_mahals",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Patan",
+     "lgd_code": 455,
+     "id": "location.districts.gujarat.patan",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Porbandar",
+     "lgd_code": 456,
+     "id": "location.districts.gujarat.porbandar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Rajkot",
+     "lgd_code": 457,
+     "id": "location.districts.gujarat.rajkot",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Sabar Kantha",
+     "lgd_code": 458,
+     "id": "location.districts.gujarat.sabar_kantha",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Surat",
+     "lgd_code": 459,
+     "id": "location.districts.gujarat.surat",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Surendranagar",
+     "lgd_code": 460,
+     "id": "location.districts.gujarat.surendranagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Tapi",
+     "lgd_code": 641,
+     "id": "location.districts.gujarat.tapi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Vadodara",
+     "lgd_code": 461,
+     "id": "location.districts.gujarat.vadodara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Valsad",
+     "lgd_code": 462,
+     "id": "location.districts.gujarat.valsad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    },
+    {
+     "name": "Vav-Tharad",
+     "lgd_code": 789,
+     "id": "location.districts.gujarat.vav_tharad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.gujarat"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Haryana",
+   "census_district_count": 21,
+   "lgd_district_count": 23,
+   "districts": [
+    {
+     "name": "Ambala",
+     "lgd_code": 58,
+     "id": "location.districts.haryana.ambala",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Bhiwani",
+     "lgd_code": 59,
+     "id": "location.districts.haryana.bhiwani",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Charkhi Dadri",
+     "lgd_code": 701,
+     "id": "location.districts.haryana.charkhi_dadri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Faridabad",
+     "lgd_code": 60,
+     "id": "location.districts.haryana.faridabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Fatehabad",
+     "lgd_code": 61,
+     "id": "location.districts.haryana.fatehabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Gurugram",
+     "lgd_code": 62,
+     "id": "location.districts.haryana.gurugram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Hansi",
+     "lgd_code": 792,
+     "id": "location.districts.haryana.hansi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Hisar",
+     "lgd_code": 63,
+     "id": "location.districts.haryana.hisar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Jhajjar",
+     "lgd_code": 64,
+     "id": "location.districts.haryana.jhajjar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Jind",
+     "lgd_code": 65,
+     "id": "location.districts.haryana.jind",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Kaithal",
+     "lgd_code": 66,
+     "id": "location.districts.haryana.kaithal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Karnal",
+     "lgd_code": 67,
+     "id": "location.districts.haryana.karnal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Kurukshetra",
+     "lgd_code": 68,
+     "id": "location.districts.haryana.kurukshetra",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Mahendragarh",
+     "lgd_code": 69,
+     "id": "location.districts.haryana.mahendragarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Nuh",
+     "lgd_code": 604,
+     "id": "location.districts.haryana.nuh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Palwal",
+     "lgd_code": 619,
+     "id": "location.districts.haryana.palwal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Panchkula",
+     "lgd_code": 70,
+     "id": "location.districts.haryana.panchkula",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Panipat",
+     "lgd_code": 71,
+     "id": "location.districts.haryana.panipat",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Rewari",
+     "lgd_code": 72,
+     "id": "location.districts.haryana.rewari",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Rohtak",
+     "lgd_code": 73,
+     "id": "location.districts.haryana.rohtak",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Sirsa",
+     "lgd_code": 74,
+     "id": "location.districts.haryana.sirsa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Sonipat",
+     "lgd_code": 75,
+     "id": "location.districts.haryana.sonipat",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    },
+    {
+     "name": "Yamunanagar",
+     "lgd_code": 76,
+     "id": "location.districts.haryana.yamunanagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.haryana"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Himachal Pradesh",
+   "census_district_count": 12,
+   "lgd_district_count": 12,
+   "districts": [
+    {
+     "name": "Bilaspur",
+     "lgd_code": 15,
+     "id": "location.districts.himachal_pradesh.bilaspur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Chamba",
+     "lgd_code": 16,
+     "id": "location.districts.himachal_pradesh.chamba",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Hamirpur",
+     "lgd_code": 17,
+     "id": "location.districts.himachal_pradesh.hamirpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kangra",
+     "lgd_code": 18,
+     "id": "location.districts.himachal_pradesh.kangra",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kinnaur",
+     "lgd_code": 19,
+     "id": "location.districts.himachal_pradesh.kinnaur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kullu",
+     "lgd_code": 20,
+     "id": "location.districts.himachal_pradesh.kullu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Lahaul And Spiti",
+     "lgd_code": 21,
+     "id": "location.districts.himachal_pradesh.lahaul_and_spiti",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Mandi",
+     "lgd_code": 22,
+     "id": "location.districts.himachal_pradesh.mandi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Shimla",
+     "lgd_code": 23,
+     "id": "location.districts.himachal_pradesh.shimla",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sirmaur",
+     "lgd_code": 24,
+     "id": "location.districts.himachal_pradesh.sirmaur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Solan",
+     "lgd_code": 25,
+     "id": "location.districts.himachal_pradesh.solan",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Una",
+     "lgd_code": 26,
+     "id": "location.districts.himachal_pradesh.una",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.himachal_pradesh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Jammu and Kashmir",
+   "census_district_count": 20,
+   "lgd_district_count": 20,
+   "districts": [
+    {
+     "name": "Anantnag",
+     "lgd_code": 1,
+     "id": "location.districts.jammu_and_kashmir.anantnag",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Bandipora",
+     "lgd_code": 623,
+     "id": "location.districts.jammu_and_kashmir.bandipora",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Baramulla",
+     "lgd_code": 3,
+     "id": "location.districts.jammu_and_kashmir.baramulla",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Budgam",
+     "lgd_code": 2,
+     "id": "location.districts.jammu_and_kashmir.budgam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Doda",
+     "lgd_code": 4,
+     "id": "location.districts.jammu_and_kashmir.doda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Ganderbal",
+     "lgd_code": 626,
+     "id": "location.districts.jammu_and_kashmir.ganderbal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Jammu",
+     "lgd_code": 5,
+     "id": "location.districts.jammu_and_kashmir.jammu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Kathua",
+     "lgd_code": 7,
+     "id": "location.districts.jammu_and_kashmir.kathua",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Kishtwar",
+     "lgd_code": 620,
+     "id": "location.districts.jammu_and_kashmir.kishtwar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Kulgam",
+     "lgd_code": 622,
+     "id": "location.districts.jammu_and_kashmir.kulgam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Kupwara",
+     "lgd_code": 8,
+     "id": "location.districts.jammu_and_kashmir.kupwara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Poonch",
+     "lgd_code": 10,
+     "id": "location.districts.jammu_and_kashmir.poonch",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Pulwama",
+     "lgd_code": 11,
+     "id": "location.districts.jammu_and_kashmir.pulwama",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Rajouri",
+     "lgd_code": 12,
+     "id": "location.districts.jammu_and_kashmir.rajouri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Ramban",
+     "lgd_code": 621,
+     "id": "location.districts.jammu_and_kashmir.ramban",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Reasi",
+     "lgd_code": 627,
+     "id": "location.districts.jammu_and_kashmir.reasi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Samba",
+     "lgd_code": 624,
+     "id": "location.districts.jammu_and_kashmir.samba",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Shopian",
+     "lgd_code": 625,
+     "id": "location.districts.jammu_and_kashmir.shopian",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Srinagar",
+     "lgd_code": 13,
+     "id": "location.districts.jammu_and_kashmir.srinagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    },
+    {
+     "name": "Udhampur",
+     "lgd_code": 14,
+     "id": "location.districts.jammu_and_kashmir.udhampur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.jammu_kashmir"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Jharkhand",
+   "census_district_count": 24,
+   "lgd_district_count": 24,
+   "districts": [
+    {
+     "name": "Bokaro",
+     "lgd_code": 322,
+     "id": "location.districts.jharkhand.bokaro",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Chatra",
+     "lgd_code": 323,
+     "id": "location.districts.jharkhand.chatra",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Deoghar",
+     "lgd_code": 324,
+     "id": "location.districts.jharkhand.deoghar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Dhanbad",
+     "lgd_code": 325,
+     "id": "location.districts.jharkhand.dhanbad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Dumka",
+     "lgd_code": 326,
+     "id": "location.districts.jharkhand.dumka",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "East Singhbum",
+     "lgd_code": 327,
+     "id": "location.districts.jharkhand.east_singhbum",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Garhwa",
+     "lgd_code": 328,
+     "id": "location.districts.jharkhand.garhwa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Giridih",
+     "lgd_code": 329,
+     "id": "location.districts.jharkhand.giridih",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Godda",
+     "lgd_code": 330,
+     "id": "location.districts.jharkhand.godda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Gumla",
+     "lgd_code": 331,
+     "id": "location.districts.jharkhand.gumla",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Hazaribagh",
+     "lgd_code": 332,
+     "id": "location.districts.jharkhand.hazaribagh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Jamtara",
+     "lgd_code": 333,
+     "id": "location.districts.jharkhand.jamtara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Khunti",
+     "lgd_code": 606,
+     "id": "location.districts.jharkhand.khunti",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Koderma",
+     "lgd_code": 334,
+     "id": "location.districts.jharkhand.koderma",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Latehar",
+     "lgd_code": 335,
+     "id": "location.districts.jharkhand.latehar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Lohardaga",
+     "lgd_code": 336,
+     "id": "location.districts.jharkhand.lohardaga",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Pakur",
+     "lgd_code": 337,
+     "id": "location.districts.jharkhand.pakur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Palamu",
+     "lgd_code": 338,
+     "id": "location.districts.jharkhand.palamu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Ramgarh",
+     "lgd_code": 607,
+     "id": "location.districts.jharkhand.ramgarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Ranchi",
+     "lgd_code": 339,
+     "id": "location.districts.jharkhand.ranchi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Sahebganj",
+     "lgd_code": 340,
+     "id": "location.districts.jharkhand.sahebganj",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Saraikela Kharsawan",
+     "lgd_code": 341,
+     "id": "location.districts.jharkhand.saraikela_kharsawan",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "Simdega",
+     "lgd_code": 342,
+     "id": "location.districts.jharkhand.simdega",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    },
+    {
+     "name": "West Singhbhum",
+     "lgd_code": 343,
+     "id": "location.districts.jharkhand.west_singhbhum",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.jharkhand"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Karnataka",
+   "census_district_count": 30,
+   "lgd_district_count": 31,
+   "districts": [
+    {
+     "name": "Bagalkote",
+     "lgd_code": 524,
+     "id": "location.districts.karnataka.bagalkote",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Ballari",
+     "lgd_code": 528,
+     "id": "location.districts.karnataka.ballari",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Belagavi",
+     "lgd_code": 527,
+     "id": "location.districts.karnataka.belagavi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Bengaluru Rural",
+     "lgd_code": 526,
+     "id": "location.districts.karnataka.bengaluru_rural",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Bengaluru South",
+     "lgd_code": 631,
+     "id": "location.districts.karnataka.bengaluru_south",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Bengaluru Urban",
+     "lgd_code": 525,
+     "id": "location.districts.karnataka.bengaluru_urban",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Bidar",
+     "lgd_code": 529,
+     "id": "location.districts.karnataka.bidar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Chamarajanagar",
+     "lgd_code": 531,
+     "id": "location.districts.karnataka.chamarajanagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Chikkaballapura",
+     "lgd_code": 630,
+     "id": "location.districts.karnataka.chikkaballapura",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Chikkamagaluru",
+     "lgd_code": 532,
+     "id": "location.districts.karnataka.chikkamagaluru",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Chitradurga",
+     "lgd_code": 533,
+     "id": "location.districts.karnataka.chitradurga",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Dakshina Kannada",
+     "lgd_code": 534,
+     "id": "location.districts.karnataka.dakshina_kannada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Davanagere",
+     "lgd_code": 535,
+     "id": "location.districts.karnataka.davanagere",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Dharwad",
+     "lgd_code": 536,
+     "id": "location.districts.karnataka.dharwad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Gadag",
+     "lgd_code": 537,
+     "id": "location.districts.karnataka.gadag",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Hassan",
+     "lgd_code": 539,
+     "id": "location.districts.karnataka.hassan",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Haveri",
+     "lgd_code": 540,
+     "id": "location.districts.karnataka.haveri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Kalaburagi",
+     "lgd_code": 538,
+     "id": "location.districts.karnataka.kalaburagi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Kodagu",
+     "lgd_code": 541,
+     "id": "location.districts.karnataka.kodagu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Kolar",
+     "lgd_code": 542,
+     "id": "location.districts.karnataka.kolar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Koppal",
+     "lgd_code": 543,
+     "id": "location.districts.karnataka.koppal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Mandya",
+     "lgd_code": 544,
+     "id": "location.districts.karnataka.mandya",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Mysuru",
+     "lgd_code": 545,
+     "id": "location.districts.karnataka.mysuru",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Raichur",
+     "lgd_code": 546,
+     "id": "location.districts.karnataka.raichur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Shivamogga",
+     "lgd_code": 547,
+     "id": "location.districts.karnataka.shivamogga",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Tumakuru",
+     "lgd_code": 548,
+     "id": "location.districts.karnataka.tumakuru",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Udupi",
+     "lgd_code": 549,
+     "id": "location.districts.karnataka.udupi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Uttara Kannada",
+     "lgd_code": 550,
+     "id": "location.districts.karnataka.uttara_kannada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Vijayanagara",
+     "lgd_code": 738,
+     "id": "location.districts.karnataka.vijayanagara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Vijayapura",
+     "lgd_code": 530,
+     "id": "location.districts.karnataka.vijayapura",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    },
+    {
+     "name": "Yadgir",
+     "lgd_code": 635,
+     "id": "location.districts.karnataka.yadgir",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.karnataka"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Kerala",
+   "census_district_count": 14,
+   "lgd_district_count": 14,
+   "districts": [
+    {
+     "name": "Alappuzha",
+     "lgd_code": 554,
+     "id": "location.districts.kerala.alappuzha",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Ernakulam",
+     "lgd_code": 555,
+     "id": "location.districts.kerala.ernakulam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Idukki",
+     "lgd_code": 556,
+     "id": "location.districts.kerala.idukki",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Kannur",
+     "lgd_code": 557,
+     "id": "location.districts.kerala.kannur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Kasaragod",
+     "lgd_code": 558,
+     "id": "location.districts.kerala.kasaragod",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Kollam",
+     "lgd_code": 559,
+     "id": "location.districts.kerala.kollam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Kottayam",
+     "lgd_code": 560,
+     "id": "location.districts.kerala.kottayam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Kozhikode",
+     "lgd_code": 561,
+     "id": "location.districts.kerala.kozhikode",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Malappuram",
+     "lgd_code": 562,
+     "id": "location.districts.kerala.malappuram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Palakkad",
+     "lgd_code": 563,
+     "id": "location.districts.kerala.palakkad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Pathanamthitta",
+     "lgd_code": 564,
+     "id": "location.districts.kerala.pathanamthitta",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Thiruvananthapuram",
+     "lgd_code": 565,
+     "id": "location.districts.kerala.thiruvananthapuram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Thrissur",
+     "lgd_code": 566,
+     "id": "location.districts.kerala.thrissur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    },
+    {
+     "name": "Wayanad",
+     "lgd_code": 567,
+     "id": "location.districts.kerala.wayanad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.kerala"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Ladakh",
+   "census_district_count": 2,
+   "lgd_district_count": 2,
+   "districts": [
+    {
+     "name": "Kargil",
+     "lgd_code": 6,
+     "id": "location.districts.ladakh.kargil",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.ladakh"
+      }
+     ]
+    },
+    {
+     "name": "Leh Ladakh",
+     "lgd_code": 9,
+     "id": "location.districts.ladakh.leh_ladakh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.ladakh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Lakshadweep",
+   "census_district_count": 1,
+   "lgd_district_count": 1,
+   "districts": [
+    {
+     "name": "Lakshadweep District",
+     "lgd_code": 553,
+     "id": "location.districts.lakshadweep.lakshadweep_district",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.lakshadweep"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Madhya Pradesh",
+   "census_district_count": 50,
+   "lgd_district_count": 55,
+   "districts": [
+    {
+     "name": "Agar-Malwa",
+     "lgd_code": 667,
+     "id": "location.districts.madhya_pradesh.agar_malwa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Alirajpur",
+     "lgd_code": 639,
+     "id": "location.districts.madhya_pradesh.alirajpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Anuppur",
+     "lgd_code": 390,
+     "id": "location.districts.madhya_pradesh.anuppur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Ashoknagar",
+     "lgd_code": 391,
+     "id": "location.districts.madhya_pradesh.ashoknagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Balaghat",
+     "lgd_code": 392,
+     "id": "location.districts.madhya_pradesh.balaghat",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Barwani",
+     "lgd_code": 393,
+     "id": "location.districts.madhya_pradesh.barwani",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Betul",
+     "lgd_code": 394,
+     "id": "location.districts.madhya_pradesh.betul",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Bhind",
+     "lgd_code": 395,
+     "id": "location.districts.madhya_pradesh.bhind",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Bhopal",
+     "lgd_code": 396,
+     "id": "location.districts.madhya_pradesh.bhopal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Burhanpur",
+     "lgd_code": 397,
+     "id": "location.districts.madhya_pradesh.burhanpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Chhatarpur",
+     "lgd_code": 398,
+     "id": "location.districts.madhya_pradesh.chhatarpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Chhindwara",
+     "lgd_code": 399,
+     "id": "location.districts.madhya_pradesh.chhindwara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Damoh",
+     "lgd_code": 400,
+     "id": "location.districts.madhya_pradesh.damoh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Datia",
+     "lgd_code": 401,
+     "id": "location.districts.madhya_pradesh.datia",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Dewas",
+     "lgd_code": 402,
+     "id": "location.districts.madhya_pradesh.dewas",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Dhar",
+     "lgd_code": 403,
+     "id": "location.districts.madhya_pradesh.dhar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Dindori",
+     "lgd_code": 404,
+     "id": "location.districts.madhya_pradesh.dindori",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Guna",
+     "lgd_code": 406,
+     "id": "location.districts.madhya_pradesh.guna",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Gwalior",
+     "lgd_code": 407,
+     "id": "location.districts.madhya_pradesh.gwalior",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Harda",
+     "lgd_code": 408,
+     "id": "location.districts.madhya_pradesh.harda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Indore",
+     "lgd_code": 410,
+     "id": "location.districts.madhya_pradesh.indore",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Jabalpur",
+     "lgd_code": 411,
+     "id": "location.districts.madhya_pradesh.jabalpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Jhabua",
+     "lgd_code": 412,
+     "id": "location.districts.madhya_pradesh.jhabua",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Katni",
+     "lgd_code": 413,
+     "id": "location.districts.madhya_pradesh.katni",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Khandwa (East Nimar)",
+     "lgd_code": 405,
+     "id": "location.districts.madhya_pradesh.khandwa_east_nimar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Khargone (West Nimar)",
+     "lgd_code": 414,
+     "id": "location.districts.madhya_pradesh.khargone_west_nimar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Maihar",
+     "lgd_code": 784,
+     "id": "location.districts.madhya_pradesh.maihar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Mandla",
+     "lgd_code": 415,
+     "id": "location.districts.madhya_pradesh.mandla",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Mandsaur",
+     "lgd_code": 416,
+     "id": "location.districts.madhya_pradesh.mandsaur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "MAUGANJ",
+     "lgd_code": 766,
+     "id": "location.districts.madhya_pradesh.mauganj",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Morena",
+     "lgd_code": 417,
+     "id": "location.districts.madhya_pradesh.morena",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Narmadapuram",
+     "lgd_code": 409,
+     "id": "location.districts.madhya_pradesh.narmadapuram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Narsimhapur",
+     "lgd_code": 418,
+     "id": "location.districts.madhya_pradesh.narsimhapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Neemuch",
+     "lgd_code": 419,
+     "id": "location.districts.madhya_pradesh.neemuch",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Niwari",
+     "lgd_code": 722,
+     "id": "location.districts.madhya_pradesh.niwari",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Pandhurna",
+     "lgd_code": 785,
+     "id": "location.districts.madhya_pradesh.pandhurna",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Panna",
+     "lgd_code": 420,
+     "id": "location.districts.madhya_pradesh.panna",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Raisen",
+     "lgd_code": 421,
+     "id": "location.districts.madhya_pradesh.raisen",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Rajgarh",
+     "lgd_code": 422,
+     "id": "location.districts.madhya_pradesh.rajgarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Ratlam",
+     "lgd_code": 423,
+     "id": "location.districts.madhya_pradesh.ratlam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Rewa",
+     "lgd_code": 424,
+     "id": "location.districts.madhya_pradesh.rewa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sagar",
+     "lgd_code": 425,
+     "id": "location.districts.madhya_pradesh.sagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Satna",
+     "lgd_code": 426,
+     "id": "location.districts.madhya_pradesh.satna",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sehore",
+     "lgd_code": 427,
+     "id": "location.districts.madhya_pradesh.sehore",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Seoni",
+     "lgd_code": 428,
+     "id": "location.districts.madhya_pradesh.seoni",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Shahdol",
+     "lgd_code": 429,
+     "id": "location.districts.madhya_pradesh.shahdol",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Shajapur",
+     "lgd_code": 430,
+     "id": "location.districts.madhya_pradesh.shajapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sheopur",
+     "lgd_code": 431,
+     "id": "location.districts.madhya_pradesh.sheopur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Shivpuri",
+     "lgd_code": 432,
+     "id": "location.districts.madhya_pradesh.shivpuri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sidhi",
+     "lgd_code": 433,
+     "id": "location.districts.madhya_pradesh.sidhi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Singrauli",
+     "lgd_code": 638,
+     "id": "location.districts.madhya_pradesh.singrauli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Tikamgarh",
+     "lgd_code": 434,
+     "id": "location.districts.madhya_pradesh.tikamgarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Ujjain",
+     "lgd_code": 435,
+     "id": "location.districts.madhya_pradesh.ujjain",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Umaria",
+     "lgd_code": 436,
+     "id": "location.districts.madhya_pradesh.umaria",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Vidisha",
+     "lgd_code": 437,
+     "id": "location.districts.madhya_pradesh.vidisha",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.madhya_pradesh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Maharashtra",
+   "census_district_count": 35,
+   "lgd_district_count": 36,
+   "districts": [
+    {
+     "name": "Ahilyanagar",
+     "lgd_code": 466,
+     "id": "location.districts.maharashtra.ahilyanagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Akola",
+     "lgd_code": 467,
+     "id": "location.districts.maharashtra.akola",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Amravati",
+     "lgd_code": 468,
+     "id": "location.districts.maharashtra.amravati",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Beed",
+     "lgd_code": 470,
+     "id": "location.districts.maharashtra.beed",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Bhandara",
+     "lgd_code": 471,
+     "id": "location.districts.maharashtra.bhandara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Buldhana",
+     "lgd_code": 472,
+     "id": "location.districts.maharashtra.buldhana",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Chandrapur",
+     "lgd_code": 473,
+     "id": "location.districts.maharashtra.chandrapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Chhatrapati Sambhajinagar",
+     "lgd_code": 469,
+     "id": "location.districts.maharashtra.chhatrapati_sambhajinagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Dharashiv",
+     "lgd_code": 488,
+     "id": "location.districts.maharashtra.dharashiv",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Dhule",
+     "lgd_code": 474,
+     "id": "location.districts.maharashtra.dhule",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Gadchiroli",
+     "lgd_code": 475,
+     "id": "location.districts.maharashtra.gadchiroli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Gondia",
+     "lgd_code": 476,
+     "id": "location.districts.maharashtra.gondia",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Hingoli",
+     "lgd_code": 477,
+     "id": "location.districts.maharashtra.hingoli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Jalgaon",
+     "lgd_code": 478,
+     "id": "location.districts.maharashtra.jalgaon",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Jalna",
+     "lgd_code": 479,
+     "id": "location.districts.maharashtra.jalna",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Kolhapur",
+     "lgd_code": 480,
+     "id": "location.districts.maharashtra.kolhapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Latur",
+     "lgd_code": 481,
+     "id": "location.districts.maharashtra.latur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Mumbai",
+     "lgd_code": 482,
+     "id": "location.districts.maharashtra.mumbai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Mumbai Suburban",
+     "lgd_code": 483,
+     "id": "location.districts.maharashtra.mumbai_suburban",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Nagpur",
+     "lgd_code": 484,
+     "id": "location.districts.maharashtra.nagpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Nanded",
+     "lgd_code": 485,
+     "id": "location.districts.maharashtra.nanded",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Nandurbar",
+     "lgd_code": 486,
+     "id": "location.districts.maharashtra.nandurbar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Nashik",
+     "lgd_code": 487,
+     "id": "location.districts.maharashtra.nashik",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Palghar",
+     "lgd_code": 665,
+     "id": "location.districts.maharashtra.palghar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Parbhani",
+     "lgd_code": 489,
+     "id": "location.districts.maharashtra.parbhani",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Pune",
+     "lgd_code": 490,
+     "id": "location.districts.maharashtra.pune",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Raigad",
+     "lgd_code": 491,
+     "id": "location.districts.maharashtra.raigad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Ratnagiri",
+     "lgd_code": 492,
+     "id": "location.districts.maharashtra.ratnagiri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Sangli",
+     "lgd_code": 493,
+     "id": "location.districts.maharashtra.sangli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Satara",
+     "lgd_code": 494,
+     "id": "location.districts.maharashtra.satara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Sindhudurg",
+     "lgd_code": 495,
+     "id": "location.districts.maharashtra.sindhudurg",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Solapur",
+     "lgd_code": 496,
+     "id": "location.districts.maharashtra.solapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Thane",
+     "lgd_code": 497,
+     "id": "location.districts.maharashtra.thane",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Wardha",
+     "lgd_code": 498,
+     "id": "location.districts.maharashtra.wardha",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Washim",
+     "lgd_code": 499,
+     "id": "location.districts.maharashtra.washim",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    },
+    {
+     "name": "Yavatmal",
+     "lgd_code": 500,
+     "id": "location.districts.maharashtra.yavatmal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.maharashtra"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Manipur",
+   "census_district_count": 9,
+   "lgd_district_count": 16,
+   "districts": [
+    {
+     "name": "Bishnupur",
+     "lgd_code": 252,
+     "id": "location.districts.manipur.bishnupur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Chandel",
+     "lgd_code": 253,
+     "id": "location.districts.manipur.chandel",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Churachandpur",
+     "lgd_code": 254,
+     "id": "location.districts.manipur.churachandpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Imphal East",
+     "lgd_code": 255,
+     "id": "location.districts.manipur.imphal_east",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Imphal West",
+     "lgd_code": 256,
+     "id": "location.districts.manipur.imphal_west",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Jiribam",
+     "lgd_code": 713,
+     "id": "location.districts.manipur.jiribam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Kakching",
+     "lgd_code": 711,
+     "id": "location.districts.manipur.kakching",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Kamjong",
+     "lgd_code": 717,
+     "id": "location.districts.manipur.kamjong",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Kangpokpi",
+     "lgd_code": 712,
+     "id": "location.districts.manipur.kangpokpi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Noney",
+     "lgd_code": 714,
+     "id": "location.districts.manipur.noney",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Pherzawl",
+     "lgd_code": 715,
+     "id": "location.districts.manipur.pherzawl",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Senapati",
+     "lgd_code": 257,
+     "id": "location.districts.manipur.senapati",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Tamenglong",
+     "lgd_code": 258,
+     "id": "location.districts.manipur.tamenglong",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Tengnoupal",
+     "lgd_code": 716,
+     "id": "location.districts.manipur.tengnoupal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Thoubal",
+     "lgd_code": 259,
+     "id": "location.districts.manipur.thoubal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    },
+    {
+     "name": "Ukhrul",
+     "lgd_code": 260,
+     "id": "location.districts.manipur.ukhrul",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.manipur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Meghalaya",
+   "census_district_count": 7,
+   "lgd_district_count": 12,
+   "districts": [
+    {
+     "name": "Eastern West Khasi Hills",
+     "lgd_code": 740,
+     "id": "location.districts.meghalaya.eastern_west_khasi_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "East Garo Hills",
+     "lgd_code": 273,
+     "id": "location.districts.meghalaya.east_garo_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "East Jaintia Hills",
+     "lgd_code": 657,
+     "id": "location.districts.meghalaya.east_jaintia_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "East Khasi Hills",
+     "lgd_code": 274,
+     "id": "location.districts.meghalaya.east_khasi_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "North Garo Hills",
+     "lgd_code": 656,
+     "id": "location.districts.meghalaya.north_garo_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "Ri Bhoi",
+     "lgd_code": 276,
+     "id": "location.districts.meghalaya.ri_bhoi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "South Garo Hills",
+     "lgd_code": 277,
+     "id": "location.districts.meghalaya.south_garo_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "South West Garo Hills",
+     "lgd_code": 663,
+     "id": "location.districts.meghalaya.south_west_garo_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "South West Khasi Hills",
+     "lgd_code": 658,
+     "id": "location.districts.meghalaya.south_west_khasi_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "West Garo Hills",
+     "lgd_code": 278,
+     "id": "location.districts.meghalaya.west_garo_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "West Jaintia Hills",
+     "lgd_code": 275,
+     "id": "location.districts.meghalaya.west_jaintia_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    },
+    {
+     "name": "West Khasi Hills",
+     "lgd_code": 279,
+     "id": "location.districts.meghalaya.west_khasi_hills",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.meghalaya"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Mizoram",
+   "census_district_count": 8,
+   "lgd_district_count": 11,
+   "districts": [
+    {
+     "name": "Aizawl",
+     "lgd_code": 261,
+     "id": "location.districts.mizoram.aizawl",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    },
+    {
+     "name": "Champhai",
+     "lgd_code": 262,
+     "id": "location.districts.mizoram.champhai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    },
+    {
+     "name": "Hnahthial",
+     "lgd_code": 726,
+     "id": "location.districts.mizoram.hnahthial",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    },
+    {
+     "name": "Khawzawl",
+     "lgd_code": 728,
+     "id": "location.districts.mizoram.khawzawl",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    },
+    {
+     "name": "Kolasib",
+     "lgd_code": 263,
+     "id": "location.districts.mizoram.kolasib",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    },
+    {
+     "name": "Lawngtlai",
+     "lgd_code": 264,
+     "id": "location.districts.mizoram.lawngtlai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    },
+    {
+     "name": "Lunglei",
+     "lgd_code": 265,
+     "id": "location.districts.mizoram.lunglei",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    },
+    {
+     "name": "Mamit",
+     "lgd_code": 266,
+     "id": "location.districts.mizoram.mamit",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    },
+    {
+     "name": "Saitual",
+     "lgd_code": 727,
+     "id": "location.districts.mizoram.saitual",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    },
+    {
+     "name": "Serchhip",
+     "lgd_code": 268,
+     "id": "location.districts.mizoram.serchhip",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    },
+    {
+     "name": "Siaha",
+     "lgd_code": 267,
+     "id": "location.districts.mizoram.siaha",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.mizoram"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Nagaland",
+   "census_district_count": 11,
+   "lgd_district_count": 17,
+   "districts": [
+    {
+     "name": "Chumoukedima",
+     "lgd_code": 758,
+     "id": "location.districts.nagaland.chumoukedima",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Dimapur",
+     "lgd_code": 244,
+     "id": "location.districts.nagaland.dimapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Kiphire",
+     "lgd_code": 614,
+     "id": "location.districts.nagaland.kiphire",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Kohima",
+     "lgd_code": 245,
+     "id": "location.districts.nagaland.kohima",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Longleng",
+     "lgd_code": 615,
+     "id": "location.districts.nagaland.longleng",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Meluri",
+     "lgd_code": 788,
+     "id": "location.districts.nagaland.meluri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Mokokchung",
+     "lgd_code": 246,
+     "id": "location.districts.nagaland.mokokchung",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Mon",
+     "lgd_code": 247,
+     "id": "location.districts.nagaland.mon",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Niuland",
+     "lgd_code": 764,
+     "id": "location.districts.nagaland.niuland",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Noklak",
+     "lgd_code": 736,
+     "id": "location.districts.nagaland.noklak",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Peren",
+     "lgd_code": 613,
+     "id": "location.districts.nagaland.peren",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Phek",
+     "lgd_code": 248,
+     "id": "location.districts.nagaland.phek",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Shamator",
+     "lgd_code": 765,
+     "id": "location.districts.nagaland.shamator",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Tseminyu",
+     "lgd_code": 757,
+     "id": "location.districts.nagaland.tseminyu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Tuensang",
+     "lgd_code": 249,
+     "id": "location.districts.nagaland.tuensang",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Wokha",
+     "lgd_code": 250,
+     "id": "location.districts.nagaland.wokha",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    },
+    {
+     "name": "Zunheboto",
+     "lgd_code": 251,
+     "id": "location.districts.nagaland.zunheboto",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.nagaland"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Odisha",
+   "census_district_count": 30,
+   "lgd_district_count": 30,
+   "districts": [
+    {
+     "name": "Anugola",
+     "lgd_code": 344,
+     "id": "location.districts.odisha.anugola",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Balangir",
+     "lgd_code": 345,
+     "id": "location.districts.odisha.balangir",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Baleshwar",
+     "lgd_code": 346,
+     "id": "location.districts.odisha.baleshwar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Baragada",
+     "lgd_code": 347,
+     "id": "location.districts.odisha.baragada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Bhadrak",
+     "lgd_code": 348,
+     "id": "location.districts.odisha.bhadrak",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Boudh",
+     "lgd_code": 349,
+     "id": "location.districts.odisha.boudh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Debagada",
+     "lgd_code": 351,
+     "id": "location.districts.odisha.debagada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Dhenkanal",
+     "lgd_code": 352,
+     "id": "location.districts.odisha.dhenkanal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Gajapati",
+     "lgd_code": 353,
+     "id": "location.districts.odisha.gajapati",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Ganjam",
+     "lgd_code": 354,
+     "id": "location.districts.odisha.ganjam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Jagatsinghapur",
+     "lgd_code": 355,
+     "id": "location.districts.odisha.jagatsinghapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Jajpur",
+     "lgd_code": 356,
+     "id": "location.districts.odisha.jajpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Jharsuguda",
+     "lgd_code": 357,
+     "id": "location.districts.odisha.jharsuguda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Kalahandi",
+     "lgd_code": 358,
+     "id": "location.districts.odisha.kalahandi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Kandhamala",
+     "lgd_code": 359,
+     "id": "location.districts.odisha.kandhamala",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Kataka",
+     "lgd_code": 350,
+     "id": "location.districts.odisha.kataka",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Kendrapada",
+     "lgd_code": 360,
+     "id": "location.districts.odisha.kendrapada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Kendujhar",
+     "lgd_code": 361,
+     "id": "location.districts.odisha.kendujhar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Khordha",
+     "lgd_code": 362,
+     "id": "location.districts.odisha.khordha",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Koraput",
+     "lgd_code": 363,
+     "id": "location.districts.odisha.koraput",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Malkangiri",
+     "lgd_code": 364,
+     "id": "location.districts.odisha.malkangiri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Mayurbhanj",
+     "lgd_code": 365,
+     "id": "location.districts.odisha.mayurbhanj",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Nabarangpur",
+     "lgd_code": 366,
+     "id": "location.districts.odisha.nabarangpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Nayagada",
+     "lgd_code": 367,
+     "id": "location.districts.odisha.nayagada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Nuapada",
+     "lgd_code": 368,
+     "id": "location.districts.odisha.nuapada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Puri",
+     "lgd_code": 369,
+     "id": "location.districts.odisha.puri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Rayagada",
+     "lgd_code": 370,
+     "id": "location.districts.odisha.rayagada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Sambalpur",
+     "lgd_code": 371,
+     "id": "location.districts.odisha.sambalpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Subarnapur",
+     "lgd_code": 372,
+     "id": "location.districts.odisha.subarnapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    },
+    {
+     "name": "Sundaragada",
+     "lgd_code": 373,
+     "id": "location.districts.odisha.sundaragada",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.odisha"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Puducherry",
+   "census_district_count": 4,
+   "lgd_district_count": 2,
+   "districts": [
+    {
+     "name": "Karaikal",
+     "lgd_code": 598,
+     "id": "location.districts.puducherry.karaikal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.puducherry"
+      }
+     ]
+    },
+    {
+     "name": "Puducherry",
+     "lgd_code": 600,
+     "id": "location.districts.puducherry.puducherry",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.puducherry"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Punjab",
+   "census_district_count": 20,
+   "lgd_district_count": 23,
+   "districts": [
+    {
+     "name": "Amritsar",
+     "lgd_code": 27,
+     "id": "location.districts.punjab.amritsar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Barnala",
+     "lgd_code": 605,
+     "id": "location.districts.punjab.barnala",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Bathinda",
+     "lgd_code": 28,
+     "id": "location.districts.punjab.bathinda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Faridkot",
+     "lgd_code": 29,
+     "id": "location.districts.punjab.faridkot",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Fatehgarh Sahib",
+     "lgd_code": 30,
+     "id": "location.districts.punjab.fatehgarh_sahib",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Fazilka",
+     "lgd_code": 651,
+     "id": "location.districts.punjab.fazilka",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Ferozepur",
+     "lgd_code": 31,
+     "id": "location.districts.punjab.ferozepur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Gurdaspur",
+     "lgd_code": 32,
+     "id": "location.districts.punjab.gurdaspur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Hoshiarpur",
+     "lgd_code": 33,
+     "id": "location.districts.punjab.hoshiarpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Jalandhar",
+     "lgd_code": 34,
+     "id": "location.districts.punjab.jalandhar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Kapurthala",
+     "lgd_code": 35,
+     "id": "location.districts.punjab.kapurthala",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Ludhiana",
+     "lgd_code": 36,
+     "id": "location.districts.punjab.ludhiana",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Malerkotla",
+     "lgd_code": 737,
+     "id": "location.districts.punjab.malerkotla",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Mansa",
+     "lgd_code": 37,
+     "id": "location.districts.punjab.mansa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Moga",
+     "lgd_code": 38,
+     "id": "location.districts.punjab.moga",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Pathankot",
+     "lgd_code": 662,
+     "id": "location.districts.punjab.pathankot",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Patiala",
+     "lgd_code": 41,
+     "id": "location.districts.punjab.patiala",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Rupnagar",
+     "lgd_code": 42,
+     "id": "location.districts.punjab.rupnagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Sangrur",
+     "lgd_code": 43,
+     "id": "location.districts.punjab.sangrur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "S.A.S Nagar",
+     "lgd_code": 608,
+     "id": "location.districts.punjab.s_a_s_nagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Shahid Bhagat Singh Nagar",
+     "lgd_code": 40,
+     "id": "location.districts.punjab.shahid_bhagat_singh_nagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Sri Muktsar Sahib",
+     "lgd_code": 39,
+     "id": "location.districts.punjab.sri_muktsar_sahib",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    },
+    {
+     "name": "Tarn Taran",
+     "lgd_code": 609,
+     "id": "location.districts.punjab.tarn_taran",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.punjab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Rajasthan",
+   "census_district_count": 33,
+   "lgd_district_count": 41,
+   "districts": [
+    {
+     "name": "Ajmer",
+     "lgd_code": 86,
+     "id": "location.districts.rajasthan.ajmer",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Alwar",
+     "lgd_code": 87,
+     "id": "location.districts.rajasthan.alwar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Balotra",
+     "lgd_code": 775,
+     "id": "location.districts.rajasthan.balotra",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Banswara",
+     "lgd_code": 88,
+     "id": "location.districts.rajasthan.banswara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Baran",
+     "lgd_code": 89,
+     "id": "location.districts.rajasthan.baran",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Barmer",
+     "lgd_code": 90,
+     "id": "location.districts.rajasthan.barmer",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Beawar",
+     "lgd_code": 774,
+     "id": "location.districts.rajasthan.beawar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Bharatpur",
+     "lgd_code": 91,
+     "id": "location.districts.rajasthan.bharatpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Bhilwara",
+     "lgd_code": 92,
+     "id": "location.districts.rajasthan.bhilwara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Bikaner",
+     "lgd_code": 93,
+     "id": "location.districts.rajasthan.bikaner",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Bundi",
+     "lgd_code": 94,
+     "id": "location.districts.rajasthan.bundi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Chittorgarh",
+     "lgd_code": 95,
+     "id": "location.districts.rajasthan.chittorgarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Churu",
+     "lgd_code": 96,
+     "id": "location.districts.rajasthan.churu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Dausa",
+     "lgd_code": 97,
+     "id": "location.districts.rajasthan.dausa",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Deeg",
+     "lgd_code": 767,
+     "id": "location.districts.rajasthan.deeg",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Dholpur",
+     "lgd_code": 98,
+     "id": "location.districts.rajasthan.dholpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Didwana-Kuchaman",
+     "lgd_code": 768,
+     "id": "location.districts.rajasthan.didwana_kuchaman",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Dungarpur",
+     "lgd_code": 99,
+     "id": "location.districts.rajasthan.dungarpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Ganganagar",
+     "lgd_code": 100,
+     "id": "location.districts.rajasthan.ganganagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Hanumangarh",
+     "lgd_code": 101,
+     "id": "location.districts.rajasthan.hanumangarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Jaipur",
+     "lgd_code": 102,
+     "id": "location.districts.rajasthan.jaipur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Jaisalmer",
+     "lgd_code": 103,
+     "id": "location.districts.rajasthan.jaisalmer",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Jalore",
+     "lgd_code": 104,
+     "id": "location.districts.rajasthan.jalore",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Jhalawar",
+     "lgd_code": 105,
+     "id": "location.districts.rajasthan.jhalawar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Jhunjhunu",
+     "lgd_code": 106,
+     "id": "location.districts.rajasthan.jhunjhunu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Jodhpur",
+     "lgd_code": 107,
+     "id": "location.districts.rajasthan.jodhpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Karauli",
+     "lgd_code": 108,
+     "id": "location.districts.rajasthan.karauli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Khairthal-Tijara",
+     "lgd_code": 770,
+     "id": "location.districts.rajasthan.khairthal_tijara",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Kota",
+     "lgd_code": 109,
+     "id": "location.districts.rajasthan.kota",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Kotputli-Behror",
+     "lgd_code": 782,
+     "id": "location.districts.rajasthan.kotputli_behror",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Nagaur",
+     "lgd_code": 110,
+     "id": "location.districts.rajasthan.nagaur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Pali",
+     "lgd_code": 111,
+     "id": "location.districts.rajasthan.pali",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Phalodi",
+     "lgd_code": 772,
+     "id": "location.districts.rajasthan.phalodi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Pratapgarh",
+     "lgd_code": 629,
+     "id": "location.districts.rajasthan.pratapgarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Rajsamand",
+     "lgd_code": 112,
+     "id": "location.districts.rajasthan.rajsamand",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Salumbar",
+     "lgd_code": 777,
+     "id": "location.districts.rajasthan.salumbar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Sawai Madhopur",
+     "lgd_code": 113,
+     "id": "location.districts.rajasthan.sawai_madhopur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Sikar",
+     "lgd_code": 114,
+     "id": "location.districts.rajasthan.sikar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Sirohi",
+     "lgd_code": 115,
+     "id": "location.districts.rajasthan.sirohi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Tonk",
+     "lgd_code": 116,
+     "id": "location.districts.rajasthan.tonk",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    },
+    {
+     "name": "Udaipur",
+     "lgd_code": 117,
+     "id": "location.districts.rajasthan.udaipur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.rajasthan"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Sikkim",
+   "census_district_count": 4,
+   "lgd_district_count": 6,
+   "districts": [
+    {
+     "name": "Gangtok",
+     "lgd_code": 225,
+     "id": "location.districts.sikkim.gangtok",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.sikkim"
+      }
+     ]
+    },
+    {
+     "name": "Gyalshing",
+     "lgd_code": 228,
+     "id": "location.districts.sikkim.gyalshing",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.sikkim"
+      }
+     ]
+    },
+    {
+     "name": "Mangan",
+     "lgd_code": 226,
+     "id": "location.districts.sikkim.mangan",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.sikkim"
+      }
+     ]
+    },
+    {
+     "name": "Namchi",
+     "lgd_code": 227,
+     "id": "location.districts.sikkim.namchi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.sikkim"
+      }
+     ]
+    },
+    {
+     "name": "Pakyong",
+     "lgd_code": 741,
+     "id": "location.districts.sikkim.pakyong",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.sikkim"
+      }
+     ]
+    },
+    {
+     "name": "Soreng",
+     "lgd_code": 742,
+     "id": "location.districts.sikkim.soreng",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.sikkim"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Tamil Nadu",
+   "census_district_count": 32,
+   "lgd_district_count": 38,
+   "districts": [
+    {
+     "name": "Ariyalur",
+     "lgd_code": 610,
+     "id": "location.districts.tamil_nadu.ariyalur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Chengalpattu",
+     "lgd_code": 730,
+     "id": "location.districts.tamil_nadu.chengalpattu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Chennai",
+     "lgd_code": 568,
+     "id": "location.districts.tamil_nadu.chennai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Coimbatore",
+     "lgd_code": 569,
+     "id": "location.districts.tamil_nadu.coimbatore",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Cuddalore",
+     "lgd_code": 570,
+     "id": "location.districts.tamil_nadu.cuddalore",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Dharmapuri",
+     "lgd_code": 571,
+     "id": "location.districts.tamil_nadu.dharmapuri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Dindigul",
+     "lgd_code": 572,
+     "id": "location.districts.tamil_nadu.dindigul",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Erode",
+     "lgd_code": 573,
+     "id": "location.districts.tamil_nadu.erode",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Kallakurichi",
+     "lgd_code": 729,
+     "id": "location.districts.tamil_nadu.kallakurichi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Kancheepuram",
+     "lgd_code": 574,
+     "id": "location.districts.tamil_nadu.kancheepuram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Kanniyakumari",
+     "lgd_code": 575,
+     "id": "location.districts.tamil_nadu.kanniyakumari",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Karur",
+     "lgd_code": 576,
+     "id": "location.districts.tamil_nadu.karur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Krishnagiri",
+     "lgd_code": 577,
+     "id": "location.districts.tamil_nadu.krishnagiri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Madurai",
+     "lgd_code": 578,
+     "id": "location.districts.tamil_nadu.madurai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Mayiladuthurai",
+     "lgd_code": 735,
+     "id": "location.districts.tamil_nadu.mayiladuthurai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Nagapattinam",
+     "lgd_code": 579,
+     "id": "location.districts.tamil_nadu.nagapattinam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Namakkal",
+     "lgd_code": 580,
+     "id": "location.districts.tamil_nadu.namakkal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Perambalur",
+     "lgd_code": 581,
+     "id": "location.districts.tamil_nadu.perambalur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Pudukkottai",
+     "lgd_code": 582,
+     "id": "location.districts.tamil_nadu.pudukkottai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Ramanathapuram",
+     "lgd_code": 583,
+     "id": "location.districts.tamil_nadu.ramanathapuram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Ranipet",
+     "lgd_code": 731,
+     "id": "location.districts.tamil_nadu.ranipet",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Salem",
+     "lgd_code": 584,
+     "id": "location.districts.tamil_nadu.salem",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Sivaganga",
+     "lgd_code": 585,
+     "id": "location.districts.tamil_nadu.sivaganga",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Tenkasi",
+     "lgd_code": 733,
+     "id": "location.districts.tamil_nadu.tenkasi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Thanjavur",
+     "lgd_code": 586,
+     "id": "location.districts.tamil_nadu.thanjavur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Theni",
+     "lgd_code": 588,
+     "id": "location.districts.tamil_nadu.theni",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "The Nilgiris",
+     "lgd_code": 587,
+     "id": "location.districts.tamil_nadu.the_nilgiris",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Thiruvallur",
+     "lgd_code": 589,
+     "id": "location.districts.tamil_nadu.thiruvallur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Thiruvarur",
+     "lgd_code": 590,
+     "id": "location.districts.tamil_nadu.thiruvarur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Thoothukkudi",
+     "lgd_code": 594,
+     "id": "location.districts.tamil_nadu.thoothukkudi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Tiruchirappalli",
+     "lgd_code": 591,
+     "id": "location.districts.tamil_nadu.tiruchirappalli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Tirunelveli",
+     "lgd_code": 592,
+     "id": "location.districts.tamil_nadu.tirunelveli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Tirupathur",
+     "lgd_code": 732,
+     "id": "location.districts.tamil_nadu.tirupathur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Tiruppur",
+     "lgd_code": 634,
+     "id": "location.districts.tamil_nadu.tiruppur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Tiruvannamalai",
+     "lgd_code": 593,
+     "id": "location.districts.tamil_nadu.tiruvannamalai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Vellore",
+     "lgd_code": 595,
+     "id": "location.districts.tamil_nadu.vellore",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Viluppuram",
+     "lgd_code": 596,
+     "id": "location.districts.tamil_nadu.viluppuram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    },
+    {
+     "name": "Virudhunagar",
+     "lgd_code": 597,
+     "id": "location.districts.tamil_nadu.virudhunagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tamil_nadu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Telangana",
+   "census_district_count": 10,
+   "lgd_district_count": 33,
+   "districts": [
+    {
+     "name": "Adilabad",
+     "lgd_code": 501,
+     "id": "location.districts.telangana.adilabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Bhadradri Kothagudem",
+     "lgd_code": 690,
+     "id": "location.districts.telangana.bhadradri_kothagudem",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Hanumakonda",
+     "lgd_code": 686,
+     "id": "location.districts.telangana.hanumakonda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Hyderabad",
+     "lgd_code": 507,
+     "id": "location.districts.telangana.hyderabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Jagitial",
+     "lgd_code": 681,
+     "id": "location.districts.telangana.jagitial",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Jangoan",
+     "lgd_code": 689,
+     "id": "location.districts.telangana.jangoan",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Jayashankar Bhupalapally",
+     "lgd_code": 687,
+     "id": "location.districts.telangana.jayashankar_bhupalapally",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Jogulamba Gadwal",
+     "lgd_code": 695,
+     "id": "location.districts.telangana.jogulamba_gadwal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Kamareddy",
+     "lgd_code": 685,
+     "id": "location.districts.telangana.kamareddy",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Karimnagar",
+     "lgd_code": 508,
+     "id": "location.districts.telangana.karimnagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Khammam",
+     "lgd_code": 509,
+     "id": "location.districts.telangana.khammam",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Kumuram Bheem Asifabad",
+     "lgd_code": 699,
+     "id": "location.districts.telangana.kumuram_bheem_asifabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Mahabubabad",
+     "lgd_code": 688,
+     "id": "location.districts.telangana.mahabubabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Mahabubnagar",
+     "lgd_code": 512,
+     "id": "location.districts.telangana.mahabubnagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Mancherial",
+     "lgd_code": 684,
+     "id": "location.districts.telangana.mancherial",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Medak",
+     "lgd_code": 513,
+     "id": "location.districts.telangana.medak",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Medchal Malkajgiri",
+     "lgd_code": 700,
+     "id": "location.districts.telangana.medchal_malkajgiri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Mulugu",
+     "lgd_code": 720,
+     "id": "location.districts.telangana.mulugu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Nagarkurnool",
+     "lgd_code": 694,
+     "id": "location.districts.telangana.nagarkurnool",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Nalgonda",
+     "lgd_code": 514,
+     "id": "location.districts.telangana.nalgonda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Narayanpet",
+     "lgd_code": 721,
+     "id": "location.districts.telangana.narayanpet",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Nirmal",
+     "lgd_code": 680,
+     "id": "location.districts.telangana.nirmal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Nizamabad",
+     "lgd_code": 516,
+     "id": "location.districts.telangana.nizamabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Peddapalli",
+     "lgd_code": 682,
+     "id": "location.districts.telangana.peddapalli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Rajanna Sircilla",
+     "lgd_code": 683,
+     "id": "location.districts.telangana.rajanna_sircilla",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Ranga Reddy",
+     "lgd_code": 518,
+     "id": "location.districts.telangana.ranga_reddy",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Sangareddy",
+     "lgd_code": 691,
+     "id": "location.districts.telangana.sangareddy",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Siddipet",
+     "lgd_code": 692,
+     "id": "location.districts.telangana.siddipet",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Suryapet",
+     "lgd_code": 696,
+     "id": "location.districts.telangana.suryapet",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Vikarabad",
+     "lgd_code": 698,
+     "id": "location.districts.telangana.vikarabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Wanaparthy",
+     "lgd_code": 693,
+     "id": "location.districts.telangana.wanaparthy",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Warangal",
+     "lgd_code": 522,
+     "id": "location.districts.telangana.warangal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    },
+    {
+     "name": "Yadadri Bhuvanagiri",
+     "lgd_code": 697,
+     "id": "location.districts.telangana.yadadri_bhuvanagiri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.telangana"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Dadra and Nagar Haveli and Daman and Diu",
+   "census_district_count": 3,
+   "lgd_district_count": 3,
+   "districts": [
+    {
+     "name": "Dadra And Nagar Haveli",
+     "lgd_code": 465,
+     "id": "location.districts.dadra_and_nagar_haveli_and_daman_and_diu.dadra_and_nagar_haveli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.dadra_nagar_haveli_daman_diu"
+      }
+     ]
+    },
+    {
+     "name": "Daman",
+     "lgd_code": 463,
+     "id": "location.districts.dadra_and_nagar_haveli_and_daman_and_diu.daman",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.dadra_nagar_haveli_daman_diu"
+      }
+     ]
+    },
+    {
+     "name": "Diu",
+     "lgd_code": 464,
+     "id": "location.districts.dadra_and_nagar_haveli_and_daman_and_diu.diu",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.uts.dadra_nagar_haveli_daman_diu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Tripura",
+   "census_district_count": 4,
+   "lgd_district_count": 8,
+   "districts": [
+    {
+     "name": "Dhalai",
+     "lgd_code": 269,
+     "id": "location.districts.tripura.dhalai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tripura"
+      }
+     ]
+    },
+    {
+     "name": "Gomati",
+     "lgd_code": 654,
+     "id": "location.districts.tripura.gomati",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tripura"
+      }
+     ]
+    },
+    {
+     "name": "Khowai",
+     "lgd_code": 652,
+     "id": "location.districts.tripura.khowai",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tripura"
+      }
+     ]
+    },
+    {
+     "name": "North Tripura",
+     "lgd_code": 270,
+     "id": "location.districts.tripura.north_tripura",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tripura"
+      }
+     ]
+    },
+    {
+     "name": "Sepahijala",
+     "lgd_code": 653,
+     "id": "location.districts.tripura.sepahijala",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tripura"
+      }
+     ]
+    },
+    {
+     "name": "South Tripura",
+     "lgd_code": 271,
+     "id": "location.districts.tripura.south_tripura",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tripura"
+      }
+     ]
+    },
+    {
+     "name": "Unakoti",
+     "lgd_code": 655,
+     "id": "location.districts.tripura.unakoti",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tripura"
+      }
+     ]
+    },
+    {
+     "name": "West Tripura",
+     "lgd_code": 272,
+     "id": "location.districts.tripura.west_tripura",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.tripura"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Uttarakhand",
+   "census_district_count": 13,
+   "lgd_district_count": 13,
+   "districts": [
+    {
+     "name": "Almora",
+     "lgd_code": 45,
+     "id": "location.districts.uttarakhand.almora",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Bageshwar",
+     "lgd_code": 46,
+     "id": "location.districts.uttarakhand.bageshwar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Chamoli",
+     "lgd_code": 47,
+     "id": "location.districts.uttarakhand.chamoli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Champawat",
+     "lgd_code": 48,
+     "id": "location.districts.uttarakhand.champawat",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Dehradun",
+     "lgd_code": 49,
+     "id": "location.districts.uttarakhand.dehradun",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Haridwar",
+     "lgd_code": 50,
+     "id": "location.districts.uttarakhand.haridwar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Nainital",
+     "lgd_code": 51,
+     "id": "location.districts.uttarakhand.nainital",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Pauri Garhwal",
+     "lgd_code": 52,
+     "id": "location.districts.uttarakhand.pauri_garhwal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Pithoragarh",
+     "lgd_code": 53,
+     "id": "location.districts.uttarakhand.pithoragarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Rudraprayag",
+     "lgd_code": 54,
+     "id": "location.districts.uttarakhand.rudraprayag",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Tehri Garhwal",
+     "lgd_code": 55,
+     "id": "location.districts.uttarakhand.tehri_garhwal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Udham Singh Nagar",
+     "lgd_code": 56,
+     "id": "location.districts.uttarakhand.udham_singh_nagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    },
+    {
+     "name": "Uttarkashi",
+     "lgd_code": 57,
+     "id": "location.districts.uttarakhand.uttarkashi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttarakhand"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "Uttar Pradesh",
+   "census_district_count": 71,
+   "lgd_district_count": 75,
+   "districts": [
+    {
+     "name": "Agra",
+     "lgd_code": 118,
+     "id": "location.districts.uttar_pradesh.agra",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Aligarh",
+     "lgd_code": 119,
+     "id": "location.districts.uttar_pradesh.aligarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Ambedkar Nagar",
+     "lgd_code": 121,
+     "id": "location.districts.uttar_pradesh.ambedkar_nagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Amethi",
+     "lgd_code": 640,
+     "id": "location.districts.uttar_pradesh.amethi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Amroha",
+     "lgd_code": 154,
+     "id": "location.districts.uttar_pradesh.amroha",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Auraiya",
+     "lgd_code": 122,
+     "id": "location.districts.uttar_pradesh.auraiya",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Ayodhya",
+     "lgd_code": 140,
+     "id": "location.districts.uttar_pradesh.ayodhya",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Azamgarh",
+     "lgd_code": 123,
+     "id": "location.districts.uttar_pradesh.azamgarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Baghpat",
+     "lgd_code": 124,
+     "id": "location.districts.uttar_pradesh.baghpat",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Bahraich",
+     "lgd_code": 125,
+     "id": "location.districts.uttar_pradesh.bahraich",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Ballia",
+     "lgd_code": 126,
+     "id": "location.districts.uttar_pradesh.ballia",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Balrampur",
+     "lgd_code": 127,
+     "id": "location.districts.uttar_pradesh.balrampur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Banda",
+     "lgd_code": 128,
+     "id": "location.districts.uttar_pradesh.banda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Bara Banki",
+     "lgd_code": 129,
+     "id": "location.districts.uttar_pradesh.bara_banki",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Bareilly",
+     "lgd_code": 130,
+     "id": "location.districts.uttar_pradesh.bareilly",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Basti",
+     "lgd_code": 131,
+     "id": "location.districts.uttar_pradesh.basti",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Bhadohi",
+     "lgd_code": 179,
+     "id": "location.districts.uttar_pradesh.bhadohi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Bijnor",
+     "lgd_code": 132,
+     "id": "location.districts.uttar_pradesh.bijnor",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Budaun",
+     "lgd_code": 133,
+     "id": "location.districts.uttar_pradesh.budaun",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Bulandshahr",
+     "lgd_code": 134,
+     "id": "location.districts.uttar_pradesh.bulandshahr",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Chandauli",
+     "lgd_code": 135,
+     "id": "location.districts.uttar_pradesh.chandauli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Chitrakoot",
+     "lgd_code": 136,
+     "id": "location.districts.uttar_pradesh.chitrakoot",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Deoria",
+     "lgd_code": 137,
+     "id": "location.districts.uttar_pradesh.deoria",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Etah",
+     "lgd_code": 138,
+     "id": "location.districts.uttar_pradesh.etah",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Etawah",
+     "lgd_code": 139,
+     "id": "location.districts.uttar_pradesh.etawah",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Farrukhabad",
+     "lgd_code": 141,
+     "id": "location.districts.uttar_pradesh.farrukhabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Fatehpur",
+     "lgd_code": 142,
+     "id": "location.districts.uttar_pradesh.fatehpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Firozabad",
+     "lgd_code": 143,
+     "id": "location.districts.uttar_pradesh.firozabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Gautam Buddha Nagar",
+     "lgd_code": 144,
+     "id": "location.districts.uttar_pradesh.gautam_buddha_nagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Ghaziabad",
+     "lgd_code": 145,
+     "id": "location.districts.uttar_pradesh.ghaziabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Ghazipur",
+     "lgd_code": 146,
+     "id": "location.districts.uttar_pradesh.ghazipur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Gonda",
+     "lgd_code": 147,
+     "id": "location.districts.uttar_pradesh.gonda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Gorakhpur",
+     "lgd_code": 148,
+     "id": "location.districts.uttar_pradesh.gorakhpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Hamirpur",
+     "lgd_code": 149,
+     "id": "location.districts.uttar_pradesh.hamirpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Hapur",
+     "lgd_code": 661,
+     "id": "location.districts.uttar_pradesh.hapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Hardoi",
+     "lgd_code": 150,
+     "id": "location.districts.uttar_pradesh.hardoi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Hathras",
+     "lgd_code": 163,
+     "id": "location.districts.uttar_pradesh.hathras",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Jalaun",
+     "lgd_code": 151,
+     "id": "location.districts.uttar_pradesh.jalaun",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Jaunpur",
+     "lgd_code": 152,
+     "id": "location.districts.uttar_pradesh.jaunpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Jhansi",
+     "lgd_code": 153,
+     "id": "location.districts.uttar_pradesh.jhansi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kannauj",
+     "lgd_code": 155,
+     "id": "location.districts.uttar_pradesh.kannauj",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kanpur Dehat",
+     "lgd_code": 156,
+     "id": "location.districts.uttar_pradesh.kanpur_dehat",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kanpur Nagar",
+     "lgd_code": 157,
+     "id": "location.districts.uttar_pradesh.kanpur_nagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kasganj",
+     "lgd_code": 633,
+     "id": "location.districts.uttar_pradesh.kasganj",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kaushambi",
+     "lgd_code": 158,
+     "id": "location.districts.uttar_pradesh.kaushambi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kheri",
+     "lgd_code": 159,
+     "id": "location.districts.uttar_pradesh.kheri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Kushinagar",
+     "lgd_code": 160,
+     "id": "location.districts.uttar_pradesh.kushinagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Lalitpur",
+     "lgd_code": 161,
+     "id": "location.districts.uttar_pradesh.lalitpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Lucknow",
+     "lgd_code": 162,
+     "id": "location.districts.uttar_pradesh.lucknow",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Mahoba",
+     "lgd_code": 165,
+     "id": "location.districts.uttar_pradesh.mahoba",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Mahrajganj",
+     "lgd_code": 164,
+     "id": "location.districts.uttar_pradesh.mahrajganj",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Mainpuri",
+     "lgd_code": 166,
+     "id": "location.districts.uttar_pradesh.mainpuri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Mathura",
+     "lgd_code": 167,
+     "id": "location.districts.uttar_pradesh.mathura",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Mau",
+     "lgd_code": 168,
+     "id": "location.districts.uttar_pradesh.mau",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Meerut",
+     "lgd_code": 169,
+     "id": "location.districts.uttar_pradesh.meerut",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Mirzapur",
+     "lgd_code": 170,
+     "id": "location.districts.uttar_pradesh.mirzapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Moradabad",
+     "lgd_code": 171,
+     "id": "location.districts.uttar_pradesh.moradabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Muzaffarnagar",
+     "lgd_code": 172,
+     "id": "location.districts.uttar_pradesh.muzaffarnagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Pilibhit",
+     "lgd_code": 173,
+     "id": "location.districts.uttar_pradesh.pilibhit",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Pratapgarh",
+     "lgd_code": 174,
+     "id": "location.districts.uttar_pradesh.pratapgarh",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Prayagraj",
+     "lgd_code": 120,
+     "id": "location.districts.uttar_pradesh.prayagraj",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Rae Bareli",
+     "lgd_code": 175,
+     "id": "location.districts.uttar_pradesh.rae_bareli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Rampur",
+     "lgd_code": 176,
+     "id": "location.districts.uttar_pradesh.rampur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Saharanpur",
+     "lgd_code": 177,
+     "id": "location.districts.uttar_pradesh.saharanpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sambhal",
+     "lgd_code": 659,
+     "id": "location.districts.uttar_pradesh.sambhal",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sant Kabir Nagar",
+     "lgd_code": 178,
+     "id": "location.districts.uttar_pradesh.sant_kabir_nagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Shahjahanpur",
+     "lgd_code": 180,
+     "id": "location.districts.uttar_pradesh.shahjahanpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Shamli",
+     "lgd_code": 660,
+     "id": "location.districts.uttar_pradesh.shamli",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Shrawasti",
+     "lgd_code": 181,
+     "id": "location.districts.uttar_pradesh.shrawasti",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Siddharthnagar",
+     "lgd_code": 182,
+     "id": "location.districts.uttar_pradesh.siddharthnagar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sitapur",
+     "lgd_code": 183,
+     "id": "location.districts.uttar_pradesh.sitapur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sonbhadra",
+     "lgd_code": 184,
+     "id": "location.districts.uttar_pradesh.sonbhadra",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Sultanpur",
+     "lgd_code": 185,
+     "id": "location.districts.uttar_pradesh.sultanpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Unnao",
+     "lgd_code": 186,
+     "id": "location.districts.uttar_pradesh.unnao",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    },
+    {
+     "name": "Varanasi",
+     "lgd_code": 187,
+     "id": "location.districts.uttar_pradesh.varanasi",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.uttar_pradesh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "state": "West Bengal",
+   "census_district_count": 19,
+   "lgd_district_count": 23,
+   "districts": [
+    {
+     "name": "Alipurduar",
+     "lgd_code": 664,
+     "id": "location.districts.west_bengal.alipurduar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Bankura",
+     "lgd_code": 305,
+     "id": "location.districts.west_bengal.bankura",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Birbhum",
+     "lgd_code": 307,
+     "id": "location.districts.west_bengal.birbhum",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Cooch Behar",
+     "lgd_code": 308,
+     "id": "location.districts.west_bengal.cooch_behar",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Dakshin Dinajpur",
+     "lgd_code": 310,
+     "id": "location.districts.west_bengal.dakshin_dinajpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Darjeeling",
+     "lgd_code": 309,
+     "id": "location.districts.west_bengal.darjeeling",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Hooghly",
+     "lgd_code": 312,
+     "id": "location.districts.west_bengal.hooghly",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Howrah",
+     "lgd_code": 313,
+     "id": "location.districts.west_bengal.howrah",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Jalpaiguri",
+     "lgd_code": 314,
+     "id": "location.districts.west_bengal.jalpaiguri",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Jhargram",
+     "lgd_code": 703,
+     "id": "location.districts.west_bengal.jhargram",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Kalimpong",
+     "lgd_code": 702,
+     "id": "location.districts.west_bengal.kalimpong",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Kolkata",
+     "lgd_code": 315,
+     "id": "location.districts.west_bengal.kolkata",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Malda",
+     "lgd_code": 316,
+     "id": "location.districts.west_bengal.malda",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Murshidabad",
+     "lgd_code": 319,
+     "id": "location.districts.west_bengal.murshidabad",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Nadia",
+     "lgd_code": 320,
+     "id": "location.districts.west_bengal.nadia",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "North 24 Parganas",
+     "lgd_code": 303,
+     "id": "location.districts.west_bengal.north_24_parganas",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Paschim Bardhaman",
+     "lgd_code": 704,
+     "id": "location.districts.west_bengal.paschim_bardhaman",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Paschim Medinipur",
+     "lgd_code": 318,
+     "id": "location.districts.west_bengal.paschim_medinipur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Purba Bardhaman",
+     "lgd_code": 306,
+     "id": "location.districts.west_bengal.purba_bardhaman",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Purba Medinipur",
+     "lgd_code": 317,
+     "id": "location.districts.west_bengal.purba_medinipur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Purulia",
+     "lgd_code": 321,
+     "id": "location.districts.west_bengal.purulia",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "South 24 Parganas",
+     "lgd_code": 304,
+     "id": "location.districts.west_bengal.south_24_parganas",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    },
+    {
+     "name": "Uttar Dinajpur",
+     "lgd_code": 311,
+     "id": "location.districts.west_bengal.uttar_dinajpur",
+     "relations": [
+      {
+       "predicate": "part_of",
+       "object": "location.states.west_bengal"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "todo_gaps": []
+}

@@ -1,0 +1,21 @@
+[     992ms] Identifier 'numberToFixedDecimal' has already been declared
+[     996ms] Identifier 'dataSourcedft' has already been declared
+[     997ms] Identifier 'dataSourcedftsw' has already been declared
+[    1005ms] Identifier 'baseYear1' has already been declared
+[    1006ms] Identifier 'base_year' has already been declared
+[    1006ms] Identifier 'filterbycropcountry' has already been declared
+[   10639ms] [ERROR] **************************************************************************************************************** @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10639ms] [ERROR] ***************************************** AG Grid Enterprise License ******************************************* @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10640ms] [ERROR] ****************************************** License Key Not Found *********************************************** @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10640ms] [ERROR] * All AG Grid Enterprise features are unlocked.                                                                * @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10640ms] [ERROR] * This is an evaluation only version, it is not licensed for development projects intended for production.     * @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10641ms] [ERROR] * If you want to hide the watermark, please email info@ag-grid.com for a trial license.                        * @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10641ms] [ERROR] **************************************************************************************************************** @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10641ms] [ERROR] **************************************************************************************************************** @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10644ms] [WARNING] AG Grid: since v27, 'suppressCellSelection' is deprecated. Please use 'suppressCellFocus' instead.  @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10647ms] [WARNING] AG Grid: invalid gridOptions property 'suppressTabbing' did you mean any of these: suppressLoadingOverlay, suppressMaintainUnsortedOrder, suppressRowVirtualisation, suppressMultiRangeSelection, suppressFieldDotNotation, suppressChartToolPanelsButton, suppressColumnVirtualisation, suppressMoveWhenRowDragging @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10647ms] [WARNING] AG Grid: invalid gridOptions property 'rowDeselection' did you mean any of these: suppressRowDeselection, rowSelection, suppressRowClickSelection, removePivotHeaderRowWhenSingleValueColumn, suppressMaxRenderedRowRestriction, rowDragMultiRow, suppressModelUpdateAfterUpdateTransaction, groupRowRendererFramework @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10647ms] [WARNING] AG Grid: to see all the valid gridOptions properties please check: https://www.ag-grid.com/javascript-data-grid/grid-options/ @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10648ms] [WARNING] AG Grid: invalid colDef property 'Value' did you mean any of these: valueGetter, valueSetter, valueFormatter, valueParser, pivotValueColumn, headerValueGetter, enableValue, filterValueGetter @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10648ms] [WARNING] AG Grid: to see all the valid colDef properties please check: https://www.ag-grid.com/javascript-data-grid/column-properties/ @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0
+[   10665ms] [WARNING] AG Grid: Group Column Filter does not work with the colDef property "filterParams". This property will be ignored. @ https://dash.upag.gov.in/assets/ag-grid.js?m=1786429220.0:0

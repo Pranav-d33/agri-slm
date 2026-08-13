@@ -1,0 +1,3435 @@
+{
+ "pests": {
+  "caloptilia": {
+   "name": "Caloptilia",
+   "crops": [
+    "crops.fruits.aonla"
+   ]
+  },
+  "gracillaria": {
+   "name": "Gracillaria",
+   "crops": [
+    "crops.fruits.aonla"
+   ]
+  },
+  "setaphis bougainvilleae": {
+   "name": "Setaphis bougainvilleae",
+   "crops": [
+    "crops.fruits.aonla"
+   ]
+  },
+  "fruit borer": {
+   "name": "Fruit Borer",
+   "crops": [
+    "crops.fruits.aonla",
+    "crops.fruits.guava",
+    "crops.tomato"
+   ]
+  },
+  "deudorix isocrates": {
+   "name": "Deudorix isocrates",
+   "crops": [
+    "crops.fruits.aonla"
+   ]
+  },
+  "trialeurodes rara": {
+   "name": "Trialeurodes rara",
+   "crops": [
+    "crops.fruits.aonla"
+   ]
+  },
+  "fruit piercing moth": {
+   "name": "Fruit Piercing Moth",
+   "crops": [
+    "crops.fruits.aonla"
+   ]
+  },
+  "othreis materna": {
+   "name": "Othreis materna",
+   "crops": [
+    "crops.fruits.aonla"
+   ]
+  },
+  "ferrisia virgata": {
+   "name": "Ferrisia virgata",
+   "crops": [
+    "crops.fruits.aonla",
+    "crops.fruits.sapota",
+    "crops.grapes"
+   ]
+  },
+  "indarbela tetraonis": {
+   "name": "Indarbela tetraonis",
+   "crops": [
+    "crops.fruits.aonla"
+   ]
+  },
+  "malus sylvestris": {
+   "name": "Malus sylvestris",
+   "crops": [
+    "crops.apple"
+   ]
+  },
+  "woolly aphid": {
+   "name": "Woolly aphid",
+   "crops": [
+    "crops.apple"
+   ]
+  },
+  "eriosoma lanigerum": {
+   "name": "Eriosoma lanigerum",
+   "crops": [
+    "crops.apple"
+   ]
+  },
+  "icerya purchasi": {
+   "name": "Icerya purchasi",
+   "crops": [
+    "crops.apple",
+    "crops.fruits.lemon"
+   ]
+  },
+  "quadraspidiotus perniciosus": {
+   "name": "Quadraspidiotus perniciosus",
+   "crops": [
+    "crops.apple",
+    "crops.fruits.plum"
+   ]
+  },
+  "apriona cinera": {
+   "name": "Apriona cinera",
+   "crops": [
+    "crops.apple"
+   ]
+  },
+  "codling moth": {
+   "name": "Codling moth",
+   "crops": [
+    "crops.apple"
+   ]
+  },
+  "cydia": {
+   "name": "Cydia",
+   "crops": [
+    "crops.apple"
+   ]
+  },
+  "carpocapsa": {
+   "name": "Carpocapsa",
+   "crops": [
+    "crops.apple"
+   ]
+  },
+  "areca catechu": {
+   "name": "Areca catechu",
+   "crops": [
+    "crops.plantation.arecanut"
+   ]
+  },
+  "carvalhoia arecae": {
+   "name": "Carvalhoia arecae",
+   "crops": [
+    "crops.plantation.arecanut"
+   ]
+  },
+  "oligonychus indicus": {
+   "name": "Oligonychus indicus",
+   "crops": [
+    "crops.plantation.arecanut"
+   ]
+  },
+  "leucopholis burmeisteri": {
+   "name": "Leucopholis burmeisteri",
+   "crops": [
+    "crops.plantation.arecanut"
+   ]
+  },
+  "tirathaba mundella": {
+   "name": "Tirathaba mundella",
+   "crops": [
+    "crops.plantation.arecanut"
+   ]
+  },
+  "musa sp": {
+   "name": "Musa sp",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "cosmopolites sordidus": {
+   "name": "Cosmopolites sordidus",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "aspidiotus destructor": {
+   "name": "Aspidiotus destructor",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "odoiporus longicollis": {
+   "name": "Odoiporus longicollis",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "chaetanaphothrips signipennis": {
+   "name": "Chaetanaphothrips signipennis",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "pentalonia nigronervosa f. typica": {
+   "name": "Pentalonia nigronervosa f. typica",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "pericallia ricini": {
+   "name": "Pericallia ricini",
+   "crops": [
+    "crops.banana",
+    "crops.castor"
+   ]
+  },
+  "stephanitis typicus": {
+   "name": "Stephanitis typicus",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "spodoptera litura": {
+   "name": "Spodoptera litura",
+   "crops": [
+    "crops.banana",
+    "crops.castor",
+    "crops.soybean",
+    "crops.sunflower",
+    "crops.vegetables.cabbage"
+   ]
+  },
+  "bengal gram": {
+   "name": "Bengal Gram",
+   "crops": [
+    "crops.gram"
+   ]
+  },
+  "cicer arietinum l.": {
+   "name": "Cicer arietinum L.",
+   "crops": [
+    "crops.gram"
+   ]
+  },
+  "fabaceae": {
+   "name": "Fabaceae",
+   "crops": [
+    "crops.cowpea",
+    "crops.gram",
+    "crops.vegetables.beans"
+   ]
+  },
+  "helicoverpa armigera": {
+   "name": "Helicoverpa armigera",
+   "crops": [
+    "crops.cowpea",
+    "crops.gram",
+    "crops.safflower",
+    "crops.soybean",
+    "crops.sunflower",
+    "crops.vegetables.beans"
+   ]
+  },
+  "agrotis ipsilon": {
+   "name": "Agrotis ipsilon",
+   "crops": [
+    "crops.gram"
+   ]
+  },
+  "autographa nigrisigna": {
+   "name": "Autographa nigrisigna",
+   "crops": [
+    "crops.gram"
+   ]
+  },
+  "odontotermes obesus": {
+   "name": "Odontotermes obesus",
+   "crops": [
+    "crops.gram"
+   ]
+  },
+  "shoot and fruit borer": {
+   "name": "Shoot and fruit borer",
+   "crops": [
+    "crops.vegetables.brinjal",
+    "crops.vegetables.okra"
+   ]
+  },
+  "bhendi fruit borer": {
+   "name": "Bhendi fruit borer",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "shoot weevil": {
+   "name": "Shoot weevil",
+   "crops": [
+    "crops.cotton",
+    "crops.vegetables.okra"
+   ]
+  },
+  "stem weevil": {
+   "name": "Stem weevil",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "leaf roller": {
+   "name": "Leaf roller",
+   "crops": [
+    "crops.cotton",
+    "crops.vegetables.okra"
+   ]
+  },
+  "semilooper": {
+   "name": "Semilooper",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "whitefly": {
+   "name": "Whitefly",
+   "crops": [
+    "crops.cotton",
+    "crops.green_gram",
+    "crops.potato",
+    "crops.tomato",
+    "crops.vegetables.beans",
+    "crops.vegetables.okra",
+    "crops.vegetables.tapioca"
+   ]
+  },
+  "jassids": {
+   "name": "Jassids",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "aphid": {
+   "name": "Aphid",
+   "crops": [
+    "crops.fruits.pear",
+    "crops.mango",
+    "crops.vegetables.okra"
+   ]
+  },
+  "red cotton bug": {
+   "name": "Red cotton bug",
+   "crops": [
+    "crops.cotton",
+    "crops.vegetables.okra"
+   ]
+  },
+  "anthracnose": {
+   "name": "Anthracnose",
+   "crops": [
+    "crops.black_gram"
+   ]
+  },
+  "rust": {
+   "name": "Rust",
+   "crops": [
+    "crops.black_gram"
+   ]
+  },
+  "cercospora leaf spot": {
+   "name": "Cercospora leaf spot",
+   "crops": [
+    "crops.black_gram"
+   ]
+  },
+  "powdery mildew": {
+   "name": "Powdery Mildew",
+   "crops": [
+    "crops.black_gram"
+   ]
+  },
+  "dry root rot": {
+   "name": "Dry Root Rot",
+   "crops": [
+    "crops.black_gram"
+   ]
+  },
+  "yellow mosaic": {
+   "name": "Yellow Mosaic",
+   "crops": [
+    "crops.black_gram"
+   ]
+  },
+  "leaf crinkle": {
+   "name": "Leaf Crinkle",
+   "crops": [
+    "crops.black_gram"
+   ]
+  },
+  "solanaceae": {
+   "name": "Solanaceae",
+   "crops": [
+    "crops.chili",
+    "crops.onion",
+    "crops.tomato",
+    "crops.vegetables.brinjal"
+   ]
+  },
+  "stem borer": {
+   "name": "Stem borer",
+   "crops": [
+    "crops.bajra",
+    "crops.cotton",
+    "crops.fruits.pear",
+    "crops.jowar",
+    "crops.maize",
+    "crops.mango",
+    "crops.vegetables.brinjal"
+   ]
+  },
+  "ash weevils": {
+   "name": "Ash weevils",
+   "crops": [
+    "crops.cotton",
+    "crops.vegetables.brinjal"
+   ]
+  },
+  "brown leaf hopper": {
+   "name": "Brown leaf hopper",
+   "crops": [
+    "crops.vegetables.brinjal"
+   ]
+  },
+  "lace wing bug": {
+   "name": "Lace wing bug",
+   "crops": [
+    "crops.vegetables.brinjal"
+   ]
+  },
+  "euphorbiaceae": {
+   "name": "Euphorbiaceae",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "ricinus communis": {
+   "name": "Ricinus communis",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "liriomyza trifolii": {
+   "name": "Liriomyza trifolii",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "achaea janata": {
+   "name": "Achaea janata",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "paralellia algira": {
+   "name": "Paralellia algira",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "parasa lepida": {
+   "name": "Parasa lepida",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "spilosoma oblique": {
+   "name": "Spilosoma oblique",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "orgyia": {
+   "name": "Orgyia",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "notolophus": {
+   "name": "Notolophus",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "conogethes": {
+   "name": "Conogethes",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "empoasca flavescens": {
+   "name": "Empoasca flavescens",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "trialeurodes ricini": {
+   "name": "Trialeurodes ricini",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "ergolis merione": {
+   "name": "Ergolis merione",
+   "crops": [
+    "crops.castor"
+   ]
+  },
+  "chilli thrips": {
+   "name": "Chilli thrips",
+   "crops": [
+    "crops.chili"
+   ]
+  },
+  "green peach aphid": {
+   "name": "Green peach aphid",
+   "crops": [
+    "crops.chili",
+    "crops.fruits.papaya",
+    "crops.potato"
+   ]
+  },
+  "tobacco cutworm": {
+   "name": "Tobacco cutworm",
+   "crops": [
+    "crops.chili",
+    "crops.cotton"
+   ]
+  },
+  "gram caterpillar": {
+   "name": "Gram caterpillar",
+   "crops": [
+    "crops.chili"
+   ]
+  },
+  "yellow mite": {
+   "name": "Yellow mite",
+   "crops": [
+    "crops.chili"
+   ]
+  },
+  "citrus spp": {
+   "name": "Citrus spp",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "citrus aphids black aphid": {
+   "name": "Citrus aphids Black aphid",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "citrus thrips": {
+   "name": "Citrus thrips",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "thrips nilgiriensis": {
+   "name": "Thrips nilgiriensis",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "citrus black fly": {
+   "name": "Citrus Black fly",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "aleurocanthus woglumi": {
+   "name": "Aleurocanthus woglumi",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "cottony cushion scale": {
+   "name": "Cottony cushion scale",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "citrus psyllid": {
+   "name": "Citrus psyllid",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "diaphorina citri": {
+   "name": "Diaphorina citri",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "citrus leaf miner": {
+   "name": "Citrus leaf miner",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "phyllocnistic citrella": {
+   "name": "Phyllocnistic citrella",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "mealy bug": {
+   "name": "Mealy bug",
+   "crops": [
+    "crops.coconut",
+    "crops.fruits.lemon",
+    "crops.grapes",
+    "crops.rice"
+   ]
+  },
+  "planoccus citri": {
+   "name": "Planoccus citri",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "citrus butterfly": {
+   "name": "Citrus butterfly",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "fruit sucking moth": {
+   "name": "Fruit sucking moth",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "syzygium aromaticum": {
+   "name": "Syzygium aromaticum",
+   "crops": [
+    "crops.spices.clove"
+   ]
+  },
+  "sahyadrassus malabaricus": {
+   "name": "Sahyadrassus malabaricus",
+   "crops": [
+    "crops.spices.clove"
+   ]
+  },
+  "scale insect": {
+   "name": "Scale insect",
+   "crops": [
+    "crops.coconut",
+    "crops.spices.clove"
+   ]
+  },
+  "scirtothirps dorsalis": {
+   "name": "Scirtothirps dorsalis",
+   "crops": [
+    "crops.spices.clove"
+   ]
+  },
+  "arecaceae": {
+   "name": "Arecaceae",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "coconut rugose spiral white fly management": {
+   "name": "Coconut Rugose Spiral White Fly Management",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "coconut root wilt disease management": {
+   "name": "Coconut Root wilt Disease Management",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "coconut tanjore wilt disease management": {
+   "name": "Coconut Tanjore wilt Disease Management",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "coconut red palm weevil management": {
+   "name": "Coconut Red Palm Weevil Management",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "coconut rhinocerous bettle management": {
+   "name": "Coconut Rhinocerous Bettle Management",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "black headed caterpillar management in coconut": {
+   "name": "Black Headed Caterpillar Management in Coconut",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "rhinoceros beetle": {
+   "name": "Rhinoceros beetle",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "red palm weevil": {
+   "name": "Red Palm Weevil",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "coconut eriophyid": {
+   "name": "Coconut Eriophyid",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "slug caterpillar": {
+   "name": "Slug Caterpillar",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "coconut skipper": {
+   "name": "Coconut Skipper",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "coreid bug": {
+   "name": "Coreid Bug",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "bag worm": {
+   "name": "Bag Worm",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "white grub": {
+   "name": "White Grub",
+   "crops": [
+    "crops.coconut",
+    "crops.sugarcane"
+   ]
+  },
+  "termite": {
+   "name": "Termite",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "lacewing bug": {
+   "name": "Lacewing Bug",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "c.liberica": {
+   "name": "C.liberica",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "white stem borer": {
+   "name": "White stem borer",
+   "crops": [
+    "crops.coffee",
+    "crops.ragi"
+   ]
+  },
+  "xylotrechus quadripes": {
+   "name": "Xylotrechus quadripes",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "cockchafers or white grubs": {
+   "name": "Cockchafers or white grubs",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "holotrichia spp": {
+   "name": "Holotrichia spp",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "coffee berry borer": {
+   "name": "Coffee berry borer",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "hypothenemus hampei": {
+   "name": "Hypothenemus hampei",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "hairy caterpillars": {
+   "name": "Hairy caterpillars",
+   "crops": [
+    "crops.coffee",
+    "crops.mango"
+   ]
+  },
+  "eupterote spp": {
+   "name": "Eupterote spp",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "shot hole borer": {
+   "name": "Shot hole borer",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "xylosandrus compactus": {
+   "name": "Xylosandrus compactus",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "coffee bean beetle": {
+   "name": "Coffee bean beetle",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "araecerus fasciculatus": {
+   "name": "Araecerus fasciculatus",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "mealy bugs": {
+   "name": "Mealy bugs",
+   "crops": [
+    "crops.coffee",
+    "crops.cotton"
+   ]
+  },
+  "planococcus spp": {
+   "name": "Planococcus spp",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "snail": {
+   "name": "Snail",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "ariophanta solata": {
+   "name": "Ariophanta solata",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "green scale": {
+   "name": "Green scale",
+   "crops": [
+    "crops.coffee",
+    "crops.fruits.guava"
+   ]
+  },
+  "coccus viridis": {
+   "name": "Coccus viridis",
+   "crops": [
+    "crops.coffee",
+    "crops.fruits.guava",
+    "crops.fruits.sapota"
+   ]
+  },
+  "red borer": {
+   "name": "Red borer",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "zeuzera coffeae": {
+   "name": "Zeuzera coffeae",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "brown scale": {
+   "name": "Brown scale",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "saissetia coffeae": {
+   "name": "Saissetia coffeae",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "source": {
+   "name": "Source",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "pest management of horticultural crops": {
+   "name": "Pest management of horticultural crops",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "plutella xylostella": {
+   "name": "Plutella xylostella",
+   "crops": [
+    "crops.mustard",
+    "crops.vegetables.cabbage"
+   ]
+  },
+  "hellula undalis": {
+   "name": "Hellula undalis",
+   "crops": [
+    "crops.mustard",
+    "crops.vegetables.cabbage"
+   ]
+  },
+  "crocidolomia binotalis": {
+   "name": "Crocidolomia binotalis",
+   "crops": [
+    "crops.mustard",
+    "crops.vegetables.cabbage"
+   ]
+  },
+  "cabbage aphid": {
+   "name": "Cabbage aphid",
+   "crops": [
+    "crops.vegetables.cabbage"
+   ]
+  },
+  "brevicoryne brassicae": {
+   "name": "Brevicoryne brassicae",
+   "crops": [
+    "crops.vegetables.cabbage"
+   ]
+  },
+  "trichoplusia ni": {
+   "name": "Trichoplusia ni",
+   "crops": [
+    "crops.vegetables.cabbage"
+   ]
+  },
+  "lipaphis erysimi": {
+   "name": "Lipaphis erysimi",
+   "crops": [
+    "crops.mustard",
+    "crops.vegetables.cabbage"
+   ]
+  },
+  "american boll worm": {
+   "name": "American boll worm",
+   "crops": [
+    "crops.cotton"
+   ]
+  },
+  "pink bollworm": {
+   "name": "Pink bollworm",
+   "crops": [
+    "crops.cotton"
+   ]
+  },
+  "spotted bollworms": {
+   "name": "Spotted bollworms",
+   "crops": [
+    "crops.cotton"
+   ]
+  },
+  "cotton stem weevil": {
+   "name": "Cotton Stem Weevil",
+   "crops": [
+    "crops.cotton"
+   ]
+  },
+  "leaf hopper": {
+   "name": "Leaf hopper",
+   "crops": [
+    "crops.cotton",
+    "crops.sesame",
+    "crops.vegetables.beans"
+   ]
+  },
+  "cotton aphid": {
+   "name": "Cotton aphid",
+   "crops": [
+    "crops.cotton"
+   ]
+  },
+  "thrips": {
+   "name": "Thrips",
+   "crops": [
+    "crops.cotton",
+    "crops.rice",
+    "crops.tomato"
+   ]
+  },
+  "dusky cotton bug": {
+   "name": "Dusky cotton bug",
+   "crops": [
+    "crops.cotton"
+   ]
+  },
+  "cowpea": {
+   "name": "Cowpea",
+   "crops": [
+    "crops.cowpea"
+   ]
+  },
+  "vigna unguiculata": {
+   "name": "Vigna unguiculata",
+   "crops": [
+    "crops.cowpea"
+   ]
+  },
+  "empoasca kerri": {
+   "name": "Empoasca kerri",
+   "crops": [
+    "crops.cowpea",
+    "crops.vegetables.beans"
+   ]
+  },
+  "maruca vitrata": {
+   "name": "Maruca vitrata",
+   "crops": [
+    "crops.cowpea",
+    "crops.vegetables.beans"
+   ]
+  },
+  "riptortus pedestris": {
+   "name": "Riptortus pedestris",
+   "crops": [
+    "crops.cowpea",
+    "crops.vegetables.beans"
+   ]
+  },
+  "etiella zinckenella": {
+   "name": "Etiella zinckenella",
+   "crops": [
+    "crops.cowpea",
+    "crops.vegetables.beans"
+   ]
+  },
+  "coptosoma cribraria": {
+   "name": "Coptosoma cribraria",
+   "crops": [
+    "crops.cowpea",
+    "crops.vegetables.beans"
+   ]
+  },
+  "lampides boeticus": {
+   "name": "Lampides boeticus",
+   "crops": [
+    "crops.cowpea",
+    "crops.vegetables.beans"
+   ]
+  },
+  "bemisia tabaci": {
+   "name": "Bemisia tabaci",
+   "crops": [
+    "crops.cowpea",
+    "crops.fruits.papaya",
+    "crops.soybean",
+    "crops.vegetables.beans"
+   ]
+  },
+  "euchrysops cnejus": {
+   "name": "Euchrysops cnejus",
+   "crops": [
+    "crops.cowpea",
+    "crops.vegetables.beans"
+   ]
+  },
+  "mylabris phalerata": {
+   "name": "Mylabris phalerata",
+   "crops": [
+    "crops.cowpea",
+    "crops.vegetables.beans"
+   ]
+  },
+  "aphis craccivora": {
+   "name": "Aphis craccivora",
+   "crops": [
+    "crops.cowpea",
+    "crops.vegetables.beans"
+   ]
+  },
+  "pennisetum glaucum": {
+   "name": "Pennisetum glaucum",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "atherigona approximate": {
+   "name": "Atherigona approximate",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "geromyia penniseti": {
+   "name": "Geromyia penniseti",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "chilo partellus": {
+   "name": "Chilo partellus",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "stink bug": {
+   "name": "Stink bug",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "nezara viridula": {
+   "name": "Nezara viridula",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "sesamia inferens": {
+   "name": "Sesamia inferens",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "pink stem borer": {
+   "name": "Pink stem borer",
+   "crops": [
+    "crops.jowar",
+    "crops.maize",
+    "crops.ragi"
+   ]
+  },
+  "earhead bug": {
+   "name": "Earhead bug",
+   "crops": [
+    "crops.jowar",
+    "crops.ragi",
+    "crops.rice"
+   ]
+  },
+  "aphids": {
+   "name": "Aphids",
+   "crops": [
+    "crops.fodder",
+    "crops.ragi",
+    "crops.sesame"
+   ]
+  },
+  "root aphid": {
+   "name": "Root aphid",
+   "crops": [
+    "crops.ragi"
+   ]
+  },
+  "cutworm": {
+   "name": "Cutworm",
+   "crops": [
+    "crops.ragi"
+   ]
+  },
+  "grasshopper": {
+   "name": "Grasshopper",
+   "crops": [
+    "crops.ragi",
+    "crops.rice",
+    "crops.sugarcane"
+   ]
+  },
+  "leaf folder": {
+   "name": "Leaf folder",
+   "crops": [
+    "crops.ragi",
+    "crops.rice"
+   ]
+  },
+  "ragi leaf hopper": {
+   "name": "Ragi leaf hopper",
+   "crops": [
+    "crops.ragi"
+   ]
+  },
+  "yellow aphid": {
+   "name": "Yellow aphid",
+   "crops": [
+    "crops.ragi"
+   ]
+  },
+  "shoot fly": {
+   "name": "Shoot fly",
+   "crops": [
+    "crops.fodder",
+    "crops.jowar",
+    "crops.maize"
+   ]
+  },
+  "fall armyworm": {
+   "name": "Fall armyworm",
+   "crops": [
+    "crops.fodder",
+    "crops.maize"
+   ]
+  },
+  "anthracnose and red rot": {
+   "name": "Anthracnose and red rot",
+   "crops": [
+    "crops.fodder"
+   ]
+  },
+  "phadka grasshopper": {
+   "name": "Phadka Grasshopper",
+   "crops": [
+    "crops.fodder"
+   ]
+  },
+  "american bollworm": {
+   "name": "American bollworm",
+   "crops": [
+    "crops.fodder"
+   ]
+  },
+  "cowpea aphid": {
+   "name": "Cowpea aphid",
+   "crops": [
+    "crops.fodder"
+   ]
+  },
+  "cowpea mosaic": {
+   "name": "Cowpea mosaic",
+   "crops": [
+    "crops.fodder"
+   ]
+  },
+  "tree fodder": {
+   "name": "Tree Fodder",
+   "crops": [
+    "crops.fodder"
+   ]
+  },
+  "vitis vinifera": {
+   "name": "Vitis vinifera",
+   "crops": [
+    "crops.grapes"
+   ]
+  },
+  "sthenias grisator": {
+   "name": "Sthenias grisator",
+   "crops": [
+    "crops.grapes"
+   ]
+  },
+  "scelodonta strigicollis": {
+   "name": "Scelodonta strigicollis",
+   "crops": [
+    "crops.grapes"
+   ]
+  },
+  "maconellicoccus hirsutus": {
+   "name": "Maconellicoccus hirsutus",
+   "crops": [
+    "crops.grapes"
+   ]
+  },
+  "rhipiphorothrips cruentatus": {
+   "name": "Rhipiphorothrips cruentatus",
+   "crops": [
+    "crops.grapes"
+   ]
+  },
+  "oxyptilus regulus": {
+   "name": "Oxyptilus regulus",
+   "crops": [
+    "crops.grapes"
+   ]
+  },
+  "gram pod borer": {
+   "name": "Gram pod borer",
+   "crops": [
+    "crops.green_gram",
+    "crops.pigeon_pea"
+   ]
+  },
+  "spotted pod borer": {
+   "name": "Spotted pod borer",
+   "crops": [
+    "crops.green_gram",
+    "crops.pigeon_pea"
+   ]
+  },
+  "gram blue butterfly": {
+   "name": "Gram blue butterfly",
+   "crops": [
+    "crops.green_gram"
+   ]
+  },
+  "aphid aphis": {
+   "name": "Aphid Aphis",
+   "crops": [
+    "crops.green_gram"
+   ]
+  },
+  "pod bugs": {
+   "name": "Pod bugs",
+   "crops": [
+    "crops.green_gram"
+   ]
+  },
+  "blister beetles": {
+   "name": "Blister Beetles",
+   "crops": [
+    "crops.green_gram"
+   ]
+  },
+  "psidium guajava": {
+   "name": "Psidium guajava",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "congethes (=dichocrocis) punctiferalis": {
+   "name": "Congethes (=Dichocrocis) punctiferalis",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "tea mosquito bug": {
+   "name": "Tea mosquito bug",
+   "crops": [
+    "crops.fruits.guava",
+    "crops.tea"
+   ]
+  },
+  "helopeltis antonii": {
+   "name": "Helopeltis antonii",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "deudorix (virachola) isocrates": {
+   "name": "Deudorix (Virachola) isocrates",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "rapala varuna": {
+   "name": "Rapala varuna",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "tailed mealy bug": {
+   "name": "Tailed mealy bug",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "ferrisa virgata": {
+   "name": "Ferrisa virgata",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "guava fruit fly": {
+   "name": "Guava fruit fly",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "bactrocera diversus": {
+   "name": "Bactrocera diversus",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "spiraling whitefly": {
+   "name": "Spiraling whitefly",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "aleurodicus dispersus": {
+   "name": "Aleurodicus dispersus",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "bark eating caterpillars": {
+   "name": "Bark eating caterpillars",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "indarbella sp": {
+   "name": "Indarbella sp",
+   "crops": [
+    "crops.fruits.guava"
+   ]
+  },
+  "lab lab": {
+   "name": "Lab Lab",
+   "crops": [
+    "crops.vegetables.beans"
+   ]
+  },
+  "lablab purpureus": {
+   "name": "Lablab purpureus",
+   "crops": [
+    "crops.vegetables.beans"
+   ]
+  },
+  "ear head bug": {
+   "name": "Ear head bug",
+   "crops": [
+    "crops.maize"
+   ]
+  },
+  "web worm": {
+   "name": "Web worm",
+   "crops": [
+    "crops.maize"
+   ]
+  },
+  "ash weevil": {
+   "name": "Ash weevil",
+   "crops": [
+    "crops.maize"
+   ]
+  },
+  "leafhopper": {
+   "name": "Leafhopper",
+   "crops": [
+    "crops.maize"
+   ]
+  },
+  "aphid or plant lice": {
+   "name": "Aphid or plant lice",
+   "crops": [
+    "crops.maize"
+   ]
+  },
+  "shoot bug": {
+   "name": "Shoot bug",
+   "crops": [
+    "crops.jowar",
+    "crops.maize"
+   ]
+  },
+  "bark borer": {
+   "name": "Bark borer",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "shoot borer": {
+   "name": "Shoot borer",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "mango hoppers": {
+   "name": "Mango hoppers",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "inflorescence midge": {
+   "name": "Inflorescence midge",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "loopers": {
+   "name": "Loopers",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "fruit fly": {
+   "name": "Fruit fly",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "mango nut weevil": {
+   "name": "Mango nut weevil",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "shoot webber": {
+   "name": "Shoot webber",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "leaf gall midges": {
+   "name": "Leaf gall midges",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "scales": {
+   "name": "Scales",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "gaint mealybug": {
+   "name": "Gaint mealybug",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "red ants": {
+   "name": "Red ants",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "brassica": {
+   "name": "Brassica",
+   "crops": [
+    "crops.mustard"
+   ]
+  },
+  "chromatomyia horticola": {
+   "name": "Chromatomyia horticola",
+   "crops": [
+    "crops.mustard"
+   ]
+  },
+  "athalialugens proxima": {
+   "name": "Athalialugens proxima",
+   "crops": [
+    "crops.mustard"
+   ]
+  },
+  "bargrada hilaris (cruciferarum)": {
+   "name": "Bargrada hilaris (cruciferarum)",
+   "crops": [
+    "crops.mustard"
+   ]
+  },
+  "onion": {
+   "name": "Onion",
+   "crops": [
+    "crops.onion"
+   ]
+  },
+  "allium cepa": {
+   "name": "Allium cepa",
+   "crops": [
+    "crops.onion"
+   ]
+  },
+  "thrips tabaci": {
+   "name": "Thrips tabaci",
+   "crops": [
+    "crops.onion",
+    "crops.soybean"
+   ]
+  },
+  "delia": {
+   "name": "Delia",
+   "crops": [
+    "crops.onion"
+   ]
+  },
+  "euborellia annulipes": {
+   "name": "Euborellia annulipes",
+   "crops": [
+    "crops.onion"
+   ]
+  },
+  "carica papaya": {
+   "name": "Carica papaya",
+   "crops": [
+    "crops.fruits.papaya"
+   ]
+  },
+  "myllocerus spp": {
+   "name": "Myllocerus spp",
+   "crops": [
+    "crops.fruits.papaya"
+   ]
+  },
+  "bactrocera (dacus) dorsalis": {
+   "name": "Bactrocera (Dacus) dorsalis",
+   "crops": [
+    "crops.fruits.papaya",
+    "crops.fruits.sapota"
+   ]
+  },
+  "myzus persicae": {
+   "name": "Myzus persicae",
+   "crops": [
+    "crops.fruits.papaya",
+    "crops.fruits.peach"
+   ]
+  },
+  "prunus persica": {
+   "name": "Prunus persica",
+   "crops": [
+    "crops.fruits.peach"
+   ]
+  },
+  "qudraspidiotus perniciosus": {
+   "name": "Qudraspidiotus perniciosus",
+   "crops": [
+    "crops.fruits.peach"
+   ]
+  },
+  "peach borer": {
+   "name": "Peach borer",
+   "crops": [
+    "crops.fruits.peach",
+    "crops.fruits.plum"
+   ]
+  },
+  "sphenoptera lafertei": {
+   "name": "Sphenoptera lafertei",
+   "crops": [
+    "crops.fruits.peach",
+    "crops.fruits.plum"
+   ]
+  },
+  "pyrus communis": {
+   "name": "Pyrus communis",
+   "crops": [
+    "crops.fruits.pear"
+   ]
+  },
+  "sahydrassus (=phassus) malabaricus": {
+   "name": "Sahydrassus (=Phassus) malabaricus",
+   "crops": [
+    "crops.fruits.pear"
+   ]
+  },
+  "dilachnus krishni": {
+   "name": "Dilachnus krishni",
+   "crops": [
+    "crops.fruits.pear"
+   ]
+  },
+  "ananas comosus": {
+   "name": "Ananas comosus",
+   "crops": [
+    "crops.fruits.pineapple"
+   ]
+  },
+  "pseudococcus brevipes": {
+   "name": "Pseudococcus brevipes",
+   "crops": [
+    "crops.fruits.pineapple"
+   ]
+  },
+  "oryctes rhinoceros": {
+   "name": "Oryctes rhinoceros",
+   "crops": [
+    "crops.fruits.pineapple"
+   ]
+  },
+  "prunus salicina": {
+   "name": "Prunus salicina",
+   "crops": [
+    "crops.fruits.plum"
+   ]
+  },
+  "anomala lineatipennis": {
+   "name": "Anomala lineatipennis",
+   "crops": [
+    "crops.fruits.plum"
+   ]
+  },
+  "potato tuber moth": {
+   "name": "Potato tuber moth",
+   "crops": [
+    "crops.potato"
+   ]
+  },
+  "white grubs": {
+   "name": "White grubs",
+   "crops": [
+    "crops.potato"
+   ]
+  },
+  "tobacco caterpillar": {
+   "name": "Tobacco Caterpillar",
+   "crops": [
+    "crops.potato"
+   ]
+  },
+  "green leaf hopper": {
+   "name": "Green Leaf Hopper",
+   "crops": [
+    "crops.potato"
+   ]
+  },
+  "blue butterfly": {
+   "name": "Blue butterfly",
+   "crops": [
+    "crops.pigeon_pea"
+   ]
+  },
+  "grass blue butterfly": {
+   "name": "Grass blue butterfly",
+   "crops": [
+    "crops.pigeon_pea"
+   ]
+  },
+  "plume moth": {
+   "name": "Plume moth",
+   "crops": [
+    "crops.pigeon_pea"
+   ]
+  },
+  "field bean pod borer": {
+   "name": "Field bean pod borer",
+   "crops": [
+    "crops.pigeon_pea"
+   ]
+  },
+  "tur pod fly": {
+   "name": "Tur pod fly",
+   "crops": [
+    "crops.pigeon_pea"
+   ]
+  },
+  "stem fly": {
+   "name": "Stem fly",
+   "crops": [
+    "crops.pigeon_pea"
+   ]
+  },
+  "sterility mite": {
+   "name": "Sterility mite",
+   "crops": [
+    "crops.pigeon_pea"
+   ]
+  },
+  "brown plant hopper": {
+   "name": "Brown Plant Hopper",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "yellow stemborer": {
+   "name": "Yellow Stemborer",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "gall midge": {
+   "name": "Gall midge",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "case worm": {
+   "name": "Case worm",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "whorl maggot": {
+   "name": "Whorl maggot",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "swarming caterpillar": {
+   "name": "Swarming caterpillar",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "skipper": {
+   "name": "Skipper",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "green horned caterpillar": {
+   "name": "Green horned caterpillar",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "yellow hairy caterpillar": {
+   "name": "Yellow hairy caterpillar",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "green leafhopper": {
+   "name": "Green leafhopper",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "white backed plant hopper": {
+   "name": "White backed plant hopper",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "carthamus tinctorius": {
+   "name": "Carthamus tinctorius",
+   "crops": [
+    "crops.safflower"
+   ]
+  },
+  "acanthiophilus helianthi rossi": {
+   "name": "Acanthiophilus helianthi rossi",
+   "crops": [
+    "crops.safflower"
+   ]
+  },
+  "perigaea capensis": {
+   "name": "Perigaea capensis",
+   "crops": [
+    "crops.safflower"
+   ]
+  },
+  "uroleucon carthami": {
+   "name": "Uroleucon carthami",
+   "crops": [
+    "crops.safflower"
+   ]
+  },
+  "achras sapota": {
+   "name": "Achras sapota",
+   "crops": [
+    "crops.fruits.sapota"
+   ]
+  },
+  "anarsia epotias": {
+   "name": "Anarsia epotias",
+   "crops": [
+    "crops.fruits.sapota"
+   ]
+  },
+  "metanastria hytaca": {
+   "name": "Metanastria hytaca",
+   "crops": [
+    "crops.fruits.sapota"
+   ]
+  },
+  "plocaederus ferrugineus": {
+   "name": "Plocaederus ferrugineus",
+   "crops": [
+    "crops.fruits.sapota"
+   ]
+  },
+  "nephopteyrx eugraphella": {
+   "name": "Nephopteyrx eugraphella",
+   "crops": [
+    "crops.fruits.sapota"
+   ]
+  },
+  "sesamum indicum": {
+   "name": "Sesamum indicum",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "leaf webber and capsule borer": {
+   "name": "Leaf webber and capsule borer",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "antigastra catalaunalis": {
+   "name": "Antigastra catalaunalis",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "orosius albicinctus": {
+   "name": "Orosius albicinctus",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "hawk or dead head moth (sphinx caterpillar)": {
+   "name": "Hawk or Dead head moth (Sphinx caterpillar)",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "acherontia styx": {
+   "name": "Acherontia styx",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "aphis gossypii": {
+   "name": "Aphis gossypii",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "gall fly": {
+   "name": "Gall fly",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "asphondylia sesami": {
+   "name": "Asphondylia sesami",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "sorghum bicolor": {
+   "name": "Sorghum bicolor",
+   "crops": [
+    "crops.jowar"
+   ]
+  },
+  "ear head caterpillar": {
+   "name": "Ear head caterpillar",
+   "crops": [
+    "crops.jowar"
+   ]
+  },
+  "black mould": {
+   "name": "Black mould",
+   "crops": [
+    "crops.jowar"
+   ]
+  },
+  "glycine max": {
+   "name": "Glycine max",
+   "crops": [
+    "crops.soybean"
+   ]
+  },
+  "spilosoma obliqua": {
+   "name": "Spilosoma obliqua",
+   "crops": [
+    "crops.soybean",
+    "crops.sunflower"
+   ]
+  },
+  "soybean aphid": {
+   "name": "Soybean Aphid",
+   "crops": [
+    "crops.soybean"
+   ]
+  },
+  "aphis spp.": {
+   "name": "Aphis spp.",
+   "crops": [
+    "crops.soybean"
+   ]
+  },
+  "apheliona maculosa": {
+   "name": "Apheliona maculosa",
+   "crops": [
+    "crops.soybean"
+   ]
+  },
+  "oberea (obereopsis) brevis": {
+   "name": "Oberea (Obereopsis) brevis",
+   "crops": [
+    "crops.soybean"
+   ]
+  },
+  "melanagromyza sojae": {
+   "name": "Melanagromyza sojae",
+   "crops": [
+    "crops.soybean"
+   ]
+  },
+  "early shoot borer": {
+   "name": "Early shoot borer",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "internode borer": {
+   "name": "Internode borer",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "top shoot borer": {
+   "name": "Top shoot borer",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "white flies": {
+   "name": "White flies",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "sugarcane wolly aphid": {
+   "name": "Sugarcane wolly aphid",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "mealybug": {
+   "name": "Mealybug",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "scale insects": {
+   "name": "Scale insects",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "termites": {
+   "name": "Termites",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "sun flower": {
+   "name": "Sun flower",
+   "crops": [
+    "crops.sunflower"
+   ]
+  },
+  "helianthus annus": {
+   "name": "Helianthus annus",
+   "crops": [
+    "crops.sunflower"
+   ]
+  },
+  "amrasca biguttula": {
+   "name": "Amrasca biguttula",
+   "crops": [
+    "crops.sunflower"
+   ]
+  },
+  "psittacula kramer": {
+   "name": "Psittacula kramer",
+   "crops": [
+    "crops.sunflower"
+   ]
+  },
+  "spiralling whitefly": {
+   "name": "Spiralling whitefly",
+   "crops": [
+    "crops.vegetables.tapioca"
+   ]
+  },
+  "cassava scale": {
+   "name": "Cassava scale",
+   "crops": [
+    "crops.vegetables.tapioca"
+   ]
+  },
+  "cassava mealy bug": {
+   "name": "Cassava mealy bug",
+   "crops": [
+    "crops.vegetables.tapioca"
+   ]
+  },
+  "camellia sinensis": {
+   "name": "Camellia sinensis",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "helopeltis theivora": {
+   "name": "Helopeltis theivora",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "brevipalpus californicus": {
+   "name": "Brevipalpus californicus",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "biston supressaria": {
+   "name": "Biston supressaria",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "calacarus carinatus": {
+   "name": "Calacarus carinatus",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "neostauropus alternus": {
+   "name": "Neostauropus alternus",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "acaphylla theae": {
+   "name": "Acaphylla theae",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "cydia leuocostoma": {
+   "name": "Cydia leuocostoma",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "polyphagotarsonemus latus": {
+   "name": "Polyphagotarsonemus latus",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "homona coffearia": {
+   "name": "Homona coffearia",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "scirtothrips bispinosus": {
+   "name": "Scirtothrips bispinosus",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "envallacea fornicatus": {
+   "name": "Envallacea fornicatus",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "toxoptera aurantii": {
+   "name": "Toxoptera aurantii",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "oligonychus coffeae": {
+   "name": "Oligonychus coffeae",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "serpentine leaf miner": {
+   "name": "Serpentine leaf miner",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "leaf eating caterpillar": {
+   "name": "Leaf eating caterpillar",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "striped mealybug": {
+   "name": "Striped mealybug",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "red spider mite": {
+   "name": "Red spider mite",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "pinworm": {
+   "name": "Pinworm",
+   "crops": [
+    "crops.tomato"
+   ]
+  }
+ },
+ "diseases": {
+  "heart-rot": {
+   "name": "Heart-rot",
+   "crops": [
+    "crops.apple"
+   ]
+  },
+  "leaf and fruit-rot": {
+   "name": "Leaf and Fruit-rot",
+   "crops": [
+    "crops.apple"
+   ]
+  },
+  "thielaviopsis rot": {
+   "name": "Thielaviopsis rot",
+   "crops": [
+    "crops.apple"
+   ]
+  },
+  "foot rot or anabe roga": {
+   "name": "Foot rot or Anabe roga",
+   "crops": [
+    "crops.plantation.arecanut"
+   ]
+  },
+  "yellow leaf disease": {
+   "name": "Yellow leaf disease",
+   "crops": [
+    "crops.plantation.arecanut",
+    "crops.sugarcane"
+   ]
+  },
+  "bud rot": {
+   "name": "Bud rot",
+   "crops": [
+    "crops.coconut",
+    "crops.plantation.arecanut"
+   ]
+  },
+  "inflorescence die back and button shedding": {
+   "name": "Inflorescence die back and button shedding",
+   "crops": [
+    "crops.plantation.arecanut"
+   ]
+  },
+  "anthracnose": {
+   "name": "Anthracnose",
+   "crops": [
+    "crops.banana",
+    "crops.black_gram",
+    "crops.fruits.guava",
+    "crops.fruits.papaya",
+    "crops.green_gram",
+    "crops.mango",
+    "crops.tobacco"
+   ]
+  },
+  "banana bract virus": {
+   "name": "Banana bract virus",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "bunchy top of banana": {
+   "name": "Bunchy Top of banana",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "erwinia rot": {
+   "name": "Erwinia rot",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "infection chlorosis mossaic": {
+   "name": "Infection chlorosis mossaic",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "panama wilt": {
+   "name": "Panama wilt",
+   "crops": [
+    "crops.banana"
+   ]
+  },
+  "shoot and fruit borer": {
+   "name": "Shoot and fruit borer",
+   "crops": [
+    "crops.vegetables.brinjal",
+    "crops.vegetables.okra"
+   ]
+  },
+  "bhendi fruit borer": {
+   "name": "Bhendi fruit borer",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "shoot weevil": {
+   "name": "Shoot weevil",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "stem weevil": {
+   "name": "Stem weevil",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "leaf roller": {
+   "name": "Leaf roller",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "semilooper": {
+   "name": "Semilooper",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "whitefly": {
+   "name": "Whitefly",
+   "crops": [
+    "crops.tomato",
+    "crops.vegetables.okra"
+   ]
+  },
+  "jassids": {
+   "name": "Jassids",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "aphid": {
+   "name": "Aphid",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "red cotton bug": {
+   "name": "Red cotton bug",
+   "crops": [
+    "crops.vegetables.okra"
+   ]
+  },
+  "rust": {
+   "name": "Rust",
+   "crops": [
+    "crops.bajra",
+    "crops.black_gram",
+    "crops.coffee",
+    "crops.fruits.guava",
+    "crops.green_gram",
+    "crops.jowar",
+    "crops.safflower",
+    "crops.sugarcane",
+    "crops.sunflower"
+   ]
+  },
+  "cercospora leaf spot": {
+   "name": "Cercospora leaf spot",
+   "crops": [
+    "crops.bajra",
+    "crops.black_gram",
+    "crops.castor",
+    "crops.cotton",
+    "crops.green_gram"
+   ]
+  },
+  "powdery mildew": {
+   "name": "Powdery Mildew",
+   "crops": [
+    "crops.black_gram",
+    "crops.castor",
+    "crops.fruits.papaya",
+    "crops.fruits.peach",
+    "crops.gram",
+    "crops.grapes",
+    "crops.green_gram",
+    "crops.mango",
+    "crops.pigeon_pea",
+    "crops.rubber",
+    "crops.safflower",
+    "crops.sesame",
+    "crops.tobacco"
+   ]
+  },
+  "dry root rot": {
+   "name": "Dry Root Rot",
+   "crops": [
+    "crops.black_gram",
+    "crops.gram",
+    "crops.green_gram",
+    "crops.pigeon_pea"
+   ]
+  },
+  "yellow mosaic": {
+   "name": "Yellow Mosaic",
+   "crops": [
+    "crops.black_gram",
+    "crops.green_gram",
+    "crops.soybean"
+   ]
+  },
+  "leaf crinkle": {
+   "name": "Leaf Crinkle",
+   "crops": [
+    "crops.black_gram",
+    "crops.green_gram"
+   ]
+  },
+  "solanaceae": {
+   "name": "Solanaceae",
+   "crops": [
+    "crops.chili",
+    "crops.onion",
+    "crops.tomato",
+    "crops.vegetables.brinjal"
+   ]
+  },
+  "stem borer": {
+   "name": "Stem borer",
+   "crops": [
+    "crops.vegetables.brinjal"
+   ]
+  },
+  "ash weevils": {
+   "name": "Ash weevils",
+   "crops": [
+    "crops.vegetables.brinjal"
+   ]
+  },
+  "brown leaf hopper": {
+   "name": "Brown leaf hopper",
+   "crops": [
+    "crops.vegetables.brinjal"
+   ]
+  },
+  "lace wing bug": {
+   "name": "Lace wing bug",
+   "crops": [
+    "crops.vegetables.brinjal"
+   ]
+  },
+  "mosaic virus": {
+   "name": "Mosaic virus",
+   "crops": [
+    "crops.cardamom"
+   ]
+  },
+  "elettaria cardamomum": {
+   "name": "Elettaria cardamomum",
+   "crops": [
+    "crops.cardamom"
+   ]
+  },
+  "seedling blight": {
+   "name": "Seedling Blight",
+   "crops": [
+    "crops.castor",
+    "crops.plantation.cocoa"
+   ]
+  },
+  "alternaria blight": {
+   "name": "Alternaria Blight",
+   "crops": [
+    "crops.castor",
+    "crops.gram",
+    "crops.safflower",
+    "crops.sunflower"
+   ]
+  },
+  "wilt": {
+   "name": "Wilt",
+   "crops": [
+    "crops.castor",
+    "crops.cotton",
+    "crops.safflower",
+    "crops.sugarcane"
+   ]
+  },
+  "ascochyta blight": {
+   "name": "Ascochyta Blight",
+   "crops": [
+    "crops.gram"
+   ]
+  },
+  "botrytis gray mold": {
+   "name": "Botrytis Gray Mold",
+   "crops": [
+    "crops.gram"
+   ]
+  },
+  "collar rot": {
+   "name": "Collar Rot",
+   "crops": [
+    "crops.gram"
+   ]
+  },
+  "fusarium wilt": {
+   "name": "Fusarium Wilt",
+   "crops": [
+    "crops.cowpea",
+    "crops.gram",
+    "crops.pigeon_pea",
+    "crops.sesame"
+   ]
+  },
+  "chilli thrips": {
+   "name": "Chilli thrips",
+   "crops": [
+    "crops.chili"
+   ]
+  },
+  "green peach aphid": {
+   "name": "Green peach aphid",
+   "crops": [
+    "crops.chili"
+   ]
+  },
+  "tobacco cutworm": {
+   "name": "Tobacco cutworm",
+   "crops": [
+    "crops.chili"
+   ]
+  },
+  "gram caterpillar": {
+   "name": "Gram caterpillar",
+   "crops": [
+    "crops.chili"
+   ]
+  },
+  "yellow mite": {
+   "name": "Yellow mite",
+   "crops": [
+    "crops.chili"
+   ]
+  },
+  "gummosis": {
+   "name": "Gummosis",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "canker": {
+   "name": "Canker",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "tristeza or quick decline": {
+   "name": "Tristeza or quick decline",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "greening": {
+   "name": "Greening",
+   "crops": [
+    "crops.fruits.lemon"
+   ]
+  },
+  "seedling wilt": {
+   "name": "Seedling Wilt",
+   "crops": [
+    "crops.spices.clove"
+   ]
+  },
+  "fusarium": {
+   "name": "Fusarium",
+   "crops": [
+    "crops.cotton",
+    "crops.spices.clove"
+   ]
+  },
+  "rhizoctonia": {
+   "name": "Rhizoctonia",
+   "crops": [
+    "crops.spices.clove"
+   ]
+  },
+  "cylindrocladium quinquiseptatum": {
+   "name": "Cylindrocladium quinquiseptatum",
+   "crops": [
+    "crops.spices.clove"
+   ]
+  },
+  "gloeosporium gleosporioides": {
+   "name": "Gloeosporium gleosporioides",
+   "crops": [
+    "crops.spices.clove"
+   ]
+  },
+  "cylindrocladium": {
+   "name": "Cylindrocladium",
+   "crops": [
+    "crops.spices.clove"
+   ]
+  },
+  "trichoderma": {
+   "name": "Trichoderma",
+   "crops": [
+    "crops.spices.clove"
+   ]
+  },
+  "black pod rot": {
+   "name": "Black Pod rot",
+   "crops": [
+    "crops.plantation.cocoa"
+   ]
+  },
+  "stem canker": {
+   "name": "Stem Canker",
+   "crops": [
+    "crops.plantation.cocoa"
+   ]
+  },
+  "vascular streak dieback (vsd)": {
+   "name": "Vascular Streak Dieback (VSD)",
+   "crops": [
+    "crops.plantation.cocoa"
+   ]
+  },
+  "cherelle rot": {
+   "name": "Cherelle Rot",
+   "crops": [
+    "crops.plantation.cocoa"
+   ]
+  },
+  "leaf blight": {
+   "name": "Leaf blight",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "stem bleeding disease": {
+   "name": "Stem bleeding disease",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "root wilt(or) kerala wilt disease": {
+   "name": "Root wilt(or) Kerala wilt disease",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "leaf rot disease": {
+   "name": "Leaf rot disease",
+   "crops": [
+    "crops.coconut"
+   ]
+  },
+  "brown leaf spot": {
+   "name": "Brown leaf spot",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "die back or anthranose": {
+   "name": "Die back or Anthranose",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "black rot or koleroga": {
+   "name": "Black rot or koleroga",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "root rot": {
+   "name": "Root rot",
+   "crops": [
+    "crops.coffee",
+    "crops.cotton",
+    "crops.sesame"
+   ]
+  },
+  "berry blotch": {
+   "name": "Berry blotch",
+   "crops": [
+    "crops.coffee"
+   ]
+  },
+  "verticillium": {
+   "name": "Verticillium",
+   "crops": [
+    "crops.cotton"
+   ]
+  },
+  "grey or areolate mildew": {
+   "name": "Grey or Areolate mildew",
+   "crops": [
+    "crops.cotton"
+   ]
+  },
+  "boll rot": {
+   "name": "Boll rot",
+   "crops": [
+    "crops.cotton"
+   ]
+  },
+  "alternaria leaf blight": {
+   "name": "Alternaria leaf blight",
+   "crops": [
+    "crops.cotton",
+    "crops.sesame"
+   ]
+  },
+  "bacterial blight": {
+   "name": "Bacterial blight",
+   "crops": [
+    "crops.cotton",
+    "crops.soybean"
+   ]
+  },
+  "tobacco streak virus": {
+   "name": "Tobacco Streak Virus",
+   "crops": [
+    "crops.cotton"
+   ]
+  },
+  "root rot and damping off": {
+   "name": "Root rot and Damping off",
+   "crops": [
+    "crops.cowpea"
+   ]
+  },
+  "southern blight": {
+   "name": "Southern Blight",
+   "crops": [
+    "crops.cowpea"
+   ]
+  },
+  "cowpea mosaic": {
+   "name": "Cowpea Mosaic",
+   "crops": [
+    "crops.cowpea"
+   ]
+  },
+  "downy mildew": {
+   "name": "Downy Mildew",
+   "crops": [
+    "crops.bajra",
+    "crops.grapes",
+    "crops.jowar",
+    "crops.mustard",
+    "crops.ragi",
+    "crops.sunflower"
+   ]
+  },
+  "ergot": {
+   "name": "Ergot",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "head mold": {
+   "name": "Head Mold",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "bipolaris leaf spot": {
+   "name": "Bipolaris Leaf spot",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "curvularia leaf spot": {
+   "name": "Curvularia Leaf Spot",
+   "crops": [
+    "crops.bajra"
+   ]
+  },
+  "blast": {
+   "name": "BLAST",
+   "crops": [
+    "crops.ragi",
+    "crops.rice"
+   ]
+  },
+  "smut": {
+   "name": "SMUT",
+   "crops": [
+    "crops.jowar",
+    "crops.ragi",
+    "crops.sugarcane"
+   ]
+  },
+  "mossaic": {
+   "name": "MOSSAIC",
+   "crops": [
+    "crops.ragi"
+   ]
+  },
+  "mottle streak": {
+   "name": "MOTTLE STREAK",
+   "crops": [
+    "crops.ragi"
+   ]
+  },
+  "bacterial leaf spot": {
+   "name": "BACTERIAL LEAF SPOT",
+   "crops": [
+    "crops.ragi"
+   ]
+  },
+  "soft rot or rhizome rot": {
+   "name": "Soft rot or rhizome rot",
+   "crops": [
+    "crops.ginger"
+   ]
+  },
+  "bacterial wilt": {
+   "name": "Bacterial wilt",
+   "crops": [
+    "crops.ginger"
+   ]
+  },
+  "leaf spot": {
+   "name": "Leaf spot",
+   "crops": [
+    "crops.fruits.sapota",
+    "crops.ginger",
+    "crops.safflower",
+    "crops.turmeric"
+   ]
+  },
+  "vitis vinifera": {
+   "name": "Vitis vinifera",
+   "crops": [
+    "crops.grapes"
+   ]
+  },
+  "source": {
+   "name": "Source",
+   "crops": [
+    "crops.grapes"
+   ]
+  },
+  "algal leaf spot": {
+   "name": "Algal leaf spot",
+   "crops": [
+    "crops.fruits.guava",
+    "crops.tea"
+   ]
+  },
+  "turcicum leaf blight (tlb)": {
+   "name": "Turcicum Leaf Blight (TLB)",
+   "crops": [
+    "crops.maize"
+   ]
+  },
+  "charcoal rot": {
+   "name": "Charcoal Rot",
+   "crops": [
+    "crops.maize",
+    "crops.soybean",
+    "crops.sunflower",
+    "crops.vegetables.sweet_potato"
+   ]
+  },
+  "common rust": {
+   "name": "Common Rust",
+   "crops": [
+    "crops.maize"
+   ]
+  },
+  "aspergillus rot": {
+   "name": "Aspergillus Rot",
+   "crops": [
+    "crops.maize"
+   ]
+  },
+  "mango malformation": {
+   "name": "Mango malformation",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "stem end rot": {
+   "name": "Stem end rot",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "red rust": {
+   "name": "Red rust",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "grey blight": {
+   "name": "Grey Blight",
+   "crops": [
+    "crops.mango"
+   ]
+  },
+  "sooty mould": {
+   "name": "Sooty mould",
+   "crops": [
+    "crops.fruits.sapota",
+    "crops.mango"
+   ]
+  },
+  "sclerotinia stem rot": {
+   "name": "Sclerotinia Stem Rot",
+   "crops": [
+    "crops.mustard"
+   ]
+  },
+  "alternaria black spot": {
+   "name": "Alternaria Black Spot",
+   "crops": [
+    "crops.mustard"
+   ]
+  },
+  "white rust": {
+   "name": "White Rust",
+   "crops": [
+    "crops.mustard"
+   ]
+  },
+  "myristica fragrans": {
+   "name": "Myristica fragrans",
+   "crops": [
+    "crops.spices.nutmeg"
+   ]
+  },
+  "leaf spot and shot hole": {
+   "name": "Leaf spot and shot hole",
+   "crops": [
+    "crops.spices.nutmeg"
+   ]
+  },
+  "fruit rot": {
+   "name": "Fruit rot",
+   "crops": [
+    "crops.spices.nutmeg"
+   ]
+  },
+  "onion": {
+   "name": "Onion",
+   "crops": [
+    "crops.onion"
+   ]
+  },
+  "allium cepa": {
+   "name": "Allium cepa",
+   "crops": [
+    "crops.onion"
+   ]
+  },
+  "thrips tabaci": {
+   "name": "Thrips tabaci",
+   "crops": [
+    "crops.onion"
+   ]
+  },
+  "delia": {
+   "name": "Delia",
+   "crops": [
+    "crops.onion"
+   ]
+  },
+  "euborellia annulipes": {
+   "name": "Euborellia annulipes",
+   "crops": [
+    "crops.onion"
+   ]
+  },
+  "papaya ring spot": {
+   "name": "Papaya ring spot",
+   "crops": [
+    "crops.fruits.papaya"
+   ]
+  },
+  "leaf curl": {
+   "name": "Leaf curl",
+   "crops": [
+    "crops.fruits.papaya",
+    "crops.tobacco"
+   ]
+  },
+  "peach leaf curl": {
+   "name": "Peach leaf curl",
+   "crops": [
+    "crops.fruits.peach"
+   ]
+  },
+  "fire blight": {
+   "name": "Fire Blight",
+   "crops": [
+    "crops.fruits.pear"
+   ]
+  },
+  "leaf blight and fruit spot": {
+   "name": "Leaf Blight and Fruit Spot",
+   "crops": [
+    "crops.fruits.pear"
+   ]
+  },
+  "bitter rot": {
+   "name": "Bitter Rot",
+   "crops": [
+    "crops.fruits.pear"
+   ]
+  },
+  "black rot": {
+   "name": "Black Rot",
+   "crops": [
+    "crops.fruits.pear",
+    "crops.vegetables.sweet_potato"
+   ]
+  },
+  "piper longum": {
+   "name": "Piper longum",
+   "crops": [
+    "crops.black_pepper"
+   ]
+  },
+  "bacterial canker": {
+   "name": "Bacterial Canker",
+   "crops": [
+    "crops.fruits.plum"
+   ]
+  },
+  "brown rot": {
+   "name": "Brown Rot",
+   "crops": [
+    "crops.fruits.plum"
+   ]
+  },
+  "bacterial spot of plum": {
+   "name": "Bacterial Spot of Plum",
+   "crops": [
+    "crops.fruits.plum"
+   ]
+  },
+  "cercospora fruit spot": {
+   "name": "Cercospora fruit Spot",
+   "crops": [
+    "crops.fruits.pomegranate"
+   ]
+  },
+  "leaf spot or blight": {
+   "name": "Leaf Spot or Blight",
+   "crops": [
+    "crops.fruits.pomegranate"
+   ]
+  },
+  "alternaria fruit spot": {
+   "name": "Alternaria Fruit Spot",
+   "crops": [
+    "crops.fruits.pomegranate"
+   ]
+  },
+  "late blight": {
+   "name": "Late blight",
+   "crops": [
+    "crops.potato"
+   ]
+  },
+  "early blight": {
+   "name": "Early blight",
+   "crops": [
+    "crops.potato"
+   ]
+  },
+  "post-harvest tuber rots": {
+   "name": "Post-harvest tuber rots",
+   "crops": [
+    "crops.potato"
+   ]
+  },
+  "black scurf": {
+   "name": "Black scurf",
+   "crops": [
+    "crops.potato"
+   ]
+  },
+  "bacterial soft rot": {
+   "name": "Bacterial Soft rot",
+   "crops": [
+    "crops.potato",
+    "crops.vegetables.sweet_potato"
+   ]
+  },
+  "alternaria leaf spot": {
+   "name": "Alternaria Leaf Spot",
+   "crops": [
+    "crops.pigeon_pea",
+    "crops.soybean"
+   ]
+  },
+  "pigeon pea sterility mosaic": {
+   "name": "Pigeon pea sterility Mosaic",
+   "crops": [
+    "crops.pigeon_pea"
+   ]
+  },
+  "mungbean yellow mosaic virus": {
+   "name": "Mungbean yellow mosaic virus",
+   "crops": [
+    "crops.pigeon_pea"
+   ]
+  },
+  "brown spot": {
+   "name": "Brown Spot",
+   "crops": [
+    "crops.rice",
+    "crops.tobacco"
+   ]
+  },
+  "bacterial leaf blight": {
+   "name": "Bacterial Leaf Blight",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "rice tungro": {
+   "name": "Rice Tungro",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "sheath rot": {
+   "name": "Sheath Rot",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "sheath blight": {
+   "name": "Sheath blight",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "false smut": {
+   "name": "False Smut",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "bacterial leaf streak": {
+   "name": "Bacterial Leaf Streak",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "bakanae": {
+   "name": "Bakanae",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "rice yellow dwarf": {
+   "name": "Rice Yellow Dwarf",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "rice grassy stunt": {
+   "name": "Rice Grassy stunt",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "grain discolouration": {
+   "name": "Grain discolouration",
+   "crops": [
+    "crops.rice"
+   ]
+  },
+  "abnormal leaf fall": {
+   "name": "Abnormal leaf fall",
+   "crops": [
+    "crops.rubber"
+   ]
+  },
+  "birds eye spot": {
+   "name": "Birds eye spot",
+   "crops": [
+    "crops.rubber"
+   ]
+  },
+  "corynespora leaf spot": {
+   "name": "Corynespora leaf spot",
+   "crops": [
+    "crops.rubber"
+   ]
+  },
+  "pink disease": {
+   "name": "Pink disease",
+   "crops": [
+    "crops.rubber"
+   ]
+  },
+  "brown root diseases": {
+   "name": "Brown root diseases",
+   "crops": [
+    "crops.rubber"
+   ]
+  },
+  "colletotrichum leaf disease": {
+   "name": "Colletotrichum Leaf Disease",
+   "crops": [
+    "crops.rubber"
+   ]
+  },
+  "mosaic": {
+   "name": "Mosaic",
+   "crops": [
+    "crops.safflower",
+    "crops.tobacco"
+   ]
+  },
+  "sesamum phyllody": {
+   "name": "Sesamum Phyllody",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "cercospora leaf root": {
+   "name": "Cercospora Leaf Root",
+   "crops": [
+    "crops.sesame"
+   ]
+  },
+  "head smut": {
+   "name": "Head Smut",
+   "crops": [
+    "crops.jowar"
+   ]
+  },
+  "covered kernel smut": {
+   "name": "Covered Kernel Smut",
+   "crops": [
+    "crops.jowar"
+   ]
+  },
+  "long smut": {
+   "name": "Long Smut",
+   "crops": [
+    "crops.jowar"
+   ]
+  },
+  "anthracnose and red rot": {
+   "name": "Anthracnose and Red Rot",
+   "crops": [
+    "crops.jowar"
+   ]
+  },
+  "cereal grain molds": {
+   "name": "Cereal Grain Molds",
+   "crops": [
+    "crops.jowar"
+   ]
+  },
+  "cercospora leaf blight": {
+   "name": "Cercospora Leaf Blight",
+   "crops": [
+    "crops.soybean"
+   ]
+  },
+  "frog eye leaf spot": {
+   "name": "Frog Eye Leaf Spot",
+   "crops": [
+    "crops.soybean",
+    "crops.tobacco"
+   ]
+  },
+  "rhizoctonia aerial blight": {
+   "name": "Rhizoctonia Aerial Blight",
+   "crops": [
+    "crops.soybean"
+   ]
+  },
+  "soybean mosaic": {
+   "name": "Soybean Mosaic",
+   "crops": [
+    "crops.soybean"
+   ]
+  },
+  "ratoon stunting": {
+   "name": "RATOON STUNTING",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "red rot": {
+   "name": "RED ROT",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "sett rot": {
+   "name": "SETT ROT",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "grassy shoot disease": {
+   "name": "GRASSY SHOOT DISEASE",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "pokkah boeng": {
+   "name": "POKKAH BOENG",
+   "crops": [
+    "crops.sugarcane"
+   ]
+  },
+  "rhizopus head rot": {
+   "name": "Rhizopus head rot",
+   "crops": [
+    "crops.sunflower"
+   ]
+  },
+  "sclerotium wilt or rot": {
+   "name": "Sclerotium wilt or rot",
+   "crops": [
+    "crops.sunflower"
+   ]
+  },
+  "sunflower necrosis": {
+   "name": "Sunflower necrosis",
+   "crops": [
+    "crops.sunflower"
+   ]
+  },
+  "sunflower mosaic virus": {
+   "name": "Sunflower mosaic virus",
+   "crops": [
+    "crops.sunflower"
+   ]
+  },
+  "rhizopus soft rot": {
+   "name": "Rhizopus Soft Rot",
+   "crops": [
+    "crops.vegetables.sweet_potato"
+   ]
+  },
+  "scurf": {
+   "name": "Scurf",
+   "crops": [
+    "crops.vegetables.sweet_potato"
+   ]
+  },
+  "blister blight": {
+   "name": "Blister blight",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "horse hair blight": {
+   "name": "Horse hair blight",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "black root rot": {
+   "name": "Black root rot",
+   "crops": [
+    "crops.tea"
+   ]
+  },
+  "damping off": {
+   "name": "Damping Off",
+   "crops": [
+    "crops.tobacco"
+   ]
+  },
+  "black shank": {
+   "name": "Black Shank",
+   "crops": [
+    "crops.tobacco"
+   ]
+  },
+  "orobanche": {
+   "name": "Orobanche",
+   "crops": [
+    "crops.tobacco"
+   ]
+  },
+  "fruit borer": {
+   "name": "Fruit Borer",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "serpentine leaf miner": {
+   "name": "Serpentine leaf miner",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "leaf eating caterpillar": {
+   "name": "Leaf eating caterpillar",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "thrips": {
+   "name": "Thrips",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "striped mealybug": {
+   "name": "Striped mealybug",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "red spider mite": {
+   "name": "Red spider mite",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "pinworm": {
+   "name": "Pinworm",
+   "crops": [
+    "crops.tomato"
+   ]
+  },
+  "leaf blotch": {
+   "name": "Leaf blotch",
+   "crops": [
+    "crops.turmeric"
+   ]
+  },
+  "rhizome rot": {
+   "name": "Rhizome rot",
+   "crops": [
+    "crops.turmeric"
+   ]
+  },
+  "farmers' inno": {
+   "name": "Farmers' Inno",
+   "crops": [
+    "crops.turmeric"
+   ]
+  }
+ }
+}

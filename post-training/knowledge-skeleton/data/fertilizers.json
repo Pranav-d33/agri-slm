@@ -1,0 +1,777 @@
+{
+  "_description": "Fertilizers domain: chemical fertilizers, biofertilizers, organic manures, and the Fertiliser Control Order framework.",
+  "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+  },
+  "entities": [
+    {
+      "id": "fertilizers",
+      "name": "Fertilizers and Manures",
+      "type": "domain",
+      "domain": "fertilizers",
+      "aliases": [
+        "Urvarak",
+        "Khad"
+      ],
+      "relations": [
+        {
+          "predicate": "part_of",
+          "object": "agriculture"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        },
+        {
+          "predicate": "regulated_by",
+          "object": "institutions.fco"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.ammonium_sulphate",
+      "name": "Ammonium Sulphate",
+      "type": "entity",
+      "domain": "fertilizers",
+      "attributes": {
+        "note": "Straight N fertilizer (21% N, 24% S)"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.chemical"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "fertilizers.azospirillum",
+      "name": "Azospirillum",
+      "type": "entity",
+      "domain": "fertilizers",
+      "attributes": {
+        "note": "N-fixing biofertilizer for non-legumes"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.bio"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "fertilizers.azotobacter",
+      "name": "Azotobacter",
+      "type": "substance",
+      "domain": "fertilizers",
+      "attributes": {
+        "type": "Free-living nitrogen fixer",
+        "use": "Cereals, cotton, vegetables"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.bio"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.wheat"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.rice"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.bio",
+      "name": "Biofertilizers",
+      "type": "category",
+      "domain": "fertilizers",
+      "aliases": [
+        "Jeev amrut",
+        "Bio-inoculants"
+      ],
+      "attributes": {
+        "note": "Living microorganisms fixing/ mobilising nutrients; promoted under National Mission for Sustainable Agriculture"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers"
+        },
+        {
+          "predicate": "part_of",
+          "object": "fertilizers"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.can",
+      "name": "Calcium Ammonium Nitrate",
+      "type": "entity",
+      "domain": "fertilizers",
+      "attributes": {
+        "note": "Straight N fertilizer (25% N); CAN"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.chemical"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "fertilizers.chemical",
+      "name": "Chemical Fertilizers",
+      "type": "category",
+      "domain": "fertilizers",
+      "aliases": [
+        "Synthetic fertilizers"
+      ],
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers"
+        },
+        {
+          "predicate": "part_of",
+          "object": "fertilizers"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.compost",
+      "name": "Compost",
+      "type": "entity",
+      "domain": "fertilizers",
+      "attributes": {
+        "note": "Decomposed organic matter; farm-made"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.manures"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "fertilizers.dap",
+      "name": "DAP",
+      "type": "substance",
+      "domain": "fertilizers",
+      "aliases": [
+        "Di-ammonium phosphate",
+        "(NH4)2HPO4"
+      ],
+      "attributes": {
+        "npk": "18-46-0",
+        "type": "Phosphatic; second most used"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.chemical"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.wheat"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.groundnut"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.pulses"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.fco",
+      "name": "Fertiliser (Control) Order 1985",
+      "type": "measure",
+      "domain": "fertilizers",
+      "aliases": [
+        "FCO"
+      ],
+      "attributes": {
+        "purpose": "Regulates quality, sale and distribution of fertilizers in India",
+        "amendment": "Neem-coated urea made mandatory (2015)"
+      },
+      "relations": [
+        {
+          "predicate": "part_of",
+          "object": "fertilizers"
+        },
+        {
+          "predicate": "regulated_by",
+          "object": "institutions.fco"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        },
+        {
+          "predicate": "is_a",
+          "object": "fertilizers"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.fym",
+      "name": "Farmyard Manure",
+      "type": "substance",
+      "domain": "fertilizers",
+      "aliases": [
+        "FYM",
+        "Gobar khad"
+      ],
+      "attributes": {
+        "note": "Cow dung + urine + litter; average NPK ~0.5-0.2-0.5%; applied at 10-25 t/ha"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.manures"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.green_manure",
+      "name": "Green Manure",
+      "type": "substance",
+      "domain": "fertilizers",
+      "aliases": [
+        "Dhaincha",
+        "Sesbania",
+        "Sunhemp"
+      ],
+      "attributes": {
+        "note": "Legumes (Sesbania, sunhemp) grown and ploughed in; adds N and organic matter to rice fields"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.manures"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.rice"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.kmb",
+      "name": "Potash Mobilizing Bacteria",
+      "type": "entity",
+      "domain": "fertilizers",
+      "attributes": {
+        "note": "K-release biofertilizer; Frateuria aurantia"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.bio"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "fertilizers.manures",
+      "name": "Organic Manures",
+      "type": "category",
+      "domain": "fertilizers",
+      "aliases": [
+        "FYM",
+        "Compost",
+        "Khad"
+      ],
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers"
+        },
+        {
+          "predicate": "part_of",
+          "object": "fertilizers"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.micro.ferrous_sulphate",
+      "name": "Ferrous Sulphate",
+      "type": "entity",
+      "domain": "fertilizers",
+      "attributes": {
+        "note": "Treats iron chlorosis; rice and sugarcane on calcareous soils"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.micronutrients"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.micro.zinc_sulphate",
+      "name": "Zinc Sulphate",
+      "type": "entity",
+      "domain": "fertilizers",
+      "attributes": {
+        "note": "Zn deficiency most widespread micronutrient issue; rice-wheat belt"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.micronutrients"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.states.punjab"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.states.haryana"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.states.uttar_pradesh"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.micronutrients",
+      "name": "Micronutrient Fertilizers",
+      "type": "category",
+      "domain": "fertilizers",
+      "aliases": [
+        "Zinc sulfate",
+        "Ferrous sulfate",
+        "Boron",
+        "Sujlam"
+      ],
+      "attributes": {
+        "note": "Zn deficiency most widespread; zinc sulfate and ferrous sulfate common; soil health card guides application"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.chemical"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.mop",
+      "name": "MOP",
+      "type": "substance",
+      "domain": "fertilizers",
+      "aliases": [
+        "Muriate of potash",
+        "Potassium chloride",
+        "KCl"
+      ],
+      "attributes": {
+        "npk": "0-0-60",
+        "type": "Potassic; almost fully imported"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.chemical"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.banana"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.sugarcane"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.neem_cake",
+      "name": "Neem Cake",
+      "type": "entity",
+      "domain": "fertilizers",
+      "attributes": {
+        "note": "Oilseed cake manure; nitrification inhibitor"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.manures"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "fertilizers.npk",
+      "name": "NPK Complex Fertilizers",
+      "type": "substance",
+      "domain": "fertilizers",
+      "aliases": [
+        "Complexes",
+        "12-32-16",
+        "10-26-26",
+        "19-19-19"
+      ],
+      "attributes": {
+        "note": "Granular complexes with varying N-P-K ratios"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.chemical"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.poultry_manure",
+      "name": "Poultry Manure",
+      "type": "entity",
+      "domain": "fertilizers",
+      "attributes": {
+        "note": "High-N farmyard manure"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.manures"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "fertilizers.psb",
+      "name": "Phosphate Solubilising Bacteria",
+      "type": "substance",
+      "domain": "fertilizers",
+      "aliases": [
+        "PSB",
+        "Azospirillum (N-fixer, often grouped)"
+      ],
+      "attributes": {
+        "type": "Phosphorus solubiliser"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.bio"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.rhizobium",
+      "name": "Rhizobium",
+      "type": "substance",
+      "domain": "fertilizers",
+      "attributes": {
+        "type": "Nitrogen-fixing bacterium",
+        "use": "Seed treatment for pulses and soybean",
+        "note": "Symbiotic N fixation in root nodules"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.bio"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.pulses"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.soybean"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.ssp",
+      "name": "Single Super Phosphate",
+      "type": "substance",
+      "domain": "fertilizers",
+      "aliases": [
+        "SSP"
+      ],
+      "attributes": {
+        "npk": "0-16-0",
+        "note": "Also supplies sulphur and calcium"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.chemical"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.urea",
+      "name": "Urea",
+      "type": "substance",
+      "domain": "fertilizers",
+      "aliases": [
+        "Yuria",
+        "CO(NH2)2"
+      ],
+      "attributes": {
+        "npk": "46-0-0",
+        "type": "Nitrogenous; most used fertilizer in India",
+        "note": "Neem-coated urea mandatory since 2015; heavily subsidised; ~30M tonnes consumed/year"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.chemical"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.rice"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.wheat"
+        },
+        {
+          "predicate": "recommended_for",
+          "object": "crops.sugarcane"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "fertilizers.vam",
+      "name": "VAM (AM Fungi)",
+      "type": "entity",
+      "domain": "fertilizers",
+      "attributes": {
+        "note": "Arbuscular mycorrhiza; P-uptake biofertilizer"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.bio"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      },
+      "aliases": []
+    },
+    {
+      "id": "fertilizers.vermicompost",
+      "name": "Vermicompost",
+      "type": "substance",
+      "domain": "fertilizers",
+      "aliases": [
+        "Kenchua khad"
+      ],
+      "attributes": {
+        "note": "Earthworm-processed compost; rich in available nutrients and humus"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "fertilizers.manures"
+        },
+        {
+          "predicate": "certified_by",
+          "object": "institutions.apeda"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    }
+  ]
+}

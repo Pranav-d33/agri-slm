@@ -1,0 +1,46 @@
+[   32730ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://desagri.gov.in/document-report-category/:0
+[   33141ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://desagri.gov.in/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[   33242ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at https://desagri.gov.in/document-report-category/:1253:17
+[   33252ms] [WARNING] jQuery.Deferred exception: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at new RmpMenu (https://desagri.gov.in/wp-content/plugins/responsive-menu/v4.0.0/assets/js/rmp-menu.js?ver=4.1.2:51:46)
+    at HTMLDocument.<anonymous> (https://desagri.gov.in/wp-content/plugins/responsive-menu/v4.0.0/assets/js/rmp-menu.js?ver=4.1.2:359:13)
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330 undefined @ https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[   33265ms] [WARNING] jQuery.Deferred exception: Illegal invocation TypeError: Illegal invocation
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330 undefined @ https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[   33265ms] [WARNING] jQuery.Deferred exception: Illegal invocation TypeError: Illegal invocation
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330 undefined @ https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[   33265ms] [WARNING] jQuery.Deferred exception: Illegal invocation TypeError: Illegal invocation
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330 undefined @ https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[   33266ms] [WARNING] jQuery.Deferred exception: Illegal invocation TypeError: Illegal invocation
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330 undefined @ https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[   33266ms] TypeError: Cannot read properties of undefined (reading 'length')
+    at new RmpMenu (https://desagri.gov.in/wp-content/plugins/responsive-menu/v4.0.0/assets/js/rmp-menu.js?ver=4.1.2:51:46)
+    at HTMLDocument.<anonymous> (https://desagri.gov.in/wp-content/plugins/responsive-menu/v4.0.0/assets/js/rmp-menu.js?ver=4.1.2:359:13)
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330
+[   33267ms] Error: createGallery Error: invalid html structure
+    at Module.k (https://desagri.gov.in/wp-content/themes/doatheme/assets/mibreit-gallery/mibreitGallery.min.js:1:24990)
+    at HTMLDocument.<anonymous> (https://desagri.gov.in/document-report-category/:1316:42)
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330
+[   33267ms] TypeError: Illegal invocation
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330
+[   33267ms] TypeError: Illegal invocation
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330
+[   33267ms] TypeError: Illegal invocation
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330
+[   33267ms] TypeError: Illegal invocation
+    at e (https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at https://desagri.gov.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330
+[   33350ms] TypeError: Cannot read properties of null (reading 'removeAttribute')
+    at PopUp (https://desagri.gov.in/document-report-category/:497:47)
+    at https://desagri.gov.in/document-report-category/:501:9

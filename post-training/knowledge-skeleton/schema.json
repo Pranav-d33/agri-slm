@@ -1,0 +1,89 @@
+{
+  "_description": "Schema contract for the Indian agriculture knowledge skeleton. Two record types: entities and relations. All facts are deterministic — each entity/relation carries a source reference registered in sources.md. No LLM-generated facts.",
+  "version": "1.0.0",
+
+  "entity": {
+    "required_fields": ["id", "name", "domain", "type", "relations", "source"],
+    "optional_fields": ["aliases", "attributes", "notes"],
+    "field_specs": {
+      "id": "Unique dotted id, e.g. soil.black_soil. URI-like so KG conversion is trivial.",
+      "name": "Canonical English name.",
+      "aliases": "Alternate names / local names (English only for now). May include AGROVOC prefLabels via agrovocId.",
+      "domain": "One of the domain roots defined below.",
+      "type": "Entity type from the type taxonomy below.",
+      "attributes": "Factual attribute map (deterministic, citeable).",
+      "relations": "Array of relation objects: {predicate, object, source?}.",
+      "source": "{id, url, fetched} referencing sources.md entry.",
+      "notes": "Free-text: coverage state, gap notes, TODO markers.",
+      "agrovocId": "Optional AGROVOC concept URI for cross-linking to agrovoc_entities_filtered.json."
+    }
+  },
+
+  "relation": {
+    "required_fields": ["predicate", "object"],
+    "predicates": {
+      "is_a": "child is_a parent (taxonomy edge)",
+      "part_of": "part of a larger entity (e.g. domain part_of agriculture)",
+      "found_in": "located/found in a location (soil in states)",
+      "grown_in": "crop/livestock raised in a location",
+      "practiced_in": "activity/technique practiced in a location",
+      "produced_in": "commodity produced in a location",
+      "registered_in": "registered/approved by an institution (pesticides, varieties)",
+      "banned_in": "banned/restricted in a location (pesticides)",
+      "recommended_for": "recommended for a crop/pest/condition",
+      "controlled_by": "controlled by a substance/measure (pest controlled_by pesticide)",
+      "affects": "affects a crop/plant (pest affects crop)",
+      "requires": "requires a resource (crop requires soil type)",
+      "suited_for": "soil suited for crop",
+      "monitored_by": "data/statistics monitored by institution",
+      "regulated_by": "regulated by institution/law",
+      "certified_by": "certified by institution (organic)",
+      "grown_in_state": "crop grown in a state (convenience of grown_in)",
+      "source": "optional per-relation source override"
+    }
+  },
+
+  "domains": {
+    "agriculture": "Root domain.",
+    "location": "Anchor: India -> states/UTs -> districts + agro-climatic zones + regions.",
+    "soil": "Soil types of India, characteristics, distribution, suitability.",
+    "crops": "All crops: cereals, millets, pulses, oilseeds, fibres, sugar, horticulture, spices, plantation, fodder; seasons, varieties, agronomy.",
+    "livestock": "Cattle, buffalo, goat, sheep, pig, poultry, camel, yak, mithun; breeds (NBAGR), dairy, diseases.",
+    "pesticides": "Registered pesticides (CIB&RC), classes, banned/restricted list, biopesticides.",
+    "fertilizers": "Chemical fertilizers, biofertilizers, manures, NPK norms.",
+    "organic": "Organic farming, NPOP/PGS-India certification, organic states, inputs, methods.",
+    "water": "Irrigation systems, water resources, river basins, groundwater.",
+    "weather": "Monsoon, seasons, agro-climatic zones, climate of India.",
+    "seeds": "Seed types, hybrid/variety lists, certification, seed corps.",
+    "machinery": "Farm machinery and implements used in India.",
+    "plant_protection": "Pests, diseases, weeds affecting Indian crops.",
+    "fisheries": "Marine, inland, aquaculture species and producing states.",
+    "post_harvest": "Storage, cold chain, processing, grading, losses.",
+    "market": "Mandis, APMC, MSP, e-NAM, exports, insurance.",
+    "schemes": "Government schemes and agricultural institutions (ICAR, SAUs, KVKs).",
+    "forestry": "Forests, timber, non-timber forest products, agroforestry.",
+    "apiculture": "Beekeeping, honey, sericulture, silk."
+  },
+
+  "entity_types": {
+    "domain": "Top-level domain",
+    "category": "Second-level grouping (e.g. cereals)",
+    "entity": "Concrete entity (e.g. black soil, rice)",
+    "variety": "Variety/hybrid/breed",
+    "location": "Location node (country/state/UT/district/zone/region)",
+    "institution": "Institution/scheme/organisation",
+    "substance": "Chemical/biological substance",
+    "measure": "Practice/technique/method",
+    "tool": "Machine/equipment",
+    "event": "Season/event (kharif, rabi, zaid, monsoon)"
+  },
+
+  "conventions": {
+    "id_format": "lower_snake_case, dotted: <domain>.<category>.<name>",
+    "name_language": "English only (v1); Hindi/local names allowed in aliases only",
+    "location_refs": "Location relations MUST resolve to ids in data/locations/*.json",
+    "source_refs": "Every entity and every relation MUST carry a source id present in sources.md",
+    "gap_marking": "Uncollected leaf-level data is marked in notes with TODO + expected count, never fabricated",
+    "kg_ready": "KG conversion = emit (id, predicate, object) for every relation; entities become nodes"
+  }
+}

@@ -1,0 +1,460 @@
+{
+ "_description": "Apiculture and sericulture domain: beekeeping, honey production and silk.",
+ "source": {
+  "id": "dacfw",
+  "url": "https://agricoop.nic.in/"
+ },
+ "entities": [
+  {
+   "id": "apiculture",
+   "name": "Apiculture and Sericulture",
+   "type": "domain",
+   "domain": "apiculture",
+   "aliases": [
+    "Beekeeping",
+    "Madhumakhi palan",
+    "Resham"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "apiculture.bees",
+   "name": "Beekeeping",
+   "type": "category",
+   "domain": "apiculture",
+   "aliases": [
+    "Madhumakhi palan"
+   ],
+   "attributes": {
+    "species": "Apis cerana indica (Indian hive bee), Apis mellifera (European), Apis dorsata (rock bee), Apis florea (little bee)",
+    "note": "Pollination service worth billions; National Beekeeping & Honey Mission (NBHM) 2020"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.west_bengal"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "apiculture.bees.cerana",
+   "name": "Indian Honey Bee (Apis cerana indica)",
+   "type": "entity",
+   "domain": "apiculture",
+   "attributes": {
+    "note": "Native hive bee; suitable for small-scale beekeeping"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.bees"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "apiculture.bees.dorsata",
+   "name": "Rock Bee (Apis dorsata)",
+   "type": "entity",
+   "domain": "apiculture",
+   "attributes": {
+    "note": "Wild, aggressive; giant combs; honey hunted from cliffs"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.bees"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "apiculture.bees.mellifera",
+   "name": "European Honey Bee (Apis mellifera)",
+   "type": "entity",
+   "domain": "apiculture",
+   "attributes": {
+    "note": "High honey yield; used in modern apiaries"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.bees"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "apiculture.honey",
+   "name": "Honey Production",
+   "type": "entity",
+   "domain": "apiculture",
+   "aliases": [
+    "Shahad"
+   ],
+   "attributes": {
+    "note": "India among top honey producers; major producing states: UP, WB, Bihar, Punjab, MP, Rajasthan, Gujarat; exports via APEDA (mustard, litchi, acacia honey)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.assam",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.bihar",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.chhattisgarh",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.haryana",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.jharkhand",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.manipur",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.meghalaya",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.mizoram",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.nagaland",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.punjab",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.rajasthan",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.sikkim",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.telangana",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tripura",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.uttar_pradesh",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.uts.jammu_kashmir",
+     "source": {
+      "id": "hsag",
+      "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "hsag",
+    "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
+   }
+  },
+  {
+   "id": "apiculture.sericulture",
+   "name": "Sericulture",
+   "type": "category",
+   "domain": "apiculture",
+   "aliases": [
+    "Resham palan",
+    "Silk farming"
+   ],
+   "attributes": {
+    "note": "India 2nd largest silk producer (after China); mulberry (Karnataka ~30% of production, also TN, AP), eri (Assam, Meghalaya), tasar (Jharkhand, Chhattisgarh, MP), muga (Assam - GI)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.karnataka"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.assam"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.jharkhand"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "apiculture.silkworm",
+   "name": "Silkworms",
+   "type": "entity",
+   "domain": "apiculture",
+   "aliases": [
+    "Bombyx mori",
+    "Antheraea spp.",
+    "Eri silkworm",
+    "Muga silkworm"
+   ],
+   "attributes": {
+    "types": "Mulberry (Bombyx mori), tasar (Antheraea mylitta), eri (Samia ricini), muga (Antheraea assamensis)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.sericulture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  }
+ ]
+}

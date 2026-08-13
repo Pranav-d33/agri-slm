@@ -1,0 +1,7498 @@
+{
+ "_description": "Livestock domain: species, registered breeds (ICAR-NBAGR), dairy sector and major animal diseases. Breed list is representative of the NBAGR registry; full registry counts tracked as gaps.",
+ "source": {
+  "id": "nbragr",
+  "url": "https://nbagr.icar.gov.in/"
+ },
+ "entities": [
+  {
+   "id": "livestock",
+   "name": "Livestock and Animals",
+   "type": "domain",
+   "domain": "livestock",
+   "aliases": [
+    "Animal husbandry",
+    "Pashudhan"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.agonda_goan",
+   "name": "Agonda Goan",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.goa"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.amritmahal",
+   "name": "Amritmahal",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; hardy of the south",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.andamani_duck",
+   "name": "Andamani",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi duck",
+    "species": "duck"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.duck"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.andaman_nicobar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.andamani_goat",
+   "name": "Andamani",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.andaman_nicobar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.andamani_pig",
+   "name": "Andamani",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.andaman_nicobar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.anjori",
+   "name": "Anjori",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.chhattisgarh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ankaleshwar",
+   "name": "Ankaleshwar",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.aravali",
+   "name": "Aravali",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.arunachali",
+   "name": "Arunachali",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Yak of the Eastern Himalayas",
+    "species": "yak"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.yak"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.arunachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.aseel",
+   "name": "Aseel",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Asil"
+   ],
+   "attributes": {
+    "species": "poultry",
+    "origin": "Punjab, UP, Andhra",
+    "note": "Game fowl; strong, aggressive; used in selective breeding"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.chhattisgarh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.assam_hill",
+   "name": "Assam Hill",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat; of the NE hills",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.meghalaya"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.attapady_black",
+   "name": "Attapady Black",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.kerala"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.avishaan",
+   "name": "Avishaan",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Synthetic: Malpura x Avikalin (fine wool)",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bachaur",
+   "name": "Bachaur",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.bihar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.badri",
+   "name": "Badri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; of the hills",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttarakhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.balangir",
+   "name": "Balangir",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.banda",
+   "name": "Banda",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.banni",
+   "name": "Banni",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.barbari",
+   "name": "Barbari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Small, prolific; meat and milk",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bargur",
+   "name": "Bargur",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bargur_buffalo",
+   "name": "Bargur",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; of the Bargur hills",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.beetal",
+   "name": "Beetal",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Large; meat and milk",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.punjab"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.belahi",
+   "name": "Belahi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.chandigarh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bellary",
+   "name": "Bellary",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.berari",
+   "name": "Berari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bhadawari",
+   "name": "Bhadawari",
+   "type": "variety",
+   "domain": "livestock",
+   "attributes": {
+    "species": "buffalo",
+    "origin": "Agra-Etawah belt, UP; MP",
+    "note": "Known for very high milk fat (up to 13%); copper-coloured"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.bhakarwal",
+   "name": "Bhakarwal",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Wool; migratory",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bhakarwali_goat",
+   "name": "Bhakarwali",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat; of Kashmir",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bharat_merino",
+   "name": "Bharat Merino",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Crossbred fine wool",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bhutia",
+   "name": "Bhutia",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mountain pony",
+    "species": "horse"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.horse"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.sikkim"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.arunachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bidri",
+   "name": "Bidri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bikaneri",
+   "name": "Bikaneri",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Bikaneri camel"
+   ],
+   "attributes": {
+    "species": "camel",
+    "origin": "Bikaner, Rajasthan",
+    "note": "Dual-purpose riding/transport camel; National Research Centre on Camel at Bikaner"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.camel"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.binjharpuri",
+   "name": "Binjharpuri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.black_bengal",
+   "name": "Black Bengal",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Black Bengal goat"
+   ],
+   "attributes": {
+    "species": "goat",
+    "origin": "West Bengal and Bangladesh",
+    "note": "Prolific, quality meat and skin; short-horned dwarf"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.bonpala",
+   "name": "Bonpala",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Wool; of Sikkim",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.sikkim"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.bundelkhandi",
+   "name": "Bundelkhandi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.busra",
+   "name": "Busra",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.changthangi",
+   "name": "Changthangi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Pashmina goat of Ladakh",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.changthangi_sheep",
+   "name": "Changthangi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Fine wool; of Ladakh",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.chaugarkha",
+   "name": "Chaugarkha",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttarakhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.chegu",
+   "name": "Chegu",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Pashmina-wool goat of high altitude",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.chevaadu",
+   "name": "Chevaadu",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.chhattisgarhi",
+   "name": "Chhattisgarhi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.chhattisgarh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.chilika",
+   "name": "Chilika",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Swamp-type; of the Chilika lake region",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.chittagong",
+   "name": "Chittagong",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.meghalaya"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tripura"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.chokla",
+   "name": "Chokla",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Fine carpet wool; Marwari cross",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.chottanagpuri",
+   "name": "Chottanagpuri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.coimbatore",
+   "name": "Coimbatore",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.dagri",
+   "name": "Dagri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.dangi",
+   "name": "Dangi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; heavy work in hills",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.danki",
+   "name": "Danki",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.daothigir",
+   "name": "Daothigir",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.deccani",
+   "name": "Deccani",
+   "type": "variety",
+   "domain": "livestock",
+   "attributes": {
+    "species": "sheep",
+    "origin": "Deccan plateau",
+    "note": "Most numerous sheep breed; mutton"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.deoni",
+   "name": "Deoni",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose; saline-soil tolerant",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.dharwadi",
+   "name": "Dharwadi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.doom",
+   "name": "Doom",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Registered indigenous pig of the Doom valley",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.frieswal",
+   "name": "Frieswal",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Synthetic: HF x Sahiwal crossbred",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttarakhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.gaddi",
+   "name": "Gaddi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Migratory hill flock; wool",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.gaddi_goat",
+   "name": "Gaddi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Rearing flocks of the Himalayan hills",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.gangatiri",
+   "name": "Gangatiri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.bihar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ganjam",
+   "name": "Ganjam",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat; black with white patches",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ganjam_sheep",
+   "name": "Ganjam",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.gaolao",
+   "name": "Gaolao",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.garole",
+   "name": "Garole",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Prolific; of the Sundarbans",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ghagus",
+   "name": "Ghagus",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ghoongroo",
+   "name": "Ghoongroo",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Small, prolific",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ghumusari",
+   "name": "Ghumusari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ghurrah",
+   "name": "Ghurrah",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.gir",
+   "name": "Gir",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Gir cow",
+    "Girnath"
+   ],
+   "attributes": {
+    "species": "cattle",
+    "origin": "Gir forests, Gujarat",
+    "note": "Milk yield among highest of indigenous breeds; exported to Brazil, USA"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.giriraja",
+   "name": "Giriraja",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Backyard dual-purpose; hardy",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.gohilwadi",
+   "name": "Gohilwadi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.gojri",
+   "name": "Gojri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; of the Gujjar pastoralists",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.gramapriya",
+   "name": "Gramapriya",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "ICAR-DPR dual-purpose; rural backyard",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.gujari",
+   "name": "Gujari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milk; of the Gujjar pastoralists",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.gurez",
+   "name": "Gurez",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Carpet wool; of the Gurez valley",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.halari",
+   "name": "Halari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Pack donkey",
+    "species": "donkey"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.donkey"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.hallikar",
+   "name": "Hallikar",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; ideal for road transport",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.hansli",
+   "name": "Hansli",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.hariana",
+   "name": "Hariana",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose; hardworking",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.harringhata_black",
+   "name": "Harringhata Black",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.hassan",
+   "name": "Hassan",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.himachali_pahari",
+   "name": "Himachali Pahari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.jaffarabadi",
+   "name": "Jaffarabadi",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Jafri buffalo"
+   ],
+   "attributes": {
+    "species": "buffalo",
+    "origin": "Saurashtra, Gujarat",
+    "note": "Heaviest buffalo breed"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.jaisalmeri",
+   "name": "Jaisalmeri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Carpet wool; desert breed",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.jaisalmeri_camel",
+   "name": "Jaisalmeri Camel",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Riding and cart camel",
+    "species": "camel"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.camel"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.jakhrana",
+   "name": "Jakhrana",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milk; high yields",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.jalauni",
+   "name": "Jalauni",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.jalori",
+   "name": "Jalori",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Riding camel",
+    "species": "camel"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.camel"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.jamunapari",
+   "name": "Jamunapari",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Jamnapari goat"
+   ],
+   "attributes": {
+    "species": "goat",
+    "origin": "Chakarnagar (Etawah), UP",
+    "note": "Tall dairy goat; 'Giant goat of India'"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.kachchhi_donkey",
+   "name": "Kachchhi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Pack donkey of Kutch",
+    "species": "donkey"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.donkey"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kachchhi_sindhi",
+   "name": "Kachchhi-Sindhi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Light horse",
+    "species": "horse"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.horse"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kadaknath",
+   "name": "Kadaknath",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Kalamasi",
+    "Black chicken"
+   ],
+   "attributes": {
+    "species": "poultry",
+    "origin": "Jhabua and Dhar districts, Madhya Pradesh",
+    "note": "Black meat and feathers; high protein; GI-tagged"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.kahmi",
+   "name": "Kahmi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kajali",
+   "name": "Kajali",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.punjab"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kalahandi",
+   "name": "Kalahandi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kalasthi",
+   "name": "Kalasthi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kangayam",
+   "name": "Kangayam",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; strong, fast",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kankrej",
+   "name": "Kankrej",
+   "type": "variety",
+   "domain": "livestock",
+   "attributes": {
+    "species": "cattle",
+    "origin": "North Gujarat/Rajasthan border",
+    "note": "Dual-purpose; strong draught breed"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.kanni_adu",
+   "name": "Kanni Adu",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.karan_fries",
+   "name": "Karan Fries",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Synthetic: HF x Tharparkar crossbred",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.karauli",
+   "name": "Karauli",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.karkambi",
+   "name": "Karkambi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.karnah",
+   "name": "Karnah",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Wool",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kashmir_anz",
+   "name": "Kashmir Anz",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Domestic geese of Kashmir",
+    "species": "geese"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.geese"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kashmir_favorolla",
+   "name": "Kashmir Favorolla",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.katchaikatty_black",
+   "name": "Katchaikatty Black",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kathani",
+   "name": "Kathani",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kathiawari",
+   "name": "Kathiawari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Light horse; curved ears",
+    "species": "horse"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.horse"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kaunayen",
+   "name": "Kaunayen",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.manipur"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kendrapada",
+   "name": "Kendrapada",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kenguri",
+   "name": "Kenguri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kenkatha",
+   "name": "Kenkatha",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; of Bundelkhand",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kharai",
+   "name": "Kharai",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Swimming camel of the Kutch coast",
+    "species": "camel"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.camel"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.khariar",
+   "name": "Khariar",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kheri",
+   "name": "Kheri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kherigarh",
+   "name": "Kherigarh",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.khillar",
+   "name": "Khillar",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; agile and disease-resistant",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kilakarsal",
+   "name": "Kilakarsal",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kodi_adu",
+   "name": "Kodi Adu",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kodo",
+   "name": "Kodo",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi duck",
+    "species": "duck"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.duck"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.konkan_kanyal",
+   "name": "Konkan Kanyal",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.konkan_kapila",
+   "name": "Konkan Kapila",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.goa"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kosali",
+   "name": "Kosali",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.chhattisgarh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.krishna_valley",
+   "name": "Krishna Valley",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kudu",
+   "name": "Kudu",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi duck",
+    "species": "duck"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.duck"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kutchi_camel",
+   "name": "Kutchi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose camel of Kutch",
+    "species": "camel"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.camel"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kutchi_goat",
+   "name": "Kutchi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milk and meat of Kutch",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.kuttanad",
+   "name": "Kuttanad",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi duck of the Kuttanad backwaters",
+    "species": "duck"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.duck"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.kerala"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ladakhi",
+   "name": "Ladakhi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; of Ladakh",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ladakhi_donkey",
+   "name": "Ladakhi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Pack donkey of Ladakh",
+    "species": "donkey"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.donkey"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.ladakh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ladakhi_yak",
+   "name": "Ladakhi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Yak of Ladakh",
+    "species": "yak"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.yak"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.ladakh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.lakhimi",
+   "name": "Lakhimi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.luit",
+   "name": "Luit (Swamp)",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Swamp buffalo of the Brahmaputra valley",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.manipur"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.macherla",
+   "name": "Macherla",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.madras_red",
+   "name": "Madras Red",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton; red coat",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.magra",
+   "name": "Magra",
+   "type": "variety",
+   "domain": "livestock",
+   "attributes": {
+    "species": "sheep",
+    "origin": "Bikaner, Rajasthan",
+    "note": "Famous for Magra carpet wool"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.maithili",
+   "name": "Maithili",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi duck",
+    "species": "duck"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.duck"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.bihar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.mala",
+   "name": "Mala",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.malabari",
+   "name": "Malabari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose; coastal",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.kerala"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.mali",
+   "name": "Mali",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tripura"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.malnad_gidda",
+   "name": "Malnad Gidda",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Small milch cow of the Western Ghats",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.malpura",
+   "name": "Malpura",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.malvi",
+   "name": "Malvi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.malvi_camel",
+   "name": "Malvi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught camel",
+    "species": "camel"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.camel"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.manah",
+   "name": "Manah",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Swamp-type",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.manda",
+   "name": "Manda",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.mandya",
+   "name": "Mandya",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton; of southern Karnataka",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.manipuri",
+   "name": "Manipuri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Polo pony",
+    "species": "horse"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.horse"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.manipur"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.manipuri_black",
+   "name": "Manipuri Black",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.manipur"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.manipuri_duck",
+   "name": "Manipuri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi duck",
+    "species": "duck"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.duck"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.manipur"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.marathwadi",
+   "name": "Marathwadi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.marwari",
+   "name": "Marwari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Carpet wool; hardy desert breed",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.marwari_camel",
+   "name": "Marwari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Riding and cart camel",
+    "species": "camel"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.camel"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.marwari_goat",
+   "name": "Marwari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.marwari_horse",
+   "name": "Marwari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Light horse; inward-curved ears",
+    "species": "horse"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.horse"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.masilum",
+   "name": "Masilum",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.meghalaya"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.mecheri",
+   "name": "Mecheri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.medini",
+   "name": "Medini",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.mehsana",
+   "name": "Mehsana",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; excellent dairy breed",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.mehsana_goat",
+   "name": "Mehsana",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milk",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.melghati",
+   "name": "Melghati",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; of the Melghat forests",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.mewari_camel",
+   "name": "Mewari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Riding camel",
+    "species": "camel"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.camel"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.mewari_chicken",
+   "name": "Mewari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.mewati",
+   "name": "Mewati",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.mewati_camel",
+   "name": "Mewati",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught camel",
+    "species": "camel"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.camel"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.miri",
+   "name": "Miri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.motu",
+   "name": "Motu",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.odisha"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.chhattisgarh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.murrah",
+   "name": "Murrah",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Murrah buffalo",
+    "Delhi breed"
+   ],
+   "attributes": {
+    "species": "buffalo",
+    "origin": "Haryana (Rohtak, Jind, Hisar)",
+    "note": "Best milch buffalo; highest milk yield among buffalo breeds"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.muzaffarnagri",
+   "name": "Muzaffarnagri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton; heavy carcass",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttarakhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nagami",
+   "name": "Nagami",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mithun of the Naga hills",
+    "species": "mithun"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.mithun"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.nagaland"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nagi",
+   "name": "Nagi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi duck",
+    "species": "duck"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.duck"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nagori",
+   "name": "Nagori",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; handsome, hardy",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nagpuri",
+   "name": "Nagpuri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual; large horns",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.naked_neck",
+   "name": "Naked Neck",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Native; heat-tolerant; bare neck",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.bihar"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.nagaland"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nali",
+   "name": "Nali",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Carpet wool; fine fleece",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nandidurga",
+   "name": "Nandidurga",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nari",
+   "name": "Nari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nellore",
+   "name": "Nellore",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton; tall, hardy",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.niang_megha",
+   "name": "Niang Megha",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.meghalaya"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nicobari",
+   "name": "Nicobari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Native of the Nicobar islands",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.andaman_nicobar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nicobari_pig",
+   "name": "Nicobari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous of the Nicobar islands",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.andaman_nicobar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.nilgiri",
+   "name": "Nilgiri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Fine wool; of the Nilgiri hills",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.niliravi",
+   "name": "Nili-Ravi",
+   "type": "variety",
+   "domain": "livestock",
+   "attributes": {
+    "species": "buffalo",
+    "origin": "Sutlej valley (Punjab, both sides of border)",
+    "note": "High milk fat (7-8%)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.punjab"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.nimari",
+   "name": "Nimari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ongole",
+   "name": "Ongole",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Nellore cattle"
+   ],
+   "attributes": {
+    "species": "cattle",
+    "origin": "Prakasam district, Andhra Pradesh",
+    "note": "Draught breed; ancestor of American Brahman"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.osmanabadi",
+   "name": "Osmanabadi",
+   "type": "variety",
+   "domain": "livestock",
+   "attributes": {
+    "species": "goat",
+    "origin": "Osmanabad, Maharashtra",
+    "note": "Dual-purpose meat/milk goat of drought-prone Deccan"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.palamu",
+   "name": "Palamu",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.panchali",
+   "name": "Panchali",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.pandharpuri",
+   "name": "Pandharpuri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; very high fat (~9%)",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.pantja",
+   "name": "Pantja",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat; of the foothills",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttarakhand"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.patanwadi",
+   "name": "Patanwadi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Wool",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.pati",
+   "name": "Pati",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi duck",
+    "species": "duck"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.duck"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.poda_thurpu",
+   "name": "Poda Thurpu",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dual-purpose",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.telangana"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ponwar",
+   "name": "Ponwar",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.poonchi",
+   "name": "Poonchi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Wool",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.pugal",
+   "name": "Pugal",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Carpet wool; desert breed",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.pulikulam",
+   "name": "Pulikulam",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; hardy of the south",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.punganur",
+   "name": "Punganur",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Smallest Indian breed; high-fat milk",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.punjab_brown",
+   "name": "Punjab Brown",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.purnathadi",
+   "name": "Purnathadi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.purnea",
+   "name": "Purnea",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.bihar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.purnea_pig",
+   "name": "Purnea",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.bihar"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.rajdigheli",
+   "name": "Rajdigheli",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Domestic geese of Assam",
+    "species": "geese"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.geese"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.ramnad_white",
+   "name": "Ramnad White",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.rampur_bushair",
+   "name": "Rampur Bushair",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Wool",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.rathi",
+   "name": "Rathi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; among best milkers",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.red_kandhari",
+   "name": "Red Kandhari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.red_sindhi",
+   "name": "Red Sindhi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; high milk fat",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.rohilkhandi",
+   "name": "Rohilkhandi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.rohilkhandi_goat",
+   "name": "Rohilkhandi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.sahiwal",
+   "name": "Sahiwal",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Sahiwal cow"
+   ],
+   "attributes": {
+    "species": "cattle",
+    "origin": "Punjab (Montgomery/Sahiwal region)",
+    "note": "Best milch breed of Indian cattle; hardy, tick-resistant"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.salem_black",
+   "name": "Salem Black",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.sanchori",
+   "name": "Sanchori",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.sangamneri",
+   "name": "Sangamneri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat breed of the drought tract",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.shahbadi",
+   "name": "Shahbadi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.bihar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.shweta_kapila",
+   "name": "Shweta Kapila",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.goa"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.siri",
+   "name": "Siri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; of the Himalayan foothills",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.sikkim"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.sirohi",
+   "name": "Sirohi",
+   "type": "variety",
+   "domain": "livestock",
+   "attributes": {
+    "species": "goat",
+    "origin": "Sirohi district, Rajasthan",
+    "note": "Hardy breed of the arid zone"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.sojat",
+   "name": "Sojat",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.sonadi",
+   "name": "Sonadi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton and wool",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.spiti",
+   "name": "Spiti",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mountain pony",
+    "species": "horse"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.horse"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.spiti_donkey",
+   "name": "Spiti",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Pack donkey of the Spiti valley",
+    "species": "donkey"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.donkey"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.himachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.sumi_ne",
+   "name": "Sumi-Ne",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat; of the Naga hills",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.nagaland"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.surti",
+   "name": "Surti",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; medium fat ~8%",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.surti_goat",
+   "name": "Surti",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.tellichery",
+   "name": "Tellichery",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.kerala"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.tenyi_vo",
+   "name": "Tenyi Vo",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.nagaland"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.teressa",
+   "name": "Teressa",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat; of the Teressa island",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.andaman_nicobar"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.tharparkar",
+   "name": "Tharparkar",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Milch; heat-tolerant desert breed",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.thutho",
+   "name": "Thutho",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; of the Naga hills",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.nagaland"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.tibetan",
+   "name": "Tibetan",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Wool; of the Tibetan plateau",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.arunachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.tiruchi_black",
+   "name": "Tiruchi Black",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.toda",
+   "name": "Toda",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; of the Nilgiris; diminutive",
+    "species": "buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.tripureswari",
+   "name": "Tripureswari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi duck",
+    "species": "duck"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.duck"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tripura"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.udaipuri",
+   "name": "Udaipuri",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttarakhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.umblachery",
+   "name": "Umblachery",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught; of the Cauvery delta",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.uttara",
+   "name": "Uttara",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Desi fowl",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttarakhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.vanaraja",
+   "name": "Vanaraja",
+   "type": "variety",
+   "domain": "livestock",
+   "attributes": {
+    "species": "poultry",
+    "origin": "ICAR-DPR, Hyderabad",
+    "note": "Backyard dual-purpose bird; hardy for rural conditions"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.west_bengal"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.bihar"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.vechur",
+   "name": "Vechur",
+   "type": "variety",
+   "domain": "livestock",
+   "aliases": [
+    "Vechur cow"
+   ],
+   "attributes": {
+    "species": "cattle",
+    "origin": "Vechur village, Kerala",
+    "note": "World's smallest cattle breed; revived from near-extinction"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.nbagr"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.kerala"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.vembur",
+   "name": "Vembur",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mutton",
+    "species": "sheep"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.vrindavani",
+   "name": "Vrindavani",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Synthetic: multi-breed crossbred",
+    "species": "cattle"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.wak_chambil",
+   "name": "Wak Chambil",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Indigenous",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.meghalaya"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.white_leghorn",
+   "name": "White Leghorn",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Exotic layer; basis of commercial egg production",
+    "species": "poultry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.zalawadi",
+   "name": "Zalawadi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Meat",
+    "species": "goat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.zanskari",
+   "name": "Zanskari",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Mountain pony of Zanskar",
+    "species": "horse"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.horse"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.jammu_kashmir"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.breed.zovawk",
+   "name": "Zovawk",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Registered indigenous pig of Mizoram",
+    "species": "pig"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.pig"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.mizoram"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.buffalo",
+   "name": "Water Buffalo",
+   "type": "category",
+   "domain": "livestock",
+   "aliases": [
+    "Bubalus bubalis",
+    "Bhains"
+   ],
+   "attributes": {
+    "note": "India has ~55% of world buffalo population; river and swamp types"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "livestock.camel",
+   "name": "Camel",
+   "type": "category",
+   "domain": "livestock",
+   "aliases": [
+    "Camelus dromedarius",
+    "Oont"
+   ],
+   "attributes": {
+    "note": "Ship of the desert; milk, wool (maldari), transport; declining population"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "livestock.cattle",
+   "name": "Cattle",
+   "type": "category",
+   "domain": "livestock",
+   "aliases": [
+    "Cow",
+    "Bos indicus",
+    "Bos taurus"
+   ],
+   "attributes": {
+    "note": "Indigenous breeds are dual/multi-purpose (milk, draught, dung)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "livestock.census",
+   "name": "Livestock Census",
+   "type": "measure",
+   "domain": "livestock",
+   "attributes": {
+    "frequency": "Every 5 years",
+    "latest": "20th Livestock Census (2019); 21st census conducted Oct 2024-Feb 2025, results not yet released",
+    "total_livestock_2019": "~536 million",
+    "poultry_2019": "~852 million",
+    "cattle_2019": "~193 million",
+    "buffalo_2019": "~110 million"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "livestock"
+    },
+    {
+     "predicate": "monitored_by",
+     "object": "institutions.dahd"
+    },
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.dairy",
+   "name": "Dairy Sector",
+   "type": "category",
+   "domain": "livestock",
+   "aliases": [
+    "Dudh utpadan"
+   ],
+   "attributes": {
+    "note": "India is world's largest milk producer (AMUL model, Operation Flood)",
+    "per_capita_availability": ">450 g/day",
+    "milk_production_2024_25": "~248 million tonnes (BAHS 2025); world largest",
+    "milk_production_2021_22": "~221 million tonnes"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "monitored_by",
+     "object": "institutions.nddb"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.madhya_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.punjab"
+    }
+   ],
+   "source": {
+    "id": "nddb",
+    "url": "https://www.nddb.coop/"
+   }
+  },
+  {
+   "id": "livestock.dairy.cooperatives",
+   "name": "Milk Cooperatives (Amul Model)",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Three-tier cooperative structure (village society -> district union -> state federation); Amul (Gujarat) is the model; ~50% of milk procured via cooperatives/parastatals"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.dairy"
+    },
+    {
+     "predicate": "monitored_by",
+     "object": "institutions.nddb"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nddb",
+    "url": "https://www.nddb.coop/"
+   }
+  },
+  {
+   "id": "livestock.dairy.operation_flood",
+   "name": "Operation Flood (White Revolution)",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "period": "1970-1996; India's largest dairy development programme; NDDB-led; linked rural milk producers to urban markets via cooperative network"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.dairy"
+    },
+    {
+     "predicate": "monitored_by",
+     "object": "institutions.nddb"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nddb",
+    "url": "https://www.nddb.coop/"
+   }
+  },
+  {
+   "id": "livestock.disease.anthrax",
+   "name": "Anthrax",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Bacillus anthracis; zoonotic; notifiable"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.diseases"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.disease.avian_influenza",
+   "name": "Avian Influenza",
+   "type": "entity",
+   "domain": "livestock",
+   "aliases": [
+    "Bird flu",
+    "H5N1",
+    "H9N2"
+   ],
+   "attributes": {
+    "species_affected": "Poultry; zoonotic",
+    "note": "Notifiable disease; culling policy under Prevention and Control of Infectious and Contagious Diseases in Animals Act 2009"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.diseases"
+    },
+    {
+     "predicate": "affects",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.disease.black_quarter",
+   "name": "Black Quarter",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Clostridium chauvoei; cattle and buffalo"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.diseases"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.disease.blue_tongue",
+   "name": "Blue Tongue",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Orbivirus; sheep; vector-borne"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.diseases"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.disease.brucellosis",
+   "name": "Brucellosis",
+   "type": "entity",
+   "domain": "livestock",
+   "aliases": [
+    "Contagious abortion",
+    "Bang's disease"
+   ],
+   "attributes": {
+    "species_affected": "Cattle, buffalo; zoonotic",
+    "note": "Causes abortion in animals; national control programme"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.diseases"
+    },
+    {
+     "predicate": "affects",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "affects",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.disease.classical_swine_fever",
+   "name": "Classical Swine Fever",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Pestivirus; pigs; notifiable"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.diseases"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.disease.fmd",
+   "name": "Foot-and-Mouth Disease",
+   "type": "entity",
+   "domain": "livestock",
+   "aliases": [
+    "FMD",
+    "Khur-pak"
+   ],
+   "attributes": {
+    "species_affected": "Cattle, buffalo, sheep, goat, pig",
+    "note": "Viral; major economic loss; national FMD control programme (NAFMDCP)",
+    "vaccine": "Inactivated vaccine, biannual"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.diseases"
+    },
+    {
+     "predicate": "affects",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "affects",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.disease.mastitis",
+   "name": "Mastitis",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "species_affected": "Dairy cattle, buffalo",
+    "note": "Udder inflammation; biggest dairy economic loss"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.diseases"
+    },
+    {
+     "predicate": "affects",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "affects",
+     "object": "livestock.buffalo"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nddb",
+    "url": "https://www.nddb.coop/"
+   }
+  },
+  {
+   "id": "livestock.disease.newcastle",
+   "name": "Newcastle Disease",
+   "type": "entity",
+   "domain": "livestock",
+   "aliases": [
+    "Ranikhet disease"
+   ],
+   "attributes": {
+    "species_affected": "Poultry",
+    "note": "Viral, highly contagious; vaccine (Lasota/R2B)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.diseases"
+    },
+    {
+     "predicate": "affects",
+     "object": "livestock.poultry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.disease.ppr",
+   "name": "Peste des Petits Ruminants",
+   "type": "entity",
+   "domain": "livestock",
+   "aliases": [
+    "PPR",
+    "Goat plague"
+   ],
+   "attributes": {
+    "species_affected": "Goat, sheep",
+    "note": "National PPR eradication programme; India committed to global eradication by 2030"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.diseases"
+    },
+    {
+     "predicate": "affects",
+     "object": "livestock.goat"
+    },
+    {
+     "predicate": "affects",
+     "object": "livestock.sheep"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.diseases",
+   "name": "Animal Diseases",
+   "type": "category",
+   "domain": "livestock",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "part_of",
+     "object": "livestock"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.donkey",
+   "name": "Donkey",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Species anchor (NBAGR registered breeds)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.duck",
+   "name": "Duck",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Species anchor (NBAGR registered breeds)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.geese",
+   "name": "Geese",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Species anchor (NBAGR registered breeds)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.goat",
+   "name": "Goat",
+   "type": "category",
+   "domain": "livestock",
+   "aliases": [
+    "Capra hircus",
+    "Bakri"
+   ],
+   "attributes": {
+    "note": "India has ~29% of world goat population; 'poor man's cow'"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "livestock.horse",
+   "name": "Horse (Equine)",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Species anchor (NBAGR registered breeds)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.mithun",
+   "name": "Mithun",
+   "type": "category",
+   "domain": "livestock",
+   "aliases": [
+    "Bos frontalis",
+    "Gayal"
+   ],
+   "attributes": {
+    "note": "Semi-domesticated bovine of NE India; meat, socio-religious value"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.arunachal_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.nagaland"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.manipur"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.mizoram"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "livestock.mithun.general",
+   "name": "Mithun (Gayal)",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Semi-domesticated bovine of NE India; meat, socio-religious value"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.mithun"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.nagaland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.manipur"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.mizoram"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "livestock.pig",
+   "name": "Pig",
+   "type": "category",
+   "domain": "livestock",
+   "aliases": [
+    "Sus scrofa",
+    "Suar"
+   ],
+   "attributes": {
+    "note": "Largest populations in NE states, UP, Jharkhand; indigenous and exotic crossbreeds"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.assam"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.poultry",
+   "name": "Poultry",
+   "type": "category",
+   "domain": "livestock",
+   "aliases": [
+    "Gallus gallus domesticus",
+    "Murgi"
+   ],
+   "attributes": {
+    "note": "Includes indigenous breeds, improved backyard breeds (Vanaraja, Gramapriya) and commercial broiler/layer lines",
+    "total_2019": "~852 million birds"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.sheep",
+   "name": "Sheep",
+   "type": "category",
+   "domain": "livestock",
+   "aliases": [
+    "Ovis aries",
+    "Bhed"
+   ],
+   "attributes": {
+    "note": "Fine wool breeds in the north, carpet-wool in Rajasthan, coarse in the south"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.telangana"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "livestock.yak",
+   "name": "Yak",
+   "type": "category",
+   "domain": "livestock",
+   "aliases": [
+    "Bos grunniens"
+   ],
+   "attributes": {
+    "note": "High-altitude livestock of the Himalayas; milk, wool, draught"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.arunachal_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.sikkim"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.himachal_pradesh"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.uts.ladakh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "livestock.yak.general",
+   "name": "Domestic Yak",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "High-altitude Himalayas; milk (high fat), hair/wool, draught, dung fuel"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.yak"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.sikkim"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.ladakh"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.holstein_friesian",
+   "name": "Holstein Friesian",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Exotic dairy breed used in India for crossbreeding (HF); recorded under Exotic/Crossbred cattle in livestock census"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.jersey",
+   "name": "Jersey",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Exotic dairy breed used in India for crossbreeding (Jersey); recorded under Exotic/Crossbred cattle in livestock census"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.brown_swiss",
+   "name": "Brown Swiss",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Exotic dairy breed used in India for crossbreeding (Brown Swiss); recorded under Exotic/Crossbred cattle in livestock census"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.cattle"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  }
+ ]
+}

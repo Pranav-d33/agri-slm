@@ -1,0 +1,246 @@
+- generic [active] [ref=f18e1]:
+  - text:   
+  - generic [ref=f18e2]:
+    - link "Skip to content" [ref=f18e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=f18e4]:
+      - generic [ref=f18e7]:
+        - link "GOVERNMENT OF INDIA" [ref=f18e9] [cursor=pointer]:
+          - /url: https://www.india.gov.in/
+        - generic [ref=f18e11]:
+          - navigation "Menu" [ref=f18e14]:
+            - list [ref=f18e15]:
+              - listitem [ref=f18e16]:
+                - link "Skip to Main Content" [ref=f18e17] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f18e18]:
+                - link "Screen Reader Access" [ref=f18e19] [cursor=pointer]:
+                  - /url: https://desagri.gov.in/screen-reader-access/
+              - listitem [ref=f18e20]:
+                - link "Old Website Link" [ref=f18e21] [cursor=pointer]:
+                  - /url: https://eands.dacnet.nic.in/Default.htm
+          - list [ref=f18e24]:
+            - listitem [ref=f18e25]:
+              - link "हिंदी" [ref=f18e26] [cursor=pointer]:
+                - /url: https://desagri.gov.in/HI/document-report-category/agriculture-statistics-at-a-glance/
+          - link "" [ref=f18e29] [cursor=pointer]:
+            - /url: https://desagri.gov.in/sitemap
+          - generic "Decrease Font Size" [ref=f18e31] [cursor=pointer]: A-
+          - generic "Default Font Size" [ref=f18e32] [cursor=pointer]: A
+          - generic "Increase Font Size" [ref=f18e33] [cursor=pointer]: A+
+          - generic "Default Theme" [ref=f18e34] [cursor=pointer]
+          - generic "Black Theme" [ref=f18e35] [cursor=pointer]
+          - generic "Green Theme" [ref=f18e36] [cursor=pointer]
+      - generic [ref=f18e39]:
+        - generic [ref=f18e41]:
+          - img "Official Website of Directorate of Economics and Statistics, Department of Agriculture, Cooperation and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India" [ref=f18e44]
+          - paragraph [ref=f18e45]:
+            - link "Director of Economics & Statistics" [ref=f18e46] [cursor=pointer]:
+              - /url: https://desagri.gov.in/
+        - generic [ref=f18e48]:
+          - generic [ref=f18e51]:
+            - textbox "Search" [ref=f18e52]
+            - button "Search" [ref=f18e53] [cursor=pointer]:
+              - img "Search" [ref=f18e54]
+          - generic [ref=f18e56]:
+            - img "IYC Logo" [ref=f18e57]
+            - img "Image of Satyamev Jayate" [ref=f18e58]
+      - navigation "Primary menu" [ref=f18e59]:
+        - generic [ref=f18e60]:
+          - generic [ref=f18e61]:
+            - link "Left Menu Button":
+              - /url: "#"
+              - generic [ref=f18e62] [cursor=pointer]: 
+              - text: 
+          - generic [ref=f18e64] [cursor=pointer]:
+            - text: More
+            - generic [ref=f18e65]: 
+  - generic [ref=f18e66]:
+    - list [ref=f18e69]:
+      - listitem [ref=f18e70]:
+        - link "Home" [ref=f18e71] [cursor=pointer]:
+          - /url: https://desagri.gov.in
+      - listitem [ref=f18e72]: ">"
+      - listitem [ref=f18e73]:
+        - link "Documents & Reports" [ref=f18e74] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=f18e75]: ">"
+      - listitem [ref=f18e76]:
+        - strong [ref=f18e77]: Agriculture Statistics -At a Glance
+    - main [ref=f18e79]:
+      - generic [ref=f18e80]:
+        - heading "Agriculture Statistics -At a Glance" [level=1] [ref=f18e83]
+        - generic [ref=f18e84]:
+          - generic [ref=f18e85]: Please select the year
+          - combobox "Please select the year" [ref=f18e88]:
+            - option "-Select Year-" [selected]
+            - option "2024"
+            - option "2023"
+            - option "2022"
+            - option "2021"
+        - generic [ref=f18e90]:
+          - table [ref=f18e92]:
+            - rowgroup [ref=f18e93]:
+              - row [ref=f18e94]:
+                - columnheader "Details" [ref=f18e95]
+                - columnheader "Document" [ref=f18e96]
+            - rowgroup [ref=f18e97]:
+              - row [ref=f18e98]:
+                - cell "Agricultural Statistics at a Glance 2024" [ref=f18e99]
+                - cell [ref=f18e100]:
+                  - link "Download File (English)" [ref=f18e101] [cursor=pointer]:
+                    - /url: https://desagri.gov.in/wp-content/uploads/2024/11/Agricultural-Statisitcs-at-a-Glance-2024-25_कृषि-सांख्यिकी-एक-झलक-2024–25-1.pdf
+                  - text: 10 MB
+                  - link "Download File (Hindi)" [ref=f18e102] [cursor=pointer]:
+                    - /url: https://desagri.gov.in/wp-content/uploads/2024/11/कृषि-सांख्यिकी-एक-झलक-2024–25.pdf
+                  - text: 18 MB
+          - link "Archive" [ref=f18e105] [cursor=pointer]:
+            - /url: https://desagri.gov.in/document-report-category/agriculture-statistics-at-a-glance-archive/
+        - paragraph [ref=f18e108]: "Last updated : 02-06-2026, 10:50 AM"
+  - generic [ref=f18e109]:
+    - generic [ref=f18e112]:
+      - generic [ref=f18e113]:
+        - generic [ref=f18e115]:
+          - link [ref=f18e119] [cursor=pointer]:
+            - /url: https://www.india.gov.in/
+            - img "National Portal of India" [ref=f18e120]
+          - link [ref=f18e124] [cursor=pointer]:
+            - /url: https://www.mygov.in/
+            - img "MyGov" [ref=f18e125]
+          - link [ref=f18e129] [cursor=pointer]:
+            - /url: https://digitalindia.gov.in/
+            - img "Digital India" [ref=f18e130]
+          - link [ref=f18e134] [cursor=pointer]:
+            - /url: https://data.gov.in/
+            - img "Data Gov" [ref=f18e135]
+          - link [ref=f18e139] [cursor=pointer]:
+            - /url: https://www.makeinindia.com/
+            - img "Make In India" [ref=f18e140]
+          - link [ref=f18e144] [cursor=pointer]:
+            - /url: https://www.india.gov.in/
+            - img "National Portal of India" [ref=f18e145]
+          - link [ref=f18e149] [cursor=pointer]:
+            - /url: https://www.mygov.in/
+            - img "MyGov" [ref=f18e150]
+          - link [ref=f18e154] [cursor=pointer]:
+            - /url: https://digitalindia.gov.in/
+            - img "Digital India" [ref=f18e155]
+          - link [ref=f18e159] [cursor=pointer]:
+            - /url: https://data.gov.in/
+            - img "Data Gov" [ref=f18e160]
+          - link [ref=f18e164] [cursor=pointer]:
+            - /url: https://www.makeinindia.com/
+            - img "Make In India" [ref=f18e165]
+          - link [ref=f18e169] [cursor=pointer]:
+            - /url: https://www.india.gov.in/
+            - img "National Portal of India" [ref=f18e170]
+        - generic:
+          - button [ref=f18e171] [cursor=pointer]
+          - button [ref=f18e173] [cursor=pointer]
+      - generic [ref=f18e175]:
+        - generic "Play": 
+        - generic "Pause" [ref=f18e176]: 
+    - contentinfo [ref=f18e178]:
+      - generic [ref=f18e183]:
+        - navigation "Menu" [ref=f18e184]:
+          - list [ref=f18e185]:
+            - listitem [ref=f18e186]:
+              - link "Website Policies" [ref=f18e187] [cursor=pointer]:
+                - /url: https://desagri.gov.in/website-policies/
+            - listitem [ref=f18e188]:
+              - link "Terms & Conditions" [ref=f18e189] [cursor=pointer]:
+                - /url: https://desagri.gov.in/terms-conditions/
+            - listitem [ref=f18e190]:
+              - link "Sitemap" [ref=f18e191] [cursor=pointer]:
+                - /url: https://desagri.gov.in/sitemap/
+            - listitem [ref=f18e192]:
+              - link "Feedback" [ref=f18e193] [cursor=pointer]:
+                - /url: https://desagri.gov.in/feedback/
+            - listitem [ref=f18e194]:
+              - link "Security Policy" [ref=f18e195] [cursor=pointer]:
+                - /url: https://desagri.gov.in/security-policy/
+            - listitem [ref=f18e196]:
+              - link "Help" [ref=f18e197] [cursor=pointer]:
+                - /url: https://desagri.gov.in/help/
+        - paragraph [ref=f18e198]: "Visitor Count: 970979"
+      - generic [ref=f18e202]:
+        - generic [ref=f18e204]:
+          - paragraph [ref=f18e205]: Copyright © 2022 – All Rights Reserved – Official website of Directorate of Economics and Statistics, Department of Agriculture Cooperation and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India
+          - paragraph [ref=f18e206]: "Note: Content on this website is published and managed by of Directorate of Economics and Statistics, Department of Agriculture Cooperation and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India"
+          - paragraph [ref=f18e207]
+          - paragraph [ref=f18e208]:
+            - text: "For any query regarding this website, please contact the web information manager, Name: Ruchi Sharma"
+            - strong
+            - text: "Designation: Deputy Director (SDDS), DES, DA & FW E-mail id- dddes[dot]it-agri[at]nic[dot]in Contact no: +91-11-23387280"
+        - paragraph [ref=f18e209]: "Last updated : 11-08-2026"
+  - text:  
+  - generic [ref=f18e210]:
+    - link "Left Menu Button":
+      - /url: "#"
+      - text: 
+    - navigation "Main navigation for mobile devices" [ref=f18e213]:
+      - listitem:
+        - link "Home":
+          - /url: https://desagri.gov.in/
+      - listitem [ref=f18e214]:
+        - link "About Us " [ref=f18e215] [cursor=pointer]:
+          - /url: "#"
+          - text: About Us
+          - generic [ref=f18e216]:
+            - generic [ref=f18e217]: 
+            - text: 
+        - text:    
+      - listitem [ref=f18e218]:
+        - link "Divisions/Cell " [ref=f18e219] [cursor=pointer]:
+          - /url: "#"
+          - text: Divisions/Cell
+          - generic [ref=f18e220]:
+            - generic [ref=f18e221]: 
+            - text: 
+      - listitem [ref=f18e222]:
+        - link "Programs & Schemes " [ref=f18e223] [cursor=pointer]:
+          - /url: "#"
+          - text: Programs & Schemes
+          - generic [ref=f18e224]:
+            - generic [ref=f18e225]: 
+            - text: 
+      - listitem [ref=f18e226]:
+        - link "Documents & Reports " [ref=f18e227] [cursor=pointer]:
+          - /url: "#"
+          - text: Documents & Reports
+          - generic [ref=f18e228]:
+            - generic [ref=f18e229]: 
+            - text: 
+        - text:    
+      - listitem [ref=f18e230]:
+        - link "Notification " [ref=f18e231] [cursor=pointer]:
+          - /url: "#"
+          - text: Notification
+          - generic [ref=f18e232]:
+            - generic [ref=f18e233]: 
+            - text: 
+        - text:      
+      - listitem [ref=f18e234]:
+        - link "Statistics " [ref=f18e235] [cursor=pointer]:
+          - /url: "#"
+          - text: Statistics
+          - generic [ref=f18e236]:
+            - generic [ref=f18e237]: 
+            - text: 
+        - text:    
+      - listitem [ref=f18e238]:
+        - link "Dashboard" [ref=f18e239] [cursor=pointer]:
+          - /url: https://desagri.gov.in/dashboard/
+      - listitem [ref=f18e240]:
+        - link "RTI " [ref=f18e241] [cursor=pointer]:
+          - /url: "#"
+          - text: RTI
+          - generic [ref=f18e242]:
+            - generic [ref=f18e243]: 
+            - text: 
+      - listitem [ref=f18e244]:
+        - link "AER Report" [ref=f18e245] [cursor=pointer]:
+          - /url: https://desagri.gov.in/aer-report/
+      - listitem [ref=f18e246]:
+        - link "Contact us" [ref=f18e247] [cursor=pointer]:
+          - /url: https://desagri.gov.in/contact-us/

@@ -1,0 +1,2206 @@
+{
+ "_description": "Soil domain: ICAR classification of Indian soils (8 major types), soil categories, and soil science concepts. Every entity links to locations via found_in.",
+ "source": {
+  "id": "icar",
+  "url": "https://icar.org.in/"
+ },
+ "entities": [
+  {
+   "id": "soil",
+   "name": "Soil",
+   "type": "domain",
+   "domain": "soil",
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.alluvial",
+   "name": "Alluvial Soil",
+   "type": "entity",
+   "domain": "soil",
+   "aliases": [
+    "Gangetic alluvium",
+    "Deltaic alluvium",
+    "Khaddar",
+    "Bhangar"
+   ],
+   "attributes": {
+    "colour": "Light grey to light brown",
+    "texture": "Sandy loam to clay",
+    "origin": "River deposits (Indus-Ganga-Brahmaputra plains)",
+    "fertility": "High (potash rich, low phosphorus)",
+    "area_share": "Largest soil group, ~40% of India's land area",
+    "water_holding": "Good; most fertile"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.major_types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.bihar"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.regions.gangetic_plain"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.rice"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.wheat"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.sugarcane"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.maize"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_krishna_godavari_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_north_coastal_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_southern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_assam_south_arunachal_pradesh_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_assam_upper_brahmaputra_valley_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_assam_central_brahmaputra_valley_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_assam_lower_brahmaputra_valley_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_assam_barak_valley_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_bihar_north_west_alluvial_plain_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_bihar_north_east_alluvial_plain_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_bihar_south_bihar_alluvial_plain_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_south_gujarat_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_south_gujarat_alluvial_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_north_west_gujarat_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_south_saurashtra_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_bhal_and_coastal_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_haryana_eastern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_jammu_kashmir_sub_tropical_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_jammu_kashmir_intermediate_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_jammu_kashmir_valley_temperate_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_coastal_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_northern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_southern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_central_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_problem_area_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_gird_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_south_konkan_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_north_konkan_coast_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_northeast_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_east_and_se_coast_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_punjab_sub_montane_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_punjab_undulating_plains_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_punjab_central_plains_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_punjab_western_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_irrigated_north_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_semi_arid_eastern_plains_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_flood_prone_eastern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_cauvery_delta_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_southern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_high_rainfall_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_bhabar_and_tarai_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_western_plain_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_mid_western_plain_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_sw_semi_arid_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_central_plains_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_northeast_plains_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_eastern_plain_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_vindhyan_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_west_bengal_old_alluvial_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_west_bengal_new_alluvial_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_west_bengal_coastal_saline_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tripura_mizoram_manipur_neh_combined_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_puducherry_puducherry_coastal_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.arid",
+   "name": "Arid and Desert Soil",
+   "type": "entity",
+   "domain": "soil",
+   "aliases": [
+    "Desert soil",
+    "Thar soil"
+   ],
+   "attributes": {
+    "colour": "Red to brown, sandy",
+    "texture": "Coarse, porous, low water-holding capacity",
+    "fertility": "Very low organic matter, high salinity in places",
+    "origin": "Arid zone weathering, wind-blown sand"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.major_types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.regions.thar_desert"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.millets"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.mustard"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.date_palm"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_arid_western_plains_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_irrigated_north_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_transitional_plains_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_transitional_plain_of_luni_basin",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.black",
+   "name": "Black Soil",
+   "type": "entity",
+   "domain": "soil",
+   "aliases": [
+    "Regur soil",
+    "Cotton soil",
+    "Black cotton soil",
+    "Deccan trap soil"
+   ],
+   "attributes": {
+    "colour": "Deep black to chestnut brown",
+    "texture": "Clayey, high moisture retention",
+    "origin": "Weathering of Deccan basalt lava",
+    "fertility": "Rich in lime, iron, magnesium, alumina; poor in nitrogen and phosphorus",
+    "special": "Self-ploughing (cracks in summer), swells when wet",
+    "region": "Deccan Plateau"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.major_types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.regions.deccan_plateau"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.cotton"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.sugarcane"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.wheat"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.groundnut"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.millets"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_krishna_godavari_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_northern_telangana_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_southern_telangana_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_scarce_rainfall_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_bihar_south_eastern_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_south_gujarat_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_south_gujarat_alluvial_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_middle_gujarat_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_north_west_gujarat_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_north_saurashtra_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_south_saurashtra_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_northeast_transition_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_northeast_dry_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_northern_dry_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_central_dry_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_northern_transition_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_chhattisgarh_plain_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_kymore_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_vidhya_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_central_narmada_valley_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_gird_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_bundelkhand_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_satpura_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_malwa_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_nimar_valley_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_jhabua_hills_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_sub_montane_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_western_maharashtra_plain_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_scarcity_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_central_maharashtra_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_central_vidharbha_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_eastern_vidharbha_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_southern_humid_plains_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_se_humid_plains_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_western_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_southern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_high_altitude_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_bundelkhand_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.categories.problem_soils",
+   "name": "Problem Soils",
+   "type": "category",
+   "domain": "soil",
+   "attributes": {
+    "types": "Acidic, saline, alkaline/sodic, waterlogged, eroded",
+    "note": "Problem soils require reclamation before cultivation"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil"
+    },
+    {
+     "predicate": "part_of",
+     "object": "soil.saline_alkaline"
+    },
+    {
+     "predicate": "part_of",
+     "object": "soil.peaty_marshy"
+    }
+   ],
+   "source": {
+    "id": "tnau-agritech",
+    "url": "https://agritech.tnau.ac.in/agriculture/agri_soil.html"
+   }
+  },
+  {
+   "id": "soil.forest_mountain",
+   "name": "Forest and Mountain Soil",
+   "type": "entity",
+   "domain": "soil",
+   "aliases": [
+    "Hill soil",
+    "Mountain soil"
+   ],
+   "attributes": {
+    "character": "Layered with forest litter; acidic in high-rainfall hills",
+    "fertility": "Rich in humus in forested areas; shallow in steep slopes",
+    "origin": "Weathering in situ in hills and mountains"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.major_types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.sikkim"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.jammu_kashmir"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.regions.himalayan_belt"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.tea"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.apple"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.potato"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_himachal_pradesh_sub_montane_and_low_hills_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_himachal_pradesh_mid_hills_sub_humid_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_himachal_pradesh_high_hills_temperate_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_himachal_pradesh_high_hills_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_jammu_kashmir_sub_tropical_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_hill_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_west_bengal_hilly_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.laterite",
+   "name": "Laterite Soil",
+   "type": "entity",
+   "domain": "soil",
+   "aliases": [
+    "Lateritic soil"
+   ],
+   "attributes": {
+    "colour": "Reddish-brown to yellow (iron and aluminium oxides)",
+    "texture": "Gravelly, hard when dry",
+    "fertility": "Low humus; acidic; responds to fertilizers and irrigation",
+    "origin": "Leaching in high-rainfall tropical areas"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.major_types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.goa"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.regions.western_ghats"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.tea"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.coffee"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.cashew"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.rubber"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.coconut"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_southern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_assam_nagaland_meghalaya_hill_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_northeast_transition_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_eastern_dry_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_coastal_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_northern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_southern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_central_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_problem_area_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_south_konkan_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_east_and_se_coast_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_northeast_ghat_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_west_bengal_old_alluvial_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.major_types",
+   "name": "Major Soil Types of India",
+   "type": "category",
+   "domain": "soil",
+   "aliases": [
+    "ICAR soil classification"
+   ],
+   "attributes": {
+    "classification": "ICAR, 8 major soil types",
+    "coverage": "Classified on basis of formation, colour, texture, chemistry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil"
+    },
+    {
+     "predicate": "part_of",
+     "object": "soil"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.peaty_marshy",
+   "name": "Peaty and Marshy Soil",
+   "type": "entity",
+   "domain": "soil",
+   "aliases": [
+    "Kari soil",
+    "Kuttanad soil"
+   ],
+   "attributes": {
+    "colour": "Dark (high organic matter)",
+    "texture": "Silty, waterlogged, acidic",
+    "fertility": "High organic carbon; requires drainage for crops",
+    "origin": "Waterlogged, low-lying areas with organic accumulation"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.major_types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.rice"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.jute"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.problem.acidic",
+   "name": "Acidic Soil",
+   "type": "entity",
+   "domain": "soil",
+   "attributes": {
+    "note": "Low pH; liming recommended; NE India, Kerala, WB"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.categories.problem_soils"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.problem.saline",
+   "name": "Saline Soil",
+   "type": "entity",
+   "domain": "soil",
+   "attributes": {
+    "note": "High soluble salts; coastal and arid areas; reclamation via leaching + drainage"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.categories.problem_soils"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.problem.sodic",
+   "name": "Sodic (Alkaline) Soil",
+   "type": "entity",
+   "domain": "soil",
+   "attributes": {
+    "note": "High exchangeable sodium; reclamation with gypsum; UP usar land"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.categories.problem_soils"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.problem.waterlogged",
+   "name": "Waterlogged Soil",
+   "type": "entity",
+   "domain": "soil",
+   "attributes": {
+    "note": "Excess moisture, poor aeration; canal command areas"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.categories.problem_soils"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.red",
+   "name": "Red Soil",
+   "type": "entity",
+   "domain": "soil",
+   "aliases": [
+    "Red loamy soil"
+   ],
+   "attributes": {
+    "colour": "Reddish (iron oxide)",
+    "texture": "Sandy to clay loam, porous",
+    "fertility": "Poor in nitrogen, phosphorus, humus; responds to manuring",
+    "origin": "Weathering of crystalline igneous rocks"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.major_types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.jharkhand"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.goa"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.millets"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.pulses"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.groundnut"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.cotton"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_krishna_godavari_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_north_coastal_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_southern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_northern_telangana_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_southern_telangana_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_scarce_rainfall_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andhra_pradesh_high_altitude_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_assam_central_brahmaputra_valley_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_assam_barak_valley_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_assam_nagaland_meghalaya_hill_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_bihar_central_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_bihar_western_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_bihar_south_eastern_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_gujarat_north_west_gujarat_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_northern_dry_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_central_dry_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_eastern_dry_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_southern_dry_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_southern_transition_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_northern_transition_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_hill_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_karnataka_coastal_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_northern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_southern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_central_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_kerala_high_altitude_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_chhattisgarh_plain_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_bastar_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_north_hill_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_kymore_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_bundelkhand_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_satpura_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_malwa_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_nimar_valley_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_madhya_pradesh_jhabua_hills_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_south_konkan_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_north_konkan_coast_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_western_ghat_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_sub_montane_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_maharashtra_central_maharashtra_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_northwest_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_north_central_plateau_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_east_and_se_coast_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_northeast_ghat_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_eastern_ghat_highland_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_se_ghat_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_western_undulating_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_west_central_table_land_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_odisha_mid_central_table_land_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_sub_humid_southern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_rajasthan_southern_humid_plains_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_northeast_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_northwest_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_western_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_cauvery_delta_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_southern_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_high_rainfall_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tamil_nadu_high_altitude_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_bundelkhand_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_uttar_pradesh_vindhyan_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_west_bengal_old_alluvial_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_west_bengal_new_alluvial_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_west_bengal_laterite_and_red_soil_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_tripura_mizoram_manipur_neh_combined_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.zones.narp_andaman_nicobar_islands_andaman_and_nicobar_zone",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.saline_alkaline",
+   "name": "Saline and Alkaline Soil",
+   "type": "entity",
+   "domain": "soil",
+   "aliases": [
+    "Usara soil",
+    "Problem soil"
+   ],
+   "attributes": {
+    "character": "High soluble salts (saline) or high sodium (alkaline/sodic)",
+    "texture": "Variable, crusted surface",
+    "fertility": "Low productivity; reclaimable (gypsum for alkali, leaching for saline)",
+    "origin": "Poor drainage, high evapotranspiration, canal seepage"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.major_types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.rice"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.barley"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.soil_health_card",
+   "name": "Soil Health Card",
+   "type": "measure",
+   "domain": "soil",
+   "attributes": {
+    "scheme": "Government of India, DAC&FW",
+    "frequency": "Every 2-3 years",
+    "purpose": "Soil nutrient status (N, P, K, S, Zn, Fe, Cu, Mn, B) and fertiliser recommendation"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil"
+    },
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "regulated_by",
+     "object": "schemes.soil_health_card_scheme"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  }
+ ]
+}

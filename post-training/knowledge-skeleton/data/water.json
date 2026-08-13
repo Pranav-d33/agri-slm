@@ -1,0 +1,1387 @@
+{
+ "_description": "Water and irrigation domain: irrigation systems, water resources, river basins, groundwater.",
+ "source": {
+  "id": "india-wris",
+  "url": "https://indiawris.gov.in/"
+ },
+ "entities": [
+  {
+   "id": "water",
+   "name": "Water and Irrigation",
+   "type": "domain",
+   "domain": "water",
+   "aliases": [
+    "Sinchai",
+    "Jal"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "india-wris",
+    "url": "https://indiawris.gov.in/"
+   }
+  },
+  {
+   "id": "water.basin.barak",
+   "name": "Barak Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Separate basin of the Brahmaputra system; NE states"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.manipur",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.meghalaya",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.mizoram",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tripura",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.brahmani",
+   "name": "Brahmani-Baitarani Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Odisha; combined basin"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.jharkhand",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.cauvery",
+   "name": "Cauvery Basin",
+   "type": "entity",
+   "domain": "water",
+   "aliases": [
+    "Kaveri"
+   ],
+   "attributes": {
+    "states": "Karnataka, Tamil Nadu, Kerala, Puducherry",
+    "note": "Acute interstate water dispute; delta = rice bowl of TN"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.puducherry",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.basin.east_flowing_mahanadi_pennar",
+   "name": "East-flowing Rivers between Mahanadi and Pennar",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "CWC basin group; includes Rushikulya, Vamsadhara, Nagavali"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.east_flowing_pennar_kanyakumari",
+   "name": "East-flowing Rivers between Pennar and Kanyakumari",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "CWC basin group; includes Palar, Ponnaiyar, Vaigai, Tambraparni"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.puducherry",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.ganga",
+   "name": "Ganga Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "states": "Uttarakhand, UP, Bihar, Jharkhand, WB",
+    "note": "Most populous basin; irrigation + groundwater recharge"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.bihar",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.jharkhand",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.basin.ghaghar",
+   "name": "Ghaggar Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Seasonal river of Haryana, Punjab, Rajasthan"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.godavari",
+   "name": "Godavari Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "states": "Maharashtra, Telangana, AP, MP, Odisha, Chhattisgarh",
+    "note": "Second largest basin; Polavaram project under construction"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.basin.indus",
+   "name": "Indus Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Shared basin; J&K, Ladakh, HP, Punjab in India"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.jammu_kashmir",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.ladakh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.krishna",
+   "name": "Krishna Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "states": "Maharashtra, Karnataka, Telangana, AP",
+    "note": "Interstate disputes; Nagarjuna Sagar dam"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.basin.luni",
+   "name": "Luni Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Rajasthan; ends in the Rann of Kutch"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.mahi",
+   "name": "Mahi Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Gujarat, Rajasthan, Madhya Pradesh"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.pennar",
+   "name": "Pennar Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "AP and Karnataka; rain-fed delta"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.periyar",
+   "name": "Periyar Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Kerala; largest river of the state"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.sabarmati",
+   "name": "Sabarmati Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Gujarat and Rajasthan"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.subarnarekha",
+   "name": "Subarnarekha Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Jharkhand, Odisha, West Bengal"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.jharkhand",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basin.west_flowing_south_tapi",
+   "name": "West-flowing Rivers south of Tapi",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "CWC basin group; Tapi-Tadri to Kanyakumari west coast rivers"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.goa",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.dadra_nagar_haveli_daman_diu",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "water.basins",
+   "name": "River Basins",
+   "type": "category",
+   "domain": "water",
+   "attributes": {
+    "note": "20 major basins; Ganga-Brahmaputra-Meghna largest"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water"
+    },
+    {
+     "predicate": "part_of",
+     "object": "water"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.basins.brahmaputra",
+   "name": "Brahmaputra Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Braided river; annual floods in Assam"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.meghalaya",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.sikkim",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "india-wris",
+    "url": "https://indiawris.gov.in/"
+   }
+  },
+  {
+   "id": "water.basins.mahanadi",
+   "name": "Mahanadi Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Hirakud dam; flood-prone delta"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "india-wris",
+    "url": "https://indiawris.gov.in/"
+   }
+  },
+  {
+   "id": "water.basins.narmada",
+   "name": "Narmada Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Sardar Sarovar dam; west-flowing"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "india-wris",
+    "url": "https://indiawris.gov.in/"
+   }
+  },
+  {
+   "id": "water.basins.tapi",
+   "name": "Tapi Basin",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "West-flowing; Ukai dam"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "india-wris",
+    "url": "https://indiawris.gov.in/"
+   }
+  },
+  {
+   "id": "water.canal",
+   "name": "Canal Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "aliases": [
+    "Nahar sinchai"
+   ],
+   "attributes": {
+    "note": "Major systems: Indira Gandhi Canal (Rajasthan), Bhakra, Kosi, Nagarjuna Sagar, Tungabhadra"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.drip",
+   "name": "Drip Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "aliases": [
+    "Tapak sinchai",
+    "Micro-irrigation"
+   ],
+   "attributes": {
+    "efficiency": "80-90% vs 40-50% flood",
+    "scheme": "PMKSY Per Drop More Crop subsidy for micro-irrigation",
+    "crops": "Grapes, banana, sugarcane, vegetables, cotton"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.karnataka"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "water.groundwater",
+   "name": "Groundwater Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "aliases": [
+    "Tube wells",
+    "Borewells"
+   ],
+   "attributes": {
+    "note": "Largest irrigation source; over-extraction in NW India (Punjab, Haryana, West UP); free power subsidies drive pumping"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.methods",
+   "name": "Irrigation Methods",
+   "type": "category",
+   "domain": "water",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water"
+    },
+    {
+     "predicate": "part_of",
+     "object": "water"
+    }
+   ],
+   "source": {
+    "id": "tnau-agritech",
+    "url": "https://agritech.tnau.ac.in/agriculture/agri_irrigationmgt.html"
+   }
+  },
+  {
+   "id": "water.sprinkler",
+   "name": "Sprinkler Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "aliases": [
+    "Fountain irrigation"
+   ],
+   "attributes": {
+    "crops": "Wheat, pulses, vegetables, orchards; suits sandy soils and undulating land"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "water.status",
+   "name": "Irrigation Status of India",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "irrigated_area": "~35% of net sown area reliably irrigated (CWC estimates)",
+    "rainfed": "~2/3 of cultivated land depends on monsoon",
+    "groundwater_share": "~65% of irrigation water (highest in Punjab, Haryana, UP)",
+    "canal_share": "~25%",
+    "note": "Rice and sugarcane consume ~60% of farm water on 24% of area"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.tank",
+   "name": "Tank Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "aliases": [
+    "Eri",
+    "Kere"
+   ],
+   "attributes": {
+    "note": "Traditional rain-fed storage; predominant in South India (TN, Karnataka, AP, Telangana) and Odisha"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.karnataka"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.telangana"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.methods.well",
+   "name": "Well and Tube-well Irrigation",
+   "type": "entity",
+   "domain": "water",
+   "attributes": {
+    "note": "Wells (incl. tube-wells) are the largest irrigation source (~60% of net irrigated area, CWC 2021-22)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.uttar_pradesh",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.punjab",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.haryana",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+   }
+  },
+  {
+   "id": "water.watershed",
+   "name": "Watershed Development",
+   "type": "category",
+   "domain": "water",
+   "attributes": {
+    "note": "Watershed management under PMKSY-Watershed Development Component (DoLR)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  }
+ ]
+}

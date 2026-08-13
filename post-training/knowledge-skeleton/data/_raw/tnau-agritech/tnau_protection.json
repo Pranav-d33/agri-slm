@@ -1,0 +1,1265 @@
+{
+  "amla": {
+    "pests": [
+      "Emblica officinalis",
+      "Caloptilia",
+      "Gracillaria",
+      "Setaphis bougainvilleae",
+      "Fruit Borer",
+      "Deudorix isocrates",
+      "Trialeurodes rara",
+      "Fruit Piercing Moth",
+      "Othreis materna",
+      "Ferrisia virgata",
+      "Indarbela tetraonis"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "anthurium": {
+    "pests": [
+      "Anthurium",
+      "spp",
+      "Myzus circumflexus",
+      "Chaetanaphothrips orchidii",
+      "Tetranychus cinnabarinus"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "apple": {
+    "pests": [
+      "Malus sylvestris",
+      "Woolly aphid",
+      "Eriosoma lanigerum",
+      "Icerya purchasi",
+      "Quadraspidiotus perniciosus",
+      "Apriona cinera",
+      "Codling moth",
+      "Cydia",
+      "Carpocapsa"
+    ],
+    "diseases": [
+      "Heart-rot",
+      "Leaf and Fruit-rot",
+      "Thielaviopsis rot"
+    ],
+    "weeds": []
+  },
+  "arecanut": {
+    "pests": [
+      "Areca catechu",
+      "Carvalhoia arecae",
+      "Oligonychus indicus",
+      "Leucopholis burmeisteri",
+      "Tirathaba mundella"
+    ],
+    "diseases": [
+      "Foot rot or Anabe roga",
+      "Yellow leaf disease",
+      "Bud rot",
+      "Inflorescence die back and button shedding"
+    ],
+    "weeds": []
+  },
+  "banana": {
+    "pests": [
+      "Musa sp",
+      "Cosmopolites sordidus",
+      "Aspidiotus destructor",
+      "Odoiporus longicollis",
+      "Chaetanaphothrips signipennis",
+      "Pentalonia nigronervosa f. typica",
+      "Pericallia ricini",
+      "Stephanitis typicus",
+      "Spodoptera litura"
+    ],
+    "diseases": [
+      "Anthracnose",
+      "Banana bract virus",
+      "Bunchy Top of banana",
+      "Erwinia rot",
+      "Infection chlorosis mossaic",
+      "Panama wilt"
+    ],
+    "weeds": []
+  },
+  "bengalgram": {
+    "pests": [
+      "Bengal Gram",
+      "Cicer arietinum L.",
+      "Fabaceae",
+      "Helicoverpa armigera",
+      "Agrotis ipsilon",
+      "Autographa nigrisigna",
+      "Odontotermes obesus"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "bhendi": {
+    "pests": [
+      "Shoot and fruit borer",
+      "Bhendi fruit borer",
+      "Shoot weevil",
+      "Stem weevil",
+      "Leaf roller",
+      "Semilooper",
+      "Whitefly",
+      "Jassids",
+      "Aphid",
+      "Red cotton bug"
+    ],
+    "diseases": [
+      "Shoot and fruit borer",
+      "Bhendi fruit borer",
+      "Shoot weevil",
+      "Stem weevil",
+      "Leaf roller",
+      "Semilooper",
+      "Whitefly",
+      "Jassids",
+      "Aphid",
+      "Red cotton bug"
+    ],
+    "weeds": []
+  },
+  "blackgram": {
+    "pests": [
+      "Anthracnose",
+      "Rust",
+      "Cercospora leaf spot",
+      "Powdery Mildew",
+      "Dry Root Rot",
+      "Yellow Mosaic",
+      "Leaf Crinkle"
+    ],
+    "diseases": [
+      "Anthracnose",
+      "Rust",
+      "Cercospora leaf spot",
+      "Powdery Mildew",
+      "Dry Root Rot",
+      "Yellow Mosaic",
+      "Leaf Crinkle"
+    ],
+    "weeds": []
+  },
+  "brinjal": {
+    "pests": [
+      "Solanaceae",
+      "Shoot and fruit borer",
+      "Stem borer",
+      "Ash weevils",
+      "Brown leaf hopper",
+      "Lace wing bug"
+    ],
+    "diseases": [
+      "Solanaceae",
+      "Shoot and fruit borer",
+      "Stem borer",
+      "Ash weevils",
+      "Brown leaf hopper",
+      "Lace wing bug"
+    ],
+    "weeds": []
+  },
+  "cardamom": {
+    "pests": [],
+    "diseases": [
+      "Mosaic virus",
+      "Elettaria cardamomum"
+    ],
+    "weeds": []
+  },
+  "castor": {
+    "pests": [
+      "Euphorbiaceae",
+      "Ricinus communis",
+      "Liriomyza trifolii",
+      "Achaea janata",
+      "Paralellia algira",
+      "Spodoptera litura",
+      "Parasa lepida",
+      "Spilosoma oblique",
+      "Orgyia",
+      "Notolophus",
+      "Conogethes",
+      "Empoasca flavescens",
+      "Pericallia ricini",
+      "Trialeurodes ricini",
+      "Ergolis merione"
+    ],
+    "diseases": [
+      "Seedling Blight",
+      "Alternaria Blight",
+      "Cercospora Leaf Spot",
+      "Powdery Mildew",
+      "Wilt"
+    ],
+    "weeds": []
+  },
+  "chickpea": {
+    "pests": [],
+    "diseases": [
+      "Alternaria Blight",
+      "Ascochyta Blight",
+      "Botrytis Gray Mold",
+      "Collar Rot",
+      "Dry Root Rot",
+      "Fusarium Wilt",
+      "Powdery mildew"
+    ],
+    "weeds": []
+  },
+  "chilli": {
+    "pests": [
+      "Solanaceae",
+      "Chilli thrips",
+      "Green peach aphid",
+      "Tobacco cutworm",
+      "Gram caterpillar",
+      "Yellow mite"
+    ],
+    "diseases": [
+      "Solanaceae",
+      "Chilli thrips",
+      "Green peach aphid",
+      "Tobacco cutworm",
+      "Gram caterpillar",
+      "Yellow mite"
+    ],
+    "weeds": []
+  },
+  "chrysanthemum": {
+    "pests": [
+      "Dendranthema grandiflora",
+      "Chrysanthemum aphid",
+      "Macrosiphoniella sanborni",
+      "Thrips",
+      "Microcephalothrips abdominalis",
+      "Flower feeder",
+      "Helicoverpa armigera"
+    ],
+    "diseases": [
+      "Wilt",
+      "Rust",
+      "Septoria Leaf Spot",
+      "Powdery Mildew"
+    ],
+    "weeds": []
+  },
+  "citrus": {
+    "pests": [
+      "Citrus spp",
+      "Citrus aphids Black aphid",
+      "Citrus thrips",
+      "Thrips nilgiriensis",
+      "Citrus Black fly",
+      "Aleurocanthus woglumi",
+      "Cottony cushion scale",
+      "Icerya purchasi",
+      "Citrus psyllid",
+      "Diaphorina citri",
+      "Citrus leaf miner",
+      "Phyllocnistic citrella",
+      "Mealy bug",
+      "Planoccus citri",
+      "Citrus butterfly",
+      "Fruit sucking moth"
+    ],
+    "diseases": [
+      "Gummosis",
+      "Canker",
+      "Tristeza or quick decline",
+      "Greening"
+    ],
+    "weeds": []
+  },
+  "clove": {
+    "pests": [
+      "Syzygium aromaticum",
+      "Sahyadrassus malabaricus",
+      "Scale insect",
+      "Scirtothirps dorsalis"
+    ],
+    "diseases": [
+      "Seedling Wilt",
+      "Fusarium",
+      "Rhizoctonia",
+      "Cylindrocladium quinquiseptatum",
+      "Gloeosporium gleosporioides",
+      "Cylindrocladium",
+      "Trichoderma"
+    ],
+    "weeds": []
+  },
+  "cocoa": {
+    "pests": [],
+    "diseases": [
+      "Seedling blight",
+      "Black Pod rot",
+      "Stem Canker",
+      "Vascular Streak Dieback (VSD)",
+      "Cherelle Rot"
+    ],
+    "weeds": []
+  },
+  "coconut": {
+    "pests": [
+      "Arecaceae",
+      "Coconut Rugose Spiral White Fly Management",
+      "Coconut Root wilt Disease Management",
+      "Coconut Tanjore wilt Disease Management",
+      "Coconut Red Palm Weevil Management",
+      "Coconut Rhinocerous Bettle Management",
+      "Black Headed Caterpillar Management in Coconut",
+      "Rhinoceros beetle",
+      "Red Palm Weevil",
+      "Coconut Eriophyid",
+      "Slug Caterpillar",
+      "Coconut Skipper",
+      "Coreid Bug",
+      "Bag Worm",
+      "White Grub",
+      "Termite",
+      "Lacewing Bug",
+      "Scale Insect",
+      "Mealy Bug"
+    ],
+    "diseases": [
+      "Bud rot",
+      "Leaf blight",
+      "Stem bleeding disease",
+      "Root wilt(or) Kerala wilt disease",
+      "Leaf rot disease"
+    ],
+    "weeds": []
+  },
+  "coffee": {
+    "pests": [
+      "C.liberica",
+      "White stem borer",
+      "Xylotrechus quadripes",
+      "Cockchafers or white grubs",
+      "Holotrichia spp",
+      "Coffee berry borer",
+      "Hypothenemus hampei",
+      "Hairy caterpillars",
+      "Eupterote spp",
+      "Shot hole borer",
+      "Xylosandrus compactus",
+      "Coffee bean beetle",
+      "Araecerus fasciculatus",
+      "Mealy bugs",
+      "Planococcus spp",
+      "Snail",
+      "Ariophanta solata",
+      "Green scale",
+      "Coccus viridis",
+      "Red borer",
+      "Zeuzera coffeae",
+      "Brown scale",
+      "Saissetia coffeae",
+      "Source",
+      "Pest management of horticultural crops"
+    ],
+    "diseases": [
+      "Rust",
+      "Brown leaf spot",
+      "Die back or Anthranose",
+      "Black rot or koleroga",
+      "Root rot",
+      "Berry blotch"
+    ],
+    "weeds": []
+  },
+  "cole crops": {
+    "pests": [
+      "Plutella xylostella",
+      "Hellula undalis",
+      "Spodoptera litura",
+      "Crocidolomia binotalis",
+      "Cabbage aphid",
+      "Brevicoryne brassicae",
+      "Trichoplusia ni",
+      "Lipaphis erysimi"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "cotton": {
+    "pests": [
+      "American boll worm",
+      "Pink bollworm",
+      "Spotted bollworms",
+      "Cotton Stem Weevil",
+      "Shoot weevil",
+      "Stem borer",
+      "Leaf roller",
+      "Tobacco Cutworm",
+      "Ash weevils",
+      "Leaf hopper",
+      "Cotton aphid",
+      "Thrips",
+      "Whitefly",
+      "Red cotton bug",
+      "Dusky cotton bug",
+      "Mealy bugs"
+    ],
+    "diseases": [
+      "Fusarium",
+      "Wilt",
+      "Verticillium",
+      "Root rot",
+      "Grey or Areolate mildew",
+      "Boll rot",
+      "Alternaria leaf blight",
+      "Bacterial blight",
+      "Cercospora Leaf spot",
+      "Tobacco Streak Virus"
+    ],
+    "weeds": []
+  },
+  "cowpea": {
+    "pests": [
+      "Cowpea",
+      "Vigna unguiculata",
+      "Fabaceae",
+      "Helicoverpa armigera",
+      "Empoasca kerri",
+      "Maruca vitrata",
+      "Riptortus pedestris",
+      "Etiella zinckenella",
+      "Coptosoma cribraria",
+      "Lampides boeticus",
+      "Bemisia tabaci",
+      "Euchrysops cnejus",
+      "Mylabris phalerata",
+      "Aphis craccivora"
+    ],
+    "diseases": [
+      "Root rot and Damping off",
+      "Southern Blight",
+      "Cowpea Mosaic",
+      "Fusarium Wilt"
+    ],
+    "weeds": []
+  },
+  "cumbu": {
+    "pests": [
+      "Pennisetum glaucum",
+      "Atherigona approximate",
+      "Geromyia penniseti",
+      "Stem borer",
+      "Chilo partellus",
+      "Stink bug",
+      "Nezara viridula",
+      "Sesamia inferens"
+    ],
+    "diseases": [
+      "Downy Mildew",
+      "Ergot",
+      "Rust",
+      "Head Mold",
+      "Bipolaris Leaf spot",
+      "Cercospora Leaf Spot",
+      "Curvularia Leaf Spot"
+    ],
+    "weeds": []
+  },
+  "custard apple": {
+    "pests": [
+      "Annona squamosa",
+      "Fruit borer",
+      "Heterographis bengalella",
+      "Fruit fly",
+      "Bactrocera zonata",
+      "Tailed mealy bug",
+      "Ferrisa virgata"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "finger millet": {
+    "pests": [
+      "Pink stem borer",
+      "Earhead bug",
+      "Aphids",
+      "Root aphid",
+      "Cutworm",
+      "Grasshopper",
+      "Leaf folder",
+      "White stem borer",
+      "Ragi leaf hopper",
+      "Yellow aphid"
+    ],
+    "diseases": [
+      "BLAST",
+      "SMUT",
+      "DOWNY MILDEW",
+      "MOSSAIC",
+      "MOTTLE STREAK",
+      "BACTERIAL LEAF SPOT"
+    ],
+    "weeds": []
+  },
+  "forage": {
+    "pests": [
+      "Shoot fly",
+      "Aphids",
+      "Fall armyworm",
+      "Anthracnose and red rot",
+      "Phadka Grasshopper",
+      "American bollworm",
+      "Cowpea aphid",
+      "Cowpea mosaic",
+      "Tree Fodder"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "gerbera": {
+    "pests": [
+      "Gerbera jamesonii",
+      "Trialeurodes vaporariorum",
+      "Liriomyza trifolii",
+      "Mites",
+      "Polyphagotarsonemus latus",
+      "Aphid",
+      "Myzus persicae"
+    ],
+    "diseases": [
+      "Root rot",
+      "Powdery mildew",
+      "Blossom blight and stalk rot"
+    ],
+    "weeds": []
+  },
+  "ginger": {
+    "pests": [],
+    "diseases": [
+      "Soft rot or rhizome rot",
+      "Bacterial wilt",
+      "Leaf spot"
+    ],
+    "weeds": []
+  },
+  "gladiolus": {
+    "pests": [
+      "Gladiolus",
+      "Thrips simplex",
+      "Thrips flavus",
+      "Frankliniella spp",
+      "Lygus lineolaris"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "grapes": {
+    "pests": [
+      "Vitis vinifera",
+      "Sthenias grisator",
+      "Mealy bug",
+      "Ferrisia virgata",
+      "Scelodonta strigicollis",
+      "Maconellicoccus hirsutus",
+      "Rhipiphorothrips cruentatus",
+      "Oxyptilus regulus"
+    ],
+    "diseases": [
+      "Downy mildew",
+      "Powdery mildew",
+      "Vitis vinifera",
+      "Source"
+    ],
+    "weeds": []
+  },
+  "greengram": {
+    "pests": [
+      "Gram pod borer",
+      "Spotted pod borer",
+      "Gram blue butterfly",
+      "Aphid Aphis",
+      "Whitefly",
+      "Pod bugs",
+      "Blister Beetles"
+    ],
+    "diseases": [
+      "Anthracnose",
+      "Rust",
+      "Cercospora leaf spot",
+      "Powdery Mildew",
+      "Dry Root Rot",
+      "Yellow Mosaic",
+      "Leaf Crinkle"
+    ],
+    "weeds": []
+  },
+  "guava": {
+    "pests": [
+      "Psidium guajava",
+      "Fruit borer",
+      "Congethes (=Dichocrocis) punctiferalis",
+      "Tea mosquito bug",
+      "Helopeltis antonii",
+      "Deudorix (Virachola) isocrates",
+      "Green Scale",
+      "Coccus viridis",
+      "Rapala varuna",
+      "Tailed mealy bug",
+      "Ferrisa virgata",
+      "Guava fruit fly",
+      "Bactrocera diversus",
+      "Spiraling whitefly",
+      "Aleurodicus dispersus",
+      "Bark eating caterpillars",
+      "Indarbella sp"
+    ],
+    "diseases": [
+      "Anthracnose",
+      "Rust",
+      "Algal leaf spot"
+    ],
+    "weeds": []
+  },
+  "jasmine": {
+    "pests": [
+      "Jasminum",
+      "spp",
+      "Hendecasis duplifascialis",
+      "Tetranychus cinnabarinus",
+      "Gallery worm",
+      "Elasmopalpus jasminophagus",
+      "Corythauma ayyari",
+      "Nausinoe geometralis",
+      "Dialeurodes kirkaldyi",
+      "Glyphodes unionalis",
+      "Antestia cruciata",
+      "Aceria jasmini",
+      "Thrips orientalis"
+    ],
+    "diseases": [
+      "Cercospora leaf spot â",
+      "Cercospora jasminecola",
+      "Alternaria leaf spot â",
+      "Collar rot and Root rot â",
+      "Sclerotium rolfsii",
+      "Phyllody â",
+      "Phytoplasma",
+      "Cercospora jasminicola",
+      "Alternaria leaf blight â",
+      "In the leaves dark brown spots appear.",
+      "Collection and removal of fallen leaves",
+      "In the root black discoloration can be seen.",
+      "Heavy application of FYM with",
+      "Trichoderma viride",
+      "Selection of cuttings from healthy plants.",
+      "Spraying insecticide to control the vector."
+    ],
+    "weeds": []
+  },
+  "lablab": {
+    "pests": [
+      "Lab Lab",
+      "Lablab purpureus",
+      "Fabaceae",
+      "Helicoverpa armigera",
+      "Leaf hopper",
+      "Empoasca kerri",
+      "Maruca vitrata",
+      "Riptortus pedestris",
+      "Etiella zinckenella",
+      "Coptosoma cribraria",
+      "Lampides boeticus",
+      "Whitefly",
+      "Bemisia tabaci",
+      "Euchrysops cnejus",
+      "Mylabris phalerata",
+      "Aphis craccivora"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "maize": {
+    "pests": [
+      "Fall armyworm",
+      "Shoot fly",
+      "Stem borer",
+      "Pink stem borer",
+      "Ear head bug",
+      "Web worm",
+      "Ash weevil",
+      "Leafhopper",
+      "Aphid or plant lice",
+      "Shoot bug"
+    ],
+    "diseases": [
+      "Turcicum Leaf Blight (TLB)",
+      "Charcoal Rot",
+      "Common Rust",
+      "Aspergillus Rot"
+    ],
+    "weeds": []
+  },
+  "mango": {
+    "pests": [
+      "Stem borer",
+      "Bark borer",
+      "Shoot borer",
+      "Mango hoppers",
+      "Inflorescence midge",
+      "Aphid",
+      "Loopers",
+      "Fruit fly",
+      "Mango nut weevil",
+      "Shoot webber",
+      "Leaf gall midges",
+      "Hairy caterpillars",
+      "Scales",
+      "Gaint mealybug",
+      "Red ants"
+    ],
+    "diseases": [
+      "Anthracnose",
+      "Powdery mildew",
+      "Mango malformation",
+      "Stem end rot",
+      "Red rust",
+      "Grey Blight",
+      "Sooty mould"
+    ],
+    "weeds": []
+  },
+  "mustard": {
+    "pests": [
+      "Brassica",
+      "Plutella xylostella",
+      "Chromatomyia horticola",
+      "Crocidolomia binotalis",
+      "Lipaphis erysimi",
+      "Athalialugens proxima",
+      "Bargrada hilaris (cruciferarum)",
+      "Hellula undalis"
+    ],
+    "diseases": [
+      "Sclerotinia Stem Rot",
+      "Alternaria Black Spot",
+      "White Rust",
+      "Downy Mildew"
+    ],
+    "weeds": []
+  },
+  "nutmeg": {
+    "pests": [],
+    "diseases": [
+      "Myristica fragrans",
+      "Leaf spot and shot hole",
+      "Fruit rot"
+    ],
+    "weeds": []
+  },
+  "onion": {
+    "pests": [
+      "Solanaceae",
+      "Onion",
+      "Allium cepa",
+      "Thrips tabaci",
+      "Delia",
+      "Euborellia annulipes"
+    ],
+    "diseases": [
+      "Solanaceae",
+      "Onion",
+      "Allium cepa",
+      "Thrips tabaci",
+      "Delia",
+      "Euborellia annulipes"
+    ],
+    "weeds": []
+  },
+  "orchid": {
+    "pests": [
+      "Dendrobium",
+      "spp",
+      "Planococcus",
+      "Giant African Snail",
+      "Achatina fulica"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "papaya": {
+    "pests": [
+      "Carica papaya",
+      "Bemisia tabaci",
+      "Myllocerus spp",
+      "Bactrocera (Dacus) dorsalis",
+      "Green peach aphid",
+      "Myzus persicae"
+    ],
+    "diseases": [
+      "Powdery mildew",
+      "Papaya ring spot",
+      "Leaf curl",
+      "Anthracnose"
+    ],
+    "weeds": []
+  },
+  "peach": {
+    "pests": [
+      "Prunus persica",
+      "Qudraspidiotus perniciosus",
+      "Peach borer",
+      "Sphenoptera lafertei",
+      "Myzus persicae"
+    ],
+    "diseases": [
+      "Peach leaf curl",
+      "Powdery mildew"
+    ],
+    "weeds": []
+  },
+  "pear": {
+    "pests": [
+      "Pyrus communis",
+      "Stem borer",
+      "Sahydrassus (=Phassus) malabaricus",
+      "Aphid",
+      "Dilachnus krishni"
+    ],
+    "diseases": [
+      "Fire Blight",
+      "Leaf Blight and Fruit Spot",
+      "Bitter Rot",
+      "Black Rot"
+    ],
+    "weeds": []
+  },
+  "pepper": {
+    "pests": [],
+    "diseases": [
+      "Piper longum"
+    ],
+    "weeds": []
+  },
+  "pineapple": {
+    "pests": [
+      "Ananas comosus",
+      "Pseudococcus brevipes",
+      "Oryctes rhinoceros"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "plum": {
+    "pests": [
+      "Prunus salicina",
+      "Peach borer",
+      "Sphenoptera lafertei",
+      "Quadraspidiotus perniciosus",
+      "Anomala lineatipennis"
+    ],
+    "diseases": [
+      "Bacterial Canker",
+      "Brown Rot",
+      "Bacterial Spot of Plum"
+    ],
+    "weeds": []
+  },
+  "pomegranate": {
+    "pests": [],
+    "diseases": [
+      "Cercospora fruit Spot",
+      "Leaf Spot or Blight",
+      "Alternaria Fruit Spot"
+    ],
+    "weeds": []
+  },
+  "potato": {
+    "pests": [
+      "Potato tuber moth",
+      "White grubs",
+      "Tobacco Caterpillar",
+      "Green Leaf Hopper",
+      "Green peach aphid",
+      "Whitefly"
+    ],
+    "diseases": [
+      "Late blight",
+      "Early blight",
+      "Post-harvest tuber rots",
+      "Black scurf",
+      "Bacterial Soft rot"
+    ],
+    "weeds": []
+  },
+  "redgram": {
+    "pests": [
+      "Gram pod borer",
+      "Blue butterfly",
+      "Grass blue butterfly",
+      "Plume moth",
+      "Spotted pod borer",
+      "Field bean pod borer",
+      "Tur pod fly",
+      "Stem fly",
+      "Sterility mite"
+    ],
+    "diseases": [
+      "Fusarium Wilt",
+      "Dry root Rot",
+      "Alternaria Leaf Spot",
+      "Powdery Mildew",
+      "Pigeon pea sterility Mosaic",
+      "Mungbean yellow mosaic virus"
+    ],
+    "weeds": []
+  },
+  "rice": {
+    "pests": [
+      "Thrips",
+      "Brown Plant Hopper",
+      "Yellow Stemborer",
+      "Gall midge",
+      "Leaf folder",
+      "Case worm",
+      "Whorl maggot",
+      "Swarming caterpillar",
+      "Skipper",
+      "Green horned caterpillar",
+      "Yellow hairy caterpillar",
+      "Grasshopper",
+      "Mealy bug",
+      "Green leafhopper",
+      "White backed plant hopper",
+      "Earhead bug"
+    ],
+    "diseases": [
+      "Blast",
+      "Brown Spot",
+      "Bacterial Leaf Blight",
+      "Rice Tungro",
+      "Sheath Rot",
+      "Sheath blight",
+      "False Smut",
+      "Bacterial Leaf Streak",
+      "Bakanae",
+      "Rice Yellow Dwarf",
+      "Rice Grassy stunt",
+      "Grain discolouration"
+    ],
+    "weeds": []
+  },
+  "rose": {
+    "pests": [
+      "Rosa",
+      "Parasa (Latoia) lepida",
+      "Rhipiphorothrips cruentatus",
+      "Gram caterpillar",
+      "Helicoverpa armigera",
+      "Oxycetonia versicolor",
+      "Tetranychus cinnabarinus",
+      "Anomala sp",
+      "Megachile anthracina",
+      "Odontotermes obesus",
+      "Achaea janata",
+      "Aleurocanthus spiniferus"
+    ],
+    "diseases": [
+      "Black spot",
+      "Powdery mildew",
+      "Die back",
+      "Rust"
+    ],
+    "weeds": []
+  },
+  "rubber": {
+    "pests": [],
+    "diseases": [
+      "Abnormal leaf fall",
+      "Birds eye spot",
+      "Corynespora leaf spot",
+      "Pink disease",
+      "Powdery mildew",
+      "Brown root diseases",
+      "Colletotrichum Leaf Disease"
+    ],
+    "weeds": []
+  },
+  "safflower": {
+    "pests": [
+      "Carthamus tinctorius",
+      "Helicoverpa armigera",
+      "Acanthiophilus helianthi rossi",
+      "Perigaea capensis",
+      "Uroleucon carthami"
+    ],
+    "diseases": [
+      "Alternaria Blight",
+      "Leaf Spot",
+      "Powdery Mildew",
+      "Mosaic",
+      "Rust",
+      "Wilt"
+    ],
+    "weeds": []
+  },
+  "sapota": {
+    "pests": [
+      "Achras sapota",
+      "Anarsia epotias",
+      "Metanastria hytaca",
+      "Bactrocera (Dacus) dorsalis",
+      "Ferrisia virgata",
+      "Plocaederus ferrugineus",
+      "Coccus viridis",
+      "Nephopteyrx eugraphella"
+    ],
+    "diseases": [
+      "Leaf spot",
+      "Sooty mould"
+    ],
+    "weeds": []
+  },
+  "sesamum": {
+    "pests": [
+      "Sesamum indicum",
+      "Leaf webber and capsule borer",
+      "Antigastra catalaunalis",
+      "Leaf hopper",
+      "Orosius albicinctus",
+      "Hawk or Dead head moth (Sphinx caterpillar)",
+      "Acherontia styx",
+      "Aphids",
+      "Aphis gossypii",
+      "Gall fly",
+      "Asphondylia sesami"
+    ],
+    "diseases": [
+      "Alternaria Leaf Blight",
+      "Sesamum Phyllody",
+      "Root Rot",
+      "Powdery Mildew",
+      "Cercospora Leaf Root",
+      "Fusarium Wilt"
+    ],
+    "weeds": []
+  },
+  "sorghum": {
+    "pests": [
+      "Sorghum bicolor",
+      "Shoot fly",
+      "Stem borer",
+      "Pink stem borer",
+      "Ear head caterpillar",
+      "Shoot bug",
+      "Earhead bug",
+      "Black mould"
+    ],
+    "diseases": [
+      "Head Smut",
+      "Covered Kernel Smut",
+      "Long Smut",
+      "Smut",
+      "Downy Mildew",
+      "Rust",
+      "Anthracnose and Red Rot",
+      "Cereal Grain Molds"
+    ],
+    "weeds": []
+  },
+  "soybean": {
+    "pests": [
+      "Glycine max",
+      "Spilosoma obliqua",
+      "Soybean Aphid",
+      "Aphis spp.",
+      "Helicoverpa armigera",
+      "Apheliona maculosa",
+      "Spodoptera litura",
+      "Oberea (Obereopsis) brevis",
+      "Thrips tabaci",
+      "Melanagromyza sojae",
+      "Bemisia tabaci"
+    ],
+    "diseases": [
+      "Alternaria Leaf Spot",
+      "Bacterial Blight",
+      "Cercospora Leaf Blight",
+      "Charcoal Rot",
+      "Frog Eye Leaf Spot",
+      "Rhizoctonia Aerial Blight",
+      "Soybean Mosaic",
+      "Yellow Mosaic"
+    ],
+    "weeds": []
+  },
+  "sugarcane": {
+    "pests": [
+      "Early shoot borer",
+      "Internode borer",
+      "Top shoot borer",
+      "White flies",
+      "Sugarcane wolly aphid",
+      "Mealybug",
+      "White grub",
+      "Scale insects",
+      "Termites",
+      "Grasshopper"
+    ],
+    "diseases": [
+      "YELLOW LEAF DISEASE",
+      "SMUT",
+      "RUST",
+      "RATOON STUNTING",
+      "WILT",
+      "RED ROT",
+      "SETT ROT",
+      "GRASSY SHOOT DISEASE",
+      "POKKAH BOENG"
+    ],
+    "weeds": []
+  },
+  "sunflower": {
+    "pests": [
+      "Sun flower",
+      "Helianthus annus",
+      "Helicoverpa armigera",
+      "Amrasca biguttula",
+      "Spilosoma obliqua",
+      "Psittacula kramer",
+      "Spodoptera litura"
+    ],
+    "diseases": [
+      "Alternaria blight",
+      "Rust",
+      "Charcoal rot",
+      "Rhizopus head rot",
+      "Sclerotium wilt or rot",
+      "Downy Mildew",
+      "Sunflower necrosis",
+      "Sunflower mosaic virus"
+    ],
+    "weeds": []
+  },
+  "sweet potato": {
+    "pests": [],
+    "diseases": [
+      "Black Rot",
+      "Rhizopus Soft Rot",
+      "Bacterial Soft Rot",
+      "Scurf",
+      "Charcoal Rot"
+    ],
+    "weeds": []
+  },
+  "tapioca": {
+    "pests": [
+      "Spiralling whitefly",
+      "Whitefly",
+      "Cassava scale",
+      "Cassava mealy bug"
+    ],
+    "diseases": [],
+    "weeds": []
+  },
+  "tea": {
+    "pests": [
+      "Camellia sinensis",
+      "Tea mosquito bug",
+      "Helopeltis theivora",
+      "Brevipalpus californicus",
+      "Biston supressaria",
+      "Calacarus carinatus",
+      "Neostauropus alternus",
+      "Acaphylla theae",
+      "Cydia leuocostoma",
+      "Polyphagotarsonemus latus",
+      "Homona coffearia",
+      "Scirtothrips bispinosus",
+      "Envallacea fornicatus",
+      "Toxoptera aurantii",
+      "Oligonychus coffeae"
+    ],
+    "diseases": [
+      "Algal leaf spot",
+      "Blister blight",
+      "Horse hair blight",
+      "Black root rot"
+    ],
+    "weeds": []
+  },
+  "tobacco": {
+    "pests": [],
+    "diseases": [
+      "Damping Off",
+      "Anthracnose",
+      "Black Shank",
+      "Powdery Mildew",
+      "Frog Eye Leaf Spot",
+      "Brown Spot",
+      "Mosaic",
+      "Leaf Curl",
+      "Orobanche"
+    ],
+    "weeds": []
+  },
+  "tomato": {
+    "pests": [
+      "Solanaceae",
+      "Fruit Borer",
+      "Serpentine leaf miner",
+      "Leaf eating caterpillar",
+      "Whitefly",
+      "Thrips",
+      "Striped mealybug",
+      "Red spider mite",
+      "Pinworm"
+    ],
+    "diseases": [
+      "Solanaceae",
+      "Fruit Borer",
+      "Serpentine leaf miner",
+      "Leaf eating caterpillar",
+      "Whitefly",
+      "Thrips",
+      "Striped mealybug",
+      "Red spider mite",
+      "Pinworm"
+    ],
+    "weeds": []
+  },
+  "tuberose": {
+    "pests": [],
+    "diseases": [
+      "Sclerotium rolfsii",
+      "Drenching with",
+      "Pseudomonas fluorescens",
+      "Healthy plants",
+      "Infected stem"
+    ],
+    "weeds": []
+  },
+  "turmeric": {
+    "pests": [],
+    "diseases": [
+      "Leaf spot",
+      "Leaf blotch",
+      "Rhizome rot",
+      "Farmers' Inno"
+    ],
+    "weeds": []
+  },
+  "wood apple": {
+    "pests": [
+      "Feronia limonia",
+      "Fruit borer",
+      "Deudorix isocrates",
+      "Citrus butterfly",
+      "Papilio demolious"
+    ],
+    "diseases": [],
+    "weeds": []
+  }
+}

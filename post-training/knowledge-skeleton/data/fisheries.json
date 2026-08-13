@@ -1,0 +1,949 @@
+{
+ "_description": "Fisheries domain: marine and inland sectors, aquaculture species and producing states.",
+ "source": {
+  "id": "nfdb",
+  "url": "https://nfdb.gov.in/"
+ },
+ "entities": [
+  {
+   "id": "fisheries",
+   "name": "Fisheries and Aquaculture",
+   "type": "domain",
+   "domain": "fisheries",
+   "aliases": [
+    "Matsya palan",
+    "Fishing"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.carp",
+   "name": "Indian Major Carps",
+   "type": "entity",
+   "domain": "fisheries",
+   "aliases": [
+    "Rohu",
+    "Catla",
+    "Mrigal",
+    "Composite fish culture"
+   ],
+   "attributes": {
+    "species": "Labeo rohita (rohu), Catla catla (catla), Cirrhinus mrigala (mrigal)",
+    "note": "Backbone of pond aquaculture; polyculture with exotic carp (silver, grass)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.inland",
+   "name": "Inland Fisheries and Aquaculture",
+   "type": "category",
+   "domain": "fisheries",
+   "aliases": [
+    "Freshwater fishing",
+    "Fish farming"
+   ],
+   "attributes": {
+    "note": "Inland (rivers, tanks, ponds, reservoirs) contributes ~70% of production; aquaculture dominant",
+    "top_aquaculture": "AP, WB, Punjab, Bihar, Gujarat, Karnataka"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.bihar"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.inland.carp_polyculture",
+   "name": "Carp Polyculture",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Composite fish culture of 6 carps (3 IMC + 3 exotic)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.inland.catla",
+   "name": "Catla",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Catla catla; surface feeder; fastest growing IMC"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.inland.freshwater_prawn",
+   "name": "Freshwater Prawn (Scampi)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Macrobrachium rosenbergii; lucrative brackish/freshwater species"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.inland.grass_carp",
+   "name": "Grass Carp",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Ctenopharyngodon idella; exotic; weed control in ponds"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.inland.mrigal",
+   "name": "Mrigal",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Cirrhinus mrigala; bottom feeder"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.inland.pangasius",
+   "name": "Pangasius",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Pangasianodon hypophthalmus; exotic; high-yield aquaculture"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.inland.rohu",
+   "name": "Rohu",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Labeo rohita; column feeder; most preferred IMC"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.inland.silver_carp",
+   "name": "Silver Carp",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Hypophthalmichthys molitrix; exotic; surface feeder in polyculture"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.inland.tilapia",
+   "name": "Tilapia",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Oreochromis niloticus; GIFT strain; fast growing"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.marine",
+   "name": "Marine Fisheries",
+   "type": "category",
+   "domain": "fisheries",
+   "aliases": [
+    "Sea fishing"
+   ],
+   "attributes": {
+    "states": "Gujarat, Kerala, Maharashtra, Karnataka, TN, AP, WB, Odisha, Goa; west coast > east coast catch"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://www.cmfri.org.in/"
+   }
+  },
+  {
+   "id": "fisheries.marine.anchovies",
+   "name": "Anchovies",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Stolephorus, Coilia, Thryssa spp.; 0.99 lakh t in 2023"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.bombay_duck",
+   "name": "Bombay Duck",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Endemic to NW coast; dried form popular"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.marine.cephalopods",
+   "name": "Cephalopods (Squid, Cuttlefish, Octopus)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "2.13 lakh t in 2023 (6.02%); major export item"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.croakers",
+   "name": "Croakers",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Sciaenidae family; 1.03 lakh t in 2023; demersal trawl catch"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.hilsa",
+   "name": "Hilsa Shad",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Tenualosa ilisha; Ganga-Brahmaputra and east coast; declining trend"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.lesser_sardines",
+   "name": "Lesser Sardines",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Sardinella gibbosa, S. albella; 1.69 lakh t in 2022"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.mackerel",
+   "name": "Indian Mackerel",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Major pelagic catch along west coast"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   },
+   "aliases": [
+    "short mackerel"
+   ]
+  },
+  {
+   "id": "fisheries.marine.non_penaeid_prawns",
+   "name": "Non-Penaeid Prawns",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Acetes spp.; 2.11 lakh t in 2023 (5.98%); dried shrimp industry"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.oil_sardine",
+   "name": "Indian Oil Sardine",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Largest single-species marine catch; Kerala and TN coast"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.marine.penaeid_prawns",
+   "name": "Penaeid Prawns",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Parapenaeopsis, Penaeus spp.; marine shrimp; decline of 37% in 2023 vs 2022"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.pomfrets",
+   "name": "Pomfrets",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Silver pomfret (Pampus argenteus), black pomfret; high-value"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.ribbonfish",
+   "name": "Ribbon Fish",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Trichiurus lepturus; 2.70 lakh t in 2023 (7.64% of landings) - 2nd top resource"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.scads",
+   "name": "Scads",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Decapterus spp.; 1.63 lakh t in 2022; carangid"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.seer_fish",
+   "name": "Seer Fish",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Scomberomorus commerson, S. guttatus; high-value game fish"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.silverbellies",
+   "name": "Silverbellies",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Leiognathus spp.; 0.59 lakh t in 2022"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.threadfin_breams",
+   "name": "Threadfin Breams",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Nemipterus spp.; ~5% of landings; major trawl species"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.marine.tunnies",
+   "name": "Tunnies and Tunas",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Euthynnus affinis, Katsuwonus pelamis; skipjack, little tunny"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://eprints.cmfri.org.in/18344/"
+   }
+  },
+  {
+   "id": "fisheries.scheme",
+   "name": "Pradhan Mantri Matsya Sampada Yojana",
+   "type": "measure",
+   "domain": "fisheries",
+   "aliases": [
+    "PMMSY"
+   ],
+   "attributes": {
+    "budget": "Rs 20,000 crore (2020-21 to 2024-25)",
+    "purpose": "Blue revolution: fish production, infrastructure, fishers welfare"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.shrimp",
+   "name": "Shrimp (Prawn) Farming",
+   "type": "entity",
+   "domain": "fisheries",
+   "aliases": [
+    "Litopenaeus vannamei",
+    "Tiger prawn",
+    "Jhinga"
+   ],
+   "attributes": {
+    "note": "India's top seafood export (frozen shrimp); AP and Gujarat lead; vannamei dominant since 2009"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.status",
+   "name": "Fisheries Sector Status",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "India: 2nd largest fish producer, 2nd largest aquaculture; ~18-20M tonnes production; fisheries ~1% of GDP",
+    "coastline": "~8,100 km",
+    "employment": "~28M fishers and dependents"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    },
+    {
+     "predicate": "monitored_by",
+     "object": "institutions.nfdb"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "fisheries.brackishwater",
+   "name": "Brackishwater Aquaculture",
+   "type": "category",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Shrimp/prawn farming in coastal brackishwater; major producer states per ICAR-CIBA mandate and annual report coverage"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "ciba",
+      "url": "https://www.ciba.res.in/"
+     }
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "ciba",
+      "url": "https://www.ciba.res.in/"
+     }
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "ciba",
+      "url": "https://www.ciba.res.in/"
+     }
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "ciba",
+      "url": "https://www.ciba.res.in/"
+     }
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "ciba",
+      "url": "https://www.ciba.res.in/"
+     }
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "ciba",
+      "url": "https://www.ciba.res.in/"
+     }
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "ciba",
+      "url": "https://www.ciba.res.in/"
+     }
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "ciba",
+      "url": "https://www.ciba.res.in/"
+     }
+    }
+   ],
+   "source": {
+    "id": "ciba",
+    "url": "https://www.ciba.res.in/"
+   }
+  }
+ ]
+}

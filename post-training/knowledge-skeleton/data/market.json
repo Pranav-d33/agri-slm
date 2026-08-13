@@ -1,0 +1,591 @@
+{
+ "_description": "Market and economy domain: mandis, APMC, MSP, e-NAM, exports, crop insurance.",
+ "source": {
+  "id": "agmarknet",
+  "url": "https://agmarknet.gov.in/"
+ },
+ "entities": [
+  {
+   "id": "market",
+   "name": "Agricultural Marketing",
+   "type": "domain",
+   "domain": "market",
+   "aliases": [
+    "Krishi vipanan",
+    "Mandi"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   }
+  },
+  {
+   "id": "market.apmc",
+   "name": "APMC Mandis",
+   "type": "category",
+   "domain": "market",
+   "aliases": [
+    "Agricultural Produce Market Committee",
+    "Krishi mandi",
+    "Mandi yards"
+   ],
+   "attributes": {
+    "note": "Regulated markets under state APMC Acts (since 1960s); ~7,000+ principal mandis; famous: Azadpur (Delhi), Vashi (Mumbai), Koyambedu (Chennai), Gultekdi (Pune)",
+    "reform": "APMC reforms 2020 (repealed 2021); states continuing with own reforms"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    }
+   ],
+   "source": {
+    "id": "amfi",
+    "url": "https://amfi.gov.in/"
+   }
+  },
+  {
+   "id": "market.apmc.azadpur",
+   "name": "Azadpur Mandi",
+   "type": "entity",
+   "domain": "market",
+   "attributes": {
+    "note": "Asia's largest fruit-and-vegetable wholesale market; Delhi"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.apmc"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   }
+  },
+  {
+   "id": "market.apmc.gultekdi",
+   "name": "Gultekdi Market Yard (Pune)",
+   "type": "entity",
+   "domain": "market",
+   "attributes": {
+    "note": "Pune APMC; vegetables, onion"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.apmc"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   }
+  },
+  {
+   "id": "market.apmc.koyambedu",
+   "name": "Koyambedu Market",
+   "type": "entity",
+   "domain": "market",
+   "attributes": {
+    "note": "Chennai's wholesale hub; South India's largest"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.apmc"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   }
+  },
+  {
+   "id": "market.apmc.vashi",
+   "name": "Vashi APMC (Navi Mumbai)",
+   "type": "entity",
+   "domain": "market",
+   "attributes": {
+    "note": "Largest APMC in Maharashtra"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.apmc"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   }
+  },
+  {
+   "id": "market.digital_markets",
+   "name": "Digital and Information Markets",
+   "type": "category",
+   "domain": "market",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   },
+   "attributes": {
+    "note": "e-NAM and mandi price reporting"
+   }
+  },
+  {
+   "id": "market.enam",
+   "name": "e-NAM",
+   "type": "measure",
+   "domain": "market",
+   "aliases": [
+    "National Agriculture Market",
+    "Electronic mandi"
+   ],
+   "attributes": {
+    "note": "Online trading platform linking ~1,300+ mandis (since 2016); single national market for agri produce"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.digital_markets"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "enam",
+    "url": "https://www.enam.gov.in/"
+   }
+  },
+  {
+   "id": "market.exports",
+   "name": "Agricultural Exports",
+   "type": "measure",
+   "domain": "market",
+   "aliases": [
+    "Agri exports",
+    "Niryaat"
+   ],
+   "attributes": {
+    "note": "India exports ~$50B+ agri products (record $53.1B FY23); top: rice (basmati), shrimp, spices, sugar, buffalo meat; APEDA regulates many",
+    "scheme": "Agricultural Export Policy 2018, district export hubs"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.exports_trade"
+    },
+    {
+     "predicate": "regulated_by",
+     "object": "institutions.apeda"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "apeda",
+    "url": "https://apeda.gov.in/"
+   }
+  },
+  {
+   "id": "market.exports_trade",
+   "name": "Exports and International Trade",
+   "type": "category",
+   "domain": "market",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   },
+   "attributes": {
+    "note": "APEDA-regulated agri exports"
+   }
+  },
+  {
+   "id": "market.futures",
+   "name": "Commodity Futures",
+   "type": "measure",
+   "domain": "market",
+   "aliases": [
+    "NCDEX",
+    "MCX",
+    "Futures trading"
+   ],
+   "attributes": {
+    "note": "NCDEX and MCX trade agri futures (soybean, mustard, cotton, guar, turmeric); periodic suspensions to curb speculation"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.risk_management"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "market.insurance",
+   "name": "Crop Insurance",
+   "type": "measure",
+   "domain": "market",
+   "aliases": [
+    "PMFBY",
+    "Pradhan Mantri Fasal Bima Yojana",
+    "Fasal bima"
+   ],
+   "attributes": {
+    "note": "PMFBY (since 2016): premium 2% kharif, 1.5% rabi food crops, 5% commercial; covers non-preventable risks; restructured 2020 (voluntary)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.risk_management"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "market.msp",
+   "name": "Minimum Support Price",
+   "type": "measure",
+   "domain": "market",
+   "aliases": [
+    "MSP",
+    "Nyuntam samarthan mulya"
+   ],
+   "attributes": {
+    "crops": "22 mandated commodities: paddy (common), wheat, maize, jowar (hybrid), bajra, ragi, barley, gram (chickpea), tur/arhar, moong, urad, masur (lentil), rapeseed-mustard, groundnut, sunflower, soybean (yellow), sesamum, nigerseed, safflower, cotton (medium staple), raw jute, copra (milling); sugarcane paid via FRP (separate from MSP)",
+    "set_by": "CAB, announced by Cabinet (DAC&FW) each kharif/rabi season",
+    "note": "MSP announced on C2+50% formula since 2018-19; procurement mainly paddy/wheat via FCI"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.price_support"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    },
+    {
+     "predicate": "monitored_by",
+     "object": "institutions.fci"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.rice"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.wheat"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.maize"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.jowar"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.bajra"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.ragi"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.barley"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.gram"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.pigeon_pea"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.green_gram"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.black_gram"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.lentil"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.mustard"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.groundnut"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.sunflower"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.soybean"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.sesame"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.niger"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.safflower"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.cotton"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.jute"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.coconut"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2260618"
+   }
+  },
+  {
+   "id": "market.pds",
+   "name": "Public Distribution System",
+   "type": "measure",
+   "domain": "market",
+   "aliases": [
+    "PDS",
+    "Ration system",
+    "NFSA"
+   ],
+   "attributes": {
+    "note": "NFSA 2013: 5 kg foodgrains per person at subsidised rates for ~81 crore beneficiaries; procurement via FCI at MSP"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.price_support"
+    },
+    {
+     "predicate": "regulated_by",
+     "object": "institutions.fci"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "fci",
+    "url": "https://fci.gov.in/"
+   }
+  },
+  {
+   "id": "market.price_support",
+   "name": "Price Support and Procurement",
+   "type": "category",
+   "domain": "market",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   },
+   "attributes": {
+    "note": "MSP and public procurement via FCI/PDS"
+   }
+  },
+  {
+   "id": "market.prices",
+   "name": "Mandi Prices",
+   "type": "measure",
+   "domain": "market",
+   "aliases": [
+    "Modal price",
+    "Daily prices"
+   ],
+   "attributes": {
+    "note": "Daily arrival and price data on AGMARKNET (2,000+ mandis); price intelligence informs MSP and policy"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market.digital_markets"
+    },
+    {
+     "predicate": "monitored_by",
+     "object": "institutions.agmarknet"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   }
+  },
+  {
+   "id": "market.risk_management",
+   "name": "Risk Management and Insurance",
+   "type": "category",
+   "domain": "market",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   },
+   "attributes": {
+    "note": "Crop insurance and commodity futures"
+   }
+  },
+  {
+   "id": "market.contract_farming",
+   "name": "Contract Farming",
+   "type": "category",
+   "domain": "market",
+   "attributes": {
+    "note": "Contract farming framework under Model Contract Farming Act 2018 (DAC&FW)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "market.fpo",
+   "name": "Farmer Producer Organisations (FPOs)",
+   "type": "category",
+   "domain": "market",
+   "attributes": {
+    "note": "FPO scheme: 10,000 FPOs (2024-25) under DAC&FW"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "market"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  }
+ ]
+}

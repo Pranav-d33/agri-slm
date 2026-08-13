@@ -1,0 +1,917 @@
+{
+ "_description": "Government schemes and agricultural institutions. Also the home of every institutions.* id referenced from other domains.",
+ "source": {
+  "id": "dacfw",
+  "url": "https://agricoop.nic.in/"
+ },
+ "entities": [
+  {
+   "id": "institutions.agmarknet",
+   "name": "AGMARKNET",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Agmark"
+   ],
+   "attributes": {
+    "role": "Mandi price data network; quality grading"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.regulatory_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "agmarknet",
+    "url": "https://agmarknet.gov.in/"
+   }
+  },
+  {
+   "id": "institutions.amul",
+   "name": "Amul",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "GCMMF",
+    "Anand pattern"
+   ],
+   "attributes": {
+    "role": "India's largest dairy cooperative (GCMMF, Anand Gujarat); model for cooperatives"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.service_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nddb",
+    "url": "https://www.nddb.coop/"
+   }
+  },
+  {
+   "id": "institutions.apeda",
+   "name": "APEDA",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Agricultural and Processed Food Products Export Development Authority"
+   ],
+   "attributes": {
+    "role": "Agri exports promotion; NPOP organic certification (accreditation)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.service_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi"
+    }
+   ],
+   "source": {
+    "id": "apeda",
+    "url": "https://apeda.gov.in/"
+   }
+  },
+  {
+   "id": "institutions.cibrc",
+   "name": "CIB&RC",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Central Insecticides Board and Registration Committee"
+   ],
+   "attributes": {
+    "role": "Registration of pesticides under Insecticides Act 1968",
+    "note": "Recommends ban/restriction of pesticides"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.regulatory_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi"
+    }
+   ],
+   "source": {
+    "id": "cibrc",
+    "url": "https://cibrc.gov.in/"
+   }
+  },
+  {
+   "id": "institutions.cmfri",
+   "name": "CMFRI",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Central Marine Fisheries Research Institute"
+   ],
+   "attributes": {
+    "role": "Marine fisheries research and statistics"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.research_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala"
+    }
+   ],
+   "source": {
+    "id": "cmfri",
+    "url": "https://www.cmfri.org.in/"
+   }
+  },
+  {
+   "id": "institutions.dahd",
+   "name": "DAHD",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Department of Animal Husbandry and Dairying"
+   ],
+   "attributes": {
+    "role": "Livestock census, animal health, dairy and livestock schemes"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.service_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "institutions.fci",
+   "name": "FCI",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Food Corporation of India"
+   ],
+   "attributes": {
+    "role": "MSP procurement, buffer stocks, PDS distribution"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.service_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi"
+    }
+   ],
+   "source": {
+    "id": "fci",
+    "url": "https://fci.gov.in/"
+   }
+  },
+  {
+   "id": "institutions.fco",
+   "name": "Fertiliser Control Order Authority",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "FCO",
+    "Fertiliser Quality Control"
+   ],
+   "attributes": {
+    "role": "Regulates fertiliser quality/sale under FCO 1985"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.regulatory_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "institutions.fssai",
+   "name": "FSSAI",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Food Safety and Standards Authority of India"
+   ],
+   "attributes": {
+    "role": "Food safety, MRLs for pesticides in food, food labelling"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.regulatory_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi"
+    }
+   ],
+   "source": {
+    "id": "fssai",
+    "url": "https://www.fssai.gov.in/"
+   }
+  },
+  {
+   "id": "institutions.icar",
+   "name": "ICAR",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Indian Council of Agricultural Research"
+   ],
+   "attributes": {
+    "role": "Apex body for agri research and education; 100+ institutes and 74 SAUs-affiliated research; NARS"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.research_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "institutions.imd",
+   "name": "IMD",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "India Meteorological Department"
+   ],
+   "attributes": {
+    "role": "Monsoon forecasts, agromet advisories"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.service_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "institutions.kvk",
+   "name": "Krishi Vigyan Kendras",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "KVKs",
+    "Farm Science Centres"
+   ],
+   "attributes": {
+    "role": "District-level extension: technology testing, demonstrations, farmer training",
+    "coverage": "~730 KVKs (one per district)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.research_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "kyh",
+    "url": "https://kvk.icar.gov.in/"
+   }
+  },
+  {
+   "id": "institutions.nabard",
+   "name": "NABARD",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "National Bank for Agriculture and Rural Development"
+   ],
+   "attributes": {
+    "role": "Rural credit, refinancing, watershed development funding"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.service_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "institutions.nbagr",
+   "name": "ICAR-NBAGR",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "National Bureau of Animal Genetic Resources"
+   ],
+   "attributes": {
+    "role": "Registry of indigenous livestock breeds (cattle, buffalo, goat, sheep, poultry, camel, yak, mithun, etc.)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.research_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.icar.gov.in/"
+   }
+  },
+  {
+   "id": "institutions.nddb",
+   "name": "NDDB",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "National Dairy Development Board"
+   ],
+   "attributes": {
+    "role": "Dairy development; Operation Flood legacy; Amul cooperative model"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.service_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "nddb",
+    "url": "https://www.nddb.coop/"
+   }
+  },
+  {
+   "id": "institutions.nfdb",
+   "name": "NFDB",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "National Fisheries Development Board"
+   ],
+   "attributes": {
+    "role": "Fisheries and aquaculture development"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.service_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
+   }
+  },
+  {
+   "id": "institutions.nsc",
+   "name": "National Seeds Corporation",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "NSC"
+   ],
+   "attributes": {
+    "role": "Seed production and distribution"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.regulatory_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi"
+    }
+   ],
+   "source": {
+    "id": "nsc",
+    "url": "https://www.indiaseeds.com/"
+   }
+  },
+  {
+   "id": "institutions.pgsindia",
+   "name": "PGS-India",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Participatory Guarantee System of India"
+   ],
+   "attributes": {
+    "role": "Group organic certification (see organic.pgs)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.regulatory_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "pgsindia",
+    "url": "https://pgsindia-nocof.net/"
+   }
+  },
+  {
+   "id": "institutions.saus",
+   "name": "State Agricultural Universities",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "SAUs",
+    "PAU",
+    "TNAU",
+    "UAS",
+    "ANGRAU",
+    "GBPUAT"
+   ],
+   "attributes": {
+    "role": "State-level agri education, research and extension; 74 SAUs; PAU Ludhiana, TNAU Coimbatore, UAS Bengaluru/Dharwad, ANGRAU, BAU Ranchi, AAU Jorhat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.research_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "schemes",
+   "name": "Government Schemes and Institutions",
+   "type": "domain",
+   "domain": "schemes",
+   "aliases": [
+    "Krishi yojnayein",
+    "Agricultural institutions"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "schemes.centrally_sponsored",
+   "name": "Central and Centrally Sponsored Schemes",
+   "type": "category",
+   "domain": "schemes",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   },
+   "attributes": {
+    "note": "PM-KISAN, KCC, PMFBY, PMKSY, NFSM, NMSA, Soil Health Card, PMKVY, MIDH"
+   }
+  },
+  {
+   "id": "schemes.kcc",
+   "name": "Kisan Credit Card",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "KCC"
+   ],
+   "attributes": {
+    "purpose": "Short-term crop loans, interest subvention (2-4%); also covers animal husbandry, fisheries",
+    "note": "Launched 1998; renewed push 2019-20"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.centrally_sponsored"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "schemes.midh",
+   "name": "MIDH",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Mission for Integrated Development of Horticulture"
+   ],
+   "attributes": {
+    "purpose": "Horticulture promotion: nurseries, protected cultivation, cold chain"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.centrally_sponsored"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nhb",
+    "url": "https://nhb.gov.in/"
+   }
+  },
+  {
+   "id": "schemes.nfsm",
+   "name": "NFSM",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "National Food Security Mission"
+   ],
+   "attributes": {
+    "purpose": "Raise production of rice, wheat, pulses, millets, oilseeds via seed and technology support"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.centrally_sponsored"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "schemes.nmsa",
+   "name": "NMSA",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "National Mission for Sustainable Agriculture",
+    "BPKP",
+    "Soil Health Management"
+   ],
+   "attributes": {
+    "purpose": "Climate-resilient agriculture, soil health, natural farming (BPKP component)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.centrally_sponsored"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "schemes.pm_kisan",
+   "name": "PM-KISAN",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Pradhan Mantri Kisan Samman Nidhi"
+   ],
+   "attributes": {
+    "benefit": "Rs 6,000 per year in 3 instalments to land-holding farmer families",
+    "started": "2019",
+    "note": "Direct benefit transfer; ~11 crore beneficiaries"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.centrally_sponsored"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "schemes.pmfby",
+   "name": "PMFBY",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Pradhan Mantri Fasal Bima Yojana"
+   ],
+   "attributes": {
+    "purpose": "Crop insurance at low premium",
+    "note": "See market.insurance for details"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.centrally_sponsored"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "schemes.pmksy",
+   "name": "PMKSY",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Pradhan Mantri Krishi Sinchayee Yojana",
+    "Per Drop More Crop"
+   ],
+   "attributes": {
+    "purpose": "Irrigation coverage (har khet ko paani), micro-irrigation subsidy"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.centrally_sponsored"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "schemes.pmkvy",
+   "name": "PM Kaushal Vikas Yojana (agri skills)",
+   "type": "institution",
+   "domain": "schemes",
+   "aliases": [
+    "Skill development for farmers"
+   ],
+   "attributes": {
+    "purpose": "Skill training for rural youth incl. agri skills"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.centrally_sponsored"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "schemes.regulatory_institutions",
+   "name": "Regulatory and Certification Bodies",
+   "type": "category",
+   "domain": "schemes",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   },
+   "attributes": {
+    "note": "CIB&RC, FCO, FSSAI, PGS-India, NSC, AGMARKNET"
+   }
+  },
+  {
+   "id": "schemes.research_institutions",
+   "name": "Research and Education Institutions",
+   "type": "category",
+   "domain": "schemes",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   },
+   "attributes": {
+    "note": "ICAR HQ, NBAGR, CMFRI, SAUs, KVKs"
+   }
+  },
+  {
+   "id": "schemes.service_institutions",
+   "name": "Market, Finance and Service Institutions",
+   "type": "category",
+   "domain": "schemes",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   },
+   "attributes": {
+    "note": "APEDA, NDDB, DAHD, IMD, NFDB, FCI, NABARD, AMUL"
+   }
+  },
+  {
+   "id": "schemes.soil_health_card_scheme",
+   "name": "Soil Health Card Scheme",
+   "type": "institution",
+   "domain": "schemes",
+   "attributes": {
+    "purpose": "Issue soil health cards to farmers every 2-3 years (see soil.soil_health_card)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.centrally_sponsored"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "schemes.icrisat",
+   "name": "ICRISAT",
+   "type": "institution",
+   "domain": "schemes",
+   "attributes": {
+    "role": "International Crops Research Institute for the Semi-Arid Tropics (ICAR partner; HQ Patancheru, Telangana)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes.research_institutions"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "schemes.agri_startups",
+   "name": "Agri-Startups and AgTech Ecosystem",
+   "type": "category",
+   "domain": "schemes",
+   "attributes": {
+    "note": "Startup India / agri-tech promotion under DAC&FW"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "schemes"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  }
+ ]
+}

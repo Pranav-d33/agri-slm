@@ -1,0 +1,17 @@
+[     360ms] TypeError: Cannot read properties of undefined (reading 'style')
+    at showSlides (https://nhb.gov.in/:1051:32)
+    at https://nhb.gov.in/:1028:5
+[    1138ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://nhb.gov.in/assets/img/LogoImage_ICICIBank.png:0
+[    1149ms] TypeError: firebase.messaging is not a function
+    at https://nhb.gov.in/assets/js/main.js:10:28
+[    1170ms] TypeError: Cannot read properties of undefined (reading 'className')
+    at showSlides (https://nhb.gov.in/:3039:15)
+    at https://nhb.gov.in/:3016:7
+[    1171ms] TypeError: $(...).dialog is not a function
+    at HTMLDocument.<anonymous> (https://nhb.gov.in/:1058:22)
+    at i (https://nhb.gov.in/assets/js/jquery.min.js:3:32874)
+    at Object.fireWith [as resolveWith] (https://nhb.gov.in/assets/js/jquery.min.js:3:33846)
+    at n.ready (https://nhb.gov.in/assets/js/jquery.min.js:3:35987)
+    at HTMLDocument.J (https://nhb.gov.in/assets/js/jquery.min.js:3:36186)
+[    1753ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://nhb.gov.in/css/images/after-bg.png:0
+[    1754ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://nhb.gov.in/css/images/after-bottom-bg.png:0

@@ -1,0 +1,206 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - generic [ref=f14e6]:
+      - list:
+        - listitem [ref=f14e7]
+    - link [ref=f14e11] [cursor=pointer]:
+      - /url: ../Default.aspx
+  - generic [ref=f14e13]:
+    - table [ref=f14e17]:
+      - rowgroup [ref=f14e18]:
+        - row [ref=f14e19]:
+          - cell [ref=f14e20]:
+            - table [ref=f14e21]:
+              - rowgroup [ref=f14e22]:
+                - row [ref=f14e23]:
+                  - cell [ref=f14e24]:
+                    - table [ref=f14e25]:
+                      - rowgroup [ref=f14e26]:
+                        - row [ref=f14e27]:
+                          - 'cell "NHB Interactive: Area & Production Estimates for Horticulture Crops" [ref=f14e28]'
+                        - row [ref=f14e29]:
+                          - cell [ref=f14e30]:
+                            - table [ref=f14e31]:
+                              - rowgroup [ref=f14e32]:
+                                - row:
+                                  - cell
+                                - row [ref=f14e33]:
+                                  - cell "Area & Production Estimates for Horticulture Crops [ Interactive Query based Module]" [ref=f14e34]
+                                - row [ref=f14e35]:
+                                  - cell [ref=f14e36]:
+                                    - table [ref=f14e37]:
+                                      - rowgroup [ref=f14e38]:
+                                        - row [ref=f14e39]:
+                                          - cell [ref=f14e40]:
+                                            - table [ref=f14e41]:
+                                              - rowgroup [ref=f14e42]:
+                                                - row [ref=f14e43]:
+                                                  - 'cell "Select Category: (Select single Category)" [ref=f14e44]'
+                                                  - cell "Select Category" [ref=f14e45]:
+                                                    - combobox [ref=f14e46] [cursor=pointer]:
+                                                      - option "Select Category" [selected]
+                                                      - option "AROMATIC&MEDITIONALPLANT"
+                                                      - option "FLOWERS"
+                                                      - option "FRUITS"
+                                                      - option "MUSHROOM"
+                                                      - option "NUTS"
+                                                      - option "PLANTATION CROPS"
+                                                      - option "SPICES"
+                                                      - option "VEGETABLES"
+                                                - row [ref=f14e47]:
+                                                  - 'cell "Select Crop: (Select single Crop)" [ref=f14e48]'
+                                                  - cell "Select Crop" [ref=f14e49]:
+                                                    - combobox [ref=f14e50] [cursor=pointer]:
+                                                      - option "Select Crop" [selected]
+                                                      - option "ALMOND/WALNUT"
+                                                      - option "APPLE"
+                                                      - option "ARECANUT"
+                                                      - option "AROAMATIC & MEDITIONAL PLANT"
+                                                      - option "BANANA"
+                                                      - option "BEE KEEPING"
+                                                      - option "BRINJAL"
+                                                      - option "CABBAGE"
+                                                      - option "CASHEWNUT"
+                                                      - option "CAULIFLOWER"
+                                                      - option "CIRTUS"
+                                                      - option "COCO"
+                                                      - option "COCOA"
+                                                      - option "COCONUT"
+                                                      - option "FLOWER CUT"
+                                                      - option "FLOWER LOOSE"
+                                                      - option "GRADING PACKING UNIT"
+                                                      - option "GRAPES"
+                                                      - option "GUAVA"
+                                                      - option "HONEY"
+                                                      - option "HORT ANCILIARY UNIT"
+                                                      - option "HOUSE"
+                                                      - option "LITCHI"
+                                                      - option "MANGO"
+                                                      - option "MANGO PULP UNIT"
+                                                      - option "MUSHROOM"
+                                                      - option "NURSERY"
+                                                      - option "OKRA"
+                                                      - option "ONION"
+                                                      - option "OTHER"
+                                                      - option "OTHER AROMATIC"
+                                                      - option "OTHER FRUIT"
+                                                      - option "OTHER NUTS"
+                                                      - option "OTHER PROCESSING UNIT"
+                                                      - option "OTHER SPICE"
+                                                      - option "OTHER VEGETABLES"
+                                                      - option "PAPAYA"
+                                                      - option "PEAS"
+                                                      - option "PHM"
+                                                      - option "PINEAPPLE"
+                                                      - option "PLASTIC CRATES"
+                                                      - option "POMEGRANATE"
+                                                      - option "POTATO"
+                                                      - option "RAISIN UNIT"
+                                                      - option "Refer Van"
+                                                      - option "Ripening Chamber"
+                                                      - option "SAPOTA"
+                                                      - option "SPICES"
+                                                      - option "SWEET POTATO"
+                                                      - option "TAPIOCA"
+                                                      - option "TISSUCULTURE"
+                                                      - option "TOMATO"
+                                                      - option "TRANSPORT"
+                                                      - option "VERMICOMPOST"
+                                                      - option "WINE UNIT"
+                                                - row [ref=f14e51]:
+                                                  - 'cell "Year : (Select single/multiple Year)" [ref=f14e52]'
+                                                  - cell [ref=f14e53]:
+                                                    - listbox [ref=f14e54] [cursor=pointer]:
+                                                      - option "2011-2012" [ref=f14e55]
+                                                      - option "2010-2011" [ref=f14e56]
+                                                      - option "2009-2010" [ref=f14e57]
+                                                      - option "2008-2009" [ref=f14e58]
+                                                      - option "2006-2007" [ref=f14e59]
+                                                      - option "2005-2006" [ref=f14e60]
+                                                      - option "2004-2005" [ref=f14e61]
+                                                      - option "2003-2004" [ref=f14e62]
+                                                      - option "2002-2003" [ref=f14e63]
+                                                      - option "2001-2002" [ref=f14e64]
+                                                      - option "2000-2001" [ref=f14e65]
+                                                    - button "Select All" [ref=f14e66] [cursor=pointer]
+                                                    - button "Remove All" [ref=f14e67] [cursor=pointer]
+                                                - row [ref=f14e68]:
+                                                  - 'cell "Center/State : (Select single/multiple centre name )" [ref=f14e69]'
+                                                  - cell [ref=f14e70]:
+                                                    - listbox [ref=f14e71] [cursor=pointer]:
+                                                      - option "Andaman & Nicobar Islands" [ref=f14e72]
+                                                      - option "Andhra Pradesh" [ref=f14e73]
+                                                      - option "Arunachal Pradesh" [ref=f14e74]
+                                                      - option "Assam" [ref=f14e75]
+                                                      - option "Bihar" [ref=f14e76]
+                                                      - option "Chandigarh" [ref=f14e77]
+                                                      - option "Chhattisgarh" [ref=f14e78]
+                                                      - option "Dadra & Nagar Haveli" [ref=f14e79]
+                                                      - option "Daman & Diu" [ref=f14e80]
+                                                      - option "Delhi" [ref=f14e81]
+                                                      - option "Goa" [ref=f14e82]
+                                                      - option "Gujarat" [ref=f14e83]
+                                                      - option "Haryana" [ref=f14e84]
+                                                      - option "Himachal Pradesh" [ref=f14e85]
+                                                      - option "Jammu & Kashmir" [ref=f14e86]
+                                                      - option "Jharkhand" [ref=f14e87]
+                                                      - option "Karnataka" [ref=f14e88]
+                                                      - option "Kerala" [ref=f14e89]
+                                                      - option "Lakshadweep" [ref=f14e90]
+                                                      - option "Madhya Pradesh" [ref=f14e91]
+                                                      - option "Maharastra" [ref=f14e92]
+                                                      - option "Manipur" [ref=f14e93]
+                                                      - option "Meghalaya" [ref=f14e94]
+                                                      - option "Mizoram" [ref=f14e95]
+                                                      - option "Nagaland" [ref=f14e96]
+                                                      - option "Odisha" [ref=f14e97]
+                                                      - option "Pondicherry" [ref=f14e98]
+                                                      - option "Punjab" [ref=f14e99]
+                                                      - option "Rajasthan" [ref=f14e100]
+                                                      - option "Sikkim" [ref=f14e101]
+                                                      - option "Tamil Nadu" [ref=f14e102]
+                                                      - option "Tripura" [ref=f14e103]
+                                                      - option "Uttar Pradesh" [ref=f14e104]
+                                                      - option "Uttrakhand" [ref=f14e105]
+                                                      - option "West Bengal" [ref=f14e106]
+                                                    - button "Select All" [ref=f14e107] [cursor=pointer]
+                                                    - button "Remove All" [ref=f14e108] [cursor=pointer]
+                                            - table [ref=f14e109]:
+                                              - rowgroup [ref=f14e110]:
+                                                - row [ref=f14e111]:
+                                                  - cell [ref=f14e112]:
+                                                    - button "Show Detail" [ref=f14e114] [cursor=pointer]
+                    - table [ref=f14e116]:
+                      - rowgroup [ref=f14e117]:
+                        - row [ref=f14e118]:
+                          - cell [ref=f14e119]
+                        - row:
+                          - cell
+                        - row:
+                          - cell
+                        - row [ref=f14e120]:
+                          - cell [ref=f14e121]
+                        - row [ref=f14e122]:
+                          - cell [ref=f14e123]
+    - generic [ref=f14e124]:
+      - list [ref=f14e127]:
+        - listitem [ref=f14e128]:
+          - link "Contact us" [ref=f14e129] [cursor=pointer]:
+            - /url: CorporateHeadQuarter.aspx
+        - listitem [ref=f14e130]:
+          - text: "|"
+          - link "Disclaimer" [ref=f14e131] [cursor=pointer]:
+            - /url: ""
+        - listitem [ref=f14e132]:
+          - text: "|"
+          - link "RTI Act, 2005" [ref=f14e133] [cursor=pointer]:
+            - /url: ""
+        - listitem [ref=f14e134]:
+          - text: "|"
+          - link "Citizen's Charter" [ref=f14e135] [cursor=pointer]:
+            - /url: PDFViwer.aspx?enc=3ZOO8K5CzcdC/Yq6HcdIxDanK4LGDkGq4swZpflowl0=
+      - generic [ref=f14e137]:
+        - generic [ref=f14e138]: Copyright © 2018-2019 National Horticulture Board. All Rights Reserved.
+        - generic [ref=f14e139]: No. of Visitors (Start Date:28/04/2015)
+        - link "Powered By Logicsoft." [ref=f14e141] [cursor=pointer]:
+          - /url: https://www.lsipl.com

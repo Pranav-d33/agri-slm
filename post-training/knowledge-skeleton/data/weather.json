@@ -1,0 +1,712 @@
+{
+ "_description": "Weather and climate domain: monsoon, seasons, drought/flood risk, and agro-climatic zones (zone data lives in locations/agro_climatic_zones.json).",
+ "source": {
+  "id": "imd",
+  "url": "https://mausam.imd.gov.in/"
+ },
+ "entities": [
+  {
+   "id": "weather",
+   "name": "Weather and Climate",
+   "type": "domain",
+   "domain": "weather",
+   "aliases": [
+    "Mausam",
+    "Monsoon"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.advisory",
+   "name": "Climate Monitoring and Advisory",
+   "type": "category",
+   "domain": "weather",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   },
+   "attributes": {
+    "note": "Rainfall pattern and IMD agromet services"
+   }
+  },
+  {
+   "id": "weather.agromet",
+   "name": "Agrometeorology",
+   "type": "measure",
+   "domain": "weather",
+   "aliases": [
+    "Gramin Krishi Mausam Sewa",
+    "GKMS"
+   ],
+   "attributes": {
+    "service": "IMD agromet advisories to farmers (1500+ districts via KVKs)",
+    "products": "Rainfall forecasts, crop weather calendars, pest alerts"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.advisory"
+    },
+    {
+     "predicate": "monitored_by",
+     "object": "institutions.imd"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.cold_wave",
+   "name": "Cold Wave",
+   "type": "entity",
+   "domain": "weather",
+   "attributes": {
+    "note": "Winter; frost damage to rabi crops"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.extreme_events"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "weather.cyclone",
+   "name": "Cyclone",
+   "type": "entity",
+   "domain": "weather",
+   "attributes": {
+    "note": "Bay of Bengal and Arabian Sea storms; coastal risk"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.extreme_events"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "weather.drought",
+   "name": "Drought",
+   "type": "event",
+   "domain": "weather",
+   "aliases": [
+    "Sookha"
+   ],
+   "attributes": {
+    "types": "Meteorological, hydrological, agricultural",
+    "affected_areas": "Rajasthan, Gujarat, Karnataka, Maharashtra, Telangana, AP (semi-arid)",
+    "relief": "State drought declarations; PMFBY payout triggers"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.extreme_events"
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.millets"
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.pulses"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.elnino",
+   "name": "El Nino Effect on Indian Monsoon",
+   "type": "event",
+   "domain": "weather",
+   "aliases": [
+    "ENSO"
+   ],
+   "attributes": {
+    "note": "El Nino years historically weaken SW monsoon -> drought risk; La Nina years favour good monsoon",
+    "example": "2015 (El Nino) severe drought; 2022-23 La Nina normal monsoon"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.monsoon"
+    },
+    {
+     "predicate": "affects",
+     "object": "weather.monsoon_sw"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.extreme_events",
+   "name": "Extreme Weather Events",
+   "type": "category",
+   "domain": "weather",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   },
+   "attributes": {
+    "note": "Drought and floods"
+   }
+  },
+  {
+   "id": "weather.flood",
+   "name": "Floods",
+   "type": "event",
+   "domain": "weather",
+   "aliases": [
+    "Badh"
+   ],
+   "attributes": {
+    "affected_areas": "Bihar, UP, Assam, WB, Odisha (delta), Kerala",
+    "agriculture_impact": "Kharif crop damage; late floods delay sowing"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.extreme_events"
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.rice"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.bihar"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.heat_wave",
+   "name": "Heat Wave",
+   "type": "entity",
+   "domain": "weather",
+   "attributes": {
+    "note": "May-Jun; crop and livestock stress"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.extreme_events"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "weather.la_nina",
+   "name": "La Nina",
+   "type": "entity",
+   "domain": "weather",
+   "attributes": {
+    "note": "Cooling of the equatorial Pacific; strengthens Indian monsoon"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.monsoon"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "weather.monsoon",
+   "name": "Monsoon Systems",
+   "type": "category",
+   "domain": "weather",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   },
+   "attributes": {
+    "note": "SW and NE monsoon; El Nino teleconnections"
+   }
+  },
+  {
+   "id": "weather.monsoon_ne",
+   "name": "North-East Monsoon",
+   "type": "event",
+   "domain": "weather",
+   "aliases": [
+    "October-December monsoon",
+    "Retreating monsoon"
+   ],
+   "attributes": {
+    "period": "October to December",
+    "region": "Tamil Nadu, coastal Andhra, Kerala; rabi crops in south",
+    "note": "TN gets most of its rain from this"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.monsoon"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.season.rabi"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.monsoon_sw",
+   "name": "South-West Monsoon",
+   "type": "event",
+   "domain": "weather",
+   "aliases": [
+    "June-September monsoon",
+    "Kharif monsoon"
+   ],
+   "attributes": {
+    "period": "June to September",
+    "coverage": "~75% of India's annual rainfall; kharif sowing depends on onset",
+    "note": "Arrives Kerala coast ~1 June; El Nino years weaken it"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.monsoon"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.season.kharif"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.rainfall",
+   "name": "Rainfall Pattern",
+   "type": "entity",
+   "domain": "weather",
+   "aliases": [
+    "Annual rainfall India"
+   ],
+   "attributes": {
+    "annual_average": "~117 cm",
+    "range": ">1000 cm (Mawsynram, Meghalaya) to <25 cm (Rajasthan)",
+    "variability": "High inter-annual variability; ~40% of area drought-prone or flood-prone"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.advisory"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.meghalaya"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.seasons",
+   "name": "Indian Seasons",
+   "type": "category",
+   "domain": "weather",
+   "attributes": {
+    "seasons": "Winter (Dec-Feb), Summer (Mar-May), SW Monsoon (Jun-Sep), Retreating/N-E Monsoon (Oct-Nov)",
+    "note": "Agronomic seasons kharif/rabi/zaid map onto these"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather"
+    },
+    {
+     "predicate": "part_of",
+     "object": "weather"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.seasons.summer",
+   "name": "Summer Season",
+   "type": "entity",
+   "domain": "weather",
+   "attributes": {
+    "period": "March to May; zaid crops; heat waves affect wheat"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.seasons"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.seasons.winter",
+   "name": "Winter Season",
+   "type": "entity",
+   "domain": "weather",
+   "attributes": {
+    "period": "December to February; rabi crops sown"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.seasons"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.western_disturbances",
+   "name": "Western Disturbances",
+   "type": "entity",
+   "domain": "weather",
+   "attributes": {
+    "note": "Winter rain in north-west India; Rabi irrigation support"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.monsoon"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "weather.hailstorm",
+   "name": "Hailstorm",
+   "type": "entity",
+   "domain": "weather",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.extreme_events"
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.wheat",
+     "source": {
+      "id": "imd",
+      "url": "https://mausam.imd.gov.in/"
+     }
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.mustard",
+     "source": {
+      "id": "imd",
+      "url": "https://mausam.imd.gov.in/"
+     }
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.grapes",
+     "source": {
+      "id": "imd",
+      "url": "https://mausam.imd.gov.in/"
+     }
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.fruits.pomegranate",
+     "source": {
+      "id": "imd",
+      "url": "https://mausam.imd.gov.in/"
+     }
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.frost",
+   "name": "Frost",
+   "type": "entity",
+   "domain": "weather",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.extreme_events"
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.potato",
+     "source": {
+      "id": "imd",
+      "url": "https://mausam.imd.gov.in/"
+     }
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.mustard",
+     "source": {
+      "id": "imd",
+      "url": "https://mausam.imd.gov.in/"
+     }
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.sugarcane",
+     "source": {
+      "id": "imd",
+      "url": "https://mausam.imd.gov.in/"
+     }
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.dry_spell",
+   "name": "Monsoon Dry Spell",
+   "type": "entity",
+   "domain": "weather",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.extreme_events"
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.rice",
+     "source": {
+      "id": "imd",
+      "url": "https://mausam.imd.gov.in/"
+     }
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.maize",
+     "source": {
+      "id": "imd",
+      "url": "https://mausam.imd.gov.in/"
+     }
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.cloudburst",
+   "name": "Cloudburst",
+   "type": "entity",
+   "domain": "weather",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.extreme_events"
+    },
+    {
+     "predicate": "affects",
+     "object": "crops.rice",
+     "source": {
+      "id": "imd",
+      "url": "https://mausam.imd.gov.in/"
+     }
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  }
+ ]
+}

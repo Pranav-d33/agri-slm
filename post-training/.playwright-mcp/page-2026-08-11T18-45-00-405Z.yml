@@ -1,0 +1,484 @@
+- generic [ref=f10e4]:
+  - banner [ref=f10e5]:
+    - generic [ref=f10e6]:
+      - link "GOVERNMENT OF INDIA" [ref=f10e8] [cursor=pointer]:
+        - /url: https://www.india.gov.in/
+      - generic [ref=f10e114]:
+        - generic [ref=f10e115]:
+          - generic [ref=f10e116] [cursor=pointer]: Screen Reader
+          - generic [ref=f10e124] [cursor=pointer]: Feedback
+        - generic [ref=f10e134] [cursor=pointer]: Request Login
+        - button [ref=f10e136] [cursor=pointer]
+        - button "Search (Ctrl + k)" [ref=f10e139] [cursor=pointer]
+    - generic [ref=f10e142]:
+      - img [ref=f10e144] [cursor=pointer]
+      - button "open drawer" [ref=f10e301] [cursor=pointer]
+  - main [ref=f10e305]:
+    - generic [ref=f10e583]:
+      - generic [ref=f10e584]: "YOU ARE HERE:"
+      - list [ref=f10e585]:
+        - listitem [ref=f10e586] [cursor=pointer]:
+          - link "Home" [ref=f10e587]:
+            - /url: /
+        - listitem [ref=f10e588]
+        - listitem [ref=f10e591] [cursor=pointer]:
+          - link "Reports" [ref=f10e592]:
+            - /url: /primary-estimate-report
+        - listitem [ref=f10e593]
+        - listitem [ref=f10e596] [cursor=pointer]:
+          - link "Area, Production & Yield" [ref=f10e597]:
+            - /url: /primary-estimate-report?tab=Area%2C+Production+%26+Yield
+        - listitem [ref=f10e598]
+        - listitem [ref=f10e601] [cursor=pointer]:
+          - link "Complete APY Dataset (District Level)" [ref=f10e602]:
+            - /url: /dash-reports/desdistrictwisecompletedatasetreport
+    - iframe [ref=f10e605]:
+      - generic [ref=f11e1]:
+        - generic [ref=f11e13]:
+          - generic [ref=f11e14]:
+            - heading "DES District Data For 2024-25" [level=4] [ref=f11e21]
+            - button "Print" [ref=f11e24] [cursor=pointer]
+            - button "Pdf" [ref=f11e32] [cursor=pointer]
+            - button "Excel" [ref=f11e40] [cursor=pointer]
+            - button "CSV" [ref=f11e48] [cursor=pointer]
+            - button "Filters" [ref=f11e56] [cursor=pointer]
+          - generic [ref=f11e69]: "Source: DA&FW"
+          - generic [ref=f11e70]: Area in Lakh Ha, Production in Lakh Tonnes & Yield in Kg/Ha
+          - button "Download Aspirational Districts" [ref=f11e72] [cursor=pointer]
+          - generic [ref=f11e73]:
+            - text:                                  
+            - treegrid [ref=f11e74]:
+              - row [ref=f11e75]:
+                - columnheader [ref=f11e76]
+                - columnheader [ref=f11e77]
+                - columnheader [ref=f11e78]
+                - columnheader [ref=f11e79]
+              - row [ref=f11e80]:
+                - columnheader "State" [ref=f11e81] [cursor=pointer]:
+                  - text:   
+                  - generic:    
+                - columnheader "District" [ref=f11e83] [cursor=pointer]:
+                  - text:   
+                  - generic:    
+                - columnheader "Crop" [ref=f11e85] [cursor=pointer]:
+                  - text:   
+                  - generic:    
+                - columnheader "Season" [ref=f11e87] [cursor=pointer]:
+                  - text:   
+                  - generic:    
+              - rowgroup [ref=f11e89]:
+                - row [ref=f11e90]:
+                  - columnheader "Area" [ref=f11e91]
+                  - columnheader "Production" [ref=f11e92]
+                  - columnheader "Yield" [ref=f11e93]
+                - row [ref=f11e94]:
+                  - columnheader "2024-25" [ref=f11e95] [cursor=pointer]:
+                    - text:   
+                    - generic:    
+                  - columnheader "2024-25" [ref=f11e97] [cursor=pointer]:
+                    - text:   
+                    - generic:    
+                  - columnheader "2024-25" [ref=f11e99] [cursor=pointer]:
+                    - text:   
+                    - generic:    
+              - rowgroup [ref=f11e101]:
+                - row "Press SPACE to select this row." [ref=f11e102]:
+                  - gridcell "Andaman And Nicobar Islands" [ref=f11e103]:
+                    - generic [ref=f11e104]:
+                      - text:  
+                      - generic [ref=f11e105]: Andaman And Nicobar Islands
+                  - gridcell "Nicobars" [ref=f11e106]:
+                    - generic [ref=f11e107]:
+                      - text:  
+                      - generic [ref=f11e108]: Nicobars
+                  - gridcell "Rice" [ref=f11e109]:
+                    - generic [ref=f11e110]:
+                      - text:  
+                      - generic [ref=f11e111]: Rice
+                  - gridcell "Kharif" [ref=f11e112]:
+                    - generic [ref=f11e113]:
+                      - text:  
+                      - generic [ref=f11e114]: Kharif
+                - row "Press SPACE to select this row." [ref=f11e115]:
+                  - gridcell [ref=f11e116]
+                  - gridcell [ref=f11e118]
+                  - gridcell [ref=f11e120]
+                  - gridcell "Total" [ref=f11e122]:
+                    - generic [ref=f11e123]:
+                      - text:  
+                      - generic [ref=f11e124]: Total
+                - row "Press SPACE to select this row." [ref=f11e125]:
+                  - gridcell [ref=f11e126]
+                  - gridcell [ref=f11e128]
+                  - gridcell "Cereals" [ref=f11e130]:
+                    - generic [ref=f11e131]:
+                      - text:  
+                      - generic [ref=f11e132]: Cereals
+                  - gridcell "Kharif" [ref=f11e133]:
+                    - generic [ref=f11e134]:
+                      - text:  
+                      - generic [ref=f11e135]: Kharif
+                - row "Press SPACE to select this row." [ref=f11e136]:
+                  - gridcell [ref=f11e137]
+                  - gridcell [ref=f11e139]
+                  - gridcell [ref=f11e141]
+                  - gridcell "Total" [ref=f11e143]:
+                    - generic [ref=f11e144]:
+                      - text:  
+                      - generic [ref=f11e145]: Total
+                - row "Press SPACE to select this row." [ref=f11e146]:
+                  - gridcell [ref=f11e147]
+                  - gridcell [ref=f11e149]
+                  - gridcell "Total Food Grains" [ref=f11e151]:
+                    - generic [ref=f11e152]:
+                      - text:  
+                      - generic [ref=f11e153]: Total Food Grains
+                  - gridcell "Kharif" [ref=f11e154]:
+                    - generic [ref=f11e155]:
+                      - text:  
+                      - generic [ref=f11e156]: Kharif
+                - row "Press SPACE to select this row." [ref=f11e157]:
+                  - gridcell [ref=f11e158]
+                  - gridcell [ref=f11e160]
+                  - gridcell [ref=f11e162]
+                  - gridcell "Total" [ref=f11e164]:
+                    - generic [ref=f11e165]:
+                      - text:  
+                      - generic [ref=f11e166]: Total
+                - row "Press SPACE to select this row." [ref=f11e167]:
+                  - gridcell [ref=f11e168]
+                  - gridcell "North And Middle Andaman" [ref=f11e170]:
+                    - generic [ref=f11e171]:
+                      - text:  
+                      - generic [ref=f11e172]: North And Middle Andaman
+                  - gridcell "Rice" [ref=f11e173]:
+                    - generic [ref=f11e174]:
+                      - text:  
+                      - generic [ref=f11e175]: Rice
+                  - gridcell "Kharif" [ref=f11e176]:
+                    - generic [ref=f11e177]:
+                      - text:  
+                      - generic [ref=f11e178]: Kharif
+                - row "Press SPACE to select this row." [ref=f11e179]:
+                  - gridcell [ref=f11e180]
+                  - gridcell [ref=f11e182]
+                  - gridcell [ref=f11e184]
+                  - gridcell "Total" [ref=f11e186]:
+                    - generic [ref=f11e187]:
+                      - text:  
+                      - generic [ref=f11e188]: Total
+                - row "Press SPACE to select this row." [ref=f11e189]:
+                  - gridcell [ref=f11e190]
+                  - gridcell [ref=f11e192]
+                  - gridcell "Maize" [ref=f11e194]:
+                    - generic [ref=f11e195]:
+                      - text:  
+                      - generic [ref=f11e196]: Maize
+                  - gridcell "Rabi" [ref=f11e197]:
+                    - generic [ref=f11e198]:
+                      - text:  
+                      - generic [ref=f11e199]: Rabi
+                - row "Press SPACE to select this row." [ref=f11e200]:
+                  - gridcell [ref=f11e201]
+                  - gridcell [ref=f11e203]
+                  - gridcell [ref=f11e205]
+                  - gridcell "Total" [ref=f11e207]:
+                    - generic [ref=f11e208]:
+                      - text:  
+                      - generic [ref=f11e209]: Total
+                - row "Press SPACE to select this row." [ref=f11e210]:
+                  - gridcell [ref=f11e211]
+                  - gridcell [ref=f11e213]
+                  - gridcell "Nutri/Coarse Cereals" [ref=f11e215]:
+                    - generic [ref=f11e216]:
+                      - text:  
+                      - generic [ref=f11e217]: Nutri/Coarse Cereals
+                  - gridcell "Rabi" [ref=f11e218]:
+                    - generic [ref=f11e219]:
+                      - text:  
+                      - generic [ref=f11e220]: Rabi
+                - row "Press SPACE to select this row." [ref=f11e221]:
+                  - gridcell [ref=f11e222]
+                  - gridcell [ref=f11e224]
+                  - gridcell [ref=f11e226]
+                  - gridcell "Total" [ref=f11e228]:
+                    - generic [ref=f11e229]:
+                      - text:  
+                      - generic [ref=f11e230]: Total
+                - row "Press SPACE to select this row." [ref=f11e231]:
+                  - gridcell [ref=f11e232]
+                  - gridcell [ref=f11e234]
+                  - gridcell "Cereals" [ref=f11e236]:
+                    - generic [ref=f11e237]:
+                      - text:  
+                      - generic [ref=f11e238]: Cereals
+                  - gridcell "Kharif" [ref=f11e239]:
+                    - generic [ref=f11e240]:
+                      - text:  
+                      - generic [ref=f11e241]: Kharif
+                - row "Press SPACE to select this row." [ref=f11e242]:
+                  - gridcell [ref=f11e243]
+                  - gridcell [ref=f11e245]
+                  - gridcell [ref=f11e247]
+                  - gridcell "Rabi" [ref=f11e249]:
+                    - generic [ref=f11e250]:
+                      - text:  
+                      - generic [ref=f11e251]: Rabi
+                - row "Press SPACE to select this row." [ref=f11e252]:
+                  - gridcell [ref=f11e253]
+                  - gridcell [ref=f11e255]
+                  - gridcell [ref=f11e257]
+                  - gridcell "Total" [ref=f11e259]:
+                    - generic [ref=f11e260]:
+                      - text:  
+                      - generic [ref=f11e261]: Total
+                - row "Press SPACE to select this row." [ref=f11e262]:
+                  - gridcell [ref=f11e263]
+                  - gridcell [ref=f11e265]
+                  - gridcell "Urad" [ref=f11e267]:
+                    - generic [ref=f11e268]:
+                      - text:  
+                      - generic [ref=f11e269]: Urad
+                  - gridcell "Rabi" [ref=f11e270]:
+                    - generic [ref=f11e271]:
+                      - text:  
+                      - generic [ref=f11e272]: Rabi
+                - row "Press SPACE to select this row." [ref=f11e273]:
+                  - gridcell [ref=f11e274]
+                  - gridcell [ref=f11e276]
+                  - gridcell [ref=f11e278]
+                  - gridcell "Total" [ref=f11e280]:
+                    - generic [ref=f11e281]:
+                      - text:  
+                      - generic [ref=f11e282]: Total
+                - row "Press SPACE to select this row." [ref=f11e283]:
+                  - gridcell [ref=f11e284]
+                  - gridcell [ref=f11e286]
+                  - gridcell "Moong" [ref=f11e288]:
+                    - generic [ref=f11e289]:
+                      - text:  
+                      - generic [ref=f11e290]: Moong
+                  - gridcell "Rabi" [ref=f11e291]:
+                    - generic [ref=f11e292]:
+                      - text:  
+                      - generic [ref=f11e293]: Rabi
+                - row "Press SPACE to select this row." [ref=f11e294]:
+                  - gridcell [ref=f11e295]
+                  - gridcell [ref=f11e297]
+                  - gridcell [ref=f11e299]
+                  - gridcell "Total" [ref=f11e301]:
+                    - generic [ref=f11e302]:
+                      - text:  
+                      - generic [ref=f11e303]: Total
+                - row "Press SPACE to select this row." [ref=f11e304]:
+                  - gridcell [ref=f11e305]
+                  - gridcell [ref=f11e307]
+                  - gridcell "Total Pulses" [ref=f11e309]:
+                    - generic [ref=f11e310]:
+                      - text:  
+                      - generic [ref=f11e311]: Total Pulses
+                  - gridcell "Total" [ref=f11e312]:
+                    - generic [ref=f11e313]:
+                      - text:  
+                      - generic [ref=f11e314]: Total
+                - row "Press SPACE to select this row." [ref=f11e315]:
+                  - gridcell [ref=f11e316]
+                  - gridcell [ref=f11e318]
+                  - gridcell "Total Food Grains" [ref=f11e320]:
+                    - generic [ref=f11e321]:
+                      - text:  
+                      - generic [ref=f11e322]: Total Food Grains
+                  - gridcell "Kharif" [ref=f11e323]:
+                    - generic [ref=f11e324]:
+                      - text:  
+                      - generic [ref=f11e325]: Kharif
+              - rowgroup [ref=f11e326]:
+                - row "Press SPACE to select this row." [ref=f11e327]:
+                  - gridcell "0.00" [ref=f11e328]
+                  - gridcell "0.00" [ref=f11e329]
+                  - gridcell "735" [ref=f11e330]
+                - row "Press SPACE to select this row." [ref=f11e331]:
+                  - gridcell "0.00" [ref=f11e332]
+                  - gridcell "0.00" [ref=f11e333]
+                  - gridcell "735" [ref=f11e334]
+                - row "Press SPACE to select this row." [ref=f11e335]:
+                  - gridcell "0.00" [ref=f11e336]
+                  - gridcell "0.00" [ref=f11e337]
+                  - gridcell "735" [ref=f11e338]
+                - row "Press SPACE to select this row." [ref=f11e339]:
+                  - gridcell "0.00" [ref=f11e340]
+                  - gridcell "0.00" [ref=f11e341]
+                  - gridcell "735" [ref=f11e342]
+                - row "Press SPACE to select this row." [ref=f11e343]:
+                  - gridcell "0.00" [ref=f11e344]
+                  - gridcell "0.00" [ref=f11e345]
+                  - gridcell "735" [ref=f11e346]
+                - row "Press SPACE to select this row." [ref=f11e347]:
+                  - gridcell "0.00" [ref=f11e348]
+                  - gridcell "0.00" [ref=f11e349]
+                  - gridcell "735" [ref=f11e350]
+                - row "Press SPACE to select this row." [ref=f11e351]:
+                  - gridcell "0.04" [ref=f11e352]
+                  - gridcell "0.09" [ref=f11e353]
+                  - gridcell "2062" [ref=f11e354]
+                - row "Press SPACE to select this row." [ref=f11e355]:
+                  - gridcell "0.04" [ref=f11e356]
+                  - gridcell "0.09" [ref=f11e357]
+                  - gridcell "2062" [ref=f11e358]
+                - row "Press SPACE to select this row." [ref=f11e359]:
+                  - gridcell "0.00" [ref=f11e360]
+                  - gridcell "0.00" [ref=f11e361]
+                  - gridcell "3177" [ref=f11e362]
+                - row "Press SPACE to select this row." [ref=f11e363]:
+                  - gridcell "0.00" [ref=f11e364]
+                  - gridcell "0.00" [ref=f11e365]
+                  - gridcell "3177" [ref=f11e366]
+                - row "Press SPACE to select this row." [ref=f11e367]:
+                  - gridcell "0.00" [ref=f11e368]
+                  - gridcell "0.00" [ref=f11e369]
+                  - gridcell "3177" [ref=f11e370]
+                - row "Press SPACE to select this row." [ref=f11e371]:
+                  - gridcell "0.00" [ref=f11e372]
+                  - gridcell "0.00" [ref=f11e373]
+                  - gridcell "3177" [ref=f11e374]
+                - row "Press SPACE to select this row." [ref=f11e375]:
+                  - gridcell "0.04" [ref=f11e376]
+                  - gridcell "0.09" [ref=f11e377]
+                  - gridcell "2062" [ref=f11e378]
+                - row "Press SPACE to select this row." [ref=f11e379]:
+                  - gridcell "0.00" [ref=f11e380]
+                  - gridcell "0.00" [ref=f11e381]
+                  - gridcell "3177" [ref=f11e382]
+                - row "Press SPACE to select this row." [ref=f11e383]:
+                  - gridcell "0.04" [ref=f11e384]
+                  - gridcell "0.09" [ref=f11e385]
+                  - gridcell "2064" [ref=f11e386]
+                - row "Press SPACE to select this row." [ref=f11e387]:
+                  - gridcell "0.00" [ref=f11e388]
+                  - gridcell "0.00" [ref=f11e389]
+                  - gridcell "338" [ref=f11e390]
+                - row "Press SPACE to select this row." [ref=f11e391]:
+                  - gridcell "0.00" [ref=f11e392]
+                  - gridcell "0.00" [ref=f11e393]
+                  - gridcell "338" [ref=f11e394]
+                - row "Press SPACE to select this row." [ref=f11e395]:
+                  - gridcell "0.00" [ref=f11e396]
+                  - gridcell "0.00" [ref=f11e397]
+                  - gridcell "355" [ref=f11e398]
+                - row "Press SPACE to select this row." [ref=f11e399]:
+                  - gridcell "0.00" [ref=f11e400]
+                  - gridcell "0.00" [ref=f11e401]
+                  - gridcell "355" [ref=f11e402]
+                - row "Press SPACE to select this row." [ref=f11e403]:
+                  - gridcell "0.01" [ref=f11e404]
+                  - gridcell "0.00" [ref=f11e405]
+                  - gridcell "347" [ref=f11e406]
+                - row "Press SPACE to select this row." [ref=f11e407]:
+                  - gridcell "0.04" [ref=f11e408]
+                  - gridcell "0.09" [ref=f11e409]
+                  - gridcell "2062" [ref=f11e410]
+            - generic [ref=f11e419]:
+              - tablist [ref=f11e420]:
+                - tab "Table Filters" [ref=f11e421] [cursor=pointer]:
+                  - generic [ref=f11e422]: 
+              - text:                                 
+            - text:    
+        - contentinfo
+    - button "Explore More" [ref=f10e606] [cursor=pointer]
+  - contentinfo [ref=f10e314]:
+    - generic [ref=f10e315]:
+      - generic [ref=f10e317]:
+        - img "UPAg" [ref=f10e319]
+        - generic [ref=f10e321]:
+          - generic [ref=f10e322]: Quick Links
+          - generic [ref=f10e324]:
+            - generic [ref=f10e325]: Policy
+            - generic [ref=f10e327]: Terms & Conditions
+            - generic [ref=f10e329]: Help
+            - generic [ref=f10e331]: Site Map
+        - generic [ref=f10e333]:
+          - generic [ref=f10e334]: Useful Links
+          - generic [ref=f10e336]:
+            - button "← Previous" [ref=f10e337] [cursor=pointer]
+            - generic [ref=f10e339]:
+              - link [ref=f10e345] [cursor=pointer]:
+                - /url: https://swachhbharatmission.gov.in/sbmcms/index.htm
+              - link [ref=f10e352] [cursor=pointer]:
+                - /url: https://gandhi.gov.in/
+              - link [ref=f10e359] [cursor=pointer]:
+                - /url: https://desagri.gov.in/
+              - link [ref=f10e366] [cursor=pointer]:
+                - /url: https://agricoop.gov.in/
+              - link [ref=f10e609] [cursor=pointer]:
+                - /url: http://cashlessindia.gov.in/
+              - link [ref=f10e611] [cursor=pointer]:
+                - /url: https://pgportal.gov.in/
+              - link [ref=f10e613] [cursor=pointer]:
+                - /url: https://igod.gov.in/
+              - link [ref=f10e615] [cursor=pointer]:
+                - /url: https://www.digitalindia.gov.in/
+              - link [ref=f10e401] [cursor=pointer]:
+                - /url: https://www.mygov.in/
+              - link "makeinindia" [ref=f10e617] [cursor=pointer]:
+                - /url: https://www.makeinindia.com/
+                - img "makeinindia" [ref=f10e618]
+              - link "Datagov" [ref=f10e619] [cursor=pointer]:
+                - /url: https://data.gov.in/
+                - img "Datagov" [ref=f10e620]
+              - link "Indiagov" [ref=f10e621] [cursor=pointer]:
+                - /url: https://www.india.gov.in/
+                - img "Indiagov" [ref=f10e622]
+              - link "Jalshakthi" [ref=f10e623] [cursor=pointer]:
+                - /url: https://ejalshakti.gov.in/JSA/JSA/Home.aspx
+                - img "Jalshakthi" [ref=f10e624]
+              - link [ref=f10e436] [cursor=pointer]:
+                - /url: https://swachhbharatmission.gov.in/sbmcms/index.htm
+              - link [ref=f10e443] [cursor=pointer]:
+                - /url: https://gandhi.gov.in/
+              - link [ref=f10e450] [cursor=pointer]:
+                - /url: https://desagri.gov.in/
+              - link [ref=f10e457] [cursor=pointer]:
+                - /url: https://agricoop.gov.in/
+              - link [ref=f10e464] [cursor=pointer]:
+                - /url: http://cashlessindia.gov.in/
+              - link [ref=f10e471] [cursor=pointer]:
+                - /url: https://pgportal.gov.in/
+              - link [ref=f10e478] [cursor=pointer]:
+                - /url: https://igod.gov.in/
+              - link [ref=f10e485] [cursor=pointer]:
+                - /url: https://www.digitalindia.gov.in/
+              - link [ref=f10e492] [cursor=pointer]:
+                - /url: https://www.mygov.in/
+              - link [ref=f10e499] [cursor=pointer]:
+                - /url: https://www.makeinindia.com/
+              - link [ref=f10e506] [cursor=pointer]:
+                - /url: https://data.gov.in/
+              - link [ref=f10e513] [cursor=pointer]:
+                - /url: https://www.india.gov.in/
+              - link [ref=f10e520] [cursor=pointer]:
+                - /url: https://ejalshakti.gov.in/JSA/JSA/Home.aspx
+              - link [ref=f10e527] [cursor=pointer]:
+                - /url: https://swachhbharatmission.gov.in/sbmcms/index.htm
+              - link [ref=f10e534] [cursor=pointer]:
+                - /url: https://gandhi.gov.in/
+              - link [ref=f10e541] [cursor=pointer]:
+                - /url: https://desagri.gov.in/
+              - link [ref=f10e548] [cursor=pointer]:
+                - /url: https://agricoop.gov.in/
+            - button "→ Next" [ref=f10e550] [cursor=pointer]
+            - text: • • • • • • • • • • • • •
+      - link "Connect to UPAg Open API" [ref=f10e552] [cursor=pointer]:
+        - /url: https://data.upag.gov.in/redoc
+        - text: Connect to UPAgOpen API
+    - generic [ref=f10e560]:
+      - generic [ref=f10e561]:
+        - generic [ref=f10e562]:
+          - generic [ref=f10e563]: Website Content Managed by
+          - generic [ref=f10e564]: Department of Agriculture & Farmers Welfare
+          - generic [ref=f10e565]: Ministry of Agriculture, New Delhi.
+        - generic [ref=f10e567]:
+          - generic [ref=f10e569] [cursor=pointer]
+          - generic [ref=f10e579]:
+            - generic [ref=f10e580]: Privacy StatementDisclaimer
+            - generic [ref=f10e581]: Directorate of Economics and Statistics, Ministry of Agriculture © 2026. All Rights Reserved.
+      - generic [ref=f10e582]: Last Reviewed & Updated On 11 Aug 2026

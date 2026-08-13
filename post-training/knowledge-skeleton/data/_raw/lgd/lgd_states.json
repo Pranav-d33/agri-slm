@@ -1,0 +1,218 @@
+[
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 35,
+  "stateNameEnglish": "Andaman And Nicobar Islands"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 28,
+  "stateNameEnglish": "Andhra Pradesh"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 12,
+  "stateNameEnglish": "Arunachal Pradesh"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 18,
+  "stateNameEnglish": "Assam"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 10,
+  "stateNameEnglish": "Bihar"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 4,
+  "stateNameEnglish": "Chandigarh"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 22,
+  "stateNameEnglish": "Chhattisgarh"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 7,
+  "stateNameEnglish": "Delhi"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 30,
+  "stateNameEnglish": "Goa"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 24,
+  "stateNameEnglish": "Gujarat"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 6,
+  "stateNameEnglish": "Haryana"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 2,
+  "stateNameEnglish": "Himachal Pradesh"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 1,
+  "stateNameEnglish": "Jammu And Kashmir"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 20,
+  "stateNameEnglish": "Jharkhand"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 29,
+  "stateNameEnglish": "Karnataka"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 32,
+  "stateNameEnglish": "Kerala"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 37,
+  "stateNameEnglish": "Ladakh"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 31,
+  "stateNameEnglish": "Lakshadweep"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 23,
+  "stateNameEnglish": "Madhya Pradesh"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 27,
+  "stateNameEnglish": "Maharashtra"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 14,
+  "stateNameEnglish": "Manipur"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 17,
+  "stateNameEnglish": "Meghalaya"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 15,
+  "stateNameEnglish": "Mizoram"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 13,
+  "stateNameEnglish": "Nagaland"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 21,
+  "stateNameEnglish": "Odisha"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 34,
+  "stateNameEnglish": "Puducherry"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 3,
+  "stateNameEnglish": "Punjab"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 8,
+  "stateNameEnglish": "Rajasthan"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 11,
+  "stateNameEnglish": "Sikkim"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 33,
+  "stateNameEnglish": "Tamil Nadu"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 36,
+  "stateNameEnglish": "Telangana"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 38,
+  "stateNameEnglish": "The Dadra And Nagar Haveli And Daman And Diu"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 16,
+  "stateNameEnglish": "Tripura"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 5,
+  "stateNameEnglish": "Uttarakhand"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 9,
+  "stateNameEnglish": "Uttar Pradesh"
+ },
+ {
+  "operation_extend_flag": null,
+  "operation_state": null,
+  "stateCode": 19,
+  "stateNameEnglish": "West Bengal"
+ }
+]

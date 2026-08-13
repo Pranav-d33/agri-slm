@@ -1,0 +1,183 @@
+- generic [ref=f49e2]:
+  - navigation [ref=f49e3]:
+    - link [ref=f49e5] [cursor=pointer]:
+      - /url: index.html
+      - img "logo" [ref=f49e6]
+    - generic [ref=f49e7]:
+      - text: 
+      - list:    
+      - button "" [ref=f49e8] [cursor=pointer]
+  - generic [ref=f49e10]:
+    - navigation [ref=f49e11]:
+      - list [ref=f49e12]:
+        - listitem [ref=f49e13]:
+          - link " Reports " [ref=f49e14] [cursor=pointer]:
+            - /url: "#crop-report"
+            - generic [ref=f49e15]: 
+            - generic [ref=f49e16]: Reports
+            - generic [ref=f49e17]: 
+    - generic [ref=f49e18]:
+      - generic [ref=f49e19]:
+        - generic [ref=f49e20]:
+          - link "" [ref=f49e21] [cursor=pointer]:
+            - /url: /
+          - heading "/ Area, Production & Yield - Query Report" [level=5] [ref=f49e23]
+        - generic [ref=f49e28]:
+          - generic [ref=f49e30]:
+            - generic [ref=f49e31]: State *
+            - listbox [ref=f49e32]:
+              - option [ref=f49e33]: All States
+              - option [ref=f49e34]: Andaman and Nicobar Islands
+              - option [ref=f49e35]: Andhra Pradesh
+              - option [ref=f49e36]: Arunachal Pradesh
+              - option [ref=f49e37]: Assam
+              - option [ref=f49e38]: Bihar
+              - option [ref=f49e39]: Chandigarh
+              - option [ref=f49e40]: Chhattisgarh
+              - option [ref=f49e41]: Dadra and Nagar Haveli
+              - option [ref=f49e42]: Daman and Diu
+              - option [ref=f49e43]: Delhi
+              - option [ref=f49e44]: Goa
+              - option [ref=f49e45]: Gujarat
+              - option [ref=f49e46]: Haryana
+              - option [ref=f49e47]: Himachal Pradesh
+              - option [ref=f49e48]: Jammu and Kashmir
+              - option [ref=f49e49]: Jharkhand
+              - option [ref=f49e50]: Karnataka
+              - option [ref=f49e51]: Kerala
+              - option [ref=f49e52]: Ladakh
+              - option [ref=f49e53]: Lakshadweep
+              - option [ref=f49e54]: Madhya Pradesh
+              - option [ref=f49e55]: Maharashtra
+              - option [ref=f49e56]: Manipur
+              - option [ref=f49e57]: Meghalaya
+              - option [ref=f49e58]: Mizoram
+              - option [ref=f49e59]: Nagaland
+              - option [ref=f49e60]: Odisha
+              - option [ref=f49e61]: Puducherry
+              - option [ref=f49e62]: Punjab
+              - option [ref=f49e63]: Rajasthan
+              - option [ref=f49e64]: Sikkim
+              - option [ref=f49e65]: Tamil Nadu
+              - option [ref=f49e66]: Telangana
+              - option [ref=f49e67]: The Dadra & Nagar Haveli and Daman and Diu
+              - option [ref=f49e68]: Tripura
+              - option [ref=f49e69]: Uttar Pradesh
+              - option [ref=f49e70]: Uttarakhand
+              - option [ref=f49e71]: West Bengal
+            - combobox [ref=f49e74]:
+              - list [ref=f49e75]:
+                - listitem [ref=f49e76]:
+                  - searchbox [ref=f49e77]
+          - generic [ref=f49e79]:
+            - generic [ref=f49e80]: Crop*
+            - listbox [ref=f49e81]:
+              - option [ref=f49e82]: All Crops
+              - option [ref=f49e83]: Rice
+              - option [ref=f49e84]: Jowar
+              - option [ref=f49e85]: Bajra
+              - option [ref=f49e86]: Maize
+              - option [ref=f49e87]: Ragi
+              - option [ref=f49e88]: Barley
+              - option [ref=f49e89]: Wheat
+              - option [ref=f49e90]: Small millets
+              - option [ref=f49e91]: Other Cereals
+              - option [ref=f49e92]: Arhar/Tur
+              - option [ref=f49e93]: Moong(Green Gram)
+              - option [ref=f49e94]: Urad
+              - option [ref=f49e95]: Gram
+              - option [ref=f49e96]: Other Kharif pulses
+              - option [ref=f49e97]: Other Rabi pulses
+              - option [ref=f49e98]: Other Summer Pulses
+              - option [ref=f49e99]: Moth
+              - option [ref=f49e100]: Khesari
+              - option [ref=f49e101]: Horse-gram
+              - option [ref=f49e102]: Cowpea(Lobia)
+              - option [ref=f49e103]: Masoor
+              - option [ref=f49e104]: Peas & beans (Pulses)
+              - option [ref=f49e105]: Linseed
+              - option [ref=f49e106]: Castor seed
+              - option [ref=f49e107]: Rapeseed &Mustard
+              - option [ref=f49e108]: Niger seed
+              - option [ref=f49e109]: Sunflower
+              - option [ref=f49e110]: Sesamum
+              - option [ref=f49e111]: Groundnut
+              - option [ref=f49e112]: other oilseeds
+              - option [ref=f49e113]: Soyabean
+              - option [ref=f49e114]: Safflower
+              - option [ref=f49e115]: Cotton(lint)
+              - option [ref=f49e116]: Jute
+              - option [ref=f49e117]: Mesta
+              - option [ref=f49e118]: Sannhamp
+              - option [ref=f49e119]: Coconut
+              - option [ref=f49e120]: Sugarcane
+              - option [ref=f49e121]: Black pepper
+              - option [ref=f49e122]: Dry chillies
+              - option [ref=f49e123]: Ginger
+              - option [ref=f49e124]: Cashewnut
+              - option [ref=f49e125]: Tobacco
+              - option [ref=f49e126]: Banana
+              - option [ref=f49e127]: Arecanut
+              - option [ref=f49e128]: Cardamom
+              - option [ref=f49e129]: Coriander
+              - option [ref=f49e130]: Garlic
+              - option [ref=f49e131]: Tapioca
+              - option [ref=f49e132]: Onion
+              - option [ref=f49e133]: Potato
+              - option [ref=f49e134]: Sweet potato
+              - option [ref=f49e135]: Turmeric
+              - option [ref=f49e136]: Guar seed
+            - combobox [ref=f49e139]:
+              - list [ref=f49e140]:
+                - listitem [ref=f49e141]:
+                  - searchbox [ref=f49e142]
+          - generic [ref=f49e144]:
+            - generic [ref=f49e145]: Year *
+            - combobox [ref=f49e146]:
+              - option "Select year" [selected]
+              - option "2022 - 2023"
+              - option "2021 - 2022"
+              - option "2020 - 2021"
+              - option "2019 - 2020"
+              - option "2018 - 2019"
+              - option "2017 - 2018"
+              - option "2016 - 2017"
+              - option "2015 - 2016"
+              - option "2014 - 2015"
+              - option "2013 - 2014"
+              - option "2012 - 2013"
+              - option "2011 - 2012"
+              - option "2010 - 2011"
+              - option "2009 - 2010"
+              - option "2008 - 2009"
+              - option "2007 - 2008"
+              - option "2006 - 2007"
+              - option "2005 - 2006"
+              - option "2004 - 2005"
+              - option "2003 - 2004"
+              - option "2002 - 2003"
+              - option "2001 - 2002"
+              - option "2000 - 2001"
+              - option "1999 - 2000"
+              - option "1998 - 1999"
+              - option "1997 - 1998"
+          - generic [ref=f49e148]:
+            - generic [ref=f49e149]: Contribution Type *
+            - combobox [ref=f49e150]:
+              - option "Yield" [selected]
+          - generic [ref=f49e151]:
+            - generic [ref=f49e152]: Report Format *
+            - combobox [ref=f49e153]:
+              - option "Screen View" [selected]
+              - option "Excel"
+          - button "Get Data" [ref=f49e156] [cursor=pointer]
+      - contentinfo [ref=f49e157]:
+        - generic [ref=f49e158]:
+          - strong [ref=f49e160]:
+            - text: Copyright © 2021.
+            - link "Directorate of Economics and Statistics (DES)" [ref=f49e161] [cursor=pointer]:
+              - /url: https://testmi.in/des/
+            - text: from Deptt. of Agriculture. All rights reserved.
+          - generic [ref=f49e162]:
+            - text: Monitor and manage crops with
+            - generic [ref=f49e163]: 

@@ -1,0 +1,370 @@
+{
+  "_description": "Organic farming domain: certification systems (NPOP, PGS-India), organic states, inputs and methods.",
+  "source": {
+    "id": "apeda",
+    "url": "https://apeda.gov.in/"
+  },
+  "entities": [
+    {
+      "id": "organic",
+      "name": "Organic Farming",
+      "type": "domain",
+      "domain": "organic",
+      "aliases": [
+        "Jaivik kheti",
+        "Organic agriculture"
+      ],
+      "relations": [
+        {
+          "predicate": "part_of",
+          "object": "agriculture"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "apeda",
+        "url": "https://apeda.gov.in/"
+      }
+    },
+    {
+      "id": "organic.area",
+      "name": "Organic Cultivated Area",
+      "type": "entity",
+      "domain": "organic",
+      "attributes": {
+        "note": "~4.5-5 million ha under organic (cultivated + wild harvest, 2022-23); MP, Maharashtra, Rajasthan, Gujarat lead certified area",
+        "exports": "Organic products exported via APEDA: rice, tea, spices, cotton, honey"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.states.madhya_pradesh"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.states.maharashtra"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.states.rajasthan"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.states.gujarat"
+        }
+      ],
+      "source": {
+        "id": "apeda",
+        "url": "https://apeda.gov.in/"
+      }
+    },
+    {
+      "id": "organic.certification",
+      "name": "Certification Systems",
+      "type": "category",
+      "domain": "organic",
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "apeda",
+        "url": "https://apeda.gov.in/"
+      },
+      "attributes": {
+        "note": "NPOP (APEDA) and PGS-India"
+      }
+    },
+    {
+      "id": "organic.inputs",
+      "name": "Organic Inputs",
+      "type": "category",
+      "domain": "organic",
+      "aliases": [
+        "Jeevamrut",
+        "Panchagavya",
+        "Neem cake",
+        "Cow dung",
+        "Cow urine",
+        "Bijamrut"
+      ],
+      "attributes": {
+        "note": "Preparations from cow products and botanicals; panchagavya and jeevamrut widely used in natural farming"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic"
+        },
+        {
+          "predicate": "part_of",
+          "object": "organic.methods"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "apeda",
+        "url": "https://apeda.gov.in/"
+      }
+    },
+    {
+      "id": "organic.inputs.bijamrut",
+      "name": "Bijamrut",
+      "type": "entity",
+      "domain": "organic",
+      "attributes": {
+        "use": "Seed treatment in natural farming; cow dung + urine + lime coat"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic.inputs"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "apeda",
+        "url": "https://apeda.gov.in/"
+      }
+    },
+    {
+      "id": "organic.inputs.jeevamrut",
+      "name": "Jeevamrut",
+      "type": "entity",
+      "domain": "organic",
+      "attributes": {
+        "preparation": "Cow dung + urine + jaggery + pulse flour fermented; microbial activator for natural farming"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic.inputs"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "apeda",
+        "url": "https://apeda.gov.in/"
+      }
+    },
+    {
+      "id": "organic.inputs.panchagavya",
+      "name": "Panchagavya",
+      "type": "entity",
+      "domain": "organic",
+      "attributes": {
+        "preparation": "Cow dung, urine, milk, curd, ghee + botanicals; foliar tonic"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic.inputs"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "apeda",
+        "url": "https://apeda.gov.in/"
+      }
+    },
+    {
+      "id": "organic.methods",
+      "name": "Organic Production Methods",
+      "type": "category",
+      "domain": "organic",
+      "attributes": {
+        "methods": "Crop rotation, green manuring, composting, vermicomposting, biofertilizers, biological pest control, mulching",
+        "prohibited": "Synthetic pesticides, synthetic fertilizers, GMOs"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic"
+        },
+        {
+          "predicate": "part_of",
+          "object": "organic"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "apeda",
+        "url": "https://apeda.gov.in/"
+      }
+    },
+    {
+      "id": "organic.natural_farming",
+      "name": "Natural Farming",
+      "type": "measure",
+      "domain": "organic",
+      "aliases": [
+        "Zero Budget Natural Farming",
+        "ZBNF",
+        "Bharatiya Prakritik Krishi Paddhati",
+        "BPKP"
+      ],
+      "attributes": {
+        "scheme": "BPKP under NMSA; Andhra Pradesh ZBNF large-scale programme",
+        "principles": "No external inputs; jeevamrut, bijamrut, mulching, waaphasa (soil aeration)",
+        "note": "Beekeeping integrated for pollination"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic.methods"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.states.andhra_pradesh"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.states.kerala"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.states.himachal_pradesh"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.states.gujarat"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "dacfw",
+        "url": "https://agricoop.nic.in/"
+      }
+    },
+    {
+      "id": "organic.npop",
+      "name": "NPOP",
+      "type": "measure",
+      "domain": "organic",
+      "aliases": [
+        "National Programme for Organic Production"
+      ],
+      "attributes": {
+        "operator": "APEDA, Ministry of Commerce",
+        "purpose": "Certification of organic products for export and domestic market",
+        "standards": "National Standards for Organic Production (NSOP)"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic.certification"
+        },
+        {
+          "predicate": "part_of",
+          "object": "organic"
+        },
+        {
+          "predicate": "certified_by",
+          "object": "institutions.apeda"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "apeda",
+        "url": "https://apeda.gov.in/"
+      }
+    },
+    {
+      "id": "organic.pgs",
+      "name": "PGS-India",
+      "type": "measure",
+      "domain": "organic",
+      "aliases": [
+        "Participatory Guarantee System"
+      ],
+      "attributes": {
+        "operator": "Ministry of Agriculture; Regional Councils (NOCOF)",
+        "purpose": "Low-cost group certification for small and marginal farmers",
+        "cost": "Free of cost, group-based peer review"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic.certification"
+        },
+        {
+          "predicate": "part_of",
+          "object": "organic"
+        },
+        {
+          "predicate": "certified_by",
+          "object": "institutions.pgsindia"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.india"
+        }
+      ],
+      "source": {
+        "id": "pgsindia",
+        "url": "https://pgsindia-nocof.net/"
+      }
+    },
+    {
+      "id": "organic.sikkim",
+      "name": "Sikkim Organic State",
+      "type": "entity",
+      "domain": "organic",
+      "aliases": [
+        "100% organic Sikkim"
+      ],
+      "attributes": {
+        "status": "India's first and world's first fully organic state (certified 2016)",
+        "certification": "PGS-India based"
+      },
+      "relations": [
+        {
+          "predicate": "is_a",
+          "object": "organic"
+        },
+        {
+          "predicate": "practiced_in",
+          "object": "location.states.sikkim"
+        }
+      ],
+      "source": {
+        "id": "apeda",
+        "url": "https://apeda.gov.in/"
+      }
+    }
+  ]
+}

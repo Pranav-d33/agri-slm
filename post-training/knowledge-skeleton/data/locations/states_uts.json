@@ -1,0 +1,438 @@
+{
+ "_description": "Anchor: India -> states/UTs. Location ids referenced by every domain via found_in/grown_in relations.",
+ "source": {
+  "id": "census2011",
+  "url": "https://www.census2011.co.in/district.php"
+ },
+ "admin": "As per Constitution of India (Article 1); 2019 J&K Reorganisation Act",
+ "countries": [
+  {
+   "id": "location.india",
+   "name": "India",
+   "type": "location",
+   "domain": "location",
+   "attributes": {
+    "states": 28,
+    "union_territories": 8,
+    "capital": "New Delhi",
+    "census_2011_districts": 640,
+    "current_district_count": "~739 (post-2011 splits; TODO reconcile via LGD)",
+    "agro_climatic_zones": "15 (Planning Commission), 127 (ICAR)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.regions.south_asia"
+    }
+   ],
+   "source": {
+    "id": "census2011",
+    "url": "https://www.census2011.co.in/district.php"
+   }
+  }
+ ],
+ "states": [
+  {
+   "id": "location.states.andhra_pradesh",
+   "name": "Andhra Pradesh",
+   "type": "location",
+   "capital": "Amaravati",
+   "region": "South",
+   "code": "AP",
+   "attributes": {
+    "lgd_code": 28
+   }
+  },
+  {
+   "id": "location.states.arunachal_pradesh",
+   "name": "Arunachal Pradesh",
+   "type": "location",
+   "capital": "Itanagar",
+   "region": "Northeast",
+   "code": "AR",
+   "attributes": {
+    "lgd_code": 12
+   }
+  },
+  {
+   "id": "location.states.assam",
+   "name": "Assam",
+   "type": "location",
+   "capital": "Dispur",
+   "region": "Northeast",
+   "code": "AS",
+   "attributes": {
+    "lgd_code": 18
+   }
+  },
+  {
+   "id": "location.states.bihar",
+   "name": "Bihar",
+   "type": "location",
+   "capital": "Patna",
+   "region": "East",
+   "code": "BR",
+   "attributes": {
+    "lgd_code": 10
+   }
+  },
+  {
+   "id": "location.states.chhattisgarh",
+   "name": "Chhattisgarh",
+   "type": "location",
+   "capital": "Raipur",
+   "region": "Central",
+   "code": "CG",
+   "attributes": {
+    "lgd_code": 22
+   }
+  },
+  {
+   "id": "location.states.goa",
+   "name": "Goa",
+   "type": "location",
+   "capital": "Panaji",
+   "region": "West",
+   "code": "GA",
+   "attributes": {
+    "lgd_code": 30
+   }
+  },
+  {
+   "id": "location.states.gujarat",
+   "name": "Gujarat",
+   "type": "location",
+   "capital": "Gandhinagar",
+   "region": "West",
+   "code": "GJ",
+   "attributes": {
+    "lgd_code": 24
+   }
+  },
+  {
+   "id": "location.states.haryana",
+   "name": "Haryana",
+   "type": "location",
+   "capital": "Chandigarh",
+   "region": "North",
+   "code": "HR",
+   "attributes": {
+    "lgd_code": 6
+   }
+  },
+  {
+   "id": "location.states.himachal_pradesh",
+   "name": "Himachal Pradesh",
+   "type": "location",
+   "capital": "Shimla",
+   "region": "North",
+   "code": "HP",
+   "attributes": {
+    "lgd_code": 2
+   }
+  },
+  {
+   "id": "location.states.jharkhand",
+   "name": "Jharkhand",
+   "type": "location",
+   "capital": "Ranchi",
+   "region": "East",
+   "code": "JH",
+   "attributes": {
+    "lgd_code": 20
+   }
+  },
+  {
+   "id": "location.states.karnataka",
+   "name": "Karnataka",
+   "type": "location",
+   "capital": "Bengaluru",
+   "region": "South",
+   "code": "KA",
+   "attributes": {
+    "lgd_code": 29
+   }
+  },
+  {
+   "id": "location.states.kerala",
+   "name": "Kerala",
+   "type": "location",
+   "capital": "Thiruvananthapuram",
+   "region": "South",
+   "code": "KL",
+   "attributes": {
+    "lgd_code": 32
+   }
+  },
+  {
+   "id": "location.states.madhya_pradesh",
+   "name": "Madhya Pradesh",
+   "type": "location",
+   "capital": "Bhopal",
+   "region": "Central",
+   "code": "MP",
+   "attributes": {
+    "lgd_code": 23
+   }
+  },
+  {
+   "id": "location.states.maharashtra",
+   "name": "Maharashtra",
+   "type": "location",
+   "capital": "Mumbai",
+   "region": "West",
+   "code": "MH",
+   "attributes": {
+    "lgd_code": 27
+   }
+  },
+  {
+   "id": "location.states.manipur",
+   "name": "Manipur",
+   "type": "location",
+   "capital": "Imphal",
+   "region": "Northeast",
+   "code": "MN",
+   "attributes": {
+    "lgd_code": 14
+   }
+  },
+  {
+   "id": "location.states.meghalaya",
+   "name": "Meghalaya",
+   "type": "location",
+   "capital": "Shillong",
+   "region": "Northeast",
+   "code": "ML",
+   "attributes": {
+    "lgd_code": 17
+   }
+  },
+  {
+   "id": "location.states.mizoram",
+   "name": "Mizoram",
+   "type": "location",
+   "capital": "Aizawl",
+   "region": "Northeast",
+   "code": "MZ",
+   "attributes": {
+    "lgd_code": 15
+   }
+  },
+  {
+   "id": "location.states.nagaland",
+   "name": "Nagaland",
+   "type": "location",
+   "capital": "Kohima",
+   "region": "Northeast",
+   "code": "NL",
+   "attributes": {
+    "lgd_code": 13
+   }
+  },
+  {
+   "id": "location.states.odisha",
+   "name": "Odisha",
+   "type": "location",
+   "capital": "Bhubaneswar",
+   "region": "East",
+   "code": "OD",
+   "attributes": {
+    "lgd_code": 21
+   }
+  },
+  {
+   "id": "location.states.punjab",
+   "name": "Punjab",
+   "type": "location",
+   "capital": "Chandigarh",
+   "region": "North",
+   "code": "PB",
+   "attributes": {
+    "lgd_code": 3
+   }
+  },
+  {
+   "id": "location.states.rajasthan",
+   "name": "Rajasthan",
+   "type": "location",
+   "capital": "Jaipur",
+   "region": "North",
+   "code": "RJ",
+   "attributes": {
+    "lgd_code": 8
+   }
+  },
+  {
+   "id": "location.states.sikkim",
+   "name": "Sikkim",
+   "type": "location",
+   "capital": "Gangtok",
+   "region": "Northeast",
+   "code": "SK",
+   "attributes": {
+    "lgd_code": 11
+   }
+  },
+  {
+   "id": "location.states.tamil_nadu",
+   "name": "Tamil Nadu",
+   "type": "location",
+   "capital": "Chennai",
+   "region": "South",
+   "code": "TN",
+   "attributes": {
+    "lgd_code": 33
+   }
+  },
+  {
+   "id": "location.states.telangana",
+   "name": "Telangana",
+   "type": "location",
+   "capital": "Hyderabad",
+   "region": "South",
+   "code": "TS",
+   "attributes": {
+    "lgd_code": 36
+   }
+  },
+  {
+   "id": "location.states.tripura",
+   "name": "Tripura",
+   "type": "location",
+   "capital": "Agartala",
+   "region": "Northeast",
+   "code": "TR",
+   "attributes": {
+    "lgd_code": 16
+   }
+  },
+  {
+   "id": "location.states.uttar_pradesh",
+   "name": "Uttar Pradesh",
+   "type": "location",
+   "capital": "Lucknow",
+   "region": "North",
+   "code": "UP",
+   "attributes": {
+    "lgd_code": 9
+   }
+  },
+  {
+   "id": "location.states.uttarakhand",
+   "name": "Uttarakhand",
+   "type": "location",
+   "capital": "Dehradun",
+   "region": "North",
+   "code": "UK",
+   "attributes": {
+    "lgd_code": 5
+   }
+  },
+  {
+   "id": "location.states.west_bengal",
+   "name": "West Bengal",
+   "type": "location",
+   "capital": "Kolkata",
+   "region": "East",
+   "code": "WB",
+   "attributes": {
+    "lgd_code": 19
+   }
+  }
+ ],
+ "union_territories": [
+  {
+   "id": "location.uts.andaman_nicobar",
+   "name": "Andaman and Nicobar Islands",
+   "type": "location",
+   "capital": "Port Blair",
+   "region": "Islands",
+   "code": "AN",
+   "attributes": {
+    "lgd_code": 35
+   }
+  },
+  {
+   "id": "location.uts.chandigarh",
+   "name": "Chandigarh",
+   "type": "location",
+   "capital": "Chandigarh",
+   "region": "North",
+   "code": "CH",
+   "attributes": {
+    "lgd_code": 4
+   }
+  },
+  {
+   "id": "location.uts.dadra_nagar_haveli_daman_diu",
+   "name": "Dadra and Nagar Haveli and Daman and Diu",
+   "type": "location",
+   "capital": "Daman",
+   "region": "West",
+   "code": "DD",
+   "attributes": {
+    "lgd_code": 38
+   }
+  },
+  {
+   "id": "location.uts.delhi",
+   "name": "Delhi",
+   "type": "location",
+   "capital": "New Delhi",
+   "region": "North",
+   "code": "DL",
+   "attributes": {
+    "lgd_code": 7
+   }
+  },
+  {
+   "id": "location.uts.jammu_kashmir",
+   "name": "Jammu and Kashmir",
+   "type": "location",
+   "capital": "Srinagar (summer), Jammu (winter)",
+   "region": "North",
+   "code": "JK",
+   "attributes": {
+    "lgd_code": 1
+   }
+  },
+  {
+   "id": "location.uts.ladakh",
+   "name": "Ladakh",
+   "type": "location",
+   "capital": "Leh",
+   "region": "North",
+   "code": "LA",
+   "attributes": {
+    "lgd_code": 37
+   }
+  },
+  {
+   "id": "location.uts.lakshadweep",
+   "name": "Lakshadweep",
+   "type": "location",
+   "capital": "Kavaratti",
+   "region": "Islands",
+   "code": "LD",
+   "attributes": {
+    "lgd_code": 31
+   }
+  },
+  {
+   "id": "location.uts.puducherry",
+   "name": "Puducherry",
+   "type": "location",
+   "capital": "Puducherry",
+   "region": "South",
+   "code": "PY",
+   "attributes": {
+    "lgd_code": 34
+   }
+  }
+ ]
+}

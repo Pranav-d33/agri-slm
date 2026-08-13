@@ -1,0 +1,16 @@
+[     222ms] Uncaught ReferenceError: jQuery is not defined
+    at <anonymous> (https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js:16:151)
+    at <anonymous> (https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js:16:160)
+[     258ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://nhb.gov.in/assets/fonts/mem8YaGs126MiZpBA-UFVZ0b.woff:0
+[     280ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://nhb.gov.in/assets/img/LogoImage_ICICIBank.png:0
+[     299ms] TypeError: Cannot set properties of null (setting 'checked')
+    at https://nhb.gov.in/assets/js/nli-index-custom.min.js:1:109703
+[     308ms] TypeError: $(...).uniform is not a function
+    at Object.init (https://nhb.gov.in/assets/js/nli-index-custom.min.js:1:18865)
+    at Object.init (https://nhb.gov.in/assets/js/nli-index-custom.min.js:1:18757)
+    at HTMLDocument.<anonymous> (https://nhb.gov.in/assets/js/nli-index-custom.min.js:1:18714)
+    at c (https://nhb.gov.in/assets/js/nli-index-library.min.js:4:26036)
+    at Object.fireWith [as resolveWith] (https://nhb.gov.in/assets/js/nli-index-library.min.js:4:26840)
+    at x.ready (https://nhb.gov.in/assets/js/nli-index-library.min.js:4:3305)
+    at HTMLDocument.q (https://nhb.gov.in/assets/js/nli-index-library.min.js:4:717)
+[     390ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://nhb.gov.in/css/images/after-bottom-bg.png:0

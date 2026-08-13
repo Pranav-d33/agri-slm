@@ -1,0 +1,117 @@
+- generic [ref=f7e4]:
+  - banner [ref=f7e5]:
+    - generic [ref=f7e6]:
+      - link "GOVERNMENT OF INDIA" [ref=f7e8] [cursor=pointer]:
+        - /url: https://www.india.gov.in/
+      - generic [ref=f7e114]:
+        - generic [ref=f7e115]:
+          - generic [ref=f7e116] [cursor=pointer]: Screen Reader
+          - generic [ref=f7e124] [cursor=pointer]: Feedback
+        - generic [ref=f7e134] [cursor=pointer]: Request Login
+        - button [ref=f7e136] [cursor=pointer]
+        - button "Search (Ctrl + k)" [ref=f7e139] [cursor=pointer]
+    - generic [ref=f7e142]:
+      - img [ref=f7e144] [cursor=pointer]
+      - button "open drawer" [ref=f7e301] [cursor=pointer]
+  - main [ref=f7e305]:
+    - generic [ref=f7e307]:
+      - img "UPAg" [ref=f7e309]
+      - progressbar [ref=f7e311]
+      - generic [ref=f7e313]: Loading please wait...
+  - contentinfo [ref=f7e314]:
+    - generic [ref=f7e315]:
+      - generic [ref=f7e317]:
+        - img "UPAg" [ref=f7e319]
+        - generic [ref=f7e321]:
+          - generic [ref=f7e322]: Quick Links
+          - generic [ref=f7e324]:
+            - generic [ref=f7e325]: Policy
+            - generic [ref=f7e327]: Terms & Conditions
+            - generic [ref=f7e329]: Help
+            - generic [ref=f7e331]: Site Map
+        - generic [ref=f7e333]:
+          - generic [ref=f7e334]: Useful Links
+          - generic [ref=f7e336]:
+            - button "← Previous" [ref=f7e337] [cursor=pointer]
+            - generic [ref=f7e339]:
+              - link [ref=f7e345] [cursor=pointer]:
+                - /url: https://swachhbharatmission.gov.in/sbmcms/index.htm
+              - link [ref=f7e352] [cursor=pointer]:
+                - /url: https://gandhi.gov.in/
+              - link [ref=f7e359] [cursor=pointer]:
+                - /url: https://desagri.gov.in/
+              - link [ref=f7e366] [cursor=pointer]:
+                - /url: https://agricoop.gov.in/
+              - link "Cashlessindia" [ref=f7e373] [cursor=pointer]:
+                - /url: http://cashlessindia.gov.in/
+                - img "Cashlessindia" [ref=f7e374]
+              - link "public" [ref=f7e380] [cursor=pointer]:
+                - /url: https://pgportal.gov.in/
+                - img "public" [ref=f7e381]
+              - link "webdirectory" [ref=f7e387] [cursor=pointer]:
+                - /url: https://igod.gov.in/
+                - img "webdirectory" [ref=f7e388]
+              - link "degitalindia" [ref=f7e394] [cursor=pointer]:
+                - /url: https://www.digitalindia.gov.in/
+                - img "degitalindia" [ref=f7e395]
+              - link [ref=f7e401] [cursor=pointer]:
+                - /url: https://www.mygov.in/
+              - link [ref=f7e408] [cursor=pointer]:
+                - /url: https://www.makeinindia.com/
+              - link [ref=f7e415] [cursor=pointer]:
+                - /url: https://data.gov.in/
+              - link [ref=f7e422] [cursor=pointer]:
+                - /url: https://www.india.gov.in/
+              - link [ref=f7e429] [cursor=pointer]:
+                - /url: https://ejalshakti.gov.in/JSA/JSA/Home.aspx
+              - link [ref=f7e436] [cursor=pointer]:
+                - /url: https://swachhbharatmission.gov.in/sbmcms/index.htm
+              - link [ref=f7e443] [cursor=pointer]:
+                - /url: https://gandhi.gov.in/
+              - link [ref=f7e450] [cursor=pointer]:
+                - /url: https://desagri.gov.in/
+              - link [ref=f7e457] [cursor=pointer]:
+                - /url: https://agricoop.gov.in/
+              - link [ref=f7e464] [cursor=pointer]:
+                - /url: http://cashlessindia.gov.in/
+              - link [ref=f7e471] [cursor=pointer]:
+                - /url: https://pgportal.gov.in/
+              - link [ref=f7e478] [cursor=pointer]:
+                - /url: https://igod.gov.in/
+              - link [ref=f7e485] [cursor=pointer]:
+                - /url: https://www.digitalindia.gov.in/
+              - link [ref=f7e492] [cursor=pointer]:
+                - /url: https://www.mygov.in/
+              - link [ref=f7e499] [cursor=pointer]:
+                - /url: https://www.makeinindia.com/
+              - link [ref=f7e506] [cursor=pointer]:
+                - /url: https://data.gov.in/
+              - link [ref=f7e513] [cursor=pointer]:
+                - /url: https://www.india.gov.in/
+              - link [ref=f7e520] [cursor=pointer]:
+                - /url: https://ejalshakti.gov.in/JSA/JSA/Home.aspx
+              - link [ref=f7e527] [cursor=pointer]:
+                - /url: https://swachhbharatmission.gov.in/sbmcms/index.htm
+              - link [ref=f7e534] [cursor=pointer]:
+                - /url: https://gandhi.gov.in/
+              - link [ref=f7e541] [cursor=pointer]:
+                - /url: https://desagri.gov.in/
+              - link [ref=f7e548] [cursor=pointer]:
+                - /url: https://agricoop.gov.in/
+            - button "→ Next" [ref=f7e550] [cursor=pointer]
+            - text: • • • • • • • • • • • • •
+      - link "Connect to UPAg Open API" [ref=f7e552] [cursor=pointer]:
+        - /url: https://data.upag.gov.in/redoc
+        - text: Connect to UPAgOpen API
+    - generic [ref=f7e560]:
+      - generic [ref=f7e561]:
+        - generic [ref=f7e562]:
+          - generic [ref=f7e563]: Website Content Managed by
+          - generic [ref=f7e564]: Department of Agriculture & Farmers Welfare
+          - generic [ref=f7e565]: Ministry of Agriculture, New Delhi.
+        - generic [ref=f7e567]:
+          - generic [ref=f7e569] [cursor=pointer]
+          - generic [ref=f7e579]:
+            - generic [ref=f7e580]: Privacy StatementDisclaimer
+            - generic [ref=f7e581]: Directorate of Economics and Statistics, Ministry of Agriculture © 2026. All Rights Reserved.
+      - generic [ref=f7e582]: Last Reviewed & Updated On

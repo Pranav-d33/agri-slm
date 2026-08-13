@@ -1,0 +1,26 @@
+{
+  "census2011": {
+    "desc": "State and district lists (Census of India 2011 mirror)",
+    "files": [
+      "census2011/index.html"
+    ],
+    "status": "ok"
+  },
+  "tnau-agritech": {
+    "desc": "TNAU Agritech Portal index pages",
+    "files": [
+      "tnau-agritech/agriculture_agri_cropproduction_cereals_20index_20new_rice_html.html",
+      "tnau-agritech/agriculture_millets_index_html.html",
+      "tnau-agritech/agriculture_pulses_index_html.html",
+      "tnau-agritech/agriculture_oilseeds_index_html.html",
+      "tnau-agritech/agriculture_fibrecrops_index_html.html",
+      "tnau-agritech/agriculture_sugarcrops_index_html.html",
+      "tnau-agritech/agriculture_agri_cropproduction_forage_20index_20new_forage_html.html",
+      "tnau-agritech/agriculture_othercrops_html.html",
+      "tnau-agritech/crop_protection_crop_prot_html.html",
+      "tnau-agritech/agriculture_agri_nutrientmgt_html.html",
+      "tnau-agritech/agriculture_agri_soil_html.html"
+    ],
+    "status": "ok"
+  }
+}

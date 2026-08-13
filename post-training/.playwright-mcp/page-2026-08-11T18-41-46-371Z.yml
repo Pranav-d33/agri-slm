@@ -1,0 +1,807 @@
+- generic [ref=f7e4]:
+  - banner [ref=f7e5]:
+    - generic [ref=f7e6]:
+      - link "GOVERNMENT OF INDIA" [ref=f7e8] [cursor=pointer]:
+        - /url: https://www.india.gov.in/
+      - generic [ref=f7e114]:
+        - generic [ref=f7e115]:
+          - generic [ref=f7e116] [cursor=pointer]: Screen Reader
+          - generic [ref=f7e124] [cursor=pointer]: Feedback
+        - generic [ref=f7e134] [cursor=pointer]: Request Login
+        - button [ref=f7e136] [cursor=pointer]
+        - button "Search (Ctrl + k)" [ref=f7e139] [cursor=pointer]
+    - generic [ref=f7e142]:
+      - img [ref=f7e144] [cursor=pointer]
+      - button "open drawer" [ref=f7e301] [cursor=pointer]
+  - main [ref=f7e305]:
+    - generic [ref=f7e583]:
+      - generic [ref=f7e584]: "YOU ARE HERE:"
+      - list [ref=f7e585]:
+        - listitem [ref=f7e586] [cursor=pointer]:
+          - link "Home" [ref=f7e587]:
+            - /url: /
+        - listitem [ref=f7e588]
+        - listitem [ref=f7e591] [cursor=pointer]:
+          - link "Reports" [ref=f7e592]:
+            - /url: /primary-estimate-report
+        - listitem [ref=f7e593]
+        - listitem [ref=f7e596] [cursor=pointer]:
+          - link "Area, Production & Yield" [ref=f7e597]:
+            - /url: /primary-estimate-report?tab=Area%2C+Production+%26+Yield
+        - listitem [ref=f7e598]
+        - listitem [ref=f7e601] [cursor=pointer]:
+          - 'link "Crop Profile: State-wise APY" [ref=f7e602]':
+            - /url: /dash-reports/statewiseapy
+    - generic [ref=f7e604]:
+      - iframe [ref=f7e605]:
+        - generic [ref=f8e1]:
+          - generic [ref=f8e13]:
+            - generic [ref=f8e14]:
+              - 'heading "Crop Profile: State-wise Area, Production & Yield of All Crops, (2021-22 to 2025-26)" [level=4] [ref=f8e21]'
+              - button "Print" [ref=f8e24] [cursor=pointer]
+              - button "Pdf" [ref=f8e32] [cursor=pointer]
+              - button "Excel" [ref=f8e40] [cursor=pointer]
+              - button "CSV" [ref=f8e48] [cursor=pointer]
+              - button "Filters" [ref=f8e56] [cursor=pointer]
+            - generic [ref=f8e69]: "Source: DA&FW"
+            - generic [ref=f8e70]:
+              - generic [ref=f8e71]: Area in Lakh Ha, Production in Lakh Tonnes & Yield in Kg/Ha
+              - generic [ref=f8e72]: Data for the year 2025-26 is of 3ʳᵈ Advance Estimates
+              - generic [ref=f8e73]: "# Cotton Production in Lakh Bales, 1Bale=170 Kg ## Jute, Mesta & Sannhemp Production in Lakh Bales, 1Bale=180 Kg"
+            - generic [ref=f8e74]:
+              - text:               
+              - treegrid [ref=f8e75]:
+                - row [ref=f8e76]:
+                  - columnheader [ref=f8e77]
+                  - columnheader [ref=f8e78]
+                  - columnheader [ref=f8e79]
+                - row [ref=f8e80]:
+                  - columnheader "Crop" [ref=f8e81] [cursor=pointer]:
+                    - text:   
+                    - generic:    
+                  - columnheader "State" [ref=f8e83] [cursor=pointer]:
+                    - text:   
+                    - generic:    
+                  - columnheader "Season" [ref=f8e85] [cursor=pointer]:
+                    - text:   
+                    - generic [ref=f8e87]:
+                      - generic [ref=f8e88]: 
+                      - text:   
+                - rowgroup [ref=f8e89]:
+                  - row [ref=f8e90]:
+                    - columnheader "Area" [ref=f8e91]
+                    - columnheader "Production" [ref=f8e92]
+                    - columnheader "Yield" [ref=f8e93]
+                  - row [ref=f8e94]:
+                    - columnheader "2021-22" [ref=f8e95] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2022-23" [ref=f8e97] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2023-24" [ref=f8e99] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2024-25" [ref=f8e101] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2025-26" [ref=f8e103] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2021-22" [ref=f8e105] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2022-23" [ref=f8e107] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2023-24" [ref=f8e109] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2024-25" [ref=f8e111] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2025-26" [ref=f8e113] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2021-22" [ref=f8e115] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2022-23" [ref=f8e117] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2023-24" [ref=f8e119] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2024-25" [ref=f8e121] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                    - columnheader "2025-26" [ref=f8e123] [cursor=pointer]:
+                      - text:   
+                      - generic:    
+                - rowgroup [ref=f8e125]:
+                  - row "Press SPACE to select this row." [ref=f8e126]:
+                    - gridcell "Rice" [ref=f8e127]:
+                      - generic [ref=f8e128]:
+                        - text:  
+                        - generic [ref=f8e129]: Rice
+                    - gridcell "Andaman And Nicobar Islands" [ref=f8e130]:
+                      - generic [ref=f8e131]:
+                        - text:  
+                        - generic [ref=f8e132]: Andaman And Nicobar Islands
+                    - gridcell "Kharif" [ref=f8e133]:
+                      - generic [ref=f8e134]:
+                        - text:  
+                        - generic [ref=f8e135]: Kharif
+                  - row "Press SPACE to select this row." [ref=f8e136]:
+                    - gridcell [ref=f8e137]
+                    - gridcell [ref=f8e139]
+                    - gridcell "Rabi" [ref=f8e141]:
+                      - generic [ref=f8e142]:
+                        - text:  
+                        - generic [ref=f8e143]: Rabi
+                  - row "Press SPACE to select this row." [ref=f8e144]:
+                    - gridcell [ref=f8e145]
+                    - gridcell [ref=f8e147]
+                    - gridcell "Total" [ref=f8e149]:
+                      - generic [ref=f8e150]:
+                        - text:  
+                        - generic [ref=f8e151]: Total
+                  - row "Press SPACE to select this row." [ref=f8e152]:
+                    - gridcell [ref=f8e153]
+                    - gridcell "Andhra Pradesh" [ref=f8e155]:
+                      - generic [ref=f8e156]:
+                        - text:  
+                        - generic [ref=f8e157]: Andhra Pradesh
+                    - gridcell "Kharif" [ref=f8e158]:
+                      - generic [ref=f8e159]:
+                        - text:  
+                        - generic [ref=f8e160]: Kharif
+                  - row "Press SPACE to select this row." [ref=f8e161]:
+                    - gridcell [ref=f8e162]
+                    - gridcell [ref=f8e164]
+                    - gridcell "Rabi" [ref=f8e166]:
+                      - generic [ref=f8e167]:
+                        - text:  
+                        - generic [ref=f8e168]: Rabi
+                  - row "Press SPACE to select this row." [ref=f8e169]:
+                    - gridcell [ref=f8e170]
+                    - gridcell [ref=f8e172]
+                    - gridcell "Total" [ref=f8e174]:
+                      - generic [ref=f8e175]:
+                        - text:  
+                        - generic [ref=f8e176]: Total
+                  - row "Press SPACE to select this row." [ref=f8e177]:
+                    - gridcell [ref=f8e178]
+                    - gridcell "Arunachal Pradesh" [ref=f8e180]:
+                      - generic [ref=f8e181]:
+                        - text:  
+                        - generic [ref=f8e182]: Arunachal Pradesh
+                    - gridcell "Kharif" [ref=f8e183]:
+                      - generic [ref=f8e184]:
+                        - text:  
+                        - generic [ref=f8e185]: Kharif
+                  - row "Press SPACE to select this row." [ref=f8e186]:
+                    - gridcell [ref=f8e187]
+                    - gridcell [ref=f8e189]
+                    - gridcell "Rabi" [ref=f8e191]:
+                      - generic [ref=f8e192]:
+                        - text:  
+                        - generic [ref=f8e193]: Rabi
+                  - row "Press SPACE to select this row." [ref=f8e194]:
+                    - gridcell [ref=f8e195]
+                    - gridcell [ref=f8e197]
+                    - gridcell "Total" [ref=f8e199]:
+                      - generic [ref=f8e200]:
+                        - text:  
+                        - generic [ref=f8e201]: Total
+                  - row "Press SPACE to select this row." [ref=f8e202]:
+                    - gridcell [ref=f8e203]
+                    - gridcell "Assam" [ref=f8e205]:
+                      - generic [ref=f8e206]:
+                        - text:  
+                        - generic [ref=f8e207]: Assam
+                    - gridcell "Kharif" [ref=f8e208]:
+                      - generic [ref=f8e209]:
+                        - text:  
+                        - generic [ref=f8e210]: Kharif
+                  - row "Press SPACE to select this row." [ref=f8e211]:
+                    - gridcell [ref=f8e212]
+                    - gridcell [ref=f8e214]
+                    - gridcell "Rabi" [ref=f8e216]:
+                      - generic [ref=f8e217]:
+                        - text:  
+                        - generic [ref=f8e218]: Rabi
+                  - row "Press SPACE to select this row." [ref=f8e219]:
+                    - gridcell [ref=f8e220]
+                    - gridcell [ref=f8e222]
+                    - gridcell "Summer" [ref=f8e224]:
+                      - generic [ref=f8e225]:
+                        - text:  
+                        - generic [ref=f8e226]: Summer
+                  - row "Press SPACE to select this row." [ref=f8e227]:
+                    - gridcell [ref=f8e228]
+                    - gridcell [ref=f8e230]
+                    - gridcell "Total" [ref=f8e232]:
+                      - generic [ref=f8e233]:
+                        - text:  
+                        - generic [ref=f8e234]: Total
+                  - row "Press SPACE to select this row." [ref=f8e235]:
+                    - gridcell [ref=f8e236]
+                    - gridcell "Bihar" [ref=f8e238]:
+                      - generic [ref=f8e239]:
+                        - text:  
+                        - generic [ref=f8e240]: Bihar
+                    - gridcell "Kharif" [ref=f8e241]:
+                      - generic [ref=f8e242]:
+                        - text:  
+                        - generic [ref=f8e243]: Kharif
+                  - row "Press SPACE to select this row." [ref=f8e244]:
+                    - gridcell [ref=f8e245]
+                    - gridcell [ref=f8e247]
+                    - gridcell "Rabi" [ref=f8e249]:
+                      - generic [ref=f8e250]:
+                        - text:  
+                        - generic [ref=f8e251]: Rabi
+                  - row "Press SPACE to select this row." [ref=f8e252]:
+                    - gridcell [ref=f8e253]
+                    - gridcell [ref=f8e255]
+                    - gridcell "Summer" [ref=f8e257]:
+                      - generic [ref=f8e258]:
+                        - text:  
+                        - generic [ref=f8e259]: Summer
+                  - row "Press SPACE to select this row." [ref=f8e260]:
+                    - gridcell [ref=f8e261]
+                    - gridcell [ref=f8e263]
+                    - gridcell "Total" [ref=f8e265]:
+                      - generic [ref=f8e266]:
+                        - text:  
+                        - generic [ref=f8e267]: Total
+                  - row "Press SPACE to select this row." [ref=f8e268]:
+                    - gridcell [ref=f8e269]
+                    - gridcell "Chandigarh" [ref=f8e271]:
+                      - generic [ref=f8e272]:
+                        - text:  
+                        - generic [ref=f8e273]: Chandigarh
+                    - gridcell "Kharif" [ref=f8e274]:
+                      - generic [ref=f8e275]:
+                        - text:  
+                        - generic [ref=f8e276]: Kharif
+                  - row "Press SPACE to select this row." [ref=f8e277]:
+                    - gridcell [ref=f8e278]
+                    - gridcell [ref=f8e280]
+                    - gridcell "Rabi" [ref=f8e282]:
+                      - generic [ref=f8e283]:
+                        - text:  
+                        - generic [ref=f8e284]: Rabi
+                  - row "Press SPACE to select this row." [ref=f8e285]:
+                    - gridcell [ref=f8e286]
+                    - gridcell [ref=f8e288]
+                    - gridcell "Total" [ref=f8e290]:
+                      - generic [ref=f8e291]:
+                        - text:  
+                        - generic [ref=f8e292]: Total
+                  - row "Press SPACE to select this row." [ref=f8e293]:
+                    - gridcell [ref=f8e294]
+                    - gridcell "Chhattisgarh" [ref=f8e296]:
+                      - generic [ref=f8e297]:
+                        - text:  
+                        - generic [ref=f8e298]: Chhattisgarh
+                    - gridcell "Kharif" [ref=f8e299]:
+                      - generic [ref=f8e300]:
+                        - text:  
+                        - generic [ref=f8e301]: Kharif
+                  - row "Press SPACE to select this row." [ref=f8e302]:
+                    - gridcell [ref=f8e303]
+                    - gridcell [ref=f8e305]
+                    - gridcell "Rabi" [ref=f8e307]:
+                      - generic [ref=f8e308]:
+                        - text:  
+                        - generic [ref=f8e309]: Rabi
+                  - row "Press SPACE to select this row." [ref=f8e310]:
+                    - gridcell [ref=f8e311]
+                    - gridcell [ref=f8e313]
+                    - gridcell "Total" [ref=f8e315]:
+                      - generic [ref=f8e316]:
+                        - text:  
+                        - generic [ref=f8e317]: Total
+                  - row "Press SPACE to select this row." [ref=f8e318]:
+                    - gridcell [ref=f8e319]
+                    - gridcell "Dadra And Nagar Haveli" [ref=f8e321]:
+                      - generic [ref=f8e322]:
+                        - text:  
+                        - generic [ref=f8e323]: Dadra And Nagar Haveli
+                    - gridcell "Kharif" [ref=f8e324]:
+                      - generic [ref=f8e325]:
+                        - text:  
+                        - generic [ref=f8e326]: Kharif
+                - rowgroup [ref=f8e327]:
+                  - row "Press SPACE to select this row." [ref=f8e328]:
+                    - gridcell "0.06" [ref=f8e329]
+                    - gridcell "0.05" [ref=f8e330]
+                    - gridcell "0.05" [ref=f8e331]
+                    - gridcell "0.04" [ref=f8e332]
+                    - gridcell [ref=f8e333]
+                    - gridcell "0.13" [ref=f8e334]
+                    - gridcell "0.11" [ref=f8e335]
+                    - gridcell "0.10" [ref=f8e336]
+                    - gridcell "0.09" [ref=f8e337]
+                    - gridcell [ref=f8e338]
+                    - gridcell "2133" [ref=f8e339]
+                    - gridcell "2107" [ref=f8e340]
+                    - gridcell "2100" [ref=f8e341]
+                    - gridcell "2060" [ref=f8e342]
+                    - gridcell [ref=f8e343]
+                  - row "Press SPACE to select this row." [ref=f8e344]:
+                    - gridcell [ref=f8e345]
+                    - gridcell [ref=f8e346]
+                    - gridcell [ref=f8e347]
+                    - gridcell [ref=f8e348]
+                    - gridcell [ref=f8e349]
+                    - gridcell "0.00" [ref=f8e350]
+                    - gridcell [ref=f8e351]
+                    - gridcell [ref=f8e352]
+                    - gridcell [ref=f8e353]
+                    - gridcell [ref=f8e354]
+                    - gridcell [ref=f8e355]
+                    - gridcell [ref=f8e356]
+                    - gridcell [ref=f8e357]
+                    - gridcell [ref=f8e358]
+                    - gridcell [ref=f8e359]
+                  - row "Press SPACE to select this row." [ref=f8e360]:
+                    - gridcell "0.06" [ref=f8e361]
+                    - gridcell "0.05" [ref=f8e362]
+                    - gridcell "0.05" [ref=f8e363]
+                    - gridcell "0.04" [ref=f8e364]
+                    - gridcell [ref=f8e365]
+                    - gridcell "0.13" [ref=f8e366]
+                    - gridcell "0.11" [ref=f8e367]
+                    - gridcell "0.10" [ref=f8e368]
+                    - gridcell "0.09" [ref=f8e369]
+                    - gridcell [ref=f8e370]
+                    - gridcell "2133" [ref=f8e371]
+                    - gridcell "2107" [ref=f8e372]
+                    - gridcell "2100" [ref=f8e373]
+                    - gridcell "2060" [ref=f8e374]
+                    - gridcell [ref=f8e375]
+                  - row "Press SPACE to select this row." [ref=f8e376]:
+                    - gridcell "15.08" [ref=f8e377]
+                    - gridcell "14.52" [ref=f8e378]
+                    - gridcell "13.47" [ref=f8e379]
+                    - gridcell "14.04" [ref=f8e380]
+                    - gridcell "17.35" [ref=f8e381]
+                    - gridcell "43.26" [ref=f8e382]
+                    - gridcell "49.86" [ref=f8e383]
+                    - gridcell "46.95" [ref=f8e384]
+                    - gridcell "50.31" [ref=f8e385]
+                    - gridcell "63.27" [ref=f8e386]
+                    - gridcell "2869" [ref=f8e387]
+                    - gridcell "3434" [ref=f8e388]
+                    - gridcell "3485" [ref=f8e389]
+                    - gridcell "3583" [ref=f8e390]
+                    - gridcell "3647" [ref=f8e391]
+                  - row "Press SPACE to select this row." [ref=f8e392]:
+                    - gridcell "7.81" [ref=f8e393]
+                    - gridcell "6.77" [ref=f8e394]
+                    - gridcell "5.73" [ref=f8e395]
+                    - gridcell "6.73" [ref=f8e396]
+                    - gridcell "9.16" [ref=f8e397]
+                    - gridcell "34.37" [ref=f8e398]
+                    - gridcell "29.56" [ref=f8e399]
+                    - gridcell "26.46" [ref=f8e400]
+                    - gridcell "31.29" [ref=f8e401]
+                    - gridcell "42.58" [ref=f8e402]
+                    - gridcell "4401" [ref=f8e403]
+                    - gridcell "4366" [ref=f8e404]
+                    - gridcell "4616" [ref=f8e405]
+                    - gridcell "4649" [ref=f8e406]
+                    - gridcell "4649" [ref=f8e407]
+                  - row "Press SPACE to select this row." [ref=f8e408]:
+                    - gridcell "22.89" [ref=f8e409]
+                    - gridcell "21.29" [ref=f8e410]
+                    - gridcell "19.21" [ref=f8e411]
+                    - gridcell "20.77" [ref=f8e412]
+                    - gridcell "26.51" [ref=f8e413]
+                    - gridcell "77.64" [ref=f8e414]
+                    - gridcell "79.42" [ref=f8e415]
+                    - gridcell "73.42" [ref=f8e416]
+                    - gridcell "81.59" [ref=f8e417]
+                    - gridcell "105.85" [ref=f8e418]
+                    - gridcell "3392" [ref=f8e419]
+                    - gridcell "3730" [ref=f8e420]
+                    - gridcell "3822" [ref=f8e421]
+                    - gridcell "3928" [ref=f8e422]
+                    - gridcell "3993" [ref=f8e423]
+                  - row "Press SPACE to select this row." [ref=f8e424]:
+                    - gridcell "1.36" [ref=f8e425]
+                    - gridcell "1.36" [ref=f8e426]
+                    - gridcell "1.37" [ref=f8e427]
+                    - gridcell "1.37" [ref=f8e428]
+                    - gridcell [ref=f8e429]
+                    - gridcell "2.51" [ref=f8e430]
+                    - gridcell "2.53" [ref=f8e431]
+                    - gridcell "2.54" [ref=f8e432]
+                    - gridcell "2.55" [ref=f8e433]
+                    - gridcell [ref=f8e434]
+                    - gridcell "1852" [ref=f8e435]
+                    - gridcell "1857" [ref=f8e436]
+                    - gridcell "1858" [ref=f8e437]
+                    - gridcell "1859" [ref=f8e438]
+                    - gridcell [ref=f8e439]
+                  - row "Press SPACE to select this row." [ref=f8e440]:
+                    - gridcell "0.01" [ref=f8e441]
+                    - gridcell "0.01" [ref=f8e442]
+                    - gridcell "0.01" [ref=f8e443]
+                    - gridcell "0.00" [ref=f8e444]
+                    - gridcell [ref=f8e445]
+                    - gridcell "0.01" [ref=f8e446]
+                    - gridcell "0.01" [ref=f8e447]
+                    - gridcell "0.01" [ref=f8e448]
+                    - gridcell "0.00" [ref=f8e449]
+                    - gridcell [ref=f8e450]
+                    - gridcell "1343" [ref=f8e451]
+                    - gridcell "1345" [ref=f8e452]
+                    - gridcell "1347" [ref=f8e453]
+                    - gridcell "449" [ref=f8e454]
+                    - gridcell [ref=f8e455]
+                  - row "Press SPACE to select this row." [ref=f8e456]:
+                    - gridcell "1.36" [ref=f8e457]
+                    - gridcell "1.37" [ref=f8e458]
+                    - gridcell "1.37" [ref=f8e459]
+                    - gridcell "1.38" [ref=f8e460]
+                    - gridcell [ref=f8e461]
+                    - gridcell "2.52" [ref=f8e462]
+                    - gridcell "2.54" [ref=f8e463]
+                    - gridcell "2.55" [ref=f8e464]
+                    - gridcell "2.56" [ref=f8e465]
+                    - gridcell [ref=f8e466]
+                    - gridcell "1849" [ref=f8e467]
+                    - gridcell "1854" [ref=f8e468]
+                    - gridcell "1856" [ref=f8e469]
+                    - gridcell "1856" [ref=f8e470]
+                    - gridcell [ref=f8e471]
+                  - row "Press SPACE to select this row." [ref=f8e472]:
+                    - gridcell "19.83" [ref=f8e473]
+                    - gridcell "19.43" [ref=f8e474]
+                    - gridcell "19.18" [ref=f8e475]
+                    - gridcell "18.21" [ref=f8e476]
+                    - gridcell "18.83" [ref=f8e477]
+                    - gridcell "35.38" [ref=f8e478]
+                    - gridcell "45.18" [ref=f8e479]
+                    - gridcell "43.74" [ref=f8e480]
+                    - gridcell "37.60" [ref=f8e481]
+                    - gridcell "40.64" [ref=f8e482]
+                    - gridcell "1784" [ref=f8e483]
+                    - gridcell "2326" [ref=f8e484]
+                    - gridcell "2281" [ref=f8e485]
+                    - gridcell "2065" [ref=f8e486]
+                    - gridcell "2158" [ref=f8e487]
+                  - row "Press SPACE to select this row." [ref=f8e488]:
+                    - gridcell "3.70" [ref=f8e489]
+                    - gridcell [ref=f8e490]
+                    - gridcell [ref=f8e491]
+                    - gridcell [ref=f8e492]
+                    - gridcell [ref=f8e493]
+                    - gridcell "8.44" [ref=f8e494]
+                    - gridcell [ref=f8e495]
+                    - gridcell [ref=f8e496]
+                    - gridcell [ref=f8e497]
+                    - gridcell [ref=f8e498]
+                    - gridcell "2281" [ref=f8e499]
+                    - gridcell [ref=f8e500]
+                    - gridcell [ref=f8e501]
+                    - gridcell [ref=f8e502]
+                    - gridcell [ref=f8e503]
+                  - row "Press SPACE to select this row." [ref=f8e504]:
+                    - gridcell [ref=f8e505]
+                    - gridcell "3.75" [ref=f8e506]
+                    - gridcell "3.78" [ref=f8e507]
+                    - gridcell "3.82" [ref=f8e508]
+                    - gridcell "3.79" [ref=f8e509]
+                    - gridcell [ref=f8e510]
+                    - gridcell "11.06" [ref=f8e511]
+                    - gridcell "11.64" [ref=f8e512]
+                    - gridcell "11.42" [ref=f8e513]
+                    - gridcell "11.49" [ref=f8e514]
+                    - gridcell [ref=f8e515]
+                    - gridcell "2949" [ref=f8e516]
+                    - gridcell "3080" [ref=f8e517]
+                    - gridcell "2986" [ref=f8e518]
+                    - gridcell "3032" [ref=f8e519]
+                  - row "Press SPACE to select this row." [ref=f8e520]:
+                    - gridcell "23.53" [ref=f8e521]
+                    - gridcell "23.18" [ref=f8e522]
+                    - gridcell "22.96" [ref=f8e523]
+                    - gridcell "22.03" [ref=f8e524]
+                    - gridcell "22.62" [ref=f8e525]
+                    - gridcell "43.82" [ref=f8e526]
+                    - gridcell "56.24" [ref=f8e527]
+                    - gridcell "55.39" [ref=f8e528]
+                    - gridcell "49.01" [ref=f8e529]
+                    - gridcell "52.13" [ref=f8e530]
+                    - gridcell "1862" [ref=f8e531]
+                    - gridcell "2426" [ref=f8e532]
+                    - gridcell "2413" [ref=f8e533]
+                    - gridcell "2225" [ref=f8e534]
+                    - gridcell "2305" [ref=f8e535]
+                  - row "Press SPACE to select this row." [ref=f8e536]:
+                    - gridcell "30.37" [ref=f8e537]
+                    - gridcell "28.09" [ref=f8e538]
+                    - gridcell "30.50" [ref=f8e539]
+                    - gridcell "31.84" [ref=f8e540]
+                    - gridcell "32.59" [ref=f8e541]
+                    - gridcell "75.72" [ref=f8e542]
+                    - gridcell "68.73" [ref=f8e543]
+                    - gridcell "77.29" [ref=f8e544]
+                    - gridcell "81.42" [ref=f8e545]
+                    - gridcell "85.85" [ref=f8e546]
+                    - gridcell "2493" [ref=f8e547]
+                    - gridcell "2447" [ref=f8e548]
+                    - gridcell "2534" [ref=f8e549]
+                    - gridcell "2557" [ref=f8e550]
+                    - gridcell "2634" [ref=f8e551]
+                  - row "Press SPACE to select this row." [ref=f8e552]:
+                    - gridcell "0.54" [ref=f8e553]
+                    - gridcell [ref=f8e554]
+                    - gridcell [ref=f8e555]
+                    - gridcell [ref=f8e556]
+                    - gridcell [ref=f8e557]
+                    - gridcell "1.45" [ref=f8e558]
+                    - gridcell [ref=f8e559]
+                    - gridcell [ref=f8e560]
+                    - gridcell [ref=f8e561]
+                    - gridcell [ref=f8e562]
+                    - gridcell "2682" [ref=f8e563]
+                    - gridcell [ref=f8e564]
+                    - gridcell [ref=f8e565]
+                    - gridcell [ref=f8e566]
+                    - gridcell [ref=f8e567]
+                  - row "Press SPACE to select this row." [ref=f8e568]:
+                    - gridcell [ref=f8e569]
+                    - gridcell "0.54" [ref=f8e570]
+                    - gridcell "0.60" [ref=f8e571]
+                    - gridcell "0.58" [ref=f8e572]
+                    - gridcell "0.57" [ref=f8e573]
+                    - gridcell [ref=f8e574]
+                    - gridcell "1.50" [ref=f8e575]
+                    - gridcell "1.73" [ref=f8e576]
+                    - gridcell "1.60" [ref=f8e577]
+                    - gridcell "1.61" [ref=f8e578]
+                    - gridcell [ref=f8e579]
+                    - gridcell "2778" [ref=f8e580]
+                    - gridcell "2888" [ref=f8e581]
+                    - gridcell "2769" [ref=f8e582]
+                    - gridcell "2812" [ref=f8e583]
+                  - row "Press SPACE to select this row." [ref=f8e584]:
+                    - gridcell "30.91" [ref=f8e585]
+                    - gridcell "28.63" [ref=f8e586]
+                    - gridcell "31.10" [ref=f8e587]
+                    - gridcell "32.42" [ref=f8e588]
+                    - gridcell "33.16" [ref=f8e589]
+                    - gridcell "77.17" [ref=f8e590]
+                    - gridcell "70.23" [ref=f8e591]
+                    - gridcell "79.02" [ref=f8e592]
+                    - gridcell "83.02" [ref=f8e593]
+                    - gridcell "87.46" [ref=f8e594]
+                    - gridcell "2496" [ref=f8e595]
+                    - gridcell "2453" [ref=f8e596]
+                    - gridcell "2541" [ref=f8e597]
+                    - gridcell "2561" [ref=f8e598]
+                    - gridcell "2637" [ref=f8e599]
+                  - row "Press SPACE to select this row." [ref=f8e600]:
+                    - gridcell "0.00" [ref=f8e601]
+                    - gridcell "0.00" [ref=f8e602]
+                    - gridcell "0.00" [ref=f8e603]
+                    - gridcell "0.00" [ref=f8e604]
+                    - gridcell [ref=f8e605]
+                    - gridcell "0.00" [ref=f8e606]
+                    - gridcell "0.00" [ref=f8e607]
+                    - gridcell "0.00" [ref=f8e608]
+                    - gridcell "0.00" [ref=f8e609]
+                    - gridcell [ref=f8e610]
+                    - gridcell "5500" [ref=f8e611]
+                    - gridcell "3950" [ref=f8e612]
+                    - gridcell "4979" [ref=f8e613]
+                    - gridcell "3667" [ref=f8e614]
+                    - gridcell [ref=f8e615]
+                  - row "Press SPACE to select this row." [ref=f8e616]:
+                    - gridcell "0.00" [ref=f8e617]
+                    - gridcell [ref=f8e618]
+                    - gridcell [ref=f8e619]
+                    - gridcell [ref=f8e620]
+                    - gridcell [ref=f8e621]
+                    - gridcell "0.00" [ref=f8e622]
+                    - gridcell [ref=f8e623]
+                    - gridcell [ref=f8e624]
+                    - gridcell [ref=f8e625]
+                    - gridcell [ref=f8e626]
+                    - gridcell "0" [ref=f8e627]
+                    - gridcell [ref=f8e628]
+                    - gridcell [ref=f8e629]
+                    - gridcell [ref=f8e630]
+                    - gridcell [ref=f8e631]
+                  - row "Press SPACE to select this row." [ref=f8e632]:
+                    - gridcell "0.00" [ref=f8e633]
+                    - gridcell "0.00" [ref=f8e634]
+                    - gridcell "0.00" [ref=f8e635]
+                    - gridcell "0.00" [ref=f8e636]
+                    - gridcell [ref=f8e637]
+                    - gridcell "0.00" [ref=f8e638]
+                    - gridcell "0.00" [ref=f8e639]
+                    - gridcell "0.00" [ref=f8e640]
+                    - gridcell "0.00" [ref=f8e641]
+                    - gridcell [ref=f8e642]
+                    - gridcell "5500" [ref=f8e643]
+                    - gridcell "3950" [ref=f8e644]
+                    - gridcell "4979" [ref=f8e645]
+                    - gridcell "3667" [ref=f8e646]
+                    - gridcell [ref=f8e647]
+                  - row "Press SPACE to select this row." [ref=f8e648]:
+                    - gridcell "37.59" [ref=f8e649]
+                    - gridcell "37.71" [ref=f8e650]
+                    - gridcell "38.22" [ref=f8e651]
+                    - gridcell "39.05" [ref=f8e652]
+                    - gridcell "36.98" [ref=f8e653]
+                    - gridcell "80.22" [ref=f8e654]
+                    - gridcell "98.12" [ref=f8e655]
+                    - gridcell "97.03" [ref=f8e656]
+                    - gridcell "103.68" [ref=f8e657]
+                    - gridcell "99.10" [ref=f8e658]
+                    - gridcell "2134" [ref=f8e659]
+                    - gridcell "2602" [ref=f8e660]
+                    - gridcell "2539" [ref=f8e661]
+                    - gridcell "2655" [ref=f8e662]
+                    - gridcell "2680" [ref=f8e663]
+                  - row "Press SPACE to select this row." [ref=f8e664]:
+                    - gridcell [ref=f8e665]
+                    - gridcell [ref=f8e666]
+                    - gridcell [ref=f8e667]
+                    - gridcell [ref=f8e668]
+                    - gridcell [ref=f8e669]
+                    - gridcell "0.00" [ref=f8e670]
+                    - gridcell [ref=f8e671]
+                    - gridcell [ref=f8e672]
+                    - gridcell [ref=f8e673]
+                    - gridcell [ref=f8e674]
+                    - gridcell [ref=f8e675]
+                    - gridcell [ref=f8e676]
+                    - gridcell [ref=f8e677]
+                    - gridcell [ref=f8e678]
+                    - gridcell [ref=f8e679]
+                  - row "Press SPACE to select this row." [ref=f8e680]:
+                    - gridcell "37.59" [ref=f8e681]
+                    - gridcell "37.71" [ref=f8e682]
+                    - gridcell "38.22" [ref=f8e683]
+                    - gridcell "39.05" [ref=f8e684]
+                    - gridcell "36.98" [ref=f8e685]
+                    - gridcell "80.22" [ref=f8e686]
+                    - gridcell "98.12" [ref=f8e687]
+                    - gridcell "97.03" [ref=f8e688]
+                    - gridcell "103.68" [ref=f8e689]
+                    - gridcell "99.10" [ref=f8e690]
+                    - gridcell "2134" [ref=f8e691]
+                    - gridcell "2602" [ref=f8e692]
+                    - gridcell "2539" [ref=f8e693]
+                    - gridcell "2655" [ref=f8e694]
+                    - gridcell "2680" [ref=f8e695]
+                  - row "Press SPACE to select this row." [ref=f8e696]:
+                    - gridcell "0.16" [ref=f8e697]
+                    - gridcell "0.17" [ref=f8e698]
+                    - gridcell "0.17" [ref=f8e699]
+                    - gridcell "0.16" [ref=f8e700]
+                    - gridcell [ref=f8e701]
+                    - gridcell "0.33" [ref=f8e702]
+                    - gridcell "0.36" [ref=f8e703]
+                    - gridcell "0.36" [ref=f8e704]
+                    - gridcell "0.33" [ref=f8e705]
+                    - gridcell [ref=f8e706]
+                    - gridcell "2069" [ref=f8e707]
+                    - gridcell "2073" [ref=f8e708]
+                    - gridcell "2068" [ref=f8e709]
+                    - gridcell "2068" [ref=f8e710]
+                    - gridcell [ref=f8e711]
+              - generic [ref=f8e720]:
+                - tablist [ref=f8e721]:
+                  - tab "Table Filters" [ref=f8e722] [cursor=pointer]:
+                    - generic [ref=f8e723]: 
+                - text:                                       
+              - text:    
+          - contentinfo
+      - button "Focus mode" [ref=f7e607] [cursor=pointer]
+    - button "Explore More" [ref=f7e611] [cursor=pointer]
+  - contentinfo [ref=f7e314]:
+    - generic [ref=f7e315]:
+      - generic [ref=f7e317]:
+        - img "UPAg" [ref=f7e319]
+        - generic [ref=f7e321]:
+          - generic [ref=f7e322]: Quick Links
+          - generic [ref=f7e324]:
+            - generic [ref=f7e325]: Policy
+            - generic [ref=f7e327]: Terms & Conditions
+            - generic [ref=f7e329]: Help
+            - generic [ref=f7e331]: Site Map
+        - generic [ref=f7e333]:
+          - generic [ref=f7e334]: Useful Links
+          - generic [ref=f7e336]:
+            - button "← Previous" [ref=f7e337] [cursor=pointer]
+            - generic [ref=f7e339]:
+              - link [ref=f7e345] [cursor=pointer]:
+                - /url: https://swachhbharatmission.gov.in/sbmcms/index.htm
+              - link [ref=f7e352] [cursor=pointer]:
+                - /url: https://gandhi.gov.in/
+              - link [ref=f7e359] [cursor=pointer]:
+                - /url: https://desagri.gov.in/
+              - link [ref=f7e366] [cursor=pointer]:
+                - /url: https://agricoop.gov.in/
+              - link [ref=f7e614] [cursor=pointer]:
+                - /url: http://cashlessindia.gov.in/
+              - link [ref=f7e616] [cursor=pointer]:
+                - /url: https://pgportal.gov.in/
+              - link [ref=f7e618] [cursor=pointer]:
+                - /url: https://igod.gov.in/
+              - link [ref=f7e620] [cursor=pointer]:
+                - /url: https://www.digitalindia.gov.in/
+              - link [ref=f7e401] [cursor=pointer]:
+                - /url: https://www.mygov.in/
+              - link "makeinindia" [ref=f7e622] [cursor=pointer]:
+                - /url: https://www.makeinindia.com/
+                - img "makeinindia" [ref=f7e623]
+              - link "Datagov" [ref=f7e624] [cursor=pointer]:
+                - /url: https://data.gov.in/
+                - img "Datagov" [ref=f7e625]
+              - link "Indiagov" [ref=f7e626] [cursor=pointer]:
+                - /url: https://www.india.gov.in/
+                - img "Indiagov" [ref=f7e627]
+              - link "Jalshakthi" [ref=f7e628] [cursor=pointer]:
+                - /url: https://ejalshakti.gov.in/JSA/JSA/Home.aspx
+                - img "Jalshakthi" [ref=f7e629]
+              - link [ref=f7e436] [cursor=pointer]:
+                - /url: https://swachhbharatmission.gov.in/sbmcms/index.htm
+              - link [ref=f7e443] [cursor=pointer]:
+                - /url: https://gandhi.gov.in/
+              - link [ref=f7e450] [cursor=pointer]:
+                - /url: https://desagri.gov.in/
+              - link [ref=f7e457] [cursor=pointer]:
+                - /url: https://agricoop.gov.in/
+              - link [ref=f7e464] [cursor=pointer]:
+                - /url: http://cashlessindia.gov.in/
+              - link [ref=f7e471] [cursor=pointer]:
+                - /url: https://pgportal.gov.in/
+              - link [ref=f7e478] [cursor=pointer]:
+                - /url: https://igod.gov.in/
+              - link [ref=f7e485] [cursor=pointer]:
+                - /url: https://www.digitalindia.gov.in/
+              - link [ref=f7e492] [cursor=pointer]:
+                - /url: https://www.mygov.in/
+              - link [ref=f7e499] [cursor=pointer]:
+                - /url: https://www.makeinindia.com/
+              - link [ref=f7e506] [cursor=pointer]:
+                - /url: https://data.gov.in/
+              - link [ref=f7e513] [cursor=pointer]:
+                - /url: https://www.india.gov.in/
+              - link [ref=f7e520] [cursor=pointer]:
+                - /url: https://ejalshakti.gov.in/JSA/JSA/Home.aspx
+              - link [ref=f7e527] [cursor=pointer]:
+                - /url: https://swachhbharatmission.gov.in/sbmcms/index.htm
+              - link [ref=f7e534] [cursor=pointer]:
+                - /url: https://gandhi.gov.in/
+              - link [ref=f7e541] [cursor=pointer]:
+                - /url: https://desagri.gov.in/
+              - link [ref=f7e548] [cursor=pointer]:
+                - /url: https://agricoop.gov.in/
+            - button "→ Next" [ref=f7e550] [cursor=pointer]
+            - text: • • • • • • • • • • • • •
+      - link "Connect to UPAg Open API" [ref=f7e552] [cursor=pointer]:
+        - /url: https://data.upag.gov.in/redoc
+        - text: Connect to UPAgOpen API
+    - generic [ref=f7e560]:
+      - generic [ref=f7e561]:
+        - generic [ref=f7e562]:
+          - generic [ref=f7e563]: Website Content Managed by
+          - generic [ref=f7e564]: Department of Agriculture & Farmers Welfare
+          - generic [ref=f7e565]: Ministry of Agriculture, New Delhi.
+        - generic [ref=f7e567]:
+          - generic [ref=f7e569] [cursor=pointer]
+          - generic [ref=f7e579]:
+            - generic [ref=f7e580]: Privacy StatementDisclaimer
+            - generic [ref=f7e581]: Directorate of Economics and Statistics, Ministry of Agriculture © 2026. All Rights Reserved.
+      - generic [ref=f7e582]: Last Reviewed & Updated On 11 Aug 2026

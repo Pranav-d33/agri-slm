@@ -1,0 +1,366 @@
+{
+ "_description": "Seeds domain: seed types, certification, institutions, and variety availability.",
+ "source": {
+  "id": "seednet",
+  "url": "https://seednet.gov.in/"
+ },
+ "entities": [
+  {
+   "id": "seeds",
+   "name": "Seeds and Planting Material",
+   "type": "domain",
+   "domain": "seeds",
+   "aliases": [
+    "Beej",
+    "Seed sector"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    },
+    {
+     "predicate": "regulated_by",
+     "object": "institutions.icar"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.act",
+   "name": "Seed Act 1966",
+   "type": "measure",
+   "domain": "seeds",
+   "aliases": [
+    "Seeds Act and Rules",
+    "Seed (Control) Order 1983"
+   ],
+   "attributes": {
+    "purpose": "Certification of seed quality, truthful labelling",
+    "amendment": "Seeds Bill proposed repeatedly to replace Act"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.regulation"
+    },
+    {
+     "predicate": "part_of",
+     "object": "seeds"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.bt_cotton",
+   "name": "Bt Cotton",
+   "type": "entity",
+   "domain": "seeds",
+   "aliases": [
+    "GM cotton",
+    "Bollgard"
+   ],
+   "attributes": {
+    "note": "Only approved GM crop in India (GEAC, 2002); cry1Ac/cry2Ab genes control bollworm; >90% of cotton area",
+    "controversy": "Pink bollworm resistance reported in Gujarat, Telangana (2019-21)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.types"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.cotton"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.icar"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.certification",
+   "name": "Seed Certification",
+   "type": "measure",
+   "domain": "seeds",
+   "aliases": [
+    "Certified seed",
+    "Truthful labelling"
+   ],
+   "attributes": {
+    "classes": "Breeder -> Foundation -> Certified seed",
+    "bodies": "State Seed Certification Agencies; Central Seed Certification Board",
+    "indicator": "Seed Replacement Rate (SRR) rising: wheat/rice >50%, pulses lower"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.regulation"
+    },
+    {
+     "predicate": "regulated_by",
+     "object": "institutions.nsc"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.hybrid",
+   "name": "Hybrid Seeds",
+   "type": "entity",
+   "domain": "seeds",
+   "attributes": {
+    "note": "First-generation hybrids: maize, bajra, jowar, cotton, vegetables; higher yield but seed must be bought fresh each year",
+    "adoption": "Rice/wheat largely HYVs; cotton fully hybrid"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.types"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.maize"
+    },
+    {
+     "predicate": "recommended_for",
+     "object": "crops.cotton"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.opv",
+   "name": "Open-Pollinated Varieties",
+   "type": "entity",
+   "domain": "seeds",
+   "attributes": {
+    "note": "Non-hybrid varieties; farmer-saved seed possible"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "seeds.regulation",
+   "name": "Seed Regulation and Certification",
+   "type": "category",
+   "domain": "seeds",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   },
+   "attributes": {
+    "note": "Seed Act 1966, certification classes, NSC"
+   }
+  },
+  {
+   "id": "seeds.types",
+   "name": "Seed Types",
+   "type": "category",
+   "domain": "seeds",
+   "attributes": {
+    "types": "Hybrid, High-Yielding Variety (HYV), Open-Pollinated Variety (OPV), Genetically Modified (Bt cotton only, approved 2002), Traditional/local varieties"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds"
+    },
+    {
+     "predicate": "part_of",
+     "object": "seeds"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.varieties",
+   "name": "Crop Varieties Released",
+   "type": "category",
+   "domain": "seeds",
+   "attributes": {
+    "note": "ICAR + SAUs release varieties; e.g. Pusa series (IARI), HD series wheat, PB series rice; thousands of notified varieties",
+    "gap": "Full variety registry enumeration TODO via ICAR Variety Release system"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds"
+    },
+    {
+     "predicate": "registered_in",
+     "object": "institutions.icar"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "notes": "TODO: enumerate notified varieties per crop from ICAR variety release notifications; expected count is in the thousands."
+  },
+  {
+   "id": "seeds.varieties.hd_2967",
+   "name": "HD 2967 (Wheat)",
+   "type": "entity",
+   "domain": "seeds",
+   "attributes": {
+    "release": "IARI; high-yielding bread wheat; NW plains"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.varieties"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.varieties.pusa_basmati_1121",
+   "name": "Pusa Basmati 1121",
+   "type": "entity",
+   "domain": "seeds",
+   "attributes": {
+    "release": "IARI (2008); extra-long slender aromatic grains; major export basmati"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.varieties"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.varieties.pusa_basmati_1509",
+   "name": "Pusa Basmati 1509",
+   "type": "entity",
+   "domain": "seeds",
+   "attributes": {
+    "release": "IARI (2013); early-maturity basmati"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.varieties"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "seednet",
+    "url": "https://seednet.gov.in/"
+   }
+  }
+ ]
+}

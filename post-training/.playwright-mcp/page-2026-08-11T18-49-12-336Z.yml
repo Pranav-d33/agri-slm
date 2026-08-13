@@ -1,0 +1,230 @@
+- generic [ref=f15e2]:
+  - navigation [ref=f15e3]:
+    - link [ref=f15e5] [cursor=pointer]:
+      - /url: index.html
+      - img "logo" [ref=f15e6]
+    - generic [ref=f15e7]:
+      - text: 
+      - list:    
+      - button "" [ref=f15e8] [cursor=pointer]
+  - generic [ref=f15e10]:
+    - navigation [ref=f15e11]:
+      - list [ref=f15e12]:
+        - listitem [ref=f15e13]:
+          - link " Reports " [ref=f15e14] [cursor=pointer]:
+            - /url: "#crop-report"
+            - generic [ref=f15e15]: 
+            - generic [ref=f15e16]: Reports
+            - generic [ref=f15e17]: 
+          - list [ref=f15e19]:
+            - listitem [ref=f15e20]:
+              - link "Area, Production & Yield" [ref=f15e21] [cursor=pointer]:
+                - /url: /website/crops-apy-report-web
+            - listitem [ref=f15e22]:
+              - link "Major Contributing District" [ref=f15e23] [cursor=pointer]:
+                - /url: /website/crops-report-major-contributing-district-web
+            - listitem [ref=f15e24]:
+              - link "Major Contributing State" [ref=f15e25] [cursor=pointer]:
+                - /url: /website/crops-report-major-contributing-State-web
+            - listitem [ref=f15e26]:
+              - link "Food crop Report" [ref=f15e27] [cursor=pointer]:
+                - /url: /website/crops-report-district-level-web
+    - generic [ref=f15e28]:
+      - generic [ref=f15e29]:
+        - generic [ref=f15e30]:
+          - link "" [ref=f15e31] [cursor=pointer]:
+            - /url: /
+          - heading "/ Area, Production & Yield - Reports" [level=5] [ref=f15e33]
+        - generic [ref=f15e37]:
+          - generic [ref=f15e40]:
+            - radio [checked] [ref=f15e41]
+            - text: Horizontal Crop and Vertical Year
+            - radio [ref=f15e42]
+            - text: Horizontal Year and Vertical Crop
+          - generic [ref=f15e43]:
+            - generic [ref=f15e45]:
+              - generic [ref=f15e46]: State *
+              - listbox [ref=f15e47]:
+                - option [selected] [ref=f15e48]: All States
+                - option [ref=f15e49]: Andaman and Nicobar Islands
+                - option [ref=f15e50]: Andhra Pradesh
+                - option [ref=f15e51]: Arunachal Pradesh
+                - option [ref=f15e52]: Assam
+                - option [ref=f15e53]: Bihar
+                - option [ref=f15e54]: Chandigarh
+                - option [ref=f15e55]: Chhattisgarh
+                - option [ref=f15e56]: Dadra and Nagar Haveli
+                - option [ref=f15e57]: Daman and Diu
+                - option [ref=f15e58]: Delhi
+                - option [ref=f15e59]: Goa
+                - option [ref=f15e60]: Gujarat
+                - option [ref=f15e61]: Haryana
+                - option [ref=f15e62]: Himachal Pradesh
+                - option [ref=f15e63]: Jammu and Kashmir
+                - option [ref=f15e64]: Jharkhand
+                - option [ref=f15e65]: Karnataka
+                - option [ref=f15e66]: Kerala
+                - option [ref=f15e67]: Ladakh
+                - option [ref=f15e68]: Lakshadweep
+                - option [ref=f15e69]: Madhya Pradesh
+                - option [ref=f15e70]: Maharashtra
+                - option [ref=f15e71]: Manipur
+                - option [ref=f15e72]: Meghalaya
+                - option [ref=f15e73]: Mizoram
+                - option [ref=f15e74]: Nagaland
+                - option [ref=f15e75]: Odisha
+                - option [ref=f15e76]: Puducherry
+                - option [ref=f15e77]: Punjab
+                - option [ref=f15e78]: Rajasthan
+                - option [ref=f15e79]: Sikkim
+                - option [ref=f15e80]: Tamil Nadu
+                - option [ref=f15e81]: Telangana
+                - option [ref=f15e82]: The Dadra & Nagar Haveli and Daman and Diu
+                - option [ref=f15e83]: Tripura
+                - option [ref=f15e84]: Uttar Pradesh
+                - option [ref=f15e85]: Uttarakhand
+                - option [ref=f15e86]: West Bengal
+              - combobox [ref=f15e89]:
+                - list [ref=f15e90]:
+                  - listitem "All States" [ref=f15e207]: × All States
+                  - listitem [ref=f15e91]:
+                    - searchbox [ref=f15e92]
+            - generic [ref=f15e94]:
+              - generic [ref=f15e95]: District *
+              - listbox [ref=f15e96]:
+                - option [ref=f15e208]: All Districts
+              - combobox [ref=f15e100]:
+                - list [ref=f15e101]:
+                  - listitem [ref=f15e102]:
+                    - searchbox [ref=f15e103]
+              - text: Select District
+            - generic [ref=f15e105]:
+              - generic [ref=f15e106]: Crops *
+              - listbox [ref=f15e107]:
+                - option [ref=f15e108]: All Crops
+                - option [ref=f15e109]: Rice
+                - option [ref=f15e110]: Jowar
+                - option [ref=f15e111]: Bajra
+                - option [ref=f15e112]: Maize
+                - option [ref=f15e113]: Ragi
+                - option [ref=f15e114]: Barley
+                - option [ref=f15e115]: Wheat
+                - option [ref=f15e116]: Small millets
+                - option [ref=f15e117]: Other Cereals
+                - option [ref=f15e118]: Arhar/Tur
+                - option [ref=f15e119]: Moong(Green Gram)
+                - option [ref=f15e120]: Urad
+                - option [ref=f15e121]: Gram
+                - option [ref=f15e122]: Other Kharif pulses
+                - option [ref=f15e123]: Other Rabi pulses
+                - option [ref=f15e124]: Other Summer Pulses
+                - option [ref=f15e125]: Moth
+                - option [ref=f15e126]: Khesari
+                - option [ref=f15e127]: Horse-gram
+                - option [ref=f15e128]: Cowpea(Lobia)
+                - option [ref=f15e129]: Masoor
+                - option [ref=f15e130]: Peas & beans (Pulses)
+                - option [ref=f15e131]: Linseed
+                - option [ref=f15e132]: Castor seed
+                - option [ref=f15e133]: Rapeseed &Mustard
+                - option [ref=f15e134]: Niger seed
+                - option [ref=f15e135]: Sunflower
+                - option [ref=f15e136]: Sesamum
+                - option [ref=f15e137]: Groundnut
+                - option [ref=f15e138]: other oilseeds
+                - option [ref=f15e139]: Soyabean
+                - option [ref=f15e140]: Safflower
+                - option [ref=f15e141]: Cotton(lint)
+                - option [ref=f15e142]: Jute
+                - option [ref=f15e143]: Mesta
+                - option [ref=f15e144]: Sannhamp
+                - option [ref=f15e145]: Coconut
+                - option [ref=f15e146]: Sugarcane
+                - option [ref=f15e147]: Black pepper
+                - option [ref=f15e148]: Dry chillies
+                - option [ref=f15e149]: Ginger
+                - option [ref=f15e150]: Cashewnut
+                - option [ref=f15e151]: Tobacco
+                - option [selected] [ref=f15e152]: Banana
+                - option [ref=f15e153]: Arecanut
+                - option [ref=f15e154]: Cardamom
+                - option [ref=f15e155]: Coriander
+                - option [ref=f15e156]: Garlic
+                - option [ref=f15e157]: Tapioca
+                - option [ref=f15e158]: Onion
+                - option [ref=f15e159]: Potato
+                - option [ref=f15e160]: Sweet potato
+                - option [ref=f15e161]: Turmeric
+                - option [ref=f15e162]: Guar seed
+              - combobox [ref=f15e165]:
+                - list [ref=f15e166]:
+                  - listitem "Banana" [ref=f15e209]: × Banana
+                  - listitem [ref=f15e167]:
+                    - searchbox [ref=f15e168]
+            - generic [ref=f15e170]:
+              - generic [ref=f15e171]: Season *
+              - listbox [ref=f15e172]:
+                - option [ref=f15e173]: Select season
+                - option [ref=f15e174]: Rabi
+                - option [ref=f15e175]: Kharif
+                - option [ref=f15e176]: Autumn
+                - option [ref=f15e177]: Winter
+                - option [ref=f15e178]: Summer
+                - option [selected] [ref=f15e179]: Whole Year
+              - combobox [ref=f15e182]:
+                - list [ref=f15e183]:
+                  - listitem "Whole Year" [ref=f15e210]: × Whole Year
+                  - listitem [ref=f15e184]:
+                    - searchbox [ref=f15e185]
+            - generic [ref=f15e187]:
+              - generic [ref=f15e188]: From Year *
+              - combobox [ref=f15e189]:
+                - option "Select year"
+                - option "2022 - 2023" [selected]
+                - option "2021 - 2022"
+                - option "2020 - 2021"
+                - option "2019 - 2020"
+                - option "2018 - 2019"
+                - option "2017 - 2018"
+                - option "2016 - 2017"
+                - option "2015 - 2016"
+                - option "2014 - 2015"
+                - option "2013 - 2014"
+                - option "2012 - 2013"
+                - option "2011 - 2012"
+                - option "2010 - 2011"
+                - option "2009 - 2010"
+                - option "2008 - 2009"
+                - option "2007 - 2008"
+                - option "2006 - 2007"
+                - option "2005 - 2006"
+                - option "2004 - 2005"
+                - option "2003 - 2004"
+                - option "2002 - 2003"
+                - option "2001 - 2002"
+                - option "2000 - 2001"
+                - option "1999 - 2000"
+                - option "1998 - 1999"
+                - option "1997 - 1998"
+            - generic [ref=f15e191]:
+              - generic [ref=f15e192]: To Year *
+              - combobox [ref=f15e193]:
+                - option "Select year"
+                - option "2022 - 2023" [selected]
+            - generic [ref=f15e194]:
+              - generic [ref=f15e195]: Report Format *
+              - combobox [ref=f15e196]:
+                - option "Screen View" [selected]
+                - option "Excel"
+                - option "PDF"
+            - button "View Report" [ref=f15e199] [cursor=pointer]
+      - contentinfo [ref=f15e200]:
+        - generic [ref=f15e201]:
+          - strong [ref=f15e203]:
+            - text: Copyright © 2021.
+            - link "Directorate of Economics and Statistics (DES)" [ref=f15e204] [cursor=pointer]:
+              - /url: https://testmi.in/des/
+            - text: from Deptt. of Agriculture. All rights reserved.
+          - generic [ref=f15e205]:
+            - text: Monitor and manage crops with
+            - generic [ref=f15e206]: 

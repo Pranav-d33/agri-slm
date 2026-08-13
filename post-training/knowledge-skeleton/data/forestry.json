@@ -1,0 +1,2251 @@
+{
+ "_description": "Forestry and agroforestry domain: forest types, NTFP, agroforestry species.",
+ "source": {
+  "id": "icar",
+  "url": "https://icar.org.in/"
+ },
+ "entities": [
+  {
+   "id": "forestry",
+   "name": "Forestry and Agroforestry",
+   "type": "domain",
+   "domain": "forestry",
+   "aliases": [
+    "Van",
+    "Forests"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.agroforestry",
+   "name": "Agroforestry",
+   "type": "category",
+   "domain": "forestry",
+   "aliases": [
+    "Krishi van",
+    "Farm forestry"
+   ],
+   "attributes": {
+    "note": "National Agroforestry Policy 2014; poplar-wheat (Punjab, Haryana), eucalyptus, bamboo, teak, subabul; poplar popular for farm income"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.haryana"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.uttarakhand"
+    },
+    {
+     "predicate": "practiced_in",
+     "object": "location.states.bihar"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.agroforestry.casuarina",
+   "name": "Casuarina",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Casuarina equisetifolia; pulp and poles; TN, AP"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.agroforestry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "forestry.agroforestry.eucalyptus",
+   "name": "Eucalyptus",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Farm bunds; pulp and poles"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.agroforestry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": [
+    "Eucalypts",
+    "Gum (tree)"
+   ]
+  },
+  {
+   "id": "forestry.agroforestry.melia_dubia",
+   "name": "Melia Dubia",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Fast-growing timber; plywood; Karnataka, TN"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.agroforestry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "forestry.agroforestry.poplar",
+   "name": "Poplar",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Border plantation with wheat in Punjab, Haryana"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.agroforestry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.agroforestry.subabul",
+   "name": "Subabul (Leucaena)",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Fast-growing legume tree; fodder, fuel, green manure"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.agroforestry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.ntfp",
+   "name": "Non-Timber Forest Products",
+   "type": "category",
+   "domain": "forestry",
+   "aliases": [
+    "NTFP",
+    "Minor forest produce",
+    "Tendu",
+    "Sal seed",
+    "Bamboo",
+    "Gum",
+    "Mahua"
+   ],
+   "attributes": {
+    "note": "Tendu leaves (beedi), sal seed, bamboo, gum karaya, mahua flowers; MFP rights under PESA/FRA; MSP for minor forest produce"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.ntfp.bamboo",
+   "name": "Bamboo",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "use": "Construction, paper, food; NE and central India"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.ntfp"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.mizoram"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.ntfp.chironji",
+   "name": "Chironji",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Buchanania lanzan; edible nut; central India"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.ntfp"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "forestry.ntfp.gum_karaya",
+   "name": "Gum Karaya",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Sterculia urens; MP, Maharashtra, Chhattisgarh"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.ntfp"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "forestry.ntfp.mahua",
+   "name": "Mahua",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "use": "Flowers (liquor, food), oilseeds"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.ntfp"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": [
+    "Madhuca indica",
+    "mahua",
+    "mahwa"
+   ]
+  },
+  {
+   "id": "forestry.ntfp.sal_seed",
+   "name": "Sal Seed",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "use": "Kernel yields edible fat (sal butter)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.ntfp"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.ntfp.tendu",
+   "name": "Tendu Leaf",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "use": "Beedi wrapping; key MFP income"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.ntfp"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.status",
+   "name": "Forest Cover of India",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "cover": "Forest cover 7,15,343 sq km (21.76%) + tree cover 1,12,014 sq km (3.41%) = 8,27,357 sq km (25.17%) of geographical area (FSI ISFR 2023)",
+    "largest_by_area": "Madhya Pradesh, Arunachal Pradesh, Chhattisgarh, Odisha, Maharashtra",
+    "largest_by_percent": "Lakshadweep, Mizoram, Andaman & Nicobar, Arunachal Pradesh"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.timber.chir_pine",
+   "name": "Chir Pine",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Pinus roxburghii; resin and timber; Himachal, Uttarakhand"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.timber_species"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "forestry.timber.deodar",
+   "name": "Deodar",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Cedrus deodara; Himalayan construction timber"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.timber_species"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "forestry.timber.rosewood",
+   "name": "East Indian Rosewood",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Dalbergia latifolia; fine furniture wood; southern forests"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.timber_species"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "forestry.timber.sal",
+   "name": "Sal",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Hardwood of central India"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.timber_species"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.jharkhand"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.timber.sandalwood",
+   "name": "Sandalwood",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Most valuable fragrant timber; Karnataka, TN"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.timber_species"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.timber.shisham",
+   "name": "Shisham (Indian Rosewood)",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "North India; furniture timber"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.timber_species"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": [
+    "shisham",
+    "sissoo"
+   ]
+  },
+  {
+   "id": "forestry.timber.teak",
+   "name": "Teak",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Premium timber; slow growth"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.timber_species"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   },
+   "aliases": [
+    "Teak"
+   ]
+  },
+  {
+   "id": "forestry.timber_species",
+   "name": "Major Timber Species",
+   "type": "category",
+   "domain": "forestry",
+   "aliases": [
+    "Teak",
+    "Sal",
+    "Sandalwood",
+    "Shisham"
+   ],
+   "attributes": {
+    "note": "Teak (MP, Maharashtra), sal (central India), sandalwood (Karnataka, TN), shisham (UP, Punjab); legal harvest restrictions via forest acts"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types",
+   "name": "Forest Types",
+   "type": "category",
+   "domain": "forestry",
+   "attributes": {
+    "types": "Champion & Seth (1968) classification: 16 major forest type groups",
+    "note": "Champion & Seth classification: 16 major types"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.regions.western_ghats"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.dry_alpine_scrub",
+   "name": "Dry Alpine Scrub",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 16; cold desert zones; Ladakh"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.dry_deciduous",
+   "name": "Tropical Dry Deciduous Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 5; teak, tendu; most widespread"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.bihar",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.goa",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.jharkhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.dry_evergreen",
+   "name": "Tropical Dry Evergreen Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 7; Tamil Nadu coast, AP; evergreen in dry conditions"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.himalayan_dry_temperate",
+   "name": "Himalayan Dry Temperate Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 13; dry inner valleys; deodar, chilgoza"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.himalayan_moist_temperate",
+   "name": "Himalayan Moist Temperate Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 12; oak, deodar, spruce, fir; 1500-3300 m"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.manipur",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.nagaland",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.sikkim",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.littoral_swamp",
+   "name": "Littoral and Swamp Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 4; includes mangroves (Sundarbans), tidal forests"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.bihar",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.goa",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.manipur",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.moist_alpine_scrub",
+   "name": "Moist Alpine Scrub",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 15; above tree line; rhododendron, juniper"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.sikkim",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.moist_deciduous",
+   "name": "Tropical Moist Deciduous Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 3; teak, sal; central India"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.bihar",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.chhattisgarh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.goa",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.jharkhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.manipur",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.meghalaya",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.mizoram",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.nagaland",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.sikkim",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tripura",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.montane_wet_temperate",
+   "name": "Montane Wet Temperate Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 11; shola forests of Western Ghats, NE hills"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.manipur",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.nagaland",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.sikkim",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.semi_evergreen",
+   "name": "Tropical Semi-Evergreen Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 2; transition between wet evergreen and moist deciduous"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.bihar",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.goa",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.manipur",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.meghalaya",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.mizoram",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.nagaland",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.odisha",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tripura",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.subalpine",
+   "name": "Sub-Alpine Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 14; birch, fir, rhododendron; 2800-3600 m"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.sikkim",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.subtropical_broadleaved_hill",
+   "name": "Subtropical Broadleaved Hill Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 8; NE India, Nilgiris, Palni hills"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.manipur",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.meghalaya",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.mizoram",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.nagaland",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.sikkim",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.subtropical_dry_evergreen",
+   "name": "Subtropical Dry Evergreen Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 10; shisham, olive; Punjab, Haryana, Rajasthan"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.jammu_kashmir",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.subtropical_pine",
+   "name": "Subtropical Pine Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 9; chir pine; Himachal, Uttarakhand"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.manipur",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.meghalaya",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.mizoram",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.nagaland",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.thorn",
+   "name": "Tropical Thorn Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 6; arid/semi-arid; acacia, khejri; rainfall <75 cm"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.andhra_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.telangana",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.uts.delhi",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.types.wet_evergreen",
+   "name": "Tropical Wet Evergreen Forest",
+   "type": "entity",
+   "domain": "forestry",
+   "attributes": {
+    "note": "Champion & Seth Group 1; rainfall >250 cm; Western Ghats, NE India, Andamans"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.types"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.assam",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.goa",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.karnataka",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.meghalaya",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.nagaland",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "icar",
+      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+     }
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  }
+ ]
+}

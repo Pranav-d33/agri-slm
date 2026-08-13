@@ -1,0 +1,447 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e14]:
+    - generic [ref=f12e15]:
+      - heading "DES District Data For 2024-25" [level=4] [ref=f12e22]
+      - button "Print" [ref=f12e25] [cursor=pointer]
+      - button "Pdf" [ref=f12e33] [cursor=pointer]
+      - button "Excel" [ref=f12e41] [cursor=pointer]
+      - button "CSV" [ref=f12e49] [cursor=pointer]
+      - button "Filters" [ref=f12e57] [cursor=pointer]
+    - generic [ref=f12e70]: "Source: DA&FW"
+    - generic [ref=f12e71]: Area in Lakh Ha, Production in Lakh Tonnes & Yield in Kg/Ha
+    - button "Download Aspirational Districts" [ref=f12e73] [cursor=pointer]
+    - generic [ref=f12e74]:
+      - text:                                  
+      - treegrid [ref=f12e75]:
+        - row [ref=f12e76]:
+          - columnheader [ref=f12e77]
+          - columnheader [ref=f12e78]
+          - columnheader [ref=f12e79]
+          - columnheader [ref=f12e80]
+        - row [ref=f12e81]:
+          - columnheader "State" [ref=f12e82] [cursor=pointer]:
+            - text:   
+            - generic:    
+          - columnheader "District" [ref=f12e84] [cursor=pointer]:
+            - text:   
+            - generic:    
+          - columnheader "Crop" [ref=f12e86] [cursor=pointer]:
+            - text:   
+            - generic:    
+          - columnheader "Season" [ref=f12e88] [cursor=pointer]:
+            - text:   
+            - generic:    
+        - rowgroup [ref=f12e90]:
+          - row [ref=f12e91]:
+            - columnheader "Area" [ref=f12e92]
+            - columnheader "Production" [ref=f12e93]
+            - columnheader "Yield" [ref=f12e94]
+          - row [ref=f12e95]:
+            - columnheader "2024-25" [ref=f12e96] [cursor=pointer]:
+              - text:   
+              - generic:    
+            - columnheader "2024-25" [ref=f12e98] [cursor=pointer]:
+              - text:   
+              - generic:    
+            - columnheader "2024-25" [ref=f12e100] [cursor=pointer]:
+              - text:   
+              - generic:    
+        - rowgroup [ref=f12e102]:
+          - row "Press SPACE to select this row." [ref=f12e103]:
+            - gridcell "Andaman And Nicobar Islands" [ref=f12e104]:
+              - generic [ref=f12e105]:
+                - text:  
+                - generic [ref=f12e106]: Andaman And Nicobar Islands
+            - gridcell "Nicobars" [ref=f12e107]:
+              - generic [ref=f12e108]:
+                - text:  
+                - generic [ref=f12e109]: Nicobars
+            - gridcell "Rice" [ref=f12e110]:
+              - generic [ref=f12e111]:
+                - text:  
+                - generic [ref=f12e112]: Rice
+            - gridcell "Kharif" [ref=f12e113]:
+              - generic [ref=f12e114]:
+                - text:  
+                - generic [ref=f12e115]: Kharif
+          - row "Press SPACE to select this row." [ref=f12e116]:
+            - gridcell [ref=f12e117]
+            - gridcell [ref=f12e119]
+            - gridcell [ref=f12e121]
+            - gridcell "Total" [ref=f12e123]:
+              - generic [ref=f12e124]:
+                - text:  
+                - generic [ref=f12e125]: Total
+          - row "Press SPACE to select this row." [ref=f12e126]:
+            - gridcell [ref=f12e127]
+            - gridcell [ref=f12e129]
+            - gridcell "Cereals" [ref=f12e131]:
+              - generic [ref=f12e132]:
+                - text:  
+                - generic [ref=f12e133]: Cereals
+            - gridcell "Kharif" [ref=f12e134]:
+              - generic [ref=f12e135]:
+                - text:  
+                - generic [ref=f12e136]: Kharif
+          - row "Press SPACE to select this row." [ref=f12e137]:
+            - gridcell [ref=f12e138]
+            - gridcell [ref=f12e140]
+            - gridcell [ref=f12e142]
+            - gridcell "Total" [ref=f12e144]:
+              - generic [ref=f12e145]:
+                - text:  
+                - generic [ref=f12e146]: Total
+          - row "Press SPACE to select this row." [ref=f12e147]:
+            - gridcell [ref=f12e148]
+            - gridcell [ref=f12e150]
+            - gridcell "Total Food Grains" [ref=f12e152]:
+              - generic [ref=f12e153]:
+                - text:  
+                - generic [ref=f12e154]: Total Food Grains
+            - gridcell "Kharif" [ref=f12e155]:
+              - generic [ref=f12e156]:
+                - text:  
+                - generic [ref=f12e157]: Kharif
+          - row "Press SPACE to select this row." [ref=f12e158]:
+            - gridcell [ref=f12e159]
+            - gridcell [ref=f12e161]
+            - gridcell [ref=f12e163]
+            - gridcell "Total" [ref=f12e165]:
+              - generic [ref=f12e166]:
+                - text:  
+                - generic [ref=f12e167]: Total
+          - row "Press SPACE to select this row." [ref=f12e168]:
+            - gridcell [ref=f12e169]
+            - gridcell "North And Middle Andaman" [ref=f12e171]:
+              - generic [ref=f12e172]:
+                - text:  
+                - generic [ref=f12e173]: North And Middle Andaman
+            - gridcell "Rice" [ref=f12e174]:
+              - generic [ref=f12e175]:
+                - text:  
+                - generic [ref=f12e176]: Rice
+            - gridcell "Kharif" [ref=f12e177]:
+              - generic [ref=f12e178]:
+                - text:  
+                - generic [ref=f12e179]: Kharif
+          - row "Press SPACE to select this row." [ref=f12e180]:
+            - gridcell [ref=f12e181]
+            - gridcell [ref=f12e183]
+            - gridcell [ref=f12e185]
+            - gridcell "Total" [ref=f12e187]:
+              - generic [ref=f12e188]:
+                - text:  
+                - generic [ref=f12e189]: Total
+          - row "Press SPACE to select this row." [ref=f12e190]:
+            - gridcell [ref=f12e191]
+            - gridcell [ref=f12e193]
+            - gridcell "Maize" [ref=f12e195]:
+              - generic [ref=f12e196]:
+                - text:  
+                - generic [ref=f12e197]: Maize
+            - gridcell "Rabi" [ref=f12e198]:
+              - generic [ref=f12e199]:
+                - text:  
+                - generic [ref=f12e200]: Rabi
+          - row "Press SPACE to select this row." [ref=f12e201]:
+            - gridcell [ref=f12e202]
+            - gridcell [ref=f12e204]
+            - gridcell [ref=f12e206]
+            - gridcell "Total" [ref=f12e208]:
+              - generic [ref=f12e209]:
+                - text:  
+                - generic [ref=f12e210]: Total
+          - row "Press SPACE to select this row." [ref=f12e211]:
+            - gridcell [ref=f12e212]
+            - gridcell [ref=f12e214]
+            - gridcell "Nutri/Coarse Cereals" [ref=f12e216]:
+              - generic [ref=f12e217]:
+                - text:  
+                - generic [ref=f12e218]: Nutri/Coarse Cereals
+            - gridcell "Rabi" [ref=f12e219]:
+              - generic [ref=f12e220]:
+                - text:  
+                - generic [ref=f12e221]: Rabi
+          - row "Press SPACE to select this row." [ref=f12e222]:
+            - gridcell [ref=f12e223]
+            - gridcell [ref=f12e225]
+            - gridcell [ref=f12e227]
+            - gridcell "Total" [ref=f12e229]:
+              - generic [ref=f12e230]:
+                - text:  
+                - generic [ref=f12e231]: Total
+          - row "Press SPACE to select this row." [ref=f12e232]:
+            - gridcell [ref=f12e233]
+            - gridcell [ref=f12e235]
+            - gridcell "Cereals" [ref=f12e237]:
+              - generic [ref=f12e238]:
+                - text:  
+                - generic [ref=f12e239]: Cereals
+            - gridcell "Kharif" [ref=f12e240]:
+              - generic [ref=f12e241]:
+                - text:  
+                - generic [ref=f12e242]: Kharif
+          - row "Press SPACE to select this row." [ref=f12e243]:
+            - gridcell [ref=f12e244]
+            - gridcell [ref=f12e246]
+            - gridcell [ref=f12e248]
+            - gridcell "Rabi" [ref=f12e250]:
+              - generic [ref=f12e251]:
+                - text:  
+                - generic [ref=f12e252]: Rabi
+          - row "Press SPACE to select this row." [ref=f12e253]:
+            - gridcell [ref=f12e254]
+            - gridcell [ref=f12e256]
+            - gridcell [ref=f12e258]
+            - gridcell "Total" [ref=f12e260]:
+              - generic [ref=f12e261]:
+                - text:  
+                - generic [ref=f12e262]: Total
+          - row "Press SPACE to select this row." [ref=f12e263]:
+            - gridcell [ref=f12e264]
+            - gridcell [ref=f12e266]
+            - gridcell "Urad" [ref=f12e268]:
+              - generic [ref=f12e269]:
+                - text:  
+                - generic [ref=f12e270]: Urad
+            - gridcell "Rabi" [ref=f12e271]:
+              - generic [ref=f12e272]:
+                - text:  
+                - generic [ref=f12e273]: Rabi
+          - row "Press SPACE to select this row." [ref=f12e274]:
+            - gridcell [ref=f12e275]
+            - gridcell [ref=f12e277]
+            - gridcell [ref=f12e279]
+            - gridcell "Total" [ref=f12e281]:
+              - generic [ref=f12e282]:
+                - text:  
+                - generic [ref=f12e283]: Total
+          - row "Press SPACE to select this row." [ref=f12e284]:
+            - gridcell [ref=f12e285]
+            - gridcell [ref=f12e287]
+            - gridcell "Moong" [ref=f12e289]:
+              - generic [ref=f12e290]:
+                - text:  
+                - generic [ref=f12e291]: Moong
+            - gridcell "Rabi" [ref=f12e292]:
+              - generic [ref=f12e293]:
+                - text:  
+                - generic [ref=f12e294]: Rabi
+          - row "Press SPACE to select this row." [ref=f12e295]:
+            - gridcell [ref=f12e296]
+            - gridcell [ref=f12e298]
+            - gridcell [ref=f12e300]
+            - gridcell "Total" [ref=f12e302]:
+              - generic [ref=f12e303]:
+                - text:  
+                - generic [ref=f12e304]: Total
+          - row "Press SPACE to select this row." [ref=f12e305]:
+            - gridcell [ref=f12e306]
+            - gridcell [ref=f12e308]
+            - gridcell "Total Pulses" [ref=f12e310]:
+              - generic [ref=f12e311]:
+                - text:  
+                - generic [ref=f12e312]: Total Pulses
+            - gridcell "Total" [ref=f12e313]:
+              - generic [ref=f12e314]:
+                - text:  
+                - generic [ref=f12e315]: Total
+          - row "Press SPACE to select this row." [ref=f12e316]:
+            - gridcell [ref=f12e317]
+            - gridcell [ref=f12e319]
+            - gridcell "Total Food Grains" [ref=f12e321]:
+              - generic [ref=f12e322]:
+                - text:  
+                - generic [ref=f12e323]: Total Food Grains
+            - gridcell "Kharif" [ref=f12e324]:
+              - generic [ref=f12e325]:
+                - text:  
+                - generic [ref=f12e326]: Kharif
+          - row "Press SPACE to select this row." [ref=f12e327]:
+            - gridcell [ref=f12e328]
+            - gridcell [ref=f12e330]
+            - gridcell [ref=f12e332]
+            - gridcell "Rabi" [ref=f12e334]:
+              - generic [ref=f12e335]:
+                - text:  
+                - generic [ref=f12e336]: Rabi
+          - row "Press SPACE to select this row." [ref=f12e337]:
+            - gridcell [ref=f12e338]
+            - gridcell [ref=f12e340]
+            - gridcell [ref=f12e342]
+            - gridcell "Total" [ref=f12e344]:
+              - generic [ref=f12e345]:
+                - text:  
+                - generic [ref=f12e346]: Total
+          - row "Press SPACE to select this row." [ref=f12e347]:
+            - gridcell [ref=f12e348]
+            - gridcell "South Andamans" [ref=f12e350]:
+              - generic [ref=f12e351]:
+                - text:  
+                - generic [ref=f12e352]: South Andamans
+            - gridcell "Rice" [ref=f12e353]:
+              - generic [ref=f12e354]:
+                - text:  
+                - generic [ref=f12e355]: Rice
+            - gridcell "Kharif" [ref=f12e356]:
+              - generic [ref=f12e357]:
+                - text:  
+                - generic [ref=f12e358]: Kharif
+          - row "Press SPACE to select this row." [ref=f12e359]:
+            - gridcell [ref=f12e360]
+            - gridcell [ref=f12e362]
+            - gridcell [ref=f12e364]
+            - gridcell "Total" [ref=f12e366]:
+              - generic [ref=f12e367]:
+                - text:  
+                - generic [ref=f12e368]: Total
+          - row "Press SPACE to select this row." [ref=f12e369]:
+            - gridcell [ref=f12e370]
+            - gridcell [ref=f12e372]
+            - gridcell "Maize" [ref=f12e374]:
+              - generic [ref=f12e375]:
+                - text:  
+                - generic [ref=f12e376]: Maize
+            - gridcell "Rabi" [ref=f12e377]:
+              - generic [ref=f12e378]:
+                - text:  
+                - generic [ref=f12e379]: Rabi
+          - row "Press SPACE to select this row." [ref=f12e380]:
+            - gridcell [ref=f12e381]
+            - gridcell [ref=f12e383]
+            - gridcell [ref=f12e385]
+            - gridcell "Total" [ref=f12e387]:
+              - generic [ref=f12e388]:
+                - text:  
+                - generic [ref=f12e389]: Total
+          - row "Press SPACE to select this row." [ref=f12e390]:
+            - gridcell [ref=f12e391]
+            - gridcell [ref=f12e393]
+            - gridcell "Nutri/Coarse Cereals" [ref=f12e395]:
+              - generic [ref=f12e396]:
+                - text:  
+                - generic [ref=f12e397]: Nutri/Coarse Cereals
+            - gridcell "Rabi" [ref=f12e398]:
+              - generic [ref=f12e399]:
+                - text:  
+                - generic [ref=f12e400]: Rabi
+        - rowgroup [ref=f12e401]:
+          - row "Press SPACE to select this row." [ref=f12e402]:
+            - gridcell "0.00" [ref=f12e403]
+            - gridcell "0.00" [ref=f12e404]
+            - gridcell "735" [ref=f12e405]
+          - row "Press SPACE to select this row." [ref=f12e406]:
+            - gridcell "0.00" [ref=f12e407]
+            - gridcell "0.00" [ref=f12e408]
+            - gridcell "735" [ref=f12e409]
+          - row "Press SPACE to select this row." [ref=f12e410]:
+            - gridcell "0.00" [ref=f12e411]
+            - gridcell "0.00" [ref=f12e412]
+            - gridcell "735" [ref=f12e413]
+          - row "Press SPACE to select this row." [ref=f12e414]:
+            - gridcell "0.00" [ref=f12e415]
+            - gridcell "0.00" [ref=f12e416]
+            - gridcell "735" [ref=f12e417]
+          - row "Press SPACE to select this row." [ref=f12e418]:
+            - gridcell "0.00" [ref=f12e419]
+            - gridcell "0.00" [ref=f12e420]
+            - gridcell "735" [ref=f12e421]
+          - row "Press SPACE to select this row." [ref=f12e422]:
+            - gridcell "0.00" [ref=f12e423]
+            - gridcell "0.00" [ref=f12e424]
+            - gridcell "735" [ref=f12e425]
+          - row "Press SPACE to select this row." [ref=f12e426]:
+            - gridcell "0.04" [ref=f12e427]
+            - gridcell "0.09" [ref=f12e428]
+            - gridcell "2062" [ref=f12e429]
+          - row "Press SPACE to select this row." [ref=f12e430]:
+            - gridcell "0.04" [ref=f12e431]
+            - gridcell "0.09" [ref=f12e432]
+            - gridcell "2062" [ref=f12e433]
+          - row "Press SPACE to select this row." [ref=f12e434]:
+            - gridcell "0.00" [ref=f12e435]
+            - gridcell "0.00" [ref=f12e436]
+            - gridcell "3177" [ref=f12e437]
+          - row "Press SPACE to select this row." [ref=f12e438]:
+            - gridcell "0.00" [ref=f12e439]
+            - gridcell "0.00" [ref=f12e440]
+            - gridcell "3177" [ref=f12e441]
+          - row "Press SPACE to select this row." [ref=f12e442]:
+            - gridcell "0.00" [ref=f12e443]
+            - gridcell "0.00" [ref=f12e444]
+            - gridcell "3177" [ref=f12e445]
+          - row "Press SPACE to select this row." [ref=f12e446]:
+            - gridcell "0.00" [ref=f12e447]
+            - gridcell "0.00" [ref=f12e448]
+            - gridcell "3177" [ref=f12e449]
+          - row "Press SPACE to select this row." [ref=f12e450]:
+            - gridcell "0.04" [ref=f12e451]
+            - gridcell "0.09" [ref=f12e452]
+            - gridcell "2062" [ref=f12e453]
+          - row "Press SPACE to select this row." [ref=f12e454]:
+            - gridcell "0.00" [ref=f12e455]
+            - gridcell "0.00" [ref=f12e456]
+            - gridcell "3177" [ref=f12e457]
+          - row "Press SPACE to select this row." [ref=f12e458]:
+            - gridcell "0.04" [ref=f12e459]
+            - gridcell "0.09" [ref=f12e460]
+            - gridcell "2064" [ref=f12e461]
+          - row "Press SPACE to select this row." [ref=f12e462]:
+            - gridcell "0.00" [ref=f12e463]
+            - gridcell "0.00" [ref=f12e464]
+            - gridcell "338" [ref=f12e465]
+          - row "Press SPACE to select this row." [ref=f12e466]:
+            - gridcell "0.00" [ref=f12e467]
+            - gridcell "0.00" [ref=f12e468]
+            - gridcell "338" [ref=f12e469]
+          - row "Press SPACE to select this row." [ref=f12e470]:
+            - gridcell "0.00" [ref=f12e471]
+            - gridcell "0.00" [ref=f12e472]
+            - gridcell "355" [ref=f12e473]
+          - row "Press SPACE to select this row." [ref=f12e474]:
+            - gridcell "0.00" [ref=f12e475]
+            - gridcell "0.00" [ref=f12e476]
+            - gridcell "355" [ref=f12e477]
+          - row "Press SPACE to select this row." [ref=f12e478]:
+            - gridcell "0.01" [ref=f12e479]
+            - gridcell "0.00" [ref=f12e480]
+            - gridcell "347" [ref=f12e481]
+          - row "Press SPACE to select this row." [ref=f12e482]:
+            - gridcell "0.04" [ref=f12e483]
+            - gridcell "0.09" [ref=f12e484]
+            - gridcell "2062" [ref=f12e485]
+          - row "Press SPACE to select this row." [ref=f12e486]:
+            - gridcell "0.01" [ref=f12e487]
+            - gridcell "0.00" [ref=f12e488]
+            - gridcell "378" [ref=f12e489]
+          - row "Press SPACE to select this row." [ref=f12e490]:
+            - gridcell "0.05" [ref=f12e491]
+            - gridcell "0.09" [ref=f12e492]
+            - gridcell "1805" [ref=f12e493]
+          - row "Press SPACE to select this row." [ref=f12e494]:
+            - gridcell "0.00" [ref=f12e495]
+            - gridcell "0.00" [ref=f12e496]
+            - gridcell "1889" [ref=f12e497]
+          - row "Press SPACE to select this row." [ref=f12e498]:
+            - gridcell "0.00" [ref=f12e499]
+            - gridcell "0.00" [ref=f12e500]
+            - gridcell "1889" [ref=f12e501]
+          - row "Press SPACE to select this row." [ref=f12e502]:
+            - gridcell "0.00" [ref=f12e503]
+            - gridcell "0.00" [ref=f12e504]
+            - gridcell "387" [ref=f12e505]
+          - row "Press SPACE to select this row." [ref=f12e506]:
+            - gridcell "0.00" [ref=f12e507]
+            - gridcell "0.00" [ref=f12e508]
+            - gridcell "387" [ref=f12e509]
+          - row "Press SPACE to select this row." [ref=f12e510]:
+            - gridcell "0.00" [ref=f12e511]
+            - gridcell "0.00" [ref=f12e512]
+            - gridcell "387" [ref=f12e513]
+      - generic [ref=f12e517]:
+        - tablist [ref=f12e518]:
+          - tab "Table Filters" [ref=f12e519] [cursor=pointer]:
+            - generic [ref=f12e520]: 
+        - text:                                 
+      - text:    
+  - contentinfo
