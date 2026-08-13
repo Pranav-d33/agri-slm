@@ -63,11 +63,12 @@ Odisha/Punjab/Rajasthan/TN complete, 7 more states partial), 9 regions.
 Soil/crops/livestock/pesticides/fertilizers/organic/water/weather/seeds/machinery/
 plant-protection/fisheries/post-harvest/market/schemes/forestry/apiculture all have their
 taxonomy skeleton at levels 0–2 with location anchoring. Data-fill milestones: all 371
-registered pesticide actives as entities with 331 formulations attached (PPQS 31.03.2026);
+registered pesticide actives as entities with 352 formulations attached (PPQS 31.03.2026);
 MSP year series 2010-11→2026-27 for 28 crops from CACP; state-wise fish production FY2022-23
-(131.13 LT inland + 44.32 LT marine) from DAHDF Handbook 2023; 92 crop varieties (PIB 2024 +
-ICAR-IIHR); 13 districts with CRIDA contingency-plan attributes. Remaining leaf-level data
-(every variety, every district, Hindi aliases) is enumerated as counted gaps in COVERAGE.md.
+(131.13 LT inland + 44.32 LT marine) from DAHDF Handbook 2023; 770 crop varieties across 95
+crops (PIB, ICAR institutes, commodity boards); NARP zone→district lists for 99/125 zones;
+29 districts with CRIDA contingency-plan attributes. Remaining leaf-level data (every variety,
+every district, Hindi aliases, mandi time series) is enumerated as counted gaps in COVERAGE.md.
 
 ## KG conversion (future)
 

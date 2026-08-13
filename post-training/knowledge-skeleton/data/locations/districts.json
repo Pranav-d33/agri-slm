@@ -2672,7 +2672,33 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "Trans Gangetic Plain region (VI)",
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "Sandy loam soils",
+       "Loamy sand soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.rice",
+       "crops.sugarcane",
+       "crops.maize",
+       "crops.mango",
+       "crops.fruits.guava",
+       "crops.fruits.mandarin",
+       "crops.fruits.sapota",
+       "crops.potato",
+       "crops.onion",
+       "crops.vegetables.radish",
+       "crops.vegetables.cauliflower"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Ambala/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Bhiwani",
@@ -2684,7 +2710,35 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "Trans Gangetic Plain region (VI)",
+      "narp_zone": "Western Agroclimatic Zone of Haryana (HR-2)",
+      "primary_soils": [
+       "Sandy loam soils",
+       "Loamy sand soils",
+       "Sandy soils",
+       "Loamy soils",
+       "Clay loam soils"
+      ],
+      "major_crops": [
+       "crops.bajra",
+       "crops.mustard",
+       "crops.wheat",
+       "crops.gram",
+       "crops.cotton",
+       "crops.fruits.mandarin",
+       "crops.fruits.guava",
+       "crops.vegetables.carrot",
+       "crops.vegetables.cauliflower",
+       "crops.tomato",
+       "crops.castor"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Bhiwani/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Charkhi Dadri",
@@ -2708,7 +2762,29 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "Trans Gangetic Plain Region (VI)",
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "Sandy loam soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.rice",
+       "crops.mustard",
+       "crops.fruits.guava",
+       "crops.fruits.mandarin",
+       "crops.vegetables.radish",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.carrot",
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Faridabad/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Fatehabad",
@@ -2720,7 +2796,30 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Zone (HR-2)",
+      "primary_soils": [
+       "ha)",
+       "Sandy loam soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.cotton",
+       "crops.rice",
+       "crops.mustard",
+       "crops.bajra",
+       "crops.fruits.mandarin",
+       "crops.fruits.guava",
+       "crops.vegetables.radish",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.carrot"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Fatehabad/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Gurugram",
@@ -2732,7 +2831,25 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Zone (HR-2)",
+      "major_crops": [
+       "crops.wheat",
+       "crops.bajra",
+       "crops.mustard",
+       "crops.rice",
+       "crops.fruits.guava",
+       "crops.fruits.aonla",
+       "crops.chili",
+       "crops.tomato",
+       "crops.vegetables.radish"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Gurgoan/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Hansi",
@@ -2756,7 +2873,29 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "primary_soils": [
+       "ha)",
+       "Sandy loam soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.cotton",
+       "crops.bajra",
+       "crops.fruits.mandarin",
+       "crops.fruits.guava",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.carrot",
+       "crops.chili",
+       "crops.potato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Hisar/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Jhajjar",
@@ -2768,7 +2907,31 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern zone (HR-1)",
+      "primary_soils": [
+       "Sandy loam soils",
+       "Loamy sand soils",
+       "Sandy soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.mustard",
+       "crops.bajra",
+       "crops.jowar",
+       "crops.rice",
+       "crops.fruits.guava",
+       "crops.fruits.mandarin",
+       "crops.onion",
+       "crops.vegetables.radish",
+       "crops.vegetables.carrot"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Jhajjar/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Jind",
@@ -2780,7 +2943,30 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "Trans Gangetic Plain region (VI)",
+      "narp_zone": "Eastern Zone of Haryana (HR-1)",
+      "primary_soils": [
+       "Sandy loam soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.rice",
+       "crops.bajra",
+       "crops.cotton",
+       "crops.mustard",
+       "crops.fruits.mandarin",
+       "crops.fruits.guava",
+       "crops.vegetables.cauliflower",
+       "crops.chili",
+       "crops.vegetables.carrot"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Jind/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kaithal",
@@ -2792,7 +2978,29 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "Sandy loam soils",
+       "Loamy soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.rice",
+       "crops.bajra",
+       "crops.cotton",
+       "crops.sugarcane",
+       "crops.fruits.guava",
+       "crops.fruits.aonla",
+       "crops.vegetables.cauliflower",
+       "crops.potato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Kaithal/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Karnal",
@@ -2804,7 +3012,30 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "ha)",
+       "Loamy soils",
+       "Sandy loam soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.rice",
+       "crops.mango",
+       "crops.fruits.guava",
+       "crops.fruits.aonla",
+       "crops.tomato",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.radish",
+       "crops.potato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Karnal/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kurukshetra",
@@ -2816,7 +3047,28 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "Loamy soils (Alluvial)",
+       "Sandy loam soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.wheat",
+       "crops.mango",
+       "crops.fruits.guava",
+       "crops.potato",
+       "crops.tomato",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.radish"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Kurukshetra/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Mahendragarh",
@@ -2828,7 +3080,28 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Zone (HR-2 )",
+      "primary_soils": [
+       "ha)",
+       "Sandy loam",
+       "Loamy sand"
+      ],
+      "major_crops": [
+       "crops.bajra",
+       "crops.mustard",
+       "crops.wheat",
+       "crops.gram",
+       "crops.cotton",
+       "crops.fruits.guava",
+       "crops.fruits.mandarin"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Mahendragarh/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Nuh",
@@ -2840,7 +3113,30 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Zone (HR-2)",
+      "primary_soils": [
+       "ha)",
+       "Sandy loam",
+       "Loamy sand"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.bajra",
+       "crops.mustard",
+       "crops.rice",
+       "crops.fruits.guava",
+       "crops.fruits.aonla",
+       "crops.chili",
+       "crops.tomato",
+       "crops.vegetables.radish"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Mewat/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Palwal",
@@ -2852,7 +3148,29 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "Trans Gangetic Plain Region (VI)",
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "Sandy loam"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.rice",
+       "crops.mustard",
+       "crops.fruits.guava",
+       "crops.fruits.mandarin",
+       "crops.vegetables.radish",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.carrot",
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Palwal/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Panchkula",
@@ -2864,7 +3182,31 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "Trans Gangetic Plain region VI",
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "Sandy loam soils",
+       "Loamy sand soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.maize",
+       "crops.rice",
+       "crops.mango",
+       "crops.fruits.guava",
+       "crops.fruits.sapota",
+       "crops.potato",
+       "crops.onion",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.radish"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Panchkula/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Panipat",
@@ -2876,7 +3218,26 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "ha)",
+       "Sandy loam soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.rice",
+       "crops.fruits.guava",
+       "crops.mango",
+       "crops.vegetables.cauliflower",
+       "crops.potato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Panipat/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Rewari",
@@ -2888,7 +3249,32 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "Trans Gangetic Plain region (VI)",
+      "narp_zone": "Western Zone (HR-2)",
+      "primary_soils": [
+       "ha)",
+       "Loamy sand (Alluvial",
+       "soils)",
+       "Sandy soils"
+      ],
+      "major_crops": [
+       "crops.mustard",
+       "crops.bajra",
+       "crops.wheat",
+       "crops.cotton",
+       "crops.barley",
+       "crops.fruits.aonla",
+       "crops.fruits.mandarin",
+       "crops.vegetables.carrot",
+       "crops.vegetables.cauliflower"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Rewari/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Rohtak",
@@ -2900,7 +3286,34 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "Trans Gangetic Plain Region (VI)",
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "Sandy loam soils",
+       "Loamy sand soils",
+       "Sand soils",
+       "Loam soils",
+       "Clay loam soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.jowar",
+       "crops.rice",
+       "crops.mustard",
+       "crops.bajra",
+       "crops.fruits.guava",
+       "crops.fruits.mandarin",
+       "crops.vegetables.radish",
+       "crops.onion",
+       "crops.vegetables.cauliflower"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Rohtak/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Sirsa",
@@ -2912,7 +3325,33 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Zone (HR-2)",
+      "primary_soils": [
+       "ha)",
+       "Sandy loam",
+       "Loamy sand",
+       "Sand",
+       "loam",
+       "Clay loam"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.cotton",
+       "crops.mustard",
+       "crops.rice",
+       "crops.gram",
+       "crops.fruits.mandarin",
+       "crops.fruits.guava",
+       "crops.vegetables.radish",
+       "crops.potato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Sirsa/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Sonipat",
@@ -2924,7 +3363,32 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "Sandy loam soils",
+       "Loamy sand soils",
+       "Sandy soils",
+       "loam soils",
+       "Clay loam soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.rice",
+       "crops.jowar",
+       "crops.fruits.guava",
+       "crops.mango",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.radish",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.carrot"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Sonipet/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Yamunanagar",
@@ -2936,7 +3400,34 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern Zone (HR-1)",
+      "primary_soils": [
+       "ha)",
+       "Sandy loam",
+       "Loamy sand",
+       "Sand",
+       "loam",
+       "Clay loam"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.rice",
+       "crops.sugarcane",
+       "crops.mango",
+       "crops.fruits.guava",
+       "crops.fruits.sapota",
+       "crops.potato",
+       "crops.vegetables.cauliflower",
+       "crops.onion",
+       "crops.vegetables.radish"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HR/Yamunanagar/1.1.pdf"
+      }
+     }
     }
    ]
   },
@@ -2955,7 +3446,44 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Sub- mountain and low hills, Sub-Tropical (HP-1)",
+      "primary_soils": [
+       "ha) area"
+      ],
+      "major_crops": [
+       "crops.maize",
+       "crops.wheat",
+       "crops.rice",
+       "crops.barley",
+       "crops.pulses",
+       "crops.gram",
+       "crops.sesame",
+       "crops.mango",
+       "crops.fruits.mandarin",
+       "crops.fruits.litchi",
+       "crops.fruits.plum",
+       "crops.fruits.pear",
+       "crops.fruits.peach",
+       "crops.fruits.pomegranate",
+       "crops.tomato",
+       "crops.onion",
+       "crops.vegetables.cauliflower",
+       "crops.spices.garlic",
+       "crops.vegetables.beans",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.capsicum",
+       "crops.chili",
+       "crops.vegetables.brinjal",
+       "crops.ginger"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Bilaspur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Chamba",
@@ -2967,7 +3495,33 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Mid Hills Sub-Humid Zone (HP-2)",
+      "primary_soils": [
+       "Brown forest soils",
+       "Humus and iron podzols",
+       "Alpine humus mountain skeletal",
+       "soils"
+      ],
+      "major_crops": [
+       "crops.maize",
+       "crops.rice",
+       "crops.wheat",
+       "crops.barley",
+       "crops.apple",
+       "crops.fruits.mandarin",
+       "crops.vegetables.peas",
+       "crops.tomato",
+       "crops.vegetables.beans",
+       "crops.vegetables.cabbage",
+       "crops.potato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Chamba/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Hamirpur",
@@ -2979,7 +3533,46 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Sub- mountain and low hills, Sub-Tropical (HP-1)",
+      "primary_soils": [
+       "Sr. no. Soil unit Area Percent (%)",
+       "Shallow to medium deep, loamy soils",
+       "Medium deep to deep loamy soils",
+       "Medium deep to deep, loamy, skeletal soils",
+       "Medium deep, loamy, calcareous soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.maize",
+       "crops.rice",
+       "crops.barley",
+       "crops.pulses",
+       "crops.mango",
+       "crops.fruits.mandarin",
+       "crops.fruits.litchi",
+       "crops.fruits.plum",
+       "crops.fruits.guava",
+       "crops.fruits.pear",
+       "crops.fruits.peach",
+       "crops.fruits.pomegranate",
+       "crops.onion",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.bottle_gourd",
+       "crops.vegetables.peas",
+       "crops.vegetables.bitter_gourd",
+       "crops.vegetables.cabbage",
+       "crops.tomato",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.capsicum"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Hamirpur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kangra",
@@ -2991,7 +3584,42 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Sub-Mountain and low hills sub-tropical zone (HP-1)",
+      "primary_soils": [
+       "of total area",
+       "(data source: Soil Resource Maps of NBSS & LUP, estimated values)"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.maize",
+       "crops.rice",
+       "crops.barley",
+       "crops.mango",
+       "crops.fruits.mandarin",
+       "crops.fruits.litchi",
+       "crops.fruits.guava",
+       "crops.fruits.peach",
+       "crops.fruits.papaya",
+       "crops.tomato",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.okra",
+       "crops.onion",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.peas",
+       "crops.vegetables.beans",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.capsicum",
+       "crops.spices.garlic",
+       "crops.ginger"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Kangra/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kinnaur",
@@ -3003,7 +3631,33 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "High Hills Temperate Dry Zone (HP-4)",
+      "primary_soils": [
+       "Sandy Loam soils",
+       "Sandy soils",
+       "Rock Land"
+      ],
+      "major_crops": [
+       "crops.maize",
+       "crops.rice",
+       "crops.wheat",
+       "crops.barley",
+       "crops.pulses",
+       "crops.apple",
+       "crops.potato",
+       "crops.vegetables.peas",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.beans",
+       "crops.vegetables.capsicum",
+       "crops.chili"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Kinnaur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kullu",
@@ -3015,7 +3669,51 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Sub-Montane and Low Hills, Sub-Tropical Zone",
+      "primary_soils": [
+       "of total",
+       "skeletal solis Ridge tops Himalayas",
+       "skeletal soils Ridge tops Himalayas",
+       "sandy skeletal soils valley glaciers Himalayas",
+       "loamy skeletal soils slopes Himalayas",
+       "skeletal soils slopes Himalayas",
+       "loamy skeletal, calcareous soils slopes Himalayas",
+       "skeletal soils slopes Himalayas",
+       "sandy skeletal over fragmental soils slopes Himalayas",
+       "slopes Himalayas",
+       "valley Himalayas",
+       "soils Ridge tops Himalayas",
+       "skeletal soils slopes Himalayas",
+       "slopes Himalayas",
+       "slopes Himalayas",
+       "slopes Himalayas",
+       "slopes Himalayas",
+       "soils slopes Himalayas",
+       "slopes Himalayas",
+       "slopes Himalayas"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.maize",
+       "crops.rice",
+       "crops.barley",
+       "crops.apple",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower",
+       "crops.tomato",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.radish",
+       "crops.vegetables.beans",
+       "crops.vegetables.okra",
+       "crops.vegetables.cucumber"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Kullu/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Lahaul And Spiti",
@@ -3027,7 +3725,38 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "High hills temperate dry zone(HP-4)",
+      "primary_soils": [
+       "glaciers Himalayas",
+       "Himalayas",
+       "Himalayas",
+       "Himalayas",
+       "Himalayas",
+       "soils Himalayas",
+       "Himalayas",
+       "soils Himalayas",
+       "soils Himalayas",
+       "Himalayas"
+      ],
+      "major_crops": [
+       "crops.vegetables.peas",
+       "crops.potato",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.carrot",
+       "crops.vegetables.cabbage",
+       "crops.barley",
+       "crops.wheat",
+       "crops.apple",
+       "crops.fruits.apricot",
+       "crops.fruits.walnut"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Lahaul%20&%20Spiti/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Mandi",
@@ -3039,7 +3768,58 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Mid Hills Sub-Humid Zone (HP-2)",
+      "primary_soils": [
+       "Shallow, loamy skeletal soils with severe erosion and strong stoniness; associated",
+       "with: Rock outcrops",
+       "Medium deep to deep loamy soils with moderate to severe erosion",
+       "Shallow to medium deep, loamy soils with moderate to severe erosion and slight",
+       "stoniness",
+       "Medium deep to deep, loamy skeletal soils moderate to severe erosion; associated",
+       "with: Loamy soils with moderate erosion",
+       "Deep, loamy soils with moderate erosion and moderate stoniness; associated with:",
+       "Medium, deep, loamy soils",
+       "Deep, loamy soils with severe erosion",
+       "Shallow to medium shallow, loamy soils with severe erosion",
+       "Medium deep, loamy, calcareous soils with moderate erosion; associated with:",
+       "Loamy skeletal soils with severe erosion",
+       "Deep, loamy skeletal soils with severe erosion and slight to moderate stoniness;",
+       "associated with: Loamy soils",
+       "Medium deep, loamy, calcareous soils with moderate to severe erosion",
+       "Deep, loamy soils with moderate erosion",
+       "* Data source: Soil Resource Maps of NBSS & LUP, estimated values"
+      ],
+      "major_crops": [
+       "crops.maize",
+       "crops.rice",
+       "crops.soybean",
+       "crops.wheat",
+       "crops.barley",
+       "crops.linseed",
+       "crops.apple",
+       "crops.mango",
+       "crops.fruits.litchi",
+       "crops.fruits.guava",
+       "crops.fruits.papaya",
+       "crops.fruits.walnut",
+       "crops.potato",
+       "crops.ginger",
+       "crops.turmeric",
+       "crops.spices.garlic",
+       "crops.chili",
+       "crops.vegetables.peas",
+       "crops.tomato",
+       "crops.vegetables.cucumber",
+       "crops.tea",
+       "crops.fodder.berseem"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Mandi/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Shimla",
@@ -3051,7 +3831,28 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "High Hill Temperate Wet Zone (HP-3 )",
+      "major_crops": [
+       "crops.maize",
+       "crops.rice",
+       "crops.wheat",
+       "crops.barley",
+       "crops.pulses",
+       "crops.apple",
+       "crops.fruits.mandarin",
+       "crops.potato",
+       "crops.vegetables.cabbage",
+       "crops.tomato",
+       "crops.oats",
+       "crops.fodder.berseem"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Shimla/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Sirmaur",
@@ -3063,7 +3864,39 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Sub- mountain and low hills, Sub-Tropical (HP-1)",
+      "primary_soils": [
+       "Soil Description Percent Area",
+       "Unit"
+      ],
+      "major_crops": [
+       "crops.maize",
+       "crops.rice",
+       "crops.wheat",
+       "crops.barley",
+       "crops.gram",
+       "crops.lentil",
+       "crops.mango",
+       "crops.fruits.mandarin",
+       "crops.apple",
+       "crops.fruits.plum",
+       "crops.fruits.walnut",
+       "crops.fruits.pear",
+       "crops.fruits.peach",
+       "crops.fruits.sweet_orange",
+       "crops.potato",
+       "crops.vegetables.peas",
+       "crops.tomato",
+       "crops.spices.garlic",
+       "crops.ginger"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Sirmaur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Solan",
@@ -3075,7 +3908,33 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Sub-Montane and Low Hills, Sub-Tropical Zone (HP-1)",
+      "primary_soils": [
+       "Loam soils",
+       "Sandy loam soils",
+       "Clay soils",
+       "Sandy soils"
+      ],
+      "major_crops": [
+       "crops.maize",
+       "crops.rice",
+       "crops.wheat",
+       "crops.barley",
+       "crops.apple",
+       "crops.fruits.mandarin",
+       "crops.vegetables.beans",
+       "crops.onion",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.cabbage",
+       "crops.fruits.aonla"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Solan/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Una",
@@ -3087,7 +3946,39 @@
        "object": "location.states.himachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Sub- montain and low hills, Sub-Tropical (HP-1)",
+      "primary_soils": [
+       "Medium deep to deep, loamy skeletal soils moderate to",
+       "severe erosion; associated with: Loamy soils with moderate",
+       "erosion",
+       "Shallow, sandy soils with moderate erosion; associated",
+       "with: Loamy soils",
+       "Deep, loamy soils with moderate to severe erosion;",
+       "associated with: Medium deep soils",
+       "Medium deep, loamy soils with slight to moderate erosion;",
+       "associated with: Deep soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.maize",
+       "crops.rice",
+       "crops.millets",
+       "crops.pulses",
+       "crops.fodder",
+       "crops.mango",
+       "crops.fruits.pear",
+       "crops.fruits.guava",
+       "crops.fruits.litchi",
+       "crops.fruits.aonla",
+       "crops.potato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/HP/Una/1.1.pdf"
+      }
+     }
     }
    ]
   },
@@ -4027,7 +4918,42 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "West coast plains and Ghat region (XII)",
+      "narp_zone": "Problem Areas, KE-5",
+      "primary_soils": [
+       "Laterite",
+       "Clay loam soils",
+       "Sandy loam soils",
+       "Kari soils",
+       "Coastal sandy soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.vegetables.tapioca",
+       "crops.sugarcane",
+       "crops.pulses",
+       "crops.banana",
+       "crops.fruits.jackfruit",
+       "crops.mango",
+       "crops.fruits.papaya",
+       "crops.vegetables.bitter_gourd",
+       "crops.black_pepper",
+       "crops.ginger",
+       "crops.turmeric",
+       "crops.spices.nutmeg",
+       "crops.spices.cinnamon",
+       "crops.coconut",
+       "crops.cashew",
+       "crops.plantation.cocoa",
+       "crops.rubber"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Alappuzha/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Ernakulam",
@@ -4039,7 +4965,43 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Zone (KE-3)",
+      "primary_soils": [
+       "Alluvial Soil",
+       "Hilly Soil",
+       "Pokkali Soil",
+       "Sandy loam",
+       "Laterite soil with well defined B horizon",
+       "Forest Soil"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.pulses",
+       "crops.banana",
+       "crops.fruits.jackfruit",
+       "crops.mango",
+       "crops.cashew",
+       "crops.fruits.pineapple",
+       "crops.fruits.papaya",
+       "crops.vegetables.drumstick",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.bitter_gourd",
+       "crops.vegetables.tapioca",
+       "crops.ginger",
+       "crops.turmeric",
+       "crops.black_pepper",
+       "crops.plantation.arecanut",
+       "crops.coconut",
+       "crops.rubber",
+       "crops.fodder"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Ernakulam/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Idukki",
@@ -4051,7 +5013,48 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "Western Plain and Ghat Region (XII)",
+      "narp_zone": "High altitude zone (KE-4)",
+      "primary_soils": [
+       "Forest loam",
+       "Laterite",
+       "Brown hydromorphic",
+       "Alluvial"
+      ],
+      "major_crops": [
+       "crops.vegetables.tapioca",
+       "crops.sugarcane",
+       "crops.rice",
+       "crops.ragi",
+       "crops.fruits.jackfruit",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.pineapple",
+       "crops.vegetables.drumstick",
+       "crops.vegetables.bitter_gourd",
+       "crops.black_pepper",
+       "crops.cardamom",
+       "crops.spices.nutmeg",
+       "crops.spices.vanilla",
+       "crops.spices.clove",
+       "crops.ginger",
+       "crops.spices.tamarind",
+       "crops.turmeric",
+       "crops.rubber",
+       "crops.coconut",
+       "crops.coffee",
+       "crops.plantation.cocoa",
+       "crops.plantation.arecanut",
+       "crops.cashew",
+       "crops.fodder"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Idukki/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kannur",
@@ -4063,7 +5066,34 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Northern Zone (KE-1)",
+      "primary_soils": [
+       "Red Laterite soils",
+       "Alluvial Soil",
+       "forest soil",
+       "Hydromorpic saline",
+       "Riverine alluvium"
+      ],
+      "major_crops": [
+       "crops.coconut",
+       "crops.rubber",
+       "crops.cashew",
+       "crops.plantation.arecanut",
+       "crops.black_pepper",
+       "crops.rice",
+       "crops.banana",
+       "crops.mango",
+       "crops.fruits.pineapple",
+       "crops.turmeric",
+       "crops.ginger"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Kannur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kasaragod",
@@ -4075,7 +5105,45 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Northern Zone (KE-1)",
+      "primary_soils": [
+       "Red Soils",
+       "Alluvial Soils",
+       "Sandy Soil",
+       "Sandy loam Soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.fruits.jackfruit",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.pineapple",
+       "crops.fruits.papaya",
+       "crops.spices.tamarind",
+       "crops.vegetables.drumstick",
+       "crops.vegetables.bitter_gourd",
+       "crops.vegetables.okra",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cucumber",
+       "crops.ginger",
+       "crops.turmeric",
+       "crops.spices.clove",
+       "crops.spices.nutmeg",
+       "crops.cardamom",
+       "crops.coconut",
+       "crops.rubber",
+       "crops.plantation.arecanut",
+       "crops.cashew",
+       "crops.black_pepper",
+       "crops.plantation.cocoa"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Kasargod/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kollam",
@@ -4087,7 +5155,25 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "West Coast Plains And Ghat Region (XII)",
+      "narp_zone": "Southern zone",
+      "major_crops": [
+       "crops.rice",
+       "crops.fruits.jackfruit",
+       "crops.mango",
+       "crops.cashew",
+       "crops.coconut",
+       "crops.tea",
+       "crops.rubber",
+       "crops.black_pepper"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Kollam/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kottayam",
@@ -4099,7 +5185,44 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "(W19e.s2t )c oast plains and Ghats region Zone (XII)",
+      "narp_zone": "Southern Zone(KE 2)",
+      "primary_soils": [
+       "Clay Loam soils",
+       "Alluvial soils",
+       "Laterite soils",
+       "Gravelly Clay soils",
+       "Gravelly Loam soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.vegetables.tapioca",
+       "crops.pulses",
+       "crops.banana",
+       "crops.mango",
+       "crops.fruits.pineapple",
+       "crops.vegetables.drumstick",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.brinjal",
+       "crops.chili",
+       "crops.black_pepper",
+       "crops.ginger",
+       "crops.cardamom",
+       "crops.spices.nutmeg",
+       "crops.turmeric",
+       "crops.rubber",
+       "crops.coconut",
+       "crops.plantation.cocoa",
+       "crops.tea",
+       "crops.fodder"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Kottayam/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kozhikode",
@@ -4111,7 +5234,53 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "West Coast Plains And Ghat Region (XII)",
+      "narp_zone": "Northern Zone (KE-1)",
+      "primary_soils": [
+       "Coastal alluvium soils",
+       "Riverine alluvium soils",
+       "Laterite soils",
+       "Colluvial soils",
+       "Wetland soils",
+       "Soils of Western Ghat foothill",
+       "Forest soils",
+       "* Source : District soil survey office, Calicut"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.fruits.jackfruit",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.pineapple",
+       "crops.fruits.papaya",
+       "crops.cashew",
+       "crops.vegetables.drumstick",
+       "crops.vegetables.bitter_gourd",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cucumber",
+       "crops.black_pepper",
+       "crops.ginger",
+       "crops.turmeric",
+       "crops.cardamom",
+       "crops.spices.tamarind",
+       "crops.spices.vanilla",
+       "crops.spices.cinnamon",
+       "crops.spices.nutmeg",
+       "crops.coconut",
+       "crops.plantation.arecanut",
+       "crops.plantation.cocoa",
+       "crops.rubber",
+       "crops.fodder",
+       "crops.vegetables.tapioca",
+       "crops.vegetables.sweet_potato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Kozhikode/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Malappuram",
@@ -4123,7 +5292,32 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Zone (KE-3)",
+      "primary_soils": [
+       "Loamy sand soils",
+       "Laterate soils",
+       "Silty clay loam soils",
+       "Clay loam soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.banana",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.bitter_gourd",
+       "crops.coconut",
+       "crops.rubber",
+       "crops.plantation.arecanut",
+       "crops.black_pepper",
+       "crops.cashew",
+       "crops.fodder"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Malappuram/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Palakkad",
@@ -4135,7 +5329,57 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "West Coast Plains And Ghat Region (XII)",
+      "narp_zone": "Central zone (KE-3)",
+      "primary_soils": [
+       "Red soils",
+       "Loamy soils",
+       "Clayey soil",
+       "Loamy sand"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.jowar",
+       "crops.ragi",
+       "crops.pulses",
+       "crops.banana",
+       "crops.mango",
+       "crops.fruits.jackfruit",
+       "crops.fruits.papaya",
+       "crops.fruits.pineapple",
+       "crops.vegetables.drumstick",
+       "crops.vegetables.bitter_gourd",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cucumber",
+       "crops.black_pepper",
+       "crops.ginger",
+       "crops.turmeric",
+       "crops.cardamom",
+       "crops.plantation.arecanut",
+       "crops.spices.tamarind",
+       "crops.spices.vanilla",
+       "crops.spices.clove",
+       "crops.spices.nutmeg",
+       "crops.spices.cinnamon",
+       "crops.rubber",
+       "crops.tea",
+       "crops.coffee",
+       "crops.plantation.cocoa",
+       "crops.cashew",
+       "crops.fodder",
+       "crops.vegetables.tapioca",
+       "crops.vegetables.sweet_potato",
+       "crops.groundnut",
+       "crops.coconut",
+       "crops.sesame"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Palakkad/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Pathanamthitta",
@@ -4147,7 +5391,31 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "West Coast Plains And Ghat Region (XII)",
+      "primary_soils": [
+       "Forest loam",
+       "Loamy soils",
+       "Clay soils",
+       "Sandy soil (acidic)"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.sugarcane",
+       "crops.banana",
+       "crops.black_pepper",
+       "crops.spices.nutmeg",
+       "crops.coconut",
+       "crops.rubber",
+       "crops.plantation.arecanut",
+       "crops.vegetables.tapioca"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Pathanamthitta/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Thiruvananthapuram",
@@ -4159,7 +5427,46 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Southern Zone (KE-2)",
+      "primary_soils": [
+       "Sandy soils",
+       "Sandy loam soils",
+       "Gravelly sandy loam soils",
+       "Sandy clay loam soils",
+       "Gravelly sandy clay loam soils",
+       "Loamy soils",
+       "Clay loam soils",
+       "Gravelly clay loam soils",
+       "Beach sand soils",
+       "Water body"
+      ],
+      "major_crops": [
+       "crops.vegetables.tapioca",
+       "crops.rice",
+       "crops.pulses",
+       "crops.fruits.jackfruit",
+       "crops.mango",
+       "crops.fruits.papaya",
+       "crops.fruits.pineapple",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.bitter_gourd",
+       "crops.black_pepper",
+       "crops.ginger",
+       "crops.spices.nutmeg",
+       "crops.spices.clove",
+       "crops.coconut",
+       "crops.rubber",
+       "crops.cashew",
+       "crops.plantation.arecanut",
+       "crops.tea"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Thiruvananthapuram/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Thrissur",
@@ -4171,7 +5478,42 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Zone (KE 3)",
+      "primary_soils": [
+       "Laterite soils",
+       "Sandy soils",
+       "Sandy loamy soils",
+       "Clayey soils",
+       "Gneissic"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.vegetables.tapioca",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.jackfruit",
+       "crops.fruits.papaya",
+       "crops.fruits.pineapple",
+       "crops.vegetables.drumstick",
+       "crops.vegetables.amaranth",
+       "crops.vegetables.brinjal",
+       "crops.chili",
+       "crops.vegetables.cucumber",
+       "crops.black_pepper",
+       "crops.spices.nutmeg",
+       "crops.ginger",
+       "crops.turmeric",
+       "crops.coconut",
+       "crops.plantation.arecanut",
+       "crops.rubber"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Trissur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Wayanad",
@@ -4183,7 +5525,34 @@
        "object": "location.states.kerala"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "major_crops": [
+       "crops.rice",
+       "crops.pulses",
+       "crops.banana",
+       "crops.fruits.jackfruit",
+       "crops.mango",
+       "crops.cashew",
+       "crops.vegetables.tapioca",
+       "crops.vegetables.drumstick",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.bitter_gourd",
+       "crops.ginger",
+       "crops.turmeric",
+       "crops.coffee",
+       "crops.plantation.arecanut",
+       "crops.coconut",
+       "crops.rubber",
+       "crops.tea",
+       "crops.black_pepper",
+       "crops.fodder"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/KL/Wayanad/1.1.pdf"
+      }
+     }
     }
    ]
   },
@@ -4919,7 +6288,33 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "agro_climatic_zone": "Western Plateau and Hills Region (IX)",
+      "narp_zone": "Western Maharastra Scarcity Zone (MH-6)",
+      "primary_soils": [
+       "Shallow grey soils",
+       "Medium deep black soils",
+       "Deep black soils"
+      ],
+      "major_crops": [
+       "crops.wheat",
+       "crops.gram",
+       "crops.soybean",
+       "crops.fruits.pomegranate",
+       "crops.fruits.guava",
+       "crops.mango",
+       "crops.fruits.sapota",
+       "crops.onion",
+       "crops.tomato",
+       "crops.vegetables.brinjal",
+       "crops.chili"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Ahmednagar/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Akola",
@@ -4931,7 +6326,41 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Maharashtra Plateau Zone (MH-7)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.cotton",
+       "crops.soybean",
+       "crops.pigeon_pea",
+       "crops.gram",
+       "crops.wheat",
+       "crops.safflower",
+       "crops.groundnut",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.sweet_orange",
+       "crops.fruits.sapota",
+       "crops.vegetables.brinjal",
+       "crops.tomato",
+       "crops.onion",
+       "crops.vegetables.okra",
+       "crops.vegetables.cauliflower",
+       "crops.chili",
+       "crops.turmeric",
+       "crops.ginger",
+       "crops.spices.garlic"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Akola/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Amravati",
@@ -4943,7 +6372,28 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Maharashtra Plateau Zone(MH-7)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.cotton",
+       "crops.soybean",
+       "crops.pigeon_pea",
+       "crops.castor",
+       "crops.gram",
+       "crops.wheat",
+       "crops.groundnut"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Amravathi/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Beed",
@@ -4955,7 +6405,41 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Maharastra Scarcity Zone (MH-6)",
+      "primary_soils": [
+       "geographical area",
+       "Deep black soils",
+       "Medium deep black soils",
+       "Shallow black soils"
+      ],
+      "major_crops": [
+       "crops.cotton",
+       "crops.soybean",
+       "crops.jowar",
+       "crops.gram",
+       "crops.wheat",
+       "crops.safflower",
+       "crops.sunflower",
+       "crops.sugarcane",
+       "crops.mango",
+       "crops.fruits.sapota",
+       "crops.banana",
+       "crops.vegetables.brinjal",
+       "crops.tomato",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower",
+       "crops.onion",
+       "crops.chili",
+       "crops.ginger",
+       "crops.spices.garlic"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Beed/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Bhandara",
@@ -4967,7 +6451,31 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern Vidarbha Zone (High rainfall zone) (MH-9)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.soybean",
+       "crops.pigeon_pea",
+       "crops.gram",
+       "crops.wheat",
+       "crops.groundnut",
+       "crops.sugarcane",
+       "crops.linseed",
+       "crops.vegetables.brinjal",
+       "crops.tomato",
+       "crops.chili"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Bhandara/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Buldhana",
@@ -4979,7 +6487,31 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Maharastra Plateau Zone (MH-7)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils",
+       "Nandura, Jalgaon (J), Malkapur)"
+      ],
+      "major_crops": [
+       "crops.soybean",
+       "crops.jowar",
+       "crops.pigeon_pea",
+       "crops.gram",
+       "crops.wheat",
+       "crops.maize",
+       "crops.bajra",
+       "crops.groundnut",
+       "crops.sugarcane"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Buldhana/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Chandrapur",
@@ -4991,7 +6523,32 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Vidarbha Zone(MH-8)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.jowar",
+       "crops.pigeon_pea",
+       "crops.cotton",
+       "crops.wheat",
+       "crops.gram",
+       "crops.soybean",
+       "crops.linseed",
+       "crops.vegetables.brinjal",
+       "crops.tomato",
+       "crops.onion"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Chandrapur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Chhatrapati Sambhajinagar",
@@ -5003,7 +6560,32 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Maharastra Scarcity Zone (MH-6)",
+      "primary_soils": [
+       "Deep black soils",
+       "Medium deep black soils",
+       "Shallow black soils"
+      ],
+      "major_crops": [
+       "crops.soybean",
+       "crops.groundnut",
+       "crops.sunflower",
+       "crops.mango",
+       "crops.fruits.sapota",
+       "crops.onion",
+       "crops.chili",
+       "crops.tomato",
+       "crops.vegetables.brinjal",
+       "crops.ginger",
+       "crops.turmeric"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Aurangabad/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Dharashiv",
@@ -5015,7 +6597,34 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Maharashtra plateau Zone (MH-7)",
+      "primary_soils": [
+       "Deep black soils",
+       "Medium deep black soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.soybean",
+       "crops.pigeon_pea",
+       "crops.black_gram",
+       "crops.cotton",
+       "crops.maize",
+       "crops.gram",
+       "crops.wheat",
+       "crops.safflower",
+       "crops.sugarcane",
+       "crops.mango",
+       "crops.potato",
+       "crops.vegetables.cauliflower",
+       "crops.jowar"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Osmanabad/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Dhule",
@@ -5027,7 +6636,34 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Scarcity Zone (MH-6)",
+      "primary_soils": [
+       "Shallow black",
+       "soils",
+       "Medium deep",
+       "black soils",
+       "Deep black soils"
+      ],
+      "major_crops": [
+       "crops.cotton",
+       "crops.groundnut",
+       "crops.maize",
+       "crops.rice",
+       "crops.wheat",
+       "crops.onion",
+       "crops.fruits.pomegranate",
+       "crops.chili",
+       "crops.banana",
+       "crops.tomato",
+       "crops.fruits.aonla"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Dhule/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Gadchiroli",
@@ -5039,7 +6675,33 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern Vidarbha zone (MH-9)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.cotton",
+       "crops.pigeon_pea",
+       "crops.soybean",
+       "crops.maize",
+       "crops.jowar",
+       "crops.gram",
+       "crops.wheat",
+       "crops.linseed",
+       "crops.vegetables.brinjal",
+       "crops.tomato",
+       "crops.onion",
+       "crops.chili"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Gadchiroli/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Gondia",
@@ -5051,7 +6713,24 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern Vidarbhazone (MH-9)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.pigeon_pea",
+       "crops.gram",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Gondia/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Hingoli",
@@ -5063,7 +6742,39 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Maharashtra Plateau Zone (MH-7) & Central Vidarbha",
+      "primary_soils": [
+       "Deep black cotton soils",
+       "Medium Deep black soils",
+       "Shallow black soils"
+      ],
+      "major_crops": [
+       "crops.soybean",
+       "crops.cotton",
+       "crops.jowar",
+       "crops.pigeon_pea",
+       "crops.green_gram",
+       "crops.black_gram",
+       "crops.wheat",
+       "crops.gram",
+       "crops.safflower",
+       "crops.sunflower",
+       "crops.groundnut",
+       "crops.sugarcane",
+       "crops.banana",
+       "crops.mango",
+       "crops.fruits.papaya",
+       "crops.tomato",
+       "crops.vegetables.brinjal",
+       "crops.turmeric"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Hingoli/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Jalgaon",
@@ -5075,7 +6786,16 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "primary_soils": [
+       "ERR No /Root object! Is this really a PDF?"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Jalgaon/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Jalna",
@@ -5087,7 +6807,38 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Maharashtra plateau Zone (MH-7)",
+      "primary_soils": [
+       "geographical area",
+       "Deep black soils",
+       "Medium deep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.cotton",
+       "crops.soybean",
+       "crops.green_gram",
+       "crops.gram",
+       "crops.wheat",
+       "crops.sugarcane",
+       "crops.banana",
+       "crops.mango",
+       "crops.fruits.guava",
+       "crops.tomato",
+       "crops.vegetables.brinjal",
+       "crops.onion",
+       "crops.vegetables.carrot",
+       "crops.turmeric",
+       "crops.ginger",
+       "crops.spices.garlic"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Jalna/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Kolhapur",
@@ -5099,7 +6850,42 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": ":",
+      "primary_soils": [
+       "Shallow laterite soils",
+       "Deep brownish soils",
+       "Medium deep black soils"
+      ],
+      "major_crops": [
+       "crops.sugarcane",
+       "crops.groundnut",
+       "crops.soybean",
+       "crops.ragi",
+       "crops.jowar",
+       "crops.maize",
+       "crops.gram",
+       "crops.wheat",
+       "crops.mango",
+       "crops.cashew",
+       "crops.coconut",
+       "crops.fruits.sapota",
+       "crops.banana",
+       "crops.tomato",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.cabbage",
+       "crops.onion",
+       "crops.potato",
+       "crops.chili",
+       "crops.spices.garlic",
+       "crops.turmeric"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Kolhapur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Latur",
@@ -5111,7 +6897,36 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": ",",
+      "primary_soils": [
+       "geographical area",
+       "Deep soils",
+       "Medium deep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.soybean",
+       "crops.jowar",
+       "crops.sunflower",
+       "crops.wheat",
+       "crops.gram",
+       "crops.safflower",
+       "crops.groundnut",
+       "crops.sugarcane",
+       "crops.mango",
+       "crops.fruits.sapota",
+       "crops.tomato",
+       "crops.vegetables.brinjal",
+       "crops.chili",
+       "crops.onion"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Latur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Mumbai",
@@ -5147,7 +6962,29 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Eastern Vidarbha zone (MH-9)&Part of Central Vidarbha zone(MH-8)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.soybean",
+       "crops.rice",
+       "crops.pigeon_pea",
+       "crops.groundnut",
+       "crops.gram",
+       "crops.wheat",
+       "crops.linseed",
+       "crops.sugarcane"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Nagpur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Nanded",
@@ -5159,7 +6996,42 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Maharashtra plateau Zone (MH-7)",
+      "primary_soils": [
+       "Medium deep black soils",
+       "Shallow black soils"
+      ],
+      "major_crops": [
+       "crops.cotton",
+       "crops.jowar",
+       "crops.soybean",
+       "crops.black_gram",
+       "crops.pigeon_pea",
+       "crops.wheat",
+       "crops.gram",
+       "crops.safflower",
+       "crops.sunflower",
+       "crops.groundnut",
+       "crops.banana",
+       "crops.mango",
+       "crops.fruits.sapota",
+       "crops.fruits.sweet_orange",
+       "crops.chili",
+       "crops.onion",
+       "crops.tomato",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.okra",
+       "crops.turmeric",
+       "crops.ginger",
+       "crops.spices.garlic"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Nanded/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Nandurbar",
@@ -5171,7 +7043,35 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Maharashtra Plain Zone (MH-6)",
+      "primary_soils": [
+       "Shallow black soils",
+       "Medium deep black soils",
+       "Deep black soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.bajra",
+       "crops.maize",
+       "crops.soybean",
+       "crops.wheat",
+       "crops.gram",
+       "crops.groundnut",
+       "crops.mango",
+       "crops.fruits.guava",
+       "crops.fruits.sapota",
+       "crops.chili",
+       "crops.onion",
+       "crops.vegetables.brinjal",
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Nandurbar/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Nashik",
@@ -5183,7 +7083,34 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Ghat Zone - ZARS, Igatpuri, Dist. Nashik",
+      "primary_soils": [
+       "Shallow red soils",
+       "Medium red / black soils",
+       "Deep black soils"
+      ],
+      "major_crops": [
+       "crops.bajra",
+       "crops.maize",
+       "crops.groundnut",
+       "crops.ragi",
+       "crops.sugarcane",
+       "crops.soybean",
+       "crops.wheat",
+       "crops.gram",
+       "crops.fruits.pomegranate",
+       "crops.fruits.guava",
+       "crops.onion",
+       "crops.tomato",
+       "crops.fodder.lucerne"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Nashik/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Palghar",
@@ -5195,7 +7122,28 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "North Konkan Coastal Zone (MH-2)",
+      "primary_soils": [
+       "soils)",
+       "Shallow Red soils",
+       "Medium Red deep soils",
+       "Deep soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.mango",
+       "crops.cashew",
+       "crops.fruits.sapota",
+       "crops.horticulture.flowers",
+       "crops.coconut"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Palghar/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Parbhani",
@@ -5207,7 +7155,43 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Maharashtra plateau Zone (MH-7)",
+      "primary_soils": [
+       "Deep black soils",
+       "Medium deep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.cotton",
+       "crops.soybean",
+       "crops.green_gram",
+       "crops.pigeon_pea",
+       "crops.gram",
+       "crops.wheat",
+       "crops.safflower",
+       "crops.sunflower",
+       "crops.groundnut",
+       "crops.sugarcane",
+       "crops.mango",
+       "crops.fruits.sweet_orange",
+       "crops.fruits.sapota",
+       "crops.vegetables.brinjal",
+       "crops.tomato",
+       "crops.onion",
+       "crops.vegetables.okra",
+       "crops.vegetables.cauliflower",
+       "crops.chili",
+       "crops.turmeric",
+       "crops.ginger",
+       "crops.spices.garlic"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Parbhani/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Pune",
@@ -5219,7 +7203,39 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Maharashtra Plain Zone – ZARS, Ganeshkhind, Pune",
+      "primary_soils": [
+       "Shallow red / grey soils",
+       "Deep black soils",
+       "Medium deep black soils"
+      ],
+      "major_crops": [
+       "crops.jowar",
+       "crops.sugarcane",
+       "crops.rice",
+       "crops.wheat",
+       "crops.gram",
+       "crops.bajra",
+       "crops.groundnut",
+       "crops.maize",
+       "crops.soybean",
+       "crops.pigeon_pea",
+       "crops.mango",
+       "crops.fruits.sapota",
+       "crops.onion",
+       "crops.potato",
+       "crops.tomato",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.okra",
+       "crops.chili"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Pune/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Raigad",
@@ -5231,7 +7247,30 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "North Konkan Coastal Zone (MH-2)",
+      "primary_soils": [
+       "(Medium black soils)",
+       "Shallow soils",
+       "Medium deep soils",
+       "Deep soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.groundnut",
+       "crops.mango",
+       "crops.cashew",
+       "crops.fruits.sapota",
+       "crops.coconut",
+       "crops.plantation.arecanut",
+       "crops.fodder"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Raigarh/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Ratnagiri",
@@ -5243,7 +7282,26 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "primary_soils": [
+       "Deep soils",
+       "Medium deep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.ragi",
+       "crops.groundnut",
+       "crops.mango",
+       "crops.fruits.sapota",
+       "crops.coconut"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Ratnagiri/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Sangli",
@@ -5255,7 +7313,31 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Maharashtra Scarcity Zone (MH-6)",
+      "primary_soils": [
+       "Shallow black/Red soils",
+       "Deep black soils",
+       "Medium deep black soils"
+      ],
+      "major_crops": [
+       "crops.jowar",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.groundnut",
+       "crops.wheat",
+       "crops.grapes",
+       "crops.fruits.pomegranate",
+       "crops.tomato",
+       "crops.onion",
+       "crops.turmeric"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Sangli/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Satara",
@@ -5267,7 +7349,28 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Maharashtra Scarcity Zone (MH-6) - ZARS, Solapur",
+      "primary_soils": [
+       "Shallow grey/ black soils",
+       "Deep black soils",
+       "Medium black soils"
+      ],
+      "major_crops": [
+       "crops.bajra",
+       "crops.groundnut",
+       "crops.rice",
+       "crops.soybean",
+       "crops.wheat",
+       "crops.gram",
+       "crops.sugarcane"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Satara/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Sindhudurg",
@@ -5279,7 +7382,31 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "South Konkan Coastal Zone (MH-1)",
+      "primary_soils": [
+       "Deep soils",
+       "Medium deep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.ragi",
+       "crops.groundnut",
+       "crops.sugarcane",
+       "crops.mango",
+       "crops.cashew",
+       "crops.fruits.sapota",
+       "crops.coconut",
+       "crops.plantation.arecanut",
+       "crops.fodder"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Sindhudurga/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Solapur",
@@ -5291,7 +7418,32 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Western Maharashtra Scarcity zone. (MH-6)",
+      "primary_soils": [
+       "Shallow Black soil",
+       "Deep Black soil",
+       "Medium Black soil"
+      ],
+      "major_crops": [
+       "crops.jowar",
+       "crops.wheat",
+       "crops.gram",
+       "crops.sunflower",
+       "crops.sugarcane",
+       "crops.safflower",
+       "crops.fruits.pomegranate",
+       "crops.banana",
+       "crops.tomato",
+       "crops.onion",
+       "crops.maize"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Solapur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Thane",
@@ -5303,7 +7455,28 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "North Konkan Coastal Zone (MH-2)",
+      "primary_soils": [
+       "Shallow Red soils",
+       "Medium Red deep soils",
+       "Deep soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.groundnut",
+       "crops.mango",
+       "crops.cashew",
+       "crops.fruits.sapota",
+       "crops.horticulture.flowers",
+       "crops.coconut"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Thane%20and%20phalagar/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Wardha",
@@ -5315,7 +7488,28 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Vidarbha zone(MH-8)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.soybean",
+       "crops.jowar",
+       "crops.pigeon_pea",
+       "crops.gram",
+       "crops.wheat",
+       "crops.groundnut",
+       "crops.sugarcane"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Wardha/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Washim",
@@ -5327,7 +7521,29 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Vidarbha Zone (MH-8)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.soybean",
+       "crops.jowar",
+       "crops.pigeon_pea",
+       "crops.gram",
+       "crops.wheat",
+       "crops.safflower",
+       "crops.groundnut",
+       "crops.maize"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Washim/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Yavatmal",
@@ -5339,7 +7555,29 @@
        "object": "location.states.maharashtra"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Central Vidarbha zone(MH-8)",
+      "primary_soils": [
+       "Deep black soils",
+       "Mediumdeep soils",
+       "Shallow soils"
+      ],
+      "major_crops": [
+       "crops.cotton",
+       "crops.soybean",
+       "crops.jowar",
+       "crops.pigeon_pea",
+       "crops.gram",
+       "crops.wheat",
+       "crops.groundnut",
+       "crops.sugarcane"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/MH/Yavatmal/1.1.pdf"
+      }
+     }
     }
    ]
   },
@@ -9719,7 +11957,41 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Terai Zone (WB-2)",
+      "primary_soils": [
+       "Shallow to moderately coarse",
+       "loam soils",
+       "Deep to very deep clay loamy",
+       "soils",
+       "Deep to very deep clayey",
+       "soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.jute",
+       "crops.wheat",
+       "crops.maize",
+       "crops.potato",
+       "crops.banana",
+       "crops.black_pepper",
+       "crops.plantation.arecanut",
+       "crops.tomato",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cucumber",
+       "crops.turmeric",
+       "crops.ginger",
+       "crops.spices.fenugreek",
+       "crops.coconut"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Alipurduar/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Bankura",
@@ -9731,7 +12003,36 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Red and Laterite Zone (WB-5)",
+      "primary_soils": [
+       "Loamy",
+       "Gravelly clay loamy",
+       "Loamy sandy",
+       "Clayey loamy"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.wheat",
+       "crops.pulses",
+       "crops.potato",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.papaya",
+       "crops.fruits.guava",
+       "crops.fruits.jackfruit",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.cabbage",
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Bankura/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Birbhum",
@@ -9743,7 +12044,38 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "RReegdi aonnd ( 1la2t.e3r)i te Zone (WB-5)",
+      "primary_soils": [
+       "Loamy",
+       "Clayey loamy",
+       "Gravelly loamy",
+       "Gravelly clay loamy",
+       "Loamy sandy"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.pulses",
+       "crops.wheat",
+       "crops.potato",
+       "crops.sugarcane",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.papaya",
+       "crops.fruits.guava",
+       "crops.fruits.mandarin",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower",
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Birbhum/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Cooch Behar",
@@ -9755,7 +12087,40 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "New Alluvial Zone (WB-4)",
+      "primary_soils": [
+       "Sandy",
+       "Coarse loamy",
+       "Deep to very deep Fine loamy",
+       "Fine",
+       "Miscellaneous"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.jute",
+       "crops.mustard",
+       "crops.potato",
+       "crops.tobacco",
+       "crops.banana",
+       "crops.fruits.jackfruit",
+       "crops.mango",
+       "crops.fruits.litchi",
+       "crops.fruits.guava",
+       "crops.chili",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.radish",
+       "crops.plantation.arecanut",
+       "crops.coconut"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Coochbehar/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Dakshin Dinajpur",
@@ -9767,7 +12132,41 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Old Aluuvial Zone (WB-3)",
+      "primary_soils": [
+       "names like red sandy loam",
+       "Very deep Clay loam soils",
+       "Deep Clay soils",
+       "Deep Loamy soils",
+       "Sandy soils",
+       "Sandy loam soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.wheat",
+       "crops.jute",
+       "crops.mustard",
+       "crops.potato",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.pineapple",
+       "crops.fruits.papaya",
+       "crops.fruits.jackfruit",
+       "crops.fruits.guava",
+       "crops.tomato",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.peas",
+       "crops.vegetables.brinjal",
+       "crops.onion"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Dakshin%20Dinajpur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Darjeeling",
@@ -9779,7 +12178,23 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Hill Zone (WB-1)",
+      "primary_soils": [
+       "Medium deep to very deep fine",
+       "loamy soils (hill brown forest",
+       "soils)",
+       "Sandy loam soils (Medium",
+       "lands to foot hills)",
+       "Shallow to medium deep Loamy",
+       "soils(plains)"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Darjeeling/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Hooghly",
@@ -9791,7 +12206,30 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Old Alluvial Zone (WB-3)",
+      "primary_soils": [
+       "Clayey",
+       "Clayey Loam",
+       "Loamy"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.potato",
+       "crops.wheat",
+       "crops.pulses",
+       "crops.jute",
+       "crops.mango",
+       "crops.fruits.guava",
+       "crops.fruits.litchi",
+       "crops.fruits.papaya"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Hooghly/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Howrah",
@@ -9803,7 +12241,35 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Costal – Saline zone (WB-6)",
+      "primary_soils": [
+       "Clayey",
+       "Clayey loamy",
+       "Loamy"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.wheat",
+       "crops.jute",
+       "crops.potato",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.papaya",
+       "crops.fruits.guava",
+       "crops.fruits.jackfruit",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.cabbage",
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Howrah/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Jalpaiguri",
@@ -9815,7 +12281,41 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Terai Zone (WB-2)",
+      "primary_soils": [
+       "Shallow to moderately coarse",
+       "loam soils",
+       "Deep to very deep clay loamy",
+       "soils",
+       "Deep to very deep clayey",
+       "soils"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.jute",
+       "crops.wheat",
+       "crops.maize",
+       "crops.potato",
+       "crops.banana",
+       "crops.black_pepper",
+       "crops.plantation.arecanut",
+       "crops.tomato",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cucumber",
+       "crops.turmeric",
+       "crops.ginger",
+       "crops.spices.fenugreek",
+       "crops.coconut"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Jalpaiguri/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Jhargram",
@@ -9863,7 +12363,39 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "New Alluvial Zone (WB-4)",
+      "primary_soils": [
+       "Deep clay to clay loam Low Land",
+       "(Tal)",
+       "Medium sandy loam to loam",
+       "Medium Land (Diara)"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.mustard",
+       "crops.wheat",
+       "crops.jute",
+       "crops.sugarcane",
+       "crops.maize",
+       "crops.mango",
+       "crops.fruits.litchi",
+       "crops.banana",
+       "crops.fruits.papaya",
+       "crops.fruits.guava",
+       "crops.fruits.jackfruit",
+       "crops.potato",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower",
+       "crops.tomato",
+       "crops.vegetables.peas"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Malda/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Murshidabad",
@@ -9875,7 +12407,31 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "New Alluvial Zone (WB-4)",
+      "major_crops": [
+       "crops.rice",
+       "crops.wheat",
+       "crops.pulses",
+       "crops.jute",
+       "crops.potato",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.jackfruit",
+       "crops.fruits.litchi",
+       "crops.fruits.guava",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.cabbage",
+       "crops.tomato",
+       "crops.vegetables.cauliflower"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Murshidabad/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Nadia",
@@ -9887,7 +12443,33 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "New Alluvial Zone (WB-4)",
+      "major_crops": [
+       "crops.rice",
+       "crops.jute",
+       "crops.oilseeds",
+       "crops.wheat",
+       "crops.pulses",
+       "crops.maize",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.guava",
+       "crops.fruits.jackfruit",
+       "crops.fruits.papaya",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.cabbage",
+       "crops.tomato",
+       "crops.vegetables.peas",
+       "crops.vegetables.cucumber"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Nadia/1.1.pdf"
+      }
+     }
     },
     {
      "name": "North 24 Parganas",
@@ -9899,7 +12481,29 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Coastal Saline Zone (WB-6)",
+      "major_crops": [
+       "crops.rice",
+       "crops.jute",
+       "crops.pulses",
+       "crops.wheat",
+       "crops.potato",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.papaya",
+       "crops.fruits.guava",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower",
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/North%2024%20parganas/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Paschim Bardhaman",
@@ -9923,7 +12527,33 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Coastal Saline Zone (WB-6)",
+      "primary_soils": [
+       "Loamy sandy"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.potato",
+       "crops.wheat",
+       "crops.pulses",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.guava",
+       "crops.fruits.jackfruit",
+       "crops.fruits.papaya",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.cabbage",
+       "crops.onion"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Paschim%20Medinipur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Purba Bardhaman",
@@ -9935,7 +12565,38 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Old Aluuvial Zone (WB-3)",
+      "primary_soils": [
+       "Loamy",
+       "Gravelly loamy",
+       "Clayey",
+       "Clayey loamy",
+       "Loamy sandy"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.wheat",
+       "crops.pulses",
+       "crops.jute",
+       "crops.potato",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.papaya",
+       "crops.fruits.guava",
+       "crops.fruits.jackfruit",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.cucumber",
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Bardhaman/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Purba Medinipur",
@@ -9947,7 +12608,33 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Coastal Saline Zone (WB-6)",
+      "primary_soils": [
+       "Clayey",
+       "Clayey loamy",
+       "Loamy sandy"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.pulses",
+       "crops.potato",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.papaya",
+       "crops.fruits.mandarin",
+       "crops.fruits.sapota",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.cauliflower",
+       "crops.vegetables.cabbage",
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Purba%20Medinipur/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Purulia",
@@ -9959,7 +12646,34 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Red and Laterite soil Zones (WB-5)",
+      "primary_soils": [
+       "coarse loamy fine loamy soils",
+       "(hillocks, gravelly situation)",
+       "loamy to fine loamy red soils",
+       "loamy soils"
+      ],
+      "major_crops": [
+       "crops.maize",
+       "crops.potato",
+       "crops.mango",
+       "crops.fruits.papaya",
+       "crops.banana",
+       "crops.fruits.pineapple",
+       "crops.fruits.guava",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cucumber",
+       "crops.tomato",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Purulia/1.1.pdf"
+      }
+     }
     },
     {
      "name": "South 24 Parganas",
@@ -9971,7 +12685,29 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "Coastal Saline Zone (WB-6)",
+      "major_crops": [
+       "crops.rice",
+       "crops.wheat",
+       "crops.potato",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.papaya",
+       "crops.fruits.guava",
+       "crops.fruits.litchi",
+       "crops.vegetables.brinjal",
+       "crops.vegetables.cucumber",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower",
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/South%2024-Parganas/1.1.pdf"
+      }
+     }
     },
     {
      "name": "Uttar Dinajpur",
@@ -9983,7 +12719,44 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "attributes": {
+      "narp_zone": "New Alluvial Zone (WB-4)",
+      "primary_soils": [
+       "Sandy soils",
+       "Sandy Loam soils",
+       "Loamy soils",
+       "Clay Loam soils",
+       "Clay"
+      ],
+      "major_crops": [
+       "crops.rice",
+       "crops.wheat",
+       "crops.jute",
+       "crops.maize",
+       "crops.potato",
+       "crops.mango",
+       "crops.banana",
+       "crops.fruits.pineapple",
+       "crops.fruits.litchi",
+       "crops.fruits.papaya",
+       "crops.fruits.guava",
+       "crops.vegetables.brinjal",
+       "crops.chili",
+       "crops.vegetables.cabbage",
+       "crops.vegetables.cauliflower",
+       "crops.tomato",
+       "crops.vegetables.peas",
+       "crops.turmeric",
+       "crops.ginger",
+       "crops.coconut",
+       "crops.plantation.arecanut"
+      ],
+      "source": {
+       "id": "crida-cp",
+       "url": "https://icar-crida.res.in/CCP/WB/Uttar-Dinajpur/1.1.pdf"
+      }
+     }
     }
    ]
   }

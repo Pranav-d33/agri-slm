@@ -367,7 +367,65 @@
     "scientific": "Musa spp.",
     "season": "Year-round",
     "note": "India largest producer; Grand Naine dominant cultivar",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Kaveri Kanchan",
+      "type": "released",
+      "source": {
+       "id": "nrcb-banana",
+       "url": "https://nrcb.org.in/"
+      }
+     },
+     {
+      "name": "Kaveri Vaman (TBM-9)",
+      "type": "released",
+      "source": {
+       "id": "nrcb-banana",
+       "url": "https://nrcb.org.in/"
+      }
+     },
+     {
+      "name": "Kaveri Saba",
+      "type": "released",
+      "source": {
+       "id": "nrcb-banana",
+       "url": "https://nrcb.org.in/"
+      }
+     },
+     {
+      "name": "Kaveri Sugantham",
+      "type": "released",
+      "source": {
+       "id": "nrcb-banana",
+       "url": "https://nrcb.org.in/"
+      }
+     },
+     {
+      "name": "Kaveri Kalki",
+      "type": "released",
+      "source": {
+       "id": "nrcb-banana",
+       "url": "https://nrcb.org.in/"
+      }
+     },
+     {
+      "name": "Kaveri Kanya",
+      "type": "released",
+      "source": {
+       "id": "nrcb-banana",
+       "url": "https://nrcb.org.in/"
+      }
+     },
+     {
+      "name": "NRCBGNM-1",
+      "type": "released",
+      "source": {
+       "id": "nrcb-banana",
+       "url": "https://nrcb.org.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -809,7 +867,41 @@
    "attributes": {
     "scientific": "Vigna mungo",
     "season": "Kharif",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "IPU11-02",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPU13-1",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPU10-26",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPU 17-1",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -1044,7 +1136,97 @@
     "scientific": "Piper nigrum",
     "season": "Perennial vine",
     "note": "India among largest producers; Idukki (Kerala) and Kodagu (KA)",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Chandra",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Sreekara",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Subhakara",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Panchami",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Pournami",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "PLD-2",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Thevam",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Girimunda",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Malabar Excel",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Shakthi",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Arka Coorg Excel",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -1162,7 +1344,17 @@
     "scientific": "Brachiaria ramosa",
     "season": "Kharif",
     "note": "Minor millet; Karnataka and AP",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "GPUBT-2",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -1208,19 +1400,35 @@
     "note": "Idukki district produces most of India's cardamom",
     "notified_varieties": [
      {
-      "name": "IISR Kaveri",
+      "name": "IISR-Vijetha-1",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
       }
      },
      {
-      "name": "IISR Manushree",
+      "name": "IISR-Avinash (RR1)",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Kodagu Cardamom-Suvasini",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Appangala 2",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
       }
      }
     ]
@@ -1479,7 +1687,105 @@
     "scientific": "Ricinus communis",
     "season": "Kharif",
     "note": "India leads world castor production",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "JI-273 (GC-3)",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "DSP-222",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "GAC-11",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "GCHB (SHB 896)",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "HCH-6",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "ICH-66",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "ICH-5",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "GNCH-1",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "GCH-8",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "YRCH-2",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "YTP-1 (YRCS 1205)",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     },
+     {
+      "name": "Tilhan Tec ICH-6 (ICH-1146)",
+      "type": "released",
+      "source": {
+       "id": "dod-castor",
+       "url": "https://oilseeds.dac.gov.in/Castor.aspx"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -2078,7 +2384,121 @@
     "scientific": "Coffea arabica / robusta",
     "season": "Perennial; arabica and robusta grown",
     "note": "Indian coffee is shade-grown under Western Ghats canopy",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "S.795",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Sln.9",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Cauvery",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Chandragiri",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Sln.4",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Sln.5",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "S.274",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Kents",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Sln.6",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Sln.5B",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Sln.10",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Sln.3",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "CxR",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     },
+     {
+      "name": "Sinna 8",
+      "type": "released",
+      "source": {
+       "id": "coffeeboard",
+       "url": "https://coffeeboard.gov.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -2393,7 +2813,41 @@
     "scientific": "Vigna unguiculata",
     "season": "Kharif and zaid",
     "note": "Grain, vegetable and fodder",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Mangala",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Samrudhi",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Suman",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Garima",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -2478,7 +2932,73 @@
     "scientific": "Phoenix dactylifera",
     "season": "Summer fruit",
     "note": "Kutch (Gujarat) and Rajasthan desert areas",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Barhee",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "Medjool",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "Khalas",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "Khadrawy",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "Halawy",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "Zahidi",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "Khuneizi",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "Shamran",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -2542,11 +3062,43 @@
     "note": "Grain pea of the Gangetic plains",
     "notified_varieties": [
      {
-      "name": "Pant Pea 484",
+      "name": "IPF 16-13 (Harit)",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPFD 12-8 (Aakash)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPFD 13-2 (Anant)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPFD 9-2",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPFD 16-3",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
       }
      }
     ]
@@ -2850,7 +3402,65 @@
     "scientific": "Setaria italica",
     "season": "Kharif",
     "note": "Short-duration, drought-tolerant",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "SiA 3156",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "SiA 3088 (Surya Nandi)",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "SiA 3085",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "HMT 100-1",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "Co 7",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "SR 51",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "GPUF-3",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -2919,7 +3529,33 @@
     "scientific": "Prunus armeniaca",
     "season": "Temperate; harvest May-Jun",
     "note": "Ladakh and Himachal; also dried fruit",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "CITH Apricot-1",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Apricot-2",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Apricot-3",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -3366,7 +4002,17 @@
     "scientific": "Citrus limon",
     "season": "Year-round",
     "note": "Key citrus after mandarin",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Rasraj",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -3583,7 +4229,17 @@
     "scientific": "Litchi chinensis",
     "season": "Summer fruit (May-Jun)",
     "note": "Bihar produces most of India's litchi",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Swarna Roopa",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -3758,7 +4414,41 @@
     "scientific": "Citrus reticulata",
     "season": "Winter fruit",
     "note": "Nagpur (MH) and Khasi (Meghalaya) mandarins",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Nagpur Mandarin (Santra)",
+      "type": "released",
+      "source": {
+       "id": "ccri-citrus",
+       "url": "https://ccri.org.in/"
+      }
+     },
+     {
+      "name": "Kinnow",
+      "type": "released",
+      "source": {
+       "id": "ccri-citrus",
+       "url": "https://ccri.org.in/"
+      }
+     },
+     {
+      "name": "Coorg Mandarin",
+      "type": "released",
+      "source": {
+       "id": "ccri-citrus",
+       "url": "https://ccri.org.in/"
+      }
+     },
+     {
+      "name": "Khasi Mandarin",
+      "type": "released",
+      "source": {
+       "id": "ccri-citrus",
+       "url": "https://ccri.org.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -4120,7 +4810,33 @@
    "domain": "crops",
    "attributes": {
     "type": "Fast-yielding fruit; AP, Gujarat, Karnataka, WB lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Prabhath",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Surya",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Coorg Honeydew",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -5054,7 +5770,49 @@
     "scientific": "Citrus sinensis",
     "season": "Winter fruit",
     "note": "Punjab and Telangana lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Cutter Valencia",
+      "type": "released",
+      "source": {
+       "id": "ccri-citrus",
+       "url": "https://ccri.org.in/"
+      }
+     },
+     {
+      "name": "Pusa Round",
+      "type": "released",
+      "source": {
+       "id": "ccri-citrus",
+       "url": "https://ccri.org.in/"
+      }
+     },
+     {
+      "name": "Pusa Sharad",
+      "type": "released",
+      "source": {
+       "id": "ccri-citrus",
+       "url": "https://ccri.org.in/"
+      }
+     },
+     {
+      "name": "Mosambi",
+      "type": "released",
+      "source": {
+       "id": "ccri-citrus",
+       "url": "https://ccri.org.in/"
+      }
+     },
+     {
+      "name": "Sathgudi",
+      "type": "released",
+      "source": {
+       "id": "ccri-citrus",
+       "url": "https://ccri.org.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -5420,7 +6178,49 @@
    "attributes": {
     "scientific": "Zingiber officinale",
     "season": "Kharif",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "IISR-Vajra",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Rejatha",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Mahima",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Varada",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Surasa",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -5658,19 +6458,91 @@
     "note": "India is the largest producer of chickpea",
     "notified_varieties": [
      {
-      "name": "Nandyal Gram 1267 (NBeG 1267)",
+      "name": "IPCB2015-132 (Kundan)",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
       }
      },
      {
-      "name": "Pant Gram 10 (PG 265)",
+      "name": "IPC 2010-142 (Kuber)",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPCK 2009-145 (Kanchan)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPCK 2013-163 (Madhav)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPC 2007-28 (Atal)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPC 2010-134 (Shiva)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPC 2011-112 (Keshav)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPC 2005-62 (High Protein)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPC 2004-98",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPC 2004-01",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPC 2006-77",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
       }
      }
     ]
@@ -5926,7 +6798,97 @@
    "attributes": {
     "scientific": "Vitis vinifera",
     "season": "Jan-May (Nashik: Feb-Apr)",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Hans",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Shyam",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Kanchan",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arkavati",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Soma",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Majestic",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Shweta",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Chitra",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "ArkaTrishna",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Neelamani",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Shweta Seedless",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -6073,19 +7035,43 @@
     "season": "Kharif and zaid",
     "notified_varieties": [
      {
-      "name": "Lam Pesara 610 (LGG 610)",
+      "name": "IPM 302-2 (Kanika)",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
       }
      },
      {
-      "name": "PMS-8",
+      "name": "IPM 312-20 (Vasudha)",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPM 512-1 (Soorya)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPM 409-4 (Heera)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPM 2014-9 (Varsha)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
       }
      }
     ]
@@ -6307,7 +7293,529 @@
     "scientific": "Arachis hypogaea",
     "season": "Kharif (main), rabi in south",
     "uses": "Oilseed, nut, cake feed",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Ajeya (R 2001-3)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "ICGV 00348",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "VRI (Gn) 6 (VG 9816)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Kadiri 7",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Kadiri 8",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Kadiri 9",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Greeshma",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Mallika (ICHG 00440)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "JSP-39",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Vijetha (R 2001-2)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Bheema",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Rohini",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "RARS-T-1",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "RARS-T-2",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "ICGV-00350",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Phule Warna (KDG-128)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Central Groundnut ALG-06-320",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Phule Morna (KDG-123)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "TG 51",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "JL 501",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "GJG-HPS-1 (JSP-HPS-44)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "GJG-31 (J-71)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "GJG-9 (J69)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "GJG-22 (JSSP 36)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "GJG-17 (JSP-48)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Dharani (TCGS-1043)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "GPBD-5",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "GJG-18 (JSP-49)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "TGLPS 3 (TDG-39)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Kadiri Haritandhra (K 1319)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "KCG-6 (CTMG 6)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "GKVK-5",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Phule Bharti (JL-776)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Phule vyas (JL-220)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "RHRG-6021",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Girnar 2 (PBS-24030)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Utkarsh (CSMG 9510)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "GG 21 (JSSP 15)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "HNG 69",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "RG-510",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "RG 425",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "HNG-123",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Raj Mung-3 (RG-559-3)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Pratap Raj Mungphalli",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Girnar 3 (PBS 12160)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Rak Mungfali-2 (RG 578)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "VL-Moongphali-1",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Divya (CSMG-2003-19)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "VRI (Gn) 7",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "VRI-8 (VG-09220)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "CO-6",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Jawahar Groundnut 23 (JGN 23)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Guj Jun Groundnut-32 (GJG-32)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Guj Jun Groundnut-33 (GJG-33)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Guj Jun Groundnut-34 (GJG-34)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Dheeraj (TCGS 1073)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "BSR 2 (BSG 0912)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Phule Dhani (JL 1085)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Phule Unnati (RHRS-6083)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Phule Chaitanya (KDG-160)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Konkan Bhuratna (RTNG-29)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "PDKVG 335 (AK-335)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Gujarat Groundnut HPS2 (GGHPS 2)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "Central Pragati (TCGS-894)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     },
+     {
+      "name": "K.Amaravti (K 1535)",
+      "type": "released",
+      "source": {
+       "id": "dod-groundnut",
+       "url": "https://oilseeds.dac.gov.in/Groundnut.aspx"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -7066,7 +8574,121 @@
     "scientific": "Paspalum scrobiculatum",
     "season": "Kharif",
     "note": "Highly drought-resistant",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "RK 390-25",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "TNAU 86",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "JK 439",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "JK 48",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "JK 76",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "JK 41",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "JK 62",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "KK 2",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "GPUK 3",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "DPS 9-1",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "PSC 1",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "Co 1",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "Co 2",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "Co 3",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -7120,27 +8742,35 @@
     "season": "Rabi",
     "notified_varieties": [
      {
-      "name": "PSL-17",
+      "name": "IPL 534",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
       }
      },
      {
-      "name": "Pant Lentil 14 (PL 320)",
+      "name": "IPL 225",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
       }
      },
      {
-      "name": "RKL 20-26(D) Kota Masoor 6",
+      "name": "IPL 329",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPL 230",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
       }
      }
     ]
@@ -7325,7 +8955,225 @@
     "scientific": "Linum usitatissimum",
     "season": "Rabi",
     "note": "Oilseed and fibre (flax)",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "LC-2063",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Azad Alsi-1 (LMS 9-2K)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Himani (KL-214)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Bhagsu (KL-215)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "JLS 67 Shival",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Jawahar Linseed-66 (SLS-66)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Jawahar Linseed-41 (PKDL-41)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "SLS-73 (JLS-73)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Ruchi (LCK-5021)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "JLS-79",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "MAU Azad Alsi-2",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "NDL 2004-05",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "NDL-2002",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "PKV-NL-260 (NL-260)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Pratap Alsi-2",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Arpita",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Divya (BAU-06-03)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Priyam (BAU-2012-1)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Indu (LCK-1108)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Uma (LCK-1101)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Him Palam Alsi-2 (KL-263)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "JLS-66 (SLS 66)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Utera Alsi (RLC-143)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Sabour Tisi-1 (BAUP-101)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Varsha Alsi (RLC-148)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Surya (LCK-1404)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     },
+     {
+      "name": "Him Palam Alsi-1 (KL-241)",
+      "type": "released",
+      "source": {
+       "id": "dod-linseed",
+       "url": "https://oilseeds.dac.gov.in/Linseed.aspx"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -7494,7 +9342,105 @@
     "scientific": "Panicum sumatrense",
     "season": "Kharif",
     "note": "Hardy grain of poor, shallow soils",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "OLM 217",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "OLM 208",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "JK 36",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "Co 4",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "OLM 20 (Sabara)",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "OLM 203 (Tarini)",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "OLM 36 (Kolab)",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "Paiyur 2",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "TNAU 63 (Sukshema)",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "Birsa Gundli 1",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "GPUL-6",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     },
+     {
+      "name": "GPUL-11",
+      "type": "released",
+      "source": {
+       "id": "icar-iimr",
+       "url": "https://www.millets.res.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -8360,7 +10306,401 @@
     "scientific": "Brassica juncea (Indian mustard)",
     "season": "Rabi",
     "note": "India's main edible oilseed; dryland rabi crop",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Pusa Vijay (NPJ 93)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pusa mustard-24 (LET-18)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Dhara mustard hybrid 1 (DMH 1)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RB 50",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RGN 145",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pusa Tarak",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pusa mustard 25 (NPJ 112)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "NRCDR 601 (DMR 601)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pusa Mustard 26 (NPJ 113)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RGN 229",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RGN 236",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "PBR-357",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RLC-2 (ELM 123)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pusa Mustard 28",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Coral 437",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "PR 20061 (Pant rai 19)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "PBR-378",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RH 0406",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Raj Vijay Mustard-2 (JMWR 08-3)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Divya-33",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RH 0749",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "PM 29 (LET-36)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "PM 30 (LET-43)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RRN 573",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Giriraj (DRMRIJ31)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "CS-58",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Him Sarson 1 (ONK 1)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "NRCHB506 (Hybrid)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pusa Mustard 27 (EJ 17)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RVM-2",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Raj Vijay Toria-1",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RLC-3",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "BJC-1 (PC-6)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "NRC HB 101",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Coral PAC 432 (Hybrid)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pant Rai-21",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pant Hill Toria-1 (PT-2006-4)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pant Toria-508",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pant Sweta",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Vallabha Taramira1 (PUT 93-11)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Jwala Tara",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Jobner Tara (RTM-1351)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pusa mustard 22 (LET 17)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "NUDB-26-11",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "RSPT-6",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Azad Chatana (TKM-14-2)",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Pant Girija",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Tapeswari",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     },
+     {
+      "name": "Tripura Toria 1",
+      "type": "released",
+      "source": {
+       "id": "dod-rapeseed",
+       "url": "https://oilseeds.dac.gov.in/Rapeseed.aspx"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -8618,7 +10958,89 @@
     "scientific": "Guizotia abyssinica",
     "season": "Kharif",
     "note": "Minor oilseed of central India",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "BNS-10 (Pooja-1)",
+      "type": "released",
+      "source": {
+       "id": "dod-niger",
+       "url": "https://oilseeds.dac.gov.in/Niger.aspx"
+      }
+     },
+     {
+      "name": "KBN-1",
+      "type": "released",
+      "source": {
+       "id": "dod-niger",
+       "url": "https://oilseeds.dac.gov.in/Niger.aspx"
+      }
+     },
+     {
+      "name": "IGPN-2004-1 (Phule Karala-1)",
+      "type": "released",
+      "source": {
+       "id": "dod-niger",
+       "url": "https://oilseeds.dac.gov.in/Niger.aspx"
+      }
+     },
+     {
+      "name": "Birsa Niger-3 (BNS-11)",
+      "type": "released",
+      "source": {
+       "id": "dod-niger",
+       "url": "https://oilseeds.dac.gov.in/Niger.aspx"
+      }
+     },
+     {
+      "name": "JNS-30",
+      "type": "released",
+      "source": {
+       "id": "dod-niger",
+       "url": "https://oilseeds.dac.gov.in/Niger.aspx"
+      }
+     },
+     {
+      "name": "IGPN-8004",
+      "type": "released",
+      "source": {
+       "id": "dod-niger",
+       "url": "https://oilseeds.dac.gov.in/Niger.aspx"
+      }
+     },
+     {
+      "name": "Jawahar Niger Sel-28 (JNS-29)",
+      "type": "released",
+      "source": {
+       "id": "dod-niger",
+       "url": "https://oilseeds.dac.gov.in/Niger.aspx"
+      }
+     },
+     {
+      "name": "Utkal Niger-150",
+      "type": "released",
+      "source": {
+       "id": "dod-niger",
+       "url": "https://oilseeds.dac.gov.in/Niger.aspx"
+      }
+     },
+     {
+      "name": "DNS-4",
+      "type": "released",
+      "source": {
+       "id": "dod-niger",
+       "url": "https://oilseeds.dac.gov.in/Niger.aspx"
+      }
+     },
+     {
+      "name": "GNNIG-3",
+      "type": "released",
+      "source": {
+       "id": "dod-niger",
+       "url": "https://oilseeds.dac.gov.in/Niger.aspx"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -10074,19 +12496,51 @@
     "note": "Protein-rich dal; deep-rooted, drought-tolerant",
     "notified_varieties": [
      {
-      "name": "NAAM-88",
+      "name": "IPA 15-2 (Sharada)",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
       }
      },
      {
-      "name": "Phule Pallavi (Phule Tur-12-19-2)",
+      "name": "IPA 206 (Ganga)",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPA 203 (Prakash)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPH 15-03 (Hybrid)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPH 09-05 (Hybrid)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPA 15-6",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
       }
      }
     ]
@@ -10342,7 +12796,17 @@
     "scientific": "Areca catechu",
     "season": "Perennial palm",
     "note": "Karnataka grows most of India's arecanut",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Shatamangala",
+      "type": "released",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -11829,7 +14293,41 @@
     "scientific": "Phaseolus vulgaris",
     "season": "Kharif (hills)",
     "note": "Hill pulse; HP, J&K and Uttarakhand",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "PDR 14 (Uday)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPR 96-4 (Amber)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPR 98-5 (Utkarsh)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     },
+     {
+      "name": "IPR 98-3-1 (Arun)",
+      "type": "released",
+      "source": {
+       "id": "iipr-varieties",
+       "url": "https://www.icar-iipr.org.in/varieties/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -12262,7 +14760,105 @@
     "scientific": "Hevea brasiliensis",
     "season": "Perennial; tapping year-round",
     "note": "Needs humid tropical climate, 200+ cm rain",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "RRII 105",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "RRII 417",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "RRII 422",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "RRIM 600",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "PB 235",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "PB 260",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "PB 217",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "GT 1",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "PB 86",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "RRII 5",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "PCK-1",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     },
+     {
+      "name": "PCK-2",
+      "type": "released",
+      "source": {
+       "id": "rubberboard-clones",
+       "url": "https://rubberboard.gov.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -12314,19 +14910,67 @@
     "note": "Minor oilseed; Maharashtra and Karnataka",
     "notified_varieties": [
      {
-      "name": "ISF-123-sel-15",
+      "name": "SSF-658",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "dod-safflower",
+       "url": "https://oilseeds.dac.gov.in/Safflower.aspx"
       }
      },
      {
-      "name": "ISF-300",
+      "name": "SSF-708",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "dod-safflower",
+       "url": "https://oilseeds.dac.gov.in/Safflower.aspx"
+      }
+     },
+     {
+      "name": "PKV-Pink (AKS-311)",
+      "type": "released",
+      "source": {
+       "id": "dod-safflower",
+       "url": "https://oilseeds.dac.gov.in/Safflower.aspx"
+      }
+     },
+     {
+      "name": "NARI-57",
+      "type": "released",
+      "source": {
+       "id": "dod-safflower",
+       "url": "https://oilseeds.dac.gov.in/Safflower.aspx"
+      }
+     },
+     {
+      "name": "NARI-96",
+      "type": "released",
+      "source": {
+       "id": "dod-safflower",
+       "url": "https://oilseeds.dac.gov.in/Safflower.aspx"
+      }
+     },
+     {
+      "name": "NARI-H-23",
+      "type": "released",
+      "source": {
+       "id": "dod-safflower",
+       "url": "https://oilseeds.dac.gov.in/Safflower.aspx"
+      }
+     },
+     {
+      "name": "Pride (ISF 1)",
+      "type": "released",
+      "source": {
+       "id": "dod-safflower",
+       "url": "https://oilseeds.dac.gov.in/Safflower.aspx"
+      }
+     },
+     {
+      "name": "Lakshmi Priya (ISF 764)",
+      "type": "released",
+      "source": {
+       "id": "dod-safflower",
+       "url": "https://oilseeds.dac.gov.in/Safflower.aspx"
       }
      }
     ]
@@ -12541,11 +15185,123 @@
     "season": "Kharif",
     "notified_varieties": [
      {
-      "name": "Tanjila (CUMS-09A)",
+      "name": "SWB-32-10-1 (Savitri)",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "Jawahar Til-12 (PKDS-12)",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "Jawahar Til-14 (PKDS-8)",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "Gujarat Til-3",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "Gujarat Til-4 (GTil-4)",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "RT-346",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "RT-351",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "DSS-9",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "PKV-NT-11",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "JLT-408",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "JLT-408 (JLS-9848-2)",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "HT 9713 (HT 2)",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "TKG-308",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "SMARAK (OSC 560)",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
+      }
+     },
+     {
+      "name": "SUBHRA (OSC 207)",
+      "type": "released",
+      "source": {
+       "id": "dod-sesame",
+       "url": "https://oilseeds.dac.gov.in/Sesame.aspx"
       }
      }
     ]
@@ -12773,7 +15529,1329 @@
     "scientific": "Glycine max",
     "season": "Kharif",
     "note": "India's top oilseed by production",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Clark 63",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Type 49",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "KHSb-2",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PK 327",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PK 262",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 4",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS-13",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PK 308",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PK-472",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PK-416",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 75-46",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Pusa-20",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS-58",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS-80-21",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS-71-",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS-57",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS-124",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 335",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 295",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 90-41",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS-450",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "LSB-1",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 93-05",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MAUS 81 (Shakti)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "TAMS 38",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Pusa 97-12",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Pusa 98-14",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RKS 18 (Pratap Soya 2)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "TAMS 98-21",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 525",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 95-60",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS 1347",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 97-52",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 688",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PRS 1",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DSb-1",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS 1225",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MAUS 158",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RKS 24",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 744",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS-1188",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RVS 2001-4",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 20-29",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 20-34",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MAUS 162",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DSb-21",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 86",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "KDS 344 (Phule Agrani)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Pusa 12 (DS 12-13)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 958",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS 1281",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 20-69",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MAUS 612",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DSb 23",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "KS 103",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 127",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "KDS 726 (Phule Sangam)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "AMS 1001",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DSb 28",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS 1572 (PS 26)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 979",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 955",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS 1556",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DSb 32",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "KDS 753",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "KBS 23",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 128",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 130",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 132",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 136",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRCSL 1",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 147",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS 1460",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS 1520",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RSC 11-07",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RSC 10-46",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RVSM 2011-35",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 138",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 142",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "AMS 100-39 (PDKV Amba)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "KBVS 1 (Karune) (Vegetable soybean)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RVS 76",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 1028",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 1074",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS 1407",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "AMS 2014-1 (PDKV Purva)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DSb 34",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "AISb 50",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "BAUS 40",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RSC 10-52",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RSC 10-71",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "VLS 89",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 21-72 (Jawahar Soybean 21-72)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 150",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 152",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MAUS 725",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 157",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRCSL 3 (NRC 149)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 181",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 188",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 197",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "KHSb 2 (IC 0129010) (M 282)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Pusa 40",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "KM 1",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 2",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Co-1",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Pusa 22",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 76-205",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Pusa 37",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS-13 (IC0128917)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 96 (IC0128919) M 18",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PK-472 (IC0117417 / IC0118454)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Pusa-24",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Pusa-16",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS-58 (IC0117411 / IC0501373)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "ADT-1(UGM-33)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 80-21",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 71-5",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS-57 (IC0117412)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 79-81 (IC0118444/IC0129006)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 295 (IC 590887)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "LSb 1",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "TAMS 38 (IC 415096)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 525 (IC 415047)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "CO 3",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DS 97-12",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 95-60 (IC 512330)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DS 98-14",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "TAMS 98-21 (IC 295927)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 97-52 (IC 553425)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "SL 688 (IC 565198)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS 1480",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS 1477 (Pant Soybean 24)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS 1521 (Pant Soybean 23)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RKS 113",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 20-98",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DSb 21",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 20-94",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 20-116",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS 1572",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "JS 21-72",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RVS 2011-35",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC 131",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MACS 1188",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "AMS 2014-1 (PDVK Purva)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DSb 23 (DSB 23-2)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "AISB 50",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "DS 12-13",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "Pusa 9712",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "KDS 726",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MAUS-612",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "kds 753",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RVS 2002-4",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS-1480 (Pant Soya-21)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS-1523 (Pant Soya-23)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS-1477 (Pant Soya-24)",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC-86",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS 1368",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "PS-1225",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RKS 18",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "RAUS 5",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MAUS-71",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "NRC-7",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "MAUS 731",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     },
+     {
+      "name": "CAUMS 1",
+      "type": "notified",
+      "source": {
+       "id": "nsri-soybean",
+       "url": "https://icar-nsri.res.in/varieties.html"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -13106,7 +17184,25 @@
     "scientific": "Cinnamomum verum",
     "season": "Perennial",
     "note": "Bark spice of the Western Ghats",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Nithyasree",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Navasree",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -13212,7 +17308,57 @@
     "scientific": "Coriandrum sativum",
     "season": "Rabi",
     "note": "Seed spice; leaves used as vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Isha",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Ajmer Coriander-2 (ACr-2)",
+      "type": "released",
+      "source": {
+       "id": "nrcss-spices",
+       "url": "https://epubs.icar.org.in/index.php/IJSS"
+      }
+     },
+     {
+      "name": "Ajmer Coriander-3 (ACr-3)",
+      "type": "released",
+      "source": {
+       "id": "nrcss-spices",
+       "url": "https://epubs.icar.org.in/index.php/IJSS"
+      }
+     },
+     {
+      "name": "Ajmer Green Coriander-1 (AGCr-1)",
+      "type": "released",
+      "source": {
+       "id": "nrcss-spices",
+       "url": "https://epubs.icar.org.in/index.php/IJSS"
+      }
+     },
+     {
+      "name": "RCR-436",
+      "type": "released",
+      "source": {
+       "id": "nrcss-spices",
+       "url": "https://epubs.icar.org.in/index.php/IJSS"
+      }
+     },
+     {
+      "name": "RCR-435",
+      "type": "released",
+      "source": {
+       "id": "nrcss-spices",
+       "url": "https://epubs.icar.org.in/index.php/IJSS"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -13413,7 +17559,17 @@
     "scientific": "Cuminum cyminum",
     "season": "Rabi",
     "note": "India largest producer and exporter",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "GC-4",
+      "type": "released",
+      "source": {
+       "id": "nrcss-spices",
+       "url": "https://epubs.icar.org.in/index.php/IJSS"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -13600,7 +17756,41 @@
     "scientific": "Trigonella foenum-graecum",
     "season": "Rabi",
     "note": "Seed spice; leaves used as vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Ajmer Fenugreek-3 (AFg-3)",
+      "type": "released",
+      "source": {
+       "id": "nrcss-spices",
+       "url": "https://epubs.icar.org.in/index.php/IJSS"
+      }
+     },
+     {
+      "name": "Ajmer Fenugreek-4 (AFg-4)",
+      "type": "released",
+      "source": {
+       "id": "nrcss-spices",
+       "url": "https://epubs.icar.org.in/index.php/IJSS"
+      }
+     },
+     {
+      "name": "RMt-1",
+      "type": "released",
+      "source": {
+       "id": "nrcss-spices",
+       "url": "https://epubs.icar.org.in/index.php/IJSS"
+      }
+     },
+     {
+      "name": "RMt-305",
+      "type": "released",
+      "source": {
+       "id": "nrcss-spices",
+       "url": "https://epubs.icar.org.in/index.php/IJSS"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -13713,7 +17903,41 @@
     "scientific": "Allium sativum",
     "season": "Rabi",
     "note": "Bulb spice; MP and Gujarat lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Bhima Omkar",
+      "type": "released",
+      "source": {
+       "id": "dogr-garlic",
+       "url": "https://www.dogr.res.in/"
+      }
+     },
+     {
+      "name": "Bhima Purple",
+      "type": "released",
+      "source": {
+       "id": "dogr-garlic",
+       "url": "https://www.dogr.res.in/"
+      }
+     },
+     {
+      "name": "DOGR-PB-10",
+      "type": "released",
+      "source": {
+       "id": "dogr-garlic",
+       "url": "https://www.dogr.res.in/"
+      }
+     },
+     {
+      "name": "G282",
+      "type": "released",
+      "source": {
+       "id": "dogr-garlic",
+       "url": "https://www.dogr.res.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -13948,11 +18172,19 @@
     "note": "Mace is the aril of the same fruit",
     "notified_varieties": [
      {
-      "name": "Kerala Shree",
+      "name": "Viswasree",
       "type": "released",
       "source": {
-       "id": "pib-109-2024",
-       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Keralashree",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
       }
      }
     ]
@@ -14008,12 +18240,21 @@
    "name": "Tamarind",
    "type": "entity",
    "domain": "crops",
-   "attributes": {
-    "scientific": "Tamarindus indica",
-    "season": "Summer pods",
-    "note": "Souring agent; TN and Karnataka lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
-   },
+    "attributes": {
+     "scientific": "Tamarindus indica",
+     "season": "Summer pods",
+     "note": "Souring agent; TN and Karnataka lead",
+     "notified_varieties": [
+      {
+       "name": "Goma Prateek",
+       "type": "released",
+       "source": {
+        "id": "ciah-varieties",
+        "url": "https://icar-ciah.org/index.php?do=achivmnts_highlits&mod=achivmnts"
+       }
+      }
+     ]
+    },
    "relations": [
     {
      "predicate": "is_a",
@@ -14533,7 +18774,113 @@
    "attributes": {
     "scientific": "Helianthus annuus",
     "season": "Rabi/kharif depending on region",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Phule Raviraj",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "RSFV-901 (Kanthi)",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "Phule Bhaskar (SS-0808)",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "LSFH-35 (Maruti)",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "RSFH-1 (Tunga)",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "KBSH-53",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "PAC-334",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "Olisun 3794 (PAC-3794)",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "DCS-107",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "RSFH-130",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "CO-2",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "Prabhat (NDSH-1012)",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     },
+     {
+      "name": "RSFH-1887",
+      "type": "released",
+      "source": {
+       "id": "dod-sunflower",
+       "url": "https://oilseeds.dac.gov.in/Sunflower.aspx"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -14695,7 +19042,281 @@
     "scientific": "Camellia sinensis",
     "season": "Perennial plantation",
     "note": "Darjeeling, Assam and Nilgiri teas; India among top producers",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "TV1",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV2",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV3",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV4",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV5",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV6",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV7",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV8",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV9",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV10",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV11",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV12",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV13",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV14",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV15",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV16",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV17",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV18",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV19",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV20",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV21",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV22",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV23",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV24",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV25",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV26",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV27",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV28",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV29",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV30",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "TV31",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "UPASI-2",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "UPASI-9",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     },
+     {
+      "name": "CR6017",
+      "type": "released",
+      "source": {
+       "id": "teaboard",
+       "url": "https://www.teaboard.gov.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -14768,7 +19389,121 @@
    "attributes": {
     "scientific": "Nicotiana tabacum",
     "season": "Rabi (transplanted post-monsoon)",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Chatam",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Delcrest",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Kanakaprabha",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Dhanadayi",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "CTRI Special",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "16/103",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Jayasri",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Swarna",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Mc Nair 12",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Hema",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Bhavya",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Burley 21",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Anand 2",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     },
+     {
+      "name": "Anand 119",
+      "type": "released",
+      "source": {
+       "id": "ctri-tobacco",
+       "url": "https://ctri.icar.gov.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -15868,7 +20603,81 @@
     "scientific": "Curcuma longa",
     "season": "Kharif (planted Apr-Jul)",
     "note": "India largest producer-exporter; Erode (TN) and Nizamabad (TS) hubs",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "IISR-Pragati",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Kedaram",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Prathibha",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Prabha",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Suguna",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Sudharsana",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "Suvarna",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Alleppey Supreme",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     },
+     {
+      "name": "IISR-Surya",
+      "type": "released",
+      "source": {
+       "id": "iisr-varieties",
+       "url": "https://spices.res.in/pages/varieties-released"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -16232,7 +21041,25 @@
     "scientific": "Momordica charantia",
     "season": "Kharif and summer",
     "note": "Medicinal value; bitter principle",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Harit",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Anupama",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -16996,7 +21823,17 @@
     "scientific": "Daucus carota",
     "season": "Rabi",
     "note": "Root vegetable; black (desi) and orange types",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Suraj",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -17219,7 +22056,33 @@
    "domain": "crops",
    "attributes": {
     "type": "Winter vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Spoorthi",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Vimal",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Kashi Gobhi-25",
+      "type": "notified",
+      "source": {
+       "id": "iivr-veg",
+       "url": "https://icariivr.org.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -17465,7 +22328,17 @@
     "scientific": "Cucumis sativus",
     "season": "Kharif and zaid",
     "note": "Salad and pickling crop",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Kashi Nutan",
+      "type": "notified",
+      "source": {
+       "id": "iivr-veg",
+       "url": "https://icariivr.org.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -17694,12 +22567,29 @@
    "name": "Drumstick",
    "type": "entity",
    "domain": "crops",
-   "attributes": {
-    "scientific": "Moringa oleifera",
-    "season": "Year-round pods",
-    "note": "Nutritious pods and leaves",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
-   },
+    "attributes": {
+     "scientific": "Moringa oleifera",
+     "season": "Year-round pods",
+     "note": "Nutritious pods and leaves",
+     "notified_varieties": [
+      {
+       "name": "PKM 1",
+       "type": "released",
+       "source": {
+        "id": "tnau-agritech",
+        "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_annualmoringa.html"
+       }
+      },
+      {
+       "name": "PKM 2",
+       "type": "released",
+       "source": {
+        "id": "tnau-agritech",
+        "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_annualmoringa.html"
+       }
+      }
+     ]
+    },
    "relations": [
     {
      "predicate": "is_a",
@@ -18039,7 +22929,105 @@
     "scientific": "Pisum sativum",
     "season": "Rabi (winter)",
     "note": "Winter vegetable; also processed frozen",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Chaitra",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Uttam",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Tapas",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Mayur",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Harini",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Nirmal",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Apoorva",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Pramodh",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Priya",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Sampoorna",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Karthik",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Ajit",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -18272,7 +23260,25 @@
     "scientific": "Raphanus sativus",
     "season": "Rabi",
     "note": "Quick root vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Nishant",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Kashi Mooli-40",
+      "type": "released",
+      "source": {
+       "id": "iivr-veg",
+       "url": "https://icariivr.org.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -18505,7 +23511,41 @@
     "scientific": "Luffa acutangula",
     "season": "Kharif",
     "note": "Common cucurbit of the plains",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Vikram",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Prasan",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Sumeet",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Sujat",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -18554,7 +23594,17 @@
     "scientific": "Spinacia oleracea",
     "season": "Rabi (winter)",
     "note": "Iron-rich leafy vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Anupama",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -18603,7 +23653,49 @@
     "scientific": "Ipomoea batatas",
     "season": "Kharif",
     "note": "Starchy tuber; Odisha and WB lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Bhu Sona",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "Bhu Kanti",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "Bhu Ja",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "Bhu Krishna",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "Bhu Swami",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -18780,7 +23872,81 @@
     "scientific": "Manihot esculenta",
     "season": "Annual; planted with monsoon",
     "note": "Staple tuber of Kerala and Tamil Nadu",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Sree Kaveri",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "Sree Annam",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "Sree Manna",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "Sree Padmanabha",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "Sree Reksha",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "Sree Sakthi",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "Sree Suvarna",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "H-165",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     },
+     {
+      "name": "H-226",
+      "type": "released",
+      "source": {
+       "id": "ctcri-tuber",
+       "url": "https://www.ctcri.org/en/varieties"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -19653,7 +24819,153 @@
    "domain": "crops",
    "attributes": {
     "note": "State-wise production per HSAG 2024 Table 7.3.53",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "DMR-Button-03",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMR-Button-04",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMR-Button-14",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMR-Button-59",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMR-Button-NBS-5",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMR-Button-NBS-1",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMR-Brown Button-06",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMR-Milky-334",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMR-Milky-985",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMR-Shiitake-38",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMR-Shiitake-388",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMRO-247",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMRO-356",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "DMRO-484",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "PSCH-35",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "NCS-100",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "NCS-101",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     },
+     {
+      "name": "NCS-102",
+      "type": "released",
+      "source": {
+       "id": "dmr-mushroom",
+       "url": "https://dmrsolan.res.in/"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -19931,7 +25243,65 @@
    },
    "attributes": {
     "note": "Temperate nut; HSAG Table 7.3.1",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Waris",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "Pranyaj",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "Non Pareil",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "Makhdoom",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "Shalimar",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "IXL",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "Merced",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     }
+    ]
    }
   },
   {
@@ -20135,7 +25505,57 @@
    },
    "attributes": {
     "note": "HSAG Table 7.3.2",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "NA-6",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "NA-7",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "NA-10",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "Krishna (NA-5)",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "Kanchan (NA-4)",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     },
+     {
+      "name": "Chakaiya",
+      "type": "released",
+      "source": {
+       "id": "cish-varieties",
+       "url": "https://www.cish.org.in/varieties"
+      }
+     }
+    ]
    }
   },
   {
@@ -20319,7 +25739,89 @@
    },
    "attributes": {
     "note": "Temperate nut; HSAG Table 7.3.14",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "CITH Walnut-1",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Walnut-2",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Walnut-3",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Walnut-4",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Walnut-5",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Walnut-6",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Walnut-7",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Walnut-8",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Walnut-9",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     },
+     {
+      "name": "CITH Walnut-10",
+      "type": "released",
+      "source": {
+       "id": "cith-temperate",
+       "url": "https://icarcith.org.in/"
+      }
+     }
+    ]
    }
   },
   {
@@ -20531,7 +26033,33 @@
    },
    "attributes": {
     "note": "HSAG Table 7.3.23",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
+    "notified_varieties": [
+     {
+      "name": "Arka Basant",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Gaurav",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     },
+     {
+      "name": "Arka Mohini",
+      "type": "released",
+      "source": {
+       "id": "iihr-varieties",
+       "url": "https://www.iihr.res.in/varieties"
+      }
+     }
+    ]
    }
   },
   {

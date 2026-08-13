@@ -69,8 +69,19 @@ Every fact in this skeleton traces to a source below. `id` is referenced from en
 | cibrc-formulations | PPQS: Pesticide Formulations Registered for use in the Country (updated 31.03.2026) | pesticides | https://ppqs.gov.in/sites/default/files/list_pf_pesticide_formulations_registered_as_on_31.03.2026.pdf | Official CIB&RC formulations list; sections Insecticides/Fungicides/Herbicides/Rodenticides/Fumigants/PGR/Public Health | ready |
 | pib-109-2024 | PIB: Details of 109 varieties of Field and Horticultural crops released by PM (11 Aug 2024) | crops | https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754 | Govt of India PIB release; per-crop table of released varieties/hybrids with sponsoring org, states, features; source of `released` variety names | ready |
 | iihr-notified | ICAR-IIHR: List of Notified Varieties from 2009-19 | crops | https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr | ICAR institute; PDF of notified horticultural varieties 2009-2019 (fetchable with browser UA/referer); source of `notified` variety names | ready |
+| dod-castor | DOD: Castor recommended varieties | crops | https://oilseeds.dac.gov.in/Castor.aspx | Govt of India (DAC&FW); state-wise notified/released varieties | ready |
+| dod-niger | DOD: Niger recommended varieties | crops | https://oilseeds.dac.gov.in/Niger.aspx | Govt of India (DAC&FW) | ready |
+| dod-sesame | DOD: Sesame recommended varieties | crops | https://oilseeds.dac.gov.in/Sesame.aspx | Govt of India (DAC&FW) | ready |
+| dod-linseed | DOD: Linseed recommended varieties | crops | https://oilseeds.dac.gov.in/Linseed.aspx | Govt of India (DAC&FW) | ready |
+| dod-sunflower | DOD: Sunflower recommended varieties | crops | https://oilseeds.dac.gov.in/Sunflower.aspx | Govt of India (DAC&FW) | ready |
+| dod-safflower | DOD: Safflower recommended varieties | crops | https://oilseeds.dac.gov.in/Safflower.aspx | Govt of India (DAC&FW) | ready |
+| dod-groundnut | DOD: Groundnut recommended varieties | crops | https://oilseeds.dac.gov.in/Groundnut.aspx | Govt of India (DAC&FW) | ready |
+| dod-rapeseed | DOD: Rapeseed & Mustard recommended varieties | crops | https://oilseeds.dac.gov.in/Rapeseed.aspx | Govt of India (DAC&FW) | ready |
+| nsri-soybean | ICAR-NSRI: Soybean notified varieties | crops | https://icar-nsri.res.in/varieties.html | ICAR institute; list of notified soybean varieties 1973-2024 | ready |
+| iisr-varieties | ICAR-IISR: Spices varieties released | crops | https://spices.res.in/pages/varieties-released | ICAR institute; released pepper/ginger/turmeric/cinnamon/nutmeg/cardamom | ready |
+| iipr-varieties | ICAR-IIPR: Pulses varieties developed | crops | https://www.icar-iipr.org.in/varieties/ | ICAR institute; released chickpea/pigeonpea/mung/urd/lentil/fieldpea/rajma | ready |
 | cacp-msp | CACP crop- and year-wise MSP (Recommended/Fixed), crop years 2010-11 to 2026-27 | market | https://cacp.da.gov.in/Home/MSP | Govt of India; values in ₹/qtl (INR per quintal); encoded as market.msp.msp_series | ready |
-| crida-cp | ICAR-CRIDA Agriculture Contingency Plans (district-wise PDFs) | location, crops, soil | https://icar-crida.res.in/ccp.html | ICAR institute; one PDF per district listing agro-climatic zone (PC + NARP), major soils, major field crops (area) and fruits/vegetables; used for Uttarakhand district attributes (13 districts) in districts.json | ready |
+| crida-cp | ICAR-CRIDA Agriculture Contingency Plans (district-wise PDFs) | location, crops, soil | https://icar-crida.res.in/ccp.html | ICAR institute; one PDF per district listing agro-climatic zone (PC + NARP), major soils, major field crops (area) and fruits/vegetables; used for Uttarakhand district attributes (13 districts) in districts.json and for NARP zone→district `found_in` relations in narp_zones.json | ready |
 | des-apy-district | DES (DAC&FW) district-wise crop Area/Production/Yield (APY) | crops | https://data.desagri.gov.in/website/crops-apy-report-web | Govt of India; district-level APY export (Excel/PDF); TODO for remaining districts | manual |
 | jau | Junagadh Agricultural University (Saurashtra agro-climatic zones) | location | https://www.jau.in/university-jurisdiction | Official Gujarat SAU; Table of NARP zones 5-8 (North West/North Saurashtra/South Saurashtra/Bhal Coastal) with districts | ready |
 | uasb | University of Agricultural Sciences, Bangalore (agro-climatic zones) | location | https://www.uasbangalore.edu.in/en/agro-climatic-zones-karnataka/ | Official Karnataka SAU; zone->district+taluks for Central/Eastern/Southern Dry and Southern Transition zones | ready |
@@ -82,6 +93,24 @@ Every fact in this skeleton traces to a source below. `id` is referenced from en
 | odisha-doa | Odisha Agriculture Statistics 2017-18, Directorate of A&FP | location | https://agri.odisha.gov.in/sites/default/files/2022-06/ODISHA%20AGRICULTURE%20STATISTICS_2017-18.pdf | Govt of Odisha; zone-wise district yield tables for all 10 agro-climatic zones | ready |
 | nddb-punjab | NDDB: Dairying in Punjab - A Statistical Profile 2014 | location | https://www.nddb.coop/sites/default/files/pdfs/NDDB-Dairy_Digest_Punjab-17-10-2014.pdf | NDDB; Table VII.1.1 Punjab agro-climatic zones with districts | ready |
 | aau | Assam Agricultural University (agro-climatic zones) | location | https://www.aau.ac.in/research | Official Assam SAU; UBVZ/CBVZ/LBVZ/Barak Valley zone districts | ready |
+| iihr-varieties | ICAR-IIHR: Varieties and Technologies released | crops | https://www.iihr.res.in/varieties | ICAR institute; per-crop released variety pages (Arka series, grapes, papaya, cauliflower, carrot, radish, garden pea, onion, cowpea, ridge/bitter gourd, capsicum, coriander, palak, litchi, lemon/musk melon, dolichos, amaranth) | ready |
+| cish-varieties | ICAR-CISH: Varieties for Commercialization | crops | https://www.cish.org.in/varieties | ICAR institute; released mango/guava/bael/jamun/banana/aonla varieties (Ambika, Arunika, Lalit, Lalima, Shweta, Awadh series, NA-6/7/10 aonla, etc.) | ready |
+| nrcb-banana | ICAR-NRCB: Banana varieties released | crops | https://nrcb.org.in/ | ICAR institute; Kaveri Kanchan, Kaveri Vaman (TBM-9), Kaveri Saba, Kaveri Sugantham, Kaveri Kalki, Kaveri Kanya, NRCBGNM-1 | ready |
+| ctcri-tuber | ICAR-CTCRI: Tropical tuber varieties | crops | https://www.ctcri.org/en/varieties | ICAR institute; Sree series cassava/sweet potato (Sree Kaveri, Sree Annam, Sree Manna, Bhu Sona, etc.) | ready |
+| ccri-citrus | ICAR-CCRI: Citrus varieties | crops | https://ccri.org.in/ | ICAR institute; mandarin/sweet orange/acid lime/grapfruit/pummelo released varieties | ready |
+| iivr-veg | ICAR-IIVR: Vegetable varieties | crops | https://icariivr.org.in/ | ICAR institute; Kashi series (Gobhi-25, Mooli-40, Nutan cucumber, Kashi Krishna carrot, etc.) | ready |
+| cith-temperate | ICAR-CITH: Temperate fruit varieties | crops | https://icarcith.org.in/ | ICAR institute; released apple/apricot/walnut/almond/pear/plum/peach varieties | ready |
+| ciah-varieties | ICAR-CIAH (Central Institute for Arid Horticulture): Varieties released | crops | https://icar-ciah.org/index.php?do=achivmnts_highlits&mod=achivmnts | ICAR institute; released arid fruit/vegetable varieties table (Tamarind 'Goma Prateek', etc.) | ready |
+| dmr-mushroom | ICAR-DMR: Mushroom varieties/strains | crops | https://dmrsolan.res.in/ | ICAR institute; DMR button/milky/oyster/shiitake strains | ready |
+| dogr-garlic | ICAR-DOGR: Onion & garlic varieties | crops | https://www.dogr.res.in/ | ICAR institute; Bhima onion / garlic varieties | ready |
+| nrcss-spices | ICAR-NRCSS (Central Institute of Seed Spices): Seed spice varieties | crops | https://epubs.icar.org.in/index.php/IJSS | ICAR institute/journal; Ajmer coriander ACr, fenugreek AFg, cumin GC varieties | ready |
+| rubberboard-clones | Rubber Board / RRII: Recommended rubber clones | crops | https://rubberboard.gov.in/ | Commodity board; RRII/RRIM/PB/GT clones | ready |
+| ctcri | ICAR-CTCRI (herb/medicinal crops when applicable) | crops | https://www.ctcri.org/en/ | ICAR institute | ready |
+| ctri-tobacco | ICAR-CTRI: Tobacco varieties | crops | https://ctri.icar.gov.in/ | ICAR institute; FCV/oriental/Natu/burley/chewing tobacco released varieties | ready |
+| icar-iimr | ICAR-IIMR (Indian Institute of Millets Research): Small millet varieties | crops | https://www.millets.res.in/ | ICAR institute; released foxtail/little/kodo/browntop/pearl/barnyard millet varieties | ready |
+
+## 9(3)(i) provisional registrations — status
+No official machine-readable registry of Section 9(3)(i) provisional pesticide registrations exists on cibrc.gov.in (site down) or ppqs.gov.in/divisions/cib-rc/registered-products (only 9(3) formulations/actives, banned list, import sources, household/rodenticide and desert-locust lists). Provisional grants appear only per-meeting in RC minutes PDFs and convert to 9(3). COUNTED TODO: no 9(3)(i) provisional-registration entities added; do NOT fabricate.
 
 ## Fetch status (filled by scripts/fetch_sources.py)
 <!-- fetch_sources.py appends a status table here -->

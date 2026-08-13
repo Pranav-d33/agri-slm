@@ -1313,6 +1313,58 @@
         {
           "predicate": "part_of",
           "object": "location.states.haryana"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.ambala"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.faridabad"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.jhajjar"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.jind"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.kaithal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.karnal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.kurukshetra"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.palwal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.panchkula"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.panipat"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.rohtak"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.sonipat"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.yamunanagar"
         }
       ],
       "source": {
@@ -1336,6 +1388,38 @@
         {
           "predicate": "part_of",
           "object": "location.states.haryana"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.bhiwani"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.fatehabad"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.gurugram"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.hisar"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.mahendragarh"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.nuh"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.rewari"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.haryana.sirsa"
         }
       ],
       "source": {
@@ -1359,6 +1443,34 @@
         {
           "predicate": "part_of",
           "object": "location.states.himachal_pradesh"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.bilaspur"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.hamirpur"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.kangra"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.kullu"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.sirmaur"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.solan"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.una"
         }
       ],
       "source": {
@@ -1382,6 +1494,14 @@
         {
           "predicate": "part_of",
           "object": "location.states.himachal_pradesh"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.chamba"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.mandi"
         }
       ],
       "source": {
@@ -1405,6 +1525,10 @@
         {
           "predicate": "part_of",
           "object": "location.states.himachal_pradesh"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.shimla"
         }
       ],
       "source": {
@@ -1428,6 +1552,14 @@
         {
           "predicate": "part_of",
           "object": "location.states.himachal_pradesh"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.kinnaur"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.himachal_pradesh.lahaul_and_spiti"
         }
       ],
       "source": {
@@ -2099,6 +2231,18 @@
         {
           "predicate": "part_of",
           "object": "location.states.kerala"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.kannur"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.kasaragod"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.kozhikode"
         }
       ],
       "source": {
@@ -2122,6 +2266,22 @@
         {
           "predicate": "part_of",
           "object": "location.states.kerala"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.kollam"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.kottayam"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.pathanamthitta"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.thiruvananthapuram"
         }
       ],
       "source": {
@@ -2145,6 +2305,26 @@
         {
           "predicate": "part_of",
           "object": "location.states.kerala"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.ernakulam"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.malappuram"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.palakkad"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.thrissur"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.wayanad"
         }
       ],
       "source": {
@@ -2168,6 +2348,10 @@
         {
           "predicate": "part_of",
           "object": "location.states.kerala"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.idukki"
         }
       ],
       "source": {
@@ -2191,6 +2375,10 @@
         {
           "predicate": "part_of",
           "object": "location.states.kerala"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.kerala.alappuzha"
         }
       ],
       "source": {
@@ -2682,6 +2870,10 @@
         {
           "predicate": "part_of",
           "object": "location.states.maharashtra"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.sindhudurg"
         }
       ],
       "source": {
@@ -2705,6 +2897,18 @@
         {
           "predicate": "part_of",
           "object": "location.states.maharashtra"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.palghar"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.raigad"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.thane"
         }
       ],
       "source": {
@@ -2728,6 +2932,10 @@
         {
           "predicate": "part_of",
           "object": "location.states.maharashtra"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.nashik"
         }
       ],
       "source": {
@@ -2774,6 +2982,14 @@
         {
           "predicate": "part_of",
           "object": "location.states.maharashtra"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.nandurbar"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.pune"
         }
       ],
       "source": {
@@ -2797,6 +3013,34 @@
         {
           "predicate": "part_of",
           "object": "location.states.maharashtra"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.ahilyanagar"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.chhatrapati_sambhajinagar"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.beed"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.dhule"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.sangli"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.satara"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.solapur"
         }
       ],
       "source": {
@@ -2820,6 +3064,38 @@
         {
           "predicate": "part_of",
           "object": "location.states.maharashtra"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.akola"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.amravati"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.buldhana"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.jalna"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.latur"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.nanded"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.dharashiv"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.parbhani"
         }
       ],
       "source": {
@@ -2843,6 +3119,22 @@
         {
           "predicate": "part_of",
           "object": "location.states.maharashtra"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.chandrapur"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.wardha"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.washim"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.yavatmal"
         }
       ],
       "source": {
@@ -2866,6 +3158,18 @@
         {
           "predicate": "part_of",
           "object": "location.states.maharashtra"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.bhandara"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.gadchiroli"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.maharashtra.gondia"
         }
       ],
       "source": {
@@ -5472,6 +5776,10 @@
         {
           "predicate": "part_of",
           "object": "location.states.west_bengal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.darjeeling"
         }
       ],
       "source": {
@@ -5495,6 +5803,14 @@
         {
           "predicate": "part_of",
           "object": "location.states.west_bengal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.alipurduar"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.jalpaiguri"
         }
       ],
       "source": {
@@ -5518,6 +5834,18 @@
         {
           "predicate": "part_of",
           "object": "location.states.west_bengal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.purba_bardhaman"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.hooghly"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.dakshin_dinajpur"
         }
       ],
       "source": {
@@ -5541,6 +5869,26 @@
         {
           "predicate": "part_of",
           "object": "location.states.west_bengal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.cooch_behar"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.malda"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.murshidabad"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.nadia"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.uttar_dinajpur"
         }
       ],
       "source": {
@@ -5564,6 +5912,18 @@
         {
           "predicate": "part_of",
           "object": "location.states.west_bengal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.bankura"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.birbhum"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.purulia"
         }
       ],
       "source": {
@@ -5587,6 +5947,18 @@
         {
           "predicate": "part_of",
           "object": "location.states.west_bengal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.howrah"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.north_24_parganas"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.west_bengal.south_24_parganas"
         }
       ],
       "source": {
@@ -5605,7 +5977,148 @@
         "rainfall_mm": ">2000",
         "major_soils": "Alluvial / red loamy"
       },
-      "relations": [],
+      "relations": [
+        {
+          "predicate": "found_in",
+          "object": "location.districts.tripura.dhalai"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.tripura.gomati"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.tripura.khowai"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.tripura.north_tripura"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.tripura.sepahijala"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.tripura.south_tripura"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.tripura.unakoti"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.tripura.west_tripura"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.aizawl"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.champhai"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.hnahthial"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.khawzawl"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.kolasib"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.lawngtlai"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.lunglei"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.mamit"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.saitual"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.serchhip"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.mizoram.siaha"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.bishnupur"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.chandel"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.churachandpur"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.imphal_east"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.imphal_west"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.jiribam"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.kakching"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.kamjong"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.kangpokpi"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.noney"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.pherzawl"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.senapati"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.tamenglong"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.tengnoupal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.thoubal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.manipur.ukhrul"
+        }
+      ],
       "source": {
         "id": "narp-zones",
         "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
@@ -5626,6 +6139,18 @@
         {
           "predicate": "part_of",
           "object": "location.uts.andaman_nicobar"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.andaman_and_nicobar_islands.nicobars"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.andaman_and_nicobar_islands.north_and_middle_andaman"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.andaman_and_nicobar_islands.south_andamans"
         }
       ],
       "source": {
@@ -5648,6 +6173,10 @@
         {
           "predicate": "part_of",
           "object": "location.uts.lakshadweep"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.lakshadweep.lakshadweep_district"
         }
       ],
       "source": {
@@ -5669,6 +6198,14 @@
         {
           "predicate": "part_of",
           "object": "location.uts.puducherry"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.puducherry.karaikal"
+        },
+        {
+          "predicate": "found_in",
+          "object": "location.districts.puducherry.puducherry"
         }
       ],
       "source": {

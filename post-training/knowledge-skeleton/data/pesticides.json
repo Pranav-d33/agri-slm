@@ -587,7 +587,16 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "Allerthrin 0.02% Coil",
+     "Allerthrin 0.05% Coil",
+     "Allerthrin 0.2% Coil",
+     "Allerthrin 0.5% Aerosol",
+     "Allerthrin 0.5% Coil",
+     "Allerthrin 3.6% LV",
+     "Allerthrin 4%Mat"
+    ]
    },
    "relations": [
     {
@@ -608,7 +617,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spelling 'Allerthrin'; 7 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.alphacypermethrin",
@@ -887,7 +896,13 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "Anilofos 18% EC",
+     "Anilofos 2% G",
+     "Anilofos 24%+ 2,4-D Ethyl Ester 32% EC",
+     "Anilofos 30% EC"
+    ]
    },
    "relations": [
     {
@@ -908,7 +923,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spelling 'Anilofos'; 4 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.atrazine",
@@ -994,7 +1009,17 @@
    ],
    "attributes": {
     "class": "Botanical insecticide (from Azadirachta indica)",
-    "use": "Sucking pests, caterpillars; allowed in organic farming under NPOP"
+    "use": "Sucking pests, caterpillars; allowed in organic farming under NPOP",
+    "formulations": [
+     "Azadirachtin 0.15% EC w/w Min. Neem Seed Kernel Based",
+     "Azadirachtin 0.15%EC",
+     "Azadirachtin 00.03% EC Min. Neem Oil Based",
+     "Azadirachtin 00.03% WSP (300 PPM) Neem Oil Based",
+     "Azadirachtin 00.30% EC (3000 PPM) Min. Neem Seed Kernel Based",
+     "Azadirachtin 01.00% EC (10000 PPM) Min. Neem Based",
+     "Azadirachtin 01.00% EC Min. Neem Based",
+     "Azadirachtin 05.00% w/w Min. Neem Extract Concentrates"
+    ]
    },
    "relations": [
     {
@@ -1025,7 +1050,8 @@
    "source": {
     "id": "cibrc",
     "url": "https://cibrc.gov.in/"
-   }
+   },
+   "notes": "formulation matched to raw source name 'Azadirachtin (Neem Products)'; 8 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.azadirachtin_neem_products",
@@ -1464,7 +1490,11 @@
     "Dichlorodiphenyltrichloroethane"
    ],
    "attributes": {
-    "note": "Agricultural use banned; restricted to malaria vector control (indoor residual spraying); Restricted to public-health use (10,000 MT/yr); use in agriculture withdrawn; S.O. 295(E)/378(E)"
+    "note": "Agricultural use banned; restricted to malaria vector control (indoor residual spraying); Restricted to public-health use (10,000 MT/yr); use in agriculture withdrawn; S.O. 295(E)/378(E)",
+    "formulations": [
+     "DDT 50% WP",
+     "DDT 75% WP"
+    ]
    },
    "relations": [
     {
@@ -1479,7 +1509,8 @@
    "source": {
     "id": "cibrc-ban",
     "url": "https://ppqs.gov.in/"
-   }
+   },
+   "notes": "formulation matched to source name 'DDT'; 2 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.banned_export",
@@ -4380,7 +4411,12 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "Cyazofamid 25% + Pyraclostrobin 18% w/v SC",
+     "Cyazofamid 34.5% SC",
+     "Cyazofamid 6.2% + Mancozeb 60.8% WP"
+    ]
    },
    "relations": [
     {
@@ -4401,7 +4437,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spelling 'Cyazofamid'; 3 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.d_2_4_5_t",
@@ -4437,7 +4473,18 @@
    ],
    "attributes": {
     "class": "Phenoxy auxin herbicide",
-    "use": "Broadleaf weed control in cereals"
+    "use": "Broadleaf weed control in cereals",
+    "formulations": [
+     "2,4-D Amine Salt 58% SL",
+     "2,4-D Ethyl Ester 20% WP",
+     "2,4-D Ethyl Ester 38% EC",
+     "2,4-D Ethyl Ester 4.5% GR",
+     "2,4-D Sodium 95% WDG",
+     "2,4-D Sodium Salt 44%+Metribuzin 35%+ Pyrazosulfuron ethyl 1.0%WDG",
+     "2,4-D Sodium Salt 80% min.",
+     "2,4-D Sodium salt 48% + Metribuzin 32% + Chlorimuron ethyl 0.85% WDG",
+     "2,4-D sodium salt 50% + Metribuzin 15% WP"
+    ]
    },
    "relations": [
     {
@@ -4464,7 +4511,8 @@
    "source": {
     "id": "cibrc",
     "url": "https://cibrc.gov.in/"
-   }
+   },
+   "notes": "formulation matched to source name '2,4-D' (Amine/Ethyl Ester/Sodium Salt forms); 9 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.d_trans_allethrin",
@@ -4759,7 +4807,11 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "DDT 50% WP",
+     "DDT 75% WP"
+    ]
    },
    "relations": [
     {
@@ -4780,7 +4832,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source name 'DDT' (same substance as pesticides.banned.ddt); 2 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.dichloropropene_and_dichloropropane_mixture_dd_mixture",
@@ -5748,7 +5800,11 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "Ethofenoprox 10% EC",
+     "Etofenprox 6% + Diafenthiuron 25% WG"
+    ]
    },
    "relations": [
     {
@@ -5769,7 +5825,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spellings 'Ethofenoprox'/'Etofenprox'; 2 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.ethoxysulfuron",
@@ -6993,7 +7049,10 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "Flumite 20% SC/ Flufenzine 20% SC"
+    ]
    },
    "relations": [
     {
@@ -7014,7 +7073,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation is flufenzine 20% SC (listed under trade name 'Flumite'); 1 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.fluindapyr",
@@ -7755,7 +7814,16 @@
    ],
    "attributes": {
     "class": "Systemic non-selective herbicide",
-    "use": "Weed control before sowing, orchards; allowed in India for non-crop/limited uses"
+    "use": "Weed control before sowing, orchards; allowed in India for non-crop/limited uses",
+    "formulations": [
+     "Glyphosate 20.2% SL (IPA Salt)",
+     "Glyphosate 41% SL (IPA Salt)",
+     "Glyphosate 54% SL (IPA Salt)",
+     "Glyphosate Ammonium Salt 20% SL",
+     "Glyphosate Ammonium Salt 5%SL",
+     "Glyphosate Ammonium Salt 71%SG",
+     "Glyphosate potassium salt 41.60% (equivalent to 54% SL w/v)"
+    ]
    },
    "relations": [
     {
@@ -7774,7 +7842,8 @@
    "source": {
     "id": "cibrc",
     "url": "https://cibrc.gov.in/"
-   }
+   },
+   "notes": "formulation matched to source 'Glyphosate' (incl. Ammonium/Potassium salt forms); 7 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.glyphosate_ammonium_salt",
@@ -10127,7 +10196,10 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "MCPA, Amine salt 40%WSC"
+    ]
    },
    "relations": [
     {
@@ -10148,7 +10220,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source abbreviation 'MCPA'; 1 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.methyl_parathion",
@@ -11139,7 +11211,13 @@
    "domain": "pesticides",
    "attributes": {
     "class": "Bipyridyl contact herbicide",
-    "note": "Highly toxic; India banned its formulation use on food crops (2020s); Paraquat Dimethyl Sulphate banned for manufacture, import and use"
+    "note": "Highly toxic; India banned its formulation use on food crops (2020s); Paraquat Dimethyl Sulphate banned for manufacture, import and use",
+    "formulations": [
+     "Paraquat dichloride 22.4% + Oxyfluorfen 1.99% EW",
+     "Paraquat dichloride 24% + Oxyfluorfen 5% SC",
+     "Paraquat dichloride 24% SL",
+     "Paraquat dichloride 7.50% + Glyphosate 30% SC"
+    ]
    },
    "relations": [
     {
@@ -11154,7 +11232,8 @@
    "source": {
     "id": "cibrc-ban",
     "url": "https://ppqs.gov.in/"
-   }
+   },
+   "notes": "formulation matched to source name 'Paraquat dichloride'; 4 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.paraquat_dichloride",
@@ -11881,7 +11960,11 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "Pirimiphos-methyl 01% Spray",
+     "Pirimiphosmethyl 50%EC"
+    ]
    },
    "relations": [
     {
@@ -11902,7 +11985,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spelling 'Pirimiphos-methyl'; 2 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.prochloraz",
@@ -11972,7 +12055,16 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "Profenofos 40 % + Fenpyroximate2.50 % EC",
+     "Profenofos 40% + Cypermethrin 4% EC",
+     "Profenofos 40% + Cypermethrin 4% w/v EW",
+     "Profenofos 40% + Lambda cyhalothrin 1.5% EC",
+     "Profenofos 50 % + Fenpropathrin 5 % EC",
+     "Profenofos 50% + Cypermethrin 5% WDG",
+     "Profenofos 50% EC"
+    ]
    },
    "relations": [
     {
@@ -11993,7 +12085,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spelling 'Profenofos'; 7 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.prohexadione_calcium",
@@ -12002,7 +12094,10 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "Prohexadione-Ca 10% WG"
+    ]
    },
    "relations": [
     {
@@ -12023,7 +12118,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spelling 'Prohexadione-Ca'; 1 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.propamocarb_hydrochloride",
@@ -12133,7 +12228,12 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "Propargite 42% + Hexythiazox 2%EC",
+     "Propargite 50% + Bifenthrin 5%SE",
+     "Propargite 57 % EC"
+    ]
    },
    "relations": [
     {
@@ -12154,7 +12254,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spelling 'Propargite'; 3 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.propetamphos",
@@ -14355,7 +14455,20 @@
    "domain": "pesticides",
    "attributes": {
     "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))"
+    "class": "Registered active ingredient (9(3))",
+    "formulations": [
+     "Thiamethoxam 0.01%w/w Gel Bait",
+     "Thiamethoxam 0.4% + Bifenthrin 0.8% GR",
+     "Thiamethoxam 0.9% + Fipronil 0.2%GR",
+     "Thiamethoxam 1.0% + Chlorantraniliprole 0.5% GR",
+     "Thiamethoxam 1.2% GR",
+     "Thiamethoxam 1.25% + Fipronil 1.25% + Chlorantraniliprole 0.6% GR",
+     "Thiamethoxam 12.6% + Lambda-cyhalothrin 9.5%ZC",
+     "Thiamethoxam 25%WG",
+     "Thiamethoxam 30 %FS",
+     "Thiamethoxam 70% WS",
+     "Thiamethoxam 75 % w/w SG"
+    ]
    },
    "relations": [
     {
@@ -14376,7 +14489,7 @@
     "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
    },
    "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; 0 registered formulations"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spelling 'Thiamethoxam' (entity name has a typo); 11 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.thiometon",

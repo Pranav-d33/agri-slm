@@ -34,12 +34,12 @@ EXPECTED = {
 }
 
 GAPS = [
-    "NARP zone->district lists: 70/125 zones now carry found_in district relations (Odisha/Punjab/Rajasthan/TN complete; AP 5/7, Gujarat 4/8, Karnataka 4/10, MP 7/12, Assam 4/6, Bihar 3/6, J&K 3/5, UP 9/10). As yet ungathered: Maharashtra, Kerala, Haryana, Himachal, West Bengal + single-zone NEH/islands = TODO via ICAR-CRIDA contingency plans or state SAU/DoA docs",
-    "Crops: notified variety registry = partial. 42 crops got 92 verifiable varieties (PIB 109-variety release 2024 + ICAR-IIHR notified list 2009-19); the bulk registry (74 crops, hundreds of varieties) = TODO pending working Seednet/S.O. gazette source or data.gov.in API key",
-    "Pesticides: 331/371 registered actives have formulations (PPQS 31.03.2026); 40 actives unmatched (spelling-variant/ambiguous rows) + 9(3)(i) provisional registrations = TODO",
+    "NARP zone->district lists: 99/125 zones carry found_in district relations (all mainland states incl. Haryana/HP/Kerala/Maharashtra/WB via ICAR-CRIDA CCP district profiles + single-zone NEH/islands). Remaining: 26 zones without clean district mapping (a few Maharashtra/WB sub-zones + corrupt/urban-split district PDFs) = counted TODO",
+    "Crops: notified variety registry = 95/135 crops now carry verifiable varieties (770 entries from PIB, ICAR-IIHR, DOD oilseeds, ICAR-NSRI soybean, ICAR-IISR spices, ICAR-IIPR pulses, CISH, IIHR/IVR/CITH/DMR, rubber/tea/tobacco boards, CIAH, TNAU). 16 crops still TODO (apple/jackfruit/peach/pear/pineapple/plum/sapota/strawberry/horse-gram/moth-bean/khesari/mesta/asafoetida/clove/vanilla/sugar-beet) — their official variety registries are unreachable (DNS fail / no list hosted)",
+    "Pesticides: 352/371 registered actives have formulations (PPQS 31.03.2026; 21 more matched by spelling-equivalents, each flagged in notes); ~19 actives still unmatched + 9(3)(i) provisional registrations (no official machine-readable registry exists; per-meeting RC minutes only) = counted TODO",
     "Fisheries: state-wise fish production FY2022-23 (inland 131.13 LT + marine 44.32 LT, per-state) encoded from DAHDF Handbook 2023; district-wise marine landings (CMFRI) + more species = TODO",
-    "Market: MSP year series 2010-11..2026-27 in paddy/wheat/28 crops encoded from CACP; mandi price time series (AGMARKNET REST, no bulk) = TODO",
-    "Location: district-level attributes = partial. 13 Uttarakhand districts have zone/soil/crops from CRIDA contingency plans; remaining 771 districts = TODO via DES APY district export",
+    "Market: MSP year series 2010-11..2026-27 in paddy/wheat/28 crops encoded from CACP; mandi price time series (AGMARKNET REST, no bulk download) = TODO",
+    "Location: district-level attributes = partial. 29 districts (Uttarakhand 13 + Haryana/HP/Kerala/Maharashtra/WB 100 via CRIDA CCP) have zone/soil/crops; remaining districts = TODO via DES APY district export",
     "Hindi/local aliases: allowed in aliases field but not yet populated; needs a registered bilingual source (e.g. DAC&FW glossary) before adding",
 ]
 
