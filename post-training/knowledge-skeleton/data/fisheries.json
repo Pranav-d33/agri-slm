@@ -76,49 +76,49 @@
     "Freshwater fishing",
     "Fish farming"
    ],
-    "attributes": {
-     "note": "Inland (rivers, tanks, ponds, reservoirs) contributes ~70% of production; aquaculture dominant",
-     "top_aquaculture": "AP, WB, Punjab, Bihar, Gujarat, Karnataka",
-     "production_lakh_tonnes_fy_2022_23": {
-      "value": 131.13,
-      "by_state": {
-       "location.states.andhra_pradesh": 45.06,
-       "location.states.west_bengal": 18.56,
-       "location.states.uttar_pradesh": 9.15,
-       "location.states.bihar": 8.46,
-       "location.states.odisha": 8.39,
-       "location.states.chhattisgarh": 6.52,
-       "location.states.karnataka": 4.95,
-       "location.states.assam": 4.43,
-       "location.states.telangana": 4.38,
-       "location.states.madhya_pradesh": 3.42,
-       "location.states.jharkhand": 2.8,
-       "location.states.tamil_nadu": 2.32,
-       "location.states.gujarat": 2.07,
-       "location.states.haryana": 2.12,
-       "location.states.kerala": 1.97,
-       "location.states.punjab": 1.85,
-       "location.states.maharashtra": 1.44,
-       "location.states.rajasthan": 0.79,
-       "location.states.tripura": 0.83,
-       "location.states.jammu_kashmir": 0.27,
-       "location.states.himachal_pradesh": 0.17,
-       "location.states.meghalaya": 0.19,
-       "location.states.manipur": 0.34,
-       "location.states.uttarakhand": 0.07,
-       "location.states.goa": 0.06,
-       "location.states.arunachal_pradesh": 0.09,
-       "location.states.nagaland": 0.09,
-       "location.states.mizoram": 0.05,
-       "location.states.sikkim": null,
-       "location.uts.puducherry": 0.05
-      },
-      "source": {
-       "id": "dahd-fisheries",
-       "url": "https://dof.gov.in/sites/default/files/2024-06/Handbook.pdf"
-      }
+   "attributes": {
+    "note": "Inland (rivers, tanks, ponds, reservoirs) contributes ~70% of production; aquaculture dominant",
+    "top_aquaculture": "AP, WB, Punjab, Bihar, Gujarat, Karnataka",
+    "production_lakh_tonnes_fy_2022_23": {
+     "value": 131.13,
+     "by_state": {
+      "location.states.andhra_pradesh": 45.06,
+      "location.states.west_bengal": 18.56,
+      "location.states.uttar_pradesh": 9.15,
+      "location.states.bihar": 8.46,
+      "location.states.odisha": 8.39,
+      "location.states.chhattisgarh": 6.52,
+      "location.states.karnataka": 4.95,
+      "location.states.assam": 4.43,
+      "location.states.telangana": 4.38,
+      "location.states.madhya_pradesh": 3.42,
+      "location.states.jharkhand": 2.8,
+      "location.states.tamil_nadu": 2.32,
+      "location.states.gujarat": 2.07,
+      "location.states.haryana": 2.12,
+      "location.states.kerala": 1.97,
+      "location.states.punjab": 1.85,
+      "location.states.maharashtra": 1.44,
+      "location.states.rajasthan": 0.79,
+      "location.states.tripura": 0.83,
+      "location.states.jammu_kashmir": 0.27,
+      "location.states.himachal_pradesh": 0.17,
+      "location.states.meghalaya": 0.19,
+      "location.states.manipur": 0.34,
+      "location.states.uttarakhand": 0.07,
+      "location.states.goa": 0.06,
+      "location.states.arunachal_pradesh": 0.09,
+      "location.states.nagaland": 0.09,
+      "location.states.mizoram": 0.05,
+      "location.states.sikkim": null,
+      "location.uts.puducherry": 0.05
+     },
+     "source": {
+      "id": "dahd-fisheries",
+      "url": "https://dof.gov.in/sites/default/files/2024-06/Handbook.pdf"
      }
-    },
+    }
+   },
    "relations": [
     {
      "predicate": "is_a",
@@ -362,7 +362,9 @@
     "Sea fishing"
    ],
    "attributes": {
-    "states": "Gujarat, Kerala, Maharashtra, Karnataka, TN, AP, WB, Odisha, Goa; west coast > east coast catch"
+    "states": "Gujarat, Kerala, Maharashtra, Karnataka, TN, AP, WB, Odisha, Goa; west coast > east coast catch",
+    "landings_tonnes_2025": 3574226,
+    "landings_tonnes_2025_note": "National marine fish landings 2025, ICAR-CMFRI Booklet Series No. 47/2026. Mainland incl. coastal states; excludes Lakshadweep and Andaman & Nicobar."
    },
    "relations": [
     {
@@ -428,7 +430,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Endemic to NW coast; dried form popular"
+    "note": "Endemic to NW coast; dried form popular",
+    "landings_tonnes_2025": 96170
    },
    "relations": [
     {
@@ -478,7 +481,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Sciaenidae family; 1.03 lakh t in 2023; demersal trawl catch"
+    "note": "Sciaenidae family; 1.03 lakh t in 2023; demersal trawl catch",
+    "landings_tonnes_2025": 112426
    },
    "relations": [
     {
@@ -501,7 +505,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Tenualosa ilisha; Ganga-Brahmaputra and east coast; declining trend"
+    "note": "Tenualosa ilisha; Ganga-Brahmaputra and east coast; declining trend",
+    "landings_tonnes_2025": 13429
    },
    "relations": [
     {
@@ -524,7 +529,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Sardinella gibbosa, S. albella; 1.69 lakh t in 2022"
+    "note": "Sardinella gibbosa, S. albella; 1.69 lakh t in 2022",
+    "landings_tonnes_2025": 129609
    },
    "relations": [
     {
@@ -547,7 +553,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Major pelagic catch along west coast"
+    "note": "Major pelagic catch along west coast",
+    "landings_tonnes_2025": 269757
    },
    "relations": [
     {
@@ -604,7 +611,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Largest single-species marine catch; Kerala and TN coast"
+    "note": "Largest single-species marine catch; Kerala and TN coast",
+    "landings_tonnes_2025": 253260
    },
    "relations": [
     {
@@ -677,7 +685,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Trichiurus lepturus; 2.70 lakh t in 2023 (7.64% of landings) - 2nd top resource"
+    "note": "Trichiurus lepturus; 2.70 lakh t in 2023 (7.64% of landings) - 2nd top resource",
+    "landings_tonnes_2025": 230099
    },
    "relations": [
     {
@@ -700,7 +709,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Decapterus spp.; 1.63 lakh t in 2022; carangid"
+    "note": "Decapterus spp.; 1.63 lakh t in 2022; carangid",
+    "landings_tonnes_2025": 75981
    },
    "relations": [
     {
@@ -746,7 +756,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Leiognathus spp.; 0.59 lakh t in 2022"
+    "note": "Leiognathus spp.; 0.59 lakh t in 2022",
+    "landings_tonnes_2025": 46702
    },
    "relations": [
     {
@@ -769,7 +780,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Nemipterus spp.; ~5% of landings; major trawl species"
+    "note": "Nemipterus spp.; ~5% of landings; major trawl species",
+    "landings_tonnes_2025": 233492
    },
    "relations": [
     {
@@ -982,6 +994,2873 @@
    "source": {
     "id": "ciba",
     "url": "https://www.ciba.res.in/"
+   }
+  },
+  {
+   "id": "fisheries.marine.sharks",
+   "name": "Sharks",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 22368
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.skates_and_guitarfish",
+   "name": "Skates and Guitarfish",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 1228
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.rays",
+   "name": "Rays",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 16151
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.eels",
+   "name": "Eels",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 12893
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.catfishes",
+   "name": "Catfishes",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 57154
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.wolf_herring",
+   "name": "Wolf Herring",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 11746
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.other_shads",
+   "name": "Other Shads",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 30754
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.coilia",
+   "name": "Coilia",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 55816
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.setipinna",
+   "name": "Setipinna",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 16507
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.stolephorus",
+   "name": "Stolephorus",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 80399
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.thryssa",
+   "name": "Thryssa",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 29115
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.other_clupeids",
+   "name": "Other Clupeids",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 66581
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.lizard_fishes",
+   "name": "Lizard Fishes",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 67191
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.half_beaks_and_full_beaks",
+   "name": "Half Beaks and Full Beaks",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 10038
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.flying_fishes",
+   "name": "Flying Fishes",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 3539
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.rock_cods",
+   "name": "Rock Cods",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 57307
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.snappers",
+   "name": "Snappers",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 11106
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.pig_face_breams",
+   "name": "Pig-Face Breams",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 10137
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.other_perches",
+   "name": "Other Perches",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 62745
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.goatfishes",
+   "name": "Goatfishes",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 15516
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.threadfins",
+   "name": "Threadfins",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 13742
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.horse_mackerel",
+   "name": "Horse Mackerel",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 36270
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.leather_jackets",
+   "name": "Leather Jackets",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 15536
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.other_carangids",
+   "name": "Other Carangids",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 126158
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.big_jawed_jumper",
+   "name": "Big-Jawed Jumper",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {},
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.black_pomfret",
+   "name": "Black Pomfret",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 20752
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.silver_pomfret",
+   "name": "Silver Pomfret",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 25349
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.chinese_pomfret",
+   "name": "Chinese Pomfret",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 7209
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.other_mackerels",
+   "name": "Other Mackerels",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 67
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.seer_fish_s_commerson",
+   "name": "Seer Fish (S. commerson)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {},
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.seer_fish_s_guttatus",
+   "name": "Seer Fish (S. guttatus)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {},
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.seer_fish_s_lineolatus",
+   "name": "Seer Fish (S. lineolatus)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {},
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.wahoo_acanthocybium_solandri",
+   "name": "Wahoo (Acanthocybium solandri)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 518
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.eastern_little_tuna_e_affinis",
+   "name": "Eastern Little Tuna (E. affinis)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {},
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.frigate_tuna_auxis_spp",
+   "name": "Frigate Tuna (Auxis spp.)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 32026
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.skipjack_tuna_k_pelamis",
+   "name": "Skipjack Tuna (K. pelamis)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {},
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.longtail_tuna_t_tonggol",
+   "name": "Longtail Tuna (T. tonggol)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {},
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.other_tunnies",
+   "name": "Other Tunnies",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 1823
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.bill_fishes",
+   "name": "Bill Fishes",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 20650
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.barracudas",
+   "name": "Barracudas",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 37910
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.mullets",
+   "name": "Mullets",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 15558
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.unicorn_cod",
+   "name": "Unicorn Cod",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 238
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.halibut",
+   "name": "Halibut",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 1074
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.flounders",
+   "name": "Flounders",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 262
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.soles",
+   "name": "Soles",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 33215
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.lobsters",
+   "name": "Lobsters",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 1632
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.crabs",
+   "name": "Crabs",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 61115
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.stomatopods",
+   "name": "Stomatopods",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 6858
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.bivalves",
+   "name": "Bivalves",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 3616
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.gastropods",
+   "name": "Gastropods",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 4877
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.squids",
+   "name": "Squids",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 148595
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.cuttlefish",
+   "name": "Cuttlefish",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 95835
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.octopus",
+   "name": "Octopus",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 12398
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.miscellaneous_other_resources",
+   "name": "Miscellaneous (Other Resources)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 189352
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://cmfri.org.in/2023"
+   }
+  },
+  {
+   "id": "fisheries.marine.seer_fish_scomberomorus_commerson",
+   "name": "Seer Fish (Scomberomorus commerson)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 32925
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.seer_fish_scomberomorus_guttatus",
+   "name": "Seer Fish (Scomberomorus guttatus)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 17256
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.seer_fish_scomberomorus_lineolatus",
+   "name": "Seer Fish (Scomberomorus lineolatus)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 5
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.eastern_little_tuna_euthynnus_affinis",
+   "name": "Eastern Little Tuna (Euthynnus affinis)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 58949
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.skipjack_tuna_katsuwonus_pelamis",
+   "name": "Skipjack Tuna (Katsuwonus pelamis)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 21028
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.longtail_tuna_thunnus_tonggol",
+   "name": "Longtail Tuna (Thunnus tonggol)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 3576
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.yellowfin_tuna_thunnus_albacares",
+   "name": "Yellowfin Tuna (Thunnus albacares)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 20257
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.redtoothed_triggerfish_odonus_niger",
+   "name": "Redtoothed Triggerfish (Odonus niger)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 38984
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.pufferfishes_lagocephalus_spp",
+   "name": "Pufferfishes (Lagocephalus spp.)",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 23276
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.bullseyes",
+   "name": "Bullseyes",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 35858
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.whitefish",
+   "name": "Whitefish",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 5396
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.penaeid_shrimps",
+   "name": "Penaeid Shrimps",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 163215
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.marine.non_penaeid_shrimps",
+   "name": "Non-Penaeid Shrimps",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "landings_tonnes_2025": 141650
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.marine"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.kerala"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.tamil_nadu"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.andhra_pradesh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   }
  ]
