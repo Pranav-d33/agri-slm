@@ -10,7 +10,7 @@ converted into a **knowledge graph** later: each entity becomes a node, each rel
 
 **Location is the anchor.** Every domain entity ends in `found_in` / `grown_in` / `practiced_in` /
 `produced_in` relations pointing at the location hierarchy
-(`data/locations/`: India → 36 states/UTs → 640 districts (census-2011 baseline), 15 agro-climatic zones, regions).
+(`data/locations/`: India → 36 states/UTs → 784 current LGD districts (census-2011 baseline retained per state), 15 agro-climatic zones, 125 NARP zones, regions).
 
 ## Layout
 
@@ -57,13 +57,17 @@ python3 scripts/coverage.py         # regenerate COVERAGE.md
 
 ## Status
 
-1733 entities, 6536 relations, 1006 location nodes, 36 states/UTs, 784 LGD districts,
-15 PC agro-climatic zones, 125 ICAR NARP zones (with UP zone->district lists),
-9 regions. Soil/crops/livestock/pesticides/fertilizers/organic/water/weather/seeds/machinery/
+1733 entities, 6896 relations, 1006 location nodes, 36 states/UTs, 784 LGD districts,
+15 PC agro-climatic zones, 125 ICAR NARP zones (zone->district lists filled for 70 zones:
+Odisha/Punjab/Rajasthan/TN complete, 7 more states partial), 9 regions.
+Soil/crops/livestock/pesticides/fertilizers/organic/water/weather/seeds/machinery/
 plant-protection/fisheries/post-harvest/market/schemes/forestry/apiculture all have their
-taxonomy skeleton at levels 0–2 with location anchoring; 333 registered pesticide actives
-carry formulations (PPQS 31.03.2026); leaf-level exhaustive data (every variety, every
-district zone-list, Hindi aliases) is enumerated as counted gaps in COVERAGE.md.
+taxonomy skeleton at levels 0–2 with location anchoring. Data-fill milestones: all 371
+registered pesticide actives as entities with 331 formulations attached (PPQS 31.03.2026);
+MSP year series 2010-11→2026-27 for 28 crops from CACP; state-wise fish production FY2022-23
+(131.13 LT inland + 44.32 LT marine) from DAHDF Handbook 2023; 92 crop varieties (PIB 2024 +
+ICAR-IIHR); 13 districts with CRIDA contingency-plan attributes. Remaining leaf-level data
+(every variety, every district, Hindi aliases) is enumerated as counted gaps in COVERAGE.md.
 
 ## KG conversion (future)
 

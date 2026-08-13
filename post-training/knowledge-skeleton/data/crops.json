@@ -41,7 +41,8 @@
    "attributes": {
     "scientific": "Malus domestica",
     "season": "Temperate; harvest Aug-Oct",
-    "note": "Requires 800-1600 chilling hours; Kashmir, Kinnaur, Kullu famous"
+    "note": "Requires 800-1600 chilling hours; Kashmir, Kinnaur, Kullu famous",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -150,7 +151,25 @@
    "attributes": {
     "scientific": "Pennisetum glaucum",
     "season": "Kharif",
-    "note": "Drought-hardy; crop of the arid and semi-arid west"
+    "note": "Drought-hardy; crop of the arid and semi-arid west",
+    "notified_varieties": [
+     {
+      "name": "JPM 18-7 (Jawahar Pearl Millet 18-7)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "MH 2417 (Pusa- 1801)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -347,7 +366,8 @@
    "attributes": {
     "scientific": "Musa spp.",
     "season": "Year-round",
-    "note": "India largest producer; Grand Naine dominant cultivar"
+    "note": "India largest producer; Grand Naine dominant cultivar",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -580,7 +600,17 @@
    "attributes": {
     "scientific": "Hordeum vulgare",
     "season": "Rabi",
-    "note": "Tolerant of saline and alkaline soils"
+    "note": "Tolerant of saline and alkaline soils",
+    "notified_varieties": [
+     {
+      "name": "DWRB-219",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -717,7 +747,17 @@
    "attributes": {
     "scientific": "Echinochloa frumentacea",
     "season": "Kharif",
-    "note": "Fastest-growing millet; 6-8 weeks to maturity"
+    "note": "Fastest-growing millet; 6-8 weeks to maturity",
+    "notified_varieties": [
+     {
+      "name": "VL Madira- 254",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -768,7 +808,8 @@
    ],
    "attributes": {
     "scientific": "Vigna mungo",
-    "season": "Kharif"
+    "season": "Kharif",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -1002,7 +1043,8 @@
    "attributes": {
     "scientific": "Piper nigrum",
     "season": "Perennial vine",
-    "note": "India among largest producers; Idukki (Kerala) and Kodagu (KA)"
+    "note": "India among largest producers; Idukki (Kerala) and Kodagu (KA)",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -1119,7 +1161,8 @@
    "attributes": {
     "scientific": "Brachiaria ramosa",
     "season": "Kharif",
-    "note": "Minor millet; Karnataka and AP"
+    "note": "Minor millet; Karnataka and AP",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -1162,7 +1205,25 @@
    "attributes": {
     "scientific": "Elettaria cardamomum",
     "season": "Perennial; harvest Oct-Feb",
-    "note": "Idukki district produces most of India's cardamom"
+    "note": "Idukki district produces most of India's cardamom",
+    "notified_varieties": [
+     {
+      "name": "IISR Kaveri",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "IISR Manushree",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -1250,7 +1311,25 @@
    ],
    "attributes": {
     "scientific": "Anacardium occidentale",
-    "season": "Perennial; harvest Feb-May"
+    "season": "Perennial; harvest Feb-May",
+    "notified_varieties": [
+     {
+      "name": "Nethra Ganga (H-130)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Nethra Jumbo-1",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -1399,7 +1478,8 @@
    "attributes": {
     "scientific": "Ricinus communis",
     "season": "Kharif",
-    "note": "India leads world castor production"
+    "note": "India leads world castor production",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -1583,7 +1663,33 @@
    "attributes": {
     "scientific": "Capsicum annuum",
     "season": "Kharif/rabi",
-    "note": "India largest producer and exporter; Guntur (AP) and Byadagi (KA) famous; dual-use (green vegetable and dried spice), canonical parent: Spices"
+    "note": "India largest producer and exporter; Guntur (AP) and Byadagi (KA) famous; dual-use (green vegetable and dried spice), canonical parent: Spices",
+    "notified_varieties": [
+     {
+      "name": "Arka Haritha [MSH 96]",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     },
+     {
+      "name": "Arka Khyati",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     },
+     {
+      "name": "Arka Neelanchal Prabha",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -1784,7 +1890,25 @@
    "attributes": {
     "scientific": "Cocos nucifera",
     "season": "Perennial palm",
-    "note": "India among top three coconut producers"
+    "note": "India among top three coconut producers",
+    "notified_varieties": [
+     {
+      "name": "Kalpa Shatabdi",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Kalpa Suvarna",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -1953,7 +2077,8 @@
    "attributes": {
     "scientific": "Coffea arabica / robusta",
     "season": "Perennial; arabica and robusta grown",
-    "note": "Indian coffee is shade-grown under Western Ghats canopy"
+    "note": "Indian coffee is shade-grown under Western Ghats canopy",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -2008,7 +2133,49 @@
     "scientific": "Gossypium hirsutum (main)",
     "season": "Kharif",
     "note": "Largest producer of cotton fibre; Bt cotton dominant",
-    "agrovocId": "http://aims.fao.org/aos/agrovoc/c_1926"
+    "agrovocId": "http://aims.fao.org/aos/agrovoc/c_1926",
+    "notified_varieties": [
+     {
+      "name": "CICR- H Bt Cotton 40 (ICAR-CICR- PKV 081 Bt)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "CICR-H Bt Cotton 65 (ICAR -CICR 18 Bt)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "CNH-18529 (CICR-H NC Cotton 64)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "PDKV Dhawal (AKA-2013-8)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Shalini (CNH 17395) (CICR-H Cotton 58)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -2225,7 +2392,8 @@
    "attributes": {
     "scientific": "Vigna unguiculata",
     "season": "Kharif and zaid",
-    "note": "Grain, vegetable and fodder"
+    "note": "Grain, vegetable and fodder",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -2309,7 +2477,8 @@
    "attributes": {
     "scientific": "Phoenix dactylifera",
     "season": "Summer fruit",
-    "note": "Kutch (Gujarat) and Rajasthan desert areas"
+    "note": "Kutch (Gujarat) and Rajasthan desert areas",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -2370,7 +2539,17 @@
    "attributes": {
     "scientific": "Pisum sativum subsp. arvense",
     "season": "Rabi",
-    "note": "Grain pea of the Gangetic plains"
+    "note": "Grain pea of the Gangetic plains",
+    "notified_varieties": [
+     {
+      "name": "Pant Pea 484",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -2436,7 +2615,17 @@
    "type": "entity",
    "domain": "crops",
    "attributes": {
-    "type": "Legume fodder; 5-6 cuttings/yr for dairy; rabi fodder of Punjab-Haryana"
+    "type": "Legume fodder; 5-6 cuttings/yr for dairy; rabi fodder of Punjab-Haryana",
+    "notified_varieties": [
+     {
+      "name": "Jawahar berseem 08-17 (JB 08-17)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -2477,7 +2666,8 @@
    "attributes": {
     "scientific": "Megathyrsus maximus",
     "season": "Perennial",
-    "note": "High-biomass tropical fodder grass"
+    "note": "High-biomass tropical fodder grass",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -2521,7 +2711,8 @@
    "type": "entity",
    "domain": "crops",
    "attributes": {
-    "type": "Perennial legume fodder; high protein; for dairy herds"
+    "type": "Perennial legume fodder; high protein; for dairy herds",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -2568,7 +2759,8 @@
    "type": "entity",
    "domain": "crops",
    "attributes": {
-    "type": "Perennial grass; high biomass; hybrid bajra-napier for dairy"
+    "type": "Perennial grass; high biomass; hybrid bajra-napier for dairy",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -2618,7 +2810,8 @@
    "attributes": {
     "scientific": "Stylosanthes hamata",
     "season": "Perennial legume",
-    "note": "Pasture legume for drylands"
+    "note": "Pasture legume for drylands",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -2656,7 +2849,8 @@
    "attributes": {
     "scientific": "Setaria italica",
     "season": "Kharif",
-    "note": "Short-duration, drought-tolerant"
+    "note": "Short-duration, drought-tolerant",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -2724,7 +2918,8 @@
    "attributes": {
     "scientific": "Prunus armeniaca",
     "season": "Temperate; harvest May-Jun",
-    "note": "Ladakh and Himachal; also dried fruit"
+    "note": "Ladakh and Himachal; also dried fruit",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -2762,7 +2957,25 @@
    "type": "entity",
    "domain": "crops",
    "attributes": {
-    "type": "Hardy fruit; UP, MP, Maharashtra lead; rich in vitamin C"
+    "type": "Hardy fruit; UP, MP, Maharashtra lead; rich in vitamin C",
+    "notified_varieties": [
+     {
+      "name": "Arka Kiran",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     },
+     {
+      "name": "Lalit",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -2999,7 +3212,8 @@
    "attributes": {
     "scientific": "Artocarpus heterophyllus",
     "season": "Summer fruit",
-    "note": "Largest tree-borne fruit; southern and eastern states"
+    "note": "Largest tree-borne fruit; southern and eastern states",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -3151,7 +3365,8 @@
    "attributes": {
     "scientific": "Citrus limon",
     "season": "Year-round",
-    "note": "Key citrus after mandarin"
+    "note": "Key citrus after mandarin",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -3367,7 +3582,8 @@
    "attributes": {
     "scientific": "Litchi chinensis",
     "season": "Summer fruit (May-Jun)",
-    "note": "Bihar produces most of India's litchi"
+    "note": "Bihar produces most of India's litchi",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -3541,7 +3757,8 @@
    "attributes": {
     "scientific": "Citrus reticulata",
     "season": "Winter fruit",
-    "note": "Nagpur (MH) and Khasi (Meghalaya) mandarins"
+    "note": "Nagpur (MH) and Khasi (Meghalaya) mandarins",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -3742,7 +3959,17 @@
    "attributes": {
     "scientific": "Cucumis melo",
     "season": "Zaid (summer)",
-    "note": "Zaid crop of north India"
+    "note": "Zaid crop of north India",
+    "notified_varieties": [
+     {
+      "name": "Thar Mahima",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -3892,7 +4119,8 @@
    "type": "entity",
    "domain": "crops",
    "attributes": {
-    "type": "Fast-yielding fruit; AP, Gujarat, Karnataka, WB lead"
+    "type": "Fast-yielding fruit; AP, Gujarat, Karnataka, WB lead",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -4113,7 +4341,8 @@
    "attributes": {
     "scientific": "Prunus persica",
     "season": "Temperate; harvest May-Jul",
-    "note": "Temperate fruit of the Himalaya"
+    "note": "Temperate fruit of the Himalaya",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -4161,7 +4390,8 @@
    "attributes": {
     "scientific": "Pyrus communis",
     "season": "Temperate; harvest Jul-Sep",
-    "note": "Temperate fruit; Kinnaur pears famous"
+    "note": "Temperate fruit; Kinnaur pears famous",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -4281,7 +4511,8 @@
    "attributes": {
     "scientific": "Ananas comosus",
     "season": "Year-round",
-    "note": "North-east and West Bengal lead"
+    "note": "North-east and West Bengal lead",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -4449,7 +4680,8 @@
    "attributes": {
     "scientific": "Prunus domestica",
     "season": "Temperate; harvest Jun-Aug",
-    "note": "Himachal and J&K lead"
+    "note": "Himachal and J&K lead",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -4497,7 +4729,17 @@
    "attributes": {
     "scientific": "Punica granatum",
     "season": "Two crops/yr (mrig bahar, hastha bahar)",
-    "note": "India largest producer; Maharashtra leads"
+    "note": "India largest producer; Maharashtra leads",
+    "notified_varieties": [
+     {
+      "name": "Solapur Anardana",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -4649,7 +4891,8 @@
    "attributes": {
     "scientific": "Manilkara zapota",
     "season": "Two crops/yr",
-    "note": "Gujarat and Maharashtra lead"
+    "note": "Gujarat and Maharashtra lead",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -4810,7 +5053,8 @@
    "attributes": {
     "scientific": "Citrus sinensis",
     "season": "Winter fruit",
-    "note": "Punjab and Telangana lead"
+    "note": "Punjab and Telangana lead",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -4978,7 +5222,17 @@
    "attributes": {
     "scientific": "Citrullus lanatus",
     "season": "Zaid (summer)",
-    "note": "Classic zaid crop"
+    "note": "Classic zaid crop",
+    "notified_varieties": [
+     {
+      "name": "Thar Tripti",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -5165,7 +5419,8 @@
    ],
    "attributes": {
     "scientific": "Zingiber officinale",
-    "season": "Kharif"
+    "season": "Kharif",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -5400,7 +5655,25 @@
    "attributes": {
     "scientific": "Cicer arietinum",
     "season": "Rabi",
-    "note": "India is the largest producer of chickpea"
+    "note": "India is the largest producer of chickpea",
+    "notified_varieties": [
+     {
+      "name": "Nandyal Gram 1267 (NBeG 1267)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Pant Gram 10 (PG 265)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -5652,7 +5925,8 @@
    ],
    "attributes": {
     "scientific": "Vitis vinifera",
-    "season": "Jan-May (Nashik: Feb-Apr)"
+    "season": "Jan-May (Nashik: Feb-Apr)",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -5796,7 +6070,25 @@
    ],
    "attributes": {
     "scientific": "Vigna radiata",
-    "season": "Kharif and zaid"
+    "season": "Kharif and zaid",
+    "notified_varieties": [
+     {
+      "name": "Lam Pesara 610 (LGG 610)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "PMS-8",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -6014,7 +6306,8 @@
    "attributes": {
     "scientific": "Arachis hypogaea",
     "season": "Kharif (main), rabi in south",
-    "uses": "Oilseed, nut, cake feed"
+    "uses": "Oilseed, nut, cake feed",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -6251,7 +6544,8 @@
    "attributes": {
     "scientific": "Macrotyloma uniflorum",
     "season": "Kharif/rabi",
-    "note": "Climate-resilient; rich in iron and protein"
+    "note": "Climate-resilient; rich in iron and protein",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -6359,7 +6653,17 @@
    "attributes": {
     "scientific": "Sorghum bicolor",
     "season": "Kharif (main), also rabi",
-    "uses": "Grain, fodder, ethanol"
+    "uses": "Grain, fodder, ethanol",
+    "notified_varieties": [
+     {
+      "name": "CSV 57F (SPV 2801) (UTFS 111)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -6569,7 +6873,17 @@
    "attributes": {
     "scientific": "Corchorus spp.",
     "season": "Kharif",
-    "note": "India leads world jute production; needs hot humid delta"
+    "note": "India leads world jute production; needs hot humid delta",
+    "notified_varieties": [
+     {
+      "name": "JRC 9",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -6694,7 +7008,8 @@
    "attributes": {
     "scientific": "Lathyrus sativus",
     "season": "Rabi",
-    "note": "Tolerant to waterlogging; sale restricted due to lathyrism"
+    "note": "Tolerant to waterlogging; sale restricted due to lathyrism",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -6750,7 +7065,8 @@
    "attributes": {
     "scientific": "Paspalum scrobiculatum",
     "season": "Kharif",
-    "note": "Highly drought-resistant"
+    "note": "Highly drought-resistant",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -6801,7 +7117,33 @@
    ],
    "attributes": {
     "scientific": "Lens culinaris",
-    "season": "Rabi"
+    "season": "Rabi",
+    "notified_varieties": [
+     {
+      "name": "PSL-17",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Pant Lentil 14 (PL 320)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "RKL 20-26(D) Kota Masoor 6",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -6982,7 +7324,8 @@
    "attributes": {
     "scientific": "Linum usitatissimum",
     "season": "Rabi",
-    "note": "Oilseed and fibre (flax)"
+    "note": "Oilseed and fibre (flax)",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -7150,7 +7493,8 @@
    "attributes": {
     "scientific": "Panicum sumatrense",
     "season": "Kharif",
-    "note": "Hardy grain of poor, shallow soils"
+    "note": "Hardy grain of poor, shallow soils",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -7203,7 +7547,73 @@
    "attributes": {
     "scientific": "Zea mays",
     "season": "Kharif (mainly), also rabi/zaid",
-    "uses": "Food, feed, starch, ethanol"
+    "uses": "Food, feed, starch, ethanol",
+    "notified_varieties": [
+     {
+      "name": "HQPM 28",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "IMH 230 IMHSB 20R-6",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "IMH 231 IMHSB 20K-10",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Pusa Bio fortified Maize Hybrid – 4 (APH4)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Pusa Forage Maize Hybrid-1 (AFH-7)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Pusa HM4 Male Sterile Baby Corn-2 (ABSH4-2)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Pusa Popcorn Hybrid – 1 (APCH 2)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Pusa Popcorn Hybrid – 2 (APCH 3)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -7461,7 +7871,33 @@
    "attributes": {
     "scientific": "Mangifera indica",
     "season": "Summer fruit",
-    "note": "India largest producer; Alphonso, Kesar, Dasheri, Langra, Totapuri"
+    "note": "India largest producer; Alphonso, Kesar, Dasheri, Langra, Totapuri",
+    "notified_varieties": [
+     {
+      "name": "Ambika",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Arka Udaya",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Arunika",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -7682,7 +8118,8 @@
    "attributes": {
     "scientific": "Hibiscus cannabinus",
     "season": "Kharif",
-    "note": "Jute substitute fibre"
+    "note": "Jute substitute fibre",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -7843,7 +8280,8 @@
    "attributes": {
     "scientific": "Vigna aconitifolia",
     "season": "Kharif",
-    "note": "Drought-hardy pulse of arid Rajasthan"
+    "note": "Drought-hardy pulse of arid Rajasthan",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -7921,7 +8359,8 @@
    "attributes": {
     "scientific": "Brassica juncea (Indian mustard)",
     "season": "Rabi",
-    "note": "India's main edible oilseed; dryland rabi crop"
+    "note": "India's main edible oilseed; dryland rabi crop",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -8178,7 +8617,8 @@
    "attributes": {
     "scientific": "Guizotia abyssinica",
     "season": "Kharif",
-    "note": "Minor oilseed of central India"
+    "note": "Minor oilseed of central India",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -8298,7 +8738,25 @@
    "attributes": {
     "scientific": "Avena sativa",
     "season": "Rabi",
-    "note": "Grown mainly as fodder; grain minor"
+    "note": "Grown mainly as fodder; grain minor",
+    "notified_varieties": [
+     {
+      "name": "Him Palam Forage Oat-1 (PLP-24)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Jawahar Oat 13-513 (JO- 13-513)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -8368,7 +8826,17 @@
    "attributes": {
     "scientific": "Allium cepa",
     "season": "Rabi/kharif (Maharashtra: rabi main)",
-    "note": "India second-largest producer; price-sensitive staple"
+    "note": "India second-largest producer; price-sensitive staple",
+    "notified_varieties": [
+     {
+      "name": "Arka Bheem",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -9603,7 +10071,25 @@
    "attributes": {
     "scientific": "Cajanus cajan",
     "season": "Kharif",
-    "note": "Protein-rich dal; deep-rooted, drought-tolerant"
+    "note": "Protein-rich dal; deep-rooted, drought-tolerant",
+    "notified_varieties": [
+     {
+      "name": "NAAM-88",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Phule Pallavi (Phule Tur-12-19-2)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -9855,7 +10341,8 @@
    "attributes": {
     "scientific": "Areca catechu",
     "season": "Perennial palm",
-    "note": "Karnataka grows most of India's arecanut"
+    "note": "Karnataka grows most of India's arecanut",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -9984,7 +10471,25 @@
    "attributes": {
     "scientific": "Theobroma cacao",
     "season": "Perennial",
-    "note": "Grown under coconut and arecanut in the south"
+    "note": "Grown under coconut and arecanut in the south",
+    "notified_varieties": [
+     {
+      "name": "Vittal Cocoa Hybrid-1",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Vittal Cocoa Hybrid-2",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -10042,7 +10547,33 @@
    "attributes": {
     "scientific": "Solanum tuberosum",
     "season": "Rabi (main), also kharif/zaid in hills",
-    "note": "India second-largest producer; UP and WB lead"
+    "note": "India second-largest producer; UP and WB lead",
+    "notified_varieties": [
+     {
+      "name": "Kufri Bhaskar",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Kufri Chipsona-5",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Kufri Jamunia",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -11047,7 +11578,17 @@
    "attributes": {
     "scientific": "Panicum miliaceum",
     "season": "Kharif",
-    "note": "Grown in NE hills and Himachal"
+    "note": "Grown in NE hills and Himachal",
+    "notified_varieties": [
+     {
+      "name": "CPRMV-1 (DHPM- 60-4/PMV 466)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -11116,7 +11657,17 @@
    "attributes": {
     "scientific": "Eleusine coracana",
     "season": "Kharif",
-    "note": "High calcium content; crop of the Deccan and hills"
+    "note": "High calcium content; crop of the Deccan and hills",
+    "notified_varieties": [
+     {
+      "name": "VL Mandua- 402",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -11277,7 +11828,8 @@
    "attributes": {
     "scientific": "Phaseolus vulgaris",
     "season": "Kharif (hills)",
-    "note": "Hill pulse; HP, J&K and Uttarakhand"
+    "note": "Hill pulse; HP, J&K and Uttarakhand",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -11331,7 +11883,81 @@
     "season": "Kharif (mainly), also rabi in south",
     "water": "High (200-500 cm ET); irrigated and rainfed",
     "importance": "India's staple; largest area under any crop",
-    "agrovocId": "http://aims.fao.org/aos/agrovoc/c_6599"
+    "agrovocId": "http://aims.fao.org/aos/agrovoc/c_6599",
+    "notified_varieties": [
+     {
+      "name": "CR DHAN 810 (IET 30409)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "CR Dhan 108 (IET29052)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "CR Dhan 416 (IET 30201)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "CSR 101 (IET-30827)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "DRR Dhan 73 (IET 30242)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "DRR Dhan 74 (IET 30252)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "DRR Dhan 78 (IET 30240)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "KKL (R) 4 (IET 30697) (KR 19011)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Swarna PurviDhan 5 IET 29036 (RCPR 68-IR83929-B-B-291-2-1-1-2)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -11635,7 +12261,8 @@
    "attributes": {
     "scientific": "Hevea brasiliensis",
     "season": "Perennial; tapping year-round",
-    "note": "Needs humid tropical climate, 200+ cm rain"
+    "note": "Needs humid tropical climate, 200+ cm rain",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -11684,7 +12311,25 @@
    "attributes": {
     "scientific": "Carthamus tinctorius",
     "season": "Rabi",
-    "note": "Minor oilseed; Maharashtra and Karnataka"
+    "note": "Minor oilseed; Maharashtra and Karnataka",
+    "notified_varieties": [
+     {
+      "name": "ISF-123-sel-15",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "ISF-300",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -11893,7 +12538,17 @@
    ],
    "attributes": {
     "scientific": "Sesamum indicum",
-    "season": "Kharif"
+    "season": "Kharif",
+    "notified_varieties": [
+     {
+      "name": "Tanjila (CUMS-09A)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -12117,7 +12772,8 @@
    "attributes": {
     "scientific": "Glycine max",
     "season": "Kharif",
-    "note": "India's top oilseed by production"
+    "note": "India's top oilseed by production",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -12310,7 +12966,17 @@
    "attributes": {
     "scientific": "Trachyspermum ammi",
     "season": "Rabi",
-    "note": "Digestive seed spice"
+    "note": "Digestive seed spice",
+    "notified_varieties": [
+     {
+      "name": "Gujarat Ajwain 3",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -12406,7 +13072,8 @@
    "attributes": {
     "scientific": "Ferula assa-foetida",
     "season": "Perennial",
-    "note": "Mostly imported; India began cultivation in Himachal (2020)"
+    "note": "Mostly imported; India began cultivation in Himachal (2020)",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -12438,7 +13105,8 @@
    "attributes": {
     "scientific": "Cinnamomum verum",
     "season": "Perennial",
-    "note": "Bark spice of the Western Ghats"
+    "note": "Bark spice of the Western Ghats",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -12486,7 +13154,8 @@
    "attributes": {
     "scientific": "Syzygium aromaticum",
     "season": "Perennial",
-    "note": "Tree spice; domestic production tiny, mostly imported"
+    "note": "Tree spice; domestic production tiny, mostly imported",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -12542,7 +13211,8 @@
    "attributes": {
     "scientific": "Coriandrum sativum",
     "season": "Rabi",
-    "note": "Seed spice; leaves used as vegetable"
+    "note": "Seed spice; leaves used as vegetable",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -12742,7 +13412,8 @@
    "attributes": {
     "scientific": "Cuminum cyminum",
     "season": "Rabi",
-    "note": "India largest producer and exporter"
+    "note": "India largest producer and exporter",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -12830,7 +13501,17 @@
    "attributes": {
     "scientific": "Foeniculum vulgare",
     "season": "Rabi",
-    "note": "Seed spice; Gujarat leads"
+    "note": "Seed spice; Gujarat leads",
+    "notified_varieties": [
+     {
+      "name": "RF-290",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -12918,7 +13599,8 @@
    "attributes": {
     "scientific": "Trigonella foenum-graecum",
     "season": "Rabi",
-    "note": "Seed spice; leaves used as vegetable"
+    "note": "Seed spice; leaves used as vegetable",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -13030,7 +13712,8 @@
    "attributes": {
     "scientific": "Allium sativum",
     "season": "Rabi",
-    "note": "Bulb spice; MP and Gujarat lead"
+    "note": "Bulb spice; MP and Gujarat lead",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -13262,7 +13945,17 @@
    "attributes": {
     "scientific": "Myristica fragrans",
     "season": "Perennial",
-    "note": "Mace is the aril of the same fruit"
+    "note": "Mace is the aril of the same fruit",
+    "notified_varieties": [
+     {
+      "name": "Kerala Shree",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -13318,7 +14011,8 @@
    "attributes": {
     "scientific": "Tamarindus indica",
     "season": "Summer pods",
-    "note": "Souring agent; TN and Karnataka lead"
+    "note": "Souring agent; TN and Karnataka lead",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -13422,7 +14116,8 @@
    "attributes": {
     "scientific": "Vanilla planifolia",
     "season": "Perennial vine",
-    "note": "High-value, labour-intensive; small area"
+    "note": "High-value, labour-intensive; small area",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -13488,7 +14183,8 @@
    "attributes": {
     "scientific": "Beta vulgaris",
     "season": "Rabi",
-    "note": "Minor; experimental cultivation in Uttar Pradesh"
+    "note": "Minor; experimental cultivation in Uttar Pradesh",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -13523,7 +14219,41 @@
     "scientific": "Saccharum officinarum",
     "season": "Annual (12-month), planted in spring/autumn",
     "water": "Very high water requirement",
-    "note": "India second-largest producer; key for sugar and ethanol"
+    "note": "India second-largest producer; key for sugar and ethanol",
+    "notified_varieties": [
+     {
+      "name": "CoPb 99 (CoPb 17215)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "IKHSU-16 (CoLk 16202)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "IKHSU-17 (CoLk 16470)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Karan 17 (Co 17018)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -13802,7 +14532,8 @@
    ],
    "attributes": {
     "scientific": "Helianthus annuus",
-    "season": "Rabi/kharif depending on region"
+    "season": "Rabi/kharif depending on region",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -13963,7 +14694,8 @@
    "attributes": {
     "scientific": "Camellia sinensis",
     "season": "Perennial plantation",
-    "note": "Darjeeling, Assam and Nilgiri teas; India among top producers"
+    "note": "Darjeeling, Assam and Nilgiri teas; India among top producers",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -14035,7 +14767,8 @@
    ],
    "attributes": {
     "scientific": "Nicotiana tabacum",
-    "season": "Rabi (transplanted post-monsoon)"
+    "season": "Rabi (transplanted post-monsoon)",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -14219,7 +14952,33 @@
    ],
    "attributes": {
     "scientific": "Solanum lycopersicum",
-    "season": "Year-round"
+    "season": "Year-round",
+    "notified_varieties": [
+     {
+      "name": "Arka Samrat",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     },
+     {
+      "name": "Pusa Shakti",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Pusa Tomato Hybrid 6",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -15108,7 +15867,8 @@
    "attributes": {
     "scientific": "Curcuma longa",
     "season": "Kharif (planted Apr-Jul)",
-    "note": "India largest producer-exporter; Erode (TN) and Nizamabad (TS) hubs"
+    "note": "India largest producer-exporter; Erode (TN) and Nizamabad (TS) hubs",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -15373,7 +16133,57 @@
    "attributes": {
     "scientific": "Amaranthus spp.",
     "season": "Year-round",
-    "note": "Leafy vegetable; fast-growing"
+    "note": "Leafy vegetable; fast-growing",
+    "notified_varieties": [
+     {
+      "name": "Arka Samraksha",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     },
+     {
+      "name": "Arka Varna",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     },
+     {
+      "name": "Gujarat Amaranth 8 (GA 8) SKNA 1407",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Him Gauri (IC037156)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "RMA 120 (Jodhpur Rajgira 2)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "VL Chua 140",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -15421,7 +16231,8 @@
    "attributes": {
     "scientific": "Momordica charantia",
     "season": "Kharif and summer",
-    "note": "Medicinal value; bitter principle"
+    "note": "Medicinal value; bitter principle",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -15469,7 +16280,17 @@
    "attributes": {
     "scientific": "Lagenaria siceraria",
     "season": "Kharif and summer",
-    "note": "High-yielding cucurbit"
+    "note": "High-yielding cucurbit",
+    "notified_varieties": [
+     {
+      "name": "Kashi Shubhara",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -15675,7 +16496,17 @@
    "type": "entity",
    "domain": "crops",
    "attributes": {
-    "type": "Top-3 Indian vegetable; key pest: fruit and shoot borer"
+    "type": "Top-3 Indian vegetable; key pest: fruit and shoot borer",
+    "notified_varieties": [
+     {
+      "name": "Arka Neelachal Shyama",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -15918,7 +16749,8 @@
    "type": "entity",
    "domain": "crops",
    "attributes": {
-    "type": "Winter vegetable"
+    "type": "Winter vegetable",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -16163,7 +16995,8 @@
    "attributes": {
     "scientific": "Daucus carota",
     "season": "Rabi",
-    "note": "Root vegetable; black (desi) and orange types"
+    "note": "Root vegetable; black (desi) and orange types",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -16385,7 +17218,8 @@
    "type": "entity",
    "domain": "crops",
    "attributes": {
-    "type": "Winter vegetable"
+    "type": "Winter vegetable",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -16630,7 +17464,8 @@
    "attributes": {
     "scientific": "Cucumis sativus",
     "season": "Kharif and zaid",
-    "note": "Salad and pickling crop"
+    "note": "Salad and pickling crop",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -16862,7 +17697,8 @@
    "attributes": {
     "scientific": "Moringa oleifera",
     "season": "Year-round pods",
-    "note": "Nutritious pods and leaves"
+    "note": "Nutritious pods and leaves",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -16943,7 +17779,17 @@
    "attributes": {
     "scientific": "Abelmoschus esculentus",
     "season": "Kharif and summer",
-    "note": "Major export vegetable"
+    "note": "Major export vegetable",
+    "notified_varieties": [
+     {
+      "name": "Arka Nikita",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -17192,7 +18038,8 @@
    "attributes": {
     "scientific": "Pisum sativum",
     "season": "Rabi (winter)",
-    "note": "Winter vegetable; also processed frozen"
+    "note": "Winter vegetable; also processed frozen",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -17424,7 +18271,8 @@
    "attributes": {
     "scientific": "Raphanus sativus",
     "season": "Rabi",
-    "note": "Quick root vegetable"
+    "note": "Quick root vegetable",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -17656,7 +18504,8 @@
    "attributes": {
     "scientific": "Luffa acutangula",
     "season": "Kharif",
-    "note": "Common cucurbit of the plains"
+    "note": "Common cucurbit of the plains",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -17704,7 +18553,8 @@
    "attributes": {
     "scientific": "Spinacia oleracea",
     "season": "Rabi (winter)",
-    "note": "Iron-rich leafy vegetable"
+    "note": "Iron-rich leafy vegetable",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -17752,7 +18602,8 @@
    "attributes": {
     "scientific": "Ipomoea batatas",
     "season": "Kharif",
-    "note": "Starchy tuber; Odisha and WB lead"
+    "note": "Starchy tuber; Odisha and WB lead",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -17928,7 +18779,8 @@
    "attributes": {
     "scientific": "Manihot esculenta",
     "season": "Annual; planted with monsoon",
-    "note": "Staple tuber of Kerala and Tamil Nadu"
+    "note": "Staple tuber of Kerala and Tamil Nadu",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -18037,7 +18889,25 @@
     "scientific": "Triticum aestivum",
     "season": "Rabi",
     "water": "Medium (45-65 cm)",
-    "importance": "Second staple; Green Revolution crop"
+    "importance": "Second staple; Green Revolution crop",
+    "notified_varieties": [
+     {
+      "name": "Pusa Gehun Gaurav (HI- 8840)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     },
+     {
+      "name": "Pusa Gehun Sharbati (HI 1665)",
+      "type": "released",
+      "source": {
+       "id": "pib-109-2024",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2044754"
+      }
+     }
+    ]
    },
    "relations": [
     {
@@ -18782,7 +19652,8 @@
    "type": "entity",
    "domain": "crops",
    "attributes": {
-    "note": "State-wise production per HSAG 2024 Table 7.3.53"
+    "note": "State-wise production per HSAG 2024 Table 7.3.53",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    },
    "relations": [
     {
@@ -19059,7 +19930,8 @@
     "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
    },
    "attributes": {
-    "note": "Temperate nut; HSAG Table 7.3.1"
+    "note": "Temperate nut; HSAG Table 7.3.1",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    }
   },
   {
@@ -19262,7 +20134,8 @@
     "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
    },
    "attributes": {
-    "note": "HSAG Table 7.3.2"
+    "note": "HSAG Table 7.3.2",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    }
   },
   {
@@ -19393,7 +20266,8 @@
     "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
    },
    "attributes": {
-    "note": "HSAG Table 7.3.13"
+    "note": "HSAG Table 7.3.13",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    }
   },
   {
@@ -19444,7 +20318,8 @@
     "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
    },
    "attributes": {
-    "note": "Temperate nut; HSAG Table 7.3.14"
+    "note": "Temperate nut; HSAG Table 7.3.14",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    }
   },
   {
@@ -19655,7 +20530,8 @@
     "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
    },
    "attributes": {
-    "note": "HSAG Table 7.3.23"
+    "note": "HSAG Table 7.3.23",
+    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications"
    }
   },
   {
@@ -19882,7 +20758,25 @@
     "url": "https://www.nhb.gov.in/statistics/Publication/Horticulture%20Statistics%20at%20a%20Glance-2024.pdf"
    },
    "attributes": {
-    "note": "HSAG Table 7.3.19"
+    "note": "HSAG Table 7.3.19",
+    "notified_varieties": [
+     {
+      "name": "Arka Anoop",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     },
+     {
+      "name": "Arka Sharath",
+      "type": "notified",
+      "source": {
+       "id": "iihr-notified",
+       "url": "https://www.iihr.res.in/varieties-and-technologies-released-icar-iihr"
+      }
+     }
+    ]
    }
   }
  ]

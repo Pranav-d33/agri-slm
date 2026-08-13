@@ -76,10 +76,49 @@
     "Freshwater fishing",
     "Fish farming"
    ],
-   "attributes": {
-    "note": "Inland (rivers, tanks, ponds, reservoirs) contributes ~70% of production; aquaculture dominant",
-    "top_aquaculture": "AP, WB, Punjab, Bihar, Gujarat, Karnataka"
-   },
+    "attributes": {
+     "note": "Inland (rivers, tanks, ponds, reservoirs) contributes ~70% of production; aquaculture dominant",
+     "top_aquaculture": "AP, WB, Punjab, Bihar, Gujarat, Karnataka",
+     "production_lakh_tonnes_fy_2022_23": {
+      "value": 131.13,
+      "by_state": {
+       "location.states.andhra_pradesh": 45.06,
+       "location.states.west_bengal": 18.56,
+       "location.states.uttar_pradesh": 9.15,
+       "location.states.bihar": 8.46,
+       "location.states.odisha": 8.39,
+       "location.states.chhattisgarh": 6.52,
+       "location.states.karnataka": 4.95,
+       "location.states.assam": 4.43,
+       "location.states.telangana": 4.38,
+       "location.states.madhya_pradesh": 3.42,
+       "location.states.jharkhand": 2.8,
+       "location.states.tamil_nadu": 2.32,
+       "location.states.gujarat": 2.07,
+       "location.states.haryana": 2.12,
+       "location.states.kerala": 1.97,
+       "location.states.punjab": 1.85,
+       "location.states.maharashtra": 1.44,
+       "location.states.rajasthan": 0.79,
+       "location.states.tripura": 0.83,
+       "location.states.jammu_kashmir": 0.27,
+       "location.states.himachal_pradesh": 0.17,
+       "location.states.meghalaya": 0.19,
+       "location.states.manipur": 0.34,
+       "location.states.uttarakhand": 0.07,
+       "location.states.goa": 0.06,
+       "location.states.arunachal_pradesh": 0.09,
+       "location.states.nagaland": 0.09,
+       "location.states.mizoram": 0.05,
+       "location.states.sikkim": null,
+       "location.uts.puducherry": 0.05
+      },
+      "source": {
+       "id": "dahd-fisheries",
+       "url": "https://dof.gov.in/sites/default/files/2024-06/Handbook.pdf"
+      }
+     }
+    },
    "relations": [
     {
      "predicate": "is_a",
