@@ -16,6 +16,7 @@ untouched.
 import json
 import os
 import re
+import urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DISTRICTS_PATH = os.path.join(ROOT, "data", "locations", "districts.json")
@@ -24,8 +25,13 @@ PDF_CACHE = os.environ.get("CRIDA_PDF_CACHE", "/tmp/opencode/pdfs")
 
 # state name -> CRIDA abbreviation
 ABBR = {
-    "Maharashtra": "MH", "West Bengal": "WB", "Kerala": "KL",
-    "Himachal Pradesh": "HP", "Haryana": "HR",
+    "Andhra Pradesh": "AP", "Arunachal Pradesh": "AR", "Assam": "AS", "Bihar": "BR",
+    "Chhattisgarh": "CG", "Goa": "GA", "Gujarat": "GJ", "Haryana": "HR",
+    "Himachal Pradesh": "HP", "Jammu and Kashmir": "JK", "Jharkhand": "JH",
+    "Karnataka": "KA", "Kerala": "KL", "Madhya Pradesh": "MP", "Maharashtra": "MH",
+    "Meghalaya": "ML", "Mizoram": "MZ", "Nagaland": "NL", "Odisha": "OR",
+    "Punjab": "PB", "Rajasthan": "RJ", "Sikkim": "SK", "Tamil Nadu": "TN",
+    "Tripura": "TR", "Uttar Pradesh": "UP", "Uttarakhand": "UK", "West Bengal": "WB",
 }
 
 # JSON district name -> CRIDA PDF folder name
@@ -230,12 +236,24 @@ def main():
         ab = ABBR[state]
         pdfn = PDF_NAME.get(state, {})
         st_dump = dump.get(ab, {})
+        # actual CRIDA folder name per district (from fetch_crida_pdfs.py names map)
+        nmap_path = os.path.join(PDF_CACHE, f"{ab}__names.json")
+        nmap = {}
+        if os.path.exists(nmap_path):
+            nmap = json.load(open(nmap_path))
         for d in s["districts"]:
             name = d["name"]
+            # PDFs cached under the current district name by fetch_crida_pdfs.py;
+            # fall back to CRIDA folder-name variant for legacy cache entries.
+            t1 = st_dump.get(f"{ab}__{name}__1.1.pdf", "")
+            t4 = st_dump.get(f"{ab}__{name}__1.4.pdf", "")
+            t7 = st_dump.get(f"{ab}__{name}__1.7.pdf", "")
             pname = pdfn.get(name, name)
-            t1 = st_dump.get(f"{ab}__{pname}__1.1.pdf", "")
-            t4 = st_dump.get(f"{ab}__{pname}__1.4.pdf", "")
-            t7 = st_dump.get(f"{ab}__{pname}__1.7.pdf", "")
+            folder = nmap.get(name, pname)
+            if not t1:
+                t1 = st_dump.get(f"{ab}__{pname}__1.1.pdf", "")
+                t4 = st_dump.get(f"{ab}__{pname}__1.4.pdf", t4)
+                t7 = st_dump.get(f"{ab}__{pname}__1.7.pdf", t7)
 
             # zone from 1.1
             pc, narp = extract_zone(t1)
@@ -258,7 +276,7 @@ def main():
                 attrs["major_crops"] = crops
             attrs["source"] = {
                 "id": "crida-cp",
-                "url": f"https://icar-crida.res.in/CCP/{ab}/{pname.replace(' ', '%20')}/1.1.pdf",
+                "url": f"https://icar-crida.res.in/CCP/{ab}/{urllib.parse.quote(folder)}/1.1.pdf",
             }
             # update note
             d["notes"] = "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp)."

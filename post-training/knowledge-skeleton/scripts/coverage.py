@@ -39,7 +39,7 @@ GAPS = [
     "Pesticides: 352/371 registered actives have formulations (PPQS 31.03.2026; 21 more matched by spelling-equivalents, each flagged in notes); ~19 actives still unmatched + 9(3)(i) provisional registrations (no official machine-readable registry exists; per-meeting RC minutes only) = counted TODO",
     "Fisheries: state-wise fish production FY2022-23 (inland 131.13 LT + marine 44.32 LT, per-state) encoded from DAHDF Handbook 2023; district-wise marine landings (CMFRI) + more species = TODO",
     "Market: MSP year series 2010-11..2026-27 in paddy/wheat/28 crops encoded from CACP; mandi price time series (AGMARKNET REST, no bulk download) = TODO",
-    "Location: district-level attributes = partial. 29 districts (Uttarakhand 13 + Haryana/HP/Kerala/Maharashtra/WB 100 via CRIDA CCP) have zone/soil/crops; remaining districts = TODO via DES APY district export",
+    "Location: district-level attributes = 657/784 districts carry major_crops (zone/soil/crops for 576 via ICAR-CRIDA CCP district PDFs; major crops for ~80 more via DES APY district APY export). Remaining 127: post-2014 split districts absent from both CRIDA (2013-era) and APY (pre-2014 data), plus Delhi/Ladakh/A&N/Lakshadweep with no CRIDA or APY coverage = counted TODO",
     "Hindi/local aliases: allowed in aliases field but not yet populated; needs a registered bilingual source (e.g. DAC&FW glossary) before adding",
 ]
 
@@ -62,6 +62,8 @@ def main():
 
     districts = json.loads((DATA / "locations" / "districts.json").read_text())
     total_districts = sum(len(s["districts"]) for s in districts["states"])
+    with_attrs = sum(1 for s in districts["states"] for d in s["districts"]
+                     if d.get("attributes", {}).get("major_crops"))
     narp = len(json.loads((DATA / "locations" / "narp_zones.json").read_text()).get("zones", []))
 
     lines = [
@@ -70,7 +72,7 @@ def main():
         "Generated: `%s`" % __import__("time").strftime("%Y-%m-%dT%H:%M:%SZ", __import__("time").gmtime()),
         "",
         f"- Entities: **{total_entities}** | Relations: **{total_rels}**",
-        f"- Locations: 36 states/UTs, {total_districts} districts (LGD current, with census-2011 counts), 15 agro-climatic zones, {narp} NARP zones (ICAR), 9 regions",
+        f"- Locations: 36 states/UTs, {total_districts} districts (LGD current, with census-2011 counts; {with_attrs} with district attributes), 15 agro-climatic zones, {narp} NARP zones (ICAR), 9 regions",
         "",
         "## Per-domain counts (collected vs expected)",
         "",
