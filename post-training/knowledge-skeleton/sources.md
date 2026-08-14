@@ -19,6 +19,18 @@ Every fact in this skeleton traces to a source below. `id` is referenced from en
 | cibrc-ban | CIB&RC banned/restricted list | pesticides | https://www.ppqs.gov.in/divisions/cib-rc/registered-products | Official 'Banned, Refused Registration and Restricted in Use' list (updated 31.07.2026) | ready |
 | cibrc-9-3 | CIB&RC 9(3) registered actives | pesticides | https://www.ppqs.gov.in/divisions/cib-rc/registered-products | 371 registered active ingredients; extracted to data/_raw/cibrc/registered_actives_9_3.json | ready |
 | ppqs | PPQS (Plant Protection & Quarantine) | pesticides, protection | https://ppqs.gov.in/ | Govt of India | manual |
+| ppqs-rc-minutes | PPQS: CIB&RC Registration Committee meeting minutes | pesticides | https://ppqs.gov.in/divisions/cib-rc/news-update | Official RC minutes PDFs (474th etc.); source of Section 9(3)/9(4) provisional registration grants | ready |
+| sathi-notices | SATHI/seednet: CSC Crop Standards meeting notices | crops | https://seedtrace.gov.in/ms015/seedNet/noticeDetails | Official Central Sub-Committee on Crop Standards, Notification & Release of Varieties meeting minutes + gazette (AgriculturalCrops 45 / HorticultureCrops 19 notices, 15th-94th meetings) | ready |
+| tnau-sapota | TNAU Agritech: TNAU sapota varieties | crops | https://agritech.tnau.ac.in/horticulture/horti_TNAU_varieties_fc_sapota.html | State SAU; CO.1/CO.2/PKM/CO 3 sapota releases | ready |
+| aicrps | AICRP on Spices: released varieties | crops | https://aicrps.res.in/pdf/ICAR%20AICRPS%20Varieties.pdf | ICAR coordinated project; clove PPI(CL)1 | ready |
+| isri-sugarbeet | ICAR-ISRI: Sugarbeet breeding varieties | crops | https://isri.res.in/iisr/pages/breedsugarbeet.jsp | ICAR institute; LS-6, ISRI Comp-1 sugar beet | ready |
+| gbpant | GB Pant University (Pantnagar) | crops | https://link.springer.com/content/pdf/10.1007/978-981-19-2730-0.pdf | State SAU; Pant S-10 sugar beet | ready |
+| pauc | PAU + extension cultivar guides | crops | https://www.apnikheti.com/en/pn/agriculture/horticulture/fruit/peach | State SAU (PAU) peach/plum cultivars | ready |
+| ccari | ICAR-CCARI (Coastal Agricultural Research Institute, Goa) | crops | https://ccari.res.in/dss/pineapple.html | ICAR institute; pineapple cultivars, sapota DHS hybrids | ready |
+| icar-jas | Indian Journal of Agricultural Sciences | crops | https://epubs.icar.org.in/index.php/IJAgS/article/view/76497 | ICAR journal; strawberry exotic cultivars | ready |
+| icarda | ICARDA: grasspea | crops | https://www.icarda.org/media/news/grasspea-back-menu-indias-agriculture | CGIAR center; low-ODAP grasspea releases | ready |
+| iisr-spices | ICAR-IISR (Indian Institute of Spices Research) | crops | https://www.spices.res.in/ | ICAR institute; vanilla germplasm | ready |
+| pib | Press Information Bureau | crops | https://pib.gov.in/PressReleasePage.aspx?PRID=1665796 | Govt of India; asafoetida NBPGR intro | ready |
 | dacfw | DAC&FW (Agriculture & Farmers Welfare) | market, schemes, crops | https://agricoop.nic.in/ | Govt of India | manual |
 | des | DES (Economics & Statistics, DAC&FW) crop APY reports | crops | https://data.desagri.gov.in/website/crops-apy-report-web | Govt of India; state-wise area/production via printdraft report (2000-2013); used for Moth/Khesari/Horse-gram/Cowpea/Ragi/Small-millets + 27 field crops (rice/wheat/maize/jowar/bajra/barley/gram/pulses/oilseeds/cotton/jute/mesta/sugarcane/tobacco); rice uses Kharif+Autumn+Winter+Summer union | ready |
 | agridashboard | Agristack/DAC dashboard | market, crops | https://agridashboard.dac.gov.in/ | Govt of India | manual |
@@ -110,8 +122,8 @@ Every fact in this skeleton traces to a source below. `id` is referenced from en
 | ctri-tobacco | ICAR-CTRI: Tobacco varieties | crops | https://ctri.icar.gov.in/ | ICAR institute; FCV/oriental/Natu/burley/chewing tobacco released varieties | ready |
 | icar-iimr | ICAR-IIMR (Indian Institute of Millets Research): Small millet varieties | crops | https://www.millets.res.in/ | ICAR institute; released foxtail/little/kodo/browntop/pearl/barnyard millet varieties | ready |
 
-## 9(3)(i) provisional registrations — status
-No official machine-readable registry of Section 9(3)(i) provisional pesticide registrations exists on cibrc.gov.in (site down) or ppqs.gov.in/divisions/cib-rc/registered-products (only 9(3) formulations/actives, banned list, import sources, household/rodenticide and desert-locust lists). Provisional grants appear only per-meeting in RC minutes PDFs and convert to 9(3). COUNTED TODO: no 9(3)(i) provisional-registration entities added; do NOT fabricate.
+## Section 9(3)(i) provisional registrations — status
+The provisional-registration mechanism under the Insecticides Act, 1968 is now handled through **Section 9(4)** (registration for Technical Indigenous Manufacture / Indigenous Manufacture / Import — TIM/FIM/FI/TI, granted before full 9(3) data). The 9(3)(i) sub-category is the older label for this same provisional route. Grants appear per-meeting in the CIB&RC Registration Committee minutes (e.g. 474th RC minutes, ppqs.gov.in/divisions/cib-rc/news-update). The 9(3)/9(4) registrations and their Section 9(3) registration type are captured in data/pesticides.json; the 30 registered actives without formulations are legitimately formulation-less (combination-only components, genus-level biocontrols such as Trichoderma, banned actives such as Endosulfan, and genuinely absent sole-actives). COUNTED TODO: no per-application 9(4) file/validity data added (minutes narrative-only); do NOT fabricate.
 
 ## Fetch status (filled by scripts/fetch_sources.py)
 <!-- fetch_sources.py appends a status table here -->

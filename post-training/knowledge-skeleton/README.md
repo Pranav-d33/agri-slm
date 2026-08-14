@@ -66,17 +66,20 @@ plant-protection/fisheries/post-harvest/market/schemes/forestry/apiculture all h
 taxonomy skeleton at levels 0–2 with location anchoring. Data-fill milestones: all 371
 registered pesticide actives as entities with 352 formulations attached (PPQS 31.03.2026);
 MSP year series 2010-11→2026-27 for 28 crops from CACP; state-wise fish production FY2022-23
-(131.13 LT inland + 44.32 LT marine) from DAHDF Handbook 2023; 770 crop varieties across 95
-crops (PIB, ICAR institutes, commodity boards); marine landings 2025 by 70 resource groups
+(131.13 LT inland + 44.32 LT marine) from DAHDF Handbook 2023; crop varieties across 105
+crops + 7 crops recorded as having no notified variety (SATHI CSC meeting minutes + gazette,
+ICAR institutes, state SAUs; closed the 16-crop variety gap); marine landings 2025 by 70 resource groups
 (tonnes) from ICAR-CMFRI Booklet 47/2026; NARP zone→district lists for 122/125 zones;
 daily mandi price+arrival+MSP snapshot (23 crops, 11-08-2026) from the live AGMARKNET 2.0
 public API; 657/784 districts carry attributes (zone/soil/crops for 576 via ICAR-CRIDA
 contingency-plan PDFs; major crops for 81 more via DES APY district export). District ids
 are format-checked across all files by `scripts/validate.py` (uniform
 `location.districts.<state>.<district>` references, no duplicates, uniform attribute
-shape). Remaining leaf-level data (127 districts that postdate both CRIDA and APY
-coverage, 16 crop variety registries, 9(3)(i) provisional pesticides — all with
-auth-gated/down official sources) is enumerated as counted gaps in COVERAGE.md.
+shape). Provisional pesticide registrations (Section 9(4), the current route for the former
+9(3)(i)) are enumerated per-meeting in CIB&RC RC minutes (ppqs.gov.in/divisions/cib-rc/news-update).
+Remaining leaf-level data (127 districts that postdate both CRIDA and APY
+coverage, 4 fodder-crop variety registries, per-application 9(4) pesticide file/validity —
+all with auth-gated/down official sources) is enumerated as counted gaps in COVERAGE.md.
 
 ## KG conversion (future)
 
