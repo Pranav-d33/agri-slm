@@ -6,6 +6,9 @@ Validate the knowledge skeleton:
 - every entity carries required fields (id, name, domain, type, relations, source)
 - every source id is registered in sources.md
 - every location relation resolves to an id present in data/locations/*.json
+- ontology conformance (WARN mode): attribute keys within the entity Class's
+  required ∪ optional, no synonym co-presence, no deprecated aliases,
+  predicate domain/range respected.
 Exits non-zero on any error. Prints a summary.
 """
 
@@ -22,6 +25,22 @@ KNOWN_PREDICATES = {
     "registered_in", "banned_in", "recommended_for", "controlled_by", "affects",
     "requires", "suited_for", "monitored_by", "regulated_by", "certified_by",
 }
+
+SCHEMA = json.loads((ROOT / "schema.json").read_text(encoding="utf-8"))
+CLASSES = {k: v for k, v in SCHEMA["classes"].items() if not k.startswith("_")}
+ALIASES = SCHEMA["key_aliases"]
+ALIASES.pop("_description", None)
+ALIAS = {a: canon for canon, alist in ALIASES.items() for a in alist}
+
+
+def entity_class(dom, typ):
+    """Map (domain, type) to the ontology Class name. '*' domain matches all."""
+    for name, c in CLASSES.items():
+        if typ not in c.get("types", []):
+            continue
+        if "*" in c.get("domains", []) or dom in c.get("domains", []):
+            return name
+    return None
 
 
 def load_entities():
@@ -155,6 +174,70 @@ def check_district_attribute_shape():
     return errors
 
 
+def check_ontology(entities):
+    """WARN-mode ontology conformance:
+    - attribute keys must be within the entity Class's required ∪ optional
+    - deprecated alias keys (per key_aliases) must not appear
+    - no synonym co-presence (canonical + alias both set)
+    - predicate domain/range respected (source Class in domain, target Class in range)
+    Warnings only: schema.json 'conventions.class_contract' states these become
+    errors once conformance is declared complete.
+    """
+    warnings = 0
+
+    # cache object id -> Class name (objects may be location ids, skipped)
+    class_of = {}
+    for eid, e in entities.items():
+        class_of[eid] = entity_class(e.get("domain"), e.get("type"))
+
+    for eid, e in entities.items():
+        cls = class_of.get(eid)
+        attrs = e.get("attributes") or {}
+        if cls is None:
+            print(f"WARN {eid}: no ontology Class for (domain={e.get('domain')}, type={e.get('type')})")
+            warnings += 1
+            continue
+        contract = CLASSES[cls]
+        allowed = set(contract.get("required", [])) | set(contract.get("optional", {}))
+        for key in attrs:
+            if key in ALIAS:
+                print(f"WARN {eid}: deprecated alias key '{key}' (canonical '{ALIAS[key]}')")
+                warnings += 1
+            elif key not in allowed:
+                print(f"WARN {eid}: key '{key}' not in Class '{cls}' contract "
+                      f"(required∪optional)")
+                warnings += 1
+            elif key in contract.get("required", []):
+                pass
+        # synonym co-presence: canonical + its aliases both present
+        for canon, alist in ALIASES.items():
+            if canon in attrs:
+                for a in alist:
+                    if a in attrs:
+                        print(f"WARN {eid}: synonym co-presence '{canon}' + '{a}'")
+                        warnings += 1
+
+        # predicate domain/range
+        for rel in e.get("relations", []):
+            pred = rel.get("predicate")
+            obj = rel.get("object")
+            spec = SCHEMA["relation"]["predicates"].get(pred)
+            if not spec or obj not in class_of:
+                continue
+            if class_of[eid] not in spec.get("domain", []):
+                # AnyClass accepts anything; skip other class-domain mismatches for now
+                if spec.get("domain") and "AnyClass" not in spec.get("domain", []):
+                    print(f"WARN {eid} --{pred}-> {obj}: source Class '{class_of[eid]}' "
+                          f"not in domain {spec.get('domain')}")
+                    warnings += 1
+            if spec.get("range") and "AnyClass" not in spec.get("range", []) and "Location" not in spec.get("range", []):
+                if class_of.get(obj) not in spec.get("range", []):
+                    print(f"WARN {eid} --{pred}-> {obj}: target Class "
+                          f"'{class_of.get(obj)}' not in range {spec.get('range')}")
+                    warnings += 1
+    return warnings
+
+
 def main():
     errors = 0
     entities = load_entities()
@@ -198,10 +281,12 @@ def main():
 
     errors += check_district_consistency()
     errors += check_district_attribute_shape()
+    warnings = check_ontology(entities)
 
     n_entities = len(entities)
     n_relations = sum(len(e.get("relations", [])) for e in entities.values())
     print(f"entities: {n_entities}, relations: {n_relations}, location ids: {len(loc_ids)}")
+    print(f"ontology warnings: {warnings} (warn-mode; see schema.json conventions.class_contract)")
     if errors:
         print(f"FAIL: {errors} error(s)")
         sys.exit(1)

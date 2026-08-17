@@ -43,8 +43,8 @@
     "Seed (Control) Order 1983"
    ],
    "attributes": {
-    "purpose": "Certification of seed quality, truthful labelling",
-    "amendment": "Seeds Bill proposed repeatedly to replace Act"
+    "amendment": "Seeds Bill proposed repeatedly to replace Act",
+    "use": "Certification of seed quality, truthful labelling"
    },
    "relations": [
     {
@@ -227,7 +227,7 @@
    "type": "category",
    "domain": "seeds",
    "attributes": {
-    "types": "Hybrid, High-Yielding Variety (HYV), Open-Pollinated Variety (OPV), Genetically Modified (Bt cotton only, approved 2002), Traditional/local varieties"
+    "type": "Hybrid, High-Yielding Variety (HYV), Open-Pollinated Variety (OPV), Genetically Modified (Bt cotton only, approved 2002), Traditional/local varieties"
    },
    "relations": [
     {

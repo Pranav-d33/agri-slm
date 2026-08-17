@@ -1,6 +1,6 @@
 {
-  "_description": "Schema contract for the Indian agriculture knowledge skeleton. Two record types: entities and relations. All facts are deterministic — each entity/relation carries a source reference registered in sources.md. No LLM-generated facts.",
-  "version": "1.0.0",
+  "_description": "Schema contract + ontology for the Indian agriculture knowledge skeleton. Two record types: entities and relations. All facts are deterministic — each entity/relation carries a source reference registered in sources.md. No LLM-generated facts. The ontology (classes, properties, predicates) is the canonical contract: every (domain, type) maps to exactly one Class, each Class has one required/optional property schema, and every predicate declares domain/range/inverse. Same concept = same key everywhere.",
+  "version": "2.0.0",
 
   "entity": {
     "required_fields": ["id", "name", "domain", "type", "relations", "source"],
@@ -11,7 +11,7 @@
       "aliases": "Alternate names / local names (English only for now). May include AGROVOC prefLabels via agrovocId.",
       "domain": "One of the domain roots defined below.",
       "type": "Entity type from the type taxonomy below.",
-      "attributes": "Factual attribute map (deterministic, citeable).",
+      "attributes": "Factual attribute map (deterministic, citeable). Keys MUST follow the property contract of the entity's Class (see classes).",
       "relations": "Array of relation objects: {predicate, object, source?}.",
       "source": "{id, url, fetched} referencing sources.md entry.",
       "notes": "Free-text: coverage state, gap notes, TODO markers.",
@@ -21,24 +21,127 @@
 
   "relation": {
     "required_fields": ["predicate", "object"],
+    "_predicate_contract": "Every predicate declares domain (source Class) and range (target Class or 'Location'). A relation is valid only if the source entity's Class is in domain and the object's Class is in range. inverse names the reverse predicate (may be unidirectional: inverse null).",
     "predicates": {
-      "is_a": "child is_a parent (taxonomy edge)",
-      "part_of": "part of a larger entity (e.g. domain part_of agriculture)",
-      "found_in": "located/found in a location (soil in states)",
-      "grown_in": "crop/livestock raised in a location",
-      "practiced_in": "activity/technique practiced in a location",
-      "produced_in": "commodity produced in a location",
-      "registered_in": "registered/approved by an institution (pesticides, varieties)",
-      "banned_in": "banned/restricted in a location (pesticides)",
-      "recommended_for": "recommended for a crop/pest/condition",
-      "controlled_by": "controlled by a substance/measure (pest controlled_by pesticide)",
-      "affects": "affects a crop/plant (pest affects crop)",
-      "requires": "requires a resource (crop requires soil type)",
-      "suited_for": "soil suited for crop",
-      "monitored_by": "data/statistics monitored by institution",
-      "regulated_by": "regulated by institution/law",
-      "certified_by": "certified by institution (organic)",
-      "grown_in_state": "crop grown in a state (convenience of grown_in)",
+      "is_a": {
+        "desc": "child is_a parent (taxonomy edge)",
+        "domain": ["AnyClass"],
+        "range": ["AnyClass"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "part_of": {
+        "desc": "part of a larger entity (e.g. domain part_of agriculture)",
+        "domain": ["AnyClass"],
+        "range": ["AnyClass"],
+        "inverse": "has_part",
+        "cardinality": "many"
+      },
+      "found_in": {
+        "desc": "located/found in a location (soil in states)",
+        "domain": ["AnyClass"],
+        "range": ["Location"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "grown_in": {
+        "desc": "crop/livestock raised in a location",
+        "domain": ["Crop", "LivestockBreed", "LivestockVariety"],
+        "range": ["Location"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "practiced_in": {
+        "desc": "activity/technique practiced in a location",
+        "domain": ["FarmingPractice"],
+        "range": ["Location"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "produced_in": {
+        "desc": "commodity produced in a location",
+        "domain": ["Crop", "FisherySpecies", "LivestockBreed", "AquacultureProduct"],
+        "range": ["Location"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "registered_in": {
+        "desc": "registered/approved by an institution (pesticides, varieties, livestock breeds)",
+        "domain": ["PesticideSubstance", "CropVariety", "LivestockBreed", "LivestockVariety", "Category"],
+        "range": ["Institution"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "banned_in": {
+        "desc": "banned/restricted in a location (pesticides)",
+        "domain": ["PesticideSubstance"],
+        "range": ["Location"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "recommended_for": {
+        "desc": "recommended for a crop/pest/condition",
+        "domain": ["PesticideSubstance", "FertilizerSubstance", "Measure", "CropVariety", "SeedEntity"],
+        "range": ["Crop", "AnyClass"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "controlled_by": {
+        "desc": "controlled by a substance/measure (pest controlled_by pesticide)",
+        "domain": ["Pest", "PlantDisease", "Weed"],
+        "range": ["PesticideSubstance"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "affects": {
+        "desc": "affects a crop/plant/livestock/season (pest affects crop, weather event affects crop)",
+        "domain": ["Pest", "PlantDisease", "Weed", "WeatherEvent", "LivestockBreed", "Category"],
+        "range": ["Crop", "LivestockBreed", "Category", "CropSeason", "WeatherEvent"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "requires": {
+        "desc": "requires a resource (crop requires soil type)",
+        "domain": ["Crop"],
+        "range": ["SoilType", "Category"],
+        "inverse": "suited_for",
+        "cardinality": "many"
+      },
+      "suited_for": {
+        "desc": "soil suited for crop",
+        "domain": ["SoilType"],
+        "range": ["Crop", "Category"],
+        "inverse": "requires",
+        "cardinality": "many"
+      },
+      "monitored_by": {
+        "desc": "data/statistics monitored by institution",
+        "domain": ["AnyClass"],
+        "range": ["Institution"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "regulated_by": {
+        "desc": "regulated by institution/law",
+        "domain": ["AnyClass"],
+        "range": ["Institution"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "certified_by": {
+        "desc": "certified by institution (organic)",
+        "domain": ["AnyClass"],
+        "range": ["Institution"],
+        "inverse": null,
+        "cardinality": "many"
+      },
+      "grown_in_state": {
+        "desc": "DEPRECATED convenience of grown_in — do not use; kept for backward compat",
+        "domain": [],
+        "range": ["Location"],
+        "inverse": null,
+        "cardinality": "many"
+      },
       "source": "optional per-relation source override"
     }
   },
@@ -62,7 +165,8 @@
     "market": "Mandis, APMC, MSP, e-NAM, exports, insurance.",
     "schemes": "Government schemes and agricultural institutions (ICAR, SAUs, KVKs).",
     "forestry": "Forests, timber, non-timber forest products, agroforestry.",
-    "apiculture": "Beekeeping, honey, sericulture, silk."
+    "apiculture": "Beekeeping, honey, sericulture, silk.",
+    "finance": "Agricultural finance: institutional credit, KCC, PSL, refinance, insurance subvention."
   },
 
   "entity_types": {
@@ -78,12 +182,238 @@
     "event": "Season/event (kharif, rabi, zaid, monsoon)"
   },
 
+  "classes": {
+    "_description": "Class hierarchy. Each Class maps to a (domain, type) set. The property contract (required/optional + value type) is the canonical, data-backed schema — every entity of that Class MUST only use keys from required ∪ optional. This is the 'same format in all sub-domains' rule: e.g. SoilType is one Class whether the entity lives in soil.json or is referenced from crops.json.",
+    "_class_mapping": "Each entry: {domains: [...], types: [...], description, required: [...], optional: {...key: value_type_or_spec}}. required keys are present in >=95% of current entities of that Class. optional value types: str | int | float | bool | list | dict | list_of_objects | list_of_strings | dict_of_numbers.",
+
+    "Domain": {
+      "domains": ["*"], "types": ["domain"],
+      "desc": "Top-level domain root node.",
+      "required": [],
+      "optional": {
+        "note": "str", "gdp_share": "str", "workforce": "str", "world_ranking": "str"
+      }
+    },
+
+    "Category": {
+      "domains": ["*"], "types": ["category"],
+      "desc": "Second-level grouping (cereals, major_types, classes...).",
+      "required": [],
+      "optional": {
+        "note": "str", "type": "str", "species": "str", "seasons": "list",
+        "banned_count": "int", "gap": "str", "reform": "str", "classification": "str",
+        "coverage": "str", "methods": "str", "prohibited": "str", "scheme": "str",
+        "landings_tonnes_2025": "int", "landings_tonnes_2025_note": "str",
+        "production_lakh_tonnes_fy_2022_23": "str", "states": "list",
+        "top_aquaculture": "list", "milk_production_2021_22": "str",
+        "milk_production_2024_25": "str", "per_capita_availability": "str",
+        "total_2019": "str"
+      }
+    },
+
+    "Crop": {
+      "domains": ["crops"], "types": ["entity"],
+      "desc": "A crop species/variety grown in India. The most interlinked class: referenced from soil, pesticides, market, plant_protection, weather, seeds, fertilizers.",
+      "required": ["scientific", "phenology", "phenology_note", "phenology_source_id", "phenology_source_url"],
+      "optional": {
+        "note": "str", "season": "str", "type": "str", "use": "str", "water": "str",
+        "importance": "str", "agrovocId": "str",
+        "notified_varieties": "list_of_objects",
+        "notified_status": {"type": "object", "desc": "{status: none, commercial_cultivars: [...], source: {...}}"},
+        "apy_stats": {"type": "object", "desc": "{latest_fy: {area, production, yield}, source, note} — full series in data/_generated"},
+        "scientific_source": {"type": "object", "desc": "{id, url} provenance for scientific name"},
+        "phenology_source": "str"
+      }
+    },
+
+    "CropSeason": {
+      "domains": ["crops"], "types": ["event"],
+      "desc": "Growing season (kharif, rabi, zaid).",
+      "required": ["examples", "months"],
+      "optional": {"rain": "str", "note": "str"}
+    },
+
+    "SoilType": {
+      "domains": ["soil"], "types": ["entity"],
+      "desc": "A soil type (alluvial, black, laterite...). Canonical node: crops.json references these via requires, soil.json owns them.",
+      "required": [],
+      "optional": {
+        "note": "str", "colour": "str", "fertility": "str", "origin": "str",
+        "texture": "str", "character": "str", "area_share": "str", "region": "str",
+        "special": "str", "water_holding": "str"
+      }
+    },
+
+    "Pest": {
+      "domains": ["plant_protection"], "types": ["entity"],
+      "desc": "An insect/mite pest of a crop. Ids: plant_protection.pest.*",
+      "required": [],
+      "optional": {"note": "str", "type": "str", "damage": "str", "attack_stage": "list", "tnau_pest_calendar": "bool"}
+    },
+
+    "PlantDisease": {
+      "domains": ["plant_protection"], "types": ["entity"],
+      "desc": "A fungal/bacterial/viral disease of a crop. Ids: plant_protection.disease.*",
+      "required": [],
+      "optional": {"note": "str", "type": "str", "damage": "str"}
+    },
+
+    "Weed": {
+      "domains": ["plant_protection"], "types": ["entity"],
+      "desc": "A weed species. Ids: plant_protection.weeds.*",
+      "required": [],
+      "optional": {"note": "str", "type": "str"}
+    },
+
+    "PesticideSubstance": {
+      "domains": ["pesticides"], "types": ["substance"],
+      "desc": "A registered pesticide active ingredient (class is the CIB&RC registration class). Banned/restricted actives also map here (type: substance) — they lack the registration class, which is why class is optional.",
+      "required": [],
+      "optional": {"note": "str", "use": "str", "class": "str", "formulations": "list_of_objects"}
+    },
+
+    "FertilizerSubstance": {
+      "domains": ["fertilizers"], "types": ["substance"],
+      "desc": "A fertilizer / biofertilizer / manure substance.",
+      "required": [],
+      "optional": {"note": "str", "type": "str", "use": "str", "npk": "str"}
+    },
+
+    "LivestockBreed": {
+      "domains": ["livestock"], "types": ["entity"],
+      "desc": "An indigenous or improved livestock breed (NBAGR).",
+      "required": ["note"],
+      "optional": {"species": "str", "species_affected": "str", "vaccine": "str", "period": "str"}
+    },
+
+    "LivestockVariety": {
+      "domains": ["livestock"], "types": ["variety"],
+      "desc": "A livestock variety/breed record with origin.",
+      "required": ["note", "origin", "species"],
+      "optional": {}
+    },
+
+    "Institution": {
+      "domains": ["schemes", "water"], "types": ["institution"],
+      "desc": "Government scheme or institution (ICAR, SAUs, KVKs, CIB&RC...). Canonical node referenced from many domains.",
+      "required": [],
+      "optional": {
+        "note": "str", "role": "str", "use": "str", "benefit": "str",
+        "coverage": "str", "started": "str", "launched": "str", "outlay": "str",
+        "per_drop_more_crop": "str"
+      }
+    },
+
+    "Measure": {
+      "domains": ["*"], "types": ["measure"],
+      "desc": "Practice, technique, method, scheme, or standard.",
+      "required": [],
+      "optional": {
+        "note": "str", "use": "str", "scheme": "str", "amendment": "str",
+        "budget": "str", "crops": "list", "efficiency": "str", "frequency": "str",
+        "rules": "str", "set_by": "str", "products": "str", "service": "str",
+        "principles": "str", "operator": "str", "standards": "str", "cost": "str",
+        "components": "str", "promotion": "str", "msp_series": "object",
+        "mandi_price_snapshot": "object", "bodies": "str", "classes": "str",
+        "indicator": "str", "buffalo_2019": "str", "cattle_2019": "str",
+        "poultry_2019": "str", "total_livestock_2019": "str", "latest": "str"
+      }
+    },
+
+    "FisherySpecies": {
+      "domains": ["fisheries"], "types": ["entity"],
+      "desc": "A marine/inland/aquaculture species or fishery group.",
+      "required": [],
+      "optional": {"note": "str", "species": "str", "landings_tonnes_2025": "int", "coastline": "str", "employment": "str"}
+    },
+
+    "ForestEntity": {
+      "domains": ["forestry"], "types": ["entity"],
+      "desc": "A forest/timber/NTFP species or forest-status entity.",
+      "required": [],
+      "optional": {"note": "str", "use": "str", "cover": "str", "largest_by_area": "str", "largest_by_percent": "str"}
+    },
+
+    "MachineryEntity": {
+      "domains": ["machinery"], "types": ["entity"],
+      "desc": "A farm machine/implement/brand.",
+      "required": [],
+      "optional": {"note": "str", "brand": "str"}
+    },
+
+    "WaterEntity": {
+      "domains": ["water"], "types": ["entity"],
+      "desc": "A river basin, water resource, or irrigation-status entity.",
+      "required": ["note"],
+      "optional": {"states": "list", "water_stats": "object", "canal_share": "str", "groundwater_share": "str", "irrigated_area": "str", "rainfed": "str"}
+    },
+
+    "WeatherEvent": {
+      "domains": ["weather"], "types": ["event"],
+      "desc": "A weather/climate event (monsoon, drought, cyclone, El Nino).",
+      "required": [],
+      "optional": {"note": "str", "period": "str", "region": "str", "affected_areas": "str", "relief": "str", "type": "str", "example": "str", "agriculture_impact": "str", "coverage": "str"}
+    },
+
+    "WeatherEntity": {
+      "domains": ["weather"], "types": ["entity"],
+      "desc": "A weather phenomenon or season entity.",
+      "required": [],
+      "optional": {"note": "str", "period": "str", "annual_average": "str", "range": "str", "variability": "str", "onset": "str"}
+    },
+
+    "SeedEntity": {
+      "domains": ["seeds"], "types": ["entity"],
+      "desc": "A seed type, hybrid, or variety record.",
+      "required": [],
+      "optional": {"note": "str", "adoption": "str", "controversy": "str", "release": "str"}
+    },
+
+    "OrganicEntity": {
+      "domains": ["organic"], "types": ["entity"],
+      "desc": "An organic farming entity (area, input, state status).",
+      "required": [],
+      "optional": {"note": "str", "use": "str", "preparation": "str", "certification": "str", "status": "str", "exports": "str"}
+    },
+
+    "FinanceEntity": {
+      "domains": ["finance"], "types": ["entity"],
+      "desc": "An agricultural finance instrument/measure (KCC, PSL, subvention...).",
+      "required": ["note"],
+      "optional": {"launched": "str"}
+    },
+
+    "PostHarvestEntity": {
+      "domains": ["post_harvest"], "types": ["entity"],
+      "desc": "A post-harvest entity (loss category, storage, processing).",
+      "required": [],
+      "optional": {"note": "str", "causes": "str", "scheme": "str"}
+    },
+
+    "GenericEntity": {
+      "domains": ["apiculture", "market", "fertilizers", "agriculture"], "types": ["entity"],
+      "desc": "Generic concrete entities not captured by a specialised class.",
+      "required": [],
+      "optional": {"note": "str", "type": "str", "species": "str", "brand": "str"}
+    }
+  },
+
+  "key_aliases": {
+    "_description": "Canonical key resolution. Only the LEFT key may appear in data. Migration renames right->left. Verified: no entity carries real content in both keys of a pair. NOTE: 'species' (livestock common name, e.g. pig/cattle) and 'character' (soil description) are NOT aliases of 'scientific' — they are semantically distinct and kept as-is.",
+    "note": ["notes"],
+    "scientific": ["scientific_name"],
+    "use": ["uses", "purpose"],
+    "type": ["types"]
+  },
+
   "conventions": {
     "id_format": "lower_snake_case, dotted: <domain>.<category>.<name>",
     "name_language": "English only (v1); Hindi/local names allowed in aliases only",
     "location_refs": "Location relations MUST resolve to ids in data/locations/*.json",
     "source_refs": "Every entity and every relation MUST carry a source id present in sources.md",
     "gap_marking": "Uncollected leaf-level data is marked in notes with TODO + expected count, never fabricated",
-    "kg_ready": "KG conversion = emit (id, predicate, object) for every relation; entities become nodes"
+    "kg_ready": "KG conversion = emit (id, predicate, object) for every relation; entities become nodes",
+    "class_contract": "Attribute keys of an entity MUST be within its Class's required ∪ optional. Unknown keys, deprecated aliases, and synonym co-presence (note+notes, use+uses, type+types, scientific+species) are validation warnings now, errors once conformance is declared complete.",
+    "inverse_consistency": "suited_for <-> requires and part_of <-> has_part are inverse pairs; both directions may coexist and are treated as the same logical fact (owl:inverseOf)."
   }
 }

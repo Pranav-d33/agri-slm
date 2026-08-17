@@ -422,8 +422,8 @@
    "type": "measure",
    "domain": "pesticides",
    "attributes": {
-    "purpose": "Regulation of import, manufacture, sale, transport, distribution and use of insecticides in India",
-    "rules": "Insecticides Rules 1971"
+    "rules": "Insecticides Rules 1971",
+    "use": "Regulation of import, manufacture, sale, transport, distribution and use of insecticides in India"
    },
    "relations": [
     {
@@ -515,7 +515,7 @@
   {
    "id": "pesticides.alachlor",
    "name": "Alachlor",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -539,7 +539,7 @@
   {
    "id": "pesticides.aldicarb",
    "name": "Aldicarb",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 682(E) dated 17.07.2001"
@@ -563,7 +563,7 @@
   {
    "id": "pesticides.aldrin",
    "name": "Aldrin",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, sale and use in India (CIB&RC gazette)"
@@ -845,7 +845,7 @@
   {
    "id": "pesticides.ammonium_sulphamate",
    "name": "Ammonium Sulphamate",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -1145,7 +1145,7 @@
   {
    "id": "pesticides.azinphos_ethyl",
    "name": "Azinphos Ethyl",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -1169,7 +1169,7 @@
   {
    "id": "pesticides.azinphos_methyl",
    "name": "Azinphos Methyl",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -1799,7 +1799,7 @@
   {
    "id": "pesticides.benomyl",
    "name": "Benomyl",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -1961,7 +1961,7 @@
   {
    "id": "pesticides.bhc",
    "name": "Benzene Hexachloride (BHC)",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -2063,7 +2063,7 @@
   {
    "id": "pesticides.binapacryl",
    "name": "Binapacryl",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -2548,7 +2548,7 @@
   {
    "id": "pesticides.calcium_arsenate",
    "name": "Calcium Arsenate",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -2572,7 +2572,7 @@
   {
    "id": "pesticides.calcium_cyanide",
    "name": "Calcium Cyanide",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -2596,7 +2596,7 @@
   {
    "id": "pesticides.captafol",
    "name": "Captafol 80% Powder",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for use in India; manufacture for export only. S.O. 679(E) dated 17.07.2001; foliar spray banned, seed-dresser use only (S.O. 569(E) dated 25.07.1989)"
@@ -2661,7 +2661,7 @@
   {
    "id": "pesticides.carbaryl",
    "name": "Carbaryl",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -2771,7 +2771,7 @@
   {
    "id": "pesticides.carbophenothion",
    "name": "Carbophenothion",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -2975,7 +2975,7 @@
   {
    "id": "pesticides.chinomethionate",
    "name": "Chinomethionate (Morestan)",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -3060,7 +3060,7 @@
   {
    "id": "pesticides.chlorbenzilate",
    "name": "Chlorbenzilate",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 682(E) dated 17.07.2001"
@@ -3084,7 +3084,7 @@
   {
    "id": "pesticides.chlordane",
    "name": "Chlordane",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, sale and use in India (CIB&RC gazette)"
@@ -3142,7 +3142,7 @@
   {
    "id": "pesticides.chlorfenvinphos",
    "name": "Chlorfenvinphos",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -3688,7 +3688,7 @@
   {
    "id": "pesticides.copper_acetoarsenite",
    "name": "Copper Acetoarsenite",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -4489,7 +4489,7 @@
   {
    "id": "pesticides.d_2_4_5_t",
    "name": "2,4,5-T",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -4600,7 +4600,7 @@
   {
    "id": "pesticides.dalapon",
    "name": "Dalapon",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration withdrawn."
@@ -4662,7 +4662,7 @@
   {
    "id": "pesticides.dbcp",
    "name": "Dibromochloropropane (DBCP)",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 569(E) dated 25.07.1989"
@@ -4686,7 +4686,7 @@
   {
    "id": "pesticides.deltamethrin",
    "name": "Deltamethrin",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "class": "Insecticide"
@@ -4801,7 +4801,7 @@
   {
    "id": "pesticides.diazinon",
    "name": "Diazinon",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -4926,7 +4926,7 @@
   {
    "id": "pesticides.dichlorvos",
    "name": "Dichlorvos",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018; manufacture for export continues (S.O. 1196(E) dated 20.03.2020)"
@@ -5021,7 +5021,7 @@
   {
    "id": "pesticides.dicofol",
    "name": "Dicofol",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 4294(E) dated 03.10.2023"
@@ -5045,7 +5045,7 @@
   {
    "id": "pesticides.dicrotophos",
    "name": "Dicrotophos",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -5069,7 +5069,7 @@
   {
    "id": "pesticides.dieldrin",
    "name": "Dieldrin",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, sale and use in India (CIB&RC gazette)"
@@ -5333,7 +5333,7 @@
   {
    "id": "pesticides.dinocap",
    "name": "Dinocap",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 4294(E) dated 03.10.2023"
@@ -5396,7 +5396,7 @@
   {
    "id": "pesticides.disulfoton",
    "name": "Thiodemeton / Disulfoton",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -5521,7 +5521,7 @@
   {
    "id": "pesticides.edb",
    "name": "Ethylene Dibromide (EDB)",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 682(E) dated 17.07.2001"
@@ -5649,7 +5649,7 @@
   {
    "id": "pesticides.endrin",
    "name": "Endrin",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, sale and use in India (CIB&RC gazette)"
@@ -5673,7 +5673,7 @@
   {
    "id": "pesticides.epn",
    "name": "EPN",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -5930,7 +5930,7 @@
   {
    "id": "pesticides.ethyl_mercury_chloride",
    "name": "Ethyl Mercury Chloride",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -5954,7 +5954,7 @@
   {
    "id": "pesticides.ethyl_parathion",
    "name": "Ethyl Parathion",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, sale and use in India (CIB&RC gazette)"
@@ -6112,7 +6112,7 @@
   {
    "id": "pesticides.fenarimol",
    "name": "Fenarimol",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -6421,7 +6421,7 @@
   {
    "id": "pesticides.fenthion",
    "name": "Fenthion",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -6445,7 +6445,7 @@
   {
    "id": "pesticides.fentin_acetate",
    "name": "Fentin Acetate",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -6469,7 +6469,7 @@
   {
    "id": "pesticides.fentin_hydroxide",
    "name": "Fentin Hydroxide",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -6528,7 +6528,7 @@
   {
    "id": "pesticides.ferbam",
    "name": "Ferbam",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration withdrawn."
@@ -7724,7 +7724,7 @@
   {
    "id": "pesticides.formothion",
    "name": "Formothion",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration withdrawn."
@@ -8162,7 +8162,7 @@
   {
    "id": "pesticides.heptachlor",
    "name": "Heptachlor",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, sale and use in India (CIB&RC gazette)"
@@ -9196,7 +9196,7 @@
   {
    "id": "pesticides.lambda_cyhalothrin",
    "name": "Lambda-cyhalothrin",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "class": "Insecticide"
@@ -9263,7 +9263,7 @@
   {
    "id": "pesticides.lead_arsenate",
    "name": "Lead Arsenate",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -9287,7 +9287,7 @@
   {
    "id": "pesticides.leptophos",
    "name": "Leptophos (Phosvel)",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -9344,7 +9344,7 @@
   {
    "id": "pesticides.lindane",
    "name": "Lindane",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, sale and use in India (CIB&RC gazette)"
@@ -9368,7 +9368,7 @@
   {
    "id": "pesticides.linuron",
    "name": "Linuron",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -9501,7 +9501,7 @@
   {
    "id": "pesticides.maleic_hydrazide",
    "name": "Maleic Hydrazide",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 682(E) dated 17.07.2001"
@@ -9684,7 +9684,7 @@
   {
    "id": "pesticides.menazon",
    "name": "Menazon",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -9708,7 +9708,7 @@
   {
    "id": "pesticides.mephosfolan",
    "name": "Mephosfolan",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -10170,7 +10170,7 @@
   {
    "id": "pesticides.methomyl",
    "name": "Methomyl",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 4294(E) dated 03.10.2023"
@@ -10194,7 +10194,7 @@
   {
    "id": "pesticides.methoxy_ethyl_mercury_chloride",
    "name": "Methoxy Ethyl Mercury Chloride",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -10328,7 +10328,7 @@
   {
    "id": "pesticides.methyl_parathion",
    "name": "Methyl Parathion",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, sale and use in India (CIB&RC gazette)"
@@ -10458,7 +10458,7 @@
   {
    "id": "pesticides.metoxuron",
    "name": "Metoxuron",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -10588,7 +10588,7 @@
   {
    "id": "pesticides.mevinphos",
    "name": "Mevinphos (Phosdrin)",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -10718,7 +10718,7 @@
   {
    "id": "pesticides.nickel_chloride",
    "name": "Nickel Chloride",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration withdrawn."
@@ -10742,7 +10742,7 @@
   {
    "id": "pesticides.nicotine_sulfate",
    "name": "Nicotine Sulfate",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for use in India; manufacture for export only. S.O. 325(E) dated 11.05.1992"
@@ -10832,7 +10832,7 @@
   {
    "id": "pesticides.nitrofen",
    "name": "Nitrofen",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, sale and use in India (CIB&RC gazette)"
@@ -11385,7 +11385,7 @@
   {
    "id": "pesticides.pcnb",
    "name": "Pentachloro Nitrobenzene (PCNB)",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 569(E) dated 25.07.1989"
@@ -11409,7 +11409,7 @@
   {
    "id": "pesticides.pdcb",
    "name": "Paradichlorobenzene (PDCB)",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration withdrawn."
@@ -11621,7 +11621,7 @@
   {
    "id": "pesticides.pentachlorophenol",
    "name": "Pentachlorophenol",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -11716,7 +11716,7 @@
   {
    "id": "pesticides.phenyl_mercury_acetate",
    "name": "Phenyl Mercury Acetate",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -11740,7 +11740,7 @@
   {
    "id": "pesticides.phorate",
    "name": "Phorate",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018; manufacture for export continues (S.O. 1196(E) dated 20.03.2020)"
@@ -11835,7 +11835,7 @@
   {
    "id": "pesticides.phosphamidon",
    "name": "Phosphamidon",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -12142,7 +12142,7 @@
   {
    "id": "pesticides.profenofos",
    "name": "Profenofos",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "class": "Insecticide"
@@ -13492,7 +13492,7 @@
   {
    "id": "pesticides.simazine",
    "name": "Simazine",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration withdrawn."
@@ -13516,7 +13516,7 @@
   {
    "id": "pesticides.sirmate",
    "name": "Sirmate",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration withdrawn. S.O. 2485(E) dated 24.09.2014"
@@ -13573,7 +13573,7 @@
   {
    "id": "pesticides.sodium_cyanide",
    "name": "Sodium Cyanide",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. Banned for insecticidal use only; S.O. 3951(E) dated 08.08.2018"
@@ -13597,7 +13597,7 @@
   {
    "id": "pesticides.sodium_methane_arsonate",
    "name": "Sodium Methane Arsonate",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -14006,7 +14006,7 @@
   {
    "id": "pesticides.tca",
    "name": "Trichloroacetic Acid (TCA)",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 682(E) dated 17.07.2001"
@@ -14299,7 +14299,7 @@
   {
    "id": "pesticides.tetradifon",
    "name": "Tetradifon",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use."
@@ -14574,7 +14574,7 @@
   {
    "id": "pesticides.thiometon",
    "name": "Thiometon",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -14742,7 +14742,7 @@
   {
    "id": "pesticides.toxaphene",
    "name": "Toxaphene",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, sale and use in India (CIB&RC gazette)"
@@ -14977,7 +14977,7 @@
   {
    "id": "pesticides.triazophos",
    "name": "Triazophos",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018; manufacture for export continues (S.O. 1196(E) dated 20.03.2020)"
@@ -15038,7 +15038,7 @@
   {
    "id": "pesticides.trichlorfon",
    "name": "Trichlorfon",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -15220,7 +15220,7 @@
   {
    "id": "pesticides.tridemorph",
    "name": "Tridemorph",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Banned for manufacture, import and use. S.O. 3951(E) dated 08.08.2018"
@@ -15516,7 +15516,7 @@
   {
    "id": "pesticides.vamidothion",
    "name": "Vamidothion",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration refused in India. "
@@ -15610,7 +15610,7 @@
   {
    "id": "pesticides.warfarin",
    "name": "Warfarin",
-   "type": "entity",
+   "type": "substance",
    "domain": "pesticides",
    "attributes": {
     "note": "Registration withdrawn. S.O. 915(E) dated 15.06.2006"

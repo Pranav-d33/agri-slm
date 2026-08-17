@@ -42,7 +42,6 @@
     "scientific": "Malus domestica",
     "season": "Temperate; harvest Aug-Oct",
     "note": "Requires 800-1600 chilling hours; Kashmir, Kinnaur, Kullu famous",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "CITH-Ammol",
@@ -426,7 +425,6 @@
     "scientific": "Musa spp.",
     "season": "Year-round",
     "note": "India largest producer; Grand Naine dominant cultivar",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Kaveri Kanchan",
@@ -947,7 +945,6 @@
    "attributes": {
     "scientific": "Vigna mungo",
     "season": "Kharif",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "IPU11-02",
@@ -1229,7 +1226,6 @@
     "scientific": "Piper nigrum",
     "season": "Perennial vine",
     "note": "India among largest producers; Idukki (Kerala) and Kodagu (KA)",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Chandra",
@@ -1441,7 +1437,6 @@
     "scientific": "Brachiaria ramosa",
     "season": "Kharif",
     "note": "Minor millet; Karnataka and AP",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "GPUBT-2",
@@ -1796,7 +1791,6 @@
     "scientific": "Ricinus communis",
     "season": "Kharif",
     "note": "India leads world castor production",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "JI-273 (GC-3)",
@@ -2515,7 +2509,6 @@
     "scientific": "Coffea arabica / robusta",
     "season": "Perennial; arabica and robusta grown",
     "note": "Indian coffee is shade-grown under Western Ghats canopy",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "S.795",
@@ -2961,7 +2954,6 @@
     "scientific": "Vigna unguiculata",
     "season": "Kharif and zaid",
     "note": "Grain, vegetable and fodder",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Mangala",
@@ -3084,7 +3076,6 @@
     "scientific": "Phoenix dactylifera",
     "season": "Summer fruit",
     "note": "Kutch (Gujarat) and Rajasthan desert areas",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Barhee",
@@ -3388,7 +3379,6 @@
     "scientific": "Megathyrsus maximus",
     "season": "Perennial",
     "note": "High-biomass tropical fodder grass",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "phenology": "sowing (seed 2.5 kg/ha / 66,000 slips/ha, 50x30 cm) or slip planting -> establishment -> vegetative growth -> first cut (75-80 d after germination, or 45 d after slip planting) -> subsequent cuts (every 45 d, 8 cuts/yr); yield 175 t/ha/yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Fodder%20Production.html",
@@ -3437,7 +3427,6 @@
    "domain": "crops",
    "attributes": {
     "type": "Perennial legume fodder; high protein; for dairy herds",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "scientific": "Medicago sativa",
     "scientific_source": {
      "id": "icar",
@@ -3494,7 +3483,6 @@
    "domain": "crops",
    "attributes": {
     "type": "Perennial grass; high biomass; hybrid bajra-napier for dairy",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "scientific": "Pennisetum purpureum",
     "scientific_source": {
      "id": "icar",
@@ -3554,7 +3542,6 @@
     "scientific": "Stylosanthes hamata",
     "season": "Perennial legume",
     "note": "Pasture legume for drylands",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "phenology": "sowing (June-July to Sep-Oct; 6 kg/ha line/10 kg broadcast) -> slow establishment (1st yr) -> vegetative/flowering -> first harvest (75 d after sowing at flowering) -> subsequent cuts (as growth allows); from 3rd yr yields 30-35 t/ha/yr (self-seeding)",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Fodder%20Production.html",
@@ -3597,7 +3584,6 @@
     "scientific": "Setaria italica",
     "season": "Kharif",
     "note": "Short-duration, drought-tolerant",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "SiA 3156",
@@ -3728,7 +3714,6 @@
     "scientific": "Prunus armeniaca",
     "season": "Temperate; harvest May-Jun",
     "note": "Ladakh and Himachal; also dried fruit",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "CITH Apricot-1",
@@ -4061,7 +4046,6 @@
     "scientific": "Artocarpus heterophyllus",
     "season": "Summer fruit",
     "note": "Largest tree-borne fruit; southern and eastern states",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_status": {
      "status": "none",
      "note": "No officially notified/released variety under the CSC. Grown from local cultivars (e.g. Singapura, Muttom Varikka, Chakka).",
@@ -4226,7 +4210,6 @@
     "scientific": "Citrus limon",
     "season": "Year-round",
     "note": "Key citrus after mandarin",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Rasraj",
@@ -4457,7 +4440,6 @@
     "scientific": "Litchi chinensis",
     "season": "Summer fruit (May-Jun)",
     "note": "Bihar produces most of India's litchi",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Swarna Roopa",
@@ -4646,7 +4628,6 @@
     "scientific": "Citrus reticulata",
     "season": "Winter fruit",
     "note": "Nagpur (MH) and Khasi (Meghalaya) mandarins",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Nagpur Mandarin (Santra)",
@@ -5050,7 +5031,6 @@
    "domain": "crops",
    "attributes": {
     "type": "Fast-yielding fruit; AP, Gujarat, Karnataka, WB lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Prabhath",
@@ -5307,7 +5287,6 @@
     "scientific": "Prunus persica",
     "season": "Temperate; harvest May-Jul",
     "note": "Temperate fruit of the Himalaya",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Shan-e-Punjab (16-33)",
@@ -5394,7 +5373,6 @@
     "scientific": "Pyrus communis",
     "season": "Temperate; harvest Jul-Sep",
     "note": "Temperate fruit; Kinnaur pears famous",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_status": {
      "status": "none",
      "note": "Punjab Nakh deferred in 17th CSC hort meeting (AICRIP data missing); no notified variety. Grown from cultivars e.g. Punjab Nakh, Bagugosha.",
@@ -5527,7 +5505,6 @@
     "scientific": "Ananas comosus",
     "season": "Year-round",
     "note": "North-east and West Bengal lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_status": {
      "status": "none",
      "commercial_cultivars": [
@@ -5713,7 +5690,6 @@
     "scientific": "Prunus domestica",
     "season": "Temperate; harvest Jun-Aug",
     "note": "Himachal and J&K lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_status": {
      "status": "none",
      "commercial_cultivars": [
@@ -5946,7 +5922,6 @@
     "scientific": "Manilkara zapota",
     "season": "Two crops/yr",
     "note": "Gujarat and Maharashtra lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "CO.1",
@@ -6186,7 +6161,6 @@
     "scientific": "Citrus sinensis",
     "season": "Winter fruit",
     "note": "Punjab and Telangana lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Cutter Valencia",
@@ -6602,7 +6576,6 @@
    "attributes": {
     "scientific": "Zingiber officinale",
     "season": "Kharif",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "IISR-Vajra",
@@ -7239,7 +7212,6 @@
    "attributes": {
     "scientific": "Vitis vinifera",
     "season": "Jan-May (Nashik: Feb-Apr)",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Hans",
@@ -7751,8 +7723,6 @@
    "attributes": {
     "scientific": "Arachis hypogaea",
     "season": "Kharif (main), rabi in south",
-    "uses": "Oilseed, nut, cake feed",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Ajeya (R 2001-3)",
@@ -8288,7 +8258,8 @@
     "phenology_note": "TNAU groundnut water/nutrient mgmt: pegging, flowering & pod development named critical irrigation stages; foliar spray at peak flowering (35 DAS) and pod dev (45 DAS); gypsum 400 kg/ha at 40-45 DAS; earthing up at 40-45 DAS (field-prep page). Total-cycle duration not tabulated.",
     "phenology_source": "Generic agronomic growth stages (general knowledge); TNAU Agritech does not publish an explicit stage-with-duration table",
     "phenology_source_id": "tnau-agritech",
-    "phenology_source_url": "https://agritech.tnau.ac.in/agriculture/crop_prot_crop_grounnut_nutrient%20mgmt.html"
+    "phenology_source_url": "https://agritech.tnau.ac.in/agriculture/crop_prot_crop_grounnut_nutrient%20mgmt.html",
+    "use": "Oilseed, nut, cake feed"
    },
    "relations": [
     {
@@ -8526,7 +8497,6 @@
     "scientific": "Macrotyloma uniflorum",
     "season": "Kharif/rabi",
     "note": "Climate-resilient; rich in iron and protein",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "VL Gahat-19 (VLG-19)",
@@ -8656,7 +8626,6 @@
    "attributes": {
     "scientific": "Sorghum bicolor",
     "season": "Kharif (main), also rabi",
-    "uses": "Grain, fodder, ethanol",
     "notified_varieties": [
      {
       "name": "CSV 57F (SPV 2801) (UTFS 111)",
@@ -8679,7 +8648,8 @@
     "phenology": "seedling (1-15 d) -> vegetative/grand growth (16-40 d) -> flowering/reproductive (41-65 d) -> maturity (66-95 d) -> ripening (96-105 d); total 100-110 d depending on variety (95-110 d)",
     "phenology_note": "Explicit 'Growth stages of sorghum' table with day-ranges; variety durations 90-150 d.",
     "phenology_source_id": "tnau-agritech",
-    "phenology_source_url": "https://agritech.tnau.ac.in/agriculture/millets_sorghum.html"
+    "phenology_source_url": "https://agritech.tnau.ac.in/agriculture/millets_sorghum.html",
+    "use": "Grain, fodder, ethanol"
    },
    "relations": [
     {
@@ -9038,7 +9008,6 @@
     "scientific": "Lathyrus sativus",
     "season": "Rabi",
     "note": "Tolerant to waterlogging; sale restricted due to lathyrism",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Ratan (BioL-212)",
@@ -9152,7 +9121,6 @@
     "scientific": "Paspalum scrobiculatum",
     "season": "Kharif",
     "note": "Highly drought-resistant",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "RK 390-25",
@@ -9550,7 +9518,6 @@
     "scientific": "Linum usitatissimum",
     "season": "Rabi",
     "note": "Oilseed and fibre (flax)",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "LC-2063",
@@ -9950,7 +9917,6 @@
     "scientific": "Panicum sumatrense",
     "season": "Kharif",
     "note": "Hardy grain of poor, shallow soils",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "OLM 217",
@@ -10105,7 +10071,6 @@
    "attributes": {
     "scientific": "Zea mays",
     "season": "Kharif (mainly), also rabi/zaid",
-    "uses": "Food, feed, starch, ethanol",
     "notified_varieties": [
      {
       "name": "HQPM 28",
@@ -10184,7 +10149,8 @@
     "phenology": "germination & establishment (1-14 d) -> vegetative (15-39 d) -> flowering (40-65 d, critical water 45-65 d) -> maturity (66-95 d); N top-dressing 25 & 45 DAS; total 95-100 d",
     "phenology_note": "Explicit 'growth phase' table with day-ranges in TNAU irrigated-maize irrigation management.",
     "phenology_source_id": "tnau-agritech",
-    "phenology_source_url": "https://agritech.tnau.ac.in/agriculture/agri_maize_irrigated_maize.html"
+    "phenology_source_url": "https://agritech.tnau.ac.in/agriculture/agri_maize_irrigated_maize.html",
+    "use": "Food, feed, starch, ethanol"
    },
    "relations": [
     {
@@ -10694,7 +10660,6 @@
     "scientific": "Hibiscus cannabinus",
     "season": "Kharif",
     "note": "Jute substitute fibre",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "AMV-7 (AHS 160)",
@@ -10895,7 +10860,6 @@
     "scientific": "Vigna aconitifolia",
     "season": "Kharif",
     "note": "Drought-hardy pulse of arid Rajasthan",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Marudhar P.ntab (RM0-2251 / RMO-225-1-6-3)",
@@ -10988,7 +10952,6 @@
     "scientific": "Brassica juncea (Indian mustard)",
     "season": "Rabi",
     "note": "India's main edible oilseed; dryland rabi crop",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Pusa Vijay (NPJ 93)",
@@ -11654,7 +11617,6 @@
     "scientific": "Guizotia abyssinica",
     "season": "Kharif",
     "note": "Minor oilseed of central India",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "BNS-10 (Pooja-1)",
@@ -13526,7 +13488,6 @@
     "scientific": "Areca catechu",
     "season": "Perennial palm",
     "note": "Karnataka grows most of India's arecanut",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Shatamangala",
@@ -15056,7 +15017,6 @@
     "scientific": "Phaseolus vulgaris",
     "season": "Kharif (hills)",
     "note": "Hill pulse; HP, J&K and Uttarakhand",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "PDR 14 (Uday)",
@@ -15540,7 +15500,6 @@
     "scientific": "Hevea brasiliensis",
     "season": "Perennial; tapping year-round",
     "note": "Needs humid tropical climate, 200+ cm rain",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "RRII 105",
@@ -16340,7 +16299,6 @@
     "scientific": "Glycine max",
     "season": "Kharif",
     "note": "India's top oilseed by production",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Clark 63",
@@ -17979,7 +17937,6 @@
     "scientific": "Ferula assa-foetida",
     "season": "Perennial",
     "note": "Mostly imported; India began cultivation in Himachal (2020)",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_status": {
      "status": "none",
      "note": "Ferula assa-foetida grown experimentally (CSIR-IHBT 2020 intro via ICAR-NBPGR; first seed-set 2025); no released variety.",
@@ -18024,7 +17981,6 @@
     "scientific": "Cinnamomum verum",
     "season": "Perennial",
     "note": "Bark spice of the Western Ghats",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Nithyasree",
@@ -18095,7 +18051,6 @@
     "scientific": "Syzygium aromaticum",
     "season": "Perennial",
     "note": "Tree spice; domestic production tiny, mostly imported",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "PPI (CL) 1",
@@ -18167,7 +18122,6 @@
     "scientific": "Coriandrum sativum",
     "season": "Rabi",
     "note": "Seed spice; leaves used as vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Isha",
@@ -18422,7 +18376,6 @@
     "scientific": "Cuminum cyminum",
     "season": "Rabi",
     "note": "India largest producer and exporter",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "GC-4",
@@ -18627,7 +18580,6 @@
     "scientific": "Trigonella foenum-graecum",
     "season": "Rabi",
     "note": "Seed spice; leaves used as vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Ajmer Fenugreek-3 (AFg-3)",
@@ -18778,7 +18730,6 @@
     "scientific": "Allium sativum",
     "season": "Rabi",
     "note": "Bulb spice; MP and Gujarat lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Bhima Omkar",
@@ -19245,7 +19196,6 @@
     "scientific": "Vanilla planifolia",
     "season": "Perennial vine",
     "note": "High-value, labour-intensive; small area",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_status": {
      "status": "none",
      "commercial_cultivars": [
@@ -19326,7 +19276,6 @@
     "scientific": "Beta vulgaris",
     "season": "Rabi",
     "note": "Minor; experimental cultivation in Uttar Pradesh",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "LS-6",
@@ -19718,7 +19667,6 @@
    "attributes": {
     "scientific": "Helianthus annuus",
     "season": "Rabi/kharif depending on region",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Phule Raviraj",
@@ -19999,7 +19947,6 @@
     "scientific": "Camellia sinensis",
     "season": "Perennial plantation",
     "note": "Darjeeling, Assam and Nilgiri teas; India among top producers",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "TV1",
@@ -20350,7 +20297,6 @@
    "attributes": {
     "scientific": "Nicotiana tabacum",
     "season": "Rabi (transplanted post-monsoon)",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Chatam",
@@ -21582,7 +21528,6 @@
     "scientific": "Curcuma longa",
     "season": "Kharif (planted Apr-Jul)",
     "note": "India largest producer-exporter; Erode (TN) and Nizamabad (TS) hubs",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "IISR-Pragati",
@@ -22028,7 +21973,6 @@
     "scientific": "Momordica charantia",
     "season": "Kharif and summer",
     "note": "Medicinal value; bitter principle",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Harit",
@@ -22581,7 +22525,6 @@
    "domain": "crops",
    "attributes": {
     "type": "Winter vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Pusa Red Cabbage-5 (KTCBR-5)",
@@ -22854,7 +22797,6 @@
     "scientific": "Daucus carota",
     "season": "Rabi",
     "note": "Root vegetable; black (desi) and orange types",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Suraj",
@@ -23091,7 +23033,6 @@
    "domain": "crops",
    "attributes": {
     "type": "Winter vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Spoorthi",
@@ -23372,7 +23313,6 @@
     "scientific": "Cucumis sativus",
     "season": "Kharif and zaid",
     "note": "Salad and pickling crop",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Kashi Nutan",
@@ -23985,7 +23925,6 @@
     "scientific": "Pisum sativum",
     "season": "Rabi (winter)",
     "note": "Winter vegetable; also processed frozen",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Chaitra",
@@ -24320,7 +24259,6 @@
     "scientific": "Raphanus sativus",
     "season": "Rabi",
     "note": "Quick root vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Nishant",
@@ -24575,7 +24513,6 @@
     "scientific": "Luffa acutangula",
     "season": "Kharif",
     "note": "Common cucurbit of the plains",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Vikram",
@@ -24662,7 +24599,6 @@
     "scientific": "Spinacia oleracea",
     "season": "Rabi (winter)",
     "note": "Iron-rich leafy vegetable",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Anupama",
@@ -24725,7 +24661,6 @@
     "scientific": "Ipomoea batatas",
     "season": "Kharif",
     "note": "Starchy tuber; Odisha and WB lead",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Bhu Sona",
@@ -24948,7 +24883,6 @@
     "scientific": "Manihot esculenta",
     "season": "Annual; planted with monsoon",
     "note": "Staple tuber of Kerala and Tamil Nadu",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Sree Kaveri",
@@ -25913,7 +25847,6 @@
    "domain": "crops",
    "attributes": {
     "note": "State-wise production per HSAG 2024 Table 7.3.53",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "DMR-Button-03",
@@ -26346,7 +26279,6 @@
    },
    "attributes": {
     "note": "Temperate nut; HSAG Table 7.3.1",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Waris",
@@ -26617,7 +26549,6 @@
    },
    "attributes": {
     "note": "HSAG Table 7.3.2",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "NA-6",
@@ -26808,7 +26739,6 @@
    },
    "attributes": {
     "note": "HSAG Table 7.3.13",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_status": {
      "status": "none",
      "commercial_cultivars": [
@@ -26884,7 +26814,6 @@
    },
    "attributes": {
     "note": "Temperate nut; HSAG Table 7.3.14",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "CITH Walnut-1",
@@ -27187,7 +27116,6 @@
    },
    "attributes": {
     "note": "HSAG Table 7.3.23",
-    "notes": "TODO: notified variety registry from Seednet/S.O. gazette notifications",
     "notified_varieties": [
      {
       "name": "Arka Basant",
@@ -27486,11 +27414,11 @@
    "domain": "crops",
    "attributes": {
     "type": "NHB DPR 'State wise picture - Top 10 producing states (2015-16)'",
-    "scientific_name": "Anthurium andraeanum",
     "phenology": "propagation (seed germinate ~10 d, then 4-6 mo nursery, 2-3 yr to bloom; tissue-culture preferred) -> planting (15 cm TC plants, 60x60 cm) -> vegetative growth (NPK 30:10:10 from 30 d) -> flowering stage (10:20:20) -> harvest (spathe fully unfurled; starts 3-6 mo after planting); ~8 flowers/plant/yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_anthurium.html",
-    "phenology_note": "TNAU anthurium: seeds germinate 10 d, transplanted after 4-6 mo, take 2-3 yr to bloom; tissue-culture plants flower sooner; harvest begins 3-6 mo after planting. Perennial cycle."
+    "phenology_note": "TNAU anthurium: seeds germinate 10 d, transplanted after 4-6 mo, take 2-3 yr to bloom; tissue-culture plants flower sooner; harvest begins 3-6 mo after planting. Perennial cycle.",
+    "scientific": "Anthurium andraeanum"
    },
    "relations": [
     {
@@ -27582,11 +27510,11 @@
    "domain": "crops",
    "attributes": {
     "type": "NHB DPR state-wise tables 2013-16 union",
-    "scientific_name": "Dianthus caryophyllus",
     "phenology": "terminal cutting (5-10 cm) -> rooting (roots in ~21 d) -> planting (15x15 cm) -> vegetative growth -> pinching (single pinch at 5 nodes) -> bud formation -> flowering (starts 110-120 d after planting) -> harvest (standard: paint-brush stage; spray: 2 flowers open); flowers continue ~1.5 yr; yield 15 flowers/plant over 2 yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_carnation.html",
-    "phenology_note": "TNAU carnation: cuttings root ~21 d; flowering starts 110-120 d after planting, continues up to 1.5 yr. Single-pinch at 5th node."
+    "phenology_note": "TNAU carnation: cuttings root ~21 d; flowering starts 110-120 d after planting, continues up to 1.5 yr. Single-pinch at 5th node.",
+    "scientific": "Dianthus caryophyllus"
    },
    "relations": [
     {
@@ -27694,11 +27622,11 @@
    "domain": "crops",
    "attributes": {
     "type": "NHB DPR state-wise table (2013-14, Indian Horticulture database)",
-    "scientific_name": "Chrysanthemum morifolium",
     "phenology": "terminal cutting/sucker -> planting (June-July, 30x30 cm) -> vegetative growth -> pinching (4 wk after planting) -> desuckering -> flower bud/GA3 (30,45,60 DAP) -> flowering -> harvest (from 3rd month, at 3/4-open for near market, 1/2-open for distant); crop duration 6-8 mo (plant crop), 4 mo (ratoon)",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_commercial%20chrysanthemum.html",
-    "phenology_note": "TNAU chrysanthemum: pinching 4 wks after planting; GA3 at 30/45/60 DAP; harvest from 3rd month at 4-day intervals; duration 6-8 mo plant crop / 4 mo ratoon."
+    "phenology_note": "TNAU chrysanthemum: pinching 4 wks after planting; GA3 at 30/45/60 DAP; harvest from 3rd month at 4-day intervals; duration 6-8 mo plant crop / 4 mo ratoon.",
+    "scientific": "Chrysanthemum morifolium"
    },
    "relations": [
     {
@@ -27758,11 +27686,11 @@
    "domain": "crops",
    "attributes": {
     "type": "ICAR/review synthesis; NHB DPR table 'Not available'",
-    "scientific_name": "Gerbera jamesonii",
     "phenology": "tissue-culture/sucker -> planting (TC plants 4-6 leaves, 40x30 cm) -> establishment -> remove flower buds up to 2 months -> vegetative -> flowering -> harvest (outer 2-3 rows of disc florets perpendicular; from 3rd month, 2 stems/plant/month) -> continues up to 2 yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_gerbera.html",
-    "phenology_note": "TNAU gerbera: remove flower buds up to 2 mo, then allow flowering; harvest starts 3rd month; yield 2 stems/plant/month for up to 2 yr."
+    "phenology_note": "TNAU gerbera: remove flower buds up to 2 mo, then allow flowering; harvest starts 3rd month; yield 2 stems/plant/month for up to 2 yr.",
+    "scientific": "Gerbera jamesonii"
    },
    "relations": [
     {
@@ -27878,11 +27806,11 @@
    "domain": "crops",
    "attributes": {
     "type": "ICAR-CCARI explicit cultivation list",
-    "scientific_name": "Gladiolus grandiflorus",
     "phenology": "corm planting (Oct plains / Mar-Apr hills, 40x25 cm, 5 cm deep) -> sprouting -> vegetative growth (N top-dress at 4-leaf stage, earthing up) -> bud emergence (N at bud stage; string support) -> spike development -> harvest (110-120 d to spikes; at first-bud-showing-colour); yield 2.0-2.5 lakh stalks/ha",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_gladioli.html",
-    "phenology_note": "TNAU gladiolus: takes 110-120 days to produce spikes; N at 4-leaf (foliar) and bud (soil) stages; harvest when first bud shows colour; corms lifted after withholding irrigation 4-6 wk."
+    "phenology_note": "TNAU gladiolus: takes 110-120 days to produce spikes; N at 4-leaf (foliar) and bud (soil) stages; harvest when first bud shows colour; corms lifted after withholding irrigation 4-6 wk.",
+    "scientific": "Gladiolus grandiflorus"
    },
    "relations": [
     {
@@ -27998,11 +27926,11 @@
    "domain": "crops",
    "attributes": {
     "type": "ICAR-CCARI/TNAU/Vikaspedia synthesis; TN, KA core",
-    "scientific_name": "Jasminum spp.",
     "phenology": "planting (layers/rooted cuttings, June-Nov, 2.0x1.5 m) -> establishment -> pruning (last week Dec, to 45 cm) -> vegetative flush -> flower bud development -> flowering (May-Oct) -> harvest (unopened buds picked morning; opened for oil before 10 am); yield 11 t/ha buds",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_jathimalli.html",
-    "phenology_note": "TNAU jathimalli (Jasminum grandiflorum): planted June-Nov; pruned last week Dec; flowering May-Oct. Yearly cycle."
+    "phenology_note": "TNAU jathimalli (Jasminum grandiflorum): planted June-Nov; pruned last week Dec; flowering May-Oct. Yearly cycle.",
+    "scientific": "Jasminum spp."
    },
    "relations": [
     {
@@ -28110,11 +28038,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Kumari 2019 review; Himalayan open-field + protected-cultivation states",
-    "scientific_name": "Lilium spp.",
     "phenology": "bulb planting (20x15 cm) -> cold-treated bulbs (6 wk at 2-5C to break dormancy) -> sprout -> vegetative growth -> flower bud -> harvest (lowest bud colour-breaking, not open); crop duration Asiatic 8-10 wk, Oriental 14-16 wk; yield 30-40 stems/m2",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_lilium.html",
-    "phenology_note": "TNAU lilium: bulbs need 6-wk cold storage at 2-5C; crop duration 8-10 wk (Asiatic), 14-16 wk (Oriental)."
+    "phenology_note": "TNAU lilium: bulbs need 6-wk cold storage at 2-5C; crop duration 8-10 wk (Asiatic), 14-16 wk (Oriental).",
+    "scientific": "Lilium spp."
    },
    "relations": [
     {
@@ -28262,11 +28190,11 @@
    "domain": "crops",
    "attributes": {
     "type": "ICAR Indian Farming + NRC Orchids; NE core states",
-    "scientific_name": "Orchidaceae",
     "phenology": "TC plant/division (keiki, back bulb) -> planting -> vegetative growth (foliar NPK 20:10:10 from 30 DAP) -> spike/flower bud -> flower opening (fully matures 3-4 d after opening) -> harvest (when 75% flowers open; 8-10 spikes/plant/yr) -> repot every 2-3 yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_orchids.html",
-    "phenology_note": "TNAU dendrobium orchid: flower fully matures 3-4 d after opening; spike harvested when 75% flowers open; foliar NPK from 30 DAP; repot 2-3 yrly."
+    "phenology_note": "TNAU dendrobium orchid: flower fully matures 3-4 d after opening; spike harvested when 75% flowers open; foliar NPK from 30 DAP; repot 2-3 yrly.",
+    "scientific": "Orchidaceae"
    },
    "relations": [
     {
@@ -28406,11 +28334,11 @@
    "domain": "crops",
    "attributes": {
     "type": "NHB DPR 'State wise picture - Top 10 producing states' (2015-16, NHB database)",
-    "scientific_name": "Rosa spp.",
     "phenology": "planting (budded 1-yr plants, July-Aug, 75x75 cm; or rooted cuttings) -> establishment (water daily until established) -> pruning (Mar & Oct) -> vegetative regrowth -> flowering -> harvest (tight bud stage, petals not unfolding); yield 70-90 stems/plant/yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_cut%20rose.html",
-    "phenology_note": "TNAU cut rose: 1-yr budded plants planted July-Aug; pruning March & October; harvested at tight bud. No full-cycle day table; perennial cycle given by pruning + flushes."
+    "phenology_note": "TNAU cut rose: 1-yr budded plants planted July-Aug; pruning March & October; harvested at tight bud. No full-cycle day table; perennial cycle given by pruning + flushes.",
+    "scientific": "Rosa spp."
    },
    "relations": [
     {
@@ -28478,11 +28406,11 @@
    "domain": "crops",
    "attributes": {
     "type": "TNAU eagri HORT281 + Krishikosh NHB 2015-16; WB, TN, KA, AP, MH core",
-    "scientific_name": "Polianthes tuberosa",
     "phenology": "bulb planting (June-July, 45x20 cm, 2.5 cm deep) -> sprouting/vegetative growth (N splits at 0,60,90 DAP; GA3 at 40,55,60 DAP) -> spike emergence -> flowering -> harvest (loose florets plucked early am before opening; cut spike leaving 4-6 cm); crop duration up to 2 yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_tuberose.html",
-    "phenology_note": "TNAU tuberose: N split at planting/60/90 DAP; GA3 40/55/60 DAP; crop extends to 2 yr."
+    "phenology_note": "TNAU tuberose: N split at planting/60/90 DAP; GA3 40/55/60 DAP; crop extends to 2 yr.",
+    "scientific": "Polianthes tuberosa"
    },
    "relations": [
     {
@@ -28566,11 +28494,11 @@
    "domain": "crops",
    "attributes": {
     "type": "RSC Advances review; Gujarat largest producer",
-    "scientific_name": "Coleus forskohlii",
     "phenology": "terminal cutting (10 cm) -> rooting -> planting (June-July, 60x45 cm) -> vegetative growth (NPK split 30 & 45 DAP) -> tuber development -> harvest (5-6 months after planting, without damaging tubers); fresh tubers 15-20 t/ha",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_medicinal%20crops_medicinal%20coleus.html",
-    "phenology_note": "TNAU medicinal coleus: planted June-July; NPK in 2 splits at 30 and 45 DAP; harvest at 5-6 months after planting."
+    "phenology_note": "TNAU medicinal coleus: planted June-July; NPK in 2 splits at 30 and 45 DAP; harvest at 5-6 months after planting.",
+    "scientific": "Coleus forskohlii"
    },
    "relations": [
     {
@@ -28630,11 +28558,11 @@
    "domain": "crops",
    "attributes": {
     "type": "TNAU Agritech; TN only commercial-scale",
-    "scientific_name": "Gloriosa superba",
     "phenology": "tuber planting (June-July; 2000 kg/ha, 30-45 cm spacing; trenched, trained on supports) -> sprouting -> vine growth (N split at 1 & 2 months) -> flowering/pollination -> pod/seed maturation -> harvest (pods at 160-180 d after tuber sprouting); seed 200-250 kg/ha",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_medicinal%20crops_gloriosa.html",
-    "phenology_note": "TNAU glory lily: pods harvested 160-180 days after tuber sprouting; N applied at 1 and 2 months after planting; vines trained on supports."
+    "phenology_note": "TNAU glory lily: pods harvested 160-180 days after tuber sprouting; N applied at 1 and 2 months after planting; vines trained on supports.",
+    "scientific": "Gloriosa superba"
    },
    "relations": [
     {
@@ -28678,11 +28606,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Handbook of Herbs & Spices; cultivated + wild states",
-    "scientific_name": "Piper longum",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/",
-    "phenology_note": "Long pepper (tippili) only on medicinal-crop page; not fetched for stage data this pass."
+    "phenology_note": "Long pepper (tippili) only on medicinal-crop page; not fetched for stage data this pass.",
+    "scientific": "Piper longum"
    },
    "relations": [
     {
@@ -28782,11 +28710,11 @@
    "domain": "crops",
    "attributes": {
     "type": "TNAU Agritech biofuel page",
-    "scientific_name": "Azadirachta indica",
     "phenology": "seed collection (Jun-Aug) -> nursery (dibble seeds in polybags; germinate ~30-40 d, prick into polybags; harden ~3 months) -> planting (outplant 6-12 mo old seedlings in rainy season, 5x5/10x10 m) -> establishment (water & weed first 2 yr) -> flowering (Jan-Mar) -> fruit ripening (Jun-Aug) -> fruit bearing from 4-5th yr, steady yield 10th yr (20-25 kg fruit/tree)",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/bio-fuels/Biofuel_Neem.html",
-    "phenology_note": "TNAU neem biofuel: explicit phenology - flowers Jan-Mar, fruit ripens Jun-Aug; nursery ~30-40 d germination, seedlings 6-12 mo outplanted; bearing from 4-5th year. Tree crop, no day-stage table for full cycle."
+    "phenology_note": "TNAU neem biofuel: explicit phenology - flowers Jan-Mar, fruit ripens Jun-Aug; nursery ~30-40 d germination, seedlings 6-12 mo outplanted; bearing from 4-5th year. Tree crop, no day-stage table for full cycle.",
+    "scientific": "Azadirachta indica"
    },
    "relations": [
     {
@@ -28878,7 +28806,7 @@
    "domain": "crops",
    "attributes": {
     "type": "CBN licit tract Gazette G.S.R. 621(E) 11.09.2025; Uttarakhand experimental only",
-    "scientific_name": "Papaver somniferum"
+    "scientific": "Papaver somniferum"
    },
    "relations": [
     {
@@ -28922,7 +28850,7 @@
    "domain": "crops",
    "attributes": {
     "type": "Garden ornamental; nursery hubs, lower confidence",
-    "scientific_name": "Codiaeum variegatum"
+    "scientific": "Codiaeum variegatum"
    },
    "relations": [
     {
@@ -28982,11 +28910,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Traditional flower + ornamental; lower confidence",
-    "scientific_name": "Nerium oleander",
     "phenology": "hardwood cutting (60 cm) / rooted cutting planting (June-July, 2x2 m pits) -> establishment -> pruning (yr1: remove 1/3 old stems; yr2: 1/2; yr3: remaining) -> flowering (throughout year, peak Apr-Aug) -> harvest (begins 4th month after planting; 100-125 kg flowers/ha/day)",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_nerium.html",
-    "phenology_note": "TNAU nerium: flowering throughout year (peak Apr-Aug); harvest begins from 4th month after planting; 3-year pruning cycle for old stems."
+    "phenology_note": "TNAU nerium: flowering throughout year (peak Apr-Aug); harvest begins from 4th month after planting; 3-year pruning cycle for old stems.",
+    "scientific": "Nerium oleander"
    },
    "relations": [
     {
@@ -29046,11 +28974,11 @@
    "domain": "crops",
    "attributes": {
     "type": "HSAG 7.3.16 Lime/Lemon + 7.3.17 Mandarin + 7.3.18 Sweet Orange union",
-    "scientific_name": "Citrus spp.",
     "phenology": "perennial citrus complex; mandarin (Citrus reticulata), acid lime (C. aurantifolia) and sweet orange (C. sinensis) covered separately; generic citrus: planting -> new flush -> flowering -> fruit set -> harvest; bearing 3-5 yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_fruits_acidlime.html",
-    "phenology_note": "crops.fruits.citrus is a composite category; no standalone TNAU page. Stage data decomposed into mandarin/lemon/sweet_orange records."
+    "phenology_note": "crops.fruits.citrus is a composite category; no standalone TNAU page. Stage data decomposed into mandarin/lemon/sweet_orange records.",
+    "scientific": "Citrus spp."
    },
    "relations": [
     {
@@ -29286,11 +29214,11 @@
    "domain": "crops",
    "attributes": {
     "type": "NIPHM IPM package major growing regions",
-    "scientific_name": "Annona squamosa",
     "phenology": "pre-planting (pit dug in summer, open >=1 month; soil solarization 3 wks) -> planting -> vegetative stages (1-5 years) -> flowering & early fruit set (boron/calcium sprays) -> fruit development -> harvest (full bright colour, still firm); rodents control ~6 wks after transplanting",
     "phenology_source_id": "niphm-ipm-custardapple",
     "phenology_source_url": "https://niphm.gov.in/IPMPackages/CustardApple.pdf",
-    "phenology_note": "NIPHM IPM package (crop stage-wise IPM): vegetative stages 1-5 years; harvest at full colour, firm; pre-plant pit prep in summer. No day-duration table; perennial."
+    "phenology_note": "NIPHM IPM package (crop stage-wise IPM): vegetative stages 1-5 years; harvest at full colour, firm; pre-plant pit prep in summer. No day-duration table; perennial.",
+    "scientific": "Annona squamosa"
    },
    "relations": [
     {
@@ -29398,11 +29326,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Vikaspedia/NABARD + Folia Horticulturae 2023",
-    "scientific_name": "Ficus carica",
     "phenology": "listed in TNAU minor-fruits table (Capri/Smyrna/White San Pedro vars) with spacing 4x4 m and yield 10-12 kg/tree; no per-stage phenology given on page",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_fruits_minorfruits.html",
-    "phenology_note": "TNAU minor-fruits: fig only spacing/manure/yield; no stage data."
+    "phenology_note": "TNAU minor-fruits: fig only spacing/manure/yield; no stage data.",
+    "scientific": "Ficus carica"
    },
    "relations": [
     {
@@ -29462,11 +29390,11 @@
    "domain": "crops",
    "attributes": {
     "type": "NHB Model Project Report; growing belts table",
-    "scientific_name": "Ziziphus mauritiana",
     "phenology": "planting (budded plants, July-Aug, 7x7 m pits) -> establishment (irrigate initially) -> training/pruning (straight stem 75 cm; prune Feb-Mar) -> vegetative growth -> flowering/fruit set -> fruit development -> harvest (70-80 kg/tree/yr); seed physiologically mature 13 wk after anthesis",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_fruits_ber.html",
-    "phenology_note": "TNAU ber: planted July-Aug; pruned Feb-Mar; seed physiological maturity 13 weeks after anthesis. No explicit harvest-date window; fruit development to harvest not day-listed."
+    "phenology_note": "TNAU ber: planted July-Aug; pruned Feb-Mar; seed physiological maturity 13 weeks after anthesis. No explicit harvest-date window; fruit development to harvest not day-listed.",
+    "scientific": "Ziziphus mauritiana"
    },
    "relations": [
     {
@@ -29574,11 +29502,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Indian Horticulture 70(5) 2025 + BMC Plant Biol 2026; TNAU 'wood apple' = Limonia acidissima",
-    "scientific_name": "Limonia acidissima",
     "phenology": "propagation (seed germinate 15-20 d; or vegetative air-layering/patch-budding/root cuttings) -> seedling establishment (slow; irrigate young plants in summer + 1-monthly in winter) -> training (modified central leader) -> vegetative growth -> flowering initiation (Feb-Mar) -> fruit set -> fruit development (takes ~months to mature) -> maturity (Oct-Mar, extend to June) -> harvest/prune after harvest; seedling trees bear in 10-15 yr",
     "phenology_source_id": "icar-indhort-woodapple",
     "phenology_source_url": "https://epubs.icar.org.in/index.php/IndHort/article/download/100241/62682/490493",
-    "phenology_note": "Indian Horticulture (ICAR): wood apple seeds germinate 15-20 d; fruit maturity Oct-Mar (to June); pruning once/yr after harvest before flowering initiation (Feb-Mar); seedlings bear only after 10-15 yr. No per-stage day table."
+    "phenology_note": "Indian Horticulture (ICAR): wood apple seeds germinate 15-20 d; fruit maturity Oct-Mar (to June); pruning once/yr after harvest before flowering initiation (Feb-Mar); seedlings bear only after 10-15 yr. No per-stage day table.",
+    "scientific": "Limonia acidissima"
    },
    "relations": [
     {
@@ -29678,11 +29606,11 @@
    "domain": "crops",
    "attributes": {
     "type": "PIB Rajya Sabha reply 10.12.2021 CPO-producing states; AP ~81-91% share",
-    "scientific_name": "Elaeis guineensis",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_min_nutri_plantation_oilpalm.html",
-    "phenology_note": "Oil palm only on mineral-nutrition page; no phenology stage data."
+    "phenology_note": "Oil palm only on mineral-nutrition page; no phenology stage data.",
+    "scientific": "Elaeis guineensis"
    },
    "relations": [
     {
@@ -29758,11 +29686,11 @@
    "domain": "crops",
    "attributes": {
     "type": "TNAU/ANGRAU eagri HORT281; south-Indian center of diversity",
-    "scientific_name": "Lablab purpureus",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/agriculture/pulses_index.html",
-    "phenology_note": "Hyacinth bean not on reachable TNAU pulses page in this pass."
+    "phenology_note": "Hyacinth bean not on reachable TNAU pulses page in this pass.",
+    "scientific": "Lablab purpureus"
    },
    "relations": [
     {
@@ -29830,11 +29758,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Pilot-scale, no official stats; emergent",
-    "scientific_name": "Asparagus officinalis",
     "phenology": "seed/crown planting (30x30 cm) -> vegetative growth -> establishment -> spear harvest from third year of planting; yield 1250-3750 kg/ha",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_minor%20vegetables.html",
-    "phenology_note": "TNAU minor-veg asparagus: harvest from third year of planting; no stage-day table."
+    "phenology_note": "TNAU minor-veg asparagus: harvest from third year of planting; no stage-day table.",
+    "scientific": "Asparagus officinalis"
    },
    "relations": [
     {
@@ -29878,11 +29806,11 @@
    "domain": "crops",
    "attributes": {
     "type": "HAPIS 2019-20 core 5 states; union of journals",
-    "scientific_name": "Beta vulgaris",
     "phenology": "sowing (Jul-Aug) -> vegetative (30 d; thin to 1 seedling/hill at 20 d) -> early root development (60 d) -> maturity (30 d); fertigation total 120 d; yield 20-25 t/ha in 120 d",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_beetroot.html",
-    "phenology_note": "TNAU beetroot fertigation stage table: vegetative 30d, early-root-development 60d, maturity 30d (total 120d); thinning at 20 d."
+    "phenology_note": "TNAU beetroot fertigation stage table: vegetative 30d, early-root-development 60d, maturity 30d (total 120d); thinning at 20 d.",
+    "scientific": "Beta vulgaris"
    },
    "relations": [
     {
@@ -29974,11 +29902,11 @@
    "domain": "crops",
    "attributes": {
     "type": "HSAG 7.3.20 Bottlegourd + 7.3.26 Cucumber union",
-    "scientific_name": "Cucurbitaceae",
     "phenology": "composite gourd group: each cucurbit covered separately (pumpkin, ash gourd, watermelon, muskmelon, bitter/bottle/snake/ridge/pointed gourd); typical pattern sowing -> establishment (10 d) -> vegetative (20-30 d) -> flower-init-to-first-picking (20-30 d) -> harvesting (40-45 d); total 90-115 d",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_pumpkin.html",
-    "phenology_note": "crops.vegetables.cucurbits is a composite category. Member cucurbits carry individual fertigation stage tables (see pumpkin, ash gourd, watermelon, muskmelon records)."
+    "phenology_note": "crops.vegetables.cucurbits is a composite category. Member cucurbits carry individual fertigation stage tables (see pumpkin, ash gourd, watermelon, muskmelon records).",
+    "scientific": "Cucurbitaceae"
    },
    "relations": [
     {
@@ -30206,11 +30134,11 @@
    "domain": "crops",
    "attributes": {
     "type": "HSAG 7.3.19 Beans",
-    "scientific_name": "Phaseolus vulgaris",
     "phenology": "sowing (hills Feb-Mar, plains Oct-Nov) -> germination (irrigate day 1, day 3, then weekly) -> vegetative (weeding 20-25 & 40-45 DAS) -> flowering -> pod set -> harvest (bush 50 d; pole 60-75 d; green pods 90-100 d)",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_french%20beans.html",
-    "phenology_note": "TNAU French bean: weeding 20-25 & 40-45 DAS; bush ready 50 d, pole 60-75 d. No full stage-day table."
+    "phenology_note": "TNAU French bean: weeding 20-25 & 40-45 DAS; bush ready 50 d, pole 60-75 d. No full stage-day table.",
+    "scientific": "Phaseolus vulgaris"
    },
    "relations": [
     {
@@ -30422,11 +30350,11 @@
    "domain": "crops",
    "attributes": {
     "type": "ICAR-CTCRI 2023-24 data + Tech Bulletin No.96",
-    "scientific_name": "Colocasia esculenta",
     "phenology": "cormel planting (Jun-Jul, Feb-Mar; 20-25 g, 800 kg/ha) -> vegetative growth (45 cm spacing; weeding/earthing 45-60 d) -> cormel development -> maturity (withhold irrigation 1 month pre-harvest) -> harvest (6-8 months; 8-10 t/ha in 180 d)",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_colocasia.html",
-    "phenology_note": "TNAU colocasia/taro: N/P/K top-dress 45 d; weeding/earthing 45-60 d; harvest 6-8 months (180 d). No day-by-day stage table."
+    "phenology_note": "TNAU colocasia/taro: N/P/K top-dress 45 d; weeding/earthing 45-60 d; harvest 6-8 months (180 d). No day-by-day stage table.",
+    "scientific": "Colocasia esculenta"
    },
    "relations": [
     {
@@ -30542,11 +30470,11 @@
    "domain": "crops",
    "attributes": {
     "type": "TNAU/ANGRAU eagri HORT281 lec29",
-    "scientific_name": "Brassica rapa",
     "phenology": "sowing (seed 4 kg/ha, 30x15 cm) -> seedling establishment -> thinning of seedlings -> root development -> harvest; temperate (Purple Top White Globe, Snow Ball) and tropical (Pusa Chandrima, Pusa Sweti, Pusa Kanchan) types; no day durations on page",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_minor%20vegetables.html",
-    "phenology_note": "TNAU minor-veg turnip: stages + thinning named; no day numbers given. Record limitation."
+    "phenology_note": "TNAU minor-veg turnip: stages + thinning named; no day numbers given. Record limitation.",
+    "scientific": "Brassica rapa"
    },
    "relations": [
     {
@@ -30633,11 +30561,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Most common loose flower, festival-driven demand; Apni Kheti major-cultivator states",
-    "scientific_name": "Tagetes erecta; Tagetes patula",
     "phenology": "nursery (1.5 kg seed/ha, transplant after 4 weeks, 45x35 cm) -> planting/establishment -> nipping/tipping (30 d after planting) -> vegetative/flower bud -> flowering -> harvest (flowers picked once in 3 d from 60 d after planting); crop duration 130-150 d",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_marigold.html",
-    "phenology_note": "TNAU marigold: seedlings transplanted after 4 weeks; nipping 30 DAP; first pick at 60 DAP, then once/3 d; crop duration 130-150 d. No finer per-stage day table."
+    "phenology_note": "TNAU marigold: seedlings transplanted after 4 weeks; nipping 30 DAP; first pick at 60 DAP, then once/3 d; crop duration 130-150 d. No finer per-stage day table.",
+    "scientific": "Tagetes erecta; Tagetes patula"
    },
    "relations": [
     {
@@ -30705,11 +30633,11 @@
    "domain": "crops",
    "attributes": {
     "type": "South-Indian loose flower for temple garlands; ~3,000-4,000 ha in Karnataka, TN, AP",
-    "scientific_name": "Crossandra infundibuliformis",
     "phenology": "seed sowing (July-Oct, raised beds) -> nursery (60 d, seedlings ready) -> transplanting (ridge, 30 cm spacing) -> vegetative growth -> flowering (starts 1 month after transplanting) -> harvest (fully opened flowers picked once in 2 d); crop duration 3 yr incl. ratoon",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_crossandra.html",
-    "phenology_note": "TNAU crossandra: 60-d-old seedlings; flowering starts 1 month after transplanting; picked once/2 d; crop duration 3 years including ratoon. No day-level table."
+    "phenology_note": "TNAU crossandra: 60-d-old seedlings; flowering starts 1 month after transplanting; picked once/2 d; crop duration 3 years including ratoon. No day-level table.",
+    "scientific": "Crossandra infundibuliformis"
    },
    "relations": [
     {
@@ -30753,11 +30681,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Commercial loose/cut flower; grown mainly in southern states + Maharashtra, West Bengal",
-    "scientific_name": "Callistephus chinensis",
     "phenology": "seed sowing (2.5-3.0 kg/ha) -> nursery (30-45 d old seedlings) -> transplanting (raised beds) -> pinching (30 d after transplanting) -> vegetative -> flowering -> harvest (cut flowers/loose); yield 18-20 t/ha",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_flower%20crops_aster.html",
-    "phenology_note": "TNAU china aster: 30-45 d seedlings; pinching 30 DAT; harvest maturity stage given. No explicit days-to-flower table."
+    "phenology_note": "TNAU china aster: 30-45 d seedlings; pinching 30 DAT; harvest maturity stage given. No explicit days-to-flower table.",
+    "scientific": "Callistephus chinensis"
    },
    "relations": [
     {
@@ -30817,7 +30745,7 @@
    "domain": "crops",
    "attributes": {
     "type": "National flower; Bihar largest producer (makhana seed), also UP, WB, MP, Assam, TN",
-    "scientific_name": "Nelumbo nucifera"
+    "scientific": "Nelumbo nucifera"
    },
    "relations": [
     {
@@ -30885,7 +30813,7 @@
    "domain": "crops",
    "attributes": {
     "type": "Ubiquitous garden ornamental; distribution per IISc India Flora Online, lower confidence",
-    "scientific_name": "Hibiscus rosa-sinensis"
+    "scientific": "Hibiscus rosa-sinensis"
    },
    "relations": [
     {
@@ -30953,11 +30881,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Adaptogen medicinal root crop; Drishti IAS major-producing states",
-    "scientific_name": "Withania somnifera",
     "phenology": "sowing (Aug-Sep, late rainy season; 5 kg/ha for transplant) -> nursery (6-wk seedlings) -> transplanting (60x60 cm) -> vegetative growth (hand weeding 30 DAS) -> maturity (leaves dry, berries turn red) -> harvest (150-170 d after sowing, Jan-Mar; uproot whole plant, separate roots); yield 400-1200 kg/ha dried roots",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_medicinal%20crops_aswagandha.html",
-    "phenology_note": "TNAU ashwagandha: planted late rainy season (Aug-Sep), harvested next May; ready 150-170 d after sowing; 6-wk seedlings transplanted. Mainly residual fertility."
+    "phenology_note": "TNAU ashwagandha: planted late rainy season (Aug-Sep), harvested next May; ready 150-170 d after sowing; 6-wk seedlings transplanted. Mainly residual fertility.",
+    "scientific": "Withania somnifera"
    },
    "relations": [
     {
@@ -31033,11 +30961,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Medicinal succulent for gel; predominantly cultivated in listed states (Farmer Phone)",
-    "scientific_name": "Aloe barbadensis miller",
     "phenology": "sucker planting (June-July or Sep-Oct; 90x90 cm; 10,000 suckers/ha) -> establishment -> vegetative growth (rainfed; N 20 DAP) -> leaf development -> harvest (6-7 months after planting; uproot, process gel within 6 hr); leaf yield 15 t/ha",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_medicinal%20crops_aloe.html",
-    "phenology_note": "TNAU aloe vera: propagated by suckers, planted June-July/Sep-Oct; harvestable 6-7 months after planting; mainly rainfed."
+    "phenology_note": "TNAU aloe vera: propagated by suckers, planted June-July/Sep-Oct; harvestable 6-7 months after planting; mainly rainfed.",
+    "scientific": "Aloe barbadensis miller"
    },
    "relations": [
     {
@@ -31073,11 +31001,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Tinnevelly senna; drought-tolerant rainfed medicinal crop for leaves/pods",
-    "scientific_name": "Cassia angustifolia",
     "phenology": "seed sowing (Feb-Mar or Jun-Jul; scarified seed 15-20 kg/ha, 45x30 cm) -> germination/vegetative growth (N top-dress 40 DAS) -> flowering stage -> pod setting -> harvest (first leaf+pod harvest 2 months after sowing, then at 30-d intervals; dry 7-10 d)",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_medicinal%20crops_senna.html",
-    "phenology_note": "TNAU senna: first harvest of leaves/pods at 2 months after sowing, subsequent at 30-day intervals; N at 40 DAS."
+    "phenology_note": "TNAU senna: first harvest of leaves/pods at 2 months after sowing, subsequent at 30-day intervals; N at 40 DAS.",
+    "scientific": "Cassia angustifolia"
    },
    "relations": [
     {
@@ -31105,11 +31033,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Zaid aromatic oil crop; 75% of area in UP (CSIR-CIMAP), India = world top mint-oil producer",
-    "scientific_name": "Mentha arvensis",
     "phenology": "rooted cutting/sucker planting (June-July, 40x40 cm) -> establishment -> vegetative growth (N 25 kg/ha at 4 months; weed up to 75 DAP) -> herbage maturity -> harvest (first cutting ~5 months after planting, then at 3-month intervals); economic yield ~4 years; 100-150 kg oil/ha/yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_aromatic%20crops_mint.html",
-    "phenology_note": "TNAU mint: first cutting ~5 months after planting, subsequently at 3-month intervals; weeding up to 75 DAP; economic life ~4 yr."
+    "phenology_note": "TNAU mint: first cutting ~5 months after planting, subsequently at 3-month intervals; weeding up to 75 DAP; economic life ~4 yr.",
+    "scientific": "Mentha arvensis"
    },
    "relations": [
     {
@@ -31177,11 +31105,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Psyllium-husk export crop; Gujarat main belt + Rajasthan (IndiaFarm), Haryana/MP secondary (Farmer.in)",
-    "scientific_name": "Plantago ovata",
     "phenology": "sowing -> germination (optimum 20-25C) -> vegetative growth/tillering -> spike development (medium spike 4-4.5 cm) -> maturity (needs 30-35C; matures 110-115 d) -> harvest (before unseasonal rain/dew at maturity); cultivars like Gujarat Isabgol-1 mature in 110-115 d",
     "phenology_source_id": "icar-indhort-isabgol",
     "phenology_source_url": "https://epubs.icar.org.in/index.php/IndHort/article/view/144765",
-    "phenology_note": "Indian Horticulture (Isabgol): matures in 110-115 d (e.g., Gujarat Isabgol-1); germination 20-25C, maturity 30-35C. Crop duration ~110-115 d."
+    "phenology_note": "Indian Horticulture (Isabgol): matures in 110-115 d (e.g., Gujarat Isabgol-1); germination 20-25C, maturity 30-35C. Crop duration ~110-115 d.",
+    "scientific": "Plantago ovata"
    },
    "relations": [
     {
@@ -31217,11 +31145,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Indian kiwi production shares table (NCDC cold-chain DPR for kiwi)",
-    "scientific_name": "Actinidia deliciosa",
     "phenology": "pre-planting (soil test) -> planting (Dec-Jan, pits) -> vegetative growth stage (irrigation at critical stages) -> flowering/bloom -> fruit set -> fruit development (N split Jan-Feb + after fruit set Apr-May) -> harvest (maturity: >=6.5% SSC, flesh firmness >=14 lbf); economic lifespan ~3 yr after which production declines",
     "phenology_source_id": "niphm-ipm-kiwi",
     "phenology_source_url": "https://niphm.gov.in/IPMPackages/Kiwi.pdf",
-    "phenology_note": "NIPHM IPM package (crop stage-wise IPM): stages pre-planting->planting->vegetative->flowering->harvest; harvest maturity 6.5% SSC. Economic lifespan ~3 years noted. No day-duration table; perennial vine."
+    "phenology_note": "NIPHM IPM package (crop stage-wise IPM): stages pre-planting->planting->vegetative->flowering->harvest; harvest maturity 6.5% SSC. Economic lifespan ~3 years noted. No day-duration table; perennial vine.",
+    "scientific": "Actinidia deliciosa"
    },
    "relations": [
     {
@@ -31289,11 +31217,11 @@
    "domain": "crops",
    "attributes": {
     "type": "PIB press release states farmers of these states/UT have taken up Kamalam cultivation",
-    "scientific_name": "Hylocereus undatus (syn. Selenicereus undatus)",
     "phenology": "propagation (stem cuttings 20 cm; or seeds) -> cutting rooting (~4-5 months to planting-ready) -> planting (3x3 m single-post; full sun) -> vegetative growth (more N initially) -> flower bud (button structures develop into buds in 10-15 d) -> flowering (May-Sep, 4-8 cycles in tropics; night-blooming) -> fruit set -> fruit development -> maturity (colour green->red) -> harvest (30-40 d after fruit set; proper time 4 d after colour change; 3-4 pickings/month Jul-?)",
     "phenology_source_id": "icar-indhort-dragonfruit",
     "phenology_source_url": "https://epubs.icar.org.in/index.php/IndHort/article/view/107290",
-    "phenology_note": "Indian Horticulture 65(4) 2020 (IIHR): cuttings root in ~4-5 months; flower buds develop in 10-15 d; flowers May-Sep (4-8 cycles in tropics); fruit harvested 30-40 d after fruit set, 4 d after colour change; 3-4 pickings/month."
+    "phenology_note": "Indian Horticulture 65(4) 2020 (IIHR): cuttings root in ~4-5 months; flower buds develop in 10-15 d; flowers May-Sep (4-8 cycles in tropics); fruit harvested 30-40 d after fruit set, 4 d after colour change; 3-4 pickings/month.",
+    "scientific": "Hylocereus undatus (syn. Selenicereus undatus)"
    },
    "relations": [
     {
@@ -31409,11 +31337,11 @@
    "domain": "crops",
    "attributes": {
     "type": "KAU status-and-prospects bulletin (Kerala + Tamil Nadu/Karnataka + NE states)",
-    "scientific_name": "Passiflora edulis",
     "phenology": "planting/vine establishment -> vegetative growth (restricted below 15C) -> flowering & fruiting (requires higher elevation ~2000 m; yellow type for plains, purple for hills) -> fruit development -> ripening (deep purple when ripe, 4-5 cm, 35-45 g) -> harvest; post-harvest shelf-life ~22 d (polyolefin packaging)",
     "phenology_source_id": "icar-indhort-passion",
     "phenology_source_url": "https://epubs.icar.org.in/index.php/IndHort/article/view/119867",
-    "phenology_note": "Indian Horticulture 'Cultivated Passiflora in NE region': flowering/fruiting needs elevation ~2000 m (yellow for plains, purple for hills); veg. growth & flowering restricted below 15C; fruits deep purple when ripe. No day-stage table; perennial vine."
+    "phenology_note": "Indian Horticulture 'Cultivated Passiflora in NE region': flowering/fruiting needs elevation ~2000 m (yellow for plains, purple for hills); veg. growth & flowering restricted below 15C; fruits deep purple when ripe. No day-stage table; perennial vine.",
+    "scientific": "Passiflora edulis"
    },
    "relations": [
     {
@@ -31489,11 +31417,11 @@
    "domain": "crops",
    "attributes": {
     "type": "FAO alternative-crops doc (x6902e); traditional belts in South India and Himalayan hill states",
-    "scientific_name": "Persea americana",
     "phenology": "flowering (Dec-Feb in India; flowers open twice/24 h as female then male, cross-pollination between Type A/B) -> fruit set (0.001-0.23%, shy bearer) -> fruit development (cell division continues throughout) -> maturity (horticultural maturity hard to quantify; no external colour change) -> harvest (at optimum maturity stage)",
     "phenology_source_id": "icar-indhort-avocado",
     "phenology_source_url": "https://epubs.icar.org.in/index.php/IndHort/article/view/146186",
-    "phenology_note": "Indian Horticulture 'Floral Phenology and Maturity Indices in Avocado': flowering Dec-Feb (multiple flushes in some regions); fruit set 0.001-0.23%; maturity not quantifiable by external appearance. No day-duration table; perennial."
+    "phenology_note": "Indian Horticulture 'Floral Phenology and Maturity Indices in Avocado': flowering Dec-Feb (multiple flushes in some regions); fruit set 0.001-0.23%; maturity not quantifiable by external appearance. No day-duration table; perennial.",
+    "scientific": "Persea americana"
    },
    "relations": [
     {
@@ -31553,11 +31481,11 @@
    "domain": "crops",
    "attributes": {
     "type": "farmer.in bael page: grown widely across central, northern and eastern India states",
-    "scientific_name": "Aegle marmelos",
     "phenology": "seed/rootstock -> in-situ patch budding (from scion of elite variety) -> vegetative growth -> fruit setting (starts 2nd yr) -> fruit retention/development (increases with tree age) -> economic yield (harvest from 5th yr after budding, rainfed semi-arid) -> canopy management after 8th yr",
     "phenology_source_id": "icar-indhort-bael",
     "phenology_source_url": "https://epubs.icar.org.in/index.php/IndHort/article/view/111206",
-    "phenology_note": "Indian Horticulture 'Cultivating Goma Yashi bael under high density': fruit setting from 2nd yr, economic yield from 5th yr after budding (rainfed); canopy management after 8th yr. Tree crop; no per-stage day table."
+    "phenology_note": "Indian Horticulture 'Cultivating Goma Yashi bael under high density': fruit setting from 2nd yr, economic yield from 5th yr after budding (rainfed); canopy management after 8th yr. Tree crop; no per-stage day table.",
+    "scientific": "Aegle marmelos"
    },
    "relations": [
     {
@@ -31641,11 +31569,11 @@
    "domain": "crops",
    "attributes": {
     "type": "ICAR states adopting Goma Priyanka jamun technology + expansion list",
-    "scientific_name": "Syzygium cumini",
     "phenology": "seed germination (10-15 d) / budding on 1-yr rootstock (Jul-Aug) -> planting (Feb-Mar or Jul-Aug monsoon, 10x10 m) -> pre-bearing (irrigation 8-10/yr) -> flowering (North India early Mar-late Apr; fruit drop within 3-4 wk after bloom) -> fruit set (GA3 at full bloom + 15 d after set) -> fruit development 3 phases: slow growth (15-52 d after set), fast growth (52-58 d), slow/no gain (58-60 d) -> harvest (ripe Jun-Jul); bearing seedling 8-10 yr, grafted 6-7 yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_fruits_jamun.html",
-    "phenology_note": "TNAU jamun: explicit 3-phase fruit-development windows (15-52, 52-58, 58-60 days after fruit set); flowering Mar-Apr; bearing 8-10 (seedling)/6-7 (grafted) yr."
+    "phenology_note": "TNAU jamun: explicit 3-phase fruit-development windows (15-52, 52-58, 58-60 days after fruit set); flowering Mar-Apr; bearing 8-10 (seedling)/6-7 (grafted) yr.",
+    "scientific": "Syzygium cumini"
    },
    "relations": [
     {
@@ -31753,11 +31681,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Ragidi encyclopedia (citing ICAR-NEH/CCRI/IIHR): commercially grown in NE hill states + WB, Kerala, Tamil Nadu, parts of Maharashtra",
-    "scientific_name": "Citrus maxima (syn. C. grandis)",
     "phenology": "propagation (shield budding on Rangpur lime; air-layering/grafting) -> planting (pits dug >=1 month before, saplings) -> vegetative growth (irrigate young trees 2x/wk summer) -> flowering (fertilizer split before flowering + 4-6 mo later) -> fruit set/development (regular irrigation flowering to harvest) -> ripening (rind dull->bright yellow, oil glands larger) -> harvest (full eating maturity; non-climacteric); yield 80-100 kg/tree",
     "phenology_source_id": "icar-indhort-pummelo",
     "phenology_source_url": "https://epubs.icar.org.in/index.php/IndHort/article/view/168153",
-    "phenology_note": "Indian Horticulture 'Pummelo: A future fruit': shield budding standard; irrigation young 2x/wk summer, bearing 7-10 d summer/30-40 d winter; flower stage fertilizer; non-climacteric harvested at full eating maturity. No day-duration table; perennial."
+    "phenology_note": "Indian Horticulture 'Pummelo: A future fruit': shield budding standard; irrigation young 2x/wk summer, bearing 7-10 d summer/30-40 d winter; flower stage fertilizer; non-climacteric harvested at full eating maturity. No day-duration table; perennial.",
+    "scientific": "Citrus maxima (syn. C. grandis)"
    },
    "relations": [
     {
@@ -31857,7 +31785,7 @@
    "domain": "crops",
    "attributes": {
     "type": "IJAgS article: states with natural distribution / cultivation of Buchanania lanzan",
-    "scientific_name": "Buchanania lanzan"
+    "scientific": "Buchanania lanzan"
    },
    "relations": [
     {
@@ -31949,7 +31877,7 @@
    "domain": "crops",
    "attributes": {
     "type": "Meghwal (ICAR-CAZRI) germplasm collection states in arid/semi-arid India; grows throughout India except high hills/temperate",
-    "scientific_name": "Cordia myxa"
+    "scientific": "Cordia myxa"
    },
    "relations": [
     {
@@ -32017,7 +31945,7 @@
    "domain": "crops",
    "attributes": {
     "type": "ICAR-CAZRI arid-zone review: kair/ker in gochar rangelands and wastelands of hot-arid north-west states",
-    "scientific_name": "Capparis decidua"
+    "scientific": "Capparis decidua"
    },
    "relations": [
     {
@@ -32069,11 +31997,11 @@
    "domain": "crops",
    "attributes": {
     "type": "ScienceDirect karonda review: grown in Siwalik hills, Bihar, WB, Karnataka, MP, Chhattisgarh, Rajasthan, Gujarat, UP, Jharkhand, Western Ghats and Nilgiri Hills",
-    "scientific_name": "Carissa carandas",
     "phenology": "propagation (seeds extracted Aug-Sep; or cuttings with 500 ppm IBA rooted to 4-5 leaf stage, may take ~1 yr; air-layering Jul-Aug) -> planting (Jul-Sep monsoon, 3 ft2 pits) -> vegetative growth/branching (early) -> flowering (May-Jun, region/variety dependent; Jun in S Rajasthan) -> fruit ripening (Aug-Sep) -> harvest (mature green for vegetable/pickle; ripened for colour/jam)",
     "phenology_source_id": "icar-indhort-karonda",
     "phenology_source_url": "https://epubs.icar.org.in/index.php/IndHort/article/view/130548",
-    "phenology_note": "Indian Horticulture 'Karonda for arid ecosystem': flowering May-Jun (Jun in S Rajasthan), fruit ripening Aug-Sep; cuttings rooted to 4-5 leaf (may take ~1 yr); seeds from Aug-Sep. No day-stage table; perennial shrub."
+    "phenology_note": "Indian Horticulture 'Karonda for arid ecosystem': flowering May-Jun (Jun in S Rajasthan), fruit ripening Aug-Sep; cuttings rooted to 4-5 leaf (may take ~1 yr); seeds from Aug-Sep. No day-stage table; perennial shrub.",
+    "scientific": "Carissa carandas"
    },
    "relations": [
     {
@@ -32165,11 +32093,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Indian Horticulture article 'Pecan: A potential fruit crop for Indian Himalayas' (Indian Himalayan states)",
-    "scientific_name": "Carya illinoinensis",
     "phenology": "seed stratification (moist sand 70-80 d at 7C) -> seedling/rootstock -> grafting -> transplant (6x6 to 10x10 m) -> vegetative growth (24-30C) -> dormancy (overcome if <7.2C winter) -> catkin/female flower -> nut set/development -> harvest (Oct-Nov; pods turn brown, open and split); bearing from 8th yr, optimum 15th yr",
     "phenology_source_id": "icar-indhort-pecan",
     "phenology_source_url": "https://epubs.icar.org.in/index.php/IndHort/article/download/139439/55140/421603",
-    "phenology_note": "Indian Horticulture (ICAR): pecan seeds stratified 70-80 d at 7C; harvest Oct-Nov in Himalayas; starts bearing 8th year, optimum 15th year."
+    "phenology_note": "Indian Horticulture (ICAR): pecan seeds stratified 70-80 d at 7C; harvest Oct-Nov in Himalayas; starts bearing 8th year, optimum 15th year.",
+    "scientific": "Carya illinoinensis"
    },
    "relations": [
     {
@@ -32213,7 +32141,7 @@
    "domain": "crops",
    "attributes": {
     "type": "PAU/apnikheti teosinte fodder page: Punjab is the major teosinte-growing state (kharif forage)",
-    "scientific_name": "Euchlaena mexicana (syn. Zea mays subsp. mexicana)"
+    "scientific": "Euchlaena mexicana (syn. Zea mays subsp. mexicana)"
    },
    "relations": [
     {
@@ -32241,11 +32169,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Indian Farming cultivar table: Jawahar Pennisetum-12 recommended for MP, Chhattisgarh, Maharashtra, parts of UP; COD-1 (TNDN-1) for rainfed Tamil Nadu",
-    "scientific_name": "Pennisetum pedicellatum",
     "phenology": "sowing/transplanting (6-wk nursery plants at 50 cm; ~33,000 seedlings/ha; 3-4 kg seed/ha) -> germination/vegetative growth (tillering, boot stage) -> first cut at boot stage (two-cut system) -> flowering -> harvest (50% flowering, 60-70 d after sowing; mature by 120-130 d); green fodder 400-500 q/ha",
     "phenology_source_id": "icar-indfarm-dinanath",
     "phenology_source_url": "https://epubs.icar.org.in/index.php/IndFarm/article/download/168495/66507/532751",
-    "phenology_note": "Indian Farming (ICAR): dinanath first cut at boot stage (two-cut system); harvest at 50% flowering 60-70 DAS; varieties mature 120-130 d."
+    "phenology_note": "Indian Farming (ICAR): dinanath first cut at boot stage (two-cut system); harvest at 50% flowering 60-70 DAS; varieties mature 120-130 d.",
+    "scientific": "Pennisetum pedicellatum"
    },
    "relations": [
     {
@@ -32305,11 +32233,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Major sunnhemp-growing states for fibre; UP largest area followed by MP (also per NCFA/textilevaluechain 87% of area)",
-    "scientific_name": "Crotalaria juncea",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/agriculture/fibrecrops_index.html",
-    "phenology_note": "Sannhemp not on reachable TNAU fibre crop page in this pass."
+    "phenology_note": "Sannhemp not on reachable TNAU fibre crop page in this pass.",
+    "scientific": "Crotalaria juncea"
    },
    "relations": [
     {
@@ -32377,11 +32305,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Research paper: 'In India, it is mainly grown in Assam, West Bengal, Tamil Nadu, Karnataka, Madhya Pradesh, Uttar Pradesh, Orissa, Kerala, and Bihar.' (Odisha listed as Orissa in original).",
-    "scientific_name": "Cucurbita moschata",
     "phenology": "sowing (Jun-Jul, Dec-Jan; 3 seeds/pit, thin to 2 at 15 d) -> crop establishment (10 d) -> vegetative (30 d) -> flower initiation to first picking (30 d) -> harvesting (45 d); fertigation total 115 d; mature fruit 85-90 d after sowing",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_pumpkin.html",
-    "phenology_note": "TNAU pumpkin fertigation stage table: establishment 10d, vegetative 30d, flower-init-to-first-picking 30d, harvesting 45d (total 115d); mature 85-90 d after sowing."
+    "phenology_note": "TNAU pumpkin fertigation stage table: establishment 10d, vegetative 30d, flower-init-to-first-picking 30d, harvesting 45d (total 115d); mature 85-90 d after sowing.",
+    "scientific": "Cucurbita moschata"
    },
    "relations": [
     {
@@ -32473,11 +32401,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Wikipedia: widely cultivated in eastern and some northern parts of India (Andhra Pradesh, Odisha, West Bengal, Assam, Bihar, Uttar Pradesh).",
-    "scientific_name": "Trichosanthes dioica",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_minor%20vegetables.html",
-    "phenology_note": "Pointed gourd not covered with stage data on reachable TNAU pages."
+    "phenology_note": "Pointed gourd not covered with stage data on reachable TNAU pages.",
+    "scientific": "Trichosanthes dioica"
    },
    "relations": [
     {
@@ -32545,11 +32473,11 @@
    "domain": "crops",
    "attributes": {
     "type": "ICAR-CTCRI publication: grown mainly in Andhra Pradesh, West Bengal, Gujarat, Kerala, Tamil Nadu, Maharashtra, Uttar Pradesh and Jharkhand.",
-    "scientific_name": "Amorphophallus paeoniifolius",
     "phenology": "dormancy (45-60 d) -> sett planting (Feb-Mar or Apr-May; sprouting ~1 month) -> vegetative growth (NPK 40:60:50 at 45 d; top-dress 1 month later) -> corm development -> harvest (8 months, Jan-Feb; 30-35 t/ha in 240 d)",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_elephant%20yam.html",
-    "phenology_note": "TNAU elephant foot yam: dormancy 45-60 d; sprouting ~1 month; NPK at 45 d; harvest 8 months (240 d)."
+    "phenology_note": "TNAU elephant foot yam: dormancy 45-60 d; sprouting ~1 month; NPK at 45 d; harvest 8 months (240 d).",
+    "scientific": "Amorphophallus paeoniifolius"
    },
    "relations": [
     {
@@ -32633,11 +32561,11 @@
    "domain": "crops",
    "attributes": {
     "type": "JAH 2025 paper: 'In India, broccoli is grown mostly in the mountainous areas of the Nilgiri Hills (Tamil Nadu), Himachal Pradesh, Uttar Pradesh, J&K, and the Northern plains.'",
-    "scientific_name": "Brassica oleracea var. italica",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables.html",
-    "phenology_note": "Broccoli not on reachable TNAU crop page (only nutrient page); no stage table."
+    "phenology_note": "Broccoli not on reachable TNAU crop page (only nutrient page); no stage table.",
+    "scientific": "Brassica oleracea var. italica"
    },
    "relations": [
     {
@@ -32689,11 +32617,11 @@
    "domain": "crops",
    "attributes": {
     "type": "ICAR Indian Horticulture: 'In India, it is cultivated in the states of Punjab, Haryana, Delhi, Uttar Pradesh, Jammu and Kashmir, Himachal Pradesh and West Bengal.'",
-    "scientific_name": "Cucurbita pepo",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_minor%20vegetables.html",
-    "phenology_note": "Squash/pumpkini only in mineral-nutrition page, no phenology stage data."
+    "phenology_note": "Squash/pumpkini only in mineral-nutrition page, no phenology stage data.",
+    "scientific": "Cucurbita pepo"
    },
    "relations": [
     {
@@ -32769,11 +32697,11 @@
    "domain": "crops",
    "attributes": {
     "type": "TNAU HORT281 lec09: 'widely grown in UP and Delhi for preparation of Agra petha and in southern states for use as vegetable'; also sown in Kerala (May) and Tamil Nadu (June-July). Springer J Food Sci Technol: Uttar Pradesh occupies maximum area for ash gourd.",
-    "scientific_name": "Benincasa hispida",
     "phenology": "sowing (Jul, Jan; 5-6 seeds/pit, thin to 2) -> crop establishment (10 d) -> vegetative (30 d) -> flower initiation to first picking (30 d) -> harvesting (45 d); fertigation total 115 d; CO1 140-150 d, CO2/hybrid 120-130 d crop",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_ashgourd.html",
-    "phenology_note": "TNAU ash gourd fertigation stage table: establishment 10d, vegetative 30d, flower-init-to-first-picking 30d, harvesting 45d (total 115d); variety crop duration 120-150 d."
+    "phenology_note": "TNAU ash gourd fertigation stage table: establishment 10d, vegetative 30d, flower-init-to-first-picking 30d, harvesting 45d (total 115d); variety crop duration 120-150 d.",
+    "scientific": "Benincasa hispida"
    },
    "relations": [
     {
@@ -32825,11 +32753,11 @@
    "domain": "crops",
    "attributes": {
     "type": "ICAR Indian Journal of Agricultural Sciences: grown in river bed/Diara land 'covering the states of Bihar, Uttar Pradesh, Madhya Pradesh, Rajasthan etc.'",
-    "scientific_name": "Cucumis melo var. utilissimus",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_minor%20vegetables.html",
-    "phenology_note": "Long melon not listed with phenology in reachable TNAU pages."
+    "phenology_note": "Long melon not listed with phenology in reachable TNAU pages.",
+    "scientific": "Cucumis melo var. utilissimus"
    },
    "relations": [
     {
@@ -32881,11 +32809,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Spices Board all-state item-wise area & production of spices 2024-25: saffron reported only for Jammu and Kashmir.",
-    "scientific_name": "Crocus sativus",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/",
-    "phenology_note": "Saffron not grown in TNAU zone; no reachable TNAU stage page."
+    "phenology_note": "Saffron not grown in TNAU zone; no reachable TNAU stage page.",
+    "scientific": "Crocus sativus"
    },
    "relations": [
     {
@@ -32913,11 +32841,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Spices Board 2024-25: celery reported only for Punjab.",
-    "scientific_name": "Apium graveolens",
     "phenology": "seed sowing (mixed with sand) -> germination (3 weeks) -> nursery (75 d seedlings) -> transplanting (rainy season; 4-5 cm x 15 cm) -> vegetative growth (weed 4-5 times) -> maturity (115 d) -> harvest; yield 30.5 t/ha",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_celery.html",
-    "phenology_note": "TNAU celery: germination 3 weeks after sowing; 75-d seedlings; harvest 115 d. Explicit windows."
+    "phenology_note": "TNAU celery: germination 3 weeks after sowing; 75-d seedlings; harvest 115 d. Explicit windows.",
+    "scientific": "Apium graveolens"
    },
    "relations": [
     {
@@ -32945,11 +32873,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Spices Board 2024-25: dill reported for Gujarat and West Bengal.",
-    "scientific_name": "Anethum graveolens",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/",
-    "phenology_note": "Dill not covered on reachable TNAU page in this pass."
+    "phenology_note": "Dill not covered on reachable TNAU page in this pass.",
+    "scientific": "Anethum graveolens"
    },
    "relations": [
     {
@@ -32985,11 +32913,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Wikipedia: native/endemic to Western Ghats states Maharashtra, Goa, Karnataka and Kerala.",
-    "scientific_name": "Garcinia indica",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/",
-    "phenology_note": "Kokum not on reachable TNAU stage page in this pass."
+    "phenology_note": "Kokum not on reachable TNAU stage page in this pass.",
+    "scientific": "Garcinia indica"
    },
    "relations": [
     {
@@ -33041,11 +32969,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Spices Board 2024-25: tejpat reported for Meghalaya and West Bengal.",
-    "scientific_name": "Cinnamomum tamala",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/",
-    "phenology_note": "Tejpat not covered on reachable TNAU page in this pass."
+    "phenology_note": "Tejpat not covered on reachable TNAU page in this pass.",
+    "scientific": "Cinnamomum tamala"
    },
    "relations": [
     {
@@ -33081,11 +33009,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Spices Board 2024-25: curry leaf reported for Andhra Pradesh and Tamil Nadu.",
-    "scientific_name": "Murraya koenigii",
     "phenology": "seed sowing (fruits Jul-Aug; seed pulp & sow within 3-4 d) -> nursery (1-yr seedlings) -> planting -> vegetative growth (pinch terminal at 1 m; 5-6 branches/bush) -> leaf harvest (first harvest 10-12 months after planting; then 4-month intervals)",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_curry%20leaf.html",
-    "phenology_note": "TNAU curry leaf: first harvest 10-12 months after planting; later harvests 4-monthly. No day-by-day stage table."
+    "phenology_note": "TNAU curry leaf: first harvest 10-12 months after planting; later harvests 4-monthly. No day-by-day stage table.",
+    "scientific": "Murraya koenigii"
    },
    "relations": [
     {
@@ -33121,11 +33049,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Spices Board catalogue: 'In India, it is produced to a small extent in Arunachal Pradesh.'",
-    "scientific_name": "Illicium verum",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/",
-    "phenology_note": "Star anise not covered on reachable TNAU page in this pass."
+    "phenology_note": "Star anise not covered on reachable TNAU page in this pass.",
+    "scientific": "Illicium verum"
    },
    "relations": [
     {
@@ -33153,11 +33081,11 @@
    "domain": "crops",
    "attributes": {
     "type": "Spices Board 2024-25: large cardamom reported for Arunachal Pradesh, Manipur, Nagaland, Sikkim and West Bengal.",
-    "scientific_name": "Amomum subulatum",
     "phenology": "skipped - no deterministic source",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/horticulture/",
-    "phenology_note": "Large cardamom (Amomum subulatum) not covered on reachable TNAU page in this pass."
+    "phenology_note": "Large cardamom (Amomum subulatum) not covered on reachable TNAU page in this pass.",
+    "scientific": "Amomum subulatum"
    },
    "relations": [
     {

@@ -1009,8 +1009,8 @@
    "type": "category",
    "domain": "soil",
    "attributes": {
-    "types": "Acidic, saline, alkaline/sodic, waterlogged, saline-alkali, peaty/marshy, eroded, sandy",
-    "note": "Problem soils require reclamation before cultivation"
+    "note": "Problem soils require reclamation before cultivation",
+    "type": "Acidic, saline, alkaline/sodic, waterlogged, saline-alkali, peaty/marshy, eroded, sandy"
    },
    "relations": [
     {
@@ -2237,7 +2237,7 @@
    "attributes": {
     "scheme": "Government of India, DAC&FW",
     "frequency": "Every 2-3 years",
-    "purpose": "Soil nutrient status (N, P, K, S, Zn, Fe, Cu, Mn, B) and fertiliser recommendation"
+    "use": "Soil nutrient status (N, P, K, S, Zn, Fe, Cu, Mn, B) and fertiliser recommendation"
    },
    "relations": [
     {

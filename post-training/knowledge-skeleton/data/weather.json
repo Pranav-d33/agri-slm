@@ -141,9 +141,9 @@
     "Sookha"
    ],
    "attributes": {
-    "types": "Meteorological, hydrological, agricultural",
     "affected_areas": "Rajasthan, Gujarat, Karnataka, Maharashtra, Telangana, AP (semi-arid)",
-    "relief": "State drought declarations; PMFBY payout triggers"
+    "relief": "State drought declarations; PMFBY payout triggers",
+    "type": "Meteorological, hydrological, agricultural"
    },
    "relations": [
     {
@@ -567,7 +567,7 @@
   {
    "id": "weather.hailstorm",
    "name": "Hailstorm",
-   "type": "entity",
+   "type": "event",
    "domain": "weather",
    "relations": [
     {
@@ -615,7 +615,7 @@
   {
    "id": "weather.frost",
    "name": "Frost",
-   "type": "entity",
+   "type": "event",
    "domain": "weather",
    "relations": [
     {
@@ -655,7 +655,7 @@
   {
    "id": "weather.dry_spell",
    "name": "Monsoon Dry Spell",
-   "type": "entity",
+   "type": "event",
    "domain": "weather",
    "relations": [
     {
@@ -687,7 +687,7 @@
   {
    "id": "weather.cloudburst",
    "name": "Cloudburst",
-   "type": "entity",
+   "type": "event",
    "domain": "weather",
    "relations": [
     {
@@ -836,7 +836,7 @@
   {
    "id": "weather.indian_ocean_dipole",
    "name": "Indian Ocean Dipole (IOD)",
-   "type": "entity",
+   "type": "event",
    "domain": "weather",
    "aliases": [
     "IOD"

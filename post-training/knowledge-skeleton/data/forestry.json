@@ -693,8 +693,8 @@
    "type": "category",
    "domain": "forestry",
    "attributes": {
-    "types": "Champion & Seth (1968) classification: 16 major forest type groups",
-    "note": "Champion & Seth classification: 16 major types"
+    "note": "Champion & Seth classification: 16 major types",
+    "type": "Champion & Seth (1968) classification: 16 major forest type groups"
    },
    "relations": [
     {

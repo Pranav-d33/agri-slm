@@ -439,7 +439,7 @@
     "Muga silkworm"
    ],
    "attributes": {
-    "types": "Mulberry (Bombyx mori), tasar (Antheraea mylitta), eri (Samia ricini), muga (Antheraea assamensis)"
+    "type": "Mulberry (Bombyx mori), tasar (Antheraea mylitta), eri (Samia ricini), muga (Antheraea assamensis)"
    },
    "relations": [
     {

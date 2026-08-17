@@ -573,8 +573,8 @@
     "KCC"
    ],
    "attributes": {
-    "purpose": "Short-term crop loans, interest subvention (2-4%); also covers animal husbandry, fisheries",
-    "note": "Launched 1998; renewed push 2019-20"
+    "note": "Launched 1998; renewed push 2019-20",
+    "use": "Short-term crop loans, interest subvention (2-4%); also covers animal husbandry, fisheries"
    },
    "relations": [
     {
@@ -600,7 +600,7 @@
     "Mission for Integrated Development of Horticulture"
    ],
    "attributes": {
-    "purpose": "Horticulture promotion: nurseries, protected cultivation, cold chain"
+    "use": "Horticulture promotion: nurseries, protected cultivation, cold chain"
    },
    "relations": [
     {
@@ -626,7 +626,7 @@
     "National Food Security Mission"
    ],
    "attributes": {
-    "purpose": "Raise production of rice, wheat, pulses, millets, oilseeds via seed and technology support"
+    "use": "Raise production of rice, wheat, pulses, millets, oilseeds via seed and technology support"
    },
    "relations": [
     {
@@ -654,7 +654,7 @@
     "Soil Health Management"
    ],
    "attributes": {
-    "purpose": "Climate-resilient agriculture, soil health, natural farming (BPKP component)"
+    "use": "Climate-resilient agriculture, soil health, natural farming (BPKP component)"
    },
    "relations": [
     {
@@ -708,8 +708,8 @@
     "Pradhan Mantri Fasal Bima Yojana"
    ],
    "attributes": {
-    "purpose": "Crop insurance at low premium",
-    "note": "See market.insurance for details"
+    "note": "See market.insurance for details",
+    "use": "Crop insurance at low premium"
    },
    "relations": [
     {
@@ -736,7 +736,7 @@
     "Per Drop More Crop"
    ],
    "attributes": {
-    "purpose": "Irrigation coverage (har khet ko paani), micro-irrigation subsidy"
+    "use": "Irrigation coverage (har khet ko paani), micro-irrigation subsidy"
    },
    "relations": [
     {
@@ -762,7 +762,7 @@
     "Skill development for farmers"
    ],
    "attributes": {
-    "purpose": "Skill training for rural youth incl. agri skills"
+    "use": "Skill training for rural youth incl. agri skills"
    },
    "relations": [
     {
@@ -854,7 +854,7 @@
    "type": "institution",
    "domain": "schemes",
    "attributes": {
-    "purpose": "Issue soil health cards to farmers every 2-3 years (see soil.soil_health_card)"
+    "use": "Issue soil health cards to farmers every 2-3 years (see soil.soil_health_card)"
    },
    "relations": [
     {
