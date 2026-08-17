@@ -1076,7 +1076,17 @@
        "object": "location.states.andhra_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from HSAG 2024 top-producing district tables (tomato/onion). ",
+     "attributes": {
+      "major_crops": [
+       "crops.tomato",
+       "crops.onion"
+      ],
+      "source": {
+       "id": "hsag",
+       "url": "https://agriwelfare.gov.in/Documents/HORTICULTURAL_STATISTICS_AT_A_GLANCE_2024.pdf"
+      }
+     }
     }
    ]
   },
@@ -6287,7 +6297,16 @@
        "object": "location.states.gujarat"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from HSAG 2024 top-producing district tables (tomato/onion). ",
+     "attributes": {
+      "major_crops": [
+       "crops.tomato"
+      ],
+      "source": {
+       "id": "hsag",
+       "url": "https://agriwelfare.gov.in/Documents/HORTICULTURAL_STATISTICS_AT_A_GLANCE_2024.pdf"
+      }
+     }
     },
     {
      "name": "Dahod",
@@ -13027,7 +13046,16 @@
        "object": "location.states.madhya_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from HSAG 2024 top-producing district tables (tomato/onion). ",
+     "attributes": {
+      "major_crops": [
+       "crops.onion"
+      ],
+      "source": {
+       "id": "hsag",
+       "url": "https://agriwelfare.gov.in/Documents/HORTICULTURAL_STATISTICS_AT_A_GLANCE_2024.pdf"
+      }
+     }
     },
     {
      "name": "Khargone (West Nimar)",
@@ -26010,7 +26038,16 @@
        "object": "location.states.uttar_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from HSAG 2024 top-producing district tables (tomato/onion). ",
+     "attributes": {
+      "major_crops": [
+       "crops.onion"
+      ],
+      "source": {
+       "id": "hsag",
+       "url": "https://agriwelfare.gov.in/Documents/HORTICULTURAL_STATISTICS_AT_A_GLANCE_2024.pdf"
+      }
+     }
     },
     {
      "name": "Sitapur",

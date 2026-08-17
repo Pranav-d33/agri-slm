@@ -3430,7 +3430,18 @@
     "phenology": "sowing (seed 2.5 kg/ha / 66,000 slips/ha, 50x30 cm) or slip planting -> establishment -> vegetative growth -> first cut (75-80 d after germination, or 45 d after slip planting) -> subsequent cuts (every 45 d, 8 cuts/yr); yield 175 t/ha/yr",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Fodder%20Production.html",
-    "phenology_note": "TNAU fodder production: guinea grass first cut 75-80 d after germination / 45 d after slips; then 45-d intervals, 8 cuts/yr; 175 t/ha/yr; intercroppable with hedge lucerne 3:1."
+    "phenology_note": "TNAU fodder production: guinea grass first cut 75-80 d after germination / 45 d after slips; then 45-d intervals, 8 cuts/yr; 175 t/ha/yr; intercroppable with hedge lucerne 3:1.",
+    "notified_varieties": [
+     {
+      "name": "Guinea Grass Selection 1",
+      "type": "released",
+      "source": {
+       "id": "sathi-notices",
+       "url": "https://seedtrace.gov.in/ms012/inspection/getSeedGOFile/SeedGO/PDFFILES/CSC54MINUTES.pdf"
+      },
+      "note": "Recommended for notification at 54th CSC (24-25 Oct 2009); sponsored by Kerala"
+     }
+    ]
    },
    "relations": [
     {
@@ -3539,7 +3550,54 @@
     "phenology": "slip planting (40,000 slips/ha; perennial, year-round irrigated) -> establishment -> tillering/vegetative growth -> first harvest (75-80 d after planting) -> subsequent cuts (every 45 d); yield up to 380-400 t/ha/yr (Co.CN4)",
     "phenology_source_id": "tnau-agritech",
     "phenology_source_url": "https://agritech.tnau.ac.in/expert_system/cattlebuffalo/Fodder%20Production.html",
-    "phenology_note": "TNAU fodder production: hybrid napier (cumbu-napier) first harvest 75-80 DAP then 45-d intervals; Co.CN4 up to 380-400 t/ha/yr; can intercorp with desmanthus 3:1."
+    "phenology_note": "TNAU fodder production: hybrid napier (cumbu-napier) first harvest 75-80 DAP then 45-d intervals; Co.CN4 up to 380-400 t/ha/yr; can intercorp with desmanthus 3:1.",
+    "notified_varieties": [
+     {
+      "name": "Bajra Napier Grass Culture 4",
+      "type": "released",
+      "source": {
+       "id": "sathi-notices",
+       "url": "https://seedtrace.gov.in/ms012/inspection/getSeedGOFile/SeedGO/PDFFILES/CSC54MINUTES.pdf"
+      },
+      "note": "Recommended for notification at 54th CSC (24-25 Oct 2009); Kerala"
+     },
+     {
+      "name": "Bajra Napier Grass Culture 21",
+      "type": "released",
+      "source": {
+       "id": "sathi-notices",
+       "url": "https://seedtrace.gov.in/ms012/inspection/getSeedGOFile/SeedGO/PDFFILES/CSC54MINUTES.pdf"
+      },
+      "note": "Recommended for notification at 54th CSC (24-25 Oct 2009); Kerala"
+     },
+     {
+      "name": "Bajra Napier (hybrid) CO (BN) 5 (TNCN 074)",
+      "type": "released",
+      "source": {
+       "id": "sathi-notices",
+       "url": "https://seedtrace.gov.in/ms012/inspection/getSeedGOFile/SeedGO/PDFFILES/67th%20Meeting%20Minutes.pdf"
+      },
+      "note": "Recommended for notification at 67th CSC (13 Nov 2013); TNAU Coimbatore"
+     },
+     {
+      "name": "Bajra Napier Hybrid 10 (BNH 10)",
+      "type": "released",
+      "source": {
+       "id": "sathi-notices",
+       "url": "https://seedtrace.gov.in/ms012/inspection/getSeedGOFile/SeedGO/PDFFILES/67th%20Meeting%20Minutes.pdf"
+      },
+      "note": "Recommended for notification at 67th CSC (13 Nov 2013); BAIF Pune; subject to NBPGR seed-sample accession"
+     },
+     {
+      "name": "Bajra Napier Hybrid PBN 342",
+      "type": "released",
+      "source": {
+       "id": "sathi-notices",
+       "url": "https://seedtrace.gov.in/ms012/inspection/getSeedGOFile/SeedGO/CMS/CSC/Agricultural/minutes%20of%20the%20meeting%20of%20Central%20Sub-%20Committee%20Meeting_0001.pdf"
+      },
+      "note": "Recommended for notification at 79th CSC (Mar 2018); PAU Ludhiana"
+     }
+    ]
    },
    "relations": [
     {
