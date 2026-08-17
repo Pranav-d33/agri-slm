@@ -74,7 +74,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    }
   },
   {
@@ -975,7 +975,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Sanwa"
@@ -1524,7 +1524,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": []
   },
@@ -3105,7 +3105,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Lobia"
@@ -3312,7 +3312,7 @@
      "object": "location.states.uttar_pradesh",
      "source": {
       "id": "dacfw",
-      "url": "https://agricoop.nic.in/"
+      "url": "https://agriwelfare.gov.in/"
      }
     },
     {
@@ -3320,7 +3320,7 @@
      "object": "location.states.madhya_pradesh",
      "source": {
       "id": "dacfw",
-      "url": "https://agricoop.nic.in/"
+      "url": "https://agriwelfare.gov.in/"
      }
     },
     {
@@ -3328,13 +3328,13 @@
      "object": "location.states.bihar",
      "source": {
       "id": "dacfw",
-      "url": "https://agricoop.nic.in/"
+      "url": "https://agriwelfare.gov.in/"
      }
     }
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Matar"
@@ -3727,7 +3727,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Kangni"
@@ -8632,7 +8632,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Kulthi"
@@ -9174,7 +9174,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Kesari dal"
@@ -9340,7 +9340,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Kodra"
@@ -10120,7 +10120,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Kutki"
@@ -11015,7 +11015,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Matki"
@@ -11949,7 +11949,7 @@
      "object": "location.states.uttar_pradesh",
      "source": {
       "id": "dacfw",
-      "url": "https://agricoop.nic.in/"
+      "url": "https://agriwelfare.gov.in/"
      }
     },
     {
@@ -11957,7 +11957,7 @@
      "object": "location.states.haryana",
      "source": {
       "id": "dacfw",
-      "url": "https://agricoop.nic.in/"
+      "url": "https://agriwelfare.gov.in/"
      }
     },
     {
@@ -11965,13 +11965,13 @@
      "object": "location.states.madhya_pradesh",
      "source": {
       "id": "dacfw",
-      "url": "https://agricoop.nic.in/"
+      "url": "https://agriwelfare.gov.in/"
      }
     }
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": []
   },
@@ -13560,7 +13560,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    }
   },
   {
@@ -14873,7 +14873,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Cheena"
@@ -15097,7 +15097,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    }
   },
   {
@@ -15158,7 +15158,7 @@
      "object": "location.states.himachal_pradesh",
      "source": {
       "id": "dacfw",
-      "url": "https://agricoop.nic.in/"
+      "url": "https://agriwelfare.gov.in/"
      }
     },
     {
@@ -15166,7 +15166,7 @@
      "object": "location.states.uttarakhand",
      "source": {
       "id": "dacfw",
-      "url": "https://agricoop.nic.in/"
+      "url": "https://agriwelfare.gov.in/"
      }
     },
     {
@@ -15174,13 +15174,13 @@
      "object": "location.uts.jammu_kashmir",
      "source": {
       "id": "dacfw",
-      "url": "https://agricoop.nic.in/"
+      "url": "https://agriwelfare.gov.in/"
      }
     }
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": [
     "Rajma"
@@ -15943,7 +15943,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    }
   },
   {
@@ -15972,7 +15972,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    }
   },
   {
@@ -16000,7 +16000,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    }
   },
   {
@@ -16020,7 +16020,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "attributes": {
     "note": "Kharif, rabi and zaid seasons"
@@ -19417,13 +19417,13 @@
      "object": "location.states.uttar_pradesh",
      "source": {
       "id": "dacfw",
-      "url": "https://agricoop.nic.in/"
+      "url": "https://agriwelfare.gov.in/"
      }
     }
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "url": "https://agriwelfare.gov.in/"
    },
    "aliases": []
   },
@@ -31533,7 +31533,7 @@
      "object": "location.states.tamil_nadu",
      "source": {
       "id": "fao-avocado",
-      "url": "https://www.fao.org/3/x6902e/x6902e.htm"
+      "url": "https://www.fao.org/3/x6902e/x6902e00.htm"
      }
     },
     {
@@ -31541,7 +31541,7 @@
      "object": "location.states.kerala",
      "source": {
       "id": "fao-avocado",
-      "url": "https://www.fao.org/3/x6902e/x6902e.htm"
+      "url": "https://www.fao.org/3/x6902e/x6902e00.htm"
      }
     },
     {
@@ -31549,7 +31549,7 @@
      "object": "location.states.maharashtra",
      "source": {
       "id": "fao-avocado",
-      "url": "https://www.fao.org/3/x6902e/x6902e.htm"
+      "url": "https://www.fao.org/3/x6902e/x6902e00.htm"
      }
     },
     {
@@ -31557,7 +31557,7 @@
      "object": "location.states.karnataka",
      "source": {
       "id": "fao-avocado",
-      "url": "https://www.fao.org/3/x6902e/x6902e.htm"
+      "url": "https://www.fao.org/3/x6902e/x6902e00.htm"
      }
     },
     {
@@ -31565,7 +31565,7 @@
      "object": "location.states.sikkim",
      "source": {
       "id": "fao-avocado",
-      "url": "https://www.fao.org/3/x6902e/x6902e.htm"
+      "url": "https://www.fao.org/3/x6902e/x6902e00.htm"
      }
     }
    ],
