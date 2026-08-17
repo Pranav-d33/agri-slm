@@ -6699,7 +6699,8 @@
    "type": "entity",
    "domain": "livestock",
    "attributes": {
-    "period": "1970-1996; India's largest dairy development programme; NDDB-led; linked rural milk producers to urban markets via cooperative network"
+    "period": "1970-1996",
+    "note": "India's largest dairy development programme; NDDB-led; linked rural milk producers to urban markets via cooperative network"
    },
    "relations": [
     {
@@ -7217,7 +7218,8 @@
    "type": "entity",
    "domain": "livestock",
    "attributes": {
-    "note": "Semi-domesticated bovine of NE India; meat, socio-religious value"
+    "note": "Semi-domesticated bovine of NE India; meat, socio-religious value",
+    "species": "mithun"
    },
    "relations": [
     {
@@ -7400,7 +7402,8 @@
    "type": "entity",
    "domain": "livestock",
    "attributes": {
-    "note": "High-altitude Himalayas; milk (high fat), hair/wool, draught, dung fuel"
+    "note": "High-altitude Himalayas; milk (high fat), hair/wool, draught, dung fuel",
+    "species": "yak"
    },
    "relations": [
     {
@@ -7435,7 +7438,8 @@
    "type": "entity",
    "domain": "livestock",
    "attributes": {
-    "note": "Exotic dairy breed used in India for crossbreeding (HF); recorded under Exotic/Crossbred cattle in livestock census"
+    "note": "Exotic dairy breed used in India for crossbreeding (HF); recorded under Exotic/Crossbred cattle in livestock census",
+    "species": "cattle"
    },
    "relations": [
     {
@@ -7458,7 +7462,8 @@
    "type": "entity",
    "domain": "livestock",
    "attributes": {
-    "note": "Exotic dairy breed used in India for crossbreeding (Jersey); recorded under Exotic/Crossbred cattle in livestock census"
+    "note": "Exotic dairy breed used in India for crossbreeding (Jersey); recorded under Exotic/Crossbred cattle in livestock census",
+    "species": "cattle"
    },
    "relations": [
     {
@@ -7481,7 +7486,8 @@
    "type": "entity",
    "domain": "livestock",
    "attributes": {
-    "note": "Exotic dairy breed used in India for crossbreeding (Brown Swiss); recorded under Exotic/Crossbred cattle in livestock census"
+    "note": "Exotic dairy breed used in India for crossbreeding (Brown Swiss); recorded under Exotic/Crossbred cattle in livestock census",
+    "species": "cattle"
    },
    "relations": [
     {

@@ -14,7 +14,7 @@
     "Agmark"
    ],
    "attributes": {
-    "role": "Mandi price data network; quality grading"
+    "use": "Mandi price data network; quality grading"
    },
    "relations": [
     {
@@ -41,7 +41,7 @@
     "Anand pattern"
    ],
    "attributes": {
-    "role": "India's largest dairy cooperative (GCMMF, Anand Gujarat); model for cooperatives"
+    "use": "India's largest dairy cooperative (GCMMF, Anand Gujarat); model for cooperatives"
    },
    "relations": [
     {
@@ -67,7 +67,7 @@
     "Agricultural and Processed Food Products Export Development Authority"
    ],
    "attributes": {
-    "role": "Agri exports promotion; NPOP organic certification (accreditation)"
+    "use": "Agri exports promotion; NPOP organic certification (accreditation)"
    },
    "relations": [
     {
@@ -93,8 +93,8 @@
     "Central Insecticides Board and Registration Committee"
    ],
    "attributes": {
-    "role": "Registration of pesticides under Insecticides Act 1968",
-    "note": "Recommends ban/restriction of pesticides"
+    "note": "Recommends ban/restriction of pesticides",
+    "use": "Registration of pesticides under Insecticides Act 1968"
    },
    "relations": [
     {
@@ -120,7 +120,7 @@
     "Central Marine Fisheries Research Institute"
    ],
    "attributes": {
-    "role": "Marine fisheries research and statistics"
+    "use": "Marine fisheries research and statistics"
    },
    "relations": [
     {
@@ -146,7 +146,7 @@
     "Department of Animal Husbandry and Dairying"
    ],
    "attributes": {
-    "role": "Livestock census, animal health, dairy and livestock schemes"
+    "use": "Livestock census, animal health, dairy and livestock schemes"
    },
    "relations": [
     {
@@ -172,7 +172,7 @@
     "Food Corporation of India"
    ],
    "attributes": {
-    "role": "MSP procurement, buffer stocks, PDS distribution"
+    "use": "MSP procurement, buffer stocks, PDS distribution"
    },
    "relations": [
     {
@@ -199,7 +199,7 @@
     "Fertiliser Quality Control"
    ],
    "attributes": {
-    "role": "Regulates fertiliser quality/sale under FCO 1985"
+    "use": "Regulates fertiliser quality/sale under FCO 1985"
    },
    "relations": [
     {
@@ -225,7 +225,7 @@
     "Food Safety and Standards Authority of India"
    ],
    "attributes": {
-    "role": "Food safety, MRLs for pesticides in food, food labelling"
+    "use": "Food safety, MRLs for pesticides in food, food labelling"
    },
    "relations": [
     {
@@ -251,7 +251,7 @@
     "Indian Council of Agricultural Research"
    ],
    "attributes": {
-    "role": "Apex body for agri research and education; 100+ institutes and 74 SAUs-affiliated research; NARS"
+    "use": "Apex body for agri research and education; 100+ institutes and 74 SAUs-affiliated research; NARS"
    },
    "relations": [
     {
@@ -277,7 +277,7 @@
     "India Meteorological Department"
    ],
    "attributes": {
-    "role": "Monsoon forecasts, agromet advisories"
+    "use": "Monsoon forecasts, agromet advisories"
    },
    "relations": [
     {
@@ -304,8 +304,8 @@
     "Farm Science Centres"
    ],
    "attributes": {
-    "role": "District-level extension: technology testing, demonstrations, farmer training",
-    "coverage": "~730 KVKs (one per district)"
+    "coverage": "~730 KVKs (one per district)",
+    "use": "District-level extension: technology testing, demonstrations, farmer training"
    },
    "relations": [
     {
@@ -331,7 +331,7 @@
     "National Bank for Agriculture and Rural Development"
    ],
    "attributes": {
-    "role": "Rural credit, refinancing, watershed development funding"
+    "use": "Rural credit, refinancing, watershed development funding"
    },
    "relations": [
     {
@@ -357,7 +357,7 @@
     "National Bureau of Animal Genetic Resources"
    ],
    "attributes": {
-    "role": "Registry of indigenous livestock breeds (cattle, buffalo, goat, sheep, poultry, camel, yak, mithun, etc.)"
+    "use": "Registry of indigenous livestock breeds (cattle, buffalo, goat, sheep, poultry, camel, yak, mithun, etc.)"
    },
    "relations": [
     {
@@ -383,7 +383,7 @@
     "National Dairy Development Board"
    ],
    "attributes": {
-    "role": "Dairy development; Operation Flood legacy; Amul cooperative model"
+    "use": "Dairy development; Operation Flood legacy; Amul cooperative model"
    },
    "relations": [
     {
@@ -409,7 +409,7 @@
     "National Fisheries Development Board"
    ],
    "attributes": {
-    "role": "Fisheries and aquaculture development"
+    "use": "Fisheries and aquaculture development"
    },
    "relations": [
     {
@@ -435,7 +435,7 @@
     "NSC"
    ],
    "attributes": {
-    "role": "Seed production and distribution"
+    "use": "Seed production and distribution"
    },
    "relations": [
     {
@@ -461,7 +461,7 @@
     "Participatory Guarantee System of India"
    ],
    "attributes": {
-    "role": "Group organic certification (see organic.pgs)"
+    "use": "Group organic certification (see organic.pgs)"
    },
    "relations": [
     {
@@ -492,7 +492,7 @@
     "GBPUAT"
    ],
    "attributes": {
-    "role": "State-level agri education, research and extension; 74 SAUs; PAU Ludhiana, TNAU Coimbatore, UAS Bengaluru/Dharwad, ANGRAU, BAU Ranchi, AAU Jorhat"
+    "use": "State-level agri education, research and extension; 74 SAUs; PAU Ludhiana, TNAU Coimbatore, UAS Bengaluru/Dharwad, ANGRAU, BAU Ranchi, AAU Jorhat"
    },
    "relations": [
     {
@@ -682,7 +682,8 @@
    "attributes": {
     "benefit": "Rs 6,000 per year in 3 instalments to land-holding farmer families",
     "started": "2019",
-    "note": "Direct benefit transfer; ~11 crore beneficiaries"
+    "note": "Direct benefit transfer; ~11 crore beneficiaries",
+    "use": "Direct income support to land-holding farmer families (DBT)"
    },
    "relations": [
     {
@@ -885,7 +886,7 @@
    "type": "institution",
    "domain": "schemes",
    "attributes": {
-    "role": "International Crops Research Institute for the Semi-Arid Tropics (ICAR partner; HQ Patancheru, Telangana)"
+    "use": "International Crops Research Institute for the Semi-Arid Tropics (ICAR partner; HQ Patancheru, Telangana)"
    },
    "relations": [
     {

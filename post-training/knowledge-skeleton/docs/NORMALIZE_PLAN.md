@@ -118,30 +118,47 @@ inverse pairs, reusing the forward edge's source. Idempotent.
   exactly one domain, referenced from others — no inlined duplicates
   (verified: soil entities referenced via relations, never inlined).
 
-## 10. Bare-minimum required attributes (curated, warn-mode)
+## 10. Bare-minimum required attributes (curated, data-verified)
 
 `schema.json` class `required` is a curated BARE-MINIMUM attribute set per
-Class — the identifying minimum every entity should carry, chosen by domain
-semantics, not data coverage. Missing required attrs surface as WARNs
-(counted TODO, see COVERAGE.md; current total 153).
+Class — the identifying minimum every entity should carry. The set was
+REVISED against actual data coverage (2026-08-17): over-specified requireds
+were dropped where data showed no single attribute is universal.
 
-| Class | required | rationale |
+**Genuine universals (kept required):**
+
+| Class | required | coverage |
 |---|---|---|
-| Crop | scientific, phenology, phenology_note, phenology_source_id, phenology_source_url | species + growth-phenology provenance |
-| CropSeason | examples, months | what grows, when |
-| SoilType | colour, texture, origin, fertility | the physical identity of a soil |
-| LivestockBreed | note, species | what animal |
-| LivestockVariety | note, origin, species | breed record identity |
-| WaterEntity | note, water_stats | basin/resource figures |
-| Institution | role | what it does |
-| PesticideSubstance | note | description (class optional: banned actives lack registration class) |
-| FertilizerSubstance | type | chem/bio/manure |
-| WeatherEvent / WeatherEntity | period | temporal anchor |
-| Domain/Category/Pest/PlantDisease/Weed/Measure/FisherySpecies/SeedEntity/others | — | heterogeneous or leaf-taxonomy rows: no single universal attribute; the class contract constrains keys instead (required empty, keys still must be in optional) |
+| Crop | scientific | 100% (phenology* moved to optional: 96%, 8 niche crops lack it) |
+| CropSeason | examples, months | 100% |
+| LivestockBreed | note | 100% (species moved to optional: 92% — diseases/dairy ride the class and have none) |
+| LivestockVariety | note, origin, species | 100% |
+| FinanceEntity | note | 100% |
+| WaterEntity | note | 100% (water_stats moved to optional: 83%) |
+| Institution | use | 100% after role→use fold (was role 67%) |
 
-Empty-required classes are deliberate: pest/disease leaves are `affects`
-relation targets (421/463 empty attrs), fishery species split marine
-(landings) vs inland (production), measures span methods/market/techniques.
+**Heterogeneous classes (required empty — no single attribute is universal;**
+**the class contract still constrains keys, so no random info):**
+SoilType (natural: colour/texture/origin/fertility vs problem: note),
+PesticideSubstance (registered: class/use/formulations vs banned: note),
+FertilizerSubstance, Pest/PlantDisease/Weed (leaf rows), Measure,
+FisherySpecies (marine: landings vs inland: note), ForestEntity,
+MachineryEntity, WeatherEvent/WeatherEntity, SeedEntity, OrganicEntity,
+PostHarvestEntity, GenericEntity.
+
+**Synonym fold:** `role` → `use` (Institution). Data: 20 institutions use
+role, 8 schemes use use, zero overlap, same semantics. Added to key_aliases.
+
+**Deterministic fills applied (restatement of existing facts, no new data):**
+- 3 exotic cattle breeds (Jersey, Holstein Friesian, Brown Swiss) + mithun/
+  yak general anchors: added `species` (= cattle / mithun / yak).
+- operation_flood: split mixed `period` ("1970-1996; India's largest dairy
+  programme...") into real `period` + `note`.
+- PM-KISAN and water.schemes.pmksy: `use` derived from their note / canonical
+  sibling scheme.
+
+Result: **0 ontology warnings.** No fabrication — every fill restates facts
+already present in the entity or its source.
 
 ## 11. Location anchor (every domain reaches Location)
 

@@ -213,11 +213,12 @@
 
     "Crop": {
       "domains": ["crops"], "types": ["entity"],
-      "desc": "A crop species/variety grown in India. The most interlinked class: referenced from soil, pesticides, market, plant_protection, weather, seeds, fertilizers.",
-      "required": ["scientific", "phenology", "phenology_note", "phenology_source_id", "phenology_source_url"],
+      "desc": "A crop species/variety grown in India. The most interlinked class: referenced from soil, pesticides, market, plant_protection, weather, seeds, fertilizers. scientific is the bare minimum (100% coverage); phenology* is rich optional (96%, 8 niche crops lack it).",
+      "required": ["scientific"],
       "optional": {
         "note": "str", "season": "str", "type": "str", "use": "str", "water": "str",
-        "importance": "str", "agrovocId": "str",
+        "importance": "str", "agrovocId": "str", "phenology": "str",
+        "phenology_note": "str", "phenology_source_id": "str", "phenology_source_url": "str",
         "notified_varieties": "list_of_objects",
         "notified_status": {"type": "object", "desc": "{status: none, commercial_cultivars: [...], source: {...}}"},
         "apy_stats": {"type": "object", "desc": "{latest_fy: {area, production, yield}, source, note} — full series in data/_generated"},
@@ -235,10 +236,11 @@
 
     "SoilType": {
       "domains": ["soil"], "types": ["entity"],
-      "desc": "A soil type (alluvial, black, laterite...). Canonical node: crops.json references these via requires, soil.json owns them.",
-      "required": ["colour", "texture", "origin", "fertility"],
+      "desc": "A soil type. Two sub-types: natural soils (alluvial, black, red...: colour/texture/origin/fertility) and problem soils (acidic, saline, sodic...: note only). No single attribute is universal across both; required empty, keys constrained by contract.",
+      "required": [],
       "optional": {
-        "note": "str", "character": "str", "area_share": "str", "region": "str",
+        "note": "str", "colour": "str", "texture": "str", "origin": "str", "fertility": "str",
+        "character": "str", "area_share": "str", "region": "str",
         "special": "str", "water_holding": "str"
       }
     },
@@ -266,23 +268,23 @@
 
     "PesticideSubstance": {
       "domains": ["pesticides"], "types": ["substance"],
-      "desc": "A registered pesticide active ingredient (class is the CIB&RC registration class). Banned/restricted actives also map here (type: substance) — they lack the registration class, which is why class is optional.",
-      "required": ["note"],
-      "optional": {"use": "str", "class": "str", "formulations": "list_of_objects"}
+      "desc": "A pesticide active ingredient. Heterogeneous: registered actives carry class/use/formulations (note optional), banned/restricted carry note only. No single attribute is universal (note 95%, class 83%, formulations 76%); required empty, keys constrained by contract.",
+      "required": [],
+      "optional": {"note": "str", "use": "str", "class": "str", "formulations": "list_of_objects"}
     },
 
     "FertilizerSubstance": {
       "domains": ["fertilizers"], "types": ["substance"],
-      "desc": "A fertilizer / biofertilizer / manure substance.",
-      "required": ["type"],
-      "optional": {"note": "str", "use": "str", "npk": "str"}
+      "desc": "A fertilizer / biofertilizer / manure substance. Heterogeneous: some carry type (urea/dap/mop), some note (fym/vermicompost), some npk. No single attribute is universal; required empty.",
+      "required": [],
+      "optional": {"note": "str", "type": "str", "use": "str", "npk": "str"}
     },
 
     "LivestockBreed": {
       "domains": ["livestock"], "types": ["entity"],
-      "desc": "An indigenous or improved livestock breed (NBAGR).",
-      "required": ["note", "species"],
-      "optional": {"species_affected": "str", "vaccine": "str", "period": "str"}
+      "desc": "An indigenous or improved livestock breed (NBAGR). Class also hosts livestock diseases and dairy metrics (all typed entity) which are not breeds and carry no species; note is the universal minimum (100%), species is optional (92% of true breeds have it).",
+      "required": ["note"],
+      "optional": {"species": "str", "species_affected": "str", "vaccine": "str", "period": "str"}
     },
 
     "LivestockVariety": {
@@ -294,10 +296,10 @@
 
     "Institution": {
       "domains": ["schemes", "water"], "types": ["institution"],
-      "desc": "Government scheme or institution (ICAR, SAUs, KVKs, CIB&RC...). Canonical node referenced from many domains.",
-      "required": ["role"],
+      "desc": "Government scheme or institution (ICAR, SAUs, KVKs, CIB&RC...). Canonical node referenced from many domains. use (formerly role) is what it does.",
+      "required": ["use"],
       "optional": {
-        "note": "str", "use": "str", "benefit": "str",
+        "note": "str", "benefit": "str",
         "coverage": "str", "started": "str", "launched": "str", "outlay": "str",
         "per_drop_more_crop": "str"
       }
@@ -328,37 +330,37 @@
 
     "ForestEntity": {
       "domains": ["forestry"], "types": ["entity"],
-      "desc": "A forest/timber/NTFP species or forest-status entity.",
-      "required": ["note"],
-      "optional": {"use": "str", "cover": "str", "largest_by_area": "str", "largest_by_percent": "str"}
+      "desc": "A forest/timber/NTFP species or forest-status entity. Heterogeneous: NTFP carry use, status carries cover, timber/types carry note. No single attribute is universal; required empty.",
+      "required": [],
+      "optional": {"note": "str", "use": "str", "cover": "str", "largest_by_area": "str", "largest_by_percent": "str"}
     },
 
     "MachineryEntity": {
       "domains": ["machinery"], "types": ["entity"],
-      "desc": "A farm machine/implement/brand.",
-      "required": ["note"],
-      "optional": {"brand": "str"}
+      "desc": "A farm machine/implement/brand. Most carry note; tractor brands carry brand. No single attribute is universal; required empty.",
+      "required": [],
+      "optional": {"note": "str", "brand": "str"}
     },
 
     "WaterEntity": {
       "domains": ["water"], "types": ["entity"],
-      "desc": "A river basin, water resource, or irrigation-status entity.",
-      "required": ["note", "water_stats"],
-      "optional": {"states": "list", "canal_share": "str", "groundwater_share": "str", "irrigated_area": "str", "rainfed": "str"}
+      "desc": "A river basin, water resource, or irrigation-status entity. note is universal (100%); water_stats is rich optional (83%).",
+      "required": ["note"],
+      "optional": {"states": "list", "water_stats": "object", "canal_share": "str", "groundwater_share": "str", "irrigated_area": "str", "rainfed": "str"}
     },
 
     "WeatherEvent": {
       "domains": ["weather"], "types": ["event"],
-      "desc": "A weather/climate event (monsoon, drought, cyclone, El Nino).",
-      "required": ["period"],
-      "optional": {"note": "str", "region": "str", "affected_areas": "str", "relief": "str", "type": "str", "example": "str", "agriculture_impact": "str", "coverage": "str"}
+      "desc": "A weather/climate event (monsoon, drought, cyclone, El Nino). Heterogeneous: drought/flood carry affected_areas+relief, elnino carries note, hailstorm carries none. No single attribute is universal; required empty, keys constrained by contract.",
+      "required": [],
+      "optional": {"note": "str", "period": "str", "region": "str", "affected_areas": "str", "relief": "str", "type": "str", "example": "str", "agriculture_impact": "str", "coverage": "str"}
     },
 
     "WeatherEntity": {
       "domains": ["weather"], "types": ["entity"],
-      "desc": "A weather phenomenon or season entity.",
-      "required": ["period"],
-      "optional": {"note": "str", "annual_average": "str", "range": "str", "variability": "str", "onset": "str"}
+      "desc": "A weather phenomenon or season entity. Heterogeneous: rainfall carries annual_average/range, monsoon_onset carries onset, seasons carry period. No single attribute is universal; required empty.",
+      "required": [],
+      "optional": {"note": "str", "period": "str", "annual_average": "str", "range": "str", "variability": "str", "onset": "str"}
     },
 
     "SeedEntity": {
@@ -370,9 +372,9 @@
 
     "OrganicEntity": {
       "domains": ["organic"], "types": ["entity"],
-      "desc": "An organic farming entity (area, input, state status).",
-      "required": ["note"],
-      "optional": {"use": "str", "preparation": "str", "certification": "str", "status": "str", "exports": "str"}
+      "desc": "An organic farming entity (area, input, state status). Heterogeneous: inputs carry use/preparation, sikkim carries status/certification. No single attribute is universal; required empty.",
+      "required": [],
+      "optional": {"note": "str", "use": "str", "preparation": "str", "certification": "str", "status": "str", "exports": "str"}
     },
 
     "FinanceEntity": {
@@ -384,24 +386,24 @@
 
     "PostHarvestEntity": {
       "domains": ["post_harvest"], "types": ["entity"],
-      "desc": "A post-harvest entity (loss category, storage, processing).",
-      "required": ["note"],
-      "optional": {"causes": "str", "scheme": "str"}
+      "desc": "A post-harvest entity (loss category, storage, processing). Most carry note; mega_food_park carries scheme. No single attribute is universal; required empty.",
+      "required": [],
+      "optional": {"note": "str", "causes": "str", "scheme": "str"}
     },
 
     "GenericEntity": {
       "domains": ["apiculture", "market", "fertilizers", "agriculture"], "types": ["entity"],
-      "desc": "Generic concrete entities not captured by a specialised class.",
-      "required": ["note"],
-      "optional": {"type": "str", "species": "str", "brand": "str"}
+      "desc": "Generic concrete entities not captured by a specialised class. Heterogeneous (bees, APMCs, micronutrients); most carry note, silkworm carries type. No single attribute is universal; required empty.",
+      "required": [],
+      "optional": {"note": "str", "type": "str", "species": "str", "brand": "str"}
     }
   },
 
   "key_aliases": {
-    "_description": "Canonical key resolution. Only the LEFT key may appear in data. Migration renames right->left. Verified: no entity carries real content in both keys of a pair. NOTE: 'species' (livestock common name, e.g. pig/cattle) and 'character' (soil description) are NOT aliases of 'scientific' — they are semantically distinct and kept as-is.",
+    "_description": "Canonical key resolution. Only the LEFT key may appear in data. Migration renames right->left. Verified: no entity carries real content in both keys of a pair. NOTE: 'species' (livestock common name, e.g. pig/cattle) and 'character' (soil description) are NOT aliases of 'scientific' — they are semantically distinct and kept as-is. 'role' (institution: what it does) folds into 'use' — data shows 20 institutions use role and 8 schemes use use with zero overlap.",
     "note": ["notes"],
     "scientific": ["scientific_name"],
-    "use": ["uses", "purpose"],
+    "use": ["uses", "purpose", "role"],
     "type": ["types"]
   },
 

@@ -1745,7 +1745,8 @@
    "attributes": {
     "launched": "2015-16",
     "outlay": "~Rs 110,000 crore",
-    "per_drop_more_crop": "Micro-irrigation component subsidising drip and sprinkler systems; subsidy of 55% for small/marginal farmers and 45% for others"
+    "per_drop_more_crop": "Micro-irrigation component subsidising drip and sprinkler systems; subsidy of 55% for small/marginal farmers and 45% for others",
+    "use": "Irrigation coverage (har khet ko paani), micro-irrigation subsidy"
    },
    "relations": [
     {
