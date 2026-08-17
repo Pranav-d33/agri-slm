@@ -18,7 +18,7 @@ Every fact in this skeleton traces to a source below. `id` is referenced from en
 | icar | ICAR (Indian Council of Agricultural Research) | all | https://icar.org.in/ | Govt of India | manual |
 | fsi-isfr | FSI India State of Forest Report 2023 | forestry | https://fsi.nic.in/isfr-2023 | Govt of India; Vol2 state-wise Champion & Seth forest-type tables (used for forest-type → state mapping) | ready |
 | nbragr | ICAR-NBAGR (Animal Genetics Resources) | livestock | https://nbagr.res.in/ | Breed registry (240 registered breeds); nbagr.icar.gov.in unreachable, .res.in mirror used; horse via Wayback snapshot 2024-10 | ready |
-| dahd-census | DAHD 20th Livestock Census 2019 | livestock | https://dahd.nic.in/ | Govt of India statistics | manual |
+| dahd-census | DAHD 20th Livestock Census 2019 | livestock | https://dahd.gov.in/ | Govt of India statistics; old dahd.nic.in moved to dahd.gov.in | ready |
 | cibrc | CIB&RC (Pesticides Registration) | pesticides | https://cibrc.gov.in/ | Govt of India; site intermittently down | mirror |
 | cibrc-ban | CIB&RC banned/restricted list | pesticides | https://www.ppqs.gov.in/divisions/cib-rc/registered-products | Official 'Banned, Refused Registration and Restricted in Use' list (updated 31.07.2026) | ready |
 | cibrc-9-3 | CIB&RC 9(3) registered actives | pesticides | https://www.ppqs.gov.in/divisions/cib-rc/registered-products | 371 registered active ingredients; extracted to data/_raw/cibrc/registered_actives_9_3.json | ready |
@@ -40,6 +40,7 @@ Every fact in this skeleton traces to a source below. `id` is referenced from en
 | des | DES (Economics & Statistics, DAC&FW) crop APY reports | crops | https://data.desagri.gov.in/website/crops-apy-report-web | Govt of India; state-wise area/production via printdraft report (2000-2013); used for Moth/Khesari/Horse-gram/Cowpea/Ragi/Small-millets + 27 field crops (rice/wheat/maize/jowar/bajra/barley/gram/pulses/oilseeds/cotton/jute/mesta/sugarcane/tobacco); rice uses Kharif+Autumn+Winter+Summer union | ready |
 | agridashboard | Agristack/DAC dashboard | market, crops | https://agridashboard.dac.gov.in/ | Govt of India | manual |
 | apeda | APEDA (organic NPOP) | organic, market | https://apeda.gov.in/ | Govt of India | manual |
+| icar-itk | ICAR: Traditional Knowledge in Agriculture (ITK) | organic | https://icar.org.in/en/ITK | ICAR Directorate of Knowledge Management; validated indigenous technical knowledge documents (organic/natural-farming inputs, methods) | ready |
 | pgsindia | PGS-India (NCOF) | organic | https://pgsindia-ncof.gov.in/ | Official PGS portal per DAC&FW NCOF | ready |
 | nhb | National Horticulture Board | crops | https://nhb.gov.in/ | Govt of India | manual |
 | imd | India Meteorological Department | weather | https://mausam.imd.gov.in/ | Govt of India | manual |
@@ -65,7 +66,7 @@ Every fact in this skeleton traces to a source below. `id` is referenced from en
 | ncaer | NCAER agri data | market | https://www.ncaer.org/ | Research institute | manual |
 | iari | ICAR-IARI | crops, soil | https://iari.res.in/ | ICAR institute | manual |
 | iihr | ICAR-IIHR (horticulture) | crops | https://iihr.res.in/ | ICAR institute | manual |
-| crijaf | ICAR-CRIJAF (jute) | crops | https://crijaf.icar.gov.in/ | ICAR institute | manual |
+| crijaf | ICAR-CRIJAF (jute) | crops | https://genetools.iari.res.in/crijaf-page.html | ICAR institute; crijaf.res.in/icar.gov.in unreachable, IARI genetools mirror used | manual |
 | cicr | ICAR-CICR (cotton) | crops | https://cicr.org.in/ | ICAR institute | manual |
 | spicesboard | Spices Board India | crops | https://www.indianspices.com/ | Commodity board | manual |
 | teaboard | Tea Board India | crops | https://www.teaboard.gov.in/ | Commodity board | manual |
@@ -134,7 +135,7 @@ Every fact in this skeleton traces to a source below. `id` is referenced from en
 | icar-ccari-jasmine | ICAR-CCARI: Jasmine | crops | https://ccari.res.in/dss/jasmine.html | ICAR institute synthesis | manual |
 | icar-floriculture-review | ICAR Indian Horticulture: Gerbera review | crops | https://epubs.icar.org.in/index.php/IndHort/ | ICAR journal synthesis | manual |
 | icar-lily-review | ICAR: Lilium cultivation review | crops | https://www.researchgate.net/publication/338091339 | Kumari 2019 review | manual |
-| icar-nrc-orchids | ICAR: Orchids in NE India | crops | https://icar.org.in/content/orchids | ICAR Indian Farming | manual |
+| icar-nrc-orchids | ICAR: Orchids in NE India | crops | https://icar.org.in/en/search/node?keys=orchids | ICAR Indian Farming; old /content/orchids moved, use ICAR search for orchid articles | ready |
 | icar-indhort-woodapple | Indian Horticulture 70(5) 2025: Wood Apple | crops | https://epubs.icar.org.in/index.php/IndHort/article/download/100241/62682/490493 | ICAR journal; Limonia acidissima identity | manual |
 | rsc-coleus | RSC Advances: Coleus forskohlii review | crops | https://pubs.rsc.org/en/content/articlehtml/2017/ra/c6ra26190f | Peer-reviewed review | ready |
 | tnau-gloriosa | TNAU Agritech: Glory Lily | crops | https://agritech.tnau.ac.in/horticulture/horti_medicinal%20crops_gloriosa.html | State SAU | ready |
