@@ -1,5 +1,5 @@
 {
- "_description": "Pesticides domain: regulatory framework, classes, representative registered actives and banned pesticides. Registered list is ~330 technicals (CIB&RC); full enumeration tracked as a gap.",
+ "_description": "Pesticides domain: regulatory framework, classes, representative registered actives and banned pesticides. Registered list is 371 registered active ingredients (CIB&RC); full enumeration tracked as a gap.",
  "source": {
   "id": "cibrc",
   "url": "https://cibrc.gov.in/"
@@ -300,6 +300,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -719,6 +723,14 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.fumigants"
     }
    ],
    "source": {
@@ -957,6 +969,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -2474,6 +2490,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -2513,6 +2533,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -2695,6 +2719,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -2727,6 +2755,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -3012,6 +3044,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -3500,6 +3536,9 @@
    "source": {
     "id": "cibrc",
     "url": "https://cibrc.gov.in/"
+   },
+   "attributes": {
+    "note": "8 CIB&RC sections: Insecticides, Fungicides, Herbicides, Rodenticides, Fumigants, PGR, Public-Health, Biopesticides. Acaricides/nematicides are not separate CIB&RC list sections; such actives sit under Insecticides."
    }
   },
   {
@@ -3742,6 +3781,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -4330,6 +4373,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -4595,6 +4642,14 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.fumigants"
     }
    ],
    "source": {
@@ -4855,6 +4910,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.fumigants"
     }
    ],
    "source": {
@@ -5191,6 +5250,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -5546,6 +5609,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -6127,6 +6194,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -6523,6 +6594,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -8174,6 +8249,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -8493,6 +8572,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -9361,6 +9444,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.fumigants"
     }
    ],
    "source": {
@@ -9398,6 +9485,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -9478,6 +9569,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -10180,6 +10275,14 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.fumigants"
     }
    ],
    "source": {
@@ -10567,6 +10670,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -11160,6 +11267,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -11421,6 +11532,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -13019,6 +13134,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -14309,13 +14428,17 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
     "id": "cibrc",
     "url": "https://cibrc.gov.in/"
    },
-   "notes": "formulations from PPQS list (31.03.2026): 12 registered"
+   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spelling 'Thiamethoxam' (entity name has a typo); 11 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.thifluzamide",
@@ -14447,49 +14570,6 @@
    },
    "aliases": [],
    "notes": "formulations from PPQS list (31.03.2026): 1 registered"
-  },
-  {
-   "id": "pesticides.thiomethoxam",
-   "name": "Thiomethoxam",
-   "type": "substance",
-   "domain": "pesticides",
-   "attributes": {
-    "note": "Registered active ingredient (CIB&RC 9(3) list)",
-    "class": "Registered active ingredient (9(3))",
-    "formulations": [
-     "Thiamethoxam 0.01%w/w Gel Bait",
-     "Thiamethoxam 0.4% + Bifenthrin 0.8% GR",
-     "Thiamethoxam 0.9% + Fipronil 0.2%GR",
-     "Thiamethoxam 1.0% + Chlorantraniliprole 0.5% GR",
-     "Thiamethoxam 1.2% GR",
-     "Thiamethoxam 1.25% + Fipronil 1.25% + Chlorantraniliprole 0.6% GR",
-     "Thiamethoxam 12.6% + Lambda-cyhalothrin 9.5%ZC",
-     "Thiamethoxam 25%WG",
-     "Thiamethoxam 30 %FS",
-     "Thiamethoxam 70% WS",
-     "Thiamethoxam 75 % w/w SG"
-    ]
-   },
-   "relations": [
-    {
-     "predicate": "is_a",
-     "object": "pesticides.registered_actives"
-    },
-    {
-     "predicate": "found_in",
-     "object": "location.india"
-    },
-    {
-     "predicate": "registered_in",
-     "object": "institutions.cibrc"
-    }
-   ],
-   "source": {
-    "id": "cibrc-9-3",
-    "url": "https://www.ppqs.gov.in/divisions/cib-rc/registered-products"
-   },
-   "aliases": [],
-   "notes": "TODO: class/use details from CIB&RC handbook; formulation matched to source spelling 'Thiamethoxam' (entity name has a typo); 11 registered (PPQS list 31.03.2026)"
   },
   {
    "id": "pesticides.thiometon",
@@ -15319,6 +15399,10 @@
     {
      "predicate": "registered_in",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -15595,6 +15679,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "is_a",
+     "object": "pesticides.registered_actives"
     }
    ],
    "source": {
@@ -15703,6 +15791,30 @@
    },
    "aliases": [],
    "notes": "formulations from PPQS list (31.03.2026): 1 registered"
+  },
+  {
+   "id": "pesticides.fumigants",
+   "name": "Fumigants",
+   "type": "category",
+   "domain": "pesticides",
+   "aliases": [],
+   "attributes": {
+    "note": "CIB&RC formulations list section E (Fumigants)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "pesticides.classes"
+    },
+    {
+     "predicate": "part_of",
+     "object": "pesticides.classes"
+    }
+   ],
+   "source": {
+    "id": "cibrc-formulations",
+    "url": "https://ppqs.gov.in/sites/default/files/list_pf_pesticide_formulations_registered_as_on_31.03.2026.pdf"
+   }
   }
  ]
 }

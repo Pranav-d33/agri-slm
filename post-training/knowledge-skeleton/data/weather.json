@@ -62,7 +62,7 @@
     "GKMS"
    ],
    "attributes": {
-    "service": "IMD agromet advisories to farmers (1500+ districts via KVKs)",
+    "service": "IMD Gramin Krishi Mausam Sewa (GKMS): block-level agromet advisories covering ~3000+ blocks across ~800+ districts via KVKs",
     "products": "Rainfall forecasts, crop weather calendars, pest alerts"
    },
    "relations": [
@@ -195,7 +195,7 @@
    "relations": [
     {
      "predicate": "is_a",
-     "object": "weather.monsoon"
+     "object": "weather.phenomenon"
     },
     {
      "predicate": "affects",
@@ -308,7 +308,7 @@
    "relations": [
     {
      "predicate": "is_a",
-     "object": "weather.monsoon"
+     "object": "weather.phenomenon"
     },
     {
      "predicate": "found_in",
@@ -434,7 +434,7 @@
    "relations": [
     {
      "predicate": "is_a",
-     "object": "weather.advisory"
+     "object": "weather"
     },
     {
      "predicate": "found_in",
@@ -456,7 +456,7 @@
    "type": "category",
    "domain": "weather",
    "attributes": {
-    "seasons": "Winter (Dec-Feb), Summer (Mar-May), SW Monsoon (Jun-Sep), Retreating/N-E Monsoon (Oct-Nov)",
+    "seasons": "Winter (Dec-Feb), Summer (Mar-May), SW Monsoon (Jun-Sep), Retreating/N-E Monsoon (Oct-Dec)",
     "note": "Agronomic seasons kharif/rabi/zaid map onto these"
    },
    "relations": [
@@ -551,7 +551,7 @@
    "relations": [
     {
      "predicate": "is_a",
-     "object": "weather.monsoon"
+     "object": "weather.phenomenon"
     },
     {
      "predicate": "found_in",
@@ -701,6 +701,234 @@
       "id": "imd",
       "url": "https://mausam.imd.gov.in/"
      }
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.phenomenon",
+   "name": "Weather and Climate Phenomena",
+   "type": "category",
+   "domain": "weather",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   },
+   "attributes": {
+    "note": "ENSO modes, westerly systems, ocean-atmosphere phenomena"
+   }
+  },
+  {
+   "id": "weather.monsoon_onset",
+   "name": "Monsoon Onset",
+   "type": "entity",
+   "domain": "weather",
+   "aliases": [
+    "Onset of southwest monsoon"
+   ],
+   "attributes": {
+    "onset": "~1 June over Kerala",
+    "note": "Advances northwards over the peninsula; onset defines the kharif sowing window"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.monsoon"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.monsoon_withdrawal",
+   "name": "Monsoon Withdrawal (Retreat)",
+   "type": "entity",
+   "domain": "weather",
+   "aliases": [
+    "Retreating monsoon"
+   ],
+   "attributes": {
+    "period": "Withdrawal begins from extreme NW India in mid-September, complete by mid-October",
+    "note": "Retreat marks the transition to the north-east monsoon"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.monsoon"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.monsoon_trough",
+   "name": "Monsoon Trough",
+   "type": "entity",
+   "domain": "weather",
+   "aliases": [],
+   "attributes": {
+    "note": "Low-pressure belt extending from Ganganagar (Rajasthan) to the Head of the Bay of Bengal; its seasonal shifts drive active and break (dry-spell) phases"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.monsoon"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.monsoon_depression",
+   "name": "Monsoon Depression",
+   "type": "entity",
+   "domain": "weather",
+   "aliases": [],
+   "attributes": {
+    "note": "Low-pressure systems that form over the Bay of Bengal and move west/north-west; major carriers of monsoon rainfall over central India"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.monsoon"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.indian_ocean_dipole",
+   "name": "Indian Ocean Dipole (IOD)",
+   "type": "entity",
+   "domain": "weather",
+   "aliases": [
+    "IOD"
+   ],
+   "attributes": {
+    "note": "Second driver of the Indian monsoon; a positive IOD can offset the El Nino deficit and strengthen monsoon rainfall"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.phenomenon"
+    },
+    {
+     "predicate": "affects",
+     "object": "weather.monsoon_sw"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.cyclone_seasonality",
+   "name": "Cyclone Seasonality",
+   "type": "entity",
+   "domain": "weather",
+   "attributes": {
+    "note": "Two cyclone seasons: pre-monsoon (Apr-May, mainly Bay of Bengal) and post-monsoon/NE monsoon (Oct-Dec); the Bay of Bengal sees more cyclones than the Arabian Sea (roughly 4:1)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.phenomenon"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.seasons.monsoon",
+   "name": "Monsoon Season",
+   "type": "entity",
+   "domain": "weather",
+   "attributes": {
+    "period": "June to September (south-west monsoon; kharif)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.seasons"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "imd",
+    "url": "https://mausam.imd.gov.in/"
+   }
+  },
+  {
+   "id": "weather.seasons.retreating",
+   "name": "Retreating Monsoon Season",
+   "type": "entity",
+   "domain": "weather",
+   "aliases": [
+    "Post-monsoon season",
+    "North-east monsoon season"
+   ],
+   "attributes": {
+    "period": "October to December (retreating / north-east monsoon)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "weather.seasons"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
     }
    ],
    "source": {

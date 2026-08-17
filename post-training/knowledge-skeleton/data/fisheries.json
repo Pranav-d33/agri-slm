@@ -78,7 +78,7 @@
    ],
    "attributes": {
     "note": "Inland (rivers, tanks, ponds, reservoirs) contributes ~70% of production; aquaculture dominant",
-    "top_aquaculture": "AP, WB, Punjab, Bihar, Gujarat, Karnataka",
+    "top_aquaculture": "AP, West Bengal, Bihar, Uttar Pradesh, Punjab, Karnataka (top inland freshwater aquaculture states; Gujarat is the top marine/shrimp state, not inland)",
     "production_lakh_tonnes_fy_2022_23": {
      "value": 131.13,
      "by_state": {
@@ -144,7 +144,8 @@
    "source": {
     "id": "nfdb",
     "url": "https://nfdb.gov.in/"
-   }
+   },
+   "notes": "DAHD FY2022-23 inland production declared 131.13 lakh t; the by_state split in this record sums to 130.89 lakh t (diff 0.24, attributed to unreported Sikkim figure and rounding). Official total kept as primary; split source dahd-fisheries."
   },
   {
    "id": "fisheries.inland.carp_polyculture",
@@ -448,8 +449,8 @@
     }
    ],
    "source": {
-    "id": "nfdb",
-    "url": "https://nfdb.gov.in/"
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/"
    }
   },
   {
@@ -575,35 +576,12 @@
     }
    ],
    "source": {
-    "id": "nfdb",
-    "url": "https://nfdb.gov.in/"
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/"
    },
    "aliases": [
     "short mackerel"
    ]
-  },
-  {
-   "id": "fisheries.marine.non_penaeid_prawns",
-   "name": "Non-Penaeid Prawns",
-   "type": "entity",
-   "domain": "fisheries",
-   "attributes": {
-    "note": "Acetes spp.; 2.11 lakh t in 2023 (5.98%); dried shrimp industry"
-   },
-   "relations": [
-    {
-     "predicate": "is_a",
-     "object": "fisheries.marine"
-    },
-    {
-     "predicate": "found_in",
-     "object": "location.india"
-    }
-   ],
-   "source": {
-    "id": "cmfri",
-    "url": "https://eprints.cmfri.org.in/18344/"
-   }
   },
   {
    "id": "fisheries.marine.oil_sardine",
@@ -611,8 +589,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "note": "Largest single-species marine catch; Kerala and TN coast",
-    "landings_tonnes_2025": 253260
+    "note": "3rd largest marine species landing in 2025 (2,53,119 t), after mackerel (2,69,757 t, #1) and the cephalopod group - squids+cuttlefish+octopus (≈2,56,828 t, #2 as a group); per ICAR-CMFRI Marine Fish Landings 2025; Kerala and TN coast",
+    "landings_tonnes_2025": 253119
    },
    "relations": [
     {
@@ -629,31 +607,8 @@
     }
    ],
    "source": {
-    "id": "nfdb",
-    "url": "https://nfdb.gov.in/"
-   }
-  },
-  {
-   "id": "fisheries.marine.penaeid_prawns",
-   "name": "Penaeid Prawns",
-   "type": "entity",
-   "domain": "fisheries",
-   "attributes": {
-    "note": "Parapenaeopsis, Penaeus spp.; marine shrimp; decline of 37% in 2023 vs 2022"
-   },
-   "relations": [
-    {
-     "predicate": "is_a",
-     "object": "fisheries.marine"
-    },
-    {
-     "predicate": "found_in",
-     "object": "location.india"
-    }
-   ],
-   "source": {
-    "id": "cmfri",
-    "url": "https://eprints.cmfri.org.in/18344/"
+    "id": "cmfri-landings",
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -864,7 +819,7 @@
    "relations": [
     {
      "predicate": "is_a",
-     "object": "fisheries.inland"
+     "object": "fisheries.brackishwater"
     },
     {
      "predicate": "produced_in",
@@ -1036,7 +991,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1079,7 +1034,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1122,7 +1077,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1165,7 +1120,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1208,7 +1163,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1251,7 +1206,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1294,7 +1249,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1337,7 +1292,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1380,7 +1335,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1423,7 +1378,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1466,7 +1421,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1509,7 +1464,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1552,7 +1507,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1595,7 +1550,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1638,7 +1593,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1681,7 +1636,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1724,7 +1679,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1767,7 +1722,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1810,7 +1765,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1853,7 +1808,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1896,7 +1851,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1939,7 +1894,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -1982,7 +1937,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2025,7 +1980,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2066,7 +2021,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2109,7 +2064,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2152,7 +2107,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2195,7 +2150,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2238,130 +2193,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
-   }
-  },
-  {
-   "id": "fisheries.marine.seer_fish_s_commerson",
-   "name": "Seer Fish (S. commerson)",
-   "type": "entity",
-   "domain": "fisheries",
-   "attributes": {},
-   "relations": [
-    {
-     "predicate": "is_a",
-     "object": "fisheries.marine"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.gujarat"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.kerala"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.maharashtra"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.tamil_nadu"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.andhra_pradesh"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.west_bengal"
-    }
-   ],
-   "source": {
-    "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
-   }
-  },
-  {
-   "id": "fisheries.marine.seer_fish_s_guttatus",
-   "name": "Seer Fish (S. guttatus)",
-   "type": "entity",
-   "domain": "fisheries",
-   "attributes": {},
-   "relations": [
-    {
-     "predicate": "is_a",
-     "object": "fisheries.marine"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.gujarat"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.kerala"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.maharashtra"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.tamil_nadu"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.andhra_pradesh"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.west_bengal"
-    }
-   ],
-   "source": {
-    "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
-   }
-  },
-  {
-   "id": "fisheries.marine.seer_fish_s_lineolatus",
-   "name": "Seer Fish (S. lineolatus)",
-   "type": "entity",
-   "domain": "fisheries",
-   "attributes": {},
-   "relations": [
-    {
-     "predicate": "is_a",
-     "object": "fisheries.marine"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.gujarat"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.kerala"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.maharashtra"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.tamil_nadu"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.andhra_pradesh"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.west_bengal"
-    }
-   ],
-   "source": {
-    "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2404,48 +2236,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
-   }
-  },
-  {
-   "id": "fisheries.marine.eastern_little_tuna_e_affinis",
-   "name": "Eastern Little Tuna (E. affinis)",
-   "type": "entity",
-   "domain": "fisheries",
-   "attributes": {},
-   "relations": [
-    {
-     "predicate": "is_a",
-     "object": "fisheries.marine"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.gujarat"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.kerala"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.maharashtra"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.tamil_nadu"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.andhra_pradesh"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.west_bengal"
-    }
-   ],
-   "source": {
-    "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2488,89 +2279,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
-   }
-  },
-  {
-   "id": "fisheries.marine.skipjack_tuna_k_pelamis",
-   "name": "Skipjack Tuna (K. pelamis)",
-   "type": "entity",
-   "domain": "fisheries",
-   "attributes": {},
-   "relations": [
-    {
-     "predicate": "is_a",
-     "object": "fisheries.marine"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.gujarat"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.kerala"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.maharashtra"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.tamil_nadu"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.andhra_pradesh"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.west_bengal"
-    }
-   ],
-   "source": {
-    "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
-   }
-  },
-  {
-   "id": "fisheries.marine.longtail_tuna_t_tonggol",
-   "name": "Longtail Tuna (T. tonggol)",
-   "type": "entity",
-   "domain": "fisheries",
-   "attributes": {},
-   "relations": [
-    {
-     "predicate": "is_a",
-     "object": "fisheries.marine"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.gujarat"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.kerala"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.maharashtra"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.tamil_nadu"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.andhra_pradesh"
-    },
-    {
-     "predicate": "produced_in",
-     "object": "location.states.west_bengal"
-    }
-   ],
-   "source": {
-    "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2613,7 +2322,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2656,7 +2365,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2699,7 +2408,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2742,7 +2451,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2785,7 +2494,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2828,7 +2537,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2871,7 +2580,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2914,7 +2623,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -2957,7 +2666,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -3000,7 +2709,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -3043,7 +2752,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -3086,7 +2795,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -3129,7 +2838,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -3172,7 +2881,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -3215,7 +2924,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -3258,7 +2967,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -3301,7 +3010,7 @@
    ],
    "source": {
     "id": "cmfri-landings",
-    "url": "https://cmfri.org.in/2023"
+    "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
    }
   },
   {
@@ -3783,7 +3492,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "landings_tonnes_2025": 163215
+    "landings_tonnes_2025": 163215,
+    "note": "Penaeid prawns (marine shrimp; Parapenaeopsis, Penaeus spp.); 2023 landings declined 37% vs 2022 (2023 record)"
    },
    "relations": [
     {
@@ -3826,7 +3536,8 @@
    "type": "entity",
    "domain": "fisheries",
    "attributes": {
-    "landings_tonnes_2025": 141650
+    "landings_tonnes_2025": 141650,
+    "note": "Non-penaeids (Acetes spp.); 2.11 lakh t in 2023 (5.98% of marine landings); basis of dried-shrimp industry"
    },
    "relations": [
     {
@@ -3861,6 +3572,29 @@
    "source": {
     "id": "cmfri-landings",
     "url": "https://eprints.cmfri.org.in/19715/1/Marine%20Fish%20Landings%20in%20India%20-%202025.pdf"
+   }
+  },
+  {
+   "id": "fisheries.inland.common_carp",
+   "name": "Common Carp",
+   "type": "entity",
+   "domain": "fisheries",
+   "attributes": {
+    "note": "Cyprinus carpio; exotic; bottom feeder; third exotic carp in carp polyculture (with silver carp and grass carp)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "fisheries.inland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nfdb",
+    "url": "https://nfdb.gov.in/"
    }
   }
  ]

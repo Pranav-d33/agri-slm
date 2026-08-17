@@ -1,40 +1,36 @@
 {
-  "_description": "Root of the knowledge skeleton: agriculture domain and the location anchor domain.",
-  "source": {
+ "_description": "Root of the knowledge skeleton: agriculture domain and the location anchor domain.",
+ "source": {
+  "id": "dacfw",
+  "url": "https://agricoop.nic.in/"
+ },
+ "entities": [
+  {
+   "id": "agriculture",
+   "name": "Agriculture",
+   "type": "domain",
+   "domain": "agriculture",
+   "aliases": [
+    "Krishi",
+    "Farming",
+    "Agriculture in India"
+   ],
+   "attributes": {
+    "note": "Root node. 18 domains: location, soil, crops, livestock, pesticides, fertilizers, organic, water, weather, seeds, machinery, plant_protection, fisheries, post_harvest, market, schemes, forestry, apiculture",
+    "gdp_share": "~18-20% (2020-21 economic survey)",
+    "workforce": ">50% of Indian workforce",
+    "world_ranking": "2nd in farm output"
+   },
+   "relations": [
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
     "id": "dacfw",
     "url": "https://agricoop.nic.in/"
-  },
-  "entities": [
-    {
-      "id": "agriculture",
-      "name": "Agriculture",
-      "type": "domain",
-      "domain": "agriculture",
-      "aliases": [
-        "Krishi",
-        "Farming",
-        "Agriculture in India"
-      ],
-      "attributes": {
-        "note": "Root node. 18 domains: location, soil, crops, livestock, pesticides, fertilizers, organic, water, weather, seeds, machinery, plant_protection, fisheries, post_harvest, market, schemes, forestry, apiculture",
-        "gdp_share": "~18-20% (2020-21 economic survey)",
-        "workforce": ">50% of Indian workforce",
-        "world_ranking": "2nd in farm output"
-      },
-      "relations": [
-        {
-          "predicate": "is_a",
-          "object": "agriculture"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.india"
-        }
-      ],
-      "source": {
-        "id": "dacfw",
-        "url": "https://agricoop.nic.in/"
-      }
-    }
-  ]
+   }
+  }
+ ]
 }

@@ -81,15 +81,11 @@
    "relations": [
     {
      "predicate": "is_a",
-     "object": "seeds.types"
+     "object": "seeds.biotech"
     },
     {
      "predicate": "recommended_for",
      "object": "crops.cotton"
-    },
-    {
-     "predicate": "registered_in",
-     "object": "institutions.icar"
     },
     {
      "predicate": "found_in",
@@ -127,6 +123,10 @@
     {
      "predicate": "is_a",
      "object": "seeds.regulation"
+    },
+    {
+     "predicate": "regulated_by",
+     "object": "institutions.icar"
     },
     {
      "predicate": "regulated_by",
@@ -360,6 +360,121 @@
    "source": {
     "id": "seednet",
     "url": "https://seednet.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.biotech",
+   "name": "Biotech / GM Seeds",
+   "type": "category",
+   "domain": "seeds",
+   "attributes": {
+    "note": "Genetically modified and genome-edited planting material; approvals by GEAC/MoEF&CC"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "moef-geac",
+    "url": "http://geacindia.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.biotech.bt_brinjal",
+   "name": "Bt Brinjal",
+   "type": "entity",
+   "domain": "seeds",
+   "attributes": {
+    "note": "GEAC approved 2009; indefinite moratorium on commercial release Feb 2010"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.biotech"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "moef-geac",
+    "url": "http://geacindia.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.biotech.gm_mustard",
+   "name": "GM Mustard (DMH-11)",
+   "type": "entity",
+   "domain": "seeds",
+   "attributes": {
+    "note": "DMH-11 (Barnase/Barstar) hybrid; GEAC recommended environmental release Oct 2022; MoEF&CC approved seed production May 2023 (not commercial)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.biotech"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "moef-geac",
+    "url": "http://geacindia.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.biotech.gene_editing",
+   "name": "Genome Editing (SDN-1/SDN-2)",
+   "type": "entity",
+   "domain": "seeds",
+   "attributes": {
+    "note": "SDN-1/SDN-2 genome-edited organism guidelines (DBT 2022); SDN-1 exempt from GM regulation"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds.biotech"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dbt",
+    "url": "https://dbtindia.gov.in/"
+   }
+  },
+  {
+   "id": "seeds.nursery",
+   "name": "Nurseries and Planting Material",
+   "type": "entity",
+   "domain": "seeds",
+   "attributes": {
+    "note": "Planting material, nurseries, tissue culture; supported under MIDH"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "seeds"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nhb",
+    "url": "https://nhb.gov.in/"
    }
   }
  ]

@@ -195,7 +195,7 @@
     "Electronic mandi"
    ],
    "attributes": {
-    "note": "Online trading platform linking ~1,300+ mandis (since 2016); single national market for agri produce"
+    "note": "Online trading platform linking ~1,383 mandis across 24 states + 3 UTs (since 2016); ~1.78 crore farmers registered; single national market for agri produce"
    },
    "relations": [
     {
@@ -287,8 +287,8 @@
     }
    ],
    "source": {
-    "id": "dacfw",
-    "url": "https://agricoop.nic.in/"
+    "id": "sebi",
+    "url": "https://www.sebi.gov.in/"
    }
   },
   {
@@ -331,7 +331,7 @@
    "attributes": {
     "crops": "22 mandated commodities: paddy (common), wheat, maize, jowar (hybrid), bajra, ragi, barley, gram (chickpea), tur/arhar, moong, urad, masur (lentil), rapeseed-mustard, groundnut, sunflower, soybean (yellow), sesamum, nigerseed, safflower, cotton (medium staple), raw jute, copra (milling); sugarcane paid via FRP (separate from MSP)",
     "set_by": "CAB, announced by Cabinet (DAC&FW) each kharif/rabi season",
-    "note": "MSP announced on C2+50% formula since 2018-19; procurement mainly paddy/wheat via FCI",
+    "note": "MSP set at 1.5 x (A2+FL) comprehensive cost since 2018-19; procurement mainly paddy/wheat via FCI",
     "msp_series": {
      "unit": "INR per quintal",
      "source": {
@@ -987,7 +987,7 @@
    ],
    "source": {
     "id": "dacfw",
-    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2260618"
+    "url": "https://agricoop.nic.in/"
    }
   },
   {
@@ -1271,7 +1271,7 @@
    "type": "category",
    "domain": "market",
    "attributes": {
-    "note": "FPO scheme: 10,000 FPOs (2024-25) under DAC&FW"
+    "note": "FPO scheme: ~8,000+ FPOs established (2024); scheme target 10,000 by 2027-28 under DAC&FW"
    },
    "relations": [
     {

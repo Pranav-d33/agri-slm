@@ -1,0 +1,398 @@
+{
+ "_description": "Agricultural finance domain: institutional/cooperative credit, refinance, interest subvention and microfinance.",
+ "source": {
+  "id": "dacfw",
+  "url": "https://agricoop.nic.in/"
+ },
+ "entities": [
+  {
+   "id": "finance",
+   "name": "Agricultural Finance",
+   "type": "domain",
+   "domain": "finance",
+   "attributes": {
+    "note": "Credit, refinance, subvention and allied financial support for agriculture"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    },
+    {
+     "predicate": "part_of",
+     "object": "schemes.pm_kisan"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "finance.institutional_credit",
+   "name": "Institutional Credit",
+   "type": "category",
+   "domain": "finance",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "finance.cooperative_credit",
+   "name": "Cooperative Credit",
+   "type": "category",
+   "domain": "finance",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nabard",
+    "url": "https://www.nabard.org/"
+   }
+  },
+  {
+   "id": "finance.refinance",
+   "name": "Refinance",
+   "type": "category",
+   "domain": "finance",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nabard",
+    "url": "https://www.nabard.org/"
+   }
+  },
+  {
+   "id": "finance.subvention",
+   "name": "Interest Subvention",
+   "type": "category",
+   "domain": "finance",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "finance.microfinance",
+   "name": "Microfinance",
+   "type": "category",
+   "domain": "finance",
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nabard",
+    "url": "https://www.nabard.org/"
+   }
+  },
+  {
+   "id": "finance.kcc",
+   "name": "Kisan Credit Card",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "launched": "1998",
+    "note": "Short-term crop loans up to Rs 3 lakh at 4% effective interest after subvention; covers crop, animal husbandry and fisheries"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance.institutional_credit"
+    },
+    {
+     "predicate": "regulated_by",
+     "object": "institutions.nabard"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "finance.interest_subvention",
+   "name": "Interest Subvention Scheme",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "note": "1.5% subvention to banks, farmer pays 7% on crop loans up to Rs 3 lakh; extra 3% prompt-repayment incentive brings effective rate to 4%"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance.subvention"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "finance.moratorium",
+   "name": "Interest Waiver and Moratorium",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "note": "Interest waiver/relief measures announced in distress years"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance.subvention"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "finance.refinance.nabard",
+   "name": "NABARD Refinance",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "note": "NABARD refinances cooperative banks, RRBs and commercial banks for agricultural credit"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance.refinance"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nabard",
+    "url": "https://www.nabard.org/"
+   }
+  },
+  {
+   "id": "finance.cooperative_banks",
+   "name": "Cooperative Banks",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "note": "3-tier cooperative credit structure: SCB -> DCCB -> PACS"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance.cooperative_credit"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nabard",
+    "url": "https://www.nabard.org/"
+   }
+  },
+  {
+   "id": "finance.rrb",
+   "name": "Regional Rural Banks",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "note": "~43 Regional Rural Banks (RRBs)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance.cooperative_credit"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nabard",
+    "url": "https://www.nabard.org/"
+   }
+  },
+  {
+   "id": "finance.psl",
+   "name": "Priority Sector Lending",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "note": "18% of Adjusted Net Bank Credit to agriculture (10% to small/marginal farmers); total PSL target 40%"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance.institutional_credit"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "rbi",
+    "url": "https://www.rbi.org.in/"
+   }
+  },
+  {
+   "id": "finance.micro_irrigation_fund",
+   "name": "Micro Irrigation Fund",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "note": "NABARD Micro Irrigation Fund (MIF) of Rs 5,000 cr; cross-linked to PMKSY"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance"
+    },
+    {
+     "predicate": "part_of",
+     "object": "water.schemes.pmksy"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "nabard",
+    "url": "https://www.nabard.org/"
+   }
+  },
+  {
+   "id": "finance.agri_infra_fund",
+   "name": "Agriculture Infrastructure Fund",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "note": "AIF Rs 1 lakh cr (2020-29), 3% interest subvention; for post-harvest infrastructure assets"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "finance.kcc_animal_husbandry",
+   "name": "KCC for Animal Husbandry & Fisheries",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "note": "KCC extended to animal husbandry and fisheries (2018-19)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance.kcc"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "finance.credit_target",
+   "name": "Annual Agricultural Credit Target",
+   "type": "entity",
+   "domain": "finance",
+   "attributes": {
+    "note": "Agricultural credit target ~Rs 25 lakh cr (2024-25 Budget Estimate)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "finance"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  }
+ ]
+}

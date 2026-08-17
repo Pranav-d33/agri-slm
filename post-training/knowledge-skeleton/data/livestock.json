@@ -6243,10 +6243,6 @@
      "object": "livestock.poultry"
     },
     {
-     "predicate": "registered_in",
-     "object": "institutions.nbagr"
-    },
-    {
      "predicate": "grown_in",
      "object": "location.states.andhra_pradesh"
     },
@@ -7040,7 +7036,7 @@
   {
    "id": "livestock.donkey",
    "name": "Donkey",
-   "type": "entity",
+   "type": "category",
    "domain": "livestock",
    "attributes": {
     "note": "Species anchor (NBAGR registered breeds)"
@@ -7064,7 +7060,7 @@
   {
    "id": "livestock.duck",
    "name": "Duck",
-   "type": "entity",
+   "type": "category",
    "domain": "livestock",
    "attributes": {
     "note": "Species anchor (NBAGR registered breeds)"
@@ -7088,7 +7084,7 @@
   {
    "id": "livestock.geese",
    "name": "Geese",
-   "type": "entity",
+   "type": "category",
    "domain": "livestock",
    "attributes": {
     "note": "Species anchor (NBAGR registered breeds)"
@@ -7147,7 +7143,7 @@
   {
    "id": "livestock.horse",
    "name": "Horse (Equine)",
-   "type": "entity",
+   "type": "category",
    "domain": "livestock",
    "attributes": {
     "note": "Species anchor (NBAGR registered breeds)"
@@ -7483,6 +7479,77 @@
     {
      "predicate": "is_a",
      "object": "livestock.cattle"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.breed.bhimthadi",
+   "name": "Bhimthadi",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Draught horse, Maharashtra; descended from Arabian/Mongolian stock; official 8th registered horse breed of India (NBAGR, registered Dec 2023)",
+    "species": "horse"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.horse"
+    },
+    {
+     "predicate": "grown_in",
+     "object": "location.states.maharashtra"
+    }
+   ],
+   "source": {
+    "id": "nbragr",
+    "url": "https://nbagr.res.in/"
+   },
+   "aliases": []
+  },
+  {
+   "id": "livestock.dairy.value_of_output",
+   "name": "Dairy Value of Output",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Dairy is India's largest agricultural commodity (~Rs 11.2 lakh cr), ~5% of GDP, ~30% of agri GVA"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.dairy"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dahd-census",
+    "url": "https://dahd.nic.in/"
+   }
+  },
+  {
+   "id": "livestock.dairy.per_capita_availability",
+   "name": "Milk Availability Per Capita",
+   "type": "entity",
+   "domain": "livestock",
+   "attributes": {
+    "note": "Per capita milk availability ~459 g/day (2022-23)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "livestock.dairy"
     },
     {
      "predicate": "found_in",

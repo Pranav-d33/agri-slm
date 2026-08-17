@@ -39,7 +39,7 @@
     "Madhumakhi palan"
    ],
    "attributes": {
-    "species": "Apis cerana indica (Indian hive bee), Apis mellifera (European), Apis dorsata (rock bee), Apis florea (little bee)",
+    "species": "Apis cerana indica (Indian hive bee), Apis florea (dwarf honeybee), Apis dorsata (rock bee), Apis laboriosa (cliff honeybee), Tetragonula iridipennis (stingless bee), Apis mellifera (European, introduced)",
     "note": "Pollination service worth billions; National Beekeeping & Honey Mission (NBHM) 2020"
    },
    "relations": [
@@ -147,7 +147,7 @@
     "Shahad"
    ],
    "attributes": {
-    "note": "India among top honey producers; major producing states: UP, WB, Bihar, Punjab, MP, Rajasthan, Gujarat; exports via APEDA (mustard, litchi, acacia honey)"
+    "note": "India among top honey producers; major producing states (NBB 2022-23): Uttar Pradesh, Punjab, West Bengal, Bihar, Gujarat, Assam, Rajasthan; exports via APEDA (mustard, litchi, acacia honey)"
    },
    "relations": [
     {
@@ -454,6 +454,223 @@
    "source": {
     "id": "dacfw",
     "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "apiculture.bees.florea",
+   "name": "Little Bee (Apis florea)",
+   "type": "entity",
+   "domain": "apiculture",
+   "aliases": [
+    "Dwarf honeybee"
+   ],
+   "attributes": {
+    "note": "Dwarf honeybee; nests in bushes/trees; native non-domesticated pollinator"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.bees"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "apiculture.bees.laboriosa",
+   "name": "Cliff Honeybee (Apis laboriosa)",
+   "type": "entity",
+   "domain": "apiculture",
+   "aliases": [
+    "Himalayan honeybee"
+   ],
+   "attributes": {
+    "note": "Himalayan cliff bee; highest honey yield per hive; found in Himachal Pradesh, Uttarakhand, Sikkim, Arunachal Pradesh"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.bees"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.sikkim"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.arunachal_pradesh"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "apiculture.bees.tetragonula",
+   "name": "Stingless Bee (Tetragonula iridipennis)",
+   "type": "entity",
+   "domain": "apiculture",
+   "aliases": [
+    "Dammar bee"
+   ],
+   "attributes": {
+    "note": "Native stingless bee; small colonies; 'pot honey'; valuable for garden pollination"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.bees"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "apiculture.sericulture.mulberry",
+   "name": "Mulberry Silk",
+   "type": "entity",
+   "domain": "apiculture",
+   "attributes": {
+    "note": "Karnataka is the top mulberry silk producer (~74% of mulberry silk)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.sericulture"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "csb",
+    "url": "https://csb.gov.in/"
+   }
+  },
+  {
+   "id": "apiculture.sericulture.tasar",
+   "name": "Tasar Silk",
+   "type": "entity",
+   "domain": "apiculture",
+   "attributes": {
+    "note": "Tasar silk concentrated in Jharkhand, Chhattisgarh, Mysore region"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.sericulture"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.jharkhand"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.chhattisgarh"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.karnataka"
+    }
+   ],
+   "source": {
+    "id": "csb",
+    "url": "https://csb.gov.in/"
+   }
+  },
+  {
+   "id": "apiculture.sericulture.muga",
+   "name": "Muga Silk",
+   "type": "entity",
+   "domain": "apiculture",
+   "attributes": {
+    "note": "Assam muga silk is a GI product"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.sericulture"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.assam"
+    }
+   ],
+   "source": {
+    "id": "csb",
+    "url": "https://csb.gov.in/"
+   }
+  },
+  {
+   "id": "apiculture.sericulture.eri",
+   "name": "Eri Silk",
+   "type": "entity",
+   "domain": "apiculture",
+   "attributes": {
+    "note": "Eri silk concentrated in North-Eastern India"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.sericulture"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.assam"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.states.meghalaya"
+    }
+   ],
+   "source": {
+    "id": "csb",
+    "url": "https://csb.gov.in/"
+   }
+  },
+  {
+   "id": "apiculture.sericulture.rank",
+   "name": "Silk Production Rank",
+   "type": "entity",
+   "domain": "apiculture",
+   "attributes": {
+    "note": "India is the 2nd largest silk producer after China"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "apiculture.sericulture"
+    },
+    {
+     "predicate": "produced_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "csb",
+    "url": "https://csb.gov.in/"
    }
   }
  ]

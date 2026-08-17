@@ -1,268 +1,395 @@
 {
-  "_description": "Post-harvest domain: storage, cold chain, processing, grading and losses.",
-  "source": {
+ "_description": "Post-harvest domain: storage, cold chain, processing, grading and losses.",
+ "source": {
+  "id": "dacfw",
+  "url": "https://agricoop.nic.in/"
+ },
+ "entities": [
+  {
+   "id": "post_harvest",
+   "name": "Post-Harvest Management",
+   "type": "domain",
+   "domain": "post_harvest",
+   "aliases": [
+    "Fasal upranti prabandhan",
+    "Storage and processing"
+   ],
+   "relations": [
+    {
+     "predicate": "part_of",
+     "object": "agriculture"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
     "id": "dacfw",
     "url": "https://agricoop.nic.in/"
+   }
   },
-  "entities": [
+  {
+   "id": "post_harvest.cold_chain",
+   "name": "Cold Chain",
+   "type": "measure",
+   "domain": "post_harvest",
+   "aliases": [
+    "Refrigerated transport",
+    "Reefer"
+   ],
+   "attributes": {
+    "note": "Gaps in cold chain cause high horticulture losses; PM Kisan Sampada Yojana funds integrated cold chains"
+   },
+   "relations": [
     {
-      "id": "post_harvest",
-      "name": "Post-Harvest Management",
-      "type": "domain",
-      "domain": "post_harvest",
-      "aliases": [
-        "Fasal upranti prabandhan",
-        "Storage and processing"
-      ],
-      "relations": [
-        {
-          "predicate": "part_of",
-          "object": "agriculture"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.india"
-        }
-      ],
-      "source": {
-        "id": "dacfw",
-        "url": "https://agricoop.nic.in/"
-      }
+     "predicate": "is_a",
+     "object": "post_harvest"
     },
     {
-      "id": "post_harvest.cold_chain",
-      "name": "Cold Chain",
-      "type": "measure",
-      "domain": "post_harvest",
-      "aliases": [
-        "Refrigerated transport",
-        "Reefer"
-      ],
-      "attributes": {
-        "note": "Gaps in cold chain cause high horticulture losses; PM Kisan Sampada Yojana funds integrated cold chains"
-      },
-      "relations": [
-        {
-          "predicate": "is_a",
-          "object": "post_harvest"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.india"
-        }
-      ],
-      "source": {
-        "id": "dacfw",
-        "url": "https://agricoop.nic.in/"
-      }
-    },
-    {
-      "id": "post_harvest.grading",
-      "name": "Grading and Standardisation",
-      "type": "measure",
-      "domain": "post_harvest",
-      "aliases": [
-        "AGMARK",
-        "Grading standards"
-      ],
-      "attributes": {
-        "note": "AGMARK quality certification marks (1971 act); FSSAI food standards for processed agri products"
-      },
-      "relations": [
-        {
-          "predicate": "is_a",
-          "object": "post_harvest"
-        },
-        {
-          "predicate": "regulated_by",
-          "object": "institutions.agmarknet"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.india"
-        }
-      ],
-      "source": {
-        "id": "dacfw",
-        "url": "https://agricoop.nic.in/"
-      }
-    },
-    {
-      "id": "post_harvest.losses",
-      "name": "Post-Harvest Losses",
-      "type": "entity",
-      "domain": "post_harvest",
-      "aliases": [
-        "Farm to fork losses"
-      ],
-      "attributes": {
-        "note": "Estimates: 10-20% of produce lost (CIPHET studies); highest in fruits/vegetables (storage, cold chain gaps)",
-        "causes": "Harvesting practices, lack of cold storage, poor roads, price distress"
-      },
-      "relations": [
-        {
-          "predicate": "is_a",
-          "object": "post_harvest"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.india"
-        }
-      ],
-      "source": {
-        "id": "dacfw",
-        "url": "https://agricoop.nic.in/"
-      }
-    },
-    {
-      "id": "post_harvest.processing",
-      "name": "Food Processing",
-      "type": "category",
-      "domain": "post_harvest",
-      "aliases": [
-        "Agro-processing",
-        "Value addition"
-      ],
-      "attributes": {
-        "note": "India processes <10% of produce; rising; sugar mills, rice mills, dal mills, edible oil refineries, fruit pulping (Mango: Totapuri for pulp)",
-        "scheme": "PM Kisan Sampada Yojana, Mega Food Parks"
-      },
-      "relations": [
-        {
-          "predicate": "is_a",
-          "object": "post_harvest"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.india"
-        }
-      ],
-      "source": {
-        "id": "dacfw",
-        "url": "https://agricoop.nic.in/"
-      }
-    },
-    {
-      "id": "post_harvest.processing.mega_food_park",
-      "name": "Mega Food Parks",
-      "type": "entity",
-      "domain": "post_harvest",
-      "attributes": {
-        "scheme": "PM Kisan Sampada Yojana; cluster infrastructure for processing and cold chain"
-      },
-      "relations": [
-        {
-          "predicate": "is_a",
-          "object": "post_harvest.processing"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.india"
-        }
-      ],
-      "source": {
-        "id": "dacfw",
-        "url": "https://agricoop.nic.in/"
-      }
-    },
-    {
-      "id": "post_harvest.storage",
-      "name": "Storage Infrastructure",
-      "type": "category",
-      "domain": "post_harvest",
-      "aliases": [
-        "Godowns",
-        "Silos",
-        "Warehouses",
-        "Cold storage"
-      ],
-      "attributes": {
-        "note": "FCI + CWC + state warehousing godowns for food grains; cold storages concentrated in UP, WB, Punjab, Bihar (potato); Agri Infrastructure Fund supports farm-gate storage"
-      },
-      "relations": [
-        {
-          "predicate": "is_a",
-          "object": "post_harvest"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.states.uttar_pradesh"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.states.west_bengal"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.states.punjab"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.states.bihar"
-        }
-      ],
-      "source": {
-        "id": "dacfw",
-        "url": "https://agricoop.nic.in/"
-      }
-    },
-    {
-      "id": "post_harvest.storage.cold_storage",
-      "name": "Cold Storage Facilities",
-      "type": "entity",
-      "domain": "post_harvest",
-      "attributes": {
-        "note": "Mostly potatoes in UP, WB, Punjab, Bihar; horticulture cold chain gaps"
-      },
-      "relations": [
-        {
-          "predicate": "is_a",
-          "object": "post_harvest.storage"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.states.uttar_pradesh"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.states.west_bengal"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.states.punjab"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.states.bihar"
-        }
-      ],
-      "source": {
-        "id": "dacfw",
-        "url": "https://agricoop.nic.in/"
-      }
-    },
-    {
-      "id": "post_harvest.storage.fci_godowns",
-      "name": "FCI Godowns",
-      "type": "entity",
-      "domain": "post_harvest",
-      "attributes": {
-        "note": "Covered scientific storage for food grains; FCI + state agencies"
-      },
-      "relations": [
-        {
-          "predicate": "is_a",
-          "object": "post_harvest.storage"
-        },
-        {
-          "predicate": "found_in",
-          "object": "location.india"
-        }
-      ],
-      "source": {
-        "id": "dacfw",
-        "url": "https://agricoop.nic.in/"
-      }
+     "predicate": "found_in",
+     "object": "location.india"
     }
-  ]
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "post_harvest.grading",
+   "name": "Grading and Standardisation",
+   "type": "measure",
+   "domain": "post_harvest",
+   "aliases": [
+    "AGMARK",
+    "Grading standards"
+   ],
+   "attributes": {
+    "note": "AGMARK quality certification under the Agricultural Produce (Grading and Marking) Act, 1937; AGMARKNET launched 2000; FSSAI food standards for processed agri products"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest"
+    },
+    {
+     "predicate": "regulated_by",
+     "object": "institutions.agmarknet"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "post_harvest.losses",
+   "name": "Post-Harvest Losses",
+   "type": "entity",
+   "domain": "post_harvest",
+   "aliases": [
+    "Farm to fork losses"
+   ],
+   "attributes": {
+    "note": "Estimates: 10-20% of produce lost (CIPHET studies); NABCONS-MoFPI study (2024): farm-stage losses fruits 10.0%, vegetables 5.8%, cereals 4.9% (overall ~6-7%); highest in fruits/vegetables (storage, cold chain gaps)",
+    "causes": "Harvesting practices, lack of cold storage, poor roads, price distress"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "mofpi",
+    "url": "https://www.mofpi.gov.in/"
+   }
+  },
+  {
+   "id": "post_harvest.processing",
+   "name": "Food Processing",
+   "type": "category",
+   "domain": "post_harvest",
+   "aliases": [
+    "Agro-processing",
+    "Value addition"
+   ],
+   "attributes": {
+    "note": "India processes <10% of produce; rising; sugar mills, rice mills, dal mills, edible oil refineries, fruit pulping (Mango: Totapuri for pulp)",
+    "scheme": "PM Kisan Sampada Yojana, Mega Food Parks"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "post_harvest.processing.mega_food_park",
+   "name": "Mega Food Parks",
+   "type": "entity",
+   "domain": "post_harvest",
+   "attributes": {
+    "scheme": "PM Kisan Sampada Yojana; cluster infrastructure for processing and cold chain"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest.processing"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "post_harvest.storage",
+   "name": "Storage Infrastructure",
+   "type": "category",
+   "domain": "post_harvest",
+   "aliases": [
+    "Godowns",
+    "Silos",
+    "Warehouses",
+    "Cold storage"
+   ],
+   "attributes": {
+    "note": "FCI + CWC + state warehousing godowns for food grains; cold storages concentrated in UP, WB, Punjab, Bihar (potato); Agri Infrastructure Fund supports farm-gate storage"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.bihar"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "post_harvest.storage.cold_storage",
+   "name": "Cold Storage Facilities",
+   "type": "entity",
+   "domain": "post_harvest",
+   "attributes": {
+    "note": "Mostly potatoes in UP, WB, Punjab, Bihar; horticulture cold chain gaps"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest.storage"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.bihar"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "post_harvest.storage.fci_godowns",
+   "name": "FCI Godowns",
+   "type": "entity",
+   "domain": "post_harvest",
+   "attributes": {
+    "note": "Covered scientific storage for food grains; FCI + state agencies"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest.storage"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "post_harvest.processing.sampada",
+   "name": "PM Kisan SAMPADA",
+   "type": "measure",
+   "domain": "post_harvest",
+   "attributes": {
+    "note": "PM Kisan SAMPADA (2016), Rs 6,000 cr; end-to-end food processing infrastructure"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest.processing"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "mofpi",
+    "url": "https://www.mofpi.gov.in/"
+   }
+  },
+  {
+   "id": "post_harvest.processing.food_processing_share",
+   "name": "Food Processing Share",
+   "type": "entity",
+   "domain": "post_harvest",
+   "attributes": {
+    "note": "Less than 10% of perishables processed; food processing sector among the largest (~4th), GVA ~Rs 2 lakh cr"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest.processing"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "mofpi",
+    "url": "https://www.mofpi.gov.in/"
+   }
+  },
+  {
+   "id": "post_harvest.processing.packhouse",
+   "name": "Packhouse / Pre-cooling",
+   "type": "entity",
+   "domain": "post_harvest",
+   "attributes": {
+    "note": "Packhouses and pre-cooling units for horticulture export and supply chain"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest.processing"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "mofpi",
+    "url": "https://www.mofpi.gov.in/"
+   }
+  },
+  {
+   "id": "post_harvest.processing.value_addition",
+   "name": "Value Addition in Food Processing",
+   "type": "entity",
+   "domain": "post_harvest",
+   "attributes": {
+    "note": "Value addition in food processing ~6.76%"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest.processing"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "mofpi",
+    "url": "https://www.mofpi.gov.in/"
+   }
+  },
+  {
+   "id": "post_harvest.processing.concentrations",
+   "name": "Food Processing Concentrations",
+   "type": "entity",
+   "domain": "post_harvest",
+   "attributes": {
+    "note": "Leading food processing states: UP, Punjab, Maharashtra, West Bengal"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "post_harvest.processing"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttar_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.punjab"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal"
+    }
+   ],
+   "source": {
+    "id": "mofpi",
+    "url": "https://www.mofpi.gov.in/"
+   }
+  }
+ ]
 }

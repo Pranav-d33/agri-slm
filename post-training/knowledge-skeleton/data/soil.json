@@ -1009,21 +1009,13 @@
    "type": "category",
    "domain": "soil",
    "attributes": {
-    "types": "Acidic, saline, alkaline/sodic, waterlogged, eroded",
+    "types": "Acidic, saline, alkaline/sodic, waterlogged, saline-alkali, peaty/marshy, eroded, sandy",
     "note": "Problem soils require reclamation before cultivation"
    },
    "relations": [
     {
      "predicate": "is_a",
      "object": "soil"
-    },
-    {
-     "predicate": "part_of",
-     "object": "soil.saline_alkaline"
-    },
-    {
-     "predicate": "part_of",
-     "object": "soil.peaty_marshy"
     }
    ],
    "source": {
@@ -1141,6 +1133,30 @@
       "id": "narp-zones",
       "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
      }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.meghalaya"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.mizoram"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.nagaland"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.manipur"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tripura"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu"
     }
    ],
    "source": {
@@ -1318,6 +1334,14 @@
       "id": "narp-zones",
       "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
      }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
     }
    ],
    "source": {
@@ -1391,6 +1415,10 @@
     {
      "predicate": "suited_for",
      "object": "crops.jute"
+    },
+    {
+     "predicate": "is_a",
+     "object": "soil.categories.problem_soils"
     }
    ],
    "source": {
@@ -1435,7 +1463,7 @@
    "type": "entity",
    "domain": "soil",
    "attributes": {
-    "note": "High soluble salts; coastal and arid areas; reclamation via leaching + drainage"
+    "note": "High soluble salts; coastal (WB Sundarbans, TN coast, Kerala backwaters, MH Konkan) and arid areas; reclamation via leaching + drainage"
    },
    "relations": [
     {
@@ -1449,6 +1477,38 @@
     {
      "predicate": "found_in",
      "object": "location.states.gujarat"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.west_bengal",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.tamil_nadu",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.kerala",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.maharashtra",
+     "source": {
+      "id": "narp-zones",
+      "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
+     }
     }
    ],
    "source": {
@@ -1576,10 +1636,6 @@
     {
      "predicate": "suited_for",
      "object": "crops.groundnut"
-    },
-    {
-     "predicate": "suited_for",
-     "object": "crops.cotton"
     },
     {
      "predicate": "found_in",
@@ -2162,6 +2218,10 @@
     {
      "predicate": "suited_for",
      "object": "crops.barley"
+    },
+    {
+     "predicate": "is_a",
+     "object": "soil.categories.problem_soils"
     }
    ],
    "source": {
@@ -2200,6 +2260,68 @@
    "source": {
     "id": "dacfw",
     "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "soil.problem.eroded",
+   "name": "Eroded Soil",
+   "type": "entity",
+   "domain": "soil",
+   "attributes": {
+    "note": "Topsoil and nutrient loss by water/wind erosion; ICAR problem soil. Widespread, concentrated in the Shiwalik foothills and hilly tracts of HP/Uttarakhand and parts of the Deccan plateau."
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.categories.problem_soils"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.himachal_pradesh"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.uttarakhand"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.jharkhand"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.madhya_pradesh"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "soil.problem.sandy",
+   "name": "Sandy Soil",
+   "type": "entity",
+   "domain": "soil",
+   "attributes": {
+    "note": "Coarse-textured, low water-holding capacity, high infiltration and leaching losses; a problem soil needing organic matter and mulching. Dominant in western Rajasthan and the Kachchh region of Gujarat."
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "soil.categories.problem_soils"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.rajasthan"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.gujarat"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
    }
   }
  ]

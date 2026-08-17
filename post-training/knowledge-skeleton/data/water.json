@@ -35,7 +35,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "Separate basin of the Brahmaputra system; NE states"
+    "note": "Separate basin of the Brahmaputra system; NE states",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 86335.0,
+     "avg_water_resources_potential_bcm": 86.67,
+     "utilisable_surface_water_bcm": null,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -95,7 +105,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "Odisha; combined basin"
+    "note": "Odisha; combined basin",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 53902.0,
+     "avg_water_resources_potential_bcm": 35.65,
+     "utilisable_surface_water_bcm": 18.3,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -135,7 +155,17 @@
    ],
    "attributes": {
     "states": "Karnataka, Tamil Nadu, Kerala, Puducherry",
-    "note": "Acute interstate water dispute; delta = rice bowl of TN"
+    "note": "Acute interstate water dispute; delta = rice bowl of TN",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 85167.0,
+     "avg_water_resources_potential_bcm": 27.67,
+     "utilisable_surface_water_bcm": 19.0,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -186,7 +216,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "CWC basin group; includes Rushikulya, Vamsadhara, Nagavali"
+    "note": "CWC basin group; includes Rushikulya, Vamsadhara, Nagavali",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 82073.0,
+     "avg_water_resources_potential_bcm": 26.41,
+     "utilisable_surface_water_bcm": 13.1,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -222,7 +262,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "CWC basin group; includes Palar, Ponnaiyar, Vaigai, Tambraparni"
+    "note": "CWC basin group; includes Palar, Ponnaiyar, Vaigai, Tambraparni",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 101657.0,
+     "avg_water_resources_potential_bcm": 26.74,
+     "utilisable_surface_water_bcm": 16.5,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -267,7 +317,17 @@
    "domain": "water",
    "attributes": {
     "states": "Uttarakhand, UP, Bihar, Jharkhand, WB",
-    "note": "Most populous basin; irrigation + groundwater recharge"
+    "note": "Most populous basin; irrigation + groundwater recharge",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 838803.0,
+     "avg_water_resources_potential_bcm": 509.52,
+     "utilisable_surface_water_bcm": 250.0,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -399,7 +459,17 @@
    "domain": "water",
    "attributes": {
     "states": "Maharashtra, Telangana, AP, MP, Odisha, Chhattisgarh",
-    "note": "Second largest basin; Polavaram project under construction"
+    "note": "Second largest basin; Polavaram project under construction",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 312150.0,
+     "avg_water_resources_potential_bcm": 117.74,
+     "utilisable_surface_water_bcm": 76.3,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -474,7 +544,18 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "Shared basin; J&K, Ladakh, HP, Punjab in India"
+    "note": "Shared basin; J&K, Ladakh, HP, Punjab in India",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 317708.0,
+     "avg_water_resources_potential_bcm": 45.53,
+     "utilisable_surface_water_bcm": 46.0,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     },
+     "note": "; CWC computes Indus potential (45.53) on east-flowing rivers only per Indus Water Treaty 1960; utilizable 46.0 covers whole basin (Standing Sub-Committee, 2000) — potential<utilizable is per-source, not an error"
+    }
    },
    "relations": [
     {
@@ -527,7 +608,17 @@
    "domain": "water",
    "attributes": {
     "states": "Maharashtra, Karnataka, Telangana, AP",
-    "note": "Interstate disputes; Nagarjuna Sagar dam"
+    "note": "Interstate disputes; Nagarjuna Sagar dam",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 259439.0,
+     "avg_water_resources_potential_bcm": 89.04,
+     "utilisable_surface_water_bcm": 58.0,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -578,7 +669,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "Rajasthan; ends in the Rann of Kutch"
+    "note": "Rajasthan; ends in the Rann of Kutch",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 192112.0,
+     "avg_water_resources_potential_bcm": 26.93,
+     "utilisable_surface_water_bcm": 15.0,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -614,7 +715,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "Gujarat, Rajasthan, Madhya Pradesh"
+    "note": "Gujarat, Rajasthan, Madhya Pradesh",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 39566.0,
+     "avg_water_resources_potential_bcm": 14.96,
+     "utilisable_surface_water_bcm": 3.1,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -658,7 +769,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "AP and Karnataka; rain-fed delta"
+    "note": "AP and Karnataka; rain-fed delta",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 54905.0,
+     "avg_water_resources_potential_bcm": 11.02,
+     "utilisable_surface_water_bcm": 6.9,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -718,7 +839,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "Gujarat and Rajasthan"
+    "note": "Gujarat and Rajasthan",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 31901.0,
+     "avg_water_resources_potential_bcm": 12.96,
+     "utilisable_surface_water_bcm": 1.9,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -754,7 +885,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "Jharkhand, Odisha, West Bengal"
+    "note": "Jharkhand, Odisha, West Bengal",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 26804.0,
+     "avg_water_resources_potential_bcm": 15.05,
+     "utilisable_surface_water_bcm": 6.8,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -798,7 +939,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "CWC basin group; Tapi-Tadri to Kanyakumari west coast rivers"
+    "note": "CWC basin group; Tapi-Tadri to Kanyakumari west coast rivers",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 54231.0,
+     "avg_water_resources_potential_bcm": 119.06,
+     "utilisable_surface_water_bcm": 24.3,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -901,7 +1052,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "Braided river; annual floods in Assam"
+    "note": "Braided river; annual floods in Assam",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 193252.0,
+     "avg_water_resources_potential_bcm": 527.28,
+     "utilisable_surface_water_bcm": 24.0,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -960,7 +1121,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "Hirakud dam; flood-prone delta"
+    "note": "Hirakud dam; flood-prone delta",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 144905.0,
+     "avg_water_resources_potential_bcm": 73.0,
+     "utilisable_surface_water_bcm": 50.0,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -995,7 +1166,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "Sardar Sarovar dam; west-flowing"
+    "note": "Sardar Sarovar dam; west-flowing",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 96660.0,
+     "avg_water_resources_potential_bcm": 58.21,
+     "utilisable_surface_water_bcm": 34.5,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -1030,7 +1211,17 @@
    "type": "entity",
    "domain": "water",
    "attributes": {
-    "note": "West-flowing; Ukai dam"
+    "note": "West-flowing; Ukai dam",
+    "water_stats": {
+     "year": "2023",
+     "catchment_area_km2": 65805.8,
+     "avg_water_resources_potential_bcm": 26.24,
+     "utilisable_surface_water_bcm": 14.5,
+     "source": {
+      "id": "cwc",
+      "url": "https://cwc.gov.in/sites/default/files/water-and-related-statistics-2023_1.pdf"
+     }
+    }
    },
    "relations": [
     {
@@ -1381,6 +1572,190 @@
    "source": {
     "id": "dacfw",
     "url": "https://agricoop.nic.in/"
+   }
+  },
+  {
+   "id": "water.flood_irrigation",
+   "name": "Flood Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "attributes": {
+    "note": "Water spread over the whole field surface; simple but low efficiency (~40-50%); typical for paddy"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "water.furrow_irrigation",
+   "name": "Furrow Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "attributes": {
+    "note": "Water guided in furrows between raised beds; suits row crops"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "water.basin_irrigation",
+   "name": "Basin Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "attributes": {
+    "note": "Field split into level basins flooded one at a time; used for orchards and paddy"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "water.check_basin_irrigation",
+   "name": "Check Basin Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "attributes": {
+    "note": "Level basins separated by low earthen ridges; water held until it infiltrates"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "water.subsurface_irrigation",
+   "name": "Subsurface Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "attributes": {
+    "note": "Water applied below the surface (buried pipes / raised water table); curbs evaporation losses"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "water.river_lift",
+   "name": "River Lift Irrigation",
+   "type": "measure",
+   "domain": "water",
+   "attributes": {
+    "note": "Water lifted/pumped directly from rivers to fields; extends canal and river water to higher ground"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.rainwater_harvesting",
+   "name": "Rainwater Harvesting",
+   "type": "measure",
+   "domain": "water",
+   "attributes": {
+    "note": "Capture and collection of rainfall (roofs, trenches, farm ponds, tanks) for irrigation and groundwater recharge"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.conjunctive_use",
+   "name": "Conjunctive Use of Surface and Groundwater",
+   "type": "measure",
+   "domain": "water",
+   "attributes": {
+    "note": "Coordinated use of surface and groundwater to optimise supply and check waterlogging and salinity"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water.methods"
+    }
+   ],
+   "source": {
+    "id": "cwc",
+    "url": "https://cwc.gov.in/"
+   }
+  },
+  {
+   "id": "water.schemes.pmksy",
+   "name": "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)",
+   "type": "institution",
+   "domain": "water",
+   "aliases": [
+    "Per Drop More Crop"
+   ],
+   "attributes": {
+    "launched": "2015-16",
+    "outlay": "~Rs 110,000 crore",
+    "per_drop_more_crop": "Micro-irrigation component subsidising drip and sprinkler systems; subsidy of 55% for small/marginal farmers and 45% for others"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "water"
+    },
+    {
+     "predicate": "part_of",
+     "object": "schemes.pmksy"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "pib",
+    "url": "https://pib.gov.in/"
    }
   }
  ]

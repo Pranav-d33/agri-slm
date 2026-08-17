@@ -267,7 +267,7 @@
    "relations": [
     {
      "predicate": "is_a",
-     "object": "machinery.implements"
+     "object": "machinery.tillage"
     },
     {
      "predicate": "found_in",
@@ -362,7 +362,7 @@
   {
    "id": "machinery.power_tiller",
    "name": "Power Tillers",
-   "type": "category",
+   "type": "entity",
    "domain": "machinery",
    "aliases": [
     "Rotavator",
@@ -374,7 +374,7 @@
    "relations": [
     {
      "predicate": "is_a",
-     "object": "machinery"
+     "object": "machinery.tillage"
     },
     {
      "predicate": "found_in",
@@ -507,7 +507,7 @@
    "relations": [
     {
      "predicate": "is_a",
-     "object": "machinery"
+     "object": "machinery.tillage"
     },
     {
      "predicate": "found_in",
@@ -685,6 +685,33 @@
     {
      "predicate": "is_a",
      "object": "machinery.tractors"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "icar",
+    "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "machinery.tillage",
+   "name": "Tillage Machinery",
+   "type": "category",
+   "domain": "machinery",
+   "aliases": [
+    "Tillage implements",
+    "Primary and secondary tillage"
+   ],
+   "attributes": {
+    "note": "Tractors, power tillers, rotavators, cultivators, harrows and ploughs used for seedbed preparation"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "machinery"
     },
     {
      "predicate": "found_in",

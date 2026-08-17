@@ -1921,7 +1921,7 @@
    "type": "entity",
    "domain": "forestry",
    "attributes": {
-    "note": "Champion & Seth Group 10; shisham, olive; Punjab, Haryana, Rajasthan"
+    "note": "Champion & Seth Group 10 (Subtropical Dry Evergreen); olive, khair; Punjab plains & Haryana (Rajasthan not Group-10)"
    },
    "relations": [
     {
@@ -1930,10 +1930,18 @@
     },
     {
      "predicate": "found_in",
-     "object": "location.uts.jammu_kashmir",
+     "object": "location.states.punjab",
      "source": {
-      "id": "icar",
-      "url": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"
+      "id": "fsi-isfr",
+      "url": "https://fsi.nic.in/isfr-2023"
+     }
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.states.haryana",
+     "source": {
+      "id": "fsi-isfr",
+      "url": "https://fsi.nic.in/isfr-2023"
      }
     }
    ],
@@ -2245,6 +2253,29 @@
    "source": {
     "id": "icar",
     "url": "https://icar.org.in/"
+   }
+  },
+  {
+   "id": "forestry.agroforestry_policy",
+   "name": "National Agroforestry Policy 2014",
+   "type": "measure",
+   "domain": "forestry",
+   "attributes": {
+    "note": "National Agroforestry Policy 2014 (first in the world); Sub-Mission on Agroforestry (SMAF)"
+   },
+   "relations": [
+    {
+     "predicate": "is_a",
+     "object": "forestry.agroforestry"
+    },
+    {
+     "predicate": "found_in",
+     "object": "location.india"
+    }
+   ],
+   "source": {
+    "id": "dacfw",
+    "url": "https://agricoop.nic.in/"
    }
   }
  ]
