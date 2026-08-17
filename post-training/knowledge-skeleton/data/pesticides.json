@@ -26,6 +26,54 @@
     {
      "predicate": "regulated_by",
      "object": "institutions.cibrc"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.act"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.banned_export"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.biopesticides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.classes"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.fungicides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.herbicides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.insecticides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.refused"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.registered_actives"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.restricted"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.rodenticides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.withdrawn"
     }
    ],
    "source": {
@@ -3531,6 +3579,30 @@
     {
      "predicate": "part_of",
      "object": "pesticides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.biopesticides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.fumigants"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.fungicides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.herbicides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.insecticides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides.rodenticides"
     }
    ],
    "source": {

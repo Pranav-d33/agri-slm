@@ -26,6 +26,14 @@
     {
      "predicate": "regulated_by",
      "object": "institutions.icar"
+    },
+    {
+     "predicate": "has_part",
+     "object": "seeds.act"
+    },
+    {
+     "predicate": "has_part",
+     "object": "seeds.types"
     }
    ],
    "source": {

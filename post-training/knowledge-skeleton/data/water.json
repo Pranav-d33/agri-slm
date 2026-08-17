@@ -22,6 +22,14 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "has_part",
+     "object": "water.basins"
+    },
+    {
+     "predicate": "has_part",
+     "object": "water.methods"
     }
    ],
    "source": {
@@ -1751,6 +1759,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "has_part",
+     "object": "finance.micro_irrigation_fund"
     }
    ],
    "source": {

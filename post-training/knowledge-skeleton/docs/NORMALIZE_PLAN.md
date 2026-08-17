@@ -102,3 +102,18 @@ gap-data lands in the canonical slot. See COVERAGE.md.
   required lists).
 - No strict (error) mode yet — still warn-mode per the agreed
   "warn first, fail later".
+
+## 9. Inverse consistency (post-hoc)
+
+`scripts/sync_inverses.py` materializes missing inverse edges for declared
+inverse pairs, reusing the forward edge's source. Idempotent.
+
+- `requires` ↔ `suited_for`: 32 ↔ 32 (was 24 ↔ 27). Domain widened to
+  `["Crop","Category"]` so category nodes (crops.millets, crops.pulses) can
+  hold inverse edges.
+- `part_of` ↔ `has_part`: 76 ↔ 76 (was 76 ↔ 0). `has_part` added to
+  `validate.py` KNOWN_PREDICATES.
+- Verify: `validate.py` PASS, 0 ontology warnings, audit_shapes 0 violations.
+- 37 shared concept nodes referenced from 2+ domains; every node owned by
+  exactly one domain, referenced from others — no inlined duplicates
+  (verified: soil entities referenced via relations, never inlined).

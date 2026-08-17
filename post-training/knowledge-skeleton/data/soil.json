@@ -18,6 +18,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "has_part",
+     "object": "soil.major_types"
     }
    ],
    "source": {
@@ -516,6 +520,10 @@
       "id": "narp-zones",
       "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
      }
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.jute"
     }
    ],
    "source": {
@@ -606,6 +614,10 @@
       "id": "narp-zones",
       "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
      }
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.bajra"
     }
    ],
    "source": {
@@ -996,6 +1008,14 @@
       "id": "narp-zones",
       "url": "https://epubs.icar.org.in/ejournal/index.php/AAZ/article/view/65198"
      }
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.gram"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.rice"
     }
    ],
    "source": {
@@ -1419,6 +1439,10 @@
     {
      "predicate": "is_a",
      "object": "soil.categories.problem_soils"
+    },
+    {
+     "predicate": "suited_for",
+     "object": "crops.coconut"
     }
    ],
    "source": {

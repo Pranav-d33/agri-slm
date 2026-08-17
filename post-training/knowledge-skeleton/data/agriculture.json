@@ -25,6 +25,82 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "has_part",
+     "object": "apiculture"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops"
+    },
+    {
+     "predicate": "has_part",
+     "object": "fertilizers"
+    },
+    {
+     "predicate": "has_part",
+     "object": "finance"
+    },
+    {
+     "predicate": "has_part",
+     "object": "fisheries"
+    },
+    {
+     "predicate": "has_part",
+     "object": "forestry"
+    },
+    {
+     "predicate": "has_part",
+     "object": "livestock"
+    },
+    {
+     "predicate": "has_part",
+     "object": "machinery"
+    },
+    {
+     "predicate": "has_part",
+     "object": "market"
+    },
+    {
+     "predicate": "has_part",
+     "object": "organic"
+    },
+    {
+     "predicate": "has_part",
+     "object": "pesticides"
+    },
+    {
+     "predicate": "has_part",
+     "object": "plant_protection"
+    },
+    {
+     "predicate": "has_part",
+     "object": "post_harvest"
+    },
+    {
+     "predicate": "has_part",
+     "object": "schemes"
+    },
+    {
+     "predicate": "has_part",
+     "object": "seeds"
+    },
+    {
+     "predicate": "has_part",
+     "object": "soil"
+    },
+    {
+     "predicate": "has_part",
+     "object": "soil.soil_health_card"
+    },
+    {
+     "predicate": "has_part",
+     "object": "water"
+    },
+    {
+     "predicate": "has_part",
+     "object": "weather"
     }
    ],
    "source": {

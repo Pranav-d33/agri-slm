@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 REQUIRED = ["id", "name", "domain", "type", "relations", "source"]
 KNOWN_PREDICATES = {
-    "is_a", "part_of", "found_in", "grown_in", "practiced_in", "produced_in",
+    "is_a", "part_of", "has_part", "found_in", "grown_in", "practiced_in", "produced_in",
     "registered_in", "banned_in", "recommended_for", "controlled_by", "affects",
     "requires", "suited_for", "monitored_by", "regulated_by", "certified_by",
 }

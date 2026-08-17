@@ -22,6 +22,54 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.cereals"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.fibre"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.fodder"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.horticulture"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.millets"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.oilseeds"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.plantation"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.pulses"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.season.kharif"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.season.rabi"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.season.zaid"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.sugar"
     }
    ],
    "source": {
@@ -8606,6 +8654,26 @@
     {
      "predicate": "part_of",
      "object": "crops"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.fruits"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.horticulture.aromatics_medicinal"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.horticulture.flowers"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.spices"
+    },
+    {
+     "predicate": "has_part",
+     "object": "crops.vegetables"
     }
    ],
    "source": {
@@ -10388,6 +10456,10 @@
       "id": "des",
       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
      }
+    },
+    {
+     "predicate": "requires",
+     "object": "soil.alluvial"
     }
    ],
    "source": {
@@ -10844,6 +10916,18 @@
     {
      "predicate": "part_of",
      "object": "crops"
+    },
+    {
+     "predicate": "requires",
+     "object": "soil.arid"
+    },
+    {
+     "predicate": "requires",
+     "object": "soil.black"
+    },
+    {
+     "predicate": "requires",
+     "object": "soil.red"
     }
    ],
    "source": {
@@ -14730,6 +14814,10 @@
       "id": "hsag",
       "url": "https://agriwelfare.gov.in/Documents/HORTICULTURAL_STATISTICS_AT_A_GLANCE_2024.pdf"
      }
+    },
+    {
+     "predicate": "requires",
+     "object": "soil.forest_mountain"
     }
    ],
    "source": {
@@ -14808,6 +14896,10 @@
     {
      "predicate": "part_of",
      "object": "crops"
+    },
+    {
+     "predicate": "requires",
+     "object": "soil.red"
     }
    ],
    "source": {
@@ -15481,6 +15573,14 @@
       "id": "des",
       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
      }
+    },
+    {
+     "predicate": "requires",
+     "object": "soil.peaty_marshy"
+    },
+    {
+     "predicate": "requires",
+     "object": "soil.saline_alkaline"
     }
    ],
    "source": {

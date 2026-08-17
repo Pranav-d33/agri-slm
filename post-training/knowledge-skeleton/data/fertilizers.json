@@ -26,6 +26,22 @@
     {
      "predicate": "regulated_by",
      "object": "institutions.fco"
+    },
+    {
+     "predicate": "has_part",
+     "object": "fertilizers.bio"
+    },
+    {
+     "predicate": "has_part",
+     "object": "fertilizers.chemical"
+    },
+    {
+     "predicate": "has_part",
+     "object": "fertilizers.fco"
+    },
+    {
+     "predicate": "has_part",
+     "object": "fertilizers.manures"
     }
    ],
    "source": {

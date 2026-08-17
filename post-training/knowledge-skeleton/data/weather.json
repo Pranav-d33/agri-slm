@@ -22,6 +22,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "has_part",
+     "object": "weather.seasons"
     }
    ],
    "source": {

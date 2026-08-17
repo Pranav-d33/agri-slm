@@ -692,6 +692,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "has_part",
+     "object": "finance"
     }
    ],
    "source": {
@@ -746,6 +750,10 @@
     {
      "predicate": "found_in",
      "object": "location.india"
+    },
+    {
+     "predicate": "has_part",
+     "object": "water.schemes.pmksy"
     }
    ],
    "source": {

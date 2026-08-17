@@ -101,14 +101,14 @@
         "cardinality": "many"
       },
       "requires": {
-        "desc": "requires a resource (crop requires soil type)",
-        "domain": ["Crop"],
-        "range": ["SoilType", "Category"],
+        "desc": "requires a resource (crop requires soil type). Domain mirrors suited_for range — a category of crops may require a soil as an aggregate fact.",
+        "domain": ["Crop", "Category"],
+        "range": ["SoilType"],
         "inverse": "suited_for",
         "cardinality": "many"
       },
       "suited_for": {
-        "desc": "soil suited for crop",
+        "desc": "soil suited for crop. Range mirrors requires domain.",
         "domain": ["SoilType"],
         "range": ["Crop", "Category"],
         "inverse": "requires",
