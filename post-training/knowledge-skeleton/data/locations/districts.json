@@ -404,7 +404,36 @@
        "object": "location.states.andhra_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.black_pepper",
+       "crops.chili",
+       "crops.coconut",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.mustard",
+       "crops.niger",
+       "crops.pigeon_pea",
+       "crops.plantation.arecanut",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.tobacco"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Guntur",
@@ -1314,7 +1343,29 @@
        "object": "location.states.arunachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.chili",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.green_gram",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Keyi Panyor",
@@ -1338,7 +1389,27 @@
        "object": "location.states.arunachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.chili",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.groundnut",
+       "crops.maize",
+       "crops.mustard",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Kurung Kumey",
@@ -1381,7 +1452,31 @@
        "object": "location.states.arunachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.chili",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.green_gram",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Lohit",
@@ -1486,7 +1581,32 @@
        "object": "location.states.arunachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.chili",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.green_gram",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Lower Subansiri",
@@ -1571,7 +1691,28 @@
        "object": "location.states.arunachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.chili",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.green_gram",
+       "crops.maize",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Papum Pare",
@@ -1626,7 +1767,28 @@
        "object": "location.states.arunachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.chili",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.maize",
+       "crops.mustard",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Siang",
@@ -1638,7 +1800,32 @@
        "object": "location.states.arunachal_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.chili",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Tawang",
@@ -1977,7 +2164,42 @@
        "object": "location.states.assam"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.black_pepper",
+       "crops.castor",
+       "crops.coconut",
+       "crops.cotton",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.jute",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mustard",
+       "crops.niger",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.plantation.arecanut",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Bongaigaon",
@@ -2093,7 +2315,38 @@
        "object": "location.states.assam"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.black_pepper",
+       "crops.coconut",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.green_gram",
+       "crops.jute",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.plantation.arecanut",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Chirang",
@@ -2453,7 +2706,40 @@
        "object": "location.states.assam"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.black_pepper",
+       "crops.coconut",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.jute",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.niger",
+       "crops.onion",
+       "crops.plantation.arecanut",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Jorhat",
@@ -2732,7 +3018,44 @@
        "object": "location.states.assam"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.black_pepper",
+       "crops.castor",
+       "crops.coconut",
+       "crops.cotton",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.jute",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.niger",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.plantation.arecanut",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Marigaon",
@@ -3006,7 +3329,40 @@
        "object": "location.states.assam"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.coconut",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.jute",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.niger",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.plantation.arecanut",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Sribhumi",
@@ -3701,7 +4057,34 @@
        "object": "location.states.bihar"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.barley",
+       "crops.black_gram",
+       "crops.chili",
+       "crops.field_pea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.khesari",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mustard",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.spices.garlic",
+       "crops.sugarcane",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Katihar",
@@ -4774,7 +5157,45 @@
        "object": "location.states.chhattisgarh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.chili",
+       "crops.cotton",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.khesari",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mustard",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Balrampur-Ramanujganj",
@@ -5142,7 +5563,42 @@
        "object": "location.states.chhattisgarh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.black_gram",
+       "crops.chili",
+       "crops.fibre.sannhemp",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.khesari",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mustard",
+       "crops.niger",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.spices.garlic",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Janjgir-Champa",
@@ -5246,7 +5702,45 @@
        "object": "location.states.chhattisgarh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.chili",
+       "crops.cotton",
+       "crops.fibre.sannhemp",
+       "crops.field_pea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.jowar",
+       "crops.khesari",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mustard",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.spices.garlic",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Kondagaon",
@@ -5401,7 +5895,47 @@
        "object": "location.states.chhattisgarh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.barley",
+       "crops.black_gram",
+       "crops.chili",
+       "crops.cotton",
+       "crops.fibre.sannhemp",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.khesari",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.niger",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.spices.coriander",
+       "crops.spices.garlic",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Mohla-Manpur-Ambagarh Chouki",
@@ -5413,7 +5947,41 @@
        "object": "location.states.chhattisgarh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.chili",
+       "crops.cotton",
+       "crops.field_pea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.khesari",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Mungeli",
@@ -5600,7 +6168,42 @@
        "object": "location.states.chhattisgarh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.chili",
+       "crops.fibre.sannhemp",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mustard",
+       "crops.niger",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.spices.coriander",
+       "crops.spices.garlic",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Sarangarh-Bilaigarh",
@@ -5612,7 +6215,40 @@
        "object": "location.states.chhattisgarh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.chili",
+       "crops.cotton",
+       "crops.fibre.sannhemp",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.khesari",
+       "crops.maize",
+       "crops.mustard",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.spices.garlic",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Sukma",
@@ -7420,7 +8056,24 @@
        "object": "location.states.haryana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.barley",
+       "crops.cotton",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.jowar",
+       "crops.mustard",
+       "crops.rice",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Faridabad",
@@ -9010,16 +9663,21 @@
        "object": "location.uts.jammu_kashmir"
       }
      ],
-     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
      "attributes": {
       "narp_zone": "Temperate Zone (JK-3)",
       "primary_soils": [
        "Not Applicable for the district"
       ],
       "source": {
-       "id": "crida-cp",
-       "url": "https://icar-crida.res.in/CCP/JK/poonch/1.1.pdf"
-      }
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      },
+      "major_crops": [
+       "crops.mustard",
+       "crops.spices.garlic",
+       "crops.wheat"
+      ]
      }
     },
     {
@@ -9095,16 +9753,21 @@
        "object": "location.uts.jammu_kashmir"
       }
      ],
-     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
      "attributes": {
       "narp_zone": "Tropical Zone (JK-1)",
       "primary_soils": [
        "Not Applicable for the district"
       ],
       "source": {
-       "id": "crida-cp",
-       "url": "https://icar-crida.res.in/CCP/JK/ramban/1.1.pdf"
-      }
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      },
+      "major_crops": [
+       "crops.barley",
+       "crops.mustard",
+       "crops.wheat"
+      ]
      }
     },
     {
@@ -10412,7 +11075,51 @@
        "object": "location.states.karnataka"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.barley",
+       "crops.black_gram",
+       "crops.black_pepper",
+       "crops.cashew",
+       "crops.castor",
+       "crops.chili",
+       "crops.coconut",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.fibre.sannhemp",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mustard",
+       "crops.niger",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.plantation.arecanut",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.garlic",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Bengaluru Urban",
@@ -10661,7 +11368,26 @@
        "object": "location.states.karnataka"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_pepper",
+       "crops.cardamom",
+       "crops.cashew",
+       "crops.coconut",
+       "crops.cowpea",
+       "crops.plantation.arecanut",
+       "crops.rice",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.turmeric",
+       "crops.vegetables.tapioca"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Davanagere",
@@ -11259,7 +11985,42 @@
        "object": "location.states.karnataka"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.barley",
+       "crops.black_gram",
+       "crops.black_pepper",
+       "crops.cardamom",
+       "crops.cashew",
+       "crops.coconut",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.lentil",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.plantation.arecanut",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.garlic",
+       "crops.sugarcane",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Vijayanagara",
@@ -11271,7 +12032,49 @@
        "object": "location.states.karnataka"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.black_gram",
+       "crops.black_pepper",
+       "crops.cashew",
+       "crops.castor",
+       "crops.chili",
+       "crops.coconut",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.fibre.sannhemp",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mustard",
+       "crops.niger",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.plantation.arecanut",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Vijayapura",
@@ -12011,7 +12814,22 @@
        "object": "location.uts.ladakh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.barley",
+       "crops.field_pea",
+       "crops.lentil",
+       "crops.mustard",
+       "crops.onion",
+       "crops.potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Leh Ladakh",
@@ -12023,7 +12841,22 @@
        "object": "location.uts.ladakh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.barley",
+       "crops.field_pea",
+       "crops.lentil",
+       "crops.mustard",
+       "crops.onion",
+       "crops.potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     }
    ]
   },
@@ -13381,7 +14214,30 @@
        "object": "location.states.madhya_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.barley",
+       "crops.black_gram",
+       "crops.field_pea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.jowar",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mustard",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Pandhurna",
@@ -15966,16 +16822,43 @@
        "object": "location.states.meghalaya"
       }
      ],
-     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
      "attributes": {
       "narp_zone": "Sub-Tropical Hill Zone( NEH-5)",
       "primary_soils": [
        "Red and lateritic sandy loam soils Not available"
       ],
       "source": {
-       "id": "crida-cp",
-       "url": "https://icar-crida.res.in/CCP/ML/north%20garo%20hills/1.1.pdf"
-      }
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      },
+      "major_crops": [
+       "crops.banana",
+       "crops.castor",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.jute",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.plantation.arecanut",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ]
      }
     },
     {
@@ -16618,7 +17501,26 @@
        "object": "location.states.mizoram"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.maize",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.tobacco",
+       "crops.vegetables.tapioca"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Khawzawl",
@@ -16630,7 +17532,22 @@
        "object": "location.states.mizoram"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.cowpea",
+       "crops.maize",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.soybean",
+       "crops.sugarcane"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Kolasib",
@@ -16805,7 +17722,25 @@
        "object": "location.states.mizoram"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.cowpea",
+       "crops.maize",
+       "crops.mustard",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.tobacco",
+       "crops.vegetables.tapioca"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Serchhip",
@@ -16858,7 +17793,21 @@
        "object": "location.states.mizoram"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.cowpea",
+       "crops.maize",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     }
    ]
   },
@@ -16877,7 +17826,42 @@
        "object": "location.states.nagaland"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.black_gram",
+       "crops.cowpea",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.jute",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Dimapur",
@@ -17114,7 +18098,41 @@
        "object": "location.states.nagaland"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.black_gram",
+       "crops.cowpea",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jute",
+       "crops.lentil",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Noklak",
@@ -17126,7 +18144,35 @@
        "object": "location.states.nagaland"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.black_gram",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.jowar",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Peren",
@@ -17203,7 +18249,36 @@
        "object": "location.states.nagaland"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.black_gram",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Tseminyu",
@@ -17215,7 +18290,37 @@
        "object": "location.states.nagaland"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.black_gram",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.field_pea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.jowar",
+       "crops.linseed",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Tuensang",
@@ -17772,7 +18877,7 @@
        "object": "location.states.odisha"
       }
      ],
-     "notes": "District attributes from ICAR-CRIDA Agriculture Contingency Plan (crida-cp).",
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
      "attributes": {
       "narp_zone": "North Eastern Coastal Plain Zone & mid central table land zone",
       "primary_soils": [
@@ -17789,9 +18894,22 @@
        "*Source DDA, Jajpur"
       ],
       "source": {
-       "id": "crida-cp",
-       "url": "https://icar-crida.res.in/CCP/OR/jajpur/1.1.pdf"
-      }
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      },
+      "major_crops": [
+       "crops.black_gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jute",
+       "crops.maize",
+       "crops.mustard",
+       "crops.potato",
+       "crops.rice",
+       "crops.sugarcane",
+       "crops.wheat"
+      ]
      }
     },
     {
@@ -18300,7 +19418,26 @@
        "object": "location.states.odisha"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.maize",
+       "crops.mustard",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Nuapada",
@@ -18528,7 +19665,28 @@
        "object": "location.states.odisha"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.maize",
+       "crops.mustard",
+       "crops.niger",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     }
    ]
   },
@@ -18571,7 +19729,33 @@
        "object": "location.uts.puducherry"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.chili",
+       "crops.coconut",
+       "crops.cotton",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.jowar",
+       "crops.onion",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     }
    ]
   },
@@ -18803,7 +19987,21 @@
        "object": "location.states.punjab"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.green_gram",
+       "crops.mustard",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Gurdaspur",
@@ -19000,7 +20198,23 @@
        "object": "location.states.punjab"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.barley",
+       "crops.cotton",
+       "crops.maize",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.sugarcane",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Mansa",
@@ -21068,7 +22282,23 @@
        "object": "location.states.tamil_nadu"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.cashew",
+       "crops.chili",
+       "crops.coconut",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.rice",
+       "crops.sesame"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Coimbatore",
@@ -21274,7 +22504,37 @@
        "object": "location.states.tamil_nadu"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.black_pepper",
+       "crops.cashew",
+       "crops.castor",
+       "crops.chili",
+       "crops.coconut",
+       "crops.cotton",
+       "crops.groundnut",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.plantation.arecanut",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.vegetables.tapioca"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Kancheepuram",
@@ -21462,7 +22722,31 @@
        "object": "location.states.tamil_nadu"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.chili",
+       "crops.coconut",
+       "crops.cotton",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.jowar",
+       "crops.maize",
+       "crops.plantation.arecanut",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.turmeric",
+       "crops.vegetables.tapioca"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Nagapattinam",
@@ -21771,7 +23055,40 @@
        "object": "location.states.tamil_nadu"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.black_pepper",
+       "crops.cardamom",
+       "crops.cashew",
+       "crops.castor",
+       "crops.chili",
+       "crops.coconut",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.ginger",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.plantation.arecanut",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.vegetables.tapioca"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Thanjavur",
@@ -22297,7 +23614,36 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.jowar",
+       "crops.maize",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Hanumakonda",
@@ -22309,7 +23655,38 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sunflower",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Hyderabad",
@@ -22342,7 +23719,39 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.garlic",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Jangoan",
@@ -22354,7 +23763,41 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Jayashankar Bhupalapally",
@@ -22366,7 +23809,35 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Jogulamba Gadwal",
@@ -22378,7 +23849,38 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.tobacco"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Kamareddy",
@@ -22390,7 +23892,41 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Karimnagar",
@@ -22458,7 +23994,42 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Mahabubabad",
@@ -22470,7 +24041,37 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Mahabubnagar",
@@ -22482,7 +24083,38 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Mancherial",
@@ -22494,7 +24126,36 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Medak",
@@ -22535,7 +24196,31 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sunflower",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Mulugu",
@@ -22547,7 +24232,31 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sunflower",
+       "crops.turmeric"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Nagarkurnool",
@@ -22559,7 +24268,40 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Nalgonda",
@@ -22600,7 +24342,37 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.sunflower"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Nirmal",
@@ -22612,7 +24384,40 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sunflower",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Nizamabad",
@@ -22657,7 +24462,34 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sunflower",
+       "crops.turmeric"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Rajanna Sircilla",
@@ -22669,7 +24501,37 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Ranga Reddy",
@@ -22681,7 +24543,42 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Sangareddy",
@@ -22693,7 +24590,45 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.spices.garlic",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Siddipet",
@@ -22705,7 +24640,41 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.tobacco",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Suryapet",
@@ -22717,7 +24686,37 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.tobacco",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Vikarabad",
@@ -22729,7 +24728,43 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.turmeric",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Wanaparthy",
@@ -22741,7 +24776,36 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.banana",
+       "crops.black_gram",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.ragi",
+       "crops.rice",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.sugarcane",
+       "crops.sunflower"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Warangal",
@@ -22782,7 +24846,38 @@
        "object": "location.states.telangana"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.banana",
+       "crops.black_gram",
+       "crops.cashew",
+       "crops.castor",
+       "crops.chili",
+       "crops.cotton",
+       "crops.cowpea",
+       "crops.ginger",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.jowar",
+       "crops.maize",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.rice",
+       "crops.safflower",
+       "crops.sesame",
+       "crops.soybean",
+       "crops.spices.coriander",
+       "crops.sugarcane",
+       "crops.tobacco"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     }
    ]
   },
@@ -22825,7 +24920,16 @@
        "object": "location.uts.dadra_nagar_haveli_daman_diu"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.rice"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Diu",
@@ -22837,7 +24941,16 @@
        "object": "location.uts.dadra_nagar_haveli_daman_diu"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     }
    ]
   },
@@ -24291,7 +26404,34 @@
        "object": "location.states.uttar_pradesh"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.bajra",
+       "crops.barley",
+       "crops.black_gram",
+       "crops.chili",
+       "crops.fibre.sannhemp",
+       "crops.field_pea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.jowar",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mustard",
+       "crops.onion",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.vegetables.sweet_potato",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Bijnor",
@@ -26608,7 +28748,34 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.fibre.sannhemp",
+       "crops.field_pea",
+       "crops.gram",
+       "crops.green_gram",
+       "crops.groundnut",
+       "crops.horse_gram",
+       "crops.khesari",
+       "crops.lentil",
+       "crops.maize",
+       "crops.mesta",
+       "crops.mustard",
+       "crops.pigeon_pea",
+       "crops.potato",
+       "crops.rice",
+       "crops.sesame",
+       "crops.sugarcane",
+       "crops.sunflower",
+       "crops.wheat"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Kalimpong",
@@ -26620,7 +28787,22 @@
        "object": "location.states.west_bengal"
       }
      ],
-     "notes": "TODO: district crop attributes from DES APY / CRIDA contingency plan"
+     "notes": "Major crops from DES APY district-level crop production statistics (des-agri-apy); only crops covered by the APY reports are listed.",
+     "attributes": {
+      "major_crops": [
+       "crops.black_gram",
+       "crops.field_pea",
+       "crops.maize",
+       "crops.mustard",
+       "crops.potato",
+       "crops.ragi",
+       "crops.rice"
+      ],
+      "source": {
+       "id": "des-apy-district",
+       "url": "https://data.desagri.gov.in/website/crops-apy-report-web"
+      }
+     }
     },
     {
      "name": "Kolkata",
