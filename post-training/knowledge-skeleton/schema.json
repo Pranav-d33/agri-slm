@@ -183,8 +183,8 @@
   },
 
   "classes": {
-    "_description": "Class hierarchy. Each Class maps to a (domain, type) set. The property contract (required/optional + value type) is the canonical, data-backed schema — every entity of that Class MUST only use keys from required ∪ optional. This is the 'same format in all sub-domains' rule: e.g. SoilType is one Class whether the entity lives in soil.json or is referenced from crops.json.",
-    "_class_mapping": "Each entry: {domains: [...], types: [...], description, required: [...], optional: {...key: value_type_or_spec}}. required keys are present in >=95% of current entities of that Class. optional value types: str | int | float | bool | list | dict | list_of_objects | list_of_strings | dict_of_numbers.",
+    "_description": "Class hierarchy. Each Class maps to a (domain, type) set. The property contract (required/optional + value type) is the canonical schema — every entity of that Class MUST only use keys from required ∪ optional. This is the 'same format in all sub-domains' rule: e.g. SoilType is one Class whether the entity lives in soil.json or is referenced from crops.json.",
+    "_class_mapping": "Each entry: {domains: [...], types: [...], description, required: [...], optional: {...key: value_type_or_spec}}. required is a curated BARE-MINIMUM attribute set per Class (the identifying minimum every entity should carry; enforced as warn-mode until filled). optional value types: str | int | float | bool | list | dict | list_of_objects | list_of_strings | dict_of_numbers.",
 
     "Domain": {
       "domains": ["*"], "types": ["domain"],
@@ -236,31 +236,30 @@
     "SoilType": {
       "domains": ["soil"], "types": ["entity"],
       "desc": "A soil type (alluvial, black, laterite...). Canonical node: crops.json references these via requires, soil.json owns them.",
-      "required": [],
+      "required": ["colour", "texture", "origin", "fertility"],
       "optional": {
-        "note": "str", "colour": "str", "fertility": "str", "origin": "str",
-        "texture": "str", "character": "str", "area_share": "str", "region": "str",
+        "note": "str", "character": "str", "area_share": "str", "region": "str",
         "special": "str", "water_holding": "str"
       }
     },
 
     "Pest": {
       "domains": ["plant_protection"], "types": ["entity"],
-      "desc": "An insect/mite pest of a crop. Ids: plant_protection.pest.*",
+      "desc": "An insect/mite pest of a crop. Ids: plant_protection.pest.*. These are leaf taxonomy rows (TNAU) whose meaning lives in the affects relation; attributes are optional and only present when a fact is recorded.",
       "required": [],
       "optional": {"note": "str", "type": "str", "damage": "str", "attack_stage": "list", "tnau_pest_calendar": "bool"}
     },
 
     "PlantDisease": {
       "domains": ["plant_protection"], "types": ["entity"],
-      "desc": "A fungal/bacterial/viral disease of a crop. Ids: plant_protection.disease.*",
+      "desc": "A fungal/bacterial/viral disease of a crop. Ids: plant_protection.disease.*. Leaf taxonomy row; meaning lives in the affects relation.",
       "required": [],
       "optional": {"note": "str", "type": "str", "damage": "str"}
     },
 
     "Weed": {
       "domains": ["plant_protection"], "types": ["entity"],
-      "desc": "A weed species. Ids: plant_protection.weeds.*",
+      "desc": "A weed species. Ids: plant_protection.weeds.*. Leaf taxonomy row; meaning lives in the affects relation.",
       "required": [],
       "optional": {"note": "str", "type": "str"}
     },
@@ -268,22 +267,22 @@
     "PesticideSubstance": {
       "domains": ["pesticides"], "types": ["substance"],
       "desc": "A registered pesticide active ingredient (class is the CIB&RC registration class). Banned/restricted actives also map here (type: substance) — they lack the registration class, which is why class is optional.",
-      "required": [],
-      "optional": {"note": "str", "use": "str", "class": "str", "formulations": "list_of_objects"}
+      "required": ["note"],
+      "optional": {"use": "str", "class": "str", "formulations": "list_of_objects"}
     },
 
     "FertilizerSubstance": {
       "domains": ["fertilizers"], "types": ["substance"],
       "desc": "A fertilizer / biofertilizer / manure substance.",
-      "required": [],
-      "optional": {"note": "str", "type": "str", "use": "str", "npk": "str"}
+      "required": ["type"],
+      "optional": {"note": "str", "use": "str", "npk": "str"}
     },
 
     "LivestockBreed": {
       "domains": ["livestock"], "types": ["entity"],
       "desc": "An indigenous or improved livestock breed (NBAGR).",
-      "required": ["note"],
-      "optional": {"species": "str", "species_affected": "str", "vaccine": "str", "period": "str"}
+      "required": ["note", "species"],
+      "optional": {"species_affected": "str", "vaccine": "str", "period": "str"}
     },
 
     "LivestockVariety": {
@@ -296,9 +295,9 @@
     "Institution": {
       "domains": ["schemes", "water"], "types": ["institution"],
       "desc": "Government scheme or institution (ICAR, SAUs, KVKs, CIB&RC...). Canonical node referenced from many domains.",
-      "required": [],
+      "required": ["role"],
       "optional": {
-        "note": "str", "role": "str", "use": "str", "benefit": "str",
+        "note": "str", "use": "str", "benefit": "str",
         "coverage": "str", "started": "str", "launched": "str", "outlay": "str",
         "per_drop_more_crop": "str"
       }
@@ -306,7 +305,7 @@
 
     "Measure": {
       "domains": ["*"], "types": ["measure"],
-      "desc": "Practice, technique, method, scheme, or standard.",
+      "desc": "Practice, technique, method, scheme, or standard. Heterogeneous (water methods, market mechanisms, post-harvest techniques); no single attribute is universal, so required is empty and the class contract constrains keys.",
       "required": [],
       "optional": {
         "note": "str", "use": "str", "scheme": "str", "amendment": "str",
@@ -322,7 +321,7 @@
 
     "FisherySpecies": {
       "domains": ["fisheries"], "types": ["entity"],
-      "desc": "A marine/inland/aquaculture species or fishery group.",
+      "desc": "A marine/inland/aquaculture species or fishery group. Heterogeneous: marine species carry landings_tonnes_2025, inland/aquaculture carry note (production). No single attribute is universal across both, so required is empty (like plant_protection leaf rows); the class contract constrains keys instead.",
       "required": [],
       "optional": {"note": "str", "species": "str", "landings_tonnes_2025": "int", "coastline": "str", "employment": "str"}
     },
@@ -330,41 +329,41 @@
     "ForestEntity": {
       "domains": ["forestry"], "types": ["entity"],
       "desc": "A forest/timber/NTFP species or forest-status entity.",
-      "required": [],
-      "optional": {"note": "str", "use": "str", "cover": "str", "largest_by_area": "str", "largest_by_percent": "str"}
+      "required": ["note"],
+      "optional": {"use": "str", "cover": "str", "largest_by_area": "str", "largest_by_percent": "str"}
     },
 
     "MachineryEntity": {
       "domains": ["machinery"], "types": ["entity"],
       "desc": "A farm machine/implement/brand.",
-      "required": [],
-      "optional": {"note": "str", "brand": "str"}
+      "required": ["note"],
+      "optional": {"brand": "str"}
     },
 
     "WaterEntity": {
       "domains": ["water"], "types": ["entity"],
       "desc": "A river basin, water resource, or irrigation-status entity.",
-      "required": ["note"],
-      "optional": {"states": "list", "water_stats": "object", "canal_share": "str", "groundwater_share": "str", "irrigated_area": "str", "rainfed": "str"}
+      "required": ["note", "water_stats"],
+      "optional": {"states": "list", "canal_share": "str", "groundwater_share": "str", "irrigated_area": "str", "rainfed": "str"}
     },
 
     "WeatherEvent": {
       "domains": ["weather"], "types": ["event"],
       "desc": "A weather/climate event (monsoon, drought, cyclone, El Nino).",
-      "required": [],
-      "optional": {"note": "str", "period": "str", "region": "str", "affected_areas": "str", "relief": "str", "type": "str", "example": "str", "agriculture_impact": "str", "coverage": "str"}
+      "required": ["period"],
+      "optional": {"note": "str", "region": "str", "affected_areas": "str", "relief": "str", "type": "str", "example": "str", "agriculture_impact": "str", "coverage": "str"}
     },
 
     "WeatherEntity": {
       "domains": ["weather"], "types": ["entity"],
       "desc": "A weather phenomenon or season entity.",
-      "required": [],
-      "optional": {"note": "str", "period": "str", "annual_average": "str", "range": "str", "variability": "str", "onset": "str"}
+      "required": ["period"],
+      "optional": {"note": "str", "annual_average": "str", "range": "str", "variability": "str", "onset": "str"}
     },
 
     "SeedEntity": {
       "domains": ["seeds"], "types": ["entity"],
-      "desc": "A seed type, hybrid, or variety record.",
+      "desc": "A seed type, hybrid, or variety record. Heterogeneous: varieties carry release, hybrids/biotech carry note; no single attribute is universal, so required is empty.",
       "required": [],
       "optional": {"note": "str", "adoption": "str", "controversy": "str", "release": "str"}
     },
@@ -372,8 +371,8 @@
     "OrganicEntity": {
       "domains": ["organic"], "types": ["entity"],
       "desc": "An organic farming entity (area, input, state status).",
-      "required": [],
-      "optional": {"note": "str", "use": "str", "preparation": "str", "certification": "str", "status": "str", "exports": "str"}
+      "required": ["note"],
+      "optional": {"use": "str", "preparation": "str", "certification": "str", "status": "str", "exports": "str"}
     },
 
     "FinanceEntity": {
@@ -386,15 +385,15 @@
     "PostHarvestEntity": {
       "domains": ["post_harvest"], "types": ["entity"],
       "desc": "A post-harvest entity (loss category, storage, processing).",
-      "required": [],
-      "optional": {"note": "str", "causes": "str", "scheme": "str"}
+      "required": ["note"],
+      "optional": {"causes": "str", "scheme": "str"}
     },
 
     "GenericEntity": {
       "domains": ["apiculture", "market", "fertilizers", "agriculture"], "types": ["entity"],
       "desc": "Generic concrete entities not captured by a specialised class.",
-      "required": [],
-      "optional": {"note": "str", "type": "str", "species": "str", "brand": "str"}
+      "required": ["note"],
+      "optional": {"type": "str", "species": "str", "brand": "str"}
     }
   },
 

@@ -117,3 +117,38 @@ inverse pairs, reusing the forward edge's source. Idempotent.
 - 37 shared concept nodes referenced from 2+ domains; every node owned by
   exactly one domain, referenced from others — no inlined duplicates
   (verified: soil entities referenced via relations, never inlined).
+
+## 10. Bare-minimum required attributes (curated, warn-mode)
+
+`schema.json` class `required` is a curated BARE-MINIMUM attribute set per
+Class — the identifying minimum every entity should carry, chosen by domain
+semantics, not data coverage. Missing required attrs surface as WARNs
+(counted TODO, see COVERAGE.md; current total 153).
+
+| Class | required | rationale |
+|---|---|---|
+| Crop | scientific, phenology, phenology_note, phenology_source_id, phenology_source_url | species + growth-phenology provenance |
+| CropSeason | examples, months | what grows, when |
+| SoilType | colour, texture, origin, fertility | the physical identity of a soil |
+| LivestockBreed | note, species | what animal |
+| LivestockVariety | note, origin, species | breed record identity |
+| WaterEntity | note, water_stats | basin/resource figures |
+| Institution | role | what it does |
+| PesticideSubstance | note | description (class optional: banned actives lack registration class) |
+| FertilizerSubstance | type | chem/bio/manure |
+| WeatherEvent / WeatherEntity | period | temporal anchor |
+| Domain/Category/Pest/PlantDisease/Weed/Measure/FisherySpecies/SeedEntity/others | — | heterogeneous or leaf-taxonomy rows: no single universal attribute; the class contract constrains keys instead (required empty, keys still must be in optional) |
+
+Empty-required classes are deliberate: pest/disease leaves are `affects`
+relation targets (421/463 empty attrs), fishery species split marine
+(landings) vs inland (production), measures span methods/market/techniques.
+
+## 11. Location anchor (every domain reaches Location)
+
+`validate.py` `check_location_anchor`: every non-exempt entity must reach a
+location node (direct `found_in`/`grown_in`/`practiced_in`/`produced_in`/
+`banned_in`, or transitively via part_of/is_a). measure/tool/event types are
+exempt (spatially-agnostic practices). Verified: 0 warnings — all 19 domain
+roots reach location, every concrete entity reaches a location node. Location
+is the inter-domain anchor; other cross-domain edges (affects, requires,
+registered_in, recommended_for) supplement it.

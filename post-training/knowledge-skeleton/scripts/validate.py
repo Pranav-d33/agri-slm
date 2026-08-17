@@ -199,6 +199,11 @@ def check_ontology(entities):
             continue
         contract = CLASSES[cls]
         allowed = set(contract.get("required", [])) | set(contract.get("optional", {}))
+        # required attributes (bare-minimum contract): warn if missing
+        for req in contract.get("required", []):
+            if req not in attrs:
+                print(f"WARN {eid}: missing required attribute '{req}' for Class '{cls}'")
+                warnings += 1
         for key in attrs:
             if key in ALIAS:
                 print(f"WARN {eid}: deprecated alias key '{key}' (canonical '{ALIAS[key]}')")
@@ -235,6 +240,51 @@ def check_ontology(entities):
                     print(f"WARN {eid} --{pred}-> {obj}: target Class "
                           f"'{class_of.get(obj)}' not in range {spec.get('range')}")
                     warnings += 1
+    return warnings
+
+
+def check_location_anchor(entities, loc_ids):
+    """Every entity must reach a location node (the inter-domain anchor).
+
+    'Reach' = a direct location predicate (found_in/grown_in/practiced_in/
+    produced_in/banned_in) to a location.* id, OR a transitive path through
+    part_of/is_a/affected-relations that ends at a location. Entities of type
+    measure/method/tool/event are exempt (spatially-agnostic practice
+    concepts, not tied to one place). Warn-mode.
+    """
+    warnings = 0
+    LOC_PREDS = {"found_in", "grown_in", "practiced_in", "produced_in", "banned_in"}
+    EXEMPT = {"measure", "tool", "event"}
+
+    # adjacency: id -> [relation objects] (both directions for reachability)
+    adj = {}
+    for eid, e in entities.items():
+        adj.setdefault(eid, [])
+        for r in e.get("relations", []):
+            adj[eid].append(r["object"])
+
+    for eid, e in entities.items():
+        if e.get("type") in EXEMPT:
+            continue
+        # BFS for any location node
+        seen = set()
+        stack = [eid]
+        reached = False
+        while stack and not reached:
+            cur = stack.pop()
+            if cur in seen:
+                continue
+            seen.add(cur)
+            if cur.startswith("location"):
+                reached = True
+                break
+            # follow relation objects (any predicate: part_of, is_a, affects...)
+            for o in adj.get(cur, []):
+                if o not in seen:
+                    stack.append(o)
+        if not reached:
+            print(f"WARN {eid}: no path to a location node (type={e.get('type')})")
+            warnings += 1
     return warnings
 
 
@@ -282,6 +332,7 @@ def main():
     errors += check_district_consistency()
     errors += check_district_attribute_shape()
     warnings = check_ontology(entities)
+    warnings += check_location_anchor(entities, loc_ids)
 
     n_entities = len(entities)
     n_relations = sum(len(e.get("relations", [])) for e in entities.values())
